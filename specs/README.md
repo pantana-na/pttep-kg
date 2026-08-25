@@ -38,7 +38,7 @@ specs/
 
 | Document ID | Title | Scope | Status | Last Updated |
 |---|---|---|---|---|
-| [`SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE`](./features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) | **Multi-Agent Cloud Architecture & Enterprise HAZOP Platform** | Decomposes system into 5 Gemini 3.7 Flash subagents (Extractor, Database, Retriever, Orchestrator, HAZOP), Cloud Spanner Graph + Dataplex Knowledge Catalog storage, MCP tools, Google Agent CLI (`agents-cli` / `adk` / `agy` / `agentapi`), and Web UI with full observability (Agent Thinking, Subagent Calling, Tool Invocations, and GQL Query Inspector). | Ready for Implementation | 2026-08-25 |
+| [`SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE`](./features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) | **Multi-Agent Cloud Architecture & Enterprise HAZOP Platform** | Decomposes system into 5 Gemini 3.7 Flash subagents (Extractor, Database, Retriever, Orchestrator, HAZOP), Cloud Spanner Graph + Dataplex Knowledge Catalog storage, MCP tools, Google Agent CLI (`agents-cli` / `adk` / `agy` / `agentapi`), and Web UI with full observability (Agent Thinking, Subagent Calling, Tool Invocations, and GQL Query Inspector). | Implemented & Verified | 2026-08-25 |
 
 ---
 
