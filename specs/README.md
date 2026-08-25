@@ -1,0 +1,56 @@
+# System Specifications (SDD Repository)
+
+Welcome to the **Specification-Driven Development (SDD)** repository for the **Phenol Process Expert & HAZOP Safety Agent**.
+
+This directory serves as the **single source of truth** for all architectural definitions, baseline models, safety invariants, and proposed feature enhancements.
+
+---
+
+## 1. Specification Directory Structure
+
+```
+specs/
+├── README.md                      ← Master specification index (this file)
+├── templates/
+│   └── sdd-template.md            ← Standardized SDD template with Implementation Plan & Testing Matrix
+├── baseline/                      ← Brownfield baseline specifications (as-is system state)
+│   └── system-overview.md         ← Full system baseline: architecture, data models, workflows, invariants
+└── features/                      ← Future feature proposals and modifications (delta specs)
+```
+
+---
+
+## 2. Specification Index
+
+### 2.1 Baseline Specifications (Brownfield System State)
+
+| Document ID | Title | Scope | Status | Last Updated |
+|---|---|---|---|---|
+| [`SPEC-BASELINE-20260824-SYSTEM-OVERVIEW`](./baseline/system-overview.md) | **System Baseline Overview** | Comprehensive architecture, Markdown wiki contracts, classifier heuristics, HAZOP lifecycle, 5×5 RAM, and system invariants. | Approved | 2026-08-24 |
+
+### 2.2 Reusable Templates
+
+| Template | Purpose | Target Use |
+|---|---|---|
+| [`specs/templates/sdd-template.md`](./templates/sdd-template.md) | Standard SDD Template | Required format for all new feature specifications, major refactors, or API changes. |
+
+### 2.3 Proposed Feature Specifications (`specs/features/`)
+
+| Document ID | Title | Scope | Status | Last Updated |
+|---|---|---|---|---|
+| [`SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE`](./features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) | **Multi-Agent Cloud Architecture & Enterprise HAZOP Platform** | Decomposes system into 5 Gemini 3.7 Flash subagents (Extractor, Database, Retriever, Orchestrator, HAZOP), Cloud Spanner Graph + Dataplex Knowledge Catalog storage, MCP tools, Google Agent CLI (`agents-cli` / `adk` / `agy` / `agentapi`), and Web UI with full observability (Agent Thinking, Subagent Calling, Tool Invocations, and GQL Query Inspector). | Ready for Implementation | 2026-08-25 |
+
+---
+
+## 3. Governance & SDD Directives
+
+All development in this repository strictly adheres to:
+1. **Spec First, Code Second:** No code modifications may begin without an approved SDD and granular implementation plan.
+2. **Brownfield Protocol:** All modifications must be framed as explicit deltas against [`specs/baseline/system-overview.md`](./baseline/system-overview.md).
+3. **Mandatory Testing at Every Step:** Every implementation step requires deterministic Unit Tests and generative Property-Based Tests (PBT).
+4. **Zero Spec Drift:** Any behavioral or contract modification must be synchronized in the corresponding specification document in the same commit.
+
+For detailed rules and guidelines, see:
+- [`GEMINI.md`](../GEMINI.md) — Project Guidelines & Governance
+- [`_agents/rules/spec_driven_development.md`](../_agents/rules/spec_driven_development.md) — Spec-Driven Development Standard
+- [`_agents/rules/devops_security_and_quality_standards.md`](../_agents/rules/devops_security_and_quality_standards.md) — DevOps & Security Rules
