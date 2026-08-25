@@ -31,7 +31,6 @@ def cosine_similarity(v1: List[float], v2: List[float]) -> float:
     if norm1 == 0.0 or norm2 == 0.0:
         return 0.0
     res = dot / (norm1 * norm2)
-    # Numerical clamp
     return max(-1.0, min(1.0, res))
 
 
@@ -118,7 +117,6 @@ class MockSpannerDatabase:
         name = fm.get("name", tag)
         eq_type = str(fm.get("type", "Equipment"))
         
-        # Extract operating / design params
         oper = fm.get("operating", {}) if isinstance(fm.get("operating"), dict) else {}
         design = fm.get("design", {}) if isinstance(fm.get("design"), dict) else {}
         
@@ -139,7 +137,6 @@ class MockSpannerDatabase:
 
         # Parse wikilinks for upstream/downstream connections in body
         for line in body.splitlines():
-            # Upstream match
             up_match = re.search(r'\[\[equipment/([A-Za-z0-9_-]+)\]\].*Upstream', line, re.IGNORECASE)
             if up_match:
                 up_tag = up_match.group(1).replace("AB", "A/B")
@@ -149,7 +146,6 @@ class MockSpannerDatabase:
                     stream_id=f"S-{up_tag}->{tag}"
                 ))
             
-            # Downstream match
             down_match = re.search(r'\[\[equipment/([A-Za-z0-9_-]+)\]\].*Downstream', line, re.IGNORECASE)
             if down_match:
                 down_tag = down_match.group(1).replace("AB", "A/B")
@@ -159,7 +155,6 @@ class MockSpannerDatabase:
                     stream_id=f"S-{tag}->{down_tag}"
                 ))
                 
-            # Table connections: "From E-2302A/B" or "To V-2301"
             from_table = re.search(r'From\s+([A-Z]-[0-9]+[A-Z/]*)', line, re.IGNORECASE)
             if from_table:
                 source_tag = from_table.group(1)
@@ -177,44 +172,48 @@ class MockSpannerDatabase:
                     stream_id=f"S-{tag}->{dest_tag}"
                 ))
 
-            # Instrument tags in table (e.g. TXSHH-0502A | SIS Temp HH)
-            inst_match = re.search(r'\|\s*([A-Z]{2,5}-[0-9]{4}[A-Z]?)\s*\|\s*([^\|]+)\|\s*([^\|]+)\|', line)
-            if inst_match:
-                itag = inst_match.group(1).strip()
-                itype = inst_match.group(2).strip()
-                iaction = inst_match.group(3).strip()
-                is_sis = "SIS" in itype or "ESD" in iaction or "SIL" in iaction
-                sil = "SIL 1" if "SIL 1" in iaction or "SIL 1" in itype else ("SIL 2" if "SIL 2" in iaction else "None")
-                self.instruments[itag] = InstrumentModel(
-                    instrument_tag=itag,
-                    equipment_tag=tag,
-                    type=itype[:64],
-                    sil_rating=sil,
-                    is_sis_initiator=is_sis
-                )
-                if is_sis:
-                    self.instrument_actuations.append(InstrumentActuationEdge(
-                        initiator_instrument_tag=itag,
-                        target_equipment_tag=tag,
-                        interlock_action=iaction[:64]
-                    ))
+            # Instrument tags in table (3 or 4 columns)
+            cols = [c.strip() for c in line.split('|') if c.strip()]
+            if len(cols) >= 3:
+                possible_tag = cols[0]
+                if re.match(r'^[A-Z]{2,5}-[0-9]{4}[A-Z]?$', possible_tag):
+                    itype = cols[1]
+                    idesc = cols[2] if len(cols) > 2 else ""
+                    iaction = cols[3] if len(cols) > 3 else idesc
+                    combined_text = f"{itype} {idesc} {iaction}"
+                    
+                    is_sis = "SIS" in combined_text or "ESD" in combined_text or "SIL" in combined_text
+                    sil = "SIL 1" if "SIL 1" in combined_text else ("SIL 2" if "SIL 2" in combined_text else ("SIL 3" if "SIL 3" in combined_text else "None"))
+                    
+                    self.instruments[possible_tag] = InstrumentModel(
+                        instrument_tag=possible_tag,
+                        equipment_tag=tag,
+                        type=itype[:64],
+                        sil_rating=sil,
+                        is_sis_initiator=is_sis
+                    )
+                    if is_sis:
+                        self.instrument_actuations.append(InstrumentActuationEdge(
+                            initiator_instrument_tag=possible_tag,
+                            target_equipment_tag=tag,
+                            interlock_action=f"{idesc} -> {iaction}"[:64]
+                        ))
 
     def _parse_instrument_file(self, file_path: Path):
         fm, body = self._extract_frontmatter(file_path)
         for line in body.splitlines():
-            inst_match = re.search(r'\|\s*([A-Z]{2,5}-[0-9]{4}[A-Z]?)\s*\|\s*([^\|]+)\|\s*([^\|]+)\|', line)
-            if inst_match:
-                itag = inst_match.group(1).strip()
-                itype = inst_match.group(2).strip()
-                iaction = inst_match.group(3).strip()
-                is_sis = "SIS" in itype or "ESD" in iaction
-                if itag not in self.instruments:
-                    self.instruments[itag] = InstrumentModel(
-                        instrument_tag=itag,
-                        equipment_tag="E-2303",
-                        type=itype[:64],
-                        is_sis_initiator=is_sis
-                    )
+            cols = [c.strip() for c in line.split('|') if c.strip()]
+            if len(cols) >= 3:
+                possible_tag = cols[0]
+                if re.match(r'^[A-Z]{2,5}-[0-9]{4}[A-Z]?$', possible_tag):
+                    itype = cols[1]
+                    if possible_tag not in self.instruments:
+                        self.instruments[possible_tag] = InstrumentModel(
+                            instrument_tag=possible_tag,
+                            equipment_tag="E-2303",
+                            type=itype[:64],
+                            is_sis_initiator="SIS" in itype
+                        )
 
     def _parse_hazard_file(self, file_path: Path):
         fm, _ = self._extract_frontmatter(file_path)
@@ -241,7 +240,6 @@ class MockSpannerDatabase:
             score = 0.0
             for t in query_tokens:
                 if t in text:
-                    # Tag exact match gets heavy weight
                     score += 5.0 if t == eq.equipment_tag.lower() else 1.0
             if score > 0:
                 results.append((tag, score, eq))

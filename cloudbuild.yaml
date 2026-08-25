@@ -1,0 +1,46 @@
+steps:
+  - name: 'python:3.11-slim'
+    id: 'test-and-eval'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        pip install uv && \
+        uv pip install --system -r requirements.txt && \
+        python -m pytest -v tests/ && \
+        python evals/run_evals.py
+
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'build-image'
+    args:
+      - 'build'
+      - '-t'
+      - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/phenol-repo/phenol-agent:$COMMIT_SHA'
+      - '-t'
+      - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/phenol-repo/phenol-agent:latest'
+      - '.'
+
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'push-image'
+    args:
+      - 'push'
+      - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/phenol-repo/phenol-agent:$COMMIT_SHA'
+
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    id: 'deploy-cloud-run'
+    entrypoint: 'gcloud'
+    args:
+      - 'run'
+      - 'deploy'
+      - 'phenol-process-safety-nonprod'
+      - '--image=asia-southeast1-docker.pkg.dev/$PROJECT_ID/phenol-repo/phenol-agent:$COMMIT_SHA'
+      - '--region=asia-southeast1'
+      - '--platform=managed'
+      - '--labels=run.googleapis.com/invoker-iam-disabled=true,environment=nonprod'
+
+images:
+  - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/phenol-repo/phenol-agent:$COMMIT_SHA'
+  - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/phenol-repo/phenol-agent:latest'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
