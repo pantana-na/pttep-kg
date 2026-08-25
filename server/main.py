@@ -1,12 +1,13 @@
 """FastAPI Application Server for Multi-Agent Phenol Process Safety Platform.
 
-Supports Cloud Run Liveness Probes, SSE event streaming, and interactive clarification.
+Supports Cloud Run Liveness Probes, SSE event streaming, interactive clarification, and UI static serving.
 SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE Section 4.4 & 6.1.
 """
 
 import json
+from pathlib import Path
 from fastapi import FastAPI, Request
-from fastapi.responses import StreamingResponse, JSONResponse
+from fastapi.responses import StreamingResponse, JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from database.init_db import init_local_mock
@@ -38,6 +39,15 @@ class ClarificationPayload(BaseModel):
 class QueryPayload(BaseModel):
     prompt: str
     session_id: str = "default-session"
+
+
+@app.get("/")
+async def serve_ui():
+    """Serves the Multi-Agent Process Safety UI."""
+    index_file = Path("server/static/index.html")
+    if index_file.exists():
+        return FileResponse(str(index_file))
+    return {"message": "Phenol Process Safety Platform API"}
 
 
 @app.get("/healthz")
