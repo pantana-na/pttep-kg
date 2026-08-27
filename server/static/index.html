@@ -208,10 +208,40 @@
 
       eventSource.addEventListener('tool_invoked', (e) => {
         const data = JSON.parse(e.data);
+        const toolId = 'tool-' + Math.random().toString(36).substr(2, 9);
+        const toolIcons = {
+          'spanner_graph_query': '⚡',
+          'query_knowledge_catalog_provenance': '📋',
+          'read_gcs_wiki_document': '📖'
+        };
+        const icon = toolIcons[data.tool_name] || '🛠️';
         container.innerHTML += `
-          <div class="bg-slate-900 border border-cyan-500/30 rounded-xl p-3 my-2 text-xs font-mono">
-            <span class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 font-bold">TOOL</span>
-            <span class="text-cyan-200 ml-2">${data.tool_name}</span>
+          <div id="${toolId}" class="bg-slate-900/90 border border-cyan-500/40 rounded-xl p-3.5 my-2 text-xs font-mono shadow-md backdrop-blur">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 font-bold">
+                  ${icon} TOOL CALL
+                </span>
+                <span class="text-cyan-200 font-bold">${data.tool_name}</span>
+              </div>
+              <span class="text-[11px] font-mono text-amber-300 animate-pulse">executing...</span>
+            </div>
+            <div class="mt-2 text-slate-400 text-[11px] bg-slate-950 p-2 rounded border border-slate-800/80">
+              <span class="text-slate-500">Arguments:</span> <code class="text-slate-300">${JSON.stringify(data.tool_args)}</code>
+            </div>
+          </div>
+        `;
+      });
+
+      eventSource.addEventListener('tool_result', (e) => {
+        const data = JSON.parse(e.data);
+        container.innerHTML += `
+          <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-3 my-1 text-xs font-mono pl-4 border-l-4 border-l-cyan-500">
+            <div class="flex items-center justify-between">
+              <span class="text-cyan-300 font-semibold">✓ ${data.tool_name} Result</span>
+              <span class="text-emerald-400 font-bold">⚡ ${data.latency_ms}ms</span>
+            </div>
+            <p class="text-slate-300 mt-1 text-[11px]">${data.result_preview}</p>
           </div>
         `;
       });
