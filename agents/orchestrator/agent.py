@@ -36,21 +36,25 @@ class OrchestratorAgent:
 
     def classify_intent_semantic(self, prompt: str) -> str:
         """Classifies intent dynamically via Gemini or semantic fallback."""
-        p_lower = prompt.lower()
+        p_lower = prompt.lower().strip()
         
-        # 1. Ambiguity detection on generic queries
-        if p_lower.strip() in ["feed pump", "the pump", "the heater", "the cooler", "interlocks", "show me interlocks on the pump"]:
+        # 1. Greetings & Conversational Queries
+        if p_lower in ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "help", "who are you", "what can you do"]:
+            return "GREETING_OR_GENERAL"
+            
+        # 2. Ambiguity detection on generic queries
+        if p_lower in ["feed pump", "the pump", "the heater", "the cooler", "interlocks", "show me interlocks on the pump"]:
             return "AMBIGUOUS_QUERY"
             
-        # 2. HAZOP Study intents
+        # 3. HAZOP Study intents
         if "hazop" in p_lower or "deviation" in p_lower or "lopa" in p_lower or "ram matrix" in p_lower or "risk ranking" in p_lower:
             return "FACILITATE_HAZOP"
             
-        # 3. Document ingestion / sync intents
+        # 4. Document ingestion / sync intents
         if "ingest" in p_lower or "upload" in p_lower or "parse pdf" in p_lower:
             return "INGEST_DOCUMENT"
             
-        # 4. Process safety retrieval / Tri-Tier Search
+        # 5. Process safety retrieval / Tri-Tier Search
         return "SEARCH_PROCESS_SAFETY"
 
     def synthesize_answer_with_llm(
@@ -64,7 +68,7 @@ class OrchestratorAgent:
     ) -> str:
         """Synthesizes a cohesive, question-directed answer via live Gemini API."""
         
-        # Live Gemini API call if key is available
+        # Live Gemini API call if key is available and not running inside pytest
         if self.api_key and not os.getenv("PYTEST_CURRENT_TEST"):
             try:
                 url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
@@ -172,7 +176,30 @@ class OrchestratorAgent:
             }
         }
 
-        # Step 2: Handle Ambiguous Queries via Clarification State Machine
+        # Step 2: Handle Greetings & General Conversational Queries
+        if intent == "GREETING_OR_GENERAL":
+            greeting_msg = (
+                "👋 **Hello! I am your PTT GC Phenol Process Safety & HAZOP AI Agent.**\n\n"
+                "I am equipped to assist process engineers, safety facilitators, and operations teams with:\n"
+                "- **🛡️ Interlock & Process Safety Queries:** Trace SIS trip loops (1oo2 voting, SIL ratings, and isolation valves) in Cloud Spanner Graph.\n"
+                "- **📋 Document Lineage & Provenance:** Retrieve certified As-Built P&ID drawing numbers and OEMS-005 PSI aspects from Dataplex Knowledge Catalog.\n"
+                "- **📖 Operational Narratives:** Read full procedural summaries and control philosophies from GCS LLM-Wiki.\n"
+                "- **⚡ Interactive HAZOP Studies:** Calculate initial vs. mitigated risk using the PTT GC 5×5 RAM matrix with Anti-Bias verification.\n\n"
+                "**Try asking me:**\n"
+                "1. `What trip protections prevent cumene hydroperoxide thermal runaway in E-2303?`\n"
+                "2. `Show all equipment feeding into Preflash Column V-2301`\n"
+                "3. `Show source drawings and provenance lineage for E-2303`\n"
+                "4. `Read the full operating procedure for E-2303 from GCS wiki`\n"
+                "5. `Evaluate HAZOP deviation for higher temperature in E-2303`"
+            )
+            yield {
+                "event": "message_delta",
+                "data": {"text_delta": greeting_msg}
+            }
+            yield {"event": "message_done", "data": {"status": "COMPLETED"}}
+            return
+
+        # Step 3: Handle Ambiguous Queries via Clarification State Machine
         if intent == "AMBIGUOUS_QUERY":
             candidates = [
                 {"tag": "P-2301A/B", "name": "Flash Column Bottoms Pumps", "type": "Pump (Centrifugal)"},
@@ -191,7 +218,7 @@ class OrchestratorAgent:
             }
             return
 
-        # Step 3: Handle HAZOP Study
+        # Step 4: Handle HAZOP Study
         if intent == "FACILITATE_HAZOP":
             yield {
                 "event": "subagent_dispatch",
@@ -213,13 +240,13 @@ class OrchestratorAgent:
             yield {
                 "event": "message_delta",
                 "data": {
-                    "text_delta": f"**HAZOP Evaluation:** {res['deviation']}\n- **Initial Risk:** `{risk['initial_risk_rating']}` (Severity S={risk['severity']}, L={risk['initial_likelihood']})\n- **Mitigated Risk:** `{risk['mitigated_risk_rating']}` (Credits: -{risk['total_ipl_credits']})\n- **Mandatory Action Item Required:** `{risk['action_required']}`"
+                    "text_delta": f"**HAZOP Evaluation:** {res['deviation']}\n- **Initial Risk:** `{risk['initial_risk_rating']}` (Severity S={risk['severity']}, L={risk['initial_likelihood']})\n- **Mitigated Risk:** `{risk['mitigated_risk_rating']}` (Credits: -{risk['total_ipl_credits']})\n- **Mandatory Action Item Required:** `{risk['action_required']}`\n- **AI Safety Recommendation:** {res.get('ai_recommendation', 'Verify proof test interval for SIL 1 interlock.')}"
                 }
             }
             yield {"event": "message_done", "data": {"status": "COMPLETED"}}
             return
 
-        # Step 4: Handle Process Safety Multi-Tier Search (Simultaneous 3-Tool Calling)
+        # Step 5: Handle Process Safety Multi-Tier Search (Simultaneous 3-Tool Calling)
         yield {
             "event": "subagent_dispatch",
             "data": {
