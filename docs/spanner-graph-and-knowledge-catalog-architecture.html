@@ -188,6 +188,9 @@
           <marker id="arrow-emerald" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
             <path d="M 0 1 L 10 5 L 0 9 z" fill="#34d399"/>
           </marker>
+          <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 10 5 L 0 9 z" fill="#fbbf24"/>
+          </marker>
         </defs>
 
         <!-- Background -->
@@ -195,89 +198,96 @@
         <rect width="1150" height="720" fill="url(#grid)"/>
 
         <!-- Boundary Boxes -->
-        <!-- Node Table Boundary -->
         <rect x="30" y="35" width="700" height="650" rx="12" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="6,6"/>
         <text x="45" y="60" fill="#a78bfa" font-size="10" font-weight="700" letter-spacing="0.05em">NODE TABLES &amp; GRAPH LABELS (PhenolProcessSafetyGraph)</text>
 
-        <!-- Edge Tables & Index Boundary -->
         <rect x="760" y="35" width="360" height="650" rx="12" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="6,6"/>
         <text x="775" y="60" fill="#22d3ee" font-size="10" font-weight="700" letter-spacing="0.05em">EDGE DEFINITIONS &amp; DUAL INDEXES</text>
 
         <!-- ================= CONNECTION ARROWS ================= -->
-        <!-- Equipment to Equipment (FEEDS) -->
-        <path d="M 270 210 L 360 210" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-emerald)"/>
-        <text x="285" y="195" fill="#34d399" font-size="7.5" font-weight="700">FEEDS (Stream S-2303)</text>
+        <!-- Edge 1: FEEDS (E-2302A/B -> E-2303) -->
+        <path d="M 270 205 L 360 205" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-emerald)"/>
+        <rect x="280" y="195" width="70" height="18" rx="4" fill="#0f172a" stroke="#34d399" stroke-width="0.8"/>
+        <text x="285" y="208" fill="#34d399" font-size="7.5" font-weight="700">FEEDS (S-2303)</text>
 
-        <!-- Instrument to Equipment (ACTUATES_INTERLOCK / TRIPS) -->
-        <path d="M 460 360 L 460 270" stroke="#fb7185" stroke-width="2" marker-end="url(#arrow-rose)"/>
-        <text x="470" y="315" fill="#fb7185" font-size="7.5" font-weight="700">ACTUATES_INTERLOCK (1oo2 SIL 1)</text>
+        <!-- Edge 2: ACTUATES_INTERLOCK / TRIPS (TXSHH-0502A/B -> E-2303) -->
+        <path d="M 475 360 L 475 270" stroke="#fb7185" stroke-width="2" marker-end="url(#arrow-rose)"/>
+        <rect x="420" y="305" width="110" height="18" rx="4" fill="#0f172a" stroke="#fb7185" stroke-width="0.8"/>
+        <text x="425" y="318" fill="#fb7185" font-size="7.5" font-weight="700">ACTUATES_INTERLOCK</text>
 
-        <!-- Equipment to ChemicalHazard (HANDLES) -->
-        <path d="M 170 265 L 170 360" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrow-amber)"/>
-        <text x="180" y="315" fill="#fbbf24" font-size="7.5" font-weight="700">HANDLES (CHP ~80%)</text>
+        <!-- Edge 3: HANDLES (E-2303 -> HAZ-CHP) -->
+        <path d="M 360 250 L 270 380" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrow-amber)"/>
+        <rect x="270" y="305" width="90" height="18" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="0.8"/>
+        <text x="275" y="318" fill="#fbbf24" font-size="7.5" font-weight="700">HANDLES (CHP 82%)</text>
 
-        <!-- HazopNode to Equipment (ENCOMPASSES) -->
-        <path d="M 460 520 L 460 480" stroke="#22d3ee" stroke-width="2" marker-end="url(#arrow-cyan)"/>
-        <text x="470" y="500" fill="#22d3ee" font-size="7.5" font-weight="700">ENCOMPASSES</text>
+        <!-- Edge 4: ENCOMPASSES (CDN-N02 -> E-2303) -->
+        <path d="M 570 520 L 570 270" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrow-cyan)"/>
+        <rect x="525" y="470" width="90" height="18" rx="4" fill="#0f172a" stroke="#22d3ee" stroke-width="0.8"/>
+        <text x="530" y="483" fill="#22d3ee" font-size="7.5" font-weight="700">ENCOMPASSES</text>
+
+        <!-- Edge 5: LOCATED_IN (E-2302A/B -> Unit CDN) -->
+        <path d="M 160 265 L 160 520" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrow-emerald)"/>
+        <rect x="125" y="470" width="70" height="18" rx="4" fill="#0f172a" stroke="#34d399" stroke-width="0.8"/>
+        <text x="130" y="483" fill="#34d399" font-size="7.5" font-weight="700">LOCATED_IN</text>
 
         <!-- ================= NODE COMPONENTS ================= -->
 
         <!-- Node 1: Upstream Equipment (E-2302A/B) -->
         <rect x="50" y="150" width="220" height="115" rx="8" fill="#0f172a"/>
         <rect x="50" y="150" width="220" height="115" rx="8" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="65" y="175" fill="#f8fafc" font-size="11" font-weight="700">:Equipment (E-2302A/B)</text>
-        <text x="65" y="193" fill="#e2e8f0" font-size="8">Name: Feed-Oxidate Exchanger</text>
-        <text x="65" y="208" fill="#94a3b8" font-size="8">UnitId: CDN | Type: HeatExchanger</text>
-        <text x="65" y="223" fill="#94a3b8" font-size="8">DesignTemp: 130°C | OperTemp: 82°C</text>
-        <text x="65" y="238" fill="#a78bfa" font-size="7.5">IsSafetyCritical: true | PK: EquipmentTag</text>
+        <text x="65" y="174" fill="#f8fafc" font-size="11" font-weight="700">:Equipment (E-2302A/B)</text>
+        <text x="65" y="192" fill="#e2e8f0" font-size="8">Name: Feed-Oxidate Exchanger</text>
+        <text x="65" y="206" fill="#94a3b8" font-size="8">UnitId: CDN | Type: HeatExchanger</text>
+        <text x="65" y="220" fill="#94a3b8" font-size="8">DesignTemp: 130°C | OperTemp: 82°C</text>
+        <text x="65" y="234" fill="#a78bfa" font-size="7.5">IsSafetyCritical: true | PK: EquipmentTag</text>
 
         <!-- Node 2: Downstream Target Equipment (E-2303) -->
         <rect x="360" y="150" width="230" height="120" rx="8" fill="#0f172a"/>
         <rect x="360" y="150" width="230" height="120" rx="8" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="375" y="175" fill="#f8fafc" font-size="11" font-weight="700">:Equipment (E-2303)</text>
-        <text x="375" y="193" fill="#e2e8f0" font-size="8">Name: Preflash Column Steam Heater</text>
-        <text x="375" y="208" fill="#94a3b8" font-size="8">UnitId: CDN | Type: HeatExchanger</text>
-        <text x="375" y="223" fill="#94a3b8" font-size="8">DesignTemp: 130°C | OperTemp: 110°C</text>
-        <text x="375" y="238" fill="#fb7185" font-size="7.5">Thermal Runaway Risk: Exothermic &gt;80°C</text>
-        <text x="375" y="253" fill="#a78bfa" font-size="7.5">Embedding: ARRAY&lt;FLOAT64&gt;(768)</text>
+        <text x="375" y="174" fill="#f8fafc" font-size="11" font-weight="700">:Equipment (E-2303)</text>
+        <text x="375" y="192" fill="#e2e8f0" font-size="8">Name: Preflash Column Steam Heater</text>
+        <text x="375" y="206" fill="#94a3b8" font-size="8">UnitId: CDN | Type: HeatExchanger</text>
+        <text x="375" y="220" fill="#94a3b8" font-size="8">DesignTemp: 130°C | OperTemp: 110°C</text>
+        <text x="375" y="235" fill="#fb7185" font-size="7.5 font-bold">Thermal Runaway Risk: Exothermic &gt;80°C</text>
+        <text x="375" y="250" fill="#a78bfa" font-size="7.5">Embedding: ARRAY&lt;FLOAT64&gt;(768)</text>
 
         <!-- Node 3: Chemical Hazard (CHP) -->
         <rect x="50" y="360" width="220" height="120" rx="8" fill="#0f172a"/>
         <rect x="50" y="360" width="220" height="120" rx="8" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-        <text x="65" y="385" fill="#fbbf24" font-size="11" font-weight="700">:ChemicalHazard (HAZ-CHP)</text>
-        <text x="65" y="403" fill="#e2e8f0" font-size="8">ChemicalName: Cumene Hydroperoxide</text>
-        <text x="65" y="418" fill="#94a3b8" font-size="8">CAS: 80-15-9 | Concentration: ~82%</text>
-        <text x="65" y="433" fill="#fb7185" font-size="8 font-bold">Decomp Onset Temp: 80.0°C</text>
-        <text x="65" y="448" fill="#94a3b8" font-size="8">FlashPoint: 79°C | RunawaySeverity: 5</text>
-        <text x="65" y="463" fill="#fbbf24" font-size="7.5">Autoignition: 221°C | PK: HazardId</text>
+        <text x="65" y="384" fill="#fbbf24" font-size="11" font-weight="700">:ChemicalHazards (HAZ-CHP)</text>
+        <text x="65" y="402" fill="#e2e8f0" font-size="8">ChemicalName: Cumene Hydroperoxide</text>
+        <text x="65" y="416" fill="#94a3b8" font-size="8">CAS: 80-15-9 | Concentration: ~82%</text>
+        <text x="65" y="431" fill="#fb7185" font-size="8 font-bold">Decomp Onset Temp: 80.0°C</text>
+        <text x="65" y="446" fill="#94a3b8" font-size="8">FlashPoint: 79°C | RunawaySeverity: 5</text>
+        <text x="65" y="461" fill="#fbbf24" font-size="7.5">Autoignition: 221°C | PK: HazardId</text>
 
         <!-- Node 4: Instrument Interlock (TXSHH-0502A/B) -->
         <rect x="360" y="360" width="230" height="120" rx="8" fill="#0f172a"/>
         <rect x="360" y="360" width="230" height="120" rx="8" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1.5"/>
-        <text x="375" y="385" fill="#fb7185" font-size="11" font-weight="700">:Instruments (TXSHH-0502A/B)</text>
-        <text x="375" y="403" fill="#e2e8f0" font-size="8">Type: TT / Temp Switch High-High</text>
-        <text x="375" y="418" fill="#94a3b8" font-size="8">TripSetpoint: 80.0°C | Calibrated: 0-150°C</text>
-        <text x="375" y="433" fill="#fb7185" font-size="8 font-bold">VotingLogic: 1oo2 | SilRating: SIL 1</text>
-        <text x="375" y="448" fill="#94a3b8" font-size="8">IsSisInitiator: true | Action: Close UXV</text>
-        <text x="375" y="463" fill="#fb7185" font-size="7.5">Target: UXV-0501 / UXV-0502 in series</text>
+        <text x="375" y="384" fill="#fb7185" font-size="11" font-weight="700">:Instruments (TXSHH-0502A/B)</text>
+        <text x="375" y="402" fill="#e2e8f0" font-size="8">Type: TT / Temp Switch High-High</text>
+        <text x="375" y="416" fill="#94a3b8" font-size="8">TripSetpoint: 80.0°C | Calibrated: 0-150°C</text>
+        <text x="375" y="431" fill="#fb7185" font-size="8 font-bold">VotingLogic: 1oo2 | SilRating: SIL 1</text>
+        <text x="375" y="446" fill="#94a3b8" font-size="8">IsSisInitiator: true | Action: Close UXV</text>
+        <text x="375" y="461" fill="#fb7185" font-size="7.5">Target: UXV-0501 / UXV-0502 in series</text>
 
         <!-- Node 5: HAZOP Study Node (Node CDN-N02) -->
         <rect x="360" y="520" width="230" height="115" rx="8" fill="#0f172a"/>
         <rect x="360" y="520" width="230" height="115" rx="8" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
-        <text x="375" y="545" fill="#22d3ee" font-size="11" font-weight="700">:HazopNodes (CDN-N02)</text>
-        <text x="375" y="563" fill="#e2e8f0" font-size="8">NodeName: Preflash Column Feed System</text>
-        <text x="375" y="578" fill="#94a3b8" font-size="8">DesignIntent: Feed preheating &amp; separation</text>
-        <text x="375" y="593" fill="#94a3b8" font-size="8">Boundary: E-2302 outlet to V-2301 inlet</text>
-        <text x="375" y="608" fill="#22d3ee" font-size="7.5">RAM Matrix: W-(Q-MP)-002 R2 (5x5)</text>
+        <text x="375" y="544" fill="#22d3ee" font-size="11" font-weight="700">:HazopNodes (CDN-N02)</text>
+        <text x="375" y="562" fill="#e2e8f0" font-size="8">NodeName: Preflash Column Feed System</text>
+        <text x="375" y="576" fill="#94a3b8" font-size="8">DesignIntent: Feed preheating &amp; separation</text>
+        <text x="375" y="590" fill="#94a3b8" font-size="8">Boundary: E-2302 outlet to V-2301 inlet</text>
+        <text x="375" y="605" fill="#22d3ee" font-size="7.5">RAM Matrix: W-(Q-MP)-002 R2 (5x5)</text>
 
         <!-- Node 6: Plant Unit (CDN) -->
         <rect x="50" y="520" width="220" height="115" rx="8" fill="#0f172a"/>
         <rect x="50" y="520" width="220" height="115" rx="8" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="65" y="545" fill="#34d399" font-size="11" font-weight="700">:Units (CDN)</text>
-        <text x="65" y="563" fill="#e2e8f0" font-size="8">Name: Concentration Section</text>
-        <text x="65" y="578" fill="#94a3b8" font-size="8">Code: CDN | Total Equip: 54 units</text>
-        <text x="65" y="593" fill="#94a3b8" font-size="8">Feed: Cleavage &amp; Oxidate interface</text>
-        <text x="65" y="608" fill="#34d399" font-size="7.5">PK: UnitId | Sources: OEMS-005</text>
+        <text x="65" y="544" fill="#34d399" font-size="11" font-weight="700">:Units (CDN)</text>
+        <text x="65" y="562" fill="#e2e8f0" font-size="8">Name: Concentration Section</text>
+        <text x="65" y="576" fill="#94a3b8" font-size="8">Code: CDN | Total Equip: 54 units</text>
+        <text x="65" y="590" fill="#94a3b8" font-size="8">Feed: Cleavage &amp; Oxidate interface</text>
+        <text x="65" y="605" fill="#34d399" font-size="7.5">PK: UnitId | Sources: OEMS-005</text>
 
         <!-- ================= EDGE TABLES & INDEXES ================= -->
         <!-- Edge Table 1: EquipmentFlows -->
@@ -287,7 +297,7 @@
         <text x="795" y="133" fill="#e2e8f0" font-size="8">• Source: FromEquipmentTag (E-2302A/B)</text>
         <text x="795" y="147" fill="#e2e8f0" font-size="8">• Dest: ToEquipmentTag (E-2303)</text>
         <text x="795" y="161" fill="#94a3b8" font-size="8">• Properties: StreamId, FlowKgHr, TempC</text>
-        <text x="795" y="177" fill="#22d3ee" font-size="7.5">ISO GQL: MATCH (s)-[r:FEEDS*1..3]-&gt;(t)</text>
+        <text x="795" y="177" fill="#22d3ee" font-size="7.5 font-mono">ISO GQL: MATCH (s)-[r:FEEDS*1..3]-&gt;(t)</text>
 
         <!-- Edge Table 2: InstrumentActuations -->
         <rect x="780" y="215" width="320" height="105" rx="8" fill="#0f172a"/>
@@ -296,7 +306,7 @@
         <text x="795" y="258" fill="#e2e8f0" font-size="8">• Source: InitiatorInstrumentTag (TXSHH-0502)</text>
         <text x="795" y="272" fill="#e2e8f0" font-size="8">• Dest: TargetEquipmentTag (UXV-0501)</text>
         <text x="795" y="286" fill="#94a3b8" font-size="8">• Properties: InterlockAction (TRIP_CLOSE_UXV)</text>
-        <text x="795" y="302" fill="#fb7185" font-size="7.5">ActionTimeMs: &lt;500ms | FailState: FAIL_CLOSED</text>
+        <text x="795" y="302" fill="#fb7185" font-size="7.5 font-mono">ActionTimeMs: &lt;500ms | FailState: FAIL_CLOSED</text>
 
         <!-- Spanner Search Index -->
         <rect x="780" y="340" width="320" height="95" rx="8" fill="#0f172a"/>
@@ -305,7 +315,7 @@
         <text x="795" y="383" fill="#e2e8f0" font-size="8">• Tokenizer: TOKENIZE_FULLTEXT(Tag || Name)</text>
         <text x="795" y="397" fill="#94a3b8" font-size="8">• Column: EquipmentTokens (TOKENLIST)</text>
         <text x="795" y="411" fill="#94a3b8" font-size="8">• Target: Fast fuzzy tag and keyword lookup</text>
-        <text x="795" y="425" fill="#34d399" font-size="7.5">Predicate: WHERE IsDeleted = false</text>
+        <text x="795" y="425" fill="#34d399" font-size="7.5 font-mono">Predicate: WHERE IsDeleted = false</text>
 
         <!-- Spanner Vector Index -->
         <rect x="780" y="455" width="320" height="95" rx="8" fill="#0f172a"/>
@@ -314,14 +324,14 @@
         <text x="795" y="498" fill="#e2e8f0" font-size="8">• Vector Length: 768 dimensions</text>
         <text x="795" y="512" fill="#94a3b8" font-size="8">• Distance Metric: COSINE</text>
         <text x="795" y="526" fill="#94a3b8" font-size="8">• Model: Vertex AI text-embedding-004</text>
-        <text x="795" y="540" fill="#a78bfa" font-size="7.5">Semantic search over description summaries</text>
+        <text x="795" y="540" fill="#a78bfa" font-size="7.5 font-mono">Semantic search over description summaries</text>
 
         <!-- TrueTime Consistency Box -->
         <rect x="780" y="570" width="320" height="75" rx="8" fill="#0f172a"/>
         <rect x="780" y="570" width="320" height="75" rx="8" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
         <text x="795" y="595" fill="#fbbf24" font-size="11" font-weight="700">⚡ Spanner TrueTime Token</text>
         <text x="795" y="613" fill="#e2e8f0" font-size="8">• Atomic Graph Mutation Guarantee: 0x4e29b109</text>
-        <text x="795" y="629" fill="#94a3b8" font-size="7.5">Linearizable read-your-writes across all edges</text>
+        <text x="795" y="629" fill="#94a3b8" font-size="7.5 font-mono">Linearizable read-your-writes across all edges</text>
       </svg>
     </div>
 
@@ -340,143 +350,125 @@
         <rect width="1150" height="720" fill="url(#grid)"/>
 
         <!-- Boundary Boxes -->
-        <!-- Group 1: Entry Group & Catalog Hierarchy -->
         <rect x="30" y="35" width="280" height="650" rx="12" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6,6"/>
         <text x="45" y="60" fill="#38bdf8" font-size="10" font-weight="700" letter-spacing="0.05em">CATALOG HIERARCHY &amp; ENTRY GROUP</text>
 
-        <!-- Group 2: Catalog Entries (PSI Documents) -->
         <rect x="340" y="35" width="340" height="650" rx="12" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="6,6"/>
         <text x="355" y="60" fill="#34d399" font-size="10" font-weight="700" letter-spacing="0.05em">PSI CATALOG ENTRIES (Certified Drawings)</text>
 
-        <!-- Group 3: Attached OEMS-005 Aspects -->
         <rect x="710" y="35" width="410" height="650" rx="12" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6,6"/>
         <text x="725" y="60" fill="#fbbf24" font-size="10" font-weight="700" letter-spacing="0.05em">OEMS-005 ATTACHED ASPECTS &amp; METADATA</text>
 
-        <!-- ================= CONNECTION ARROWS ================= -->
-        <!-- Entry Group to Entries -->
-        <path d="M 280 210 L 360 160" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow-dataplex)"/>
+        <!-- Arrows -->
+        <path d="M 280 210 L 360 155" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow-dataplex)"/>
         <path d="M 280 230 L 360 300" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow-dataplex)"/>
-        <path d="M 280 250 L 360 450" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow-dataplex)"/>
+        <path d="M 280 250 L 360 445" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow-dataplex)"/>
 
-        <!-- Entries to Aspects -->
-        <path d="M 650 160 L 730 160" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrow-emerald)"/>
+        <path d="M 650 155 L 730 155" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrow-emerald)"/>
         <path d="M 650 300 L 730 300" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrow-emerald)"/>
-        <path d="M 650 450 L 730 460" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrow-emerald)"/>
-
-        <!-- ================= COMPONENTS ================= -->
+        <path d="M 650 445 L 730 455" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrow-emerald)"/>
 
         <!-- HIERARCHY COMPONENTS -->
-        <!-- GCP Project -->
         <rect x="50" y="90" width="240" height="65" rx="6" fill="#0f172a"/>
         <rect x="50" y="90" width="240" height="65" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
-        <text x="65" y="113" fill="#22d3ee" font-size="11" font-weight="700">Google Cloud Project</text>
-        <text x="65" y="129" fill="#e2e8f0" font-size="8">cs-poc-y03r7kmfyov4kilzg50fd7s</text>
-        <text x="65" y="143" fill="#94a3b8" font-size="7.5">Region: asia-southeast1 (Bangkok/SG)</text>
+        <text x="65" y="112" fill="#22d3ee" font-size="11" font-weight="700">Google Cloud Project</text>
+        <text x="65" y="128" fill="#e2e8f0" font-size="8">cs-poc-y03r7kmfyov4kilzg50fd7s</text>
+        <text x="65" y="142" fill="#94a3b8" font-size="7.5 font-mono">Region: asia-southeast1 (Bangkok/SG)</text>
 
-        <!-- Entry Group: phenol-psi -->
         <rect x="50" y="180" width="240" height="110" rx="6" fill="#0f172a"/>
         <rect x="50" y="180" width="240" height="110" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#38bdf8" stroke-width="1.5"/>
-        <text x="65" y="206" fill="#38bdf8" font-size="11" font-weight="700">Entry Group: phenol-psi</text>
-        <text x="65" y="224" fill="#e2e8f0" font-size="8">• Dataplex Knowledge Catalog Scope</text>
-        <text x="65" y="238" fill="#94a3b8" font-size="8">• Aggregates 14 OEMS-005 Categories</text>
-        <text x="65" y="252" fill="#94a3b8" font-size="8">• Single Pane of Glass for Safety PSI</text>
-        <text x="65" y="268" fill="#38bdf8" font-size="7.5">IAM: roles/dataplex.dataViewer</text>
+        <text x="65" y="205" fill="#38bdf8" font-size="11" font-weight="700">Entry Group: phenol-psi</text>
+        <text x="65" y="223" fill="#e2e8f0" font-size="8">• Dataplex Knowledge Catalog Scope</text>
+        <text x="65" y="237" fill="#94a3b8" font-size="8">• Aggregates 14 OEMS-005 Categories</text>
+        <text x="65" y="251" fill="#94a3b8" font-size="8">• Single Pane of Glass for Safety PSI</text>
+        <text x="65" y="267" fill="#38bdf8" font-size="7.5 font-mono">IAM: roles/dataplex.dataViewer</text>
 
-        <!-- Aspect Types Container -->
         <rect x="50" y="320" width="240" height="140" rx="6" fill="#0f172a"/>
         <rect x="50" y="320" width="240" height="140" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="65" y="346" fill="#a78bfa" font-size="11" font-weight="700">Registered Aspect Types</text>
-        <text x="65" y="365" fill="#e2e8f0" font-size="8">1. oems_005_process_safety</text>
-        <text x="65" y="380" fill="#94a3b8" font-size="7.5">   (Category, Revision, Custodian)</text>
-        <text x="65" y="398" fill="#e2e8f0" font-size="8">2. equipment_specification</text>
-        <text x="65" y="413" fill="#94a3b8" font-size="7.5">   (Design Code, SIL, MOC Log)</text>
-        <text x="65" y="431" fill="#e2e8f0" font-size="8">3. chemical_safety_aspect</text>
-        <text x="65" y="446" fill="#94a3b8" font-size="7.5">   (Hazardous Substance, Limits)</text>
+        <text x="65" y="345" fill="#a78bfa" font-size="11" font-weight="700">Registered Aspect Types</text>
+        <text x="65" y="364" fill="#e2e8f0" font-size="8">1. oems_005_process_safety</text>
+        <text x="65" y="379" fill="#94a3b8" font-size="7.5 font-mono">   (Category, Revision, Custodian)</text>
+        <text x="65" y="397" fill="#e2e8f0" font-size="8">2. equipment_specification</text>
+        <text x="65" y="412" fill="#94a3b8" font-size="7.5 font-mono">   (Design Code, SIL, MOC Log)</text>
+        <text x="65" y="430" fill="#e2e8f0" font-size="8">3. chemical_safety_aspect</text>
+        <text x="65" y="445" fill="#94a3b8" font-size="7.5 font-mono">   (Hazardous Substance, Limits)</text>
 
-        <!-- Cross-Reference Bridge -->
         <rect x="50" y="490" width="240" height="120" rx="6" fill="#0f172a"/>
         <rect x="50" y="490" width="240" height="120" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="65" y="516" fill="#34d399" font-size="11" font-weight="700">Cross-Storage Lineage</text>
-        <text x="65" y="535" fill="#e2e8f0" font-size="8">• Spanner EquipmentTag Bridge</text>
-        <text x="65" y="550" fill="#94a3b8" font-size="8">• GCS LLM-Wiki Document URI</text>
-        <text x="65" y="565" fill="#94a3b8" font-size="8">• As-Built Revision Audit Hash</text>
-        <text x="65" y="582" fill="#34d399" font-size="7.5">Synchronized via DatabaseAgent</text>
+        <text x="65" y="515" fill="#34d399" font-size="11" font-weight="700">Cross-Storage Lineage</text>
+        <text x="65" y="534" fill="#e2e8f0" font-size="8">• Spanner EquipmentTag Bridge</text>
+        <text x="65" y="549" fill="#94a3b8" font-size="8">• GCS LLM-Wiki Document URI</text>
+        <text x="65" y="564" fill="#94a3b8" font-size="8">• As-Built Revision Audit Hash</text>
+        <text x="65" y="580" fill="#34d399" font-size="7.5 font-mono">Synchronized via DatabaseAgent</text>
 
         <!-- CATALOG ENTRIES -->
-        <!-- Entry 1: P&ID 14780-8120-25-23-0005 -->
         <rect x="360" y="95" width="290" height="120" rx="8" fill="#0f172a"/>
         <rect x="360" y="95" width="290" height="120" rx="8" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="375" y="121" fill="#34d399" font-size="11" font-weight="700">Entry: 14780-8120-25-23-0005</text>
-        <text x="375" y="139" fill="#e2e8f0" font-size="8">Type: Drawing (P&amp;ID As-Built)</text>
-        <text x="375" y="153" fill="#94a3b8" font-size="8">Description: Preflash Column &amp; Steam Heater</text>
-        <text x="375" y="167" fill="#38bdf8" font-size="8 font-bold">Revision Status: Z1 (As-Built Certified)</text>
-        <text x="375" y="183" fill="#94a3b8" font-size="7.5">Linked Entities: E-2303, V-2301, UXV-0501</text>
-        <text x="375" y="198" fill="#34d399" font-size="7.5">GCS: gs://.../drawings/pid_0005_Z1.pdf</text>
+        <text x="375" y="120" fill="#34d399" font-size="11" font-weight="700">Entry: 14780-8120-25-23-0005</text>
+        <text x="375" y="138" fill="#e2e8f0" font-size="8">Type: Drawing (P&amp;ID As-Built)</text>
+        <text x="375" y="152" fill="#94a3b8" font-size="8">Description: Preflash Column &amp; Steam Heater</text>
+        <text x="375" y="166" fill="#38bdf8" font-size="8 font-bold">Revision Status: Z1 (As-Built Certified)</text>
+        <text x="375" y="182" fill="#94a3b8" font-size="7.5">Linked Entities: E-2303, V-2301, UXV-0501</text>
+        <text x="375" y="197" fill="#34d399" font-size="7.5 font-mono">GCS: gs://.../drawings/pid_0005_Z1.pdf</text>
 
-        <!-- Entry 2: Data Sheet PS-E2303 -->
         <rect x="360" y="240" width="290" height="120" rx="8" fill="#0f172a"/>
         <rect x="360" y="240" width="290" height="120" rx="8" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="375" y="266" fill="#34d399" font-size="11" font-weight="700">Entry: 14780-8120-PS-E2303</text>
-        <text x="375" y="284" fill="#e2e8f0" font-size="8">Type: Process Data Sheet (Heat Exchanger)</text>
-        <text x="375" y="298" fill="#94a3b8" font-size="8">Equipment: E-2303 (Preflash Heater)</text>
-        <text x="375" y="312" fill="#38bdf8" font-size="8 font-bold">Revision Status: Z1 Certified</text>
-        <text x="375" y="328" fill="#94a3b8" font-size="7.5">Tube Duty: SC1.5 Steam | Shell: CHP Feed</text>
-        <text x="375" y="343" fill="#34d399" font-size="7.5">GCS: gs://.../datasheets/PS-E2303_Z1.pdf</text>
+        <text x="375" y="265" fill="#34d399" font-size="11" font-weight="700">Entry: 14780-8120-PS-E2303</text>
+        <text x="375" y="283" fill="#e2e8f0" font-size="8">Type: Process Data Sheet (Heat Exchanger)</text>
+        <text x="375" y="297" fill="#94a3b8" font-size="8">Equipment: E-2303 (Preflash Heater)</text>
+        <text x="375" y="311" fill="#38bdf8" font-size="8 font-bold">Revision Status: Z1 Certified</text>
+        <text x="375" y="327" fill="#94a3b8" font-size="7.5">Tube Duty: SC1.5 Steam | Shell: CHP Feed</text>
+        <text x="375" y="342" fill="#34d399" font-size="7.5 font-mono">GCS: gs://.../datasheets/PS-E2303_Z1.pdf</text>
 
-        <!-- Entry 3: PFD 14780-8120-25-01-0001 -->
         <rect x="360" y="385" width="290" height="120" rx="8" fill="#0f172a"/>
         <rect x="360" y="385" width="290" height="120" rx="8" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="375" y="411" fill="#34d399" font-size="11" font-weight="700">Entry: 14780-8120-25-01-0001</text>
-        <text x="375" y="429" fill="#e2e8f0" font-size="8">Type: PFD (Process Flow Diagram)</text>
-        <text x="375" y="443" fill="#94a3b8" font-size="8">Section: Concentration (CDN) Balance</text>
-        <text x="375" y="457" fill="#38bdf8" font-size="8 font-bold">Revision Status: Rev A1</text>
-        <text x="375" y="473" fill="#94a3b8" font-size="7.5">Mass Flows: Streams S-101 to S-145</text>
-        <text x="375" y="488" fill="#34d399" font-size="7.5">GCS: gs://.../pfd/pfd_0001_A1.pdf</text>
+        <text x="375" y="410" fill="#34d399" font-size="11" font-weight="700">Entry: 14780-8120-25-01-0001</text>
+        <text x="375" y="428" fill="#e2e8f0" font-size="8">Type: PFD (Process Flow Diagram)</text>
+        <text x="375" y="442" fill="#94a3b8" font-size="8">Section: Concentration (CDN) Balance</text>
+        <text x="375" y="456" fill="#38bdf8" font-size="8 font-bold">Revision Status: Rev A1</text>
+        <text x="375" y="472" fill="#94a3b8" font-size="7.5">Mass Flows: Streams S-101 to S-145</text>
+        <text x="375" y="487" fill="#34d399" font-size="7.5 font-mono">GCS: gs://.../pfd/pfd_0001_A1.pdf</text>
 
-        <!-- Entry 4: Licensor Operating Manual -->
         <rect x="360" y="530" width="290" height="100" rx="8" fill="#0f172a"/>
         <rect x="360" y="530" width="290" height="100" rx="8" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="375" y="556" fill="#34d399" font-size="11" font-weight="700">Entry: UOP-SOP-CDN-002</text>
-        <text x="375" y="574" fill="#e2e8f0" font-size="8">Type: Operating Manual / Control SOP</text>
-        <text x="375" y="588" fill="#94a3b8" font-size="8">Topic: Preflash Column Feed Forward</text>
-        <text x="375" y="604" fill="#34d399" font-size="7.5">GCS: gs://.../manuals/UOP_SOP_CDN.pdf</text>
+        <text x="375" y="555" fill="#34d399" font-size="11" font-weight="700">Entry: UOP-SOP-CDN-002</text>
+        <text x="375" y="573" fill="#e2e8f0" font-size="8">Type: Operating Manual / Control SOP</text>
+        <text x="375" y="587" fill="#94a3b8" font-size="8">Topic: Preflash Column Feed Forward</text>
+        <text x="375" y="603" fill="#34d399" font-size="7.5 font-mono">GCS: gs://.../manuals/UOP_SOP_CDN.pdf</text>
 
         <!-- ATTACHED ASPECTS -->
-        <!-- Aspect 1: OEMS-005 Process Safety -->
         <rect x="730" y="95" width="370" height="155" rx="8" fill="#0f172a"/>
         <rect x="730" y="95" width="370" height="155" rx="8" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-        <text x="745" y="121" fill="#fbbf24" font-size="11" font-weight="700">Aspect: oems_005_process_safety</text>
-        <text x="745" y="141" fill="#e2e8f0" font-size="8">• category_id: 4 (Equipment &amp; Data Sheets)</text>
-        <text x="745" y="156" fill="#e2e8f0" font-size="8">• category_name: "Process Data Sheets"</text>
-        <text x="745" y="171" fill="#e2e8f0" font-size="8">• unit_code: "CDN" (Concentration)</text>
-        <text x="745" y="186" fill="#e2e8f0" font-size="8">• as_built_certified: true</text>
-        <text x="745" y="201" fill="#e2e8f0" font-size="8">• drawing_revision: "Z1"</text>
-        <text x="745" y="216" fill="#94a3b8" font-size="8">• engineering_custodian: "PTT GC Phenol Reliability Dept"</text>
-        <text x="745" y="232" fill="#fbbf24" font-size="7.5">true_time_lineage: 2026-08-27T02:00:00Z</text>
+        <text x="745" y="120" fill="#fbbf24" font-size="11" font-weight="700">Aspect: oems_005_process_safety</text>
+        <text x="745" y="140" fill="#e2e8f0" font-size="8">• category_id: 4 (Equipment &amp; Data Sheets)</text>
+        <text x="745" y="155" fill="#e2e8f0" font-size="8">• category_name: "Process Data Sheets"</text>
+        <text x="745" y="170" fill="#e2e8f0" font-size="8">• unit_code: "CDN" (Concentration)</text>
+        <text x="745" y="185" fill="#e2e8f0" font-size="8">• as_built_certified: true</text>
+        <text x="745" y="200" fill="#e2e8f0" font-size="8">• drawing_revision: "Z1"</text>
+        <text x="745" y="215" fill="#94a3b8" font-size="8">• engineering_custodian: "PTT GC Phenol Reliability Dept"</text>
+        <text x="745" y="231" fill="#fbbf24" font-size="7.5 font-mono">true_time_lineage: 2026-08-27T02:00:00Z</text>
 
-        <!-- Aspect 2: Equipment Specification -->
         <rect x="730" y="265" width="370" height="155" rx="8" fill="#0f172a"/>
         <rect x="730" y="265" width="370" height="155" rx="8" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="745" y="291" fill="#a78bfa" font-size="11" font-weight="700">Aspect: equipment_specification</text>
-        <text x="745" y="311" fill="#e2e8f0" font-size="8">• design_code: "ASME Section VIII Div 1"</text>
-        <text x="745" y="326" fill="#e2e8f0" font-size="8">• design_pressure_barg: 4.5</text>
-        <text x="745" y="341" fill="#e2e8f0" font-size="8">• design_temp_celsius: 130.0</text>
-        <text x="745" y="356" fill="#e2e8f0" font-size="8">• sil_target: "SIL 1"</text>
-        <text x="745" y="371" fill="#e2e8f0" font-size="8">• moc_change_log: ["MOC-2024-089", "MOC-2025-012"]</text>
-        <text x="745" y="386" fill="#94a3b8" font-size="8">• materials_construction: "316L Stainless Steel"</text>
-        <text x="745" y="402" fill="#a78bfa" font-size="7.5">licensor_basis: "UOP Reference 963766-120-09-A1"</text>
+        <text x="745" y="290" fill="#a78bfa" font-size="11" font-weight="700">Aspect: equipment_specification</text>
+        <text x="745" y="310" fill="#e2e8f0" font-size="8">• design_code: "ASME Section VIII Div 1"</text>
+        <text x="745" y="325" fill="#e2e8f0" font-size="8">• design_pressure_barg: 4.5</text>
+        <text x="745" y="340" fill="#e2e8f0" font-size="8">• design_temp_celsius: 130.0</text>
+        <text x="745" y="355" fill="#e2e8f0" font-size="8">• sil_target: "SIL 1"</text>
+        <text x="745" y="370" fill="#e2e8f0" font-size="8">• moc_change_log: ["MOC-2024-089", "MOC-2025-012"]</text>
+        <text x="745" y="385" fill="#94a3b8" font-size="8">• materials_construction: "316L Stainless Steel"</text>
+        <text x="745" y="401" fill="#a78bfa" font-size="7.5 font-mono">licensor_basis: "UOP Reference 963766-120-09-A1"</text>
 
-        <!-- Aspect 3: Chemical Safety & Thermal Kinetics -->
         <rect x="730" y="435" width="370" height="165" rx="8" fill="#0f172a"/>
         <rect x="730" y="435" width="370" height="165" rx="8" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1.5"/>
-        <text x="745" y="461" fill="#fb7185" font-size="11" font-weight="700">Aspect: chemical_safety_aspect</text>
-        <text x="745" y="481" fill="#e2e8f0" font-size="8">• hazardous_substance: "Cumene Hydroperoxide (~80-85 wt%)"</text>
-        <text x="745" y="496" fill="#fb7185" font-size="8 font-bold">• decomposition_limit_celsius: 80.0</text>
-        <text x="745" y="511" fill="#e2e8f0" font-size="8">• runaway_hazard_severity: 5 (Maximum RAM Rating)</text>
-        <text x="745" y="526" fill="#e2e8f0" font-size="8">• flash_point_celsius: 79.0</text>
-        <text x="745" y="541" fill="#e2e8f0" font-size="8">• required_cooling: "Reliable Emergency Bus Power Supply"</text>
-        <text x="745" y="556" fill="#94a3b8" font-size="8">• seal_plan: "DM-CHP / DD-CHP Dual Barrier System"</text>
-        <text x="745" y="572" fill="#fb7185" font-size="7.5">regulatory_standard: "PTT GC Major Accident Prevention"</text>
+        <text x="745" y="460" fill="#fb7185" font-size="11" font-weight="700">Aspect: chemical_safety_aspect</text>
+        <text x="745" y="480" fill="#e2e8f0" font-size="8">• hazardous_substance: "Cumene Hydroperoxide (~80-85 wt%)"</text>
+        <text x="745" y="495" fill="#fb7185" font-size="8 font-bold">• decomposition_limit_celsius: 80.0</text>
+        <text x="745" y="510" fill="#e2e8f0" font-size="8">• runaway_hazard_severity: 5 (Maximum RAM Rating)</text>
+        <text x="745" y="525" fill="#e2e8f0" font-size="8">• flash_point_celsius: 79.0</text>
+        <text x="745" y="540" fill="#e2e8f0" font-size="8">• required_cooling: "Reliable Emergency Bus Power Supply"</text>
+        <text x="745" y="555" fill="#94a3b8" font-size="8">• seal_plan: "DM-CHP / DD-CHP Dual Barrier System"</text>
+        <text x="745" y="571" fill="#fb7185" font-size="7.5 font-mono">regulatory_standard: "PTT GC Major Accident Prevention"</text>
       </svg>
     </div>
 
@@ -490,7 +482,7 @@
         <ul>
           <li>• <b>Property Graph Model:</b> Implemented via <code>CREATE PROPERTY GRAPH PhenolProcessSafetyGraph</code>.</li>
           <li>• <b>Nodes:</b> <code>Units</code>, <code>Equipment</code>, <code>Instruments</code>, <code>ChemicalHazards</code>, <code>HazopNodes</code>.</li>
-          <li>• <b>Edges:</b> <code>FEEDS</code> (Process flow piping), <code>ACTUATES_INTERLOCK</code> (1oo2 trip signals), <code>ENCOMPASSES</code>.</li>
+          <li>• <b>Edges:</b> <code>FEEDS</code> (Process flow piping), <code>ACTUATES_INTERLOCK</code> (1oo2 trip signals), <code>ENCOMPASSES</code>, <code>HANDLES</code>, <code>LOCATED_IN</code>.</li>
           <li>• <b>TrueTime Consistency:</b> Emits transaction commit tokens (e.g. <code>0x4e29b109</code>) guaranteeing zero read stale edges.</li>
         </ul>
       </div>
