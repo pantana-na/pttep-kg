@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PTT GC Phenol Process Safety & HAZOP AI Platform</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -321,10 +322,17 @@
         eventSource.close();
       });
 
+      let accumulatedText = '';
+
       eventSource.addEventListener('message_delta', (e) => {
         const data = JSON.parse(e.data);
+        accumulatedText += data.text_delta;
         answerContainer.classList.remove('hidden');
-        answerText.textContent += data.text_delta;
+        if (typeof marked !== 'undefined') {
+          answerText.innerHTML = marked.parse(accumulatedText);
+        } else {
+          answerText.textContent = accumulatedText;
+        }
       });
 
       eventSource.addEventListener('message_done', () => {
@@ -347,16 +355,27 @@
         </div>
       `;
 
-      const resp = await fetch('/api/v1/agent/clarify', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ session_id: 'default-session', selected_option_id: optionId, target_tag: targetTag })
-      });
-      const data = await resp.json();
       const answerContainer = document.getElementById('answer-container');
       const answerText = document.getElementById('answer-text');
       answerContainer.classList.remove('hidden');
-      answerText.textContent = data.synthesized_answer || (data.search_results && data.search_results.formatted_summary) || 'Loaded.';
+      answerText.innerHTML = `<div class="flex items-center gap-2 text-indigo-400 font-mono text-xs animate-pulse"><span>⚡</span> Synthesizing engineering assessment for <b>${targetTag}</b> via Gemini 3.7 Flash...</div>`;
+
+      try {
+        const resp = await fetch('/api/v1/agent/clarify', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ session_id: 'default-session', selected_option_id: optionId, target_tag: targetTag })
+        });
+        const data = await resp.json();
+        const content = data.synthesized_answer || (data.search_results && data.search_results.formatted_summary) || 'No response returned.';
+        if (typeof marked !== 'undefined') {
+          answerText.innerHTML = marked.parse(content);
+        } else {
+          answerText.textContent = content;
+        }
+      } catch (err) {
+        answerText.innerHTML = `<div class="text-rose-400 font-mono text-xs">Error resolving clarification: ${err}</div>`;
+      }
     }
 
     async function exportExcel() {
