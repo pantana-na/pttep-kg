@@ -248,6 +248,7 @@ class OrchestratorAgent:
                 "event": "clarification_requested",
                 "data": clarify_event
             }
+            yield {"event": "message_done", "data": {"status": "AWAITING_CLARIFICATION"}}
             return
 
         # Step 3: Handle HAZOP Study

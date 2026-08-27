@@ -179,7 +179,16 @@
       answerContainer.classList.add('hidden');
       answerText.textContent = '';
 
+      if (window.currentEventSource) {
+        window.currentEventSource.close();
+      }
+
       const eventSource = new EventSource(`/api/v1/agent/stream?prompt=${encodeURIComponent(prompt)}`);
+      window.currentEventSource = eventSource;
+
+      eventSource.onerror = () => {
+        eventSource.close();
+      };
 
       eventSource.addEventListener('armor_inspection', (e) => {
         const data = JSON.parse(e.data);
