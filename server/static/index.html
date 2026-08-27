@@ -181,6 +181,40 @@
 
       const eventSource = new EventSource(`/api/v1/agent/stream?prompt=${encodeURIComponent(prompt)}`);
 
+      eventSource.addEventListener('armor_inspection', (e) => {
+        const data = JSON.parse(e.data);
+        const isClean = data.verdict === 'PASSED';
+        const isBlocked = data.verdict === 'BLOCKED';
+        const badgeColor = isBlocked ? 'rose' : (isClean ? 'emerald' : 'amber');
+        const icon = isBlocked ? '⛔' : '🛡️';
+        container.innerHTML += `
+          <div class="bg-slate-900/90 border border-${badgeColor}-500/30 rounded-xl p-3 my-2 text-xs font-mono shadow-md backdrop-blur">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded bg-${badgeColor}-500/20 text-${badgeColor}-300 border border-${badgeColor}-500/40 font-bold">
+                  ${icon} GOOGLE CLOUD MODEL ARMOR
+                </span>
+                <span class="text-slate-300 font-bold text-[11px]">${data.policy_template}</span>
+              </div>
+              <span class="text-[11px] text-${badgeColor}-400 font-bold">Verdict: ${data.verdict} (${data.inspection_time_ms}ms)</span>
+            </div>
+          </div>
+        `;
+      });
+
+      eventSource.addEventListener('armor_blocked', (e) => {
+        const data = JSON.parse(e.data);
+        container.innerHTML += `
+          <div class="bg-rose-950/40 border-2 border-rose-500/60 rounded-2xl p-4 my-3 text-xs font-mono shadow-2xl">
+            <div class="flex items-center gap-2 text-rose-300 font-bold text-sm mb-1">
+              <span>⛔ PROMPT INJECTION / JAILBREAK INTERCEPTED</span>
+            </div>
+            <p class="text-rose-200 text-xs mt-1">${data.detail}</p>
+            <div class="mt-2 text-[11px] text-slate-400">Security Policy: <code class="text-rose-300">${data.policy_template}</code></div>
+          </div>
+        `;
+      });
+
       eventSource.addEventListener('thought', (e) => {
         const data = JSON.parse(e.data);
         container.innerHTML += `

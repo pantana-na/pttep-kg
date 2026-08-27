@@ -88,7 +88,8 @@ async def test_ut_stream_01_telemetry_ordering():
         events.append(ev)
         
     names = [e["event"] for e in events]
-    assert names[0] == "thought"
+    assert names[0] == "armor_inspection"
+    assert names[1] == "thought"
     assert "subagent_dispatch" in names
     assert "tool_invoked" in names
     assert "tool_result" in names
