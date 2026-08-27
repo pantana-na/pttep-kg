@@ -11,8 +11,9 @@ This project strictly follows the **Spec-Driven Development (SDD)** process alon
 4. **Mandatory Unit & Property-Based Testing at Every Step:** For *every* step in the implementation plan, developers/agents must implement:
    - **Unit Tests:** Deterministic, example-based tests verifying happy paths, edge cases, and error boundaries.
    - **Property-Based Tests (PBT):** Mathematical/logical invariant tests across generative/fuzzed input spaces (e.g. `fast-check` in TS/JS or `hypothesis` in Python).
-5. **Spec Rule Reference:** Read and strictly comply with the rule in `_agents/rules/spec_driven_development.md` and `_agents/rules/devops_security_and_quality_standards.md`.
+5. **Spec Rule Reference:** Read and strictly comply with the rules in `_agents/rules/spec_driven_development.md` and `_agents/rules/devops_security_and_quality_standards.md`.
 6. **Living Specs:** When any code or behavior changes, the corresponding SDD in `specs/` must be synchronized in the same change to prevent spec drift.
+7. **Living Plan Progress Tracking:** Maintain continuous, up-to-date execution reports, test verification metrics, and milestone statuses under `specs/plan/` whenever development pauses or major phases complete.
 
 ---
 
@@ -32,11 +33,12 @@ This project strictly follows the **Spec-Driven Development (SDD)** process alon
 
 ## Project Structure Overview
 
-- `specs/`: Single source of truth for system specifications, baseline docs, and feature designs.
+- `specs/`: Single source of truth for system specifications, baseline docs, feature designs, and progress tracking.
   - `specs/baseline/`: Current as-is specifications reverse-engineered from existing code.
   - `specs/features/`: Proposed feature specifications with step-by-step plans & test matrices.
+  - `specs/plan/`: Implementation progress reports, milestone execution tracking, and verification metrics.
   - `specs/templates/`: Reusable SDD templates.
 - `src/`: Frontend React + Vite + TypeScript + Tailwind CSS application.
-- `server/`: Backend Node.js + Express proxy integrating with the Gemini API.
+- `server/`: Backend Node.js + Express / FastAPI proxy integrating with the Gemini API.
 - `terraform/`: Declarative Infrastructure as Code for Cloud Run, Artifact Registry, IAM, and observability managed via Infrastructure Manager.
 - `_agents/rules/`: Agent behavioral rules, SDD standards, and DevOps/Security governance.

@@ -1,9 +1,9 @@
 ---
 trigger: always_on
-description: "Strictly enforce Spec-Driven Development (SDD) with mandatory brownfield baseline, detailed implementation plans, and unit + property-based testing at every step."
+description: "Strictly enforce Spec-Driven Development (SDD) with mandatory brownfield baseline, detailed implementation plans, unit + property-based testing at every step, and continuous plan progress tracking in specs/plan/."
 ---
 
-# Rule: Spec-Driven Development (SDD) & Brownfield Protocol
+# Rule: Spec-Driven Development (SDD), Brownfield Protocol & Plan Progress Tracking
 
 ## Core Mandate
 This project operates strictly under the **Spec-Driven Development (SDD)** process.
@@ -11,6 +11,7 @@ This project operates strictly under the **Spec-Driven Development (SDD)** proce
 1. An approved, up-to-date Specification Document (SDD) stored under `specs/`.
 2. A detailed **Implementation Plan** breaking down changes into concrete steps.
 3. Dedicated **Unit Tests** and **Property-Based Tests (PBT)** defined for every implementation step.
+4. Continuous **Plan Progress Tracking** documented under `specs/plan/`.
 
 ---
 
@@ -24,7 +25,7 @@ When working on an existing (brownfield) codebase or modifying any existing subs
    - If no Baseline SDD exists (or if it is out-of-date), you **MUST** inspect the existing code, dependencies, data contracts, and APIs to generate a complete Baseline SDD first.
    - The Baseline SDD must accurately document the "as-is" state:
      - Architecture and subsystem boundaries
-     - Data models and TypeScript types / schemas
+     - Data models and TypeScript / Python types / schemas
      - API endpoints, payloads, headers, and error behaviors
      - Business logic, algorithms, and domain constraints
      - UI/UX workflows and component hierarchy
@@ -55,7 +56,7 @@ Every development task must progress through these sequential phases:
 [Phase 4: Step-by-Step Implementation + Unit & Property Tests]
                │
                ▼
-[Phase 5: Verification, Full Test Suite & Living Spec Sync]
+[Phase 5: Verification, Living Spec Sync & Plan Progress Tracking]
 ```
 
 ### Phase 0: Baseline Discovery (Brownfield only)
@@ -91,51 +92,69 @@ Before writing production code, author a granular **Implementation Plan** in the
   3. Implement the accompanying Property-Based Tests.
   4. Run and verify that all tests pass before proceeding to the next step.
 
-### Phase 5: Verification & Living Spec Synchronization
-- Run the complete test suite (all unit tests and property tests).
+### Phase 5: Verification, Living Spec Sync & Plan Progress Tracking
+- Run the complete test suite (all unit tests, property tests, and evaluation benchmarks).
 - Verify against every Acceptance Criterion in the SDD.
-- If necessary refinements arise during implementation, update the SDD immediately to prevent spec drift.
+- Synchronize any spec modifications to prevent spec drift.
+- **Update Plan Progress:** Author or update the execution progress report in `specs/plan/` documenting completed milestones, test metrics, and next steps.
 
 ---
 
-## 3. Mandatory Testing Standards for Every Step
+## 3. Plan Progress Tracking Protocol (`specs/plan/`)
+
+All execution progress must be continuously recorded in the `specs/plan/` directory:
+
+1. **Progress Report Requirements:**
+   - **Specification Linkage:** State the associated SDD document ID (e.g., `SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md`).
+   - **Step-by-Step Progress Matrix:** Detailed table tracking completed vs pending steps, implemented files, and test suites.
+   - **Quality & Test Metrics:** Up-to-date summary of test pass rates (Unit, PBT, Golden Benchmarks), execution latency, and invariant verification.
+   - **Delivered Capabilities:** Non-obvious architectural decisions, model integrations, security guardrails, and UI enhancements.
+   - **Roadmap & Next Actions:** Concrete, actionable next steps when resuming development.
+2. **Milestone & Pause Synchronization:**
+   - Whenever development is paused, handed off, or a major phase completes, the agent **MUST** update `specs/plan/` and synchronize `specs/README.md` before concluding the session.
+
+---
+
+## 4. Mandatory Testing Standards for Every Step
 
 For **every step** in the implementation plan:
 
-### 3.1 Unit Testing Requirements
+### 4.1 Unit Testing Requirements
 - **Deterministic Examples:** Test concrete inputs and verified expected outputs.
-- **Boundary & Edge Conditions:** Empty sets, max limits (e.g., 20 images limit, exactly 6 digits), malformed payloads, network timeout errors.
-- **Mocking & Isolation:** Isolate external services (e.g. mock Gemini API calls and network transport) to ensure fast, reliable test execution.
+- **Boundary & Edge Conditions:** Empty sets, max limits, malformed payloads, network timeout errors.
+- **Mocking & Isolation:** Isolate external services to ensure fast, reliable test execution.
 
-### 3.2 Property-Based Testing (PBT) Requirements
-- **Universal Invariants:** Formulate properties that must hold true for *all* valid inputs (e.g., "Severity ordering is monotonic: grade(F) >= grade(E) >= ... >= grade(A)", "Summary grade is never better than any individual image grade", "Non-relevant/NA results never alter valid grade aggregation").
-- **Generative Arbitraries:** Use generators (`fc.string()`, `fc.record()`, `fc.array()`) to produce hundreds of permutations.
+### 4.2 Property-Based Testing (PBT) Requirements
+- **Universal Invariants:** Formulate properties that must hold true for *all* valid inputs (e.g., "Severity ordering is monotonic", "Blocked injections never invoke database tools", "Clarification depth is strictly bounded at <= 3").
+- **Generative Arbitraries:** Use generators (`st.text()`, `st.integers()`, `st.sampled_from()`) to produce hundreds of permutations.
 - **Shrinking & Counterexamples:** Ensure failing properties produce minimal failing examples to quickly diagnose edge bugs.
-- **Idempotence & Round-tripping:** Test serialization/deserialization, normalizer idempotence (`normalize(normalize(x)) === normalize(x)`).
+- **Idempotence & Round-tripping:** Test serialization/deserialization, normalizer idempotence.
 
 ---
 
-## 4. Directory Structure & Spec Organization
+## 5. Directory Structure & Spec Organization
 
-All specifications must reside in the `specs/` directory:
+All specifications and execution tracking must reside in the `specs/` directory:
 
 ```
 specs/
-├── README.md                      # Index of all specifications
+├── README.md                      # Index of all specifications and progress reports
 ├── templates/
 │   └── sdd-template.md            # Standardized template with Implementation Plan & Testing sections
 ├── baseline/                      # Baseline SDDs for existing/brownfield code
 │   └── system-overview.md         # Full system architecture, stack & invariants
-└── features/                      # Feature specifications and enhancement proposals
-    └── <feature-id>-<title>.md
+├── features/                      # Feature specifications and enhancement proposals
+│   └── <feature-id>-<title>.md
+└── plan/                          # Living implementation progress reports and milestone tracking
+    └── PROGRESS_REPORT_<DATE>.md
 ```
 
 ---
 
-## 5. Hard Enforcement Rules
+## 6. Hard Enforcement Rules
 
 1. **No Code Without Spec & Plan:** Reject or pause direct coding requests until the SDD, detailed implementation plan, and test designs are established.
 2. **Unit & Property Tests Required at Every Step:** Code without corresponding unit tests and property-based tests is strictly prohibited.
 3. **Strict Schema Fidelity:** API responses, frontend types, and backend validation schemas must be exact matches to the SDD contracts.
 4. **Zero Spec Drift:** If code changes behavior, the SDD must be updated in the same commit/change.
-5. **Preserve Domain Invariants:** Ensure core domain properties (container number format, grading severity order, upload caps, credential boundaries) are strictly validated by property tests.
+5. **Living Plan Progress Tracking:** Never pause development or complete a milestone without recording full progress, test metrics, and next steps in `specs/plan/`.
