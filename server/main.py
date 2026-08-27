@@ -78,16 +78,33 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
 
 @app.post("/api/v1/agent/clarify")
 async def handle_clarification(payload: ClarificationPayload):
-    """Handles user selection from <ClarificationCard /> and resumes execution."""
+    """Handles user selection from <ClarificationCard /> and resumes execution with LLM synthesis."""
     tag = payload.target_tag or payload.selected_option_id
     res = orchestrator.clarification.resolve_clarification(tag)
     
-    # Run targeted retrieval with resolved tag
-    search_res = orchestrator.retriever.search_tri_hybrid(f"Show interlocks and equipment data for {tag}")
+    # Run targeted retrieval across all 3 storage tiers
+    interlocks = orchestrator.retriever.mcp.spanner_graph_query(tag, mode="interlocks")
+    upstream = orchestrator.retriever.mcp.spanner_graph_query(tag, mode="upstream")
+    prov = orchestrator.retriever.mcp.query_knowledge_catalog_provenance(tag)
+    wiki_doc = orchestrator.retriever.mcp.read_gcs_wiki_document(tag)
+    
+    # Synthesize unified engineering answer via live Gemini
+    synthesized_answer = orchestrator.synthesize_answer_with_llm(
+        prompt=f"Show interlocks, trip actions, and process safety information for {tag}",
+        target_tag=tag,
+        interlocks=interlocks,
+        upstream=upstream,
+        prov=prov,
+        wiki_doc=wiki_doc
+    )
+    
     return {
         "status": "RESUMED",
         "resolved_tag": tag,
-        "search_results": search_res
+        "synthesized_answer": synthesized_answer,
+        "interlocks": interlocks,
+        "provenance": prov,
+        "wiki_doc": wiki_doc
     }
 
 
