@@ -1,7 +1,6 @@
 """Orchestrator Agent & Multi-Agent Telemetry Dispatcher.
 
-Semantic LLM routing powered by Gemini 3.7 Flash and Google GenAI SDK.
-Supports simultaneous multi-tool execution and dynamic LLM multi-tier synthesis.
+Semantic LLM routing and dynamic live synthesis powered by Google Gemini (gemini-3.6-flash / gemini-3.7-flash).
 SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE Section 2.2, 4.2 & 4.4.
 """
 
@@ -9,6 +8,7 @@ import os
 import time
 import re
 import json
+import httpx
 import asyncio
 from typing import AsyncGenerator, Dict, Any, List, Optional
 from dotenv import load_dotenv
@@ -21,14 +21,6 @@ from agents.extractor.agent import ExtractorAgent
 from agents.database.agent import DatabaseAgent
 from agents.orchestrator.clarification_sm import ClarificationManager, MAX_CLARIFICATION_DEPTH
 
-# Optional Live Gemini Client
-try:
-    from google import genai
-    from google.genai import types
-    GENAI_AVAILABLE = True
-except ImportError:
-    GENAI_AVAILABLE = False
-
 
 class OrchestratorAgent:
     def __init__(self, db_instance):
@@ -39,18 +31,11 @@ class OrchestratorAgent:
         self.database = DatabaseAgent(db_instance)
         self.clarification = ClarificationManager()
 
-        # Initialize Gemini 3.7 Flash client if API key or ADC is available
-        self.gemini_client = None
-        self.model_name = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-        api_key = os.getenv("GEMINI_API_KEY")
-        if GENAI_AVAILABLE and api_key:
-            try:
-                self.gemini_client = genai.Client(api_key=api_key)
-            except Exception as e:
-                print(f"[ORCHESTRATOR NOTICE] Could not initialize Gemini client: {e}")
+        self.api_key = os.getenv("GEMINI_API_KEY", "")
+        self.model_name = os.getenv("DEFAULT_MODEL", "gemini-3.6-flash")
 
     def classify_intent_semantic(self, prompt: str) -> str:
-        """Classifies intent dynamically via Gemini 3.7 Flash or semantic fallback."""
+        """Classifies intent dynamically via Gemini or semantic fallback."""
         p_lower = prompt.lower()
         
         # 1. Ambiguity detection on generic queries
@@ -77,11 +62,12 @@ class OrchestratorAgent:
         prov: Dict[str, Any],
         wiki_doc: Dict[str, Any]
     ) -> str:
-        """Synthesizes a cohesive, question-directed answer via Gemini 3.7 Flash or intelligent synthesis engine."""
+        """Synthesizes a cohesive, question-directed answer via live Gemini API."""
         
-        # Check if live Gemini client is available
-        if self.gemini_client:
+        # Live Gemini API call if key is available
+        if self.api_key:
             try:
+                url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
                 context_payload = {
                     "equipment_tag": target_tag,
                     "active_interlocks": interlocks,
@@ -97,26 +83,28 @@ class OrchestratorAgent:
                     "(such as CHP thermal decomposition limits), state the 1oo2 voting logic, SIS isolation valves in series, "
                     "and cite the As-Built P&ID drawing numbers cleanly."
                 )
-                response = self.gemini_client.models.generate_content(
-                    model=self.model_name,
-                    contents=f"User Question: {prompt}\n\nRetrieved Engineering Context:\n{json.dumps(context_payload, indent=2)}",
-                    config=types.GenerateContentConfig(
-                        system_instruction=system_instruction,
-                        temperature=0.2
-                    )
-                )
-                if response and response.text:
-                    return response.text.strip()
+                payload = {
+                    "contents": [{
+                        "parts": [{
+                            "text": f"{system_instruction}\n\nUser Question: {prompt}\n\nRetrieved Engineering Context:\n{json.dumps(context_payload, indent=2)}"
+                        }]
+                    }]
+                }
+                with httpx.Client(timeout=15.0) as client:
+                    resp = client.post(url, json=payload)
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                        return text
             except Exception as e:
-                print(f"[ORCHESTRATOR NOTICE] Live Gemini generation fallback: {e}")
+                print(f"[ORCHESTRATOR LIVE GEMINI FALLBACK] {e}")
 
-        # Intelligent Question-Focused Synthesizer (Fallback / Local Offline Engine)
+        # Deterministic Fast Offline Synthesizer
         p_lower = prompt.lower()
         hazard_prefix = ""
         if "chp" in p_lower or "hydroperoxide" in p_lower or "decomposition" in p_lower:
             hazard_prefix = "- **Chemical Safety Limit (Cumene Hydroperoxide / CHP):** Thermal decomposition onset temperature is **80.0°C**.\n\n"
 
-        # Scenario A: Thermal Runaway & Trip Protections Query
         if "trip" in p_lower or "thermal runaway" in p_lower or "protection" in p_lower or "interlock" in p_lower:
             ans = [
                 f"### **Summary of Trip Protections Preventing Thermal Runaway in {target_tag}**\n",
@@ -135,8 +123,6 @@ class OrchestratorAgent:
                 f"- **As-Built Drawing Reference:** `{prov.get('source_documents', ['14780-8120-25-23-0005_Z1.pdf'])[0]}` (Rev {prov.get('as_built_revision', 'Z1')})."
             ]
             return "\n".join(ans)
-
-        # Scenario B: Upstream / Feed Tracing Query
         elif "upstream" in p_lower or "feed" in p_lower or "flow" in p_lower:
             ans = [
                 f"### **Upstream Feed Topology for {target_tag}**\n",
@@ -146,8 +132,6 @@ class OrchestratorAgent:
                 ans.append(f"- **`{up['upstream_tag']}` ({up['equipment_name']}):** Operating at ~{up['temp_celsius'] or 82}°C via Stream `{up['stream_id']}`")
             ans.append(f"\n**Source Lineage:** Dataplex Knowledge Catalog entry `{prov.get('source_documents', ['14780-8120-25-23-0005_Z1.pdf'])[0]}`.")
             return "\n".join(ans)
-
-        # Scenario C: Pure Chemical Hazard / General Query
         elif "decomposition" in p_lower or "temperature" in p_lower or "onset" in p_lower:
             ans = [
                 f"### **Chemical Hazard & Thermal Limits: Cumene Hydroperoxide (CHP)**\n",
@@ -158,8 +142,6 @@ class OrchestratorAgent:
                 "- **Process Safety Boundary:** All cleavage preflash and concentration equipment (e.g. `E-2303`, `V-2301`, `D-2303`) must operate with redundant SIS temperature trips set below onset limits."
             ]
             return "\n".join(ans)
-
-        # Scenario D: Full Audit / Comprehensive Overview
         else:
             ans = [
                 f"### 🛡️ Process Safety & Engineering Dossier for **{target_tag}**\n",
@@ -247,7 +229,6 @@ class OrchestratorAgent:
             }
         }
 
-        # Check detected equipment tag
         tag_match = re.search(r'\b([A-Z]-[0-9]{4}[A-Z/]*)\b', prompt)
         target_tag = tag_match.group(1) if tag_match else ("V-2301" if "v-2301" in p_lower else "E-2303")
 
@@ -320,7 +301,7 @@ class OrchestratorAgent:
             }
         }
 
-        # Synthesize Unified LLM Answer
+        # Synthesize Unified LLM Answer via Live Gemini API
         synthesized_answer = self.synthesize_answer_with_llm(
             prompt=prompt,
             target_tag=target_tag,
