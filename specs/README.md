@@ -15,7 +15,10 @@ specs/
 │   └── sdd-template.md            ← Standardized SDD template with Implementation Plan & Testing Matrix
 ├── baseline/                      ← Brownfield baseline specifications (as-is system state)
 │   └── system-overview.md         ← Full system baseline: architecture, data models, workflows, invariants
-└── features/                      ← Future feature proposals and modifications (delta specs)
+├── features/                      ← Future feature proposals and modifications (delta specs)
+│   └── SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md
+└── plan/                          ← Implementation progress reports and execution tracking
+    └── PROGRESS_REPORT_20260827.md
 ```
 
 ---
@@ -34,11 +37,17 @@ specs/
 |---|---|---|
 | [`specs/templates/sdd-template.md`](./templates/sdd-template.md) | Standard SDD Template | Required format for all new feature specifications, major refactors, or API changes. |
 
-### 2.3 Proposed Feature Specifications (`specs/features/`)
+### 2.3 Feature Specifications & Architecture (`specs/features/`)
 
 | Document ID | Title | Scope | Status | Last Updated |
 |---|---|---|---|---|
-| [`SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE`](./features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) | **Multi-Agent Cloud Architecture & Enterprise HAZOP Platform** | Decomposes system into 5 Gemini 3.7 Flash subagents (Extractor, Database, Retriever, Orchestrator, HAZOP), Cloud Spanner Graph + Dataplex Knowledge Catalog storage, MCP tools, Google Agent CLI (`agents-cli` / `adk` / `agy` / `agentapi`), and Web UI with full observability (Agent Thinking, Subagent Calling, Tool Invocations, and GQL Query Inspector). | Implemented & Verified | 2026-08-25 |
+| [`SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE`](./features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) | **Multi-Agent Cloud Architecture & Enterprise HAZOP Platform** | Decomposes system into 5 Gemini 3.7 Flash subagents, Cloud Spanner Graph + Dataplex Knowledge Catalog, Model Armor guardrails, and Web UI with full observability. | Implemented & Verified | 2026-08-27 |
+
+### 2.4 Implementation Progress & Execution Reports (`specs/plan/`)
+
+| Document ID | Title | Scope | Status | Last Updated |
+|---|---|---|---|---|
+| [`PLAN-20260827-PROGRESS-REPORT`](./plan/PROGRESS_REPORT_20260827.md) | **Implementation & Verification Progress Report** | Tracks completion of Steps 1.0–8.0, 40/40 Unit & PBT tests, Model Armor integration, live Gemini synthesis, and test prompts. | Implemented & Verified (40/40 Tests Green) | 2026-08-27 |
 
 ---
 
