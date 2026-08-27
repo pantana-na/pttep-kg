@@ -1,6 +1,6 @@
 """Orchestrator Agent & Multi-Agent Telemetry Dispatcher.
 
-Semantic LLM routing, live Gemini synthesis, and inline Google Cloud Model Armor prompt injection guardrails.
+Dynamic intent-specific tool dispatching, live Gemini synthesis, and inline Google Cloud Model Armor prompt injection guardrails.
 SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE Section 2.2, 4.2, 4.4 & 6.5.
 """
 
@@ -75,15 +75,13 @@ class OrchestratorAgent:
                     "active_interlocks": interlocks,
                     "upstream_feed_topology": upstream,
                     "dataplex_provenance": prov,
-                    "wiki_narrative_excerpt": wiki_doc.get("full_content", "")[:2500]
+                    "wiki_narrative_excerpt": wiki_doc.get("full_content", "")[:2500] if wiki_doc else ""
                 }
                 system_instruction = (
                     "You are the Lead Process Safety & HAZOP AI Expert for PTT Global Chemical (PTT GC) Phenol Plant. "
                     "Synthesize a clear, highly professional, direct answer to the user's question using the retrieved "
-                    "process safety information from Cloud Spanner Graph, Dataplex Knowledge Catalog, and GCS LLM-Wiki. "
-                    "Do NOT dump raw disconnected tables. Specifically answer the question asked, explain the chemical reasoning "
-                    "(such as CHP thermal decomposition limits), state the 1oo2 voting logic, SIS isolation valves in series, "
-                    "and cite the As-Built P&ID drawing numbers cleanly."
+                    "process safety information. Do NOT dump raw disconnected tables. Specifically answer the question asked, "
+                    "explain the engineering reasoning, state voting logic and isolation valves if relevant, and cite As-Built drawing references cleanly."
                 )
                 payload = {
                     "contents": [{
@@ -134,14 +132,20 @@ class OrchestratorAgent:
                 ans.append(f"- **`{up['upstream_tag']}` ({up['equipment_name']}):** Operating at ~{up['temp_celsius'] or 82}°C via Stream `{up['stream_id']}`")
             ans.append(f"\n**Source Lineage:** Dataplex Knowledge Catalog entry `{prov.get('source_documents', ['14780-8120-25-23-0005_Z1.pdf'])[0]}`.")
             return "\n".join(ans)
-        elif "decomposition" in p_lower or "temperature" in p_lower or "onset" in p_lower:
+        elif "drawing" in p_lower or "lineage" in p_lower or "provenance" in p_lower:
             ans = [
-                f"### **Chemical Hazard & Thermal Limits: Cumene Hydroperoxide (CHP)**\n",
-                f"{hazard_prefix}**Key Parameters:**",
-                "- **Chemical Name:** Cumene Hydroperoxide (CHP)",
-                "- **Decomposition Onset Temperature:** **80.0°C**",
-                "- **Hazard Classification:** Organic Peroxide (Type F), Self-Accelerating Decomposition (SADT), Exothermic Runaway Risk.",
-                "- **Process Safety Boundary:** All cleavage preflash and concentration equipment (e.g. `E-2303`, `V-2301`, `D-2303`) must operate with redundant SIS temperature trips set below onset limits."
+                f"### **Document Provenance & Knowledge Catalog Metadata for {target_tag}**\n",
+                f"- **Dataplex Entry Group:** `phenol-psi`",
+                f"- **PSI Category:** {prov.get('psi_category', 'Category 4 - Equipment Data Sheet')}",
+                f"- **Source Drawings:** {', '.join(f'`{s}`' for s in prov.get('source_documents', []))}",
+                f"- **Revision Status:** `{prov.get('as_built_revision', 'Z1')}`"
+            ]
+            return "\n".join(ans)
+        elif "read" in p_lower or "wiki" in p_lower or "procedure" in p_lower:
+            ans = [
+                f"### **GCS LLM-Wiki Operational Narrative for {target_tag}**\n",
+                f"**GCS URI:** `{wiki_doc.get('gcs_uri', 'gs://phenol-llm-wiki/wiki/equipment/' + target_tag + '.md')}`\n",
+                f"{wiki_doc.get('full_content', 'Narrative loaded.')[:1000]}..."
             ]
             return "\n".join(ans)
         else:
@@ -155,7 +159,8 @@ class OrchestratorAgent:
             ]
             for inst in interlocks:
                 ans.append(f"- `{inst['instrument_tag']}` ({inst['type']}) — SIL: **{inst['sil_rating']}**, Action: {inst['interlock_action']}")
-            ans.append(f"\n**GCS Wiki Reference:** `{wiki_doc.get('gcs_uri', 'gs://phenol-llm-wiki/wiki/equipment/' + target_tag + '.md')}`")
+            if wiki_doc and wiki_doc.get("gcs_uri"):
+                ans.append(f"\n**GCS Wiki Reference:** `{wiki_doc.get('gcs_uri')}`")
             return "\n".join(ans)
 
     async def stream_orchestration(self, prompt: str, session_id: str = "sess-001") -> AsyncGenerator[Dict[str, Any], None]:
@@ -279,87 +284,99 @@ class OrchestratorAgent:
             yield {"event": "message_done", "data": {"status": "COMPLETED"}}
             return
 
-        # Step 4: Handle Process Safety Multi-Tier Search (Simultaneous 3-Tool Calling)
+        # Step 4: Handle Process Safety Search with Dynamic Granular Tool Selection
+        tag_match = re.search(r'\b([A-Z]-[0-9]{4}[A-Z/]*)\b', prompt)
+        target_tag = tag_match.group(1) if tag_match else ("V-2301" if "v-2301" in p_lower else "E-2303")
+
+        # Determine which tools are needed based on prompt semantics
+        is_drawing_query = any(k in p_lower for k in ["drawing", "lineage", "provenance", "source", "catalog", "pdf", "dataplex"]) and not any(k in p_lower for k in ["trip", "interlock", "feeding", "upstream", "audit", "all"])
+        is_wiki_query = any(k in p_lower for k in ["read", "procedure", "narrative", "full text", "wiki", "manual", "description"]) and not any(k in p_lower for k in ["trip", "interlock", "feeding", "upstream", "audit", "all"])
+        is_upstream_query = any(k in p_lower for k in ["feeding", "upstream", "feed", "flow"])
+        is_comprehensive_or_interlock = not (is_drawing_query or is_wiki_query or is_upstream_query)
+
+        interlocks = []
+        upstream = []
+        prov = {}
+        wiki_doc = {}
+
         yield {
             "event": "subagent_dispatch",
             "data": {
                 "subagent_name": "RetrieverAgent",
-                "task_description": "Execute Tri-Tier Parallel Retrieval (Cloud Spanner Graph + Dataplex Knowledge Catalog + GCS LLM-Wiki).",
+                "task_description": f"Query process safety information for {target_tag}.",
                 "session_id": session_id
             }
         }
 
-        tag_match = re.search(r'\b([A-Z]-[0-9]{4}[A-Z/]*)\b', prompt)
-        target_tag = tag_match.group(1) if tag_match else ("V-2301" if "v-2301" in p_lower else "E-2303")
+        # TOOL 1: Cloud Spanner Graph Query (for Upstream, Interlocks, or Comprehensive)
+        if is_upstream_query or is_comprehensive_or_interlock:
+            yield {
+                "event": "tool_invoked",
+                "data": {
+                    "tool_name": "spanner_graph_query",
+                    "tool_args": {"target_tag": target_tag, "mode": "upstream" if is_upstream_query else "interlocks"},
+                    "invoking_subagent": "RetrieverAgent"
+                }
+            }
+            interlocks = self.retriever.mcp.spanner_graph_query(target_tag, mode="interlocks")
+            upstream = self.retriever.mcp.spanner_graph_query(target_tag, mode="upstream")
+            yield {
+                "event": "tool_result",
+                "data": {
+                    "tool_name": "spanner_graph_query",
+                    "result_preview": f"Retrieved {len(upstream)} upstream feeds and {len(interlocks)} SIS interlocks from Spanner Graph.",
+                    "latency_ms": 18
+                }
+            }
+            yield {
+                "event": "gql_executed",
+                "data": {
+                    "raw_gql": f"GRAPH PhenolProcessSafetyGraph MATCH (src:Equipment)-[r:FEEDS*1..3]->(target:Equipment {{EquipmentTag: '{target_tag}'}}) RETURN src, r, target",
+                    "execution_time_ms": 18,
+                    "rows_returned": len(upstream) + len(interlocks),
+                    "true_time_token": "0x4e29b109_spanner_truetime"
+                }
+            }
 
-        # TOOL 1: Cloud Spanner Graph Query
-        yield {
-            "event": "tool_invoked",
-            "data": {
-                "tool_name": "spanner_graph_query",
-                "tool_args": {"target_tag": target_tag, "mode": "interlocks_and_topology"},
-                "invoking_subagent": "RetrieverAgent"
+        # TOOL 2: Dataplex Knowledge Catalog Provenance (for Drawing, Upstream, or Comprehensive)
+        if is_drawing_query or is_upstream_query or is_comprehensive_or_interlock:
+            yield {
+                "event": "tool_invoked",
+                "data": {
+                    "tool_name": "query_knowledge_catalog_provenance",
+                    "tool_args": {"target_tag": target_tag},
+                    "invoking_subagent": "RetrieverAgent"
+                }
             }
-        }
-        interlocks = self.retriever.mcp.spanner_graph_query(target_tag, mode="interlocks")
-        upstream = self.retriever.mcp.spanner_graph_query(target_tag, mode="upstream")
-        yield {
-            "event": "tool_result",
-            "data": {
-                "tool_name": "spanner_graph_query",
-                "result_preview": f"Retrieved {len(interlocks)} SIS interlocks and {len(upstream)} upstream feeds from Cloud Spanner Graph.",
-                "latency_ms": 18
+            prov = self.retriever.mcp.query_knowledge_catalog_provenance(target_tag)
+            yield {
+                "event": "tool_result",
+                "data": {
+                    "tool_name": "query_knowledge_catalog_provenance",
+                    "result_preview": f"Found Dataplex entry: {len(prov.get('source_documents', []))} source drawings (Rev {prov.get('as_built_revision', 'Z1')}).",
+                    "latency_ms": 15
+                }
             }
-        }
 
-        # TOOL 2: Dataplex Knowledge Catalog Provenance Lookup
-        yield {
-            "event": "tool_invoked",
-            "data": {
-                "tool_name": "query_knowledge_catalog_provenance",
-                "tool_args": {"target_tag": target_tag},
-                "invoking_subagent": "RetrieverAgent"
+        # TOOL 3: GCS LLM-Wiki Document Reader (ONLY for Wiki/Procedure or Comprehensive Audits)
+        if is_wiki_query or is_comprehensive_or_interlock:
+            yield {
+                "event": "tool_invoked",
+                "data": {
+                    "tool_name": "read_gcs_wiki_document",
+                    "tool_args": {"target_tag_or_path": target_tag},
+                    "invoking_subagent": "RetrieverAgent"
+                }
             }
-        }
-        prov = self.retriever.mcp.query_knowledge_catalog_provenance(target_tag)
-        yield {
-            "event": "tool_result",
-            "data": {
-                "tool_name": "query_knowledge_catalog_provenance",
-                "result_preview": f"Found Dataplex entry: {len(prov.get('source_documents', []))} source drawings with As-Built revision {prov.get('as_built_revision', 'Z1')}.",
-                "latency_ms": 15
+            wiki_doc = self.retriever.mcp.read_gcs_wiki_document(target_tag)
+            yield {
+                "event": "tool_result",
+                "data": {
+                    "tool_name": "read_gcs_wiki_document",
+                    "result_preview": f"Read full Markdown narrative from GCS LLM-Wiki ({wiki_doc.get('byte_size', 7500)} bytes).",
+                    "latency_ms": 22
+                }
             }
-        }
-
-        # TOOL 3: GCS LLM-Wiki Document Reader
-        yield {
-            "event": "tool_invoked",
-            "data": {
-                "tool_name": "read_gcs_wiki_document",
-                "tool_args": {"target_tag_or_path": target_tag},
-                "invoking_subagent": "RetrieverAgent"
-            }
-        }
-        wiki_doc = self.retriever.mcp.read_gcs_wiki_document(target_tag)
-        yield {
-            "event": "tool_result",
-            "data": {
-                "tool_name": "read_gcs_wiki_document",
-                "result_preview": f"Read full Markdown narrative from GCS LLM-Wiki ({wiki_doc.get('byte_size', 7500)} bytes).",
-                "latency_ms": 22
-            }
-        }
-
-        # Emit GQL executed inspection event
-        yield {
-            "event": "gql_executed",
-            "data": {
-                "raw_gql": f"GRAPH PhenolProcessSafetyGraph MATCH (src:Equipment)-[r:FEEDS*1..3]->(target:Equipment {{EquipmentTag: '{target_tag}'}}) RETURN src, r, target",
-                "execution_time_ms": 18,
-                "rows_returned": len(upstream) + len(interlocks),
-                "true_time_token": "0x4e29b109_spanner_truetime"
-            }
-        }
 
         # Synthesize Unified LLM Answer via Live Gemini API
         synthesized_answer = self.synthesize_answer_with_llm(
