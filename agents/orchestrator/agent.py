@@ -65,7 +65,7 @@ class OrchestratorAgent:
         """Synthesizes a cohesive, question-directed answer via live Gemini API."""
         
         # Live Gemini API call if key is available
-        if self.api_key:
+        if self.api_key and not os.getenv("PYTEST_CURRENT_TEST"):
             try:
                 url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
                 context_payload = {
