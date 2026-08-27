@@ -1,6 +1,6 @@
-"""Retriever Agent Engine with Tri-Hybrid Search & RRF Fusion.
+"""Retriever Agent Engine with Tri-Hybrid Search, Knowledge Catalog & GCS LLM-Wiki Reading.
 
-Executes ISO standard GQL graph traversal, keyword full-text search, and vector search.
+Executes ISO standard GQL graph traversal, keyword search, vector search, Dataplex provenance, and GCS reading.
 SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE Section 4.1 & 4.2.
 """
 
@@ -16,10 +16,56 @@ class RetrieverAgent:
         self.mcp = SpannerMCPServer(db_instance)
 
     def search_tri_hybrid(self, query: str, limit: int = 5) -> Dict[str, Any]:
-        """Executes Tri-Hybrid search with Reciprocal Rank Fusion (RRF)."""
+        """Executes Tri-Hybrid search, Knowledge Catalog queries, and GCS LLM-Wiki reading."""
         tag_match = re.search(r'\b([A-Z]-[0-9]{4}[A-Z/]*)\b', query)
         target_tag = tag_match.group(1) if tag_match else None
+        q_lower = query.lower()
 
+        # Check if query is asking for Knowledge Catalog / Provenance / Drawing Lineage
+        if target_tag and any(k in q_lower for k in ["lineage", "provenance", "source", "drawing", "catalog", "pdf", "revision", "dataplex"]):
+            prov = self.mcp.query_knowledge_catalog_provenance(target_tag)
+            if prov["status"] == "FOUND":
+                sources_str = ", ".join(f"`{s}`" for s in prov["source_documents"])
+                summary_lines = [
+                    f"### 📋 Dataplex Knowledge Catalog & Provenance Lineage: **{target_tag}**",
+                    f"- **Equipment:** {prov['entity_name']}",
+                    f"- **PSI Category:** {prov['psi_category']}",
+                    f"- **Source Engineering Documents:** {sources_str}",
+                    f"- **As-Built Revision Status:** `{prov['as_built_revision']}`",
+                    f"- **Dataplex Entry Group:** `{prov['dataplex_entry_group']}`",
+                    f"- **Catalog Governance Tags:** {', '.join(f'`{t}`' for t in prov['governance_tags'])}",
+                    f"- **Last Verified Ingestion Date:** {prov['last_catalog_sync']}"
+                ]
+                return {
+                    "status": "SUCCESS",
+                    "query": query,
+                    "detected_tag": target_tag,
+                    "mode": "KNOWLEDGE_CATALOG_QUERY",
+                    "provenance": prov,
+                    "top_results": [],
+                    "formatted_summary": "\n".join(summary_lines)
+                }
+
+        # Check if query is asking to read full GCS LLM-Wiki narrative or operating procedure
+        if target_tag and any(k in q_lower for k in ["read", "procedure", "narrative", "full text", "wiki", "manual", "description", "details"]):
+            doc = self.mcp.read_gcs_wiki_document(target_tag)
+            if doc["status"] == "SUCCESS":
+                summary_lines = [
+                    f"### 📖 GCS LLM-Wiki Document Reader: **{target_tag}**",
+                    f"**GCS URI:** `{doc['gcs_uri']}` ({doc['byte_size']} bytes)\n",
+                    doc["full_content"]
+                ]
+                return {
+                    "status": "SUCCESS",
+                    "query": query,
+                    "detected_tag": target_tag,
+                    "mode": "GCS_WIKI_READING",
+                    "wiki_doc": doc,
+                    "top_results": [],
+                    "formatted_summary": "\n".join(summary_lines)
+                }
+
+        # Standard Tri-Hybrid Search
         keyword_res = self.mcp.spanner_keyword_search(query, limit=10)
         vector_res = self.mcp.spanner_vector_search(query, limit=10)
         
@@ -34,7 +80,6 @@ class RetrieverAgent:
 
         summary_lines = [f"### Tri-Hybrid Process Safety Search Results for: '{query}'"]
         
-        q_lower = query.lower()
         if "chp" in q_lower or "hydroperoxide" in q_lower or "decomposition" in q_lower:
             for h_id, haz in self.db.chemical_hazards.items():
                 if "chp" in h_id.lower() or "cumene" in haz.chemical_name.lower():

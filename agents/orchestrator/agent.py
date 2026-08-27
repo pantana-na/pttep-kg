@@ -39,7 +39,7 @@ class OrchestratorAgent:
         if "ingest" in p_lower or "upload" in p_lower or "parse pdf" in p_lower:
             return "INGEST_DOCUMENT"
             
-        # 4. Process safety retrieval
+        # 4. Process safety retrieval / Knowledge Catalog / GCS Wiki
         return "SEARCH_PROCESS_SAFETY"
 
     async def stream_orchestration(self, prompt: str, session_id: str = "sess-001") -> AsyncGenerator[Dict[str, Any], None]:
@@ -105,38 +105,50 @@ class OrchestratorAgent:
             yield {"event": "message_done", "data": {"status": "COMPLETED"}}
             return
 
-        # Step 4: Handle Process Safety Search (Tri-Hybrid)
+        # Step 4: Handle Process Safety Search / Knowledge Catalog / GCS LLM-Wiki
         yield {
             "event": "subagent_dispatch",
             "data": {
                 "subagent_name": "RetrieverAgent",
-                "task_description": "Execute Tri-Hybrid Search (Keyword + Vector + Spanner GQL Graph).",
+                "task_description": "Execute Knowledge Catalog lookup, GCS Wiki reader, or Tri-Hybrid Search (Spanner GQL + Vectors).",
                 "session_id": session_id
-            }
-        }
-        yield {
-            "event": "tool_invoked",
-            "data": {
-                "tool_name": "spanner_graph_query",
-                "tool_args": {"query_string": prompt},
-                "invoking_subagent": "RetrieverAgent"
             }
         }
 
         # Run retriever search
         search_res = self.retriever.search_tri_hybrid(prompt)
+        mode = search_res.get("mode", "DIRECT_PARALLEL")
+
+        if mode == "KNOWLEDGE_CATALOG_QUERY":
+            tool_name = "query_knowledge_catalog_provenance"
+            result_preview = f"Retrieved Dataplex Knowledge Catalog entry with {len(search_res['provenance']['source_documents'])} source drawings."
+        elif mode == "GCS_WIKI_READING":
+            tool_name = "read_gcs_wiki_document"
+            result_preview = f"Read full Markdown narrative from GCS LLM-Wiki ({search_res['wiki_doc']['byte_size']} bytes)."
+        else:
+            tool_name = "spanner_graph_query"
+            result_preview = f"Found {len(search_res['top_results'])} ranked entities via RRF fusion."
+
+        yield {
+            "event": "tool_invoked",
+            "data": {
+                "tool_name": tool_name,
+                "tool_args": {"query_string": prompt},
+                "invoking_subagent": "RetrieverAgent"
+            }
+        }
 
         yield {
             "event": "tool_result",
             "data": {
-                "tool_name": "spanner_graph_query",
-                "result_preview": f"Found {len(search_res['top_results'])} ranked entities via RRF fusion.",
-                "latency_ms": 28
+                "tool_name": tool_name,
+                "result_preview": result_preview,
+                "latency_ms": 24
             }
         }
 
-        # If tag detected, emit GQL inspection event
-        if search_res.get("detected_tag"):
+        # If standard search with detected tag, emit GQL inspection event
+        if mode not in ["KNOWLEDGE_CATALOG_QUERY", "GCS_WIKI_READING"] and search_res.get("detected_tag"):
             tag = search_res["detected_tag"]
             yield {
                 "event": "gql_executed",
