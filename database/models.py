@@ -164,3 +164,17 @@ class HybridSearchResult(BaseModel):
     rrf_score: float = 0.0
     summary: str = ""
     metadata: Dict[str, Any] = Field(default_factory=dict)
+
+
+class KnowledgeCatalogEntryModel(BaseModel):
+    entry_id: str
+    entry_group: str = "projects/cs-poc-y03r7kmfyov4kilzg50fd7s/locations/asia-southeast1/entryGroups/phenol-psi"
+    display_name: str
+    description: Optional[str] = None
+    psi_category: int = 6  # Category 6: Process Hazard Analysis & HAZOP
+    aspects: Dict[str, Any] = Field(default_factory=dict)
+    linked_drawings: List[str] = Field(default_factory=list)
+    linked_equipment: List[str] = Field(default_factory=list)
+    deliverable_uri: Optional[str] = None
+    status: str = "COMPLETE"
+    last_updated: Optional[str] = None

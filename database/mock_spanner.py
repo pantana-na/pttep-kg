@@ -48,6 +48,7 @@ class MockSpannerDatabase:
         self.consequences: Dict[str, ConsequenceModel] = {}
         self.safeguards: Dict[str, SafeguardModel] = {}
         self.action_items: Dict[str, ActionItemModel] = {}
+        self.knowledge_catalog: Dict[str, Any] = {}
 
         # Edges
         self.equipment_flows: List[EquipmentFlowEdge] = []
@@ -56,6 +57,15 @@ class MockSpannerDatabase:
 
     def clear(self):
         self.__init__()
+
+    def register_knowledge_catalog_entry(self, entry_id: str, entry_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Registers or updates a Dataplex Knowledge Catalog entry and aspect metadata."""
+        self.knowledge_catalog[entry_id] = entry_data
+        return entry_data
+
+    def get_knowledge_catalog_entry(self, entry_id: str) -> Optional[Dict[str, Any]]:
+        """Retrieves Dataplex Knowledge Catalog entry by entry ID."""
+        return self.knowledge_catalog.get(entry_id)
 
     # --- Ingestion & Seeding from Local Wiki ---
     def seed_from_wiki(self, wiki_dir: str):

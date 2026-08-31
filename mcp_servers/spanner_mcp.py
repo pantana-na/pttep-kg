@@ -77,17 +77,26 @@ class SpannerMCPServer:
                     tags = fm.get("tags", [])
                     last_updated = str(fm.get("last_updated", "2026-06-16"))
 
+        # Check if there is an explicit Knowledge Catalog entry in DB
+        matching_hazop_entry = None
+        if hasattr(self.db, "knowledge_catalog"):
+            for entry_id, entry in self.db.knowledge_catalog.items():
+                if target_tag in entry.get("linked_equipment", []) or target_tag.lower() in entry_id.lower():
+                    matching_hazop_entry = entry
+                    break
+
         return {
             "status": "FOUND",
             "entity_tag": target_tag,
             "entity_name": eq.name,
             "dataplex_entry_group": f"projects/cs-poc-y03r7kmfyov4kilzg50fd7s/locations/asia-southeast1/entryGroups/phenol-psi",
-            "aspect_types": ["oems_psi_aspect", "provenance_lineage_aspect"],
+            "aspect_types": ["oems_005_process_safety_aspect", "provenance_lineage_aspect"],
             "source_documents": sources,
             "psi_category": "Equipment & Process Data Sheets (PSI Category 4 / P&ID Drawing)",
             "governance_tags": tags,
             "as_built_revision": "Z1 (As-Built Certified)",
-            "last_catalog_sync": last_updated
+            "last_catalog_sync": matching_hazop_entry.get("last_updated", last_updated) if matching_hazop_entry else last_updated,
+            "hazop_study_metadata": matching_hazop_entry.get("aspects", {}).get("oems_005_process_safety_aspect") if matching_hazop_entry else None
         }
 
     def read_gcs_wiki_document(self, target_tag_or_path: str) -> Dict[str, Any]:

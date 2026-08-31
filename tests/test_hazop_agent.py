@@ -90,12 +90,12 @@ def test_hazop_excel_export(tmp_path):
     assert Path(saved).exists()
     wb = openpyxl.load_workbook(saved)
     assert "Cover Page" in wb.sheetnames
-    assert "Executive Summary" in wb.sheetnames
-    assert "HAZOP Worksheet" in wb.sheetnames
-    assert "Recommendation Summary" in wb.sheetnames
-    assert "Action Item Tracking" in wb.sheetnames
-    assert "RAM Definition Matrix" in wb.sheetnames
-    assert "Document References" in wb.sheetnames
+    assert "HAZOP Information" in wb.sheetnames
+    assert "WorkSheet Index" in wb.sheetnames
+    assert "WorkSheet CDN-N02" in wb.sheetnames or "HAZOP Worksheet" in wb.sheetnames
+    assert "Action Items" in wb.sheetnames
+    assert "Risk Ranking" in wb.sheetnames
+    assert "Interlock-ESD Summary" in wb.sheetnames
 
 
 # ==============================================================================

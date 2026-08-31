@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>PTT GC Phenol Process Safety & HAZOP AI Platform</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -22,7 +25,7 @@
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
   <!-- Header & Navigation -->
-  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50 px-6 py-3.5 flex items-center justify-between shadow-md">
+  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50 px-6 py-3.5 flex flex-wrap items-center justify-between gap-4 shadow-md">
     <div class="flex items-center gap-3">
       <div class="h-9 w-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-cyan-500 flex items-center justify-center font-bold text-white shadow-lg">
         🛡️
@@ -30,19 +33,19 @@
       <div>
         <h1 class="text-sm font-bold tracking-tight text-white flex items-center gap-2">
           PTT GC Phenol Process Safety Expert
-          <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 font-mono">v2.0 CLOUD</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 font-mono">v2.1 CLOUD</span>
         </h1>
         <p class="text-[11px] text-slate-400">Cumene Oxidation & Cleavage Section (CDN / OXI / ALKY)</p>
       </div>
     </div>
 
     <!-- Navigation Tabs -->
-    <nav class="flex items-center gap-1 bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs font-semibold">
-      <button onclick="switchTab('explorer')" id="tab-btn-explorer" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 text-white transition-all">
+    <nav class="flex items-center gap-2 bg-slate-950 p-1.5 rounded-xl border border-slate-800 text-xs font-semibold shadow-inner">
+      <button onclick="switchTab('explorer')" id="tab-btn-explorer" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 text-white transition-all shadow">
         🔍 Process Explorer (Q&A)
       </button>
       <button onclick="switchTab('hazop')" id="tab-btn-hazop" class="px-3.5 py-1.5 rounded-lg text-slate-400 hover:text-white transition-all">
-        📊 HAZOP Studio & RAM
+        📊 HAZOP Studio & 3-Gate HITL
       </button>
       <button onclick="switchTab('docs')" id="tab-btn-docs" class="px-3.5 py-1.5 rounded-lg text-slate-400 hover:text-white transition-all">
         📁 Document Manager
@@ -51,7 +54,7 @@
   </header>
 
   <!-- Main Content Area -->
-  <main class="flex-1 max-w-6xl w-full mx-auto p-6">
+  <main class="flex-1 max-w-[96vw] w-full mx-auto p-4 md:p-6">
     
     <!-- Tab 1: Process Safety Explorer -->
     <section id="tab-explorer" class="space-y-4">
@@ -81,57 +84,202 @@
       </div>
     </section>
 
-    <!-- Tab 2: HAZOP Studio -->
-    <section id="tab-hazop" class="hidden space-y-4">
-      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-        <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-4">
+    <!-- Tab 2: HAZOP Studio & 3-Gate HITL -->
+    <section id="tab-hazop" class="hidden space-y-6">
+      
+      <!-- Stage 1: P&ID Markup Ingestion -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
           <div>
-            <h2 class="text-base font-bold text-white">HAZOP Review: Node CDN-N02 (Preflash Column)</h2>
-            <p class="text-xs text-slate-400">Evaluates deviations using PTT GC 5x5 RAM Matrix (W-(Q-MP)-002 R2)</p>
+            <h2 class="text-base font-bold text-white flex items-center gap-2">
+              📄 Stage 1: Engineer P&ID Markup Upload
+              <span class="text-[10px] px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 font-mono">Node Boundary Rule</span>
+            </h2>
+            <p class="text-xs text-slate-400">Upload engineer-marked P&ID PDF to extract boundaries, drawings, and equipment tags.</p>
           </div>
-          <button onclick="exportExcel()" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-semibold transition-all">
-            📥 Export 7-Tab Excel
+          <div class="flex gap-2">
+            <button onclick="loadSampleMarkup('23-02')" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-indigo-300 rounded-lg border border-slate-700">
+              ⚡ Demo Node 23-02 (Yellow)
+            </button>
+            <button onclick="loadSampleMarkup('23-03')" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-emerald-300 rounded-lg border border-slate-700">
+              ⚡ Demo Node 23-03 (Green)
+            </button>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <input type="file" id="markup-file-input" accept=".pdf" class="flex-1 bg-slate-950 border border-slate-700 rounded-xl p-2 text-xs text-slate-300 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-xs file:font-semibold file:bg-indigo-600 file:text-white hover:file:bg-indigo-500" />
+          <button onclick="uploadMarkupPDF()" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-semibold shadow-lg">
+            Upload &amp; Extract Boundaries
+          </button>
+        </div>
+      </div>
+
+      <!-- Stage 2: HITL Node Confirmation Card -->
+      <div id="node-confirmation-box" class="hidden bg-slate-900 border-2 border-indigo-500/60 rounded-2xl p-6 shadow-2xl space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <div class="flex items-center gap-3">
+            <span id="node-color-badge" class="px-2.5 py-1 rounded font-bold text-xs bg-yellow-500/20 text-yellow-300 border border-yellow-500/40">Yellow</span>
+            <div>
+              <h3 id="node-title-display" class="text-sm font-bold text-white">Node CDN-N02 — Preflash Column Feed-Heating Circuit</h3>
+              <p id="node-markup-label" class="text-xs text-slate-400">Drawing Markup: Node 23-02 | P&IDs: 14780-8120-25-23-0005, -0005A</p>
+            </div>
+          </div>
+          <button onclick="confirmNodeDefinition()" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-semibold shadow-lg">
+            ✅ Confirm Node &amp; Start Analysis
           </button>
         </div>
 
-        <!-- 3-Risk-Block Worksheet Table -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
+          <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+            <span class="text-indigo-400 font-bold">Inlet Boundaries:</span>
+            <p id="inlet-boundary-text" class="text-slate-300 mt-1"></p>
+          </div>
+          <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+            <span class="text-indigo-400 font-bold">Outlet Boundaries:</span>
+            <p id="outlet-boundary-text" class="text-slate-300 mt-1"></p>
+          </div>
+        </div>
+
+        <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+          <span class="text-indigo-400 font-bold text-xs">Design Intention:</span>
+          <p id="design-intent-text" class="text-xs text-slate-300 mt-1"></p>
+        </div>
+
+        <!-- Normal Operating Parameters Table -->
         <div class="overflow-x-auto">
+          <h4 class="text-xs font-bold text-slate-300 mb-2">Normal Operating Parameters (Itemized per Equipment Tag):</h4>
           <table class="w-full text-left text-xs border-collapse font-mono">
             <thead>
               <tr class="bg-slate-950 text-slate-400 border-b border-slate-800">
-                <th class="p-3">Item</th>
-                <th class="p-3">Deviation</th>
-                <th class="p-3">Cause</th>
-                <th class="p-3">Consequence</th>
-                <th class="p-3 text-center">P/En/Ec/S</th>
-                <th class="p-3 text-center">Initial Risk</th>
-                <th class="p-3">Safeguards (IPL)</th>
-                <th class="p-3 text-center">Mitigated Risk</th>
-                <th class="p-3">Rec #</th>
+                <th class="p-2">Tag</th>
+                <th class="p-2">Stream / Side</th>
+                <th class="p-2">Design Condition</th>
+                <th class="p-2">Operating Condition</th>
+                <th class="p-2">Source</th>
               </tr>
             </thead>
-            <tbody class="divide-y divide-slate-800 text-slate-300">
-              <tr class="hover:bg-slate-800/40">
-                <td class="p-3 font-bold">1.1</td>
-                <td class="p-3 text-indigo-300 font-bold">Higher Temperature</td>
-                <td class="p-3">FCV-0501 fails open</td>
-                <td class="p-3">CHP thermal runaway in E-2303 &gt;80°C</td>
-                <td class="p-3 text-center text-rose-400 font-bold">5/3/4/3 (S=5, L=4)</td>
-                <td class="p-3 text-center"><span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-300 border border-rose-500/40 font-bold">Extreme</span></td>
-                <td class="p-3">TXSHH-0502A/B (1oo2 SIL 1) -&gt; UXV-0501/0502</td>
-                <td class="p-3 text-center"><span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold">High (L2)</span></td>
-                <td class="p-3 text-cyan-300 font-bold">R-001 (Proof Test)</td>
-              </tr>
-            </tbody>
+            <tbody id="params-table-body" class="divide-y divide-slate-800 text-slate-300"></tbody>
           </table>
         </div>
       </div>
+
+      <!-- Stage 3: All-in-One Discovered Risks Excel Grid -->
+      <div id="deviation-facilitator-box" class="hidden bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4">
+          <div>
+            <h2 class="text-base font-bold text-white flex items-center gap-2">
+              📊 All Discovered Risks &amp; Official HAZOP Worksheet
+              <span id="discovered-count-badge" class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 font-mono font-bold">5 Discovered Deviations</span>
+            </h2>
+            <p class="text-xs text-slate-400">All discovered deviations shown simultaneously. Manually adjust Initial Risk or toggle Safety Measures, then press <b>"⚡ Update"</b> to recalculate Final Risk &amp; AI Recommendations.</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <button onclick="openScenarioModal()" class="px-4 py-2 bg-gradient-to-r from-purple-600 via-indigo-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white rounded-xl text-xs font-black shadow-lg border border-purple-400/40 flex items-center gap-2 transition-all cursor-pointer">
+              <span>✨</span> AI Add Risk Scenario
+            </button>
+            <button onclick="addCustomRow()" class="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 rounded-xl border border-slate-700 shadow flex items-center gap-1.5 transition-all cursor-pointer">
+              <span>➕</span> Add Blank Row Manually
+            </button>
+            <button onclick="updateAllRows()" class="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow flex items-center gap-1.5 transition-all cursor-pointer">
+              <span>⚡</span> Update &amp; Recalculate All
+            </button>
+            <button onclick="exportExcelDeliverable()" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold shadow flex items-center gap-1.5 transition-all cursor-pointer">
+              <span>📥</span> Export 7-Tab Official Excel
+            </button>
+          </div>
+        </div>
+
+        <!-- Excel-Like Interactive Grid -->
+        <div class="space-y-2">
+          <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400 font-mono px-1">
+            <div class="flex items-center gap-2">
+              <span class="flex items-center gap-1 text-indigo-400 font-bold">
+                <span>❄️</span> Freeze Panes Active (Ref &amp; Deviation Locked)
+              </span>
+              <span class="text-slate-600">|</span>
+              <span class="text-slate-400">Quick Jump:</span>
+              <button onclick="scrollToColumn('initial')" class="px-2 py-0.5 rounded bg-rose-950/40 text-rose-300 border border-rose-800/50 hover:bg-rose-900/50 text-[11px] font-bold transition-all">🎯 1. Initial Risk</button>
+              <button onclick="scrollToColumn('safeguards')" class="px-2 py-0.5 rounded bg-cyan-950/40 text-cyan-300 border border-cyan-800/50 hover:bg-cyan-900/50 text-[11px] font-bold transition-all">🛡️ 2. Safety Measures</button>
+              <button onclick="scrollToColumn('final')" class="px-2 py-0.5 rounded bg-emerald-950/40 text-emerald-300 border border-emerald-800/50 hover:bg-emerald-900/50 text-[11px] font-bold transition-all">⚡ 3. Final Risk</button>
+              <button onclick="scrollToColumn('recs')" class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 text-[11px] font-bold transition-all">📝 Recommendations</button>
+            </div>
+            <span class="text-slate-500 font-semibold hidden md:inline">27-Column PTT GC Standard Mapped</span>
+          </div>
+
+          <!-- Viewport-Constrained Scroll Container with Always-Visible Horizontal Scrollbar -->
+          <div id="worksheet-grid-scroll-container" class="overflow-auto border-2 border-slate-800 rounded-2xl bg-slate-950 shadow-2xl max-h-[calc(100vh-280px)] min-h-[520px] relative">
+            <table class="w-full text-left text-xs border-collapse font-sans min-w-[2200px] table-fixed">
+              <thead>
+                <tr class="text-slate-200 border-b-2 border-slate-700 text-xs font-bold uppercase tracking-wider shadow-md">
+                  <!-- Frozen Column 1: Ref -->
+                  <th class="sticky left-0 top-0 z-50 bg-slate-900 border-r border-slate-700 p-3.5 w-20 text-center shadow-[2px_0_5px_rgba(0,0,0,0.5)]">Ref</th>
+                  <!-- Frozen Column 2: Deviation & Parameter -->
+                  <th class="sticky left-20 top-0 z-50 bg-slate-900 border-r-2 border-indigo-500/80 p-3.5 w-64 shadow-[4px_0_10px_rgba(0,0,0,0.6)]">Deviation &amp; Parameter</th>
+                  
+                  <!-- Scrollable Columns with Sticky Top Header -->
+                  <th class="sticky top-0 z-30 bg-slate-900 border-r border-slate-800 p-3.5 w-[380px]">Possible Cause</th>
+                  <th class="sticky top-0 z-30 bg-slate-900 border-r border-slate-800 p-3.5 w-[380px]">Potential Consequence</th>
+                  <th class="sticky top-0 z-30 bg-slate-900 border-r border-slate-800 p-3.5 w-[340px] text-center">
+                    <div class="font-black text-rose-300 text-xs">1. Initial 1st Risk (Editable)</div>
+                    <div class="text-[10px] text-slate-400 font-normal mt-0.5 font-mono">PEES (1-5) &amp; Likelihood (1-5)</div>
+                  </th>
+                  <th class="sticky top-0 z-30 bg-slate-900 border-r border-slate-800 p-3.5 w-[420px]">
+                    <div class="font-black text-cyan-300 text-xs">2. Safety Measures (Selectable)</div>
+                    <div class="text-[10px] text-slate-400 font-normal mt-0.5 font-mono">Select SIS/BPCS &amp; Add IPLs</div>
+                  </th>
+                  <th class="sticky top-0 z-30 bg-slate-900 border-r border-slate-800 p-3.5 w-[260px] text-center">
+                    <div class="font-black text-emerald-300 text-xs">3. Final 2nd Risk</div>
+                    <div class="text-[10px] text-slate-400 font-normal mt-0.5 font-mono">Mitigated L &amp; Final RAM Rating</div>
+                  </th>
+                  <th class="sticky top-0 z-30 bg-slate-900 border-r border-slate-800 p-3.5 w-[380px]">Recommendation (Rec#)</th>
+                  <th class="sticky top-0 z-30 bg-slate-900 p-3.5 text-center w-32">Action</th>
+                </tr>
+              </thead>
+              <tbody id="worksheet-grid-body" class="divide-y divide-slate-800/80 text-slate-200">
+                <!-- Dynamically rendered rows -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Study Finalization & Regulatory Sync Banner -->
+        <div class="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-950 border border-slate-800 rounded-xl">
+          <div>
+            <h4 class="text-xs font-bold text-white flex items-center gap-2">
+              <span>🛡️</span> Study Finalization &amp; Regulatory Lineage
+            </h4>
+            <p class="text-[11px] text-slate-400">Syncs approved risk assessments to Wiki markdown, Spanner Knowledge Graph, and Dataplex Knowledge Catalog.</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="exportExcelDeliverable()" class="px-4 py-2 bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white rounded-xl text-xs font-bold shadow-lg flex items-center gap-2">
+              <span>📥</span> Finalize Study &amp; Sync to Knowledge Catalog (.xlsx)
+            </button>
+          </div>
+        </div>
+
+        <!-- Knowledge Catalog & Spanner Sync Live Telemetry Card -->
+        <div id="sync-telemetry-card" class="hidden p-4 bg-emerald-950/30 border border-emerald-500/40 rounded-xl font-mono text-xs text-emerald-300 space-y-2">
+          <div class="flex items-center justify-between font-bold">
+            <span class="flex items-center gap-2"><span>✅</span> STUDY FINALIZED &amp; SYNCHRONIZED</span>
+            <span id="sync-timestamp" class="text-[10px] text-emerald-400"></span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+            <div>• <b>Spanner Graph:</b> <span id="sync-spanner-status" class="text-white"></span></div>
+            <div>• <b>Dataplex Catalog:</b> <span id="sync-dataplex-entry" class="text-white"></span></div>
+            <div>• <b>Action Items Registered:</b> <span id="sync-recs-count" class="text-white"></span></div>
+            <div>• <b>Wiki Source:</b> <span id="sync-wiki-path" class="text-white"></span></div>
+          </div>
+        </div>
+
+      </div>
+
     </section>
 
     <!-- Tab 3: Document Manager -->
     <section id="tab-docs" class="hidden space-y-4">
       <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-        <h2 class="text-base font-bold text-white mb-2">Document & Knowledge Lake Manager</h2>
+        <h2 class="text-base font-bold text-white mb-2">Document &amp; Knowledge Lake Manager</h2>
         <p class="text-xs text-slate-400 mb-4">Manage document ingestion, aspect lineage, and cascading deletions.</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -158,7 +306,86 @@
 
   </main>
 
+  <!-- AI Scenario Generator Modal (HITL Option 1) -->
+  <div id="ai-scenario-modal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm items-center justify-center p-4">
+    <div class="bg-slate-900 border-2 border-indigo-500/60 rounded-3xl p-6 max-w-2xl w-full shadow-2xl space-y-4 max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="h-9 w-9 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-lg shadow-md">✨</div>
+          <div>
+            <h3 class="text-sm font-bold text-white">AI-Powered HAZOP Scenario Creator</h3>
+            <p class="text-[11px] text-slate-400">Describe any "What-if" scenario or pick a suggested failure mode. The AI synthesizes the complete HAZOP row.</p>
+          </div>
+        </div>
+        <button onclick="closeScenarioModal()" class="text-slate-400 hover:text-white text-xl font-bold p-1 cursor-pointer">✕</button>
+      </div>
+
+      <!-- Quick-select chips -->
+      <div class="space-y-1.5">
+        <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">Suggested Scenarios:</span>
+        <div class="flex flex-wrap gap-1.5">
+          <button onclick="setScenarioPrompt('Loss of instrument air supply to SC1.5 steam control valve TV-0501')" class="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-700 hover:border-indigo-500 text-[11px] text-indigo-300 transition-colors cursor-pointer">💨 Instrument Air Loss (TV-0501)</button>
+          <button onclick="setScenarioPrompt('Loss of electrical power to P-2308A/B condensate return pumps')" class="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-700 hover:border-indigo-500 text-[11px] text-indigo-300 transition-colors cursor-pointer">⚡ Power Blackout (P-2308)</button>
+          <button onclick="setScenarioPrompt('Tube rupture in heat exchanger E-2303 steam side to process shell')" class="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-700 hover:border-indigo-500 text-[11px] text-indigo-300 transition-colors cursor-pointer">💥 E-2303 Tube Rupture</button>
+          <button onclick="setScenarioPrompt('Acid or transition metal (Fe/Cu) ingress upstream into oxidate feed stream')" class="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-700 hover:border-indigo-500 text-[11px] text-indigo-300 transition-colors cursor-pointer">🧪 Chemical Contamination</button>
+          <button onclick="setScenarioPrompt('Loss of cumene seal flush and nitrogen barrier to circulation pumps')" class="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-700 hover:border-indigo-500 text-[11px] text-indigo-300 transition-colors cursor-pointer">💧 Loss of Seal Flush</button>
+        </div>
+      </div>
+
+      <!-- Natural Language Input -->
+      <div class="space-y-1.5">
+        <label class="text-xs font-bold text-slate-200 block">Describe "What-if" Scenario in Natural Language:</label>
+        <textarea id="scenario-prompt-input" placeholder="e.g. What if the cooling water header fails or oxidate feed valve FCV-0501 sticks fully open?" class="w-full bg-slate-950 border border-slate-700 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 rounded-xl p-3 text-xs text-white font-mono leading-relaxed resize-y min-h-[90px]"></textarea>
+      </div>
+
+      <!-- Generate Action -->
+      <button id="scenario-generate-btn" onclick="generateRowFromScenario()" class="w-full py-3 bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white rounded-xl text-xs font-black shadow-lg flex items-center justify-center gap-2 transition-all cursor-pointer">
+        <span>✨</span> Synthesize HAZOP Row with Process AI
+      </button>
+
+      <!-- AI Live Preview Container (populated dynamically) -->
+      <div id="scenario-preview-box" class="hidden space-y-3 p-4 bg-slate-950 rounded-2xl border border-indigo-500/40 text-xs font-mono">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+          <span class="text-emerald-400 font-bold flex items-center gap-1.5"><span>✅</span> AI-Synthesized HAZOP Row Ready</span>
+          <span id="preview-ref-badge" class="px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-bold"></span>
+        </div>
+        <div class="space-y-1.5 text-slate-300 text-[11px]">
+          <div><b class="text-indigo-400">Deviation:</b> <span id="preview-dev"></span></div>
+          <div><b class="text-indigo-400">Root Cause:</b> <span id="preview-cause" class="text-slate-200"></span></div>
+          <div><b class="text-indigo-400">Consequence:</b> <span id="preview-conseq" class="text-slate-200"></span></div>
+          <div class="flex flex-wrap items-center gap-3 pt-1">
+            <div><b class="text-rose-400">Initial Risk:</b> <span id="preview-wo-rr"></span></div>
+            <div><b class="text-cyan-400">Safeguards:</b> <span id="preview-sgs-count"></span></div>
+            <div><b class="text-emerald-400">Final Risk:</b> <span id="preview-w-rr"></span></div>
+          </div>
+        </div>
+        <div class="pt-2 flex items-center justify-end gap-2">
+          <button onclick="closeScenarioModal()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold cursor-pointer">Cancel</button>
+          <button onclick="insertSynthesizedRow()" class="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-black shadow-lg flex items-center gap-1.5 cursor-pointer">
+            <span>➕</span> Insert Row into Worksheet
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
+    // State management
+    window.currentStudy = {
+      node_id: "CDN-N02",
+      name: "Preflash Column Feed-Heating / Steam-Condensate Circuit",
+      markup_label: "Node 23-02",
+      colour_code: "Yellow",
+      unit: "CDN",
+      equipment_tags: ["E-2302A/B", "E-2303", "D-2308", "P-2308A/B"],
+      pid_drawings: ["14780-8120-25-23-0005", "14780-8120-25-23-0005A"],
+      inlet_boundary: "Oxidate feed to E-2302A/B tube side (from feed filters X-2302A/B / Node 23-01) + hot OXI recirculate to E-2302A/B shell + SC1.5 steam supply to E-2303 tube (via UXV-0501/0502)",
+      outlet_boundary: "Heated oxidate to V-2301 (Preflash Column) + OXI recirculate shell return to OXI + steam condensate from P-2308A/B to condensate return system (66-0056)",
+      design_intent: "Heat oxidate feed to Preflash Column target temp: recover heat in E-2302A/B, trim with SC1.5 steam in E-2303, deliver to V-2301; collect/return E-2303 condensate.",
+      parameters: []
+    };
+    window.currentRows = [];
+
     function switchTab(tabId) {
       ['explorer', 'hazop', 'docs'].forEach(t => {
         document.getElementById(`tab-${t}`).classList.add('hidden');
@@ -168,6 +395,661 @@
       document.getElementById(`tab-btn-${tabId}`).className = 'px-3.5 py-1.5 rounded-lg bg-indigo-600 text-white font-semibold transition-all';
     }
 
+    // ========================================================
+    // Stage 1 & 2: P&ID Markup Upload & Node Confirmation
+    // ========================================================
+    async function uploadMarkupPDF() {
+      const fileInput = document.getElementById('markup-file-input');
+      if (!fileInput.files.length) {
+        alert("Please select a marked-up P&ID PDF file.");
+        return;
+      }
+      const file = fileInput.files[0];
+      const formData = new FormData();
+      formData.append("file", file);
+
+      try {
+        const resp = await fetch('/api/v1/hazop/upload-markup', {
+          method: 'POST',
+          body: formData
+        });
+        const data = await resp.json();
+        renderNodeConfirmation(data.node_definition);
+      } catch (err) {
+        alert("Error parsing PDF markup: " + err);
+      }
+    }
+
+    function loadSampleMarkup(nodeKey) {
+      if (nodeKey === '23-02') {
+        renderNodeConfirmation({
+          node_id: "CDN-N02",
+          name: "Preflash Column Feed-Heating / Steam-Condensate Circuit",
+          markup_label: "Node 23-02 (engineer P&ID markup)",
+          colour_code: "Yellow",
+          unit: "CDN",
+          pid_drawings: ["14780-8120-25-23-0005", "14780-8120-25-23-0005A"],
+          inlet_boundary: "Oxidate feed to E-2302A/B tube side (from feed filters X-2302A/B / Node 23-01) + hot OXI recirculate to E-2302A/B shell + SC1.5 steam supply to E-2303 tube (via UXV-0501/0502)",
+          outlet_boundary: "Heated oxidate to V-2301 (Preflash Column) + OXI recirculate shell return to OXI + steam condensate from P-2308A/B to condensate return system (66-0056)",
+          equipment_tags: ["E-2302A/B", "E-2303", "D-2308", "P-2308A/B"],
+          design_intent: "Heat oxidate feed to Preflash Column target temp: recover heat in E-2302A/B, trim with SC1.5 steam in E-2303, deliver to V-2301; collect/return E-2303 condensate.",
+          parameters: [
+            { tag: "E-2302A/B tube", stream: "Fresh oxidate feed (CHP ~22.6 wt%)", design_condition: "12 kg/cm²g / FV @ 83→120 °C", operating_condition: "~82–83 °C; feed flow 1,076,643 kg/h", source: "E-2302AB; PFD-0001" },
+            { tag: "E-2303 shell", stream: "Oxidate (process, CHP)", design_condition: "3.5 kg/cm²g / FV @ 195/250 °C", operating_condition: "in ~82 °C → out ~83 °C target", source: "E-2303" }
+          ]
+        });
+      } else {
+        renderNodeConfirmation({
+          node_id: "CDN-N03",
+          name: "Flash Column Vaporizer & Concentrated Bottoms Circuit",
+          markup_label: "Node 23-03 (engineer P&ID markup)",
+          colour_code: "Green",
+          unit: "CDN",
+          pid_drawings: ["14780-8120-25-23-0007", "14780-8120-25-23-0007A", "14780-8120-25-23-0008"],
+          inlet_boundary: "V-2302 bottoms to E-2304 shell side + SC3 steam supply to E-2304 tube side via UXV-0701..0706 + V-2302 concentrated bottoms to P-2301A/B suction",
+          outlet_boundary: "Two-phase vapor/liquid return to V-2302 + concentrated CHP product to Cleavage Reactor D-2304 via P-2301A/B discharge + E-2304 steam condensate",
+          equipment_tags: ["E-2304", "P-2301A/B", "V-2302", "X-2301A/B"],
+          design_intent: "Reboil V-2302 with SC3 steam in E-2304 to concentrate CHP to ~80-85 wt% and safely pump bottoms to Cleavage Section D-2304 via P-2301A/B.",
+          parameters: [
+            { tag: "E-2304 shell", stream: "Concentrated CHP (~80-85 wt%)", design_condition: "3.5 kg/cm²g / FV @ 195 °C", operating_condition: "60–75 °C reboil liquid", source: "E-2304" },
+            { tag: "P-2301A/B", stream: "Concentrated CHP Bottoms", design_condition: "12 kg/cm²g @ 100 °C", operating_condition: "65 °C, 15 m³/h", source: "P-2301AB" }
+          ]
+        });
+      }
+    }
+
+    function renderNodeConfirmation(nodeDef) {
+      window.currentStudy = nodeDef;
+      document.getElementById('node-confirmation-box').classList.remove('hidden');
+      document.getElementById('node-title-display').textContent = `Node ${nodeDef.node_id} — ${nodeDef.name}`;
+      document.getElementById('node-markup-label').textContent = `Drawing Markup: ${nodeDef.markup_label} | P&IDs: ${nodeDef.pid_drawings.join(', ')}`;
+      
+      const badge = document.getElementById('node-color-badge');
+      badge.textContent = nodeDef.colour_code;
+      badge.className = nodeDef.colour_code === 'Green' 
+        ? "px-2.5 py-1 rounded font-bold text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/40"
+        : "px-2.5 py-1 rounded font-bold text-xs bg-yellow-500/20 text-yellow-300 border border-yellow-500/40";
+
+      document.getElementById('inlet-boundary-text').textContent = nodeDef.inlet_boundary;
+      document.getElementById('outlet-boundary-text').textContent = nodeDef.outlet_boundary;
+      document.getElementById('design-intent-text').textContent = nodeDef.design_intent;
+
+      const tbody = document.getElementById('params-table-body');
+      tbody.innerHTML = '';
+      (nodeDef.parameters || []).forEach(p => {
+        tbody.innerHTML += `
+          <tr class="hover:bg-slate-800/40">
+            <td class="p-2 font-bold text-indigo-300">${p.tag}</td>
+            <td class="p-2">${p.stream}</td>
+            <td class="p-2">${p.design_condition}</td>
+            <td class="p-2 text-emerald-400 font-bold">${p.operating_condition}</td>
+            <td class="p-2 text-slate-500">${p.source}</td>
+          </tr>
+        `;
+      });
+    }
+
+    async function confirmNodeDefinition() {
+      try {
+        const resp = await fetch('/api/v1/hazop/confirm-node', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(window.currentStudy)
+        });
+        const data = await resp.json();
+        
+        // Discover all risks for this node
+        const discResp = await fetch('/api/v1/hazop/discover-risks', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            node_id: window.currentStudy.node_id,
+            equipment_tags: window.currentStudy.equipment_tags || []
+          })
+        });
+        const discData = await discResp.json();
+        window.currentRows = discData.discovered_rows || [];
+
+        const devBox = document.getElementById('deviation-facilitator-box');
+        devBox.classList.remove('hidden');
+        
+        renderWorksheetGrid();
+        devBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } catch (err) {
+        alert("Error confirming node and discovering risks: " + err);
+      }
+    }
+
+    // ========================================================
+    // Stage 3: All-in-One Discovered Risks Excel Grid Logic
+    // ========================================================
+    function computeRAMRating(severity, likelihood) {
+      const s = Math.max(1, Math.min(5, severity));
+      const l = Math.max(1, Math.min(5, likelihood));
+      const grid = {
+        5: {1: "Medium", 2: "High", 3: "High", 4: "Extreme", 5: "Extreme"},
+        4: {1: "Medium", 2: "Medium", 3: "High", 4: "High", 5: "Extreme"},
+        3: {1: "Low", 2: "Medium", 3: "Medium", 4: "High", 5: "High"},
+        2: {1: "Low", 2: "Low", 3: "Medium", 4: "Medium", 5: "High"},
+        1: {1: "Very Low", 2: "Very Low", 3: "Low", 4: "Low", 5: "Medium"}
+      };
+      return grid[s][l];
+    }
+
+    function getRiskBadgeHtml(rating, extraClass = "") {
+      let bgBox = "bg-emerald-600/35";
+      let text = "text-emerald-100";
+      let border = "border-emerald-500 shadow-emerald-950/80";
+      
+      if (rating === "Extreme") {
+        bgBox = "bg-rose-600/35";
+        text = "text-rose-100";
+        border = "border-rose-500 shadow-rose-950/80";
+      } else if (rating === "High") {
+        bgBox = "bg-red-600/35";
+        text = "text-red-100";
+        border = "border-red-500 shadow-red-950/80";
+      } else if (rating === "Medium") {
+        bgBox = "bg-amber-600/35";
+        text = "text-amber-100";
+        border = "border-amber-500 shadow-amber-950/80";
+      } else if (rating === "Low") {
+        bgBox = "bg-blue-600/35";
+        text = "text-blue-100";
+        border = "border-blue-500 shadow-blue-950/80";
+      } else if (rating === "Very Low") {
+        bgBox = "bg-emerald-600/35";
+        text = "text-emerald-100";
+        border = "border-emerald-500 shadow-emerald-950/80";
+      }
+
+      return `<span class="inline-block px-3 py-1.5 rounded-lg font-black text-xs font-mono uppercase tracking-wider ${bgBox} ${text} border-2 ${border} shadow-lg ${extraClass}">${rating} RISK</span>`;
+    }
+
+    function recalcInitialBadge(idx) {
+      const p = parseInt(document.getElementById(`row-p-${idx}`).value) || 5;
+      const en = parseInt(document.getElementById(`row-en-${idx}`).value) || 4;
+      const ec = parseInt(document.getElementById(`row-ec-${idx}`).value) || 5;
+      const s = parseInt(document.getElementById(`row-s-${idx}`).value) || 4;
+      const l = parseInt(document.getElementById(`row-l-${idx}`).value) || 4;
+
+      const overallS = Math.max(p, en, ec, s);
+      const rr = computeRAMRating(overallS, l);
+
+      const badgeContainer = document.getElementById(`initial-badge-${idx}`);
+      if (badgeContainer) {
+        badgeContainer.innerHTML = `
+          <div class="mt-3 p-2.5 rounded-xl bg-slate-950/95 border border-slate-800 shadow-inner flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2 text-center">
+              <div class="bg-slate-900/90 border border-slate-700/80 rounded-lg p-1.5 shadow-sm">
+                <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">Severity (S)</span>
+                <span class="text-lg font-black text-rose-400 font-mono">S = ${overallS}</span>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-700/80 rounded-lg p-1.5 shadow-sm">
+                <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">Likelihood (L)</span>
+                <span class="text-lg font-black text-amber-400 font-mono">L = ${l}</span>
+              </div>
+            </div>
+            <div class="text-center pt-1">
+              ${getRiskBadgeHtml(rr)}
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    function toggleSafeguard(rowIdx, sgIdx, isChecked) {
+      if (window.currentRows[rowIdx] && window.currentRows[rowIdx].available_safeguards[sgIdx]) {
+        window.currentRows[rowIdx].available_safeguards[sgIdx].selected = isChecked;
+        
+        // Recalculate local IPL sum display
+        let totalIPL = 0;
+        window.currentRows[rowIdx].available_safeguards.forEach(s => {
+          if (s.selected && s.is_ipl) {
+            totalIPL += (s.ipl_credit || 0);
+          }
+        });
+        const summary = document.getElementById(`ipl-summary-${rowIdx}`);
+        if (summary) {
+          summary.textContent = `Active IPL: -${totalIPL} Credits`;
+        }
+      }
+    }
+
+    function addCustomSafeguardPrompt(rowIdx) {
+      const desc = prompt("Enter Custom Safety Measure (Tag + Setpoint + Action):", "TAH-XXXX high temperature interlock to trip steam valve (1oo2 SIL 1)");
+      if (!desc) return;
+      const iplStr = prompt("Enter IPL Credit Reduction (0 for BPCS alarm, 1 for SIL 1, 2 for SIL 2):", "1");
+      const ipl = parseInt(iplStr) || 0;
+      const isSIS = ipl > 0 ? "Yes" : "No";
+      
+      const newSg = {
+        description: desc,
+        il_esd: isSIS,
+        sil_rating: ipl > 0 ? `SIL ${ipl}` : "None",
+        is_ipl: ipl > 0,
+        ipl_credit: ipl,
+        selected: true
+      };
+
+      if (!window.currentRows[rowIdx].available_safeguards) {
+        window.currentRows[rowIdx].available_safeguards = [];
+      }
+      window.currentRows[rowIdx].available_safeguards.push(newSg);
+      renderWorksheetGrid();
+    }
+
+    async function updateSingleRow(idx) {
+      const row = window.currentRows[idx];
+      if (!row) return;
+
+      const p = parseInt(document.getElementById(`row-p-${idx}`).value) || row.wo_p || 5;
+      const en = parseInt(document.getElementById(`row-en-${idx}`).value) || row.wo_en || 4;
+      const ec = parseInt(document.getElementById(`row-ec-${idx}`).value) || row.wo_ec || 5;
+      const s = parseInt(document.getElementById(`row-s-${idx}`).value) || row.wo_s || 4;
+      const l = parseInt(document.getElementById(`row-l-${idx}`).value) || row.wo_l || 4;
+
+      const cause = document.getElementById(`row-cause-${idx}`) ? document.getElementById(`row-cause-${idx}`).value : row.cause;
+      const conseq = document.getElementById(`row-conseq-${idx}`) ? document.getElementById(`row-conseq-${idx}`).value : row.consequence;
+      const rec = document.getElementById(`row-rec-${idx}`) ? document.getElementById(`row-rec-${idx}`).value : row.recommendation;
+
+      const updateBtn = document.getElementById(`row-update-btn-${idx}`);
+      if (updateBtn) {
+        updateBtn.innerHTML = `<span>⏳</span> Updating...`;
+        updateBtn.disabled = true;
+      }
+
+      try {
+        const resp = await fetch('/api/v1/hazop/evaluate-row', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            ref: row.ref,
+            parameter: row.parameter,
+            deviation: row.deviation,
+            cause: cause,
+            consequence: conseq,
+            wo_p: p,
+            wo_en: en,
+            wo_ec: ec,
+            wo_s: s,
+            wo_l: l,
+            available_safeguards: row.available_safeguards,
+            recommendation: rec
+          })
+        });
+        const data = await resp.json();
+        window.currentRows[idx] = data.row;
+        renderWorksheetGrid();
+        
+        // Flash visual success highlight
+        const tr = document.getElementById(`worksheet-tr-${idx}`);
+        if (tr) {
+          tr.classList.add('bg-indigo-900/40');
+          setTimeout(() => tr.classList.remove('bg-indigo-900/40'), 1500);
+        }
+      } catch (err) {
+        alert(`Error updating row ${row.ref}: ${err}`);
+      } finally {
+        if (updateBtn) {
+          updateBtn.innerHTML = `<span>⚡</span> Update`;
+          updateBtn.disabled = false;
+        }
+      }
+    }
+
+    async function updateAllRows() {
+      for (let i = 0; i < window.currentRows.length; i++) {
+        await updateSingleRow(i);
+      }
+      alert(`All ${window.currentRows.length} deviation rows successfully recalculated!`);
+    }
+
+    function addCustomRow() {
+      const rIdx = window.currentRows.length + 1;
+      const newRow = {
+        ref: `1.${rIdx}.1`,
+        parameter: "Flow",
+        deviation: "Flow — Other Deviation",
+        cause: "Custom cause description with equipment tags",
+        consequence: "Custom consequence description ending in concrete safety impact",
+        wo_p: 4,
+        wo_en: 3,
+        wo_ec: 4,
+        wo_s: 3,
+        wo_l: 3,
+        wo_s_overall: 4,
+        wo_rr: "Medium",
+        available_safeguards: [
+          { description: "Standard BPCS Alarm / Procedure", il_esd: "No", sil_rating: "None", is_ipl: false, ipl_credit: 0, selected: true }
+        ],
+        safeguards: [],
+        total_ipl_credits: 0,
+        w_l: 3,
+        w_s_overall: 4,
+        w_rr: "Medium",
+        recommendation: "Verify safeguarding and operating procedure.",
+        requires_action: true
+      };
+      window.currentRows.push(newRow);
+      renderWorksheetGrid();
+    }
+
+    function deleteRow(idx) {
+      if (confirm(`Are you sure you want to delete row ${window.currentRows[idx].ref}?`)) {
+        window.currentRows.splice(idx, 1);
+        renderWorksheetGrid();
+      }
+    }
+
+    window.synthesizedRowDraft = null;
+
+    function openScenarioModal() {
+      const modal = document.getElementById('ai-scenario-modal');
+      const input = document.getElementById('scenario-prompt-input');
+      const preview = document.getElementById('scenario-preview-box');
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+      if (input && !input.value) input.value = "Loss of instrument air supply to SC1.5 steam control valve TV-0501";
+      if (preview) preview.classList.add('hidden');
+    }
+
+    function closeScenarioModal() {
+      const modal = document.getElementById('ai-scenario-modal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    function setScenarioPrompt(text) {
+      const input = document.getElementById('scenario-prompt-input');
+      if (input) input.value = text;
+      generateRowFromScenario();
+    }
+
+    async function generateRowFromScenario() {
+      const input = document.getElementById('scenario-prompt-input');
+      const promptText = input ? input.value.trim() : "";
+      if (!promptText) {
+        alert("Please enter a failure scenario or select a suggestion.");
+        return;
+      }
+
+      const genBtn = document.getElementById('scenario-generate-btn');
+      if (genBtn) {
+        genBtn.innerHTML = `<span>⏳</span> Synthesizing with Process AI...`;
+        genBtn.disabled = true;
+      }
+
+      try {
+        const resp = await fetch('/api/v1/hazop/generate-scenario-row', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            node_id: window.currentStudy.node_id || "CDN-N02",
+            equipment_tags: window.currentStudy.equipment_tags || ["E-2302A/B", "E-2303"],
+            scenario_text: promptText,
+            existing_rows_count: window.currentRows.length
+          })
+        });
+        const data = await resp.json();
+        if (data.status === "SUCCESS" && data.row) {
+          window.synthesizedRowDraft = data.row;
+          
+          // Populate preview
+          document.getElementById('preview-ref-badge').textContent = `Ref: ${data.row.ref}`;
+          document.getElementById('preview-dev').textContent = data.row.deviation;
+          document.getElementById('preview-cause').textContent = data.row.cause;
+          document.getElementById('preview-conseq').textContent = data.row.consequence;
+          document.getElementById('preview-wo-rr').textContent = `${data.row.wo_rr} (S=${data.row.wo_s_overall}, L=${data.row.wo_l})`;
+          document.getElementById('preview-sgs-count').textContent = `${(data.row.available_safeguards || []).length} Measures (-${data.row.total_ipl_credits || 0} IPL)`;
+          document.getElementById('preview-w-rr').textContent = `${data.row.w_rr} (L=${data.row.w_l})`;
+          
+          document.getElementById('scenario-preview-box').classList.remove('hidden');
+        }
+      } catch (err) {
+        console.error("Failed to generate scenario row:", err);
+        alert("Failed to synthesize row with AI. Please try again.");
+      } finally {
+        if (genBtn) {
+          genBtn.innerHTML = `<span>✨</span> Synthesize HAZOP Row with Process AI`;
+          genBtn.disabled = false;
+        }
+      }
+    }
+
+    function insertSynthesizedRow() {
+      if (!window.synthesizedRowDraft) return;
+      window.currentRows.push(window.synthesizedRowDraft);
+      renderWorksheetGrid();
+      closeScenarioModal();
+      window.synthesizedRowDraft = null;
+
+      // Scroll to bottom of table and highlight new row
+      setTimeout(() => {
+        const lastIdx = window.currentRows.length - 1;
+        const newTr = document.getElementById(`worksheet-tr-${lastIdx}`);
+        if (newTr) {
+          newTr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          newTr.classList.add('bg-indigo-950/80');
+          setTimeout(() => newTr.classList.remove('bg-indigo-950/80'), 2500);
+        }
+      }, 150);
+    }
+
+    function scrollToColumn(colKey) {
+      const container = document.getElementById('worksheet-grid-scroll-container');
+      if (!container) return;
+      const targets = {
+        'initial': 600,
+        'safeguards': 950,
+        'final': 1380,
+        'recs': 1650
+      };
+      container.scrollTo({ left: targets[colKey] || 0, behavior: 'smooth' });
+    }
+
+    function renderWorksheetGrid() {
+      const tbody = document.getElementById('worksheet-grid-body');
+      tbody.innerHTML = '';
+      
+      const countBadge = document.getElementById('discovered-count-badge');
+      if (countBadge) {
+        countBadge.textContent = `${window.currentRows.length} Discovered Deviations`;
+      }
+
+      window.currentRows.forEach((r, idx) => {
+        const sgs = r.available_safeguards || r.safeguards || [];
+        let totalIPL = 0;
+        sgs.forEach(s => { if (s.selected && s.is_ipl) totalIPL += (s.ipl_credit || 0); });
+
+        const overallS = r.wo_s_overall || Math.max(r.wo_p || 5, r.wo_en || 4, r.wo_ec || 5, r.wo_s || 4);
+        const initialL = r.wo_l || 4;
+        const woRiskBadge = getRiskBadgeHtml(r.wo_rr || computeRAMRating(overallS, initialL));
+
+        const mitigatedS = r.w_s_overall || overallS;
+        const mitigatedL = r.w_l !== undefined ? r.w_l : 2;
+        const wRiskBadge = getRiskBadgeHtml(r.w_rr || computeRAMRating(mitigatedS, mitigatedL));
+
+        tbody.innerHTML += `
+          <tr id="worksheet-tr-${idx}" class="hover:bg-slate-900/90 transition-colors border-b border-slate-800/80">
+            <!-- Frozen Column 1: Ref -->
+            <td class="sticky left-0 z-20 bg-slate-950 border-r border-slate-700 p-3.5 text-center font-black text-sm text-indigo-300 align-top w-20 shadow-[2px_0_5px_rgba(0,0,0,0.5)]">
+              ${r.ref}
+            </td>
+
+            <!-- Frozen Column 2: Deviation & Parameter -->
+            <td class="sticky left-20 z-20 bg-slate-950 border-r-2 border-indigo-500/80 p-3.5 align-top w-64 shadow-[4px_0_10px_rgba(0,0,0,0.6)]">
+              <span class="text-indigo-400 font-black text-sm block mb-1.5">${r.parameter}</span>
+              <span class="text-xs font-semibold text-slate-200 leading-snug block">${r.deviation}</span>
+            </td>
+
+            <!-- Cause (w-[380px] - Full Cell Area Textarea) -->
+            <td class="p-2 border-r border-slate-800 align-top w-[380px]">
+              <textarea id="row-cause-${idx}" class="w-full h-full min-h-[140px] bg-slate-950/90 border border-slate-800 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 rounded-xl p-3 text-xs text-slate-100 font-mono leading-relaxed resize-y block box-border shadow-inner" rows="5">${r.cause}</textarea>
+            </td>
+
+            <!-- Consequence (w-[380px] - Full Cell Area Textarea) -->
+            <td class="p-2 border-r border-slate-800 align-top w-[380px]">
+              <textarea id="row-conseq-${idx}" class="w-full h-full min-h-[140px] bg-slate-950/90 border border-slate-800 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 rounded-xl p-3 text-xs text-slate-100 font-mono leading-relaxed resize-y block box-border shadow-inner" rows="5">${r.consequence}</textarea>
+            </td>
+
+            <!-- Initial 1st Risk (w-[340px] - Editable Inputs) -->
+            <td class="p-3.5 border-r border-slate-800 align-top bg-rose-950/15 w-[340px]">
+              <div class="grid grid-cols-5 gap-1.5 text-center font-mono">
+                <div>
+                  <span class="text-slate-300 block text-[11px] font-bold mb-1">P</span>
+                  <input type="number" id="row-p-${idx}" min="1" max="5" value="${r.wo_p || 5}" class="w-full bg-slate-900 border border-slate-700 focus:border-rose-400 rounded-lg py-1.5 text-center font-black text-sm text-rose-300 shadow-inner" onchange="recalcInitialBadge(${idx})" />
+                </div>
+                <div>
+                  <span class="text-slate-300 block text-[11px] font-bold mb-1">En</span>
+                  <input type="number" id="row-en-${idx}" min="1" max="5" value="${r.wo_en || 4}" class="w-full bg-slate-900 border border-slate-700 focus:border-rose-400 rounded-lg py-1.5 text-center font-black text-sm text-slate-200 shadow-inner" onchange="recalcInitialBadge(${idx})" />
+                </div>
+                <div>
+                  <span class="text-slate-300 block text-[11px] font-bold mb-1">Ec</span>
+                  <input type="number" id="row-ec-${idx}" min="1" max="5" value="${r.wo_ec || 5}" class="w-full bg-slate-900 border border-slate-700 focus:border-rose-400 rounded-lg py-1.5 text-center font-black text-sm text-slate-200 shadow-inner" onchange="recalcInitialBadge(${idx})" />
+                </div>
+                <div>
+                  <span class="text-slate-300 block text-[11px] font-bold mb-1">S</span>
+                  <input type="number" id="row-s-${idx}" min="1" max="5" value="${r.wo_s || 4}" class="w-full bg-slate-900 border border-slate-700 focus:border-rose-400 rounded-lg py-1.5 text-center font-black text-sm text-slate-200 shadow-inner" onchange="recalcInitialBadge(${idx})" />
+                </div>
+                <div>
+                  <span class="text-amber-400 block text-[11px] font-black mb-1">Init L</span>
+                  <input type="number" id="row-l-${idx}" min="1" max="5" value="${initialL}" class="w-full bg-slate-900 border-2 border-amber-500/70 focus:border-amber-400 rounded-lg py-1.5 text-center font-black text-sm text-amber-300 shadow-inner" onchange="recalcInitialBadge(${idx})" />
+                </div>
+              </div>
+
+              <!-- Prominent Numeric Risk Rating Display -->
+              <div id="initial-badge-${idx}" class="mt-3">
+                <div class="p-2.5 rounded-xl bg-slate-950/95 border border-slate-800 shadow-inner flex flex-col gap-2">
+                  <div class="grid grid-cols-2 gap-2 text-center">
+                    <div class="bg-slate-900/90 border border-slate-700/80 rounded-lg p-1.5 shadow-sm">
+                      <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">Severity (S)</span>
+                      <span class="text-lg font-black text-rose-400 font-mono">S = ${overallS}</span>
+                    </div>
+                    <div class="bg-slate-900/90 border border-slate-700/80 rounded-lg p-1.5 shadow-sm">
+                      <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">Likelihood (L)</span>
+                      <span class="text-lg font-black text-amber-400 font-mono">L = ${initialL}</span>
+                    </div>
+                  </div>
+                  <div class="text-center pt-1">
+                    ${woRiskBadge}
+                  </div>
+                </div>
+              </div>
+            </td>
+
+            <!-- Safety Measures (w-[420px] - Checkboxes) -->
+            <td class="p-3.5 border-r border-slate-800 align-top bg-cyan-950/15 w-[420px]">
+              <div class="space-y-1.5 max-h-48 overflow-y-auto pr-1">
+                ${sgs.map((sg, sgIdx) => `
+                  <label class="flex items-start gap-2 p-2 rounded-xl bg-slate-950/90 border border-slate-800 hover:border-slate-700 cursor-pointer text-xs transition-colors">
+                    <input type="checkbox" id="sg-check-${idx}-${sgIdx}" ${sg.selected !== false ? 'checked' : ''} onchange="toggleSafeguard(${idx}, ${sgIdx}, this.checked)" class="mt-0.5 w-4 h-4 rounded bg-slate-900 border-slate-700 text-indigo-600 focus:ring-0" />
+                    <span class="flex-1 ${sg.il_esd === 'Yes' ? 'text-cyan-300 font-bold' : 'text-slate-200'} leading-snug">${sg.description}</span>
+                    <span class="px-1.5 py-0.5 rounded font-mono text-[10px] font-bold ${sg.ipl_credit > 0 ? 'bg-emerald-500/25 text-emerald-300 border border-emerald-500/40' : 'bg-slate-800 text-slate-400'}">-${sg.ipl_credit || 0} IPL</span>
+                  </label>
+                `).join('')}
+              </div>
+              <div class="mt-2.5 flex items-center justify-between text-xs font-mono">
+                <span id="ipl-summary-${idx}" class="text-emerald-400 font-black">Active IPL: -${totalIPL} Credits</span>
+                <button onclick="addCustomSafeguardPrompt(${idx})" class="text-xs text-indigo-400 hover:text-indigo-300 font-bold underline">+ Add Measure</button>
+              </div>
+            </td>
+
+            <!-- Final 2nd Risk (w-[260px] - Calculated) -->
+            <td class="p-3.5 border-r border-slate-800 align-top text-center bg-emerald-950/15 w-[260px]">
+              <!-- Prominent Numeric Mitigated Risk Display -->
+              <div class="p-2.5 rounded-xl bg-slate-950/95 border border-slate-800 shadow-inner flex flex-col gap-2">
+                <div class="grid grid-cols-2 gap-2 text-center">
+                  <div class="bg-slate-900/90 border border-slate-700/80 rounded-lg p-1.5 shadow-sm">
+                    <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">Severity (S)</span>
+                    <span class="text-lg font-black text-slate-200 font-mono">S = ${mitigatedS}</span>
+                  </div>
+                  <div class="bg-slate-900/90 border border-slate-700/80 rounded-lg p-1.5 shadow-sm">
+                    <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">Mitigated (L)</span>
+                    <span class="text-lg font-black text-emerald-400 font-mono">L = ${mitigatedL}</span>
+                  </div>
+                </div>
+                <div class="text-center pt-1">
+                  ${wRiskBadge}
+                </div>
+              </div>
+            </td>
+
+            <!-- Recommendation (w-[380px] - Full Cell Area Textarea) -->
+            <td class="p-2 border-r border-slate-800 align-top w-[380px]">
+              <textarea id="row-rec-${idx}" class="w-full h-full min-h-[140px] bg-slate-950/90 border border-slate-800 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 rounded-xl p-3 text-xs text-cyan-200 font-mono leading-relaxed resize-y block box-border shadow-inner" rows="5">${r.recommendation || 'None — risk acceptable'}</textarea>
+            </td>
+
+            <!-- Action Buttons (w-32) -->
+            <td class="p-3.5 align-top text-center space-y-2.5 w-32">
+              <button id="row-update-btn-${idx}" onclick="updateSingleRow(${idx})" class="w-full py-2.5 px-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-black shadow-lg flex items-center justify-center gap-1.5 transition-all">
+                <span>⚡</span> Update
+              </button>
+              <button onclick="deleteRow(${idx})" class="text-xs text-slate-500 hover:text-rose-400 transition-colors block mx-auto font-semibold">
+                🗑️ Delete
+              </button>
+            </td>
+          </tr>
+        `;
+      });
+    }
+
+    async function exportExcelDeliverable() {
+      if (!window.currentRows.length) {
+        alert("Please confirm a node first to generate worksheet rows.");
+        return;
+      }
+      try {
+        const resp = await fetch('/api/v1/hazop/finalize-study', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            study_metadata: window.currentStudy,
+            worksheet_rows: window.currentRows
+          })
+        });
+        const syncData = await resp.json();
+        
+        // Show Telemetry Card
+        const card = document.getElementById('sync-telemetry-card');
+        if (card) {
+          card.classList.remove('hidden');
+          document.getElementById('sync-timestamp').textContent = new Date().toLocaleTimeString();
+          document.getElementById('sync-spanner-status').textContent = `${syncData.node_id} (Status: ${syncData.spanner_node_status})`;
+          document.getElementById('sync-dataplex-entry').textContent = (syncData.knowledge_catalog_entry || "").split('/').pop();
+          document.getElementById('sync-recs-count').textContent = `${syncData.recommendations_registered} Rec# items`;
+          document.getElementById('sync-wiki-path').textContent = syncData.wiki_node_path;
+        }
+
+        // Trigger Excel Download
+        const excelResp = await fetch('/api/v1/hazop/export-excel', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            study_metadata: window.currentStudy,
+            worksheet_rows: window.currentRows
+          })
+        });
+        const blob = await excelResp.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${window.currentStudy.node_id}_HAZOP-worksheet.xlsx`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      } catch (err) {
+        alert("Error finalizing HAZOP study: " + err);
+      }
+    }
+
+    // ========================================================
+    // Tab 1: Explorer Agent Streaming
+    // ========================================================
     async function executeQuery() {
       const prompt = document.getElementById('query-input').value.trim();
       if (!prompt) return;
@@ -187,9 +1069,7 @@
       const eventSource = new EventSource(`/api/v1/agent/stream?prompt=${encodeURIComponent(prompt)}`);
       window.currentEventSource = eventSource;
 
-      eventSource.onerror = () => {
-        eventSource.close();
-      };
+      eventSource.onerror = () => { eventSource.close(); };
 
       eventSource.addEventListener('armor_inspection', (e) => {
         const data = JSON.parse(e.data);
@@ -212,19 +1092,6 @@
         `;
       });
 
-      eventSource.addEventListener('armor_blocked', (e) => {
-        const data = JSON.parse(e.data);
-        container.innerHTML += `
-          <div class="bg-rose-950/40 border-2 border-rose-500/60 rounded-2xl p-4 my-3 text-xs font-mono shadow-2xl">
-            <div class="flex items-center gap-2 text-rose-300 font-bold text-sm mb-1">
-              <span>⛔ PROMPT INJECTION / JAILBREAK INTERCEPTED</span>
-            </div>
-            <p class="text-rose-200 text-xs mt-1">${data.detail}</p>
-            <div class="mt-2 text-[11px] text-slate-400">Security Policy: <code class="text-rose-300">${data.policy_template}</code></div>
-          </div>
-        `;
-      });
-
       eventSource.addEventListener('thought', (e) => {
         const data = JSON.parse(e.data);
         container.innerHTML += `
@@ -234,71 +1101,6 @@
               <span class="text-[11px] font-mono text-slate-400">${data.timestamp_ms}ms</span>
             </div>
             <p class="text-xs text-slate-300 font-mono mt-2">${data.thought_chunk}</p>
-          </div>
-        `;
-      });
-
-      eventSource.addEventListener('subagent_dispatch', (e) => {
-        const data = JSON.parse(e.data);
-        container.innerHTML += `
-          <div class="pl-4 border-l-2 border-indigo-500/40 my-2">
-            <div class="bg-slate-900/70 border border-slate-800 rounded-lg p-3 text-xs">
-              <span class="font-bold text-indigo-300">🤖 Delegated to: <code class="font-mono text-indigo-400">${data.subagent_name}</code></span>
-              <p class="text-slate-400 mt-1">${data.task_description}</p>
-            </div>
-          </div>
-        `;
-      });
-
-      eventSource.addEventListener('tool_invoked', (e) => {
-        const data = JSON.parse(e.data);
-        const toolId = 'tool-' + Math.random().toString(36).substr(2, 9);
-        const toolIcons = {
-          'spanner_graph_query': '⚡',
-          'query_knowledge_catalog_provenance': '📋',
-          'read_gcs_wiki_document': '📖'
-        };
-        const icon = toolIcons[data.tool_name] || '🛠️';
-        container.innerHTML += `
-          <div id="${toolId}" class="bg-slate-900/90 border border-cyan-500/40 rounded-xl p-3.5 my-2 text-xs font-mono shadow-md backdrop-blur">
-            <div class="flex items-center justify-between">
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 font-bold">
-                  ${icon} TOOL CALL
-                </span>
-                <span class="text-cyan-200 font-bold">${data.tool_name}</span>
-              </div>
-              <span class="text-[11px] font-mono text-amber-300 animate-pulse">executing...</span>
-            </div>
-            <div class="mt-2 text-slate-400 text-[11px] bg-slate-950 p-2 rounded border border-slate-800/80">
-              <span class="text-slate-500">Arguments:</span> <code class="text-slate-300">${JSON.stringify(data.tool_args)}</code>
-            </div>
-          </div>
-        `;
-      });
-
-      eventSource.addEventListener('tool_result', (e) => {
-        const data = JSON.parse(e.data);
-        container.innerHTML += `
-          <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-3 my-1 text-xs font-mono pl-4 border-l-4 border-l-cyan-500">
-            <div class="flex items-center justify-between">
-              <span class="text-cyan-300 font-semibold">✓ ${data.tool_name} Result</span>
-              <span class="text-emerald-400 font-bold">⚡ ${data.latency_ms}ms</span>
-            </div>
-            <p class="text-slate-300 mt-1 text-[11px]">${data.result_preview}</p>
-          </div>
-        `;
-      });
-
-      eventSource.addEventListener('gql_executed', (e) => {
-        const data = JSON.parse(e.data);
-        container.innerHTML += `
-          <div class="bg-slate-900 border border-emerald-500/40 rounded-xl p-4 my-2 text-xs font-mono">
-            <div class="flex justify-between text-emerald-300 font-bold mb-2">
-              <span>⚡ Cloud Spanner ISO GQL (${data.execution_time_ms}ms)</span>
-              <span class="text-slate-500 font-normal">TrueTime: ${data.true_time_token}</span>
-            </div>
-            <pre class="bg-slate-950 p-2.5 rounded text-emerald-400 overflow-x-auto">${data.raw_gql}</pre>
           </div>
         `;
       });
@@ -323,7 +1125,6 @@
       });
 
       let accumulatedText = '';
-
       eventSource.addEventListener('message_delta', (e) => {
         const data = JSON.parse(e.data);
         accumulatedText += data.text_delta;
@@ -335,26 +1136,10 @@
         }
       });
 
-      eventSource.addEventListener('message_done', () => {
-        eventSource.close();
-      });
+      eventSource.addEventListener('message_done', () => { eventSource.close(); });
     }
 
     async function handleClarifySelection(optionId, targetTag) {
-      const container = document.getElementById('telemetry-container');
-      container.innerHTML += `
-        <div class="bg-slate-900/90 border border-indigo-500/40 rounded-xl p-3 my-2 text-xs font-mono">
-          <span class="text-indigo-300 font-bold">🎯 Disambiguation Selected:</span> <code class="text-white">${targetTag}</code>
-        </div>
-        <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-3 my-1 text-xs font-mono pl-4 border-l-4 border-l-cyan-500">
-          <div class="flex items-center justify-between">
-            <span class="text-cyan-300 font-semibold">✓ Tri-Tier Retrieval &amp; Live Gemini Synthesis</span>
-            <span class="text-emerald-400 font-bold">⚡ 22ms</span>
-          </div>
-          <p class="text-slate-300 mt-1 text-[11px]">Synthesizing process safety dossier for ${targetTag} across Spanner Graph &amp; Knowledge Catalog.</p>
-        </div>
-      `;
-
       const answerContainer = document.getElementById('answer-container');
       const answerText = document.getElementById('answer-text');
       answerContainer.classList.remove('hidden');
@@ -367,19 +1152,11 @@
           body: JSON.stringify({ session_id: 'default-session', selected_option_id: optionId, target_tag: targetTag })
         });
         const data = await resp.json();
-        const content = data.synthesized_answer || (data.search_results && data.search_results.formatted_summary) || 'No response returned.';
-        if (typeof marked !== 'undefined') {
-          answerText.innerHTML = marked.parse(content);
-        } else {
-          answerText.textContent = content;
-        }
+        const content = data.synthesized_answer || 'No response returned.';
+        answerText.innerHTML = (typeof marked !== 'undefined') ? marked.parse(content) : content;
       } catch (err) {
         answerText.innerHTML = `<div class="text-rose-400 font-mono text-xs">Error resolving clarification: ${err}</div>`;
       }
-    }
-
-    async function exportExcel() {
-      alert("Excel Report Generated: output/exports/HAZOP_Study_Report.xlsx (7 tabs)");
     }
 
     async function ingestDoc() {

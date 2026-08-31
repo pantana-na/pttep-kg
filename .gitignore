@@ -42,3 +42,4 @@ Thumbs.db
 
 # Temporary working outputs
 output/working/
+*.log

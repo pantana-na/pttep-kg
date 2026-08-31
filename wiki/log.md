@@ -3235,3 +3235,29043 @@ Method: NotebookLM slide-deck generation (detailed format) from output/working/2
 - **Tombstoned Equipment:** 73BJETFZPOMK
 - **Tombstoned Instruments:** None
 - **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 5XBFKNGY
+- **Tombstoned Equipment:** 5XBFKNGY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 5XBFKNGY
+- **Tombstoned Equipment:** 5XBFKNGY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 315VHH3ZITNH
+- **Tombstoned Equipment:** 315VHH3ZITNH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 315VHH3ZITNH
+- **Tombstoned Equipment:** 315VHH3ZITNH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: DGT7HQWC
+- **Tombstoned Equipment:** DGT7HQWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: DGT7HQWC
+- **Tombstoned Equipment:** DGT7HQWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: SYF
+- **Tombstoned Equipment:** SYF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: SYF
+- **Tombstoned Equipment:** SYF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: EVWMJW4CU27J
+- **Tombstoned Equipment:** EVWMJW4CU27J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: EVWMJW4CU27J
+- **Tombstoned Equipment:** EVWMJW4CU27J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: BHJ
+- **Tombstoned Equipment:** BHJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: BHJ
+- **Tombstoned Equipment:** BHJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 5DS3EV5
+- **Tombstoned Equipment:** 5DS3EV5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 5DS3EV5
+- **Tombstoned Equipment:** 5DS3EV5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: A4SRZS
+- **Tombstoned Equipment:** A4SRZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: A4SRZS
+- **Tombstoned Equipment:** A4SRZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: L40
+- **Tombstoned Equipment:** L40
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: L40
+- **Tombstoned Equipment:** L40
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 9JJX6MDQ065J
+- **Tombstoned Equipment:** 9JJX6MDQ065J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 9JJX6MDQ065J
+- **Tombstoned Equipment:** 9JJX6MDQ065J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 6T52R
+- **Tombstoned Equipment:** 6T52R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 6T52R
+- **Tombstoned Equipment:** 6T52R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 6A9
+- **Tombstoned Equipment:** 6A9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 6A9
+- **Tombstoned Equipment:** 6A9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: YRDIQ
+- **Tombstoned Equipment:** YRDIQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: YRDIQ
+- **Tombstoned Equipment:** YRDIQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 2RMTYG1RO0SM
+- **Tombstoned Equipment:** 2RMTYG1RO0SM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 2RMTYG1RO0SM
+- **Tombstoned Equipment:** 2RMTYG1RO0SM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: NTADVSRZ
+- **Tombstoned Equipment:** NTADVSRZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: NTADVSRZ
+- **Tombstoned Equipment:** NTADVSRZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: C2MG
+- **Tombstoned Equipment:** C2MG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: C2MG
+- **Tombstoned Equipment:** C2MG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: KRYZWCO7HPJL
+- **Tombstoned Equipment:** KRYZWCO7HPJL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: KRYZWCO7HPJL
+- **Tombstoned Equipment:** KRYZWCO7HPJL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: FJVT4W4XXEVH
+- **Tombstoned Equipment:** FJVT4W4XXEVH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: FJVT4W4XXEVH
+- **Tombstoned Equipment:** FJVT4W4XXEVH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: U514AG2Y11VH
+- **Tombstoned Equipment:** U514AG2Y11VH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: U514AG2Y11VH
+- **Tombstoned Equipment:** U514AG2Y11VH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: YZCURFAFHE3S
+- **Tombstoned Equipment:** YZCURFAFHE3S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: YZCURFAFHE3S
+- **Tombstoned Equipment:** YZCURFAFHE3S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 2P0V
+- **Tombstoned Equipment:** 2P0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 2P0V
+- **Tombstoned Equipment:** 2P0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: TXEU7G9UHLC5
+- **Tombstoned Equipment:** TXEU7G9UHLC5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: TXEU7G9UHLC5
+- **Tombstoned Equipment:** TXEU7G9UHLC5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 8ENRW2TVNU5
+- **Tombstoned Equipment:** 8ENRW2TVNU5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 8ENRW2TVNU5
+- **Tombstoned Equipment:** 8ENRW2TVNU5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: F4VJYM
+- **Tombstoned Equipment:** F4VJYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: F4VJYM
+- **Tombstoned Equipment:** F4VJYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: Z4TTC9UEOOQJ
+- **Tombstoned Equipment:** Z4TTC9UEOOQJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: Z4TTC9UEOOQJ
+- **Tombstoned Equipment:** Z4TTC9UEOOQJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: Z5Y
+- **Tombstoned Equipment:** Z5Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: Z5Y
+- **Tombstoned Equipment:** Z5Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: D3I7P
+- **Tombstoned Equipment:** D3I7P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: D3I7P
+- **Tombstoned Equipment:** D3I7P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: AC3252CORJ2X
+- **Tombstoned Equipment:** AC3252CORJ2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: AC3252CORJ2X
+- **Tombstoned Equipment:** AC3252CORJ2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: N1WV8MTTB9TR
+- **Tombstoned Equipment:** N1WV8MTTB9TR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: N1WV8MTTB9TR
+- **Tombstoned Equipment:** N1WV8MTTB9TR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 766
+- **Tombstoned Equipment:** 766
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 766
+- **Tombstoned Equipment:** 766
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 256RNBH2FIAX
+- **Tombstoned Equipment:** 256RNBH2FIAX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 256RNBH2FIAX
+- **Tombstoned Equipment:** 256RNBH2FIAX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: ZNH8OWHXMPE
+- **Tombstoned Equipment:** ZNH8OWHXMPE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: ZNH8OWHXMPE
+- **Tombstoned Equipment:** ZNH8OWHXMPE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: H08SJ1
+- **Tombstoned Equipment:** H08SJ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: H08SJ1
+- **Tombstoned Equipment:** H08SJ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 8I7R
+- **Tombstoned Equipment:** 8I7R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 8I7R
+- **Tombstoned Equipment:** 8I7R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: Y3H
+- **Tombstoned Equipment:** Y3H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: Y3H
+- **Tombstoned Equipment:** Y3H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: N3RFR9ZJQ353
+- **Tombstoned Equipment:** N3RFR9ZJQ353
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: N3RFR9ZJQ353
+- **Tombstoned Equipment:** N3RFR9ZJQ353
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: LEWZ
+- **Tombstoned Equipment:** LEWZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: LEWZ
+- **Tombstoned Equipment:** LEWZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 4NZ1OH679W83
+- **Tombstoned Equipment:** 4NZ1OH679W83
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 4NZ1OH679W83
+- **Tombstoned Equipment:** 4NZ1OH679W83
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: TXFAZ
+- **Tombstoned Equipment:** TXFAZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: TXFAZ
+- **Tombstoned Equipment:** TXFAZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 71GTWYWG
+- **Tombstoned Equipment:** 71GTWYWG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 71GTWYWG
+- **Tombstoned Equipment:** 71GTWYWG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: MRQNOAJ
+- **Tombstoned Equipment:** MRQNOAJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: MRQNOAJ
+- **Tombstoned Equipment:** MRQNOAJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: ESD
+- **Tombstoned Equipment:** ESD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: ESD
+- **Tombstoned Equipment:** ESD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: HVB3UM1QSMC5
+- **Tombstoned Equipment:** HVB3UM1QSMC5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: HVB3UM1QSMC5
+- **Tombstoned Equipment:** HVB3UM1QSMC5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: QE06WM9G
+- **Tombstoned Equipment:** QE06WM9G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: QE06WM9G
+- **Tombstoned Equipment:** QE06WM9G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: EDACR
+- **Tombstoned Equipment:** EDACR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: EDACR
+- **Tombstoned Equipment:** EDACR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 95RL4HT8VIN
+- **Tombstoned Equipment:** 95RL4HT8VIN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 95RL4HT8VIN
+- **Tombstoned Equipment:** 95RL4HT8VIN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: T8A6OXB
+- **Tombstoned Equipment:** T8A6OXB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: T8A6OXB
+- **Tombstoned Equipment:** T8A6OXB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: BID268
+- **Tombstoned Equipment:** BID268
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: BID268
+- **Tombstoned Equipment:** BID268
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: MQF57ID9XNYH
+- **Tombstoned Equipment:** MQF57ID9XNYH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: MQF57ID9XNYH
+- **Tombstoned Equipment:** MQF57ID9XNYH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: HD2
+- **Tombstoned Equipment:** HD2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: HD2
+- **Tombstoned Equipment:** HD2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: QUMS
+- **Tombstoned Equipment:** QUMS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: QUMS
+- **Tombstoned Equipment:** QUMS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: SJV86
+- **Tombstoned Equipment:** SJV86
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: SJV86
+- **Tombstoned Equipment:** SJV86
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: H4GGMWZ3BD9Y
+- **Tombstoned Equipment:** H4GGMWZ3BD9Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: H4GGMWZ3BD9Y
+- **Tombstoned Equipment:** H4GGMWZ3BD9Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: NTEMH5DMZRFU
+- **Tombstoned Equipment:** NTEMH5DMZRFU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: NTEMH5DMZRFU
+- **Tombstoned Equipment:** NTEMH5DMZRFU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: WFBX1R41Y
+- **Tombstoned Equipment:** WFBX1R41Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: WFBX1R41Y
+- **Tombstoned Equipment:** WFBX1R41Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: FC0
+- **Tombstoned Equipment:** FC0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: FC0
+- **Tombstoned Equipment:** FC0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 05LCJKD8
+- **Tombstoned Equipment:** 05LCJKD8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 05LCJKD8
+- **Tombstoned Equipment:** 05LCJKD8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: RS21JCSBGU94
+- **Tombstoned Equipment:** RS21JCSBGU94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: RS21JCSBGU94
+- **Tombstoned Equipment:** RS21JCSBGU94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 388220WP3FXF
+- **Tombstoned Equipment:** 388220WP3FXF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 388220WP3FXF
+- **Tombstoned Equipment:** 388220WP3FXF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: KF0H7CSKHXLK
+- **Tombstoned Equipment:** KF0H7CSKHXLK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: KF0H7CSKHXLK
+- **Tombstoned Equipment:** KF0H7CSKHXLK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: RESUMED
+- **Tombstoned Equipment:** RESUMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: RESUMED
+- **Tombstoned Equipment:** RESUMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: AOLWWBLCLJV
+- **Tombstoned Equipment:** AOLWWBLCLJV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: AOLWWBLCLJV
+- **Tombstoned Equipment:** AOLWWBLCLJV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: U2CMRXGQS9
+- **Tombstoned Equipment:** U2CMRXGQS9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: U2CMRXGQS9
+- **Tombstoned Equipment:** U2CMRXGQS9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 742V
+- **Tombstoned Equipment:** 742V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 742V
+- **Tombstoned Equipment:** 742V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 08JZ15UB4LB
+- **Tombstoned Equipment:** 08JZ15UB4LB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 08JZ15UB4LB
+- **Tombstoned Equipment:** 08JZ15UB4LB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: K8FXW
+- **Tombstoned Equipment:** K8FXW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: K8FXW
+- **Tombstoned Equipment:** K8FXW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 2JYY
+- **Tombstoned Equipment:** 2JYY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 2JYY
+- **Tombstoned Equipment:** 2JYY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: Z4JP
+- **Tombstoned Equipment:** Z4JP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: Z4JP
+- **Tombstoned Equipment:** Z4JP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: MAML43UOM
+- **Tombstoned Equipment:** MAML43UOM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: MAML43UOM
+- **Tombstoned Equipment:** MAML43UOM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: SD37GLZD442I
+- **Tombstoned Equipment:** SD37GLZD442I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: SD37GLZD442I
+- **Tombstoned Equipment:** SD37GLZD442I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: HYUBDLJ11F2T
+- **Tombstoned Equipment:** HYUBDLJ11F2T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: HYUBDLJ11F2T
+- **Tombstoned Equipment:** HYUBDLJ11F2T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 3Z73
+- **Tombstoned Equipment:** 3Z73
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 3Z73
+- **Tombstoned Equipment:** 3Z73
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 0WLR93H5QIVF
+- **Tombstoned Equipment:** 0WLR93H5QIVF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 0WLR93H5QIVF
+- **Tombstoned Equipment:** 0WLR93H5QIVF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: BBBN0ZQUZ
+- **Tombstoned Equipment:** BBBN0ZQUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: BBBN0ZQUZ
+- **Tombstoned Equipment:** BBBN0ZQUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: P9L
+- **Tombstoned Equipment:** P9L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: P9L
+- **Tombstoned Equipment:** P9L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: SPW2D9AQU3N
+- **Tombstoned Equipment:** SPW2D9AQU3N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: SPW2D9AQU3N
+- **Tombstoned Equipment:** SPW2D9AQU3N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: PGM
+- **Tombstoned Equipment:** PGM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: PGM
+- **Tombstoned Equipment:** PGM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: EILCSI2803P2
+- **Tombstoned Equipment:** EILCSI2803P2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: EILCSI2803P2
+- **Tombstoned Equipment:** EILCSI2803P2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: KU5
+- **Tombstoned Equipment:** KU5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: KU5
+- **Tombstoned Equipment:** KU5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: BV3
+- **Tombstoned Equipment:** BV3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: BV3
+- **Tombstoned Equipment:** BV3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: VX26QM6
+- **Tombstoned Equipment:** VX26QM6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: VX26QM6
+- **Tombstoned Equipment:** VX26QM6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: P3A348V3P
+- **Tombstoned Equipment:** P3A348V3P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: P3A348V3P
+- **Tombstoned Equipment:** P3A348V3P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: XO8T
+- **Tombstoned Equipment:** XO8T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: XO8T
+- **Tombstoned Equipment:** XO8T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 69WG
+- **Tombstoned Equipment:** 69WG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 69WG
+- **Tombstoned Equipment:** 69WG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: CIJR9E
+- **Tombstoned Equipment:** CIJR9E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: CIJR9E
+- **Tombstoned Equipment:** CIJR9E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: GC3VS62
+- **Tombstoned Equipment:** GC3VS62
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: GC3VS62
+- **Tombstoned Equipment:** GC3VS62
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: OFVFR2B96ER
+- **Tombstoned Equipment:** OFVFR2B96ER
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: OFVFR2B96ER
+- **Tombstoned Equipment:** OFVFR2B96ER
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: FVS1
+- **Tombstoned Equipment:** FVS1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: FVS1
+- **Tombstoned Equipment:** FVS1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 6HBHKCR6OSN
+- **Tombstoned Equipment:** 6HBHKCR6OSN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 6HBHKCR6OSN
+- **Tombstoned Equipment:** 6HBHKCR6OSN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: I469K3X
+- **Tombstoned Equipment:** I469K3X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: I469K3X
+- **Tombstoned Equipment:** I469K3X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: XN8M54U1
+- **Tombstoned Equipment:** XN8M54U1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: XN8M54U1
+- **Tombstoned Equipment:** XN8M54U1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: H58VY
+- **Tombstoned Equipment:** H58VY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: H58VY
+- **Tombstoned Equipment:** H58VY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 1S3M4HNCEHBI
+- **Tombstoned Equipment:** 1S3M4HNCEHBI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 1S3M4HNCEHBI
+- **Tombstoned Equipment:** 1S3M4HNCEHBI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: NPNFE
+- **Tombstoned Equipment:** NPNFE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: NPNFE
+- **Tombstoned Equipment:** NPNFE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: UC5Q6
+- **Tombstoned Equipment:** UC5Q6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: UC5Q6
+- **Tombstoned Equipment:** UC5Q6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 8LG
+- **Tombstoned Equipment:** 8LG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: 8LG
+- **Tombstoned Equipment:** 8LG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: OKPUBFG
+- **Tombstoned Equipment:** OKPUBFG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: OKPUBFG
+- **Tombstoned Equipment:** OKPUBFG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: ZYR
+- **Tombstoned Equipment:** ZYR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:12:05 UTC] Document Deletion: ZYR
+- **Tombstoned Equipment:** ZYR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 8W3
+- **Tombstoned Equipment:** 8W3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 8W3
+- **Tombstoned Equipment:** 8W3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 4FU
+- **Tombstoned Equipment:** 4FU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 4FU
+- **Tombstoned Equipment:** 4FU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: P4IZTDP7ZEC2
+- **Tombstoned Equipment:** P4IZTDP7ZEC2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: P4IZTDP7ZEC2
+- **Tombstoned Equipment:** P4IZTDP7ZEC2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: BRJ44
+- **Tombstoned Equipment:** BRJ44
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: BRJ44
+- **Tombstoned Equipment:** BRJ44
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: XZRVBHRJ
+- **Tombstoned Equipment:** XZRVBHRJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: XZRVBHRJ
+- **Tombstoned Equipment:** XZRVBHRJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: FCRNJN7
+- **Tombstoned Equipment:** FCRNJN7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: FCRNJN7
+- **Tombstoned Equipment:** FCRNJN7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 7WFJXHV5MQ4R
+- **Tombstoned Equipment:** 7WFJXHV5MQ4R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 7WFJXHV5MQ4R
+- **Tombstoned Equipment:** 7WFJXHV5MQ4R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 46XA
+- **Tombstoned Equipment:** 46XA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 46XA
+- **Tombstoned Equipment:** 46XA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: AJ99LZA8IJ
+- **Tombstoned Equipment:** AJ99LZA8IJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: AJ99LZA8IJ
+- **Tombstoned Equipment:** AJ99LZA8IJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 79D
+- **Tombstoned Equipment:** 79D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 79D
+- **Tombstoned Equipment:** 79D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: O69EMNFMZ
+- **Tombstoned Equipment:** O69EMNFMZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: O69EMNFMZ
+- **Tombstoned Equipment:** O69EMNFMZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: HA0DD07MMX9
+- **Tombstoned Equipment:** HA0DD07MMX9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: HA0DD07MMX9
+- **Tombstoned Equipment:** HA0DD07MMX9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: ATQV
+- **Tombstoned Equipment:** ATQV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: ATQV
+- **Tombstoned Equipment:** ATQV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: Q7NICAEHJK4
+- **Tombstoned Equipment:** Q7NICAEHJK4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: Q7NICAEHJK4
+- **Tombstoned Equipment:** Q7NICAEHJK4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: DAID
+- **Tombstoned Equipment:** DAID
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: DAID
+- **Tombstoned Equipment:** DAID
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: M6SU
+- **Tombstoned Equipment:** M6SU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: M6SU
+- **Tombstoned Equipment:** M6SU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 5T2A
+- **Tombstoned Equipment:** 5T2A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 5T2A
+- **Tombstoned Equipment:** 5T2A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 3LHV0
+- **Tombstoned Equipment:** 3LHV0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 3LHV0
+- **Tombstoned Equipment:** 3LHV0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: TXQ88PLTF6U
+- **Tombstoned Equipment:** TXQ88PLTF6U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: TXQ88PLTF6U
+- **Tombstoned Equipment:** TXQ88PLTF6U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: LJX72MVBOCVD
+- **Tombstoned Equipment:** LJX72MVBOCVD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: LJX72MVBOCVD
+- **Tombstoned Equipment:** LJX72MVBOCVD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: APWAXDWG06KU
+- **Tombstoned Equipment:** APWAXDWG06KU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: APWAXDWG06KU
+- **Tombstoned Equipment:** APWAXDWG06KU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: GS0S13U1Q
+- **Tombstoned Equipment:** GS0S13U1Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: GS0S13U1Q
+- **Tombstoned Equipment:** GS0S13U1Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: SGJN89AZA6WP
+- **Tombstoned Equipment:** SGJN89AZA6WP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: SGJN89AZA6WP
+- **Tombstoned Equipment:** SGJN89AZA6WP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: XFAG
+- **Tombstoned Equipment:** XFAG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: XFAG
+- **Tombstoned Equipment:** XFAG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 7V6CY3JKQ23A
+- **Tombstoned Equipment:** 7V6CY3JKQ23A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 7V6CY3JKQ23A
+- **Tombstoned Equipment:** 7V6CY3JKQ23A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 8V8JIVHTH3
+- **Tombstoned Equipment:** 8V8JIVHTH3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 8V8JIVHTH3
+- **Tombstoned Equipment:** 8V8JIVHTH3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 6DR94Z
+- **Tombstoned Equipment:** 6DR94Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 6DR94Z
+- **Tombstoned Equipment:** 6DR94Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: VFCK
+- **Tombstoned Equipment:** VFCK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: VFCK
+- **Tombstoned Equipment:** VFCK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: LPT1
+- **Tombstoned Equipment:** LPT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: LPT1
+- **Tombstoned Equipment:** LPT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: SQVVGF0Z5FMG
+- **Tombstoned Equipment:** SQVVGF0Z5FMG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: SQVVGF0Z5FMG
+- **Tombstoned Equipment:** SQVVGF0Z5FMG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: P0C
+- **Tombstoned Equipment:** P0C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: P0C
+- **Tombstoned Equipment:** P0C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: TTUZ
+- **Tombstoned Equipment:** TTUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: TTUZ
+- **Tombstoned Equipment:** TTUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: QT9D55FC63NS
+- **Tombstoned Equipment:** QT9D55FC63NS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: QT9D55FC63NS
+- **Tombstoned Equipment:** QT9D55FC63NS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: R7E
+- **Tombstoned Equipment:** R7E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: R7E
+- **Tombstoned Equipment:** R7E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: BOKZ
+- **Tombstoned Equipment:** BOKZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: BOKZ
+- **Tombstoned Equipment:** BOKZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: D8D
+- **Tombstoned Equipment:** D8D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: D8D
+- **Tombstoned Equipment:** D8D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: RMC
+- **Tombstoned Equipment:** RMC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: RMC
+- **Tombstoned Equipment:** RMC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: VKN1
+- **Tombstoned Equipment:** VKN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: VKN1
+- **Tombstoned Equipment:** VKN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: ASQP
+- **Tombstoned Equipment:** ASQP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: ASQP
+- **Tombstoned Equipment:** ASQP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: OG6SOQ
+- **Tombstoned Equipment:** OG6SOQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: OG6SOQ
+- **Tombstoned Equipment:** OG6SOQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 5O7KEGQUH6M3
+- **Tombstoned Equipment:** 5O7KEGQUH6M3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 5O7KEGQUH6M3
+- **Tombstoned Equipment:** 5O7KEGQUH6M3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: H0W0
+- **Tombstoned Equipment:** H0W0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: H0W0
+- **Tombstoned Equipment:** H0W0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: H1M21TCUXN0F
+- **Tombstoned Equipment:** H1M21TCUXN0F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: H1M21TCUXN0F
+- **Tombstoned Equipment:** H1M21TCUXN0F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: JK6RXEW35K
+- **Tombstoned Equipment:** JK6RXEW35K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: JK6RXEW35K
+- **Tombstoned Equipment:** JK6RXEW35K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: PNHIIJYG2
+- **Tombstoned Equipment:** PNHIIJYG2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: PNHIIJYG2
+- **Tombstoned Equipment:** PNHIIJYG2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: D4OYQ
+- **Tombstoned Equipment:** D4OYQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: D4OYQ
+- **Tombstoned Equipment:** D4OYQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: W17WIM
+- **Tombstoned Equipment:** W17WIM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: W17WIM
+- **Tombstoned Equipment:** W17WIM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: I66MFC3L2N0F
+- **Tombstoned Equipment:** I66MFC3L2N0F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: I66MFC3L2N0F
+- **Tombstoned Equipment:** I66MFC3L2N0F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: F3X9M5AFSXZW
+- **Tombstoned Equipment:** F3X9M5AFSXZW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: F3X9M5AFSXZW
+- **Tombstoned Equipment:** F3X9M5AFSXZW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: BANY8TUXH1W8
+- **Tombstoned Equipment:** BANY8TUXH1W8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: BANY8TUXH1W8
+- **Tombstoned Equipment:** BANY8TUXH1W8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 0M5T
+- **Tombstoned Equipment:** 0M5T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 0M5T
+- **Tombstoned Equipment:** 0M5T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: IQG
+- **Tombstoned Equipment:** IQG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: IQG
+- **Tombstoned Equipment:** IQG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: E5FXUK0BNZ33
+- **Tombstoned Equipment:** E5FXUK0BNZ33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: E5FXUK0BNZ33
+- **Tombstoned Equipment:** E5FXUK0BNZ33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 7QVG6NTUE
+- **Tombstoned Equipment:** 7QVG6NTUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 7QVG6NTUE
+- **Tombstoned Equipment:** 7QVG6NTUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: YC5
+- **Tombstoned Equipment:** YC5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: YC5
+- **Tombstoned Equipment:** YC5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 3JLRUVFN12TH
+- **Tombstoned Equipment:** 3JLRUVFN12TH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 3JLRUVFN12TH
+- **Tombstoned Equipment:** 3JLRUVFN12TH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 9Z51OKDTUZCZ
+- **Tombstoned Equipment:** 9Z51OKDTUZCZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: 9Z51OKDTUZCZ
+- **Tombstoned Equipment:** 9Z51OKDTUZCZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: ELC
+- **Tombstoned Equipment:** ELC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: ELC
+- **Tombstoned Equipment:** ELC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: BX6S1M2I
+- **Tombstoned Equipment:** BX6S1M2I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:05 UTC] Document Deletion: BX6S1M2I
+- **Tombstoned Equipment:** BX6S1M2I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 200
+- **Tombstoned Equipment:** 200
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 200
+- **Tombstoned Equipment:** 200
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: BPSYWWTQ1C
+- **Tombstoned Equipment:** BPSYWWTQ1C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: BPSYWWTQ1C
+- **Tombstoned Equipment:** BPSYWWTQ1C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 9Y46HMWSVRG7
+- **Tombstoned Equipment:** 9Y46HMWSVRG7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 9Y46HMWSVRG7
+- **Tombstoned Equipment:** 9Y46HMWSVRG7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: MGYS7ZPX2RM6
+- **Tombstoned Equipment:** MGYS7ZPX2RM6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: MGYS7ZPX2RM6
+- **Tombstoned Equipment:** MGYS7ZPX2RM6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: WIEEY5
+- **Tombstoned Equipment:** WIEEY5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: WIEEY5
+- **Tombstoned Equipment:** WIEEY5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 3PAF49BP3K
+- **Tombstoned Equipment:** 3PAF49BP3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 3PAF49BP3K
+- **Tombstoned Equipment:** 3PAF49BP3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: EM2ZV0VP8TIK
+- **Tombstoned Equipment:** EM2ZV0VP8TIK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: EM2ZV0VP8TIK
+- **Tombstoned Equipment:** EM2ZV0VP8TIK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: DIG1LU6RO
+- **Tombstoned Equipment:** DIG1LU6RO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: DIG1LU6RO
+- **Tombstoned Equipment:** DIG1LU6RO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: YXYC9LB1KE60
+- **Tombstoned Equipment:** YXYC9LB1KE60
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: YXYC9LB1KE60
+- **Tombstoned Equipment:** YXYC9LB1KE60
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 1JJ8UX
+- **Tombstoned Equipment:** 1JJ8UX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 1JJ8UX
+- **Tombstoned Equipment:** 1JJ8UX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: AGOJY
+- **Tombstoned Equipment:** AGOJY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: AGOJY
+- **Tombstoned Equipment:** AGOJY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 766E
+- **Tombstoned Equipment:** 766E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 766E
+- **Tombstoned Equipment:** 766E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: YTL
+- **Tombstoned Equipment:** YTL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: YTL
+- **Tombstoned Equipment:** YTL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: TGSN
+- **Tombstoned Equipment:** TGSN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: TGSN
+- **Tombstoned Equipment:** TGSN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: BMZZ
+- **Tombstoned Equipment:** BMZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: BMZZ
+- **Tombstoned Equipment:** BMZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: GBYYZSGAA1
+- **Tombstoned Equipment:** GBYYZSGAA1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: GBYYZSGAA1
+- **Tombstoned Equipment:** GBYYZSGAA1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: QSDQC2U
+- **Tombstoned Equipment:** QSDQC2U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: QSDQC2U
+- **Tombstoned Equipment:** QSDQC2U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: ONRHHN1
+- **Tombstoned Equipment:** ONRHHN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: ONRHHN1
+- **Tombstoned Equipment:** ONRHHN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: SY743MJXMSZG
+- **Tombstoned Equipment:** SY743MJXMSZG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: SY743MJXMSZG
+- **Tombstoned Equipment:** SY743MJXMSZG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: WVEQ1
+- **Tombstoned Equipment:** WVEQ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: WVEQ1
+- **Tombstoned Equipment:** WVEQ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: CO3FG5V7NLG
+- **Tombstoned Equipment:** CO3FG5V7NLG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: CO3FG5V7NLG
+- **Tombstoned Equipment:** CO3FG5V7NLG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: K0H
+- **Tombstoned Equipment:** K0H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: K0H
+- **Tombstoned Equipment:** K0H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 9HPS
+- **Tombstoned Equipment:** 9HPS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 9HPS
+- **Tombstoned Equipment:** 9HPS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: XIMWXKADC
+- **Tombstoned Equipment:** XIMWXKADC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: XIMWXKADC
+- **Tombstoned Equipment:** XIMWXKADC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: ONLE7BVCOJ1V
+- **Tombstoned Equipment:** ONLE7BVCOJ1V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: ONLE7BVCOJ1V
+- **Tombstoned Equipment:** ONLE7BVCOJ1V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: U8A23
+- **Tombstoned Equipment:** U8A23
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: U8A23
+- **Tombstoned Equipment:** U8A23
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: C6ZIB5FDA0J
+- **Tombstoned Equipment:** C6ZIB5FDA0J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: C6ZIB5FDA0J
+- **Tombstoned Equipment:** C6ZIB5FDA0J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 8SHOITC6
+- **Tombstoned Equipment:** 8SHOITC6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 8SHOITC6
+- **Tombstoned Equipment:** 8SHOITC6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: A7JKQAD
+- **Tombstoned Equipment:** A7JKQAD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: A7JKQAD
+- **Tombstoned Equipment:** A7JKQAD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: JBGE4S8OPTUV
+- **Tombstoned Equipment:** JBGE4S8OPTUV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: JBGE4S8OPTUV
+- **Tombstoned Equipment:** JBGE4S8OPTUV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 9EQSEIL030RR
+- **Tombstoned Equipment:** 9EQSEIL030RR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 9EQSEIL030RR
+- **Tombstoned Equipment:** 9EQSEIL030RR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: ZH3KI6HRK1
+- **Tombstoned Equipment:** ZH3KI6HRK1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: ZH3KI6HRK1
+- **Tombstoned Equipment:** ZH3KI6HRK1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 1BF6
+- **Tombstoned Equipment:** 1BF6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: 1BF6
+- **Tombstoned Equipment:** 1BF6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: SBUOB2I6C107
+- **Tombstoned Equipment:** SBUOB2I6C107
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: SBUOB2I6C107
+- **Tombstoned Equipment:** SBUOB2I6C107
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: UCFE7J76Q69A
+- **Tombstoned Equipment:** UCFE7J76Q69A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: UCFE7J76Q69A
+- **Tombstoned Equipment:** UCFE7J76Q69A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: VPGED8
+- **Tombstoned Equipment:** VPGED8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: VPGED8
+- **Tombstoned Equipment:** VPGED8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: L2GV
+- **Tombstoned Equipment:** L2GV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: L2GV
+- **Tombstoned Equipment:** L2GV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:22:06 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: CTTQOYT6
+- **Tombstoned Equipment:** CTTQOYT6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: CTTQOYT6
+- **Tombstoned Equipment:** CTTQOYT6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: LYZ
+- **Tombstoned Equipment:** LYZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: LYZ
+- **Tombstoned Equipment:** LYZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: F8G2N2M9S8CK
+- **Tombstoned Equipment:** F8G2N2M9S8CK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: F8G2N2M9S8CK
+- **Tombstoned Equipment:** F8G2N2M9S8CK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: DZYKJS
+- **Tombstoned Equipment:** DZYKJS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: DZYKJS
+- **Tombstoned Equipment:** DZYKJS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: HPZZ
+- **Tombstoned Equipment:** HPZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: HPZZ
+- **Tombstoned Equipment:** HPZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: ZUQ832WCU
+- **Tombstoned Equipment:** ZUQ832WCU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:16 UTC] Document Deletion: ZUQ832WCU
+- **Tombstoned Equipment:** ZUQ832WCU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: MMFS
+- **Tombstoned Equipment:** MMFS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: MMFS
+- **Tombstoned Equipment:** MMFS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: QH8MUJZUJS2P
+- **Tombstoned Equipment:** QH8MUJZUJS2P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: QH8MUJZUJS2P
+- **Tombstoned Equipment:** QH8MUJZUJS2P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: RCVURBM3DMZI
+- **Tombstoned Equipment:** RCVURBM3DMZI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: RCVURBM3DMZI
+- **Tombstoned Equipment:** RCVURBM3DMZI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 8P3R
+- **Tombstoned Equipment:** 8P3R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 8P3R
+- **Tombstoned Equipment:** 8P3R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: AQ7XY1VB64F
+- **Tombstoned Equipment:** AQ7XY1VB64F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: AQ7XY1VB64F
+- **Tombstoned Equipment:** AQ7XY1VB64F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 54ZQZL6FN7O
+- **Tombstoned Equipment:** 54ZQZL6FN7O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 54ZQZL6FN7O
+- **Tombstoned Equipment:** 54ZQZL6FN7O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: JPV68IG
+- **Tombstoned Equipment:** JPV68IG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: JPV68IG
+- **Tombstoned Equipment:** JPV68IG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: QF1J
+- **Tombstoned Equipment:** QF1J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: QF1J
+- **Tombstoned Equipment:** QF1J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: UXYR
+- **Tombstoned Equipment:** UXYR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: UXYR
+- **Tombstoned Equipment:** UXYR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 3B3LX
+- **Tombstoned Equipment:** 3B3LX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 3B3LX
+- **Tombstoned Equipment:** 3B3LX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: FNDJ9R4YOA37
+- **Tombstoned Equipment:** FNDJ9R4YOA37
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: FNDJ9R4YOA37
+- **Tombstoned Equipment:** FNDJ9R4YOA37
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: E8DFJQ
+- **Tombstoned Equipment:** E8DFJQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: E8DFJQ
+- **Tombstoned Equipment:** E8DFJQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: Q4DTLBE058V4
+- **Tombstoned Equipment:** Q4DTLBE058V4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: Q4DTLBE058V4
+- **Tombstoned Equipment:** Q4DTLBE058V4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: IQ75DN
+- **Tombstoned Equipment:** IQ75DN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: IQ75DN
+- **Tombstoned Equipment:** IQ75DN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 61F
+- **Tombstoned Equipment:** 61F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 61F
+- **Tombstoned Equipment:** 61F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: TJ9A0E8RA3G6
+- **Tombstoned Equipment:** TJ9A0E8RA3G6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: TJ9A0E8RA3G6
+- **Tombstoned Equipment:** TJ9A0E8RA3G6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: FD543HQYHEBH
+- **Tombstoned Equipment:** FD543HQYHEBH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: FD543HQYHEBH
+- **Tombstoned Equipment:** FD543HQYHEBH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: H46XISPF46N
+- **Tombstoned Equipment:** H46XISPF46N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: H46XISPF46N
+- **Tombstoned Equipment:** H46XISPF46N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: V6F0G49OH6FZ
+- **Tombstoned Equipment:** V6F0G49OH6FZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: V6F0G49OH6FZ
+- **Tombstoned Equipment:** V6F0G49OH6FZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: V2XWMP3FKSK
+- **Tombstoned Equipment:** V2XWMP3FKSK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: V2XWMP3FKSK
+- **Tombstoned Equipment:** V2XWMP3FKSK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 62V
+- **Tombstoned Equipment:** 62V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 62V
+- **Tombstoned Equipment:** 62V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PUXNNFRCMRHQ
+- **Tombstoned Equipment:** PUXNNFRCMRHQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PUXNNFRCMRHQ
+- **Tombstoned Equipment:** PUXNNFRCMRHQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: FD13X1V7JM1
+- **Tombstoned Equipment:** FD13X1V7JM1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: FD13X1V7JM1
+- **Tombstoned Equipment:** FD13X1V7JM1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 9QZD59WR
+- **Tombstoned Equipment:** 9QZD59WR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 9QZD59WR
+- **Tombstoned Equipment:** 9QZD59WR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: B3S4R53
+- **Tombstoned Equipment:** B3S4R53
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: B3S4R53
+- **Tombstoned Equipment:** B3S4R53
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: YZQZCVXPUO5R
+- **Tombstoned Equipment:** YZQZCVXPUO5R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: YZQZCVXPUO5R
+- **Tombstoned Equipment:** YZQZCVXPUO5R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: T94
+- **Tombstoned Equipment:** T94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: T94
+- **Tombstoned Equipment:** T94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: UNKNOWN
+- **Tombstoned Equipment:** UNKNOWN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: UNKNOWN
+- **Tombstoned Equipment:** UNKNOWN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: JYA
+- **Tombstoned Equipment:** JYA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: JYA
+- **Tombstoned Equipment:** JYA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PVEJ1164M7K
+- **Tombstoned Equipment:** PVEJ1164M7K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PVEJ1164M7K
+- **Tombstoned Equipment:** PVEJ1164M7K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 8SBG3
+- **Tombstoned Equipment:** 8SBG3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 8SBG3
+- **Tombstoned Equipment:** 8SBG3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: V6HDE16PZ
+- **Tombstoned Equipment:** V6HDE16PZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: V6HDE16PZ
+- **Tombstoned Equipment:** V6HDE16PZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 174NRZEX9S9Z
+- **Tombstoned Equipment:** 174NRZEX9S9Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 174NRZEX9S9Z
+- **Tombstoned Equipment:** 174NRZEX9S9Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 8GYLNW8Q
+- **Tombstoned Equipment:** 8GYLNW8Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 8GYLNW8Q
+- **Tombstoned Equipment:** 8GYLNW8Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: ZQ94
+- **Tombstoned Equipment:** ZQ94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: ZQ94
+- **Tombstoned Equipment:** ZQ94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 87HNE
+- **Tombstoned Equipment:** 87HNE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 87HNE
+- **Tombstoned Equipment:** 87HNE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 4I9ZMQR97DFE
+- **Tombstoned Equipment:** 4I9ZMQR97DFE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 4I9ZMQR97DFE
+- **Tombstoned Equipment:** 4I9ZMQR97DFE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: QBY
+- **Tombstoned Equipment:** QBY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: QBY
+- **Tombstoned Equipment:** QBY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: IHN8NR
+- **Tombstoned Equipment:** IHN8NR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: IHN8NR
+- **Tombstoned Equipment:** IHN8NR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: Q5XOG8W2Z4P
+- **Tombstoned Equipment:** Q5XOG8W2Z4P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: Q5XOG8W2Z4P
+- **Tombstoned Equipment:** Q5XOG8W2Z4P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: UOGZKTVKEZZX
+- **Tombstoned Equipment:** UOGZKTVKEZZX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: UOGZKTVKEZZX
+- **Tombstoned Equipment:** UOGZKTVKEZZX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: F1P0F21G1QFE
+- **Tombstoned Equipment:** F1P0F21G1QFE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: F1P0F21G1QFE
+- **Tombstoned Equipment:** F1P0F21G1QFE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: SAPE8
+- **Tombstoned Equipment:** SAPE8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: SAPE8
+- **Tombstoned Equipment:** SAPE8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: WFV4P24K
+- **Tombstoned Equipment:** WFV4P24K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: WFV4P24K
+- **Tombstoned Equipment:** WFV4P24K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: JU032
+- **Tombstoned Equipment:** JU032
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: JU032
+- **Tombstoned Equipment:** JU032
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: XHA9HG85XOFO
+- **Tombstoned Equipment:** XHA9HG85XOFO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: XHA9HG85XOFO
+- **Tombstoned Equipment:** XHA9HG85XOFO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 70KIY3672
+- **Tombstoned Equipment:** 70KIY3672
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 70KIY3672
+- **Tombstoned Equipment:** 70KIY3672
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: UHJ34E27MI14
+- **Tombstoned Equipment:** UHJ34E27MI14
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: UHJ34E27MI14
+- **Tombstoned Equipment:** UHJ34E27MI14
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: WYLZ
+- **Tombstoned Equipment:** WYLZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: WYLZ
+- **Tombstoned Equipment:** WYLZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: LY2WPDU
+- **Tombstoned Equipment:** LY2WPDU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: LY2WPDU
+- **Tombstoned Equipment:** LY2WPDU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 5EOS7PTA7ND
+- **Tombstoned Equipment:** 5EOS7PTA7ND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 5EOS7PTA7ND
+- **Tombstoned Equipment:** 5EOS7PTA7ND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: KI6O
+- **Tombstoned Equipment:** KI6O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: KI6O
+- **Tombstoned Equipment:** KI6O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: H3L3N5OOXP4
+- **Tombstoned Equipment:** H3L3N5OOXP4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: H3L3N5OOXP4
+- **Tombstoned Equipment:** H3L3N5OOXP4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: Z83G
+- **Tombstoned Equipment:** Z83G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: Z83G
+- **Tombstoned Equipment:** Z83G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 17S
+- **Tombstoned Equipment:** 17S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 17S
+- **Tombstoned Equipment:** 17S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: MBC2RC
+- **Tombstoned Equipment:** MBC2RC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: MBC2RC
+- **Tombstoned Equipment:** MBC2RC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: BES
+- **Tombstoned Equipment:** BES
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: BES
+- **Tombstoned Equipment:** BES
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 9TQ
+- **Tombstoned Equipment:** 9TQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 9TQ
+- **Tombstoned Equipment:** 9TQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: F1AYO2H
+- **Tombstoned Equipment:** F1AYO2H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: F1AYO2H
+- **Tombstoned Equipment:** F1AYO2H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: NXUIU1NC4E
+- **Tombstoned Equipment:** NXUIU1NC4E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: NXUIU1NC4E
+- **Tombstoned Equipment:** NXUIU1NC4E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: GZ1P
+- **Tombstoned Equipment:** GZ1P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: GZ1P
+- **Tombstoned Equipment:** GZ1P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 46N
+- **Tombstoned Equipment:** 46N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 46N
+- **Tombstoned Equipment:** 46N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 4Z04VLEPDV
+- **Tombstoned Equipment:** 4Z04VLEPDV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 4Z04VLEPDV
+- **Tombstoned Equipment:** 4Z04VLEPDV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: NBAW19O
+- **Tombstoned Equipment:** NBAW19O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: NBAW19O
+- **Tombstoned Equipment:** NBAW19O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: V3FS3WQU8
+- **Tombstoned Equipment:** V3FS3WQU8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: V3FS3WQU8
+- **Tombstoned Equipment:** V3FS3WQU8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: DGK5DVJ6J
+- **Tombstoned Equipment:** DGK5DVJ6J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: DGK5DVJ6J
+- **Tombstoned Equipment:** DGK5DVJ6J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: HE9X2OUDDN62
+- **Tombstoned Equipment:** HE9X2OUDDN62
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: HE9X2OUDDN62
+- **Tombstoned Equipment:** HE9X2OUDDN62
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: CYFBY6
+- **Tombstoned Equipment:** CYFBY6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: CYFBY6
+- **Tombstoned Equipment:** CYFBY6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: BQ28MZE0TKM
+- **Tombstoned Equipment:** BQ28MZE0TKM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: BQ28MZE0TKM
+- **Tombstoned Equipment:** BQ28MZE0TKM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: WNFJ
+- **Tombstoned Equipment:** WNFJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: WNFJ
+- **Tombstoned Equipment:** WNFJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 5CCTPITYP92M
+- **Tombstoned Equipment:** 5CCTPITYP92M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 5CCTPITYP92M
+- **Tombstoned Equipment:** 5CCTPITYP92M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 02QF
+- **Tombstoned Equipment:** 02QF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 02QF
+- **Tombstoned Equipment:** 02QF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 6JV4J
+- **Tombstoned Equipment:** 6JV4J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 6JV4J
+- **Tombstoned Equipment:** 6JV4J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: XK5
+- **Tombstoned Equipment:** XK5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: XK5
+- **Tombstoned Equipment:** XK5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 1F4E78
+- **Tombstoned Equipment:** 1F4E78
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 1F4E78
+- **Tombstoned Equipment:** 1F4E78
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PPBQ6
+- **Tombstoned Equipment:** PPBQ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PPBQ6
+- **Tombstoned Equipment:** PPBQ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 9H7J
+- **Tombstoned Equipment:** 9H7J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 9H7J
+- **Tombstoned Equipment:** 9H7J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: QQRNH2T8XD1J
+- **Tombstoned Equipment:** QQRNH2T8XD1J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: QQRNH2T8XD1J
+- **Tombstoned Equipment:** QQRNH2T8XD1J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: E33CK
+- **Tombstoned Equipment:** E33CK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: E33CK
+- **Tombstoned Equipment:** E33CK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: N7RWI8
+- **Tombstoned Equipment:** N7RWI8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: N7RWI8
+- **Tombstoned Equipment:** N7RWI8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: P8DNRYMEFN1M
+- **Tombstoned Equipment:** P8DNRYMEFN1M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: P8DNRYMEFN1M
+- **Tombstoned Equipment:** P8DNRYMEFN1M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: RITB6YBFQK
+- **Tombstoned Equipment:** RITB6YBFQK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: RITB6YBFQK
+- **Tombstoned Equipment:** RITB6YBFQK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: IM7JQM
+- **Tombstoned Equipment:** IM7JQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: IM7JQM
+- **Tombstoned Equipment:** IM7JQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 5KN
+- **Tombstoned Equipment:** 5KN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 5KN
+- **Tombstoned Equipment:** 5KN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 0XX0XE
+- **Tombstoned Equipment:** 0XX0XE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 0XX0XE
+- **Tombstoned Equipment:** 0XX0XE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 7ST
+- **Tombstoned Equipment:** 7ST
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 7ST
+- **Tombstoned Equipment:** 7ST
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: HT84
+- **Tombstoned Equipment:** HT84
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: HT84
+- **Tombstoned Equipment:** HT84
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PRRKOQ7RHRDO
+- **Tombstoned Equipment:** PRRKOQ7RHRDO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PRRKOQ7RHRDO
+- **Tombstoned Equipment:** PRRKOQ7RHRDO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PAV3
+- **Tombstoned Equipment:** PAV3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: PAV3
+- **Tombstoned Equipment:** PAV3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 5AGQKM0CXLT4
+- **Tombstoned Equipment:** 5AGQKM0CXLT4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:17 UTC] Document Deletion: 5AGQKM0CXLT4
+- **Tombstoned Equipment:** 5AGQKM0CXLT4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FTO3K65QGCAF
+- **Tombstoned Equipment:** FTO3K65QGCAF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FTO3K65QGCAF
+- **Tombstoned Equipment:** FTO3K65QGCAF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 41684H
+- **Tombstoned Equipment:** 41684H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 41684H
+- **Tombstoned Equipment:** 41684H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 983F23J
+- **Tombstoned Equipment:** 983F23J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 983F23J
+- **Tombstoned Equipment:** 983F23J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: DCC3HG3RQH
+- **Tombstoned Equipment:** DCC3HG3RQH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: DCC3HG3RQH
+- **Tombstoned Equipment:** DCC3HG3RQH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: DJ4UAVZDSC
+- **Tombstoned Equipment:** DJ4UAVZDSC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: DJ4UAVZDSC
+- **Tombstoned Equipment:** DJ4UAVZDSC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 4BNNKRWTO6YT
+- **Tombstoned Equipment:** 4BNNKRWTO6YT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 4BNNKRWTO6YT
+- **Tombstoned Equipment:** 4BNNKRWTO6YT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: QCHMYIFP
+- **Tombstoned Equipment:** QCHMYIFP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: QCHMYIFP
+- **Tombstoned Equipment:** QCHMYIFP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: EGI
+- **Tombstoned Equipment:** EGI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: EGI
+- **Tombstoned Equipment:** EGI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: WNXAWU
+- **Tombstoned Equipment:** WNXAWU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: WNXAWU
+- **Tombstoned Equipment:** WNXAWU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: LPT1
+- **Tombstoned Equipment:** LPT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: LPT1
+- **Tombstoned Equipment:** LPT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: CU1
+- **Tombstoned Equipment:** CU1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: CU1
+- **Tombstoned Equipment:** CU1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 2T7JY
+- **Tombstoned Equipment:** 2T7JY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 2T7JY
+- **Tombstoned Equipment:** 2T7JY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: SIL
+- **Tombstoned Equipment:** SIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: SIL
+- **Tombstoned Equipment:** SIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 678SS9KD
+- **Tombstoned Equipment:** 678SS9KD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 678SS9KD
+- **Tombstoned Equipment:** 678SS9KD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FYOS0
+- **Tombstoned Equipment:** FYOS0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FYOS0
+- **Tombstoned Equipment:** FYOS0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: AFH
+- **Tombstoned Equipment:** AFH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: AFH
+- **Tombstoned Equipment:** AFH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: CRYHIUF
+- **Tombstoned Equipment:** CRYHIUF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: CRYHIUF
+- **Tombstoned Equipment:** CRYHIUF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: SK0XB9U
+- **Tombstoned Equipment:** SK0XB9U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: SK0XB9U
+- **Tombstoned Equipment:** SK0XB9U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: GSUXGYBUQ1N
+- **Tombstoned Equipment:** GSUXGYBUQ1N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: GSUXGYBUQ1N
+- **Tombstoned Equipment:** GSUXGYBUQ1N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: XN4H60AA25UD
+- **Tombstoned Equipment:** XN4H60AA25UD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: XN4H60AA25UD
+- **Tombstoned Equipment:** XN4H60AA25UD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: OUA
+- **Tombstoned Equipment:** OUA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: OUA
+- **Tombstoned Equipment:** OUA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: IAY35NGS
+- **Tombstoned Equipment:** IAY35NGS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: IAY35NGS
+- **Tombstoned Equipment:** IAY35NGS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: QYDTLIYWA1P9
+- **Tombstoned Equipment:** QYDTLIYWA1P9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: QYDTLIYWA1P9
+- **Tombstoned Equipment:** QYDTLIYWA1P9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 0TFRBNIV8GZS
+- **Tombstoned Equipment:** 0TFRBNIV8GZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 0TFRBNIV8GZS
+- **Tombstoned Equipment:** 0TFRBNIV8GZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: CK2HWDC
+- **Tombstoned Equipment:** CK2HWDC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: CK2HWDC
+- **Tombstoned Equipment:** CK2HWDC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 2EJBROKAY2CJ
+- **Tombstoned Equipment:** 2EJBROKAY2CJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 2EJBROKAY2CJ
+- **Tombstoned Equipment:** 2EJBROKAY2CJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: HTD
+- **Tombstoned Equipment:** HTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: HTD
+- **Tombstoned Equipment:** HTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: VIOLATION
+- **Tombstoned Equipment:** VIOLATION
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: VIOLATION
+- **Tombstoned Equipment:** VIOLATION
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FL37QJ
+- **Tombstoned Equipment:** FL37QJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FL37QJ
+- **Tombstoned Equipment:** FL37QJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 37QD985P
+- **Tombstoned Equipment:** 37QD985P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 37QD985P
+- **Tombstoned Equipment:** 37QD985P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: A332
+- **Tombstoned Equipment:** A332
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: A332
+- **Tombstoned Equipment:** A332
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: COM1
+- **Tombstoned Equipment:** COM1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: COM1
+- **Tombstoned Equipment:** COM1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: QYBTD
+- **Tombstoned Equipment:** QYBTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: QYBTD
+- **Tombstoned Equipment:** QYBTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 3BDQ9HEH
+- **Tombstoned Equipment:** 3BDQ9HEH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 3BDQ9HEH
+- **Tombstoned Equipment:** 3BDQ9HEH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: B87Z0UV9X5RA
+- **Tombstoned Equipment:** B87Z0UV9X5RA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: B87Z0UV9X5RA
+- **Tombstoned Equipment:** B87Z0UV9X5RA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FY1E6SKAZC6O
+- **Tombstoned Equipment:** FY1E6SKAZC6O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FY1E6SKAZC6O
+- **Tombstoned Equipment:** FY1E6SKAZC6O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: YS2ASMYQ
+- **Tombstoned Equipment:** YS2ASMYQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: YS2ASMYQ
+- **Tombstoned Equipment:** YS2ASMYQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 9WPF
+- **Tombstoned Equipment:** 9WPF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 9WPF
+- **Tombstoned Equipment:** 9WPF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: E9JDNRJH0W6
+- **Tombstoned Equipment:** E9JDNRJH0W6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: E9JDNRJH0W6
+- **Tombstoned Equipment:** E9JDNRJH0W6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FXH1MK4
+- **Tombstoned Equipment:** FXH1MK4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FXH1MK4
+- **Tombstoned Equipment:** FXH1MK4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: YNW
+- **Tombstoned Equipment:** YNW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: YNW
+- **Tombstoned Equipment:** YNW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: KURT
+- **Tombstoned Equipment:** KURT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: KURT
+- **Tombstoned Equipment:** KURT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FRZL8
+- **Tombstoned Equipment:** FRZL8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FRZL8
+- **Tombstoned Equipment:** FRZL8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: OYHBYPA
+- **Tombstoned Equipment:** OYHBYPA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: OYHBYPA
+- **Tombstoned Equipment:** OYHBYPA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: YQJ7JUVHQODU
+- **Tombstoned Equipment:** YQJ7JUVHQODU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: YQJ7JUVHQODU
+- **Tombstoned Equipment:** YQJ7JUVHQODU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: CHL82R
+- **Tombstoned Equipment:** CHL82R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: CHL82R
+- **Tombstoned Equipment:** CHL82R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: U8DURRAVFJII
+- **Tombstoned Equipment:** U8DURRAVFJII
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: U8DURRAVFJII
+- **Tombstoned Equipment:** U8DURRAVFJII
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: TI7L7AK2LR1
+- **Tombstoned Equipment:** TI7L7AK2LR1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: TI7L7AK2LR1
+- **Tombstoned Equipment:** TI7L7AK2LR1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FI8X0OWCF3OA
+- **Tombstoned Equipment:** FI8X0OWCF3OA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FI8X0OWCF3OA
+- **Tombstoned Equipment:** FI8X0OWCF3OA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: C2Z
+- **Tombstoned Equipment:** C2Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: C2Z
+- **Tombstoned Equipment:** C2Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: T8JEDROCZYB
+- **Tombstoned Equipment:** T8JEDROCZYB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: T8JEDROCZYB
+- **Tombstoned Equipment:** T8JEDROCZYB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 94D4404Z
+- **Tombstoned Equipment:** 94D4404Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 94D4404Z
+- **Tombstoned Equipment:** 94D4404Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: AH2SGKOL4O
+- **Tombstoned Equipment:** AH2SGKOL4O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: AH2SGKOL4O
+- **Tombstoned Equipment:** AH2SGKOL4O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: T9LLV3JPSUPL
+- **Tombstoned Equipment:** T9LLV3JPSUPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: T9LLV3JPSUPL
+- **Tombstoned Equipment:** T9LLV3JPSUPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 5C0Z
+- **Tombstoned Equipment:** 5C0Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 5C0Z
+- **Tombstoned Equipment:** 5C0Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: UGM
+- **Tombstoned Equipment:** UGM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: UGM
+- **Tombstoned Equipment:** UGM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 135X
+- **Tombstoned Equipment:** 135X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 135X
+- **Tombstoned Equipment:** 135X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: WRIJ
+- **Tombstoned Equipment:** WRIJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: WRIJ
+- **Tombstoned Equipment:** WRIJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 88Y3QPI7UPS
+- **Tombstoned Equipment:** 88Y3QPI7UPS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 88Y3QPI7UPS
+- **Tombstoned Equipment:** 88Y3QPI7UPS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: XGT6
+- **Tombstoned Equipment:** XGT6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: XGT6
+- **Tombstoned Equipment:** XGT6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: L8GC
+- **Tombstoned Equipment:** L8GC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: L8GC
+- **Tombstoned Equipment:** L8GC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: N1T
+- **Tombstoned Equipment:** N1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: N1T
+- **Tombstoned Equipment:** N1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 77YP7L
+- **Tombstoned Equipment:** 77YP7L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 77YP7L
+- **Tombstoned Equipment:** 77YP7L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: WGNMBE
+- **Tombstoned Equipment:** WGNMBE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: WGNMBE
+- **Tombstoned Equipment:** WGNMBE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: R8L
+- **Tombstoned Equipment:** R8L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: R8L
+- **Tombstoned Equipment:** R8L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: XNO1
+- **Tombstoned Equipment:** XNO1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: XNO1
+- **Tombstoned Equipment:** XNO1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 8FX9H9DHGQ20
+- **Tombstoned Equipment:** 8FX9H9DHGQ20
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 8FX9H9DHGQ20
+- **Tombstoned Equipment:** 8FX9H9DHGQ20
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: K19TTIZY80
+- **Tombstoned Equipment:** K19TTIZY80
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: K19TTIZY80
+- **Tombstoned Equipment:** K19TTIZY80
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: T8LOA6P
+- **Tombstoned Equipment:** T8LOA6P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: T8LOA6P
+- **Tombstoned Equipment:** T8LOA6P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 00XC71
+- **Tombstoned Equipment:** 00XC71
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 00XC71
+- **Tombstoned Equipment:** 00XC71
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 0SM18
+- **Tombstoned Equipment:** 0SM18
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 0SM18
+- **Tombstoned Equipment:** 0SM18
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: GD656ZCTMKYT
+- **Tombstoned Equipment:** GD656ZCTMKYT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: GD656ZCTMKYT
+- **Tombstoned Equipment:** GD656ZCTMKYT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: DBID8NDL
+- **Tombstoned Equipment:** DBID8NDL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: DBID8NDL
+- **Tombstoned Equipment:** DBID8NDL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FS91XRI29
+- **Tombstoned Equipment:** FS91XRI29
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: FS91XRI29
+- **Tombstoned Equipment:** FS91XRI29
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: VD400V
+- **Tombstoned Equipment:** VD400V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: VD400V
+- **Tombstoned Equipment:** VD400V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: KLISLV3PNRE
+- **Tombstoned Equipment:** KLISLV3PNRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: KLISLV3PNRE
+- **Tombstoned Equipment:** KLISLV3PNRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: RKLO1GKR1OJ
+- **Tombstoned Equipment:** RKLO1GKR1OJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: RKLO1GKR1OJ
+- **Tombstoned Equipment:** RKLO1GKR1OJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 7QUBRKSJ
+- **Tombstoned Equipment:** 7QUBRKSJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 7QUBRKSJ
+- **Tombstoned Equipment:** 7QUBRKSJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 2TY
+- **Tombstoned Equipment:** 2TY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 2TY
+- **Tombstoned Equipment:** 2TY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: DICX
+- **Tombstoned Equipment:** DICX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: DICX
+- **Tombstoned Equipment:** DICX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: T4YQ4O
+- **Tombstoned Equipment:** T4YQ4O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: T4YQ4O
+- **Tombstoned Equipment:** T4YQ4O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: MU2H2LDTCYHH
+- **Tombstoned Equipment:** MU2H2LDTCYHH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: MU2H2LDTCYHH
+- **Tombstoned Equipment:** MU2H2LDTCYHH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: HMZILXKYTXPB
+- **Tombstoned Equipment:** HMZILXKYTXPB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: HMZILXKYTXPB
+- **Tombstoned Equipment:** HMZILXKYTXPB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: LSBV2YVMR8K3
+- **Tombstoned Equipment:** LSBV2YVMR8K3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: LSBV2YVMR8K3
+- **Tombstoned Equipment:** LSBV2YVMR8K3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: TK0C4UUZ09W
+- **Tombstoned Equipment:** TK0C4UUZ09W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: TK0C4UUZ09W
+- **Tombstoned Equipment:** TK0C4UUZ09W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: AXMQE3U90UZ8
+- **Tombstoned Equipment:** AXMQE3U90UZ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: AXMQE3U90UZ8
+- **Tombstoned Equipment:** AXMQE3U90UZ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 3HESW5FQ
+- **Tombstoned Equipment:** 3HESW5FQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 3HESW5FQ
+- **Tombstoned Equipment:** 3HESW5FQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 90N
+- **Tombstoned Equipment:** 90N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 90N
+- **Tombstoned Equipment:** 90N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 7WRAAQC
+- **Tombstoned Equipment:** 7WRAAQC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 7WRAAQC
+- **Tombstoned Equipment:** 7WRAAQC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 42G27MH
+- **Tombstoned Equipment:** 42G27MH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 42G27MH
+- **Tombstoned Equipment:** 42G27MH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: BW8VX
+- **Tombstoned Equipment:** BW8VX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: BW8VX
+- **Tombstoned Equipment:** BW8VX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: VOQX69
+- **Tombstoned Equipment:** VOQX69
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: VOQX69
+- **Tombstoned Equipment:** VOQX69
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 4S26L
+- **Tombstoned Equipment:** 4S26L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:27:46 UTC] Document Deletion: 4S26L
+- **Tombstoned Equipment:** 4S26L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 209
+- **Tombstoned Equipment:** 209
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 209
+- **Tombstoned Equipment:** 209
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: RCA
+- **Tombstoned Equipment:** RCA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: RCA
+- **Tombstoned Equipment:** RCA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: E2FRMGQY7
+- **Tombstoned Equipment:** E2FRMGQY7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: E2FRMGQY7
+- **Tombstoned Equipment:** E2FRMGQY7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 0J2RM
+- **Tombstoned Equipment:** 0J2RM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 0J2RM
+- **Tombstoned Equipment:** 0J2RM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: TKFMYJSZ7S
+- **Tombstoned Equipment:** TKFMYJSZ7S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: TKFMYJSZ7S
+- **Tombstoned Equipment:** TKFMYJSZ7S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 3IA3G91EGJ5Z
+- **Tombstoned Equipment:** 3IA3G91EGJ5Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 3IA3G91EGJ5Z
+- **Tombstoned Equipment:** 3IA3G91EGJ5Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FRNXRWJKO07J
+- **Tombstoned Equipment:** FRNXRWJKO07J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FRNXRWJKO07J
+- **Tombstoned Equipment:** FRNXRWJKO07J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: ZX3Y33VD0DND
+- **Tombstoned Equipment:** ZX3Y33VD0DND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: ZX3Y33VD0DND
+- **Tombstoned Equipment:** ZX3Y33VD0DND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 24P7CWKW
+- **Tombstoned Equipment:** 24P7CWKW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 24P7CWKW
+- **Tombstoned Equipment:** 24P7CWKW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: ZS9
+- **Tombstoned Equipment:** ZS9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: ZS9
+- **Tombstoned Equipment:** ZS9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 4L0
+- **Tombstoned Equipment:** 4L0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 4L0
+- **Tombstoned Equipment:** 4L0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 0359
+- **Tombstoned Equipment:** 0359
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 0359
+- **Tombstoned Equipment:** 0359
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: D3JUL383E0PH
+- **Tombstoned Equipment:** D3JUL383E0PH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: D3JUL383E0PH
+- **Tombstoned Equipment:** D3JUL383E0PH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: N4Y6K5
+- **Tombstoned Equipment:** N4Y6K5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: N4Y6K5
+- **Tombstoned Equipment:** N4Y6K5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 6LGK55
+- **Tombstoned Equipment:** 6LGK55
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 6LGK55
+- **Tombstoned Equipment:** 6LGK55
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: W4BC6KA27LV3
+- **Tombstoned Equipment:** W4BC6KA27LV3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: W4BC6KA27LV3
+- **Tombstoned Equipment:** W4BC6KA27LV3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: QIJ1HWAU0FTP
+- **Tombstoned Equipment:** QIJ1HWAU0FTP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: QIJ1HWAU0FTP
+- **Tombstoned Equipment:** QIJ1HWAU0FTP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 1I0
+- **Tombstoned Equipment:** 1I0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 1I0
+- **Tombstoned Equipment:** 1I0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: V0JL9U
+- **Tombstoned Equipment:** V0JL9U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: V0JL9U
+- **Tombstoned Equipment:** V0JL9U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FER8Z14FPX0F
+- **Tombstoned Equipment:** FER8Z14FPX0F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FER8Z14FPX0F
+- **Tombstoned Equipment:** FER8Z14FPX0F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: VTLEO565D
+- **Tombstoned Equipment:** VTLEO565D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: VTLEO565D
+- **Tombstoned Equipment:** VTLEO565D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: LIJDHCYC3OZ3
+- **Tombstoned Equipment:** LIJDHCYC3OZ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: LIJDHCYC3OZ3
+- **Tombstoned Equipment:** LIJDHCYC3OZ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: UXTMUJO
+- **Tombstoned Equipment:** UXTMUJO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: UXTMUJO
+- **Tombstoned Equipment:** UXTMUJO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: YB22AZ3
+- **Tombstoned Equipment:** YB22AZ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: YB22AZ3
+- **Tombstoned Equipment:** YB22AZ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FZTP8V7W56B7
+- **Tombstoned Equipment:** FZTP8V7W56B7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FZTP8V7W56B7
+- **Tombstoned Equipment:** FZTP8V7W56B7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: UIS
+- **Tombstoned Equipment:** UIS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: UIS
+- **Tombstoned Equipment:** UIS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 88187Y2VR35Z
+- **Tombstoned Equipment:** 88187Y2VR35Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 88187Y2VR35Z
+- **Tombstoned Equipment:** 88187Y2VR35Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: ZFJRE
+- **Tombstoned Equipment:** ZFJRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: ZFJRE
+- **Tombstoned Equipment:** ZFJRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: PRE
+- **Tombstoned Equipment:** PRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: PRE
+- **Tombstoned Equipment:** PRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 5Q3VB
+- **Tombstoned Equipment:** 5Q3VB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 5Q3VB
+- **Tombstoned Equipment:** 5Q3VB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: BTG
+- **Tombstoned Equipment:** BTG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: BTG
+- **Tombstoned Equipment:** BTG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: EDDX
+- **Tombstoned Equipment:** EDDX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: EDDX
+- **Tombstoned Equipment:** EDDX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: OB51D7P
+- **Tombstoned Equipment:** OB51D7P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: OB51D7P
+- **Tombstoned Equipment:** OB51D7P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: DK9JM7LI
+- **Tombstoned Equipment:** DK9JM7LI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: DK9JM7LI
+- **Tombstoned Equipment:** DK9JM7LI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 0WFDR6
+- **Tombstoned Equipment:** 0WFDR6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 0WFDR6
+- **Tombstoned Equipment:** 0WFDR6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: T5P8K
+- **Tombstoned Equipment:** T5P8K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: T5P8K
+- **Tombstoned Equipment:** T5P8K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: N3A793T8SK
+- **Tombstoned Equipment:** N3A793T8SK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: N3A793T8SK
+- **Tombstoned Equipment:** N3A793T8SK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: SC8
+- **Tombstoned Equipment:** SC8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: SC8
+- **Tombstoned Equipment:** SC8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: RMW
+- **Tombstoned Equipment:** RMW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: RMW
+- **Tombstoned Equipment:** RMW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: HZB0H8KP46LI
+- **Tombstoned Equipment:** HZB0H8KP46LI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: HZB0H8KP46LI
+- **Tombstoned Equipment:** HZB0H8KP46LI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: LJOQ1D9P9DK4
+- **Tombstoned Equipment:** LJOQ1D9P9DK4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: LJOQ1D9P9DK4
+- **Tombstoned Equipment:** LJOQ1D9P9DK4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: DQT
+- **Tombstoned Equipment:** DQT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: DQT
+- **Tombstoned Equipment:** DQT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: KCJQQ
+- **Tombstoned Equipment:** KCJQQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: KCJQQ
+- **Tombstoned Equipment:** KCJQQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: F22LHO8H4J8
+- **Tombstoned Equipment:** F22LHO8H4J8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: F22LHO8H4J8
+- **Tombstoned Equipment:** F22LHO8H4J8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: WJOONDR21V4X
+- **Tombstoned Equipment:** WJOONDR21V4X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: WJOONDR21V4X
+- **Tombstoned Equipment:** WJOONDR21V4X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: SYK1U
+- **Tombstoned Equipment:** SYK1U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: SYK1U
+- **Tombstoned Equipment:** SYK1U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: WS7BQ6QN74T3
+- **Tombstoned Equipment:** WS7BQ6QN74T3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: WS7BQ6QN74T3
+- **Tombstoned Equipment:** WS7BQ6QN74T3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: M73IXMJRUSHO
+- **Tombstoned Equipment:** M73IXMJRUSHO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: M73IXMJRUSHO
+- **Tombstoned Equipment:** M73IXMJRUSHO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: RNY48TYW6S
+- **Tombstoned Equipment:** RNY48TYW6S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: RNY48TYW6S
+- **Tombstoned Equipment:** RNY48TYW6S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: XWW1R
+- **Tombstoned Equipment:** XWW1R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: XWW1R
+- **Tombstoned Equipment:** XWW1R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FR8PKW0OQ382
+- **Tombstoned Equipment:** FR8PKW0OQ382
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FR8PKW0OQ382
+- **Tombstoned Equipment:** FR8PKW0OQ382
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 5FTODF
+- **Tombstoned Equipment:** 5FTODF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 5FTODF
+- **Tombstoned Equipment:** 5FTODF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: WJG
+- **Tombstoned Equipment:** WJG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: WJG
+- **Tombstoned Equipment:** WJG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: S75
+- **Tombstoned Equipment:** S75
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: S75
+- **Tombstoned Equipment:** S75
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: TQ0D29HNYTVN
+- **Tombstoned Equipment:** TQ0D29HNYTVN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: TQ0D29HNYTVN
+- **Tombstoned Equipment:** TQ0D29HNYTVN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: K1NAK
+- **Tombstoned Equipment:** K1NAK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: K1NAK
+- **Tombstoned Equipment:** K1NAK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: IX7VYT1O38RJ
+- **Tombstoned Equipment:** IX7VYT1O38RJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: IX7VYT1O38RJ
+- **Tombstoned Equipment:** IX7VYT1O38RJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: IA0WI
+- **Tombstoned Equipment:** IA0WI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: IA0WI
+- **Tombstoned Equipment:** IA0WI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: Z6VHCKM8
+- **Tombstoned Equipment:** Z6VHCKM8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: Z6VHCKM8
+- **Tombstoned Equipment:** Z6VHCKM8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 2J7CM
+- **Tombstoned Equipment:** 2J7CM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 2J7CM
+- **Tombstoned Equipment:** 2J7CM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: YE59QH8H1BDL
+- **Tombstoned Equipment:** YE59QH8H1BDL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: YE59QH8H1BDL
+- **Tombstoned Equipment:** YE59QH8H1BDL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: IM5
+- **Tombstoned Equipment:** IM5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: IM5
+- **Tombstoned Equipment:** IM5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: US1N1DC
+- **Tombstoned Equipment:** US1N1DC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: US1N1DC
+- **Tombstoned Equipment:** US1N1DC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: G9I
+- **Tombstoned Equipment:** G9I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: G9I
+- **Tombstoned Equipment:** G9I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: ROQ
+- **Tombstoned Equipment:** ROQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: ROQ
+- **Tombstoned Equipment:** ROQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: D7H63J
+- **Tombstoned Equipment:** D7H63J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: D7H63J
+- **Tombstoned Equipment:** D7H63J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: G3Q214
+- **Tombstoned Equipment:** G3Q214
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: G3Q214
+- **Tombstoned Equipment:** G3Q214
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 4MR9L2J4M
+- **Tombstoned Equipment:** 4MR9L2J4M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 4MR9L2J4M
+- **Tombstoned Equipment:** 4MR9L2J4M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: KEXRKLE4TS19
+- **Tombstoned Equipment:** KEXRKLE4TS19
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: KEXRKLE4TS19
+- **Tombstoned Equipment:** KEXRKLE4TS19
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: BZ0T5IGH
+- **Tombstoned Equipment:** BZ0T5IGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: BZ0T5IGH
+- **Tombstoned Equipment:** BZ0T5IGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: Y60G0K8
+- **Tombstoned Equipment:** Y60G0K8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: Y60G0K8
+- **Tombstoned Equipment:** Y60G0K8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: PKHIOYS
+- **Tombstoned Equipment:** PKHIOYS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: PKHIOYS
+- **Tombstoned Equipment:** PKHIOYS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: J0FPQLAFFFX8
+- **Tombstoned Equipment:** J0FPQLAFFFX8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: J0FPQLAFFFX8
+- **Tombstoned Equipment:** J0FPQLAFFFX8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: XSS
+- **Tombstoned Equipment:** XSS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: XSS
+- **Tombstoned Equipment:** XSS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 48RQ
+- **Tombstoned Equipment:** 48RQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 48RQ
+- **Tombstoned Equipment:** 48RQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: N2ZS
+- **Tombstoned Equipment:** N2ZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: N2ZS
+- **Tombstoned Equipment:** N2ZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: KPZQNB
+- **Tombstoned Equipment:** KPZQNB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: KPZQNB
+- **Tombstoned Equipment:** KPZQNB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: EQ1
+- **Tombstoned Equipment:** EQ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: EQ1
+- **Tombstoned Equipment:** EQ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 4PKR
+- **Tombstoned Equipment:** 4PKR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 4PKR
+- **Tombstoned Equipment:** 4PKR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 6FWUXF14Q
+- **Tombstoned Equipment:** 6FWUXF14Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 6FWUXF14Q
+- **Tombstoned Equipment:** 6FWUXF14Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 4VIZ
+- **Tombstoned Equipment:** 4VIZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 4VIZ
+- **Tombstoned Equipment:** 4VIZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: JAR36S
+- **Tombstoned Equipment:** JAR36S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: JAR36S
+- **Tombstoned Equipment:** JAR36S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 0GH7YZLA
+- **Tombstoned Equipment:** 0GH7YZLA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 0GH7YZLA
+- **Tombstoned Equipment:** 0GH7YZLA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 41DS8TYC
+- **Tombstoned Equipment:** 41DS8TYC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 41DS8TYC
+- **Tombstoned Equipment:** 41DS8TYC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 3DSKN7E6U5EL
+- **Tombstoned Equipment:** 3DSKN7E6U5EL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 3DSKN7E6U5EL
+- **Tombstoned Equipment:** 3DSKN7E6U5EL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 8VCOQ7GEDM
+- **Tombstoned Equipment:** 8VCOQ7GEDM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 8VCOQ7GEDM
+- **Tombstoned Equipment:** 8VCOQ7GEDM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: BRK
+- **Tombstoned Equipment:** BRK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: BRK
+- **Tombstoned Equipment:** BRK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 9FGMYS19OAY1
+- **Tombstoned Equipment:** 9FGMYS19OAY1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 9FGMYS19OAY1
+- **Tombstoned Equipment:** 9FGMYS19OAY1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 9180R
+- **Tombstoned Equipment:** 9180R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 9180R
+- **Tombstoned Equipment:** 9180R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: WU757AA6ILAG
+- **Tombstoned Equipment:** WU757AA6ILAG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: WU757AA6ILAG
+- **Tombstoned Equipment:** WU757AA6ILAG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 2AQ9J1S3J5HO
+- **Tombstoned Equipment:** 2AQ9J1S3J5HO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: 2AQ9J1S3J5HO
+- **Tombstoned Equipment:** 2AQ9J1S3J5HO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: NJ0QXT8
+- **Tombstoned Equipment:** NJ0QXT8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: NJ0QXT8
+- **Tombstoned Equipment:** NJ0QXT8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: VQ4
+- **Tombstoned Equipment:** VQ4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: VQ4
+- **Tombstoned Equipment:** VQ4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: DB2GNHMQ599
+- **Tombstoned Equipment:** DB2GNHMQ599
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: DB2GNHMQ599
+- **Tombstoned Equipment:** DB2GNHMQ599
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: VXR85FAE42
+- **Tombstoned Equipment:** VXR85FAE42
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: VXR85FAE42
+- **Tombstoned Equipment:** VXR85FAE42
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: IBPWAXZV
+- **Tombstoned Equipment:** IBPWAXZV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: IBPWAXZV
+- **Tombstoned Equipment:** IBPWAXZV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: NZVSNQQH5VTC
+- **Tombstoned Equipment:** NZVSNQQH5VTC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: NZVSNQQH5VTC
+- **Tombstoned Equipment:** NZVSNQQH5VTC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FD54MS7LFBA
+- **Tombstoned Equipment:** FD54MS7LFBA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:34:31 UTC] Document Deletion: FD54MS7LFBA
+- **Tombstoned Equipment:** FD54MS7LFBA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: QDBI
+- **Tombstoned Equipment:** QDBI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: QDBI
+- **Tombstoned Equipment:** QDBI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: RKZZ
+- **Tombstoned Equipment:** RKZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: RKZZ
+- **Tombstoned Equipment:** RKZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: VEPZ6DQGZ3HC
+- **Tombstoned Equipment:** VEPZ6DQGZ3HC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: VEPZ6DQGZ3HC
+- **Tombstoned Equipment:** VEPZ6DQGZ3HC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: WQUX8W1DJSJ2
+- **Tombstoned Equipment:** WQUX8W1DJSJ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: WQUX8W1DJSJ2
+- **Tombstoned Equipment:** WQUX8W1DJSJ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: FK5QW9PCBPHQ
+- **Tombstoned Equipment:** FK5QW9PCBPHQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: FK5QW9PCBPHQ
+- **Tombstoned Equipment:** FK5QW9PCBPHQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 03AZZP
+- **Tombstoned Equipment:** 03AZZP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 03AZZP
+- **Tombstoned Equipment:** 03AZZP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: O1EY57GG7A6V
+- **Tombstoned Equipment:** O1EY57GG7A6V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: O1EY57GG7A6V
+- **Tombstoned Equipment:** O1EY57GG7A6V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: WG8OO
+- **Tombstoned Equipment:** WG8OO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: WG8OO
+- **Tombstoned Equipment:** WG8OO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: PRL
+- **Tombstoned Equipment:** PRL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: PRL
+- **Tombstoned Equipment:** PRL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: XM1GTC0
+- **Tombstoned Equipment:** XM1GTC0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: XM1GTC0
+- **Tombstoned Equipment:** XM1GTC0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: WLQ0NTUJ
+- **Tombstoned Equipment:** WLQ0NTUJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: WLQ0NTUJ
+- **Tombstoned Equipment:** WLQ0NTUJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 6M3
+- **Tombstoned Equipment:** 6M3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 6M3
+- **Tombstoned Equipment:** 6M3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: C6DQ5R4Z5DZ
+- **Tombstoned Equipment:** C6DQ5R4Z5DZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: C6DQ5R4Z5DZ
+- **Tombstoned Equipment:** C6DQ5R4Z5DZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 585G
+- **Tombstoned Equipment:** 585G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 585G
+- **Tombstoned Equipment:** 585G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: PMM
+- **Tombstoned Equipment:** PMM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: PMM
+- **Tombstoned Equipment:** PMM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 1BASCVWUAS
+- **Tombstoned Equipment:** 1BASCVWUAS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 1BASCVWUAS
+- **Tombstoned Equipment:** 1BASCVWUAS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: ATQM
+- **Tombstoned Equipment:** ATQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: ATQM
+- **Tombstoned Equipment:** ATQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: QJPNBTONMTSU
+- **Tombstoned Equipment:** QJPNBTONMTSU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: QJPNBTONMTSU
+- **Tombstoned Equipment:** QJPNBTONMTSU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: VW4WK
+- **Tombstoned Equipment:** VW4WK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: VW4WK
+- **Tombstoned Equipment:** VW4WK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: IG0H3B
+- **Tombstoned Equipment:** IG0H3B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: IG0H3B
+- **Tombstoned Equipment:** IG0H3B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: Y31BHZLW8E
+- **Tombstoned Equipment:** Y31BHZLW8E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: Y31BHZLW8E
+- **Tombstoned Equipment:** Y31BHZLW8E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: TKCN
+- **Tombstoned Equipment:** TKCN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: TKCN
+- **Tombstoned Equipment:** TKCN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: G2C11P
+- **Tombstoned Equipment:** G2C11P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: G2C11P
+- **Tombstoned Equipment:** G2C11P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 2JWM41
+- **Tombstoned Equipment:** 2JWM41
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 2JWM41
+- **Tombstoned Equipment:** 2JWM41
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: TU27S6FQ
+- **Tombstoned Equipment:** TU27S6FQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: TU27S6FQ
+- **Tombstoned Equipment:** TU27S6FQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: DK5RI9QYK766
+- **Tombstoned Equipment:** DK5RI9QYK766
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: DK5RI9QYK766
+- **Tombstoned Equipment:** DK5RI9QYK766
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: J89ZEX
+- **Tombstoned Equipment:** J89ZEX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: J89ZEX
+- **Tombstoned Equipment:** J89ZEX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: PO1A
+- **Tombstoned Equipment:** PO1A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: PO1A
+- **Tombstoned Equipment:** PO1A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: PPYW2A
+- **Tombstoned Equipment:** PPYW2A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: PPYW2A
+- **Tombstoned Equipment:** PPYW2A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: J9VJ57IFUB
+- **Tombstoned Equipment:** J9VJ57IFUB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: J9VJ57IFUB
+- **Tombstoned Equipment:** J9VJ57IFUB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: NU9AVGQ8B026
+- **Tombstoned Equipment:** NU9AVGQ8B026
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: NU9AVGQ8B026
+- **Tombstoned Equipment:** NU9AVGQ8B026
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: EBO8AW0Y7FVE
+- **Tombstoned Equipment:** EBO8AW0Y7FVE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: EBO8AW0Y7FVE
+- **Tombstoned Equipment:** EBO8AW0Y7FVE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: VIOLATION
+- **Tombstoned Equipment:** VIOLATION
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: VIOLATION
+- **Tombstoned Equipment:** VIOLATION
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: FMPU96
+- **Tombstoned Equipment:** FMPU96
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: FMPU96
+- **Tombstoned Equipment:** FMPU96
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: X64Z6Q3
+- **Tombstoned Equipment:** X64Z6Q3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: X64Z6Q3
+- **Tombstoned Equipment:** X64Z6Q3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: U7YJR6IE2JQP
+- **Tombstoned Equipment:** U7YJR6IE2JQP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: U7YJR6IE2JQP
+- **Tombstoned Equipment:** U7YJR6IE2JQP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: NYXVQM
+- **Tombstoned Equipment:** NYXVQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: NYXVQM
+- **Tombstoned Equipment:** NYXVQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: SJO5
+- **Tombstoned Equipment:** SJO5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: SJO5
+- **Tombstoned Equipment:** SJO5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: QXG43
+- **Tombstoned Equipment:** QXG43
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: QXG43
+- **Tombstoned Equipment:** QXG43
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: UJ269G9K
+- **Tombstoned Equipment:** UJ269G9K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: UJ269G9K
+- **Tombstoned Equipment:** UJ269G9K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: TG4
+- **Tombstoned Equipment:** TG4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: TG4
+- **Tombstoned Equipment:** TG4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 1T1
+- **Tombstoned Equipment:** 1T1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 1T1
+- **Tombstoned Equipment:** 1T1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 35C1
+- **Tombstoned Equipment:** 35C1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 35C1
+- **Tombstoned Equipment:** 35C1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: H2NAR
+- **Tombstoned Equipment:** H2NAR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: H2NAR
+- **Tombstoned Equipment:** H2NAR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: XCHMF0KMUGCP
+- **Tombstoned Equipment:** XCHMF0KMUGCP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: XCHMF0KMUGCP
+- **Tombstoned Equipment:** XCHMF0KMUGCP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 8PCTV6P2EI71
+- **Tombstoned Equipment:** 8PCTV6P2EI71
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 8PCTV6P2EI71
+- **Tombstoned Equipment:** 8PCTV6P2EI71
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 14HRXTJGYJV4
+- **Tombstoned Equipment:** 14HRXTJGYJV4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 14HRXTJGYJV4
+- **Tombstoned Equipment:** 14HRXTJGYJV4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 27XPWQ6IILEV
+- **Tombstoned Equipment:** 27XPWQ6IILEV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 27XPWQ6IILEV
+- **Tombstoned Equipment:** 27XPWQ6IILEV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: G7EYL12VA2
+- **Tombstoned Equipment:** G7EYL12VA2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: G7EYL12VA2
+- **Tombstoned Equipment:** G7EYL12VA2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: AHZ4LB
+- **Tombstoned Equipment:** AHZ4LB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: AHZ4LB
+- **Tombstoned Equipment:** AHZ4LB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 4OQN61X5NY1X
+- **Tombstoned Equipment:** 4OQN61X5NY1X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 4OQN61X5NY1X
+- **Tombstoned Equipment:** 4OQN61X5NY1X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: TNE
+- **Tombstoned Equipment:** TNE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: TNE
+- **Tombstoned Equipment:** TNE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 75N51MK8S
+- **Tombstoned Equipment:** 75N51MK8S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 75N51MK8S
+- **Tombstoned Equipment:** 75N51MK8S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: HKXZCG08T9XJ
+- **Tombstoned Equipment:** HKXZCG08T9XJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: HKXZCG08T9XJ
+- **Tombstoned Equipment:** HKXZCG08T9XJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: GKG8GW
+- **Tombstoned Equipment:** GKG8GW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: GKG8GW
+- **Tombstoned Equipment:** GKG8GW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: FNAY
+- **Tombstoned Equipment:** FNAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: FNAY
+- **Tombstoned Equipment:** FNAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: DUG0UY
+- **Tombstoned Equipment:** DUG0UY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: DUG0UY
+- **Tombstoned Equipment:** DUG0UY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: CLZSNP2V
+- **Tombstoned Equipment:** CLZSNP2V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: CLZSNP2V
+- **Tombstoned Equipment:** CLZSNP2V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 848J5PREU
+- **Tombstoned Equipment:** 848J5PREU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 848J5PREU
+- **Tombstoned Equipment:** 848J5PREU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 39Z7N
+- **Tombstoned Equipment:** 39Z7N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 39Z7N
+- **Tombstoned Equipment:** 39Z7N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: BZA
+- **Tombstoned Equipment:** BZA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: BZA
+- **Tombstoned Equipment:** BZA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 1SV
+- **Tombstoned Equipment:** 1SV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: 1SV
+- **Tombstoned Equipment:** 1SV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: SE1PJTA
+- **Tombstoned Equipment:** SE1PJTA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: SE1PJTA
+- **Tombstoned Equipment:** SE1PJTA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: IHLH9V7QV89Z
+- **Tombstoned Equipment:** IHLH9V7QV89Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:10 UTC] Document Deletion: IHLH9V7QV89Z
+- **Tombstoned Equipment:** IHLH9V7QV89Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 0TA
+- **Tombstoned Equipment:** 0TA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 0TA
+- **Tombstoned Equipment:** 0TA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 4DE7
+- **Tombstoned Equipment:** 4DE7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 4DE7
+- **Tombstoned Equipment:** 4DE7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 4S1HJ
+- **Tombstoned Equipment:** 4S1HJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 4S1HJ
+- **Tombstoned Equipment:** 4S1HJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 74K0QRNQRG
+- **Tombstoned Equipment:** 74K0QRNQRG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 74K0QRNQRG
+- **Tombstoned Equipment:** 74K0QRNQRG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: I3AF6VV
+- **Tombstoned Equipment:** I3AF6VV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: I3AF6VV
+- **Tombstoned Equipment:** I3AF6VV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 4XP9
+- **Tombstoned Equipment:** 4XP9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 4XP9
+- **Tombstoned Equipment:** 4XP9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: PBFH
+- **Tombstoned Equipment:** PBFH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: PBFH
+- **Tombstoned Equipment:** PBFH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: E6KUBYZQNCN2
+- **Tombstoned Equipment:** E6KUBYZQNCN2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: E6KUBYZQNCN2
+- **Tombstoned Equipment:** E6KUBYZQNCN2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: S5O
+- **Tombstoned Equipment:** S5O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: S5O
+- **Tombstoned Equipment:** S5O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: T25V44K
+- **Tombstoned Equipment:** T25V44K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: T25V44K
+- **Tombstoned Equipment:** T25V44K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 6CY0EW3Y
+- **Tombstoned Equipment:** 6CY0EW3Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 6CY0EW3Y
+- **Tombstoned Equipment:** 6CY0EW3Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 6P164T4C4KQS
+- **Tombstoned Equipment:** 6P164T4C4KQS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 6P164T4C4KQS
+- **Tombstoned Equipment:** 6P164T4C4KQS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: V63TXK3
+- **Tombstoned Equipment:** V63TXK3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: V63TXK3
+- **Tombstoned Equipment:** V63TXK3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: C8N28
+- **Tombstoned Equipment:** C8N28
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: C8N28
+- **Tombstoned Equipment:** C8N28
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: GDE
+- **Tombstoned Equipment:** GDE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: GDE
+- **Tombstoned Equipment:** GDE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 45Y1899DXC3J
+- **Tombstoned Equipment:** 45Y1899DXC3J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 45Y1899DXC3J
+- **Tombstoned Equipment:** 45Y1899DXC3J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: KMROD99BD4D
+- **Tombstoned Equipment:** KMROD99BD4D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: KMROD99BD4D
+- **Tombstoned Equipment:** KMROD99BD4D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: VG0X1B2M
+- **Tombstoned Equipment:** VG0X1B2M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: VG0X1B2M
+- **Tombstoned Equipment:** VG0X1B2M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: FIC
+- **Tombstoned Equipment:** FIC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: FIC
+- **Tombstoned Equipment:** FIC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: SEK9JMSAWPCS
+- **Tombstoned Equipment:** SEK9JMSAWPCS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: SEK9JMSAWPCS
+- **Tombstoned Equipment:** SEK9JMSAWPCS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: I5W
+- **Tombstoned Equipment:** I5W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: I5W
+- **Tombstoned Equipment:** I5W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: G3ODUV18LBTA
+- **Tombstoned Equipment:** G3ODUV18LBTA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: G3ODUV18LBTA
+- **Tombstoned Equipment:** G3ODUV18LBTA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: SREXM
+- **Tombstoned Equipment:** SREXM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: SREXM
+- **Tombstoned Equipment:** SREXM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: BQO7XBFTM2
+- **Tombstoned Equipment:** BQO7XBFTM2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: BQO7XBFTM2
+- **Tombstoned Equipment:** BQO7XBFTM2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: AJPN4
+- **Tombstoned Equipment:** AJPN4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: AJPN4
+- **Tombstoned Equipment:** AJPN4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: A3YHAH
+- **Tombstoned Equipment:** A3YHAH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: A3YHAH
+- **Tombstoned Equipment:** A3YHAH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: CG9BB4RCV6ID
+- **Tombstoned Equipment:** CG9BB4RCV6ID
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: CG9BB4RCV6ID
+- **Tombstoned Equipment:** CG9BB4RCV6ID
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: PALP0T49KOFE
+- **Tombstoned Equipment:** PALP0T49KOFE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: PALP0T49KOFE
+- **Tombstoned Equipment:** PALP0T49KOFE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: Q1Q
+- **Tombstoned Equipment:** Q1Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: Q1Q
+- **Tombstoned Equipment:** Q1Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: XE8LG4NEBQ
+- **Tombstoned Equipment:** XE8LG4NEBQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: XE8LG4NEBQ
+- **Tombstoned Equipment:** XE8LG4NEBQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: EAP3WNWVH5LA
+- **Tombstoned Equipment:** EAP3WNWVH5LA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: EAP3WNWVH5LA
+- **Tombstoned Equipment:** EAP3WNWVH5LA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: HHF
+- **Tombstoned Equipment:** HHF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: HHF
+- **Tombstoned Equipment:** HHF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 9WZPI56B8QC
+- **Tombstoned Equipment:** 9WZPI56B8QC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:35:11 UTC] Document Deletion: 9WZPI56B8QC
+- **Tombstoned Equipment:** 9WZPI56B8QC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 5AH2WYG9LL
+- **Tombstoned Equipment:** 5AH2WYG9LL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 5AH2WYG9LL
+- **Tombstoned Equipment:** 5AH2WYG9LL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: CPKF43GJA7
+- **Tombstoned Equipment:** CPKF43GJA7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: CPKF43GJA7
+- **Tombstoned Equipment:** CPKF43GJA7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: XS674EJGZ6
+- **Tombstoned Equipment:** XS674EJGZ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: XS674EJGZ6
+- **Tombstoned Equipment:** XS674EJGZ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: P33
+- **Tombstoned Equipment:** P33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: P33
+- **Tombstoned Equipment:** P33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: W41E
+- **Tombstoned Equipment:** W41E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: W41E
+- **Tombstoned Equipment:** W41E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: FBE
+- **Tombstoned Equipment:** FBE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: FBE
+- **Tombstoned Equipment:** FBE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 2OZIGQPSXYW4
+- **Tombstoned Equipment:** 2OZIGQPSXYW4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 2OZIGQPSXYW4
+- **Tombstoned Equipment:** 2OZIGQPSXYW4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: N06IHAAZFZSH
+- **Tombstoned Equipment:** N06IHAAZFZSH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: N06IHAAZFZSH
+- **Tombstoned Equipment:** N06IHAAZFZSH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: IKP
+- **Tombstoned Equipment:** IKP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: IKP
+- **Tombstoned Equipment:** IKP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 279ETKETJH
+- **Tombstoned Equipment:** 279ETKETJH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 279ETKETJH
+- **Tombstoned Equipment:** 279ETKETJH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: IV62UZQSAY
+- **Tombstoned Equipment:** IV62UZQSAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: IV62UZQSAY
+- **Tombstoned Equipment:** IV62UZQSAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: YCFFDOYTD1UH
+- **Tombstoned Equipment:** YCFFDOYTD1UH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: YCFFDOYTD1UH
+- **Tombstoned Equipment:** YCFFDOYTD1UH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 965MF
+- **Tombstoned Equipment:** 965MF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 965MF
+- **Tombstoned Equipment:** 965MF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: TCYA
+- **Tombstoned Equipment:** TCYA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: TCYA
+- **Tombstoned Equipment:** TCYA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: XTN
+- **Tombstoned Equipment:** XTN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: XTN
+- **Tombstoned Equipment:** XTN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 2SJ2
+- **Tombstoned Equipment:** 2SJ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 2SJ2
+- **Tombstoned Equipment:** 2SJ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: DR092XB8QSSP
+- **Tombstoned Equipment:** DR092XB8QSSP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: DR092XB8QSSP
+- **Tombstoned Equipment:** DR092XB8QSSP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: Z5JQNKI10XU
+- **Tombstoned Equipment:** Z5JQNKI10XU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: Z5JQNKI10XU
+- **Tombstoned Equipment:** Z5JQNKI10XU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 9AX08J
+- **Tombstoned Equipment:** 9AX08J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 9AX08J
+- **Tombstoned Equipment:** 9AX08J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: JY7M4
+- **Tombstoned Equipment:** JY7M4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: JY7M4
+- **Tombstoned Equipment:** JY7M4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: F3Q8SUS
+- **Tombstoned Equipment:** F3Q8SUS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: F3Q8SUS
+- **Tombstoned Equipment:** F3Q8SUS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 10RIZ00LOPBJ
+- **Tombstoned Equipment:** 10RIZ00LOPBJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 10RIZ00LOPBJ
+- **Tombstoned Equipment:** 10RIZ00LOPBJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: B9QE
+- **Tombstoned Equipment:** B9QE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: B9QE
+- **Tombstoned Equipment:** B9QE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: TIG14
+- **Tombstoned Equipment:** TIG14
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: TIG14
+- **Tombstoned Equipment:** TIG14
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: EN4ARDZBO4FJ
+- **Tombstoned Equipment:** EN4ARDZBO4FJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: EN4ARDZBO4FJ
+- **Tombstoned Equipment:** EN4ARDZBO4FJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: RESOLVED
+- **Tombstoned Equipment:** RESOLVED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: RESOLVED
+- **Tombstoned Equipment:** RESOLVED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: E6QHC7Z5VW4J
+- **Tombstoned Equipment:** E6QHC7Z5VW4J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: E6QHC7Z5VW4J
+- **Tombstoned Equipment:** E6QHC7Z5VW4J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: PO357JVAA12M
+- **Tombstoned Equipment:** PO357JVAA12M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: PO357JVAA12M
+- **Tombstoned Equipment:** PO357JVAA12M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: Q12RV4RE
+- **Tombstoned Equipment:** Q12RV4RE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: Q12RV4RE
+- **Tombstoned Equipment:** Q12RV4RE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: CP3HU
+- **Tombstoned Equipment:** CP3HU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: CP3HU
+- **Tombstoned Equipment:** CP3HU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: WPKM1H4Q8JX8
+- **Tombstoned Equipment:** WPKM1H4Q8JX8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: WPKM1H4Q8JX8
+- **Tombstoned Equipment:** WPKM1H4Q8JX8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: SHNF
+- **Tombstoned Equipment:** SHNF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: SHNF
+- **Tombstoned Equipment:** SHNF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: FS3LSAP90WP
+- **Tombstoned Equipment:** FS3LSAP90WP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: FS3LSAP90WP
+- **Tombstoned Equipment:** FS3LSAP90WP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: XEB49LR91
+- **Tombstoned Equipment:** XEB49LR91
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: XEB49LR91
+- **Tombstoned Equipment:** XEB49LR91
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: EETH3
+- **Tombstoned Equipment:** EETH3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: EETH3
+- **Tombstoned Equipment:** EETH3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: J44SZ
+- **Tombstoned Equipment:** J44SZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: J44SZ
+- **Tombstoned Equipment:** J44SZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 8IX0GGBQV9Y
+- **Tombstoned Equipment:** 8IX0GGBQV9Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 8IX0GGBQV9Y
+- **Tombstoned Equipment:** 8IX0GGBQV9Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: P2FB
+- **Tombstoned Equipment:** P2FB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: P2FB
+- **Tombstoned Equipment:** P2FB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 21R9C71GGO5J
+- **Tombstoned Equipment:** 21R9C71GGO5J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 21R9C71GGO5J
+- **Tombstoned Equipment:** 21R9C71GGO5J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: MLWYR7WA
+- **Tombstoned Equipment:** MLWYR7WA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: MLWYR7WA
+- **Tombstoned Equipment:** MLWYR7WA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 1YDZB0VH
+- **Tombstoned Equipment:** 1YDZB0VH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 1YDZB0VH
+- **Tombstoned Equipment:** 1YDZB0VH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: G7A980YM
+- **Tombstoned Equipment:** G7A980YM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: G7A980YM
+- **Tombstoned Equipment:** G7A980YM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 7EK5HDFRGFFH
+- **Tombstoned Equipment:** 7EK5HDFRGFFH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 7EK5HDFRGFFH
+- **Tombstoned Equipment:** 7EK5HDFRGFFH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: YABIAC8U
+- **Tombstoned Equipment:** YABIAC8U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: YABIAC8U
+- **Tombstoned Equipment:** YABIAC8U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 8ZUKSU
+- **Tombstoned Equipment:** 8ZUKSU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 8ZUKSU
+- **Tombstoned Equipment:** 8ZUKSU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 1PSDKV60WSRJ
+- **Tombstoned Equipment:** 1PSDKV60WSRJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 1PSDKV60WSRJ
+- **Tombstoned Equipment:** 1PSDKV60WSRJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: FJRT
+- **Tombstoned Equipment:** FJRT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: FJRT
+- **Tombstoned Equipment:** FJRT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 19Z5ADRE9ZTI
+- **Tombstoned Equipment:** 19Z5ADRE9ZTI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 19Z5ADRE9ZTI
+- **Tombstoned Equipment:** 19Z5ADRE9ZTI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: HOX5QV
+- **Tombstoned Equipment:** HOX5QV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: HOX5QV
+- **Tombstoned Equipment:** HOX5QV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: RQNARRQ
+- **Tombstoned Equipment:** RQNARRQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: RQNARRQ
+- **Tombstoned Equipment:** RQNARRQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: GRBN8
+- **Tombstoned Equipment:** GRBN8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: GRBN8
+- **Tombstoned Equipment:** GRBN8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: BUC1123Z9SUG
+- **Tombstoned Equipment:** BUC1123Z9SUG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: BUC1123Z9SUG
+- **Tombstoned Equipment:** BUC1123Z9SUG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: OYEN7HNSJT6H
+- **Tombstoned Equipment:** OYEN7HNSJT6H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: OYEN7HNSJT6H
+- **Tombstoned Equipment:** OYEN7HNSJT6H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: RIPLLTA9D
+- **Tombstoned Equipment:** RIPLLTA9D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: RIPLLTA9D
+- **Tombstoned Equipment:** RIPLLTA9D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 2X8LSQ07FQJE
+- **Tombstoned Equipment:** 2X8LSQ07FQJE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 2X8LSQ07FQJE
+- **Tombstoned Equipment:** 2X8LSQ07FQJE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: FA14
+- **Tombstoned Equipment:** FA14
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: FA14
+- **Tombstoned Equipment:** FA14
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 5OR
+- **Tombstoned Equipment:** 5OR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 5OR
+- **Tombstoned Equipment:** 5OR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: BK9BATOLP
+- **Tombstoned Equipment:** BK9BATOLP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: BK9BATOLP
+- **Tombstoned Equipment:** BK9BATOLP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: OHT9DG
+- **Tombstoned Equipment:** OHT9DG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: OHT9DG
+- **Tombstoned Equipment:** OHT9DG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: CJC
+- **Tombstoned Equipment:** CJC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: CJC
+- **Tombstoned Equipment:** CJC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 53VJA
+- **Tombstoned Equipment:** 53VJA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 53VJA
+- **Tombstoned Equipment:** 53VJA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: BG9
+- **Tombstoned Equipment:** BG9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: BG9
+- **Tombstoned Equipment:** BG9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 5Y56D3VML5HJ
+- **Tombstoned Equipment:** 5Y56D3VML5HJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 5Y56D3VML5HJ
+- **Tombstoned Equipment:** 5Y56D3VML5HJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: H0SVM
+- **Tombstoned Equipment:** H0SVM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: H0SVM
+- **Tombstoned Equipment:** H0SVM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: ROP2CCYXM
+- **Tombstoned Equipment:** ROP2CCYXM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: ROP2CCYXM
+- **Tombstoned Equipment:** ROP2CCYXM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 7NI7MKD
+- **Tombstoned Equipment:** 7NI7MKD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 7NI7MKD
+- **Tombstoned Equipment:** 7NI7MKD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 72SR70JM45LL
+- **Tombstoned Equipment:** 72SR70JM45LL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 72SR70JM45LL
+- **Tombstoned Equipment:** 72SR70JM45LL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 9F5
+- **Tombstoned Equipment:** 9F5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 9F5
+- **Tombstoned Equipment:** 9F5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 67DN
+- **Tombstoned Equipment:** 67DN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 67DN
+- **Tombstoned Equipment:** 67DN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 434MG3CNCLP4
+- **Tombstoned Equipment:** 434MG3CNCLP4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: 434MG3CNCLP4
+- **Tombstoned Equipment:** 434MG3CNCLP4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: CZD290SNIXKJ
+- **Tombstoned Equipment:** CZD290SNIXKJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:11 UTC] Document Deletion: CZD290SNIXKJ
+- **Tombstoned Equipment:** CZD290SNIXKJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: MLPK34IG
+- **Tombstoned Equipment:** MLPK34IG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: MLPK34IG
+- **Tombstoned Equipment:** MLPK34IG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: UZXW1
+- **Tombstoned Equipment:** UZXW1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: UZXW1
+- **Tombstoned Equipment:** UZXW1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: LCM
+- **Tombstoned Equipment:** LCM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: LCM
+- **Tombstoned Equipment:** LCM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: QOCG3QQLJ49T
+- **Tombstoned Equipment:** QOCG3QQLJ49T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: QOCG3QQLJ49T
+- **Tombstoned Equipment:** QOCG3QQLJ49T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: W46
+- **Tombstoned Equipment:** W46
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: W46
+- **Tombstoned Equipment:** W46
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: DXS2
+- **Tombstoned Equipment:** DXS2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: DXS2
+- **Tombstoned Equipment:** DXS2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: 41DSDN14MQ0O
+- **Tombstoned Equipment:** 41DSDN14MQ0O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: 41DSDN14MQ0O
+- **Tombstoned Equipment:** 41DSDN14MQ0O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: SCPV
+- **Tombstoned Equipment:** SCPV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: SCPV
+- **Tombstoned Equipment:** SCPV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: EG0MFLYG
+- **Tombstoned Equipment:** EG0MFLYG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: EG0MFLYG
+- **Tombstoned Equipment:** EG0MFLYG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: YY37XVRRIFIY
+- **Tombstoned Equipment:** YY37XVRRIFIY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: YY37XVRRIFIY
+- **Tombstoned Equipment:** YY37XVRRIFIY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: CSYXRK6IG
+- **Tombstoned Equipment:** CSYXRK6IG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: CSYXRK6IG
+- **Tombstoned Equipment:** CSYXRK6IG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: NAPOOWCDT
+- **Tombstoned Equipment:** NAPOOWCDT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: NAPOOWCDT
+- **Tombstoned Equipment:** NAPOOWCDT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: BSZUC5Y
+- **Tombstoned Equipment:** BSZUC5Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: BSZUC5Y
+- **Tombstoned Equipment:** BSZUC5Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: IR4GU3VK
+- **Tombstoned Equipment:** IR4GU3VK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: IR4GU3VK
+- **Tombstoned Equipment:** IR4GU3VK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: VWT5
+- **Tombstoned Equipment:** VWT5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: VWT5
+- **Tombstoned Equipment:** VWT5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: 4CECLR
+- **Tombstoned Equipment:** 4CECLR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: 4CECLR
+- **Tombstoned Equipment:** 4CECLR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: STWNBP
+- **Tombstoned Equipment:** STWNBP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: STWNBP
+- **Tombstoned Equipment:** STWNBP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: 0HN29W02
+- **Tombstoned Equipment:** 0HN29W02
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: 0HN29W02
+- **Tombstoned Equipment:** 0HN29W02
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: B18GIQVT5DT9
+- **Tombstoned Equipment:** B18GIQVT5DT9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: B18GIQVT5DT9
+- **Tombstoned Equipment:** B18GIQVT5DT9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: FHMFJ5B6CVC
+- **Tombstoned Equipment:** FHMFJ5B6CVC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: FHMFJ5B6CVC
+- **Tombstoned Equipment:** FHMFJ5B6CVC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: S80C5TK
+- **Tombstoned Equipment:** S80C5TK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: S80C5TK
+- **Tombstoned Equipment:** S80C5TK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: NQN3G58KOVT
+- **Tombstoned Equipment:** NQN3G58KOVT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: NQN3G58KOVT
+- **Tombstoned Equipment:** NQN3G58KOVT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: MRI1
+- **Tombstoned Equipment:** MRI1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: MRI1
+- **Tombstoned Equipment:** MRI1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: 4FVJOAR
+- **Tombstoned Equipment:** 4FVJOAR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: 4FVJOAR
+- **Tombstoned Equipment:** 4FVJOAR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: UWR
+- **Tombstoned Equipment:** UWR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: UWR
+- **Tombstoned Equipment:** UWR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: U5IE
+- **Tombstoned Equipment:** U5IE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:47:12 UTC] Document Deletion: U5IE
+- **Tombstoned Equipment:** U5IE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: CXAPTNGOCVF0
+- **Tombstoned Equipment:** CXAPTNGOCVF0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: CXAPTNGOCVF0
+- **Tombstoned Equipment:** CXAPTNGOCVF0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: CD8GS1LU32T0
+- **Tombstoned Equipment:** CD8GS1LU32T0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: CD8GS1LU32T0
+- **Tombstoned Equipment:** CD8GS1LU32T0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: VQV
+- **Tombstoned Equipment:** VQV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: VQV
+- **Tombstoned Equipment:** VQV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 18UEOB
+- **Tombstoned Equipment:** 18UEOB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 18UEOB
+- **Tombstoned Equipment:** 18UEOB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 4CNJQ
+- **Tombstoned Equipment:** 4CNJQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 4CNJQ
+- **Tombstoned Equipment:** 4CNJQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: SOVS2X
+- **Tombstoned Equipment:** SOVS2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: SOVS2X
+- **Tombstoned Equipment:** SOVS2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: TAY
+- **Tombstoned Equipment:** TAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: TAY
+- **Tombstoned Equipment:** TAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: AU1PTWYG
+- **Tombstoned Equipment:** AU1PTWYG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: AU1PTWYG
+- **Tombstoned Equipment:** AU1PTWYG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: RQVXMKC
+- **Tombstoned Equipment:** RQVXMKC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: RQVXMKC
+- **Tombstoned Equipment:** RQVXMKC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 9AWC6P9
+- **Tombstoned Equipment:** 9AWC6P9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 9AWC6P9
+- **Tombstoned Equipment:** 9AWC6P9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YXRXXI
+- **Tombstoned Equipment:** YXRXXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YXRXXI
+- **Tombstoned Equipment:** YXRXXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: DSB
+- **Tombstoned Equipment:** DSB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: DSB
+- **Tombstoned Equipment:** DSB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 01F8
+- **Tombstoned Equipment:** 01F8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 01F8
+- **Tombstoned Equipment:** 01F8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 6NGT6H
+- **Tombstoned Equipment:** 6NGT6H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 6NGT6H
+- **Tombstoned Equipment:** 6NGT6H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 6R9FN
+- **Tombstoned Equipment:** 6R9FN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 6R9FN
+- **Tombstoned Equipment:** 6R9FN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: RBK
+- **Tombstoned Equipment:** RBK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: RBK
+- **Tombstoned Equipment:** RBK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: AJMCU37XAMHU
+- **Tombstoned Equipment:** AJMCU37XAMHU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: AJMCU37XAMHU
+- **Tombstoned Equipment:** AJMCU37XAMHU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 8PJ
+- **Tombstoned Equipment:** 8PJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 8PJ
+- **Tombstoned Equipment:** 8PJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: VIPE
+- **Tombstoned Equipment:** VIPE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: VIPE
+- **Tombstoned Equipment:** VIPE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: L34L9U1HTQG
+- **Tombstoned Equipment:** L34L9U1HTQG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: L34L9U1HTQG
+- **Tombstoned Equipment:** L34L9U1HTQG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: WGCA
+- **Tombstoned Equipment:** WGCA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: WGCA
+- **Tombstoned Equipment:** WGCA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: NIXD
+- **Tombstoned Equipment:** NIXD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: NIXD
+- **Tombstoned Equipment:** NIXD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: N9CQWK94
+- **Tombstoned Equipment:** N9CQWK94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: N9CQWK94
+- **Tombstoned Equipment:** N9CQWK94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: B44
+- **Tombstoned Equipment:** B44
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: B44
+- **Tombstoned Equipment:** B44
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YIK24C4Q
+- **Tombstoned Equipment:** YIK24C4Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YIK24C4Q
+- **Tombstoned Equipment:** YIK24C4Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YCLV949
+- **Tombstoned Equipment:** YCLV949
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YCLV949
+- **Tombstoned Equipment:** YCLV949
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: HO77
+- **Tombstoned Equipment:** HO77
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: HO77
+- **Tombstoned Equipment:** HO77
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: T6YP36W69U
+- **Tombstoned Equipment:** T6YP36W69U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: T6YP36W69U
+- **Tombstoned Equipment:** T6YP36W69U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: D3A52W
+- **Tombstoned Equipment:** D3A52W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: D3A52W
+- **Tombstoned Equipment:** D3A52W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YPU105EN
+- **Tombstoned Equipment:** YPU105EN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YPU105EN
+- **Tombstoned Equipment:** YPU105EN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: B2K
+- **Tombstoned Equipment:** B2K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: B2K
+- **Tombstoned Equipment:** B2K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: IHDO2MT8682S
+- **Tombstoned Equipment:** IHDO2MT8682S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: IHDO2MT8682S
+- **Tombstoned Equipment:** IHDO2MT8682S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 4GMF67TBUU
+- **Tombstoned Equipment:** 4GMF67TBUU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 4GMF67TBUU
+- **Tombstoned Equipment:** 4GMF67TBUU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: XI9RMIUUAE
+- **Tombstoned Equipment:** XI9RMIUUAE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: XI9RMIUUAE
+- **Tombstoned Equipment:** XI9RMIUUAE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: J4S
+- **Tombstoned Equipment:** J4S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: J4S
+- **Tombstoned Equipment:** J4S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 557QA9BHB2
+- **Tombstoned Equipment:** 557QA9BHB2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 557QA9BHB2
+- **Tombstoned Equipment:** 557QA9BHB2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ZFO9Q5MTKIYJ
+- **Tombstoned Equipment:** ZFO9Q5MTKIYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ZFO9Q5MTKIYJ
+- **Tombstoned Equipment:** ZFO9Q5MTKIYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: DIEWC8ONA7
+- **Tombstoned Equipment:** DIEWC8ONA7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: DIEWC8ONA7
+- **Tombstoned Equipment:** DIEWC8ONA7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: EZJ1UCPB9
+- **Tombstoned Equipment:** EZJ1UCPB9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: EZJ1UCPB9
+- **Tombstoned Equipment:** EZJ1UCPB9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: WVOV
+- **Tombstoned Equipment:** WVOV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: WVOV
+- **Tombstoned Equipment:** WVOV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ERROR
+- **Tombstoned Equipment:** ERROR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ERROR
+- **Tombstoned Equipment:** ERROR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: LNVA
+- **Tombstoned Equipment:** LNVA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: LNVA
+- **Tombstoned Equipment:** LNVA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ZPFF
+- **Tombstoned Equipment:** ZPFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ZPFF
+- **Tombstoned Equipment:** ZPFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 52MAU32XBDWK
+- **Tombstoned Equipment:** 52MAU32XBDWK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 52MAU32XBDWK
+- **Tombstoned Equipment:** 52MAU32XBDWK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 1OY2XU739LYJ
+- **Tombstoned Equipment:** 1OY2XU739LYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 1OY2XU739LYJ
+- **Tombstoned Equipment:** 1OY2XU739LYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 2C8U
+- **Tombstoned Equipment:** 2C8U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 2C8U
+- **Tombstoned Equipment:** 2C8U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: M0ULE
+- **Tombstoned Equipment:** M0ULE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: M0ULE
+- **Tombstoned Equipment:** M0ULE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 2KSBHW2
+- **Tombstoned Equipment:** 2KSBHW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 2KSBHW2
+- **Tombstoned Equipment:** 2KSBHW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: R9C
+- **Tombstoned Equipment:** R9C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: R9C
+- **Tombstoned Equipment:** R9C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: QUAAAC
+- **Tombstoned Equipment:** QUAAAC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: QUAAAC
+- **Tombstoned Equipment:** QUAAAC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: V1HN7T
+- **Tombstoned Equipment:** V1HN7T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: V1HN7T
+- **Tombstoned Equipment:** V1HN7T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: DSH1ZZJWJXI
+- **Tombstoned Equipment:** DSH1ZZJWJXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: DSH1ZZJWJXI
+- **Tombstoned Equipment:** DSH1ZZJWJXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 8DUPT76R3D4L
+- **Tombstoned Equipment:** 8DUPT76R3D4L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 8DUPT76R3D4L
+- **Tombstoned Equipment:** 8DUPT76R3D4L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YP0CRNQE
+- **Tombstoned Equipment:** YP0CRNQE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: YP0CRNQE
+- **Tombstoned Equipment:** YP0CRNQE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: JK2
+- **Tombstoned Equipment:** JK2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: JK2
+- **Tombstoned Equipment:** JK2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 0BV4
+- **Tombstoned Equipment:** 0BV4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 0BV4
+- **Tombstoned Equipment:** 0BV4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: K19SJ2YYM
+- **Tombstoned Equipment:** K19SJ2YYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: K19SJ2YYM
+- **Tombstoned Equipment:** K19SJ2YYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: X24
+- **Tombstoned Equipment:** X24
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: X24
+- **Tombstoned Equipment:** X24
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: TQ9JVZ1QCO9J
+- **Tombstoned Equipment:** TQ9JVZ1QCO9J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: TQ9JVZ1QCO9J
+- **Tombstoned Equipment:** TQ9JVZ1QCO9J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: AIPVFN
+- **Tombstoned Equipment:** AIPVFN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: AIPVFN
+- **Tombstoned Equipment:** AIPVFN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 7607DDCDWEYZ
+- **Tombstoned Equipment:** 7607DDCDWEYZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 7607DDCDWEYZ
+- **Tombstoned Equipment:** 7607DDCDWEYZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: M9BUEB1N
+- **Tombstoned Equipment:** M9BUEB1N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: M9BUEB1N
+- **Tombstoned Equipment:** M9BUEB1N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: WVGDNNA7RNNJ
+- **Tombstoned Equipment:** WVGDNNA7RNNJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: WVGDNNA7RNNJ
+- **Tombstoned Equipment:** WVGDNNA7RNNJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: K29P6RYJ48P4
+- **Tombstoned Equipment:** K29P6RYJ48P4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: K29P6RYJ48P4
+- **Tombstoned Equipment:** K29P6RYJ48P4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: T5H7
+- **Tombstoned Equipment:** T5H7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: T5H7
+- **Tombstoned Equipment:** T5H7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: RESUMED
+- **Tombstoned Equipment:** RESUMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: RESUMED
+- **Tombstoned Equipment:** RESUMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: VIF1FFMSDV9E
+- **Tombstoned Equipment:** VIF1FFMSDV9E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: VIF1FFMSDV9E
+- **Tombstoned Equipment:** VIF1FFMSDV9E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: DE5XYJ26ZS
+- **Tombstoned Equipment:** DE5XYJ26ZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: DE5XYJ26ZS
+- **Tombstoned Equipment:** DE5XYJ26ZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: IZAYCW
+- **Tombstoned Equipment:** IZAYCW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: IZAYCW
+- **Tombstoned Equipment:** IZAYCW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ZJM7321ELRR8
+- **Tombstoned Equipment:** ZJM7321ELRR8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ZJM7321ELRR8
+- **Tombstoned Equipment:** ZJM7321ELRR8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: C0H
+- **Tombstoned Equipment:** C0H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: C0H
+- **Tombstoned Equipment:** C0H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: EA2Y81
+- **Tombstoned Equipment:** EA2Y81
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: EA2Y81
+- **Tombstoned Equipment:** EA2Y81
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: VEB0
+- **Tombstoned Equipment:** VEB0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: VEB0
+- **Tombstoned Equipment:** VEB0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 6VD321ECGZIG
+- **Tombstoned Equipment:** 6VD321ECGZIG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 6VD321ECGZIG
+- **Tombstoned Equipment:** 6VD321ECGZIG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: UPY3D79YA6TK
+- **Tombstoned Equipment:** UPY3D79YA6TK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: UPY3D79YA6TK
+- **Tombstoned Equipment:** UPY3D79YA6TK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: APOIE
+- **Tombstoned Equipment:** APOIE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: APOIE
+- **Tombstoned Equipment:** APOIE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: XNG6GPH4A09
+- **Tombstoned Equipment:** XNG6GPH4A09
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: XNG6GPH4A09
+- **Tombstoned Equipment:** XNG6GPH4A09
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ASHN601KUJN
+- **Tombstoned Equipment:** ASHN601KUJN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: ASHN601KUJN
+- **Tombstoned Equipment:** ASHN601KUJN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: FAJ5
+- **Tombstoned Equipment:** FAJ5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: FAJ5
+- **Tombstoned Equipment:** FAJ5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: T9IZ5GTSYZP9
+- **Tombstoned Equipment:** T9IZ5GTSYZP9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: T9IZ5GTSYZP9
+- **Tombstoned Equipment:** T9IZ5GTSYZP9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: J5D
+- **Tombstoned Equipment:** J5D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: J5D
+- **Tombstoned Equipment:** J5D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: CKPFZ
+- **Tombstoned Equipment:** CKPFZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: CKPFZ
+- **Tombstoned Equipment:** CKPFZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: NE5GT6EJ
+- **Tombstoned Equipment:** NE5GT6EJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: NE5GT6EJ
+- **Tombstoned Equipment:** NE5GT6EJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: QRS36N
+- **Tombstoned Equipment:** QRS36N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: QRS36N
+- **Tombstoned Equipment:** QRS36N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: T3KF
+- **Tombstoned Equipment:** T3KF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: T3KF
+- **Tombstoned Equipment:** T3KF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: W3BBDHM8WFWC
+- **Tombstoned Equipment:** W3BBDHM8WFWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: W3BBDHM8WFWC
+- **Tombstoned Equipment:** W3BBDHM8WFWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 3KH9R829ARJ
+- **Tombstoned Equipment:** 3KH9R829ARJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 3KH9R829ARJ
+- **Tombstoned Equipment:** 3KH9R829ARJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: LBTZZVC
+- **Tombstoned Equipment:** LBTZZVC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: LBTZZVC
+- **Tombstoned Equipment:** LBTZZVC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 0QK8GCHHNQ49
+- **Tombstoned Equipment:** 0QK8GCHHNQ49
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 0QK8GCHHNQ49
+- **Tombstoned Equipment:** 0QK8GCHHNQ49
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: GHXOVLNZWUYM
+- **Tombstoned Equipment:** GHXOVLNZWUYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: GHXOVLNZWUYM
+- **Tombstoned Equipment:** GHXOVLNZWUYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: WEFK4CR
+- **Tombstoned Equipment:** WEFK4CR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: WEFK4CR
+- **Tombstoned Equipment:** WEFK4CR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: Q31AXHCR5T5P
+- **Tombstoned Equipment:** Q31AXHCR5T5P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: Q31AXHCR5T5P
+- **Tombstoned Equipment:** Q31AXHCR5T5P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: PDB
+- **Tombstoned Equipment:** PDB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: PDB
+- **Tombstoned Equipment:** PDB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 9DC
+- **Tombstoned Equipment:** 9DC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: 9DC
+- **Tombstoned Equipment:** 9DC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: OE31K74IDN1
+- **Tombstoned Equipment:** OE31K74IDN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:00 UTC] Document Deletion: OE31K74IDN1
+- **Tombstoned Equipment:** OE31K74IDN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: Q5A4P4S
+- **Tombstoned Equipment:** Q5A4P4S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: Q5A4P4S
+- **Tombstoned Equipment:** Q5A4P4S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DA13RCJH
+- **Tombstoned Equipment:** DA13RCJH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DA13RCJH
+- **Tombstoned Equipment:** DA13RCJH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: TFY1VB4H68
+- **Tombstoned Equipment:** TFY1VB4H68
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: TFY1VB4H68
+- **Tombstoned Equipment:** TFY1VB4H68
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: BH2TVP8HNP5
+- **Tombstoned Equipment:** BH2TVP8HNP5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: BH2TVP8HNP5
+- **Tombstoned Equipment:** BH2TVP8HNP5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: C5WIWHC
+- **Tombstoned Equipment:** C5WIWHC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: C5WIWHC
+- **Tombstoned Equipment:** C5WIWHC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: IJIB
+- **Tombstoned Equipment:** IJIB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: IJIB
+- **Tombstoned Equipment:** IJIB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: K60
+- **Tombstoned Equipment:** K60
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: K60
+- **Tombstoned Equipment:** K60
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 2T1SF5DMLI6L
+- **Tombstoned Equipment:** 2T1SF5DMLI6L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 2T1SF5DMLI6L
+- **Tombstoned Equipment:** 2T1SF5DMLI6L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: YRZ
+- **Tombstoned Equipment:** YRZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: YRZ
+- **Tombstoned Equipment:** YRZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: U5R
+- **Tombstoned Equipment:** U5R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: U5R
+- **Tombstoned Equipment:** U5R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: CVWWVDKFL7BY
+- **Tombstoned Equipment:** CVWWVDKFL7BY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: CVWWVDKFL7BY
+- **Tombstoned Equipment:** CVWWVDKFL7BY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DZL4PLM95CNR
+- **Tombstoned Equipment:** DZL4PLM95CNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DZL4PLM95CNR
+- **Tombstoned Equipment:** DZL4PLM95CNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 0ZW1CH
+- **Tombstoned Equipment:** 0ZW1CH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 0ZW1CH
+- **Tombstoned Equipment:** 0ZW1CH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: FATTAWV5ITCY
+- **Tombstoned Equipment:** FATTAWV5ITCY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: FATTAWV5ITCY
+- **Tombstoned Equipment:** FATTAWV5ITCY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: RQ28DSM
+- **Tombstoned Equipment:** RQ28DSM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: RQ28DSM
+- **Tombstoned Equipment:** RQ28DSM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: YXRUI59YU7VO
+- **Tombstoned Equipment:** YXRUI59YU7VO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: YXRUI59YU7VO
+- **Tombstoned Equipment:** YXRUI59YU7VO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 0UYWIP
+- **Tombstoned Equipment:** 0UYWIP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 0UYWIP
+- **Tombstoned Equipment:** 0UYWIP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: VG6XS440W
+- **Tombstoned Equipment:** VG6XS440W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: VG6XS440W
+- **Tombstoned Equipment:** VG6XS440W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: BPO5Y11D7MGK
+- **Tombstoned Equipment:** BPO5Y11D7MGK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: BPO5Y11D7MGK
+- **Tombstoned Equipment:** BPO5Y11D7MGK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: B22
+- **Tombstoned Equipment:** B22
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: B22
+- **Tombstoned Equipment:** B22
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 0CG59L0HQDG0
+- **Tombstoned Equipment:** 0CG59L0HQDG0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 0CG59L0HQDG0
+- **Tombstoned Equipment:** 0CG59L0HQDG0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: OSR9HK30R0JM
+- **Tombstoned Equipment:** OSR9HK30R0JM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: OSR9HK30R0JM
+- **Tombstoned Equipment:** OSR9HK30R0JM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: V0C
+- **Tombstoned Equipment:** V0C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: V0C
+- **Tombstoned Equipment:** V0C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: XT6MVX3LPW
+- **Tombstoned Equipment:** XT6MVX3LPW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: XT6MVX3LPW
+- **Tombstoned Equipment:** XT6MVX3LPW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 40EPGQQZNT
+- **Tombstoned Equipment:** 40EPGQQZNT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 40EPGQQZNT
+- **Tombstoned Equipment:** 40EPGQQZNT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 6V64B
+- **Tombstoned Equipment:** 6V64B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 6V64B
+- **Tombstoned Equipment:** 6V64B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: HLSZULNWVCAA
+- **Tombstoned Equipment:** HLSZULNWVCAA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: HLSZULNWVCAA
+- **Tombstoned Equipment:** HLSZULNWVCAA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DB404FZG7EFP
+- **Tombstoned Equipment:** DB404FZG7EFP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DB404FZG7EFP
+- **Tombstoned Equipment:** DB404FZG7EFP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ONP6LYDCO
+- **Tombstoned Equipment:** ONP6LYDCO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ONP6LYDCO
+- **Tombstoned Equipment:** ONP6LYDCO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: XGF
+- **Tombstoned Equipment:** XGF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: XGF
+- **Tombstoned Equipment:** XGF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: C1LO6RYI
+- **Tombstoned Equipment:** C1LO6RYI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: C1LO6RYI
+- **Tombstoned Equipment:** C1LO6RYI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DNU8Q86AW
+- **Tombstoned Equipment:** DNU8Q86AW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DNU8Q86AW
+- **Tombstoned Equipment:** DNU8Q86AW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: WGMBJU
+- **Tombstoned Equipment:** WGMBJU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: WGMBJU
+- **Tombstoned Equipment:** WGMBJU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: RNAC82FY5ZV4
+- **Tombstoned Equipment:** RNAC82FY5ZV4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: RNAC82FY5ZV4
+- **Tombstoned Equipment:** RNAC82FY5ZV4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: Z74
+- **Tombstoned Equipment:** Z74
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: Z74
+- **Tombstoned Equipment:** Z74
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: GSU
+- **Tombstoned Equipment:** GSU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: GSU
+- **Tombstoned Equipment:** GSU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: CQU97L0
+- **Tombstoned Equipment:** CQU97L0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: CQU97L0
+- **Tombstoned Equipment:** CQU97L0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 4KKC
+- **Tombstoned Equipment:** 4KKC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 4KKC
+- **Tombstoned Equipment:** 4KKC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: S47T
+- **Tombstoned Equipment:** S47T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: S47T
+- **Tombstoned Equipment:** S47T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: IXZM4
+- **Tombstoned Equipment:** IXZM4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: IXZM4
+- **Tombstoned Equipment:** IXZM4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 7C3CEL91PVD4
+- **Tombstoned Equipment:** 7C3CEL91PVD4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 7C3CEL91PVD4
+- **Tombstoned Equipment:** 7C3CEL91PVD4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 6Q62GO
+- **Tombstoned Equipment:** 6Q62GO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 6Q62GO
+- **Tombstoned Equipment:** 6Q62GO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: CH2R
+- **Tombstoned Equipment:** CH2R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: CH2R
+- **Tombstoned Equipment:** CH2R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: OI8
+- **Tombstoned Equipment:** OI8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: OI8
+- **Tombstoned Equipment:** OI8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 3D6HHD
+- **Tombstoned Equipment:** 3D6HHD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 3D6HHD
+- **Tombstoned Equipment:** 3D6HHD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: QTZKU
+- **Tombstoned Equipment:** QTZKU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: QTZKU
+- **Tombstoned Equipment:** QTZKU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: POF
+- **Tombstoned Equipment:** POF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: POF
+- **Tombstoned Equipment:** POF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DF0B6B
+- **Tombstoned Equipment:** DF0B6B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: DF0B6B
+- **Tombstoned Equipment:** DF0B6B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: TGN
+- **Tombstoned Equipment:** TGN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: TGN
+- **Tombstoned Equipment:** TGN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: T796R8
+- **Tombstoned Equipment:** T796R8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: T796R8
+- **Tombstoned Equipment:** T796R8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: F7W3N4QMXGXX
+- **Tombstoned Equipment:** F7W3N4QMXGXX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: F7W3N4QMXGXX
+- **Tombstoned Equipment:** F7W3N4QMXGXX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 4A4
+- **Tombstoned Equipment:** 4A4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 4A4
+- **Tombstoned Equipment:** 4A4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: H1OQEKSG5
+- **Tombstoned Equipment:** H1OQEKSG5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: H1OQEKSG5
+- **Tombstoned Equipment:** H1OQEKSG5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: B2U9
+- **Tombstoned Equipment:** B2U9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: B2U9
+- **Tombstoned Equipment:** B2U9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: UZEHGP56M2BE
+- **Tombstoned Equipment:** UZEHGP56M2BE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: UZEHGP56M2BE
+- **Tombstoned Equipment:** UZEHGP56M2BE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 6NVJU
+- **Tombstoned Equipment:** 6NVJU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 6NVJU
+- **Tombstoned Equipment:** 6NVJU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 1402
+- **Tombstoned Equipment:** 1402
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 1402
+- **Tombstoned Equipment:** 1402
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: A6MMV5HK
+- **Tombstoned Equipment:** A6MMV5HK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: A6MMV5HK
+- **Tombstoned Equipment:** A6MMV5HK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: BTR6BKO
+- **Tombstoned Equipment:** BTR6BKO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: BTR6BKO
+- **Tombstoned Equipment:** BTR6BKO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: SMU
+- **Tombstoned Equipment:** SMU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: SMU
+- **Tombstoned Equipment:** SMU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 17GKU2I
+- **Tombstoned Equipment:** 17GKU2I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 17GKU2I
+- **Tombstoned Equipment:** 17GKU2I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 0JP4XEZEEBXF
+- **Tombstoned Equipment:** 0JP4XEZEEBXF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 0JP4XEZEEBXF
+- **Tombstoned Equipment:** 0JP4XEZEEBXF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: O28M5IS
+- **Tombstoned Equipment:** O28M5IS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: O28M5IS
+- **Tombstoned Equipment:** O28M5IS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: IC4
+- **Tombstoned Equipment:** IC4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: IC4
+- **Tombstoned Equipment:** IC4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: U5LY9RXN6L
+- **Tombstoned Equipment:** U5LY9RXN6L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: U5LY9RXN6L
+- **Tombstoned Equipment:** U5LY9RXN6L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: YQWAE3MH44KV
+- **Tombstoned Equipment:** YQWAE3MH44KV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: YQWAE3MH44KV
+- **Tombstoned Equipment:** YQWAE3MH44KV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 4DM0P41QM
+- **Tombstoned Equipment:** 4DM0P41QM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 4DM0P41QM
+- **Tombstoned Equipment:** 4DM0P41QM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 5ZG9J90G
+- **Tombstoned Equipment:** 5ZG9J90G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 5ZG9J90G
+- **Tombstoned Equipment:** 5ZG9J90G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: JUTS
+- **Tombstoned Equipment:** JUTS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: JUTS
+- **Tombstoned Equipment:** JUTS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 7NHET94PPZTZ
+- **Tombstoned Equipment:** 7NHET94PPZTZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 7NHET94PPZTZ
+- **Tombstoned Equipment:** 7NHET94PPZTZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 2GS
+- **Tombstoned Equipment:** 2GS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 2GS
+- **Tombstoned Equipment:** 2GS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ZA2ZNVN
+- **Tombstoned Equipment:** ZA2ZNVN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ZA2ZNVN
+- **Tombstoned Equipment:** ZA2ZNVN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 6MFTO0JNZJXH
+- **Tombstoned Equipment:** 6MFTO0JNZJXH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 6MFTO0JNZJXH
+- **Tombstoned Equipment:** 6MFTO0JNZJXH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: CHHRR
+- **Tombstoned Equipment:** CHHRR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: CHHRR
+- **Tombstoned Equipment:** CHHRR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: GTLJX
+- **Tombstoned Equipment:** GTLJX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: GTLJX
+- **Tombstoned Equipment:** GTLJX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: GRQ0A
+- **Tombstoned Equipment:** GRQ0A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: GRQ0A
+- **Tombstoned Equipment:** GRQ0A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: LJI568
+- **Tombstoned Equipment:** LJI568
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: LJI568
+- **Tombstoned Equipment:** LJI568
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: P5FC88YWL
+- **Tombstoned Equipment:** P5FC88YWL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: P5FC88YWL
+- **Tombstoned Equipment:** P5FC88YWL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: QII8GKUV72I
+- **Tombstoned Equipment:** QII8GKUV72I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: QII8GKUV72I
+- **Tombstoned Equipment:** QII8GKUV72I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: IHLKAD3G
+- **Tombstoned Equipment:** IHLKAD3G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: IHLKAD3G
+- **Tombstoned Equipment:** IHLKAD3G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: U8BT664PQ91C
+- **Tombstoned Equipment:** U8BT664PQ91C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: U8BT664PQ91C
+- **Tombstoned Equipment:** U8BT664PQ91C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 63EADVS2PU6J
+- **Tombstoned Equipment:** 63EADVS2PU6J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 63EADVS2PU6J
+- **Tombstoned Equipment:** 63EADVS2PU6J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: FLX956F
+- **Tombstoned Equipment:** FLX956F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: FLX956F
+- **Tombstoned Equipment:** FLX956F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ZJP
+- **Tombstoned Equipment:** ZJP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ZJP
+- **Tombstoned Equipment:** ZJP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 8WT
+- **Tombstoned Equipment:** 8WT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 8WT
+- **Tombstoned Equipment:** 8WT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: KUZFCKH7
+- **Tombstoned Equipment:** KUZFCKH7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: KUZFCKH7
+- **Tombstoned Equipment:** KUZFCKH7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: E61Q
+- **Tombstoned Equipment:** E61Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: E61Q
+- **Tombstoned Equipment:** E61Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ND10
+- **Tombstoned Equipment:** ND10
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ND10
+- **Tombstoned Equipment:** ND10
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: N0Y9JLYUDI2C
+- **Tombstoned Equipment:** N0Y9JLYUDI2C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: N0Y9JLYUDI2C
+- **Tombstoned Equipment:** N0Y9JLYUDI2C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ERJ8S3R
+- **Tombstoned Equipment:** ERJ8S3R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: ERJ8S3R
+- **Tombstoned Equipment:** ERJ8S3R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: Y1VJ5SP8JYC3
+- **Tombstoned Equipment:** Y1VJ5SP8JYC3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: Y1VJ5SP8JYC3
+- **Tombstoned Equipment:** Y1VJ5SP8JYC3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: MP57NLTR49HF
+- **Tombstoned Equipment:** MP57NLTR49HF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: MP57NLTR49HF
+- **Tombstoned Equipment:** MP57NLTR49HF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: GLAEVQ9
+- **Tombstoned Equipment:** GLAEVQ9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: GLAEVQ9
+- **Tombstoned Equipment:** GLAEVQ9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: EXFP7
+- **Tombstoned Equipment:** EXFP7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: EXFP7
+- **Tombstoned Equipment:** EXFP7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 1MBDR94NB61R
+- **Tombstoned Equipment:** 1MBDR94NB61R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 1MBDR94NB61R
+- **Tombstoned Equipment:** 1MBDR94NB61R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 9VPB
+- **Tombstoned Equipment:** 9VPB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 9VPB
+- **Tombstoned Equipment:** 9VPB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: D2A
+- **Tombstoned Equipment:** D2A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: D2A
+- **Tombstoned Equipment:** D2A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 79QIUH7GQUL1
+- **Tombstoned Equipment:** 79QIUH7GQUL1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:48:11 UTC] Document Deletion: 79QIUH7GQUL1
+- **Tombstoned Equipment:** 79QIUH7GQUL1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 04500KF6B
+- **Tombstoned Equipment:** 04500KF6B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 04500KF6B
+- **Tombstoned Equipment:** 04500KF6B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 2WDQ3LM
+- **Tombstoned Equipment:** 2WDQ3LM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 2WDQ3LM
+- **Tombstoned Equipment:** 2WDQ3LM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 9I3XZ7S1
+- **Tombstoned Equipment:** 9I3XZ7S1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 9I3XZ7S1
+- **Tombstoned Equipment:** 9I3XZ7S1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: EM7
+- **Tombstoned Equipment:** EM7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: EM7
+- **Tombstoned Equipment:** EM7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: JU7
+- **Tombstoned Equipment:** JU7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: JU7
+- **Tombstoned Equipment:** JU7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 9VER5DVD25
+- **Tombstoned Equipment:** 9VER5DVD25
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 9VER5DVD25
+- **Tombstoned Equipment:** 9VER5DVD25
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: MQS
+- **Tombstoned Equipment:** MQS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: MQS
+- **Tombstoned Equipment:** MQS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 6FQEBVR0D
+- **Tombstoned Equipment:** 6FQEBVR0D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 6FQEBVR0D
+- **Tombstoned Equipment:** 6FQEBVR0D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: EPJNHZ0
+- **Tombstoned Equipment:** EPJNHZ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: EPJNHZ0
+- **Tombstoned Equipment:** EPJNHZ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: V4VJ
+- **Tombstoned Equipment:** V4VJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: V4VJ
+- **Tombstoned Equipment:** V4VJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: N4F9V3TWVJ0
+- **Tombstoned Equipment:** N4F9V3TWVJ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: N4F9V3TWVJ0
+- **Tombstoned Equipment:** N4F9V3TWVJ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0MEPDGN2WNR
+- **Tombstoned Equipment:** 0MEPDGN2WNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0MEPDGN2WNR
+- **Tombstoned Equipment:** 0MEPDGN2WNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: GRF
+- **Tombstoned Equipment:** GRF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: GRF
+- **Tombstoned Equipment:** GRF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: MGBJ9ZZZDNE1
+- **Tombstoned Equipment:** MGBJ9ZZZDNE1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: MGBJ9ZZZDNE1
+- **Tombstoned Equipment:** MGBJ9ZZZDNE1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 39W
+- **Tombstoned Equipment:** 39W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 39W
+- **Tombstoned Equipment:** 39W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 3P9Z5931
+- **Tombstoned Equipment:** 3P9Z5931
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 3P9Z5931
+- **Tombstoned Equipment:** 3P9Z5931
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ZQOOSURS1CR3
+- **Tombstoned Equipment:** ZQOOSURS1CR3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ZQOOSURS1CR3
+- **Tombstoned Equipment:** ZQOOSURS1CR3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: UXB
+- **Tombstoned Equipment:** UXB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: UXB
+- **Tombstoned Equipment:** UXB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: Q1GJSN6ZQYX
+- **Tombstoned Equipment:** Q1GJSN6ZQYX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: Q1GJSN6ZQYX
+- **Tombstoned Equipment:** Q1GJSN6ZQYX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: FYJNGR14W4OL
+- **Tombstoned Equipment:** FYJNGR14W4OL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: FYJNGR14W4OL
+- **Tombstoned Equipment:** FYJNGR14W4OL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: MWBKBTC7YRB8
+- **Tombstoned Equipment:** MWBKBTC7YRB8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: MWBKBTC7YRB8
+- **Tombstoned Equipment:** MWBKBTC7YRB8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: IWN9N5H1OW9R
+- **Tombstoned Equipment:** IWN9N5H1OW9R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: IWN9N5H1OW9R
+- **Tombstoned Equipment:** IWN9N5H1OW9R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: E7X
+- **Tombstoned Equipment:** E7X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: E7X
+- **Tombstoned Equipment:** E7X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ABW
+- **Tombstoned Equipment:** ABW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ABW
+- **Tombstoned Equipment:** ABW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0B88YX
+- **Tombstoned Equipment:** 0B88YX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0B88YX
+- **Tombstoned Equipment:** 0B88YX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 76P
+- **Tombstoned Equipment:** 76P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 76P
+- **Tombstoned Equipment:** 76P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: VYSYBU90V1S6
+- **Tombstoned Equipment:** VYSYBU90V1S6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: VYSYBU90V1S6
+- **Tombstoned Equipment:** VYSYBU90V1S6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 8AZO5U5DZXWE
+- **Tombstoned Equipment:** 8AZO5U5DZXWE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 8AZO5U5DZXWE
+- **Tombstoned Equipment:** 8AZO5U5DZXWE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: JU7SXQ
+- **Tombstoned Equipment:** JU7SXQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: JU7SXQ
+- **Tombstoned Equipment:** JU7SXQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: XRYREMOTC79I
+- **Tombstoned Equipment:** XRYREMOTC79I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: XRYREMOTC79I
+- **Tombstoned Equipment:** XRYREMOTC79I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: HBSC5E14SZ
+- **Tombstoned Equipment:** HBSC5E14SZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: HBSC5E14SZ
+- **Tombstoned Equipment:** HBSC5E14SZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 1O78P2N
+- **Tombstoned Equipment:** 1O78P2N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 1O78P2N
+- **Tombstoned Equipment:** 1O78P2N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 5OV676D6
+- **Tombstoned Equipment:** 5OV676D6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 5OV676D6
+- **Tombstoned Equipment:** 5OV676D6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: UDGJCUPYTR2Y
+- **Tombstoned Equipment:** UDGJCUPYTR2Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: UDGJCUPYTR2Y
+- **Tombstoned Equipment:** UDGJCUPYTR2Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: W67RHUDH3LNU
+- **Tombstoned Equipment:** W67RHUDH3LNU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: W67RHUDH3LNU
+- **Tombstoned Equipment:** W67RHUDH3LNU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 2UCQ53I74II9
+- **Tombstoned Equipment:** 2UCQ53I74II9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 2UCQ53I74II9
+- **Tombstoned Equipment:** 2UCQ53I74II9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 4FJV0WM0
+- **Tombstoned Equipment:** 4FJV0WM0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 4FJV0WM0
+- **Tombstoned Equipment:** 4FJV0WM0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 2ACYPE
+- **Tombstoned Equipment:** 2ACYPE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 2ACYPE
+- **Tombstoned Equipment:** 2ACYPE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 8U6ECM65YGBX
+- **Tombstoned Equipment:** 8U6ECM65YGBX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 8U6ECM65YGBX
+- **Tombstoned Equipment:** 8U6ECM65YGBX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 07QJFQ023KEI
+- **Tombstoned Equipment:** 07QJFQ023KEI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 07QJFQ023KEI
+- **Tombstoned Equipment:** 07QJFQ023KEI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0VXW
+- **Tombstoned Equipment:** 0VXW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0VXW
+- **Tombstoned Equipment:** 0VXW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: NAQM
+- **Tombstoned Equipment:** NAQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: NAQM
+- **Tombstoned Equipment:** NAQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: P6XFADWYM23
+- **Tombstoned Equipment:** P6XFADWYM23
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: P6XFADWYM23
+- **Tombstoned Equipment:** P6XFADWYM23
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: VSAUICB1W9TZ
+- **Tombstoned Equipment:** VSAUICB1W9TZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: VSAUICB1W9TZ
+- **Tombstoned Equipment:** VSAUICB1W9TZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: FJZ4U9IMKQBM
+- **Tombstoned Equipment:** FJZ4U9IMKQBM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: FJZ4U9IMKQBM
+- **Tombstoned Equipment:** FJZ4U9IMKQBM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 70A
+- **Tombstoned Equipment:** 70A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 70A
+- **Tombstoned Equipment:** 70A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: C0WWNG
+- **Tombstoned Equipment:** C0WWNG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: C0WWNG
+- **Tombstoned Equipment:** C0WWNG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 4ZNG
+- **Tombstoned Equipment:** 4ZNG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 4ZNG
+- **Tombstoned Equipment:** 4ZNG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: EMUH762KCDBX
+- **Tombstoned Equipment:** EMUH762KCDBX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: EMUH762KCDBX
+- **Tombstoned Equipment:** EMUH762KCDBX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: WDL7C339KCIG
+- **Tombstoned Equipment:** WDL7C339KCIG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: WDL7C339KCIG
+- **Tombstoned Equipment:** WDL7C339KCIG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 99KHB45WZ
+- **Tombstoned Equipment:** 99KHB45WZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 99KHB45WZ
+- **Tombstoned Equipment:** 99KHB45WZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: FDE581H
+- **Tombstoned Equipment:** FDE581H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: FDE581H
+- **Tombstoned Equipment:** FDE581H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: U153MYGG
+- **Tombstoned Equipment:** U153MYGG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: U153MYGG
+- **Tombstoned Equipment:** U153MYGG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TMFAB85P
+- **Tombstoned Equipment:** TMFAB85P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TMFAB85P
+- **Tombstoned Equipment:** TMFAB85P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TJEWJDJZJVM
+- **Tombstoned Equipment:** TJEWJDJZJVM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TJEWJDJZJVM
+- **Tombstoned Equipment:** TJEWJDJZJVM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: IIB037HD22J9
+- **Tombstoned Equipment:** IIB037HD22J9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: IIB037HD22J9
+- **Tombstoned Equipment:** IIB037HD22J9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: NYJ9SVW64
+- **Tombstoned Equipment:** NYJ9SVW64
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: NYJ9SVW64
+- **Tombstoned Equipment:** NYJ9SVW64
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: I9GXGNDM3
+- **Tombstoned Equipment:** I9GXGNDM3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: I9GXGNDM3
+- **Tombstoned Equipment:** I9GXGNDM3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 9TUY8Y
+- **Tombstoned Equipment:** 9TUY8Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 9TUY8Y
+- **Tombstoned Equipment:** 9TUY8Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: KPOX5
+- **Tombstoned Equipment:** KPOX5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: KPOX5
+- **Tombstoned Equipment:** KPOX5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TW7Z69OIHR
+- **Tombstoned Equipment:** TW7Z69OIHR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TW7Z69OIHR
+- **Tombstoned Equipment:** TW7Z69OIHR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: Y2A
+- **Tombstoned Equipment:** Y2A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: Y2A
+- **Tombstoned Equipment:** Y2A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: SXO
+- **Tombstoned Equipment:** SXO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: SXO
+- **Tombstoned Equipment:** SXO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0TRZFWQM6B6J
+- **Tombstoned Equipment:** 0TRZFWQM6B6J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0TRZFWQM6B6J
+- **Tombstoned Equipment:** 0TRZFWQM6B6J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TFMCH
+- **Tombstoned Equipment:** TFMCH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: TFMCH
+- **Tombstoned Equipment:** TFMCH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: LJHYT
+- **Tombstoned Equipment:** LJHYT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: LJHYT
+- **Tombstoned Equipment:** LJHYT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: XIP808KLI17E
+- **Tombstoned Equipment:** XIP808KLI17E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: XIP808KLI17E
+- **Tombstoned Equipment:** XIP808KLI17E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: GIQWFH6TRAW2
+- **Tombstoned Equipment:** GIQWFH6TRAW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: GIQWFH6TRAW2
+- **Tombstoned Equipment:** GIQWFH6TRAW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ND5
+- **Tombstoned Equipment:** ND5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ND5
+- **Tombstoned Equipment:** ND5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 5OQMZYSREQF4
+- **Tombstoned Equipment:** 5OQMZYSREQF4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 5OQMZYSREQF4
+- **Tombstoned Equipment:** 5OQMZYSREQF4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 8HX6T2K
+- **Tombstoned Equipment:** 8HX6T2K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 8HX6T2K
+- **Tombstoned Equipment:** 8HX6T2K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: P5EQF3
+- **Tombstoned Equipment:** P5EQF3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: P5EQF3
+- **Tombstoned Equipment:** P5EQF3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: HZFNDCB6YKM
+- **Tombstoned Equipment:** HZFNDCB6YKM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: HZFNDCB6YKM
+- **Tombstoned Equipment:** HZFNDCB6YKM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 4AKFYIA
+- **Tombstoned Equipment:** 4AKFYIA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 4AKFYIA
+- **Tombstoned Equipment:** 4AKFYIA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: BTD
+- **Tombstoned Equipment:** BTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: BTD
+- **Tombstoned Equipment:** BTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: YPV
+- **Tombstoned Equipment:** YPV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: YPV
+- **Tombstoned Equipment:** YPV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: NC1I2GV3T80L
+- **Tombstoned Equipment:** NC1I2GV3T80L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: NC1I2GV3T80L
+- **Tombstoned Equipment:** NC1I2GV3T80L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: DVVEN
+- **Tombstoned Equipment:** DVVEN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: DVVEN
+- **Tombstoned Equipment:** DVVEN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: VA4H90ZA6N
+- **Tombstoned Equipment:** VA4H90ZA6N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: VA4H90ZA6N
+- **Tombstoned Equipment:** VA4H90ZA6N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: XEL
+- **Tombstoned Equipment:** XEL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: XEL
+- **Tombstoned Equipment:** XEL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: NOIA2
+- **Tombstoned Equipment:** NOIA2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: NOIA2
+- **Tombstoned Equipment:** NOIA2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: LMB
+- **Tombstoned Equipment:** LMB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: LMB
+- **Tombstoned Equipment:** LMB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 7VITKO
+- **Tombstoned Equipment:** 7VITKO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 7VITKO
+- **Tombstoned Equipment:** 7VITKO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ZS59F
+- **Tombstoned Equipment:** ZS59F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ZS59F
+- **Tombstoned Equipment:** ZS59F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: O5O4PMC
+- **Tombstoned Equipment:** O5O4PMC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: O5O4PMC
+- **Tombstoned Equipment:** O5O4PMC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: YS9D02O1KZ3S
+- **Tombstoned Equipment:** YS9D02O1KZ3S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: YS9D02O1KZ3S
+- **Tombstoned Equipment:** YS9D02O1KZ3S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 59A
+- **Tombstoned Equipment:** 59A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 59A
+- **Tombstoned Equipment:** 59A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ZNUIRED
+- **Tombstoned Equipment:** ZNUIRED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: ZNUIRED
+- **Tombstoned Equipment:** ZNUIRED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: SIE2ERQQ
+- **Tombstoned Equipment:** SIE2ERQQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: SIE2ERQQ
+- **Tombstoned Equipment:** SIE2ERQQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 51FMDV9M33P
+- **Tombstoned Equipment:** 51FMDV9M33P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 51FMDV9M33P
+- **Tombstoned Equipment:** 51FMDV9M33P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: MQXW
+- **Tombstoned Equipment:** MQXW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: MQXW
+- **Tombstoned Equipment:** MQXW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: LR8V43PGR71M
+- **Tombstoned Equipment:** LR8V43PGR71M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: LR8V43PGR71M
+- **Tombstoned Equipment:** LR8V43PGR71M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 8FRCMN9OB5ZZ
+- **Tombstoned Equipment:** 8FRCMN9OB5ZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 8FRCMN9OB5ZZ
+- **Tombstoned Equipment:** 8FRCMN9OB5ZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: N0CZB
+- **Tombstoned Equipment:** N0CZB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: N0CZB
+- **Tombstoned Equipment:** N0CZB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0J8XLC
+- **Tombstoned Equipment:** 0J8XLC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: 0J8XLC
+- **Tombstoned Equipment:** 0J8XLC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: XDGU7P1I
+- **Tombstoned Equipment:** XDGU7P1I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 01:53:31 UTC] Document Deletion: XDGU7P1I
+- **Tombstoned Equipment:** XDGU7P1I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: T7ZQBC71T
+- **Tombstoned Equipment:** T7ZQBC71T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: T7ZQBC71T
+- **Tombstoned Equipment:** T7ZQBC71T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: TC3LCOPR1B
+- **Tombstoned Equipment:** TC3LCOPR1B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: TC3LCOPR1B
+- **Tombstoned Equipment:** TC3LCOPR1B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 80S6RVGF
+- **Tombstoned Equipment:** 80S6RVGF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 80S6RVGF
+- **Tombstoned Equipment:** 80S6RVGF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: BEPXHMPDBZ76
+- **Tombstoned Equipment:** BEPXHMPDBZ76
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: BEPXHMPDBZ76
+- **Tombstoned Equipment:** BEPXHMPDBZ76
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: N1XUD3
+- **Tombstoned Equipment:** N1XUD3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: N1XUD3
+- **Tombstoned Equipment:** N1XUD3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: VM6Q
+- **Tombstoned Equipment:** VM6Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: VM6Q
+- **Tombstoned Equipment:** VM6Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: PKPMQ33OD71
+- **Tombstoned Equipment:** PKPMQ33OD71
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: PKPMQ33OD71
+- **Tombstoned Equipment:** PKPMQ33OD71
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YSC
+- **Tombstoned Equipment:** YSC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YSC
+- **Tombstoned Equipment:** YSC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 01JF1UK
+- **Tombstoned Equipment:** 01JF1UK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 01JF1UK
+- **Tombstoned Equipment:** 01JF1UK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ND88
+- **Tombstoned Equipment:** ND88
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ND88
+- **Tombstoned Equipment:** ND88
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YT5
+- **Tombstoned Equipment:** YT5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YT5
+- **Tombstoned Equipment:** YT5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: IQT47UBPLW1L
+- **Tombstoned Equipment:** IQT47UBPLW1L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: IQT47UBPLW1L
+- **Tombstoned Equipment:** IQT47UBPLW1L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YZTCTWF
+- **Tombstoned Equipment:** YZTCTWF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YZTCTWF
+- **Tombstoned Equipment:** YZTCTWF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: FOUND
+- **Tombstoned Equipment:** FOUND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: FOUND
+- **Tombstoned Equipment:** FOUND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: PH7U43
+- **Tombstoned Equipment:** PH7U43
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: PH7U43
+- **Tombstoned Equipment:** PH7U43
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: GKS2
+- **Tombstoned Equipment:** GKS2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: GKS2
+- **Tombstoned Equipment:** GKS2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 1VE1
+- **Tombstoned Equipment:** 1VE1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 1VE1
+- **Tombstoned Equipment:** 1VE1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 6V6F3
+- **Tombstoned Equipment:** 6V6F3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 6V6F3
+- **Tombstoned Equipment:** 6V6F3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 4LE8U
+- **Tombstoned Equipment:** 4LE8U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 4LE8U
+- **Tombstoned Equipment:** 4LE8U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ZMSY9
+- **Tombstoned Equipment:** ZMSY9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ZMSY9
+- **Tombstoned Equipment:** ZMSY9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 6ITZYN
+- **Tombstoned Equipment:** 6ITZYN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 6ITZYN
+- **Tombstoned Equipment:** 6ITZYN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: DWBW
+- **Tombstoned Equipment:** DWBW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: DWBW
+- **Tombstoned Equipment:** DWBW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: I4YAFVW
+- **Tombstoned Equipment:** I4YAFVW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: I4YAFVW
+- **Tombstoned Equipment:** I4YAFVW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: I04S
+- **Tombstoned Equipment:** I04S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: I04S
+- **Tombstoned Equipment:** I04S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 2B5QLYGIQ7
+- **Tombstoned Equipment:** 2B5QLYGIQ7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 2B5QLYGIQ7
+- **Tombstoned Equipment:** 2B5QLYGIQ7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: O7KG84T
+- **Tombstoned Equipment:** O7KG84T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: O7KG84T
+- **Tombstoned Equipment:** O7KG84T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 8AX6PAT
+- **Tombstoned Equipment:** 8AX6PAT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 8AX6PAT
+- **Tombstoned Equipment:** 8AX6PAT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: OUEIZ9C52E7O
+- **Tombstoned Equipment:** OUEIZ9C52E7O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: OUEIZ9C52E7O
+- **Tombstoned Equipment:** OUEIZ9C52E7O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: Q7LOS687Q8P5
+- **Tombstoned Equipment:** Q7LOS687Q8P5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: Q7LOS687Q8P5
+- **Tombstoned Equipment:** Q7LOS687Q8P5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ETF6ZB2
+- **Tombstoned Equipment:** ETF6ZB2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ETF6ZB2
+- **Tombstoned Equipment:** ETF6ZB2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: G77DYG886Z
+- **Tombstoned Equipment:** G77DYG886Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: G77DYG886Z
+- **Tombstoned Equipment:** G77DYG886Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: TG238
+- **Tombstoned Equipment:** TG238
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: TG238
+- **Tombstoned Equipment:** TG238
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: MA42
+- **Tombstoned Equipment:** MA42
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: MA42
+- **Tombstoned Equipment:** MA42
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 9Z284SCCVRUJ
+- **Tombstoned Equipment:** 9Z284SCCVRUJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 9Z284SCCVRUJ
+- **Tombstoned Equipment:** 9Z284SCCVRUJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: NO7NNPL20QX
+- **Tombstoned Equipment:** NO7NNPL20QX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: NO7NNPL20QX
+- **Tombstoned Equipment:** NO7NNPL20QX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 0HV8
+- **Tombstoned Equipment:** 0HV8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 0HV8
+- **Tombstoned Equipment:** 0HV8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: JMQRF6SQ
+- **Tombstoned Equipment:** JMQRF6SQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: JMQRF6SQ
+- **Tombstoned Equipment:** JMQRF6SQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: X2X9
+- **Tombstoned Equipment:** X2X9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: X2X9
+- **Tombstoned Equipment:** X2X9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 2GFMK5F
+- **Tombstoned Equipment:** 2GFMK5F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 2GFMK5F
+- **Tombstoned Equipment:** 2GFMK5F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: H299O6
+- **Tombstoned Equipment:** H299O6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: H299O6
+- **Tombstoned Equipment:** H299O6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: KRRLF
+- **Tombstoned Equipment:** KRRLF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: KRRLF
+- **Tombstoned Equipment:** KRRLF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ED3HAM5GUH
+- **Tombstoned Equipment:** ED3HAM5GUH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ED3HAM5GUH
+- **Tombstoned Equipment:** ED3HAM5GUH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: WLXYSBAPQETM
+- **Tombstoned Equipment:** WLXYSBAPQETM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: WLXYSBAPQETM
+- **Tombstoned Equipment:** WLXYSBAPQETM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: RJ79T6ZKG3
+- **Tombstoned Equipment:** RJ79T6ZKG3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: RJ79T6ZKG3
+- **Tombstoned Equipment:** RJ79T6ZKG3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ZSE
+- **Tombstoned Equipment:** ZSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ZSE
+- **Tombstoned Equipment:** ZSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 78KLFKR07
+- **Tombstoned Equipment:** 78KLFKR07
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 78KLFKR07
+- **Tombstoned Equipment:** 78KLFKR07
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ZPKXZG0RD
+- **Tombstoned Equipment:** ZPKXZG0RD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: ZPKXZG0RD
+- **Tombstoned Equipment:** ZPKXZG0RD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: EYLP3HNEGQ3
+- **Tombstoned Equipment:** EYLP3HNEGQ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: EYLP3HNEGQ3
+- **Tombstoned Equipment:** EYLP3HNEGQ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: GT7ECHE
+- **Tombstoned Equipment:** GT7ECHE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: GT7ECHE
+- **Tombstoned Equipment:** GT7ECHE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: QC12GR8SJOY
+- **Tombstoned Equipment:** QC12GR8SJOY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: QC12GR8SJOY
+- **Tombstoned Equipment:** QC12GR8SJOY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 14LAY
+- **Tombstoned Equipment:** 14LAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 14LAY
+- **Tombstoned Equipment:** 14LAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: RHTUZP9QHZFC
+- **Tombstoned Equipment:** RHTUZP9QHZFC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: RHTUZP9QHZFC
+- **Tombstoned Equipment:** RHTUZP9QHZFC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: Q1JD557FA3NS
+- **Tombstoned Equipment:** Q1JD557FA3NS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: Q1JD557FA3NS
+- **Tombstoned Equipment:** Q1JD557FA3NS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YKAAG50LQBG1
+- **Tombstoned Equipment:** YKAAG50LQBG1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YKAAG50LQBG1
+- **Tombstoned Equipment:** YKAAG50LQBG1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: QKVUFR5E2UWC
+- **Tombstoned Equipment:** QKVUFR5E2UWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: QKVUFR5E2UWC
+- **Tombstoned Equipment:** QKVUFR5E2UWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: K7M2
+- **Tombstoned Equipment:** K7M2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: K7M2
+- **Tombstoned Equipment:** K7M2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 85JJ3MWAYFN
+- **Tombstoned Equipment:** 85JJ3MWAYFN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 85JJ3MWAYFN
+- **Tombstoned Equipment:** 85JJ3MWAYFN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: JNFV9GEHD
+- **Tombstoned Equipment:** JNFV9GEHD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: JNFV9GEHD
+- **Tombstoned Equipment:** JNFV9GEHD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 7YC992Q9
+- **Tombstoned Equipment:** 7YC992Q9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 7YC992Q9
+- **Tombstoned Equipment:** 7YC992Q9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 9R271QG
+- **Tombstoned Equipment:** 9R271QG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 9R271QG
+- **Tombstoned Equipment:** 9R271QG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: G1J
+- **Tombstoned Equipment:** G1J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: G1J
+- **Tombstoned Equipment:** G1J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: OGPF
+- **Tombstoned Equipment:** OGPF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: OGPF
+- **Tombstoned Equipment:** OGPF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: EOE
+- **Tombstoned Equipment:** EOE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: EOE
+- **Tombstoned Equipment:** EOE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: EE4E9FQ
+- **Tombstoned Equipment:** EE4E9FQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: EE4E9FQ
+- **Tombstoned Equipment:** EE4E9FQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: JJ9XFXO39
+- **Tombstoned Equipment:** JJ9XFXO39
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: JJ9XFXO39
+- **Tombstoned Equipment:** JJ9XFXO39
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: HJV1
+- **Tombstoned Equipment:** HJV1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: HJV1
+- **Tombstoned Equipment:** HJV1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: SIS
+- **Tombstoned Equipment:** SIS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: SIS
+- **Tombstoned Equipment:** SIS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 0TTPWZAZHLUG
+- **Tombstoned Equipment:** 0TTPWZAZHLUG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 0TTPWZAZHLUG
+- **Tombstoned Equipment:** 0TTPWZAZHLUG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: AV5
+- **Tombstoned Equipment:** AV5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: AV5
+- **Tombstoned Equipment:** AV5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: RSPJDE2TJC44
+- **Tombstoned Equipment:** RSPJDE2TJC44
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: RSPJDE2TJC44
+- **Tombstoned Equipment:** RSPJDE2TJC44
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: B77Z4
+- **Tombstoned Equipment:** B77Z4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: B77Z4
+- **Tombstoned Equipment:** B77Z4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: X5FDPCWYTI
+- **Tombstoned Equipment:** X5FDPCWYTI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: X5FDPCWYTI
+- **Tombstoned Equipment:** X5FDPCWYTI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: RBS4RZ0OB7OQ
+- **Tombstoned Equipment:** RBS4RZ0OB7OQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: RBS4RZ0OB7OQ
+- **Tombstoned Equipment:** RBS4RZ0OB7OQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: F4QOVHJQRZW2
+- **Tombstoned Equipment:** F4QOVHJQRZW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: F4QOVHJQRZW2
+- **Tombstoned Equipment:** F4QOVHJQRZW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: PIMAVXRA4
+- **Tombstoned Equipment:** PIMAVXRA4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: PIMAVXRA4
+- **Tombstoned Equipment:** PIMAVXRA4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: J1FA5AOX
+- **Tombstoned Equipment:** J1FA5AOX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: J1FA5AOX
+- **Tombstoned Equipment:** J1FA5AOX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: R8M
+- **Tombstoned Equipment:** R8M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: R8M
+- **Tombstoned Equipment:** R8M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: M20XJJUI41C3
+- **Tombstoned Equipment:** M20XJJUI41C3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: M20XJJUI41C3
+- **Tombstoned Equipment:** M20XJJUI41C3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: F5OR
+- **Tombstoned Equipment:** F5OR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: F5OR
+- **Tombstoned Equipment:** F5OR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: H2Z
+- **Tombstoned Equipment:** H2Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: H2Z
+- **Tombstoned Equipment:** H2Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: VY0
+- **Tombstoned Equipment:** VY0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: VY0
+- **Tombstoned Equipment:** VY0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 5VKJ
+- **Tombstoned Equipment:** 5VKJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 5VKJ
+- **Tombstoned Equipment:** 5VKJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 2XW5FXK1Q89C
+- **Tombstoned Equipment:** 2XW5FXK1Q89C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 2XW5FXK1Q89C
+- **Tombstoned Equipment:** 2XW5FXK1Q89C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: WY9647
+- **Tombstoned Equipment:** WY9647
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: WY9647
+- **Tombstoned Equipment:** WY9647
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 57FICOC1ELRT
+- **Tombstoned Equipment:** 57FICOC1ELRT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 57FICOC1ELRT
+- **Tombstoned Equipment:** 57FICOC1ELRT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 4WXJKQ0X41D
+- **Tombstoned Equipment:** 4WXJKQ0X41D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 4WXJKQ0X41D
+- **Tombstoned Equipment:** 4WXJKQ0X41D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: XFD
+- **Tombstoned Equipment:** XFD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: XFD
+- **Tombstoned Equipment:** XFD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: W6U0ZKNFRMHL
+- **Tombstoned Equipment:** W6U0ZKNFRMHL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: W6U0ZKNFRMHL
+- **Tombstoned Equipment:** W6U0ZKNFRMHL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: SKIY45
+- **Tombstoned Equipment:** SKIY45
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: SKIY45
+- **Tombstoned Equipment:** SKIY45
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 2BL
+- **Tombstoned Equipment:** 2BL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 2BL
+- **Tombstoned Equipment:** 2BL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 8ZCPW
+- **Tombstoned Equipment:** 8ZCPW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: 8ZCPW
+- **Tombstoned Equipment:** 8ZCPW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: Y19WULPMD
+- **Tombstoned Equipment:** Y19WULPMD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: Y19WULPMD
+- **Tombstoned Equipment:** Y19WULPMD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: SH3QS6GA
+- **Tombstoned Equipment:** SH3QS6GA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: SH3QS6GA
+- **Tombstoned Equipment:** SH3QS6GA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YMXXJ
+- **Tombstoned Equipment:** YMXXJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: YMXXJ
+- **Tombstoned Equipment:** YMXXJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: AI2
+- **Tombstoned Equipment:** AI2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: AI2
+- **Tombstoned Equipment:** AI2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: HIGH
+- **Tombstoned Equipment:** HIGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:02 UTC] Document Deletion: HIGH
+- **Tombstoned Equipment:** HIGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: ICX54
+- **Tombstoned Equipment:** ICX54
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: ICX54
+- **Tombstoned Equipment:** ICX54
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: X616IJ
+- **Tombstoned Equipment:** X616IJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: X616IJ
+- **Tombstoned Equipment:** X616IJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 72USQ3Z2N9
+- **Tombstoned Equipment:** 72USQ3Z2N9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 72USQ3Z2N9
+- **Tombstoned Equipment:** 72USQ3Z2N9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: T2LPSGOS7B51
+- **Tombstoned Equipment:** T2LPSGOS7B51
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: T2LPSGOS7B51
+- **Tombstoned Equipment:** T2LPSGOS7B51
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: HUXHCCXW241Q
+- **Tombstoned Equipment:** HUXHCCXW241Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: HUXHCCXW241Q
+- **Tombstoned Equipment:** HUXHCCXW241Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TTNP2
+- **Tombstoned Equipment:** TTNP2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TTNP2
+- **Tombstoned Equipment:** TTNP2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: YVX35
+- **Tombstoned Equipment:** YVX35
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: YVX35
+- **Tombstoned Equipment:** YVX35
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: U82SH
+- **Tombstoned Equipment:** U82SH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: U82SH
+- **Tombstoned Equipment:** U82SH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: U8L
+- **Tombstoned Equipment:** U8L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: U8L
+- **Tombstoned Equipment:** U8L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: INGW
+- **Tombstoned Equipment:** INGW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: INGW
+- **Tombstoned Equipment:** INGW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: SSP9TIU7O7VF
+- **Tombstoned Equipment:** SSP9TIU7O7VF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: SSP9TIU7O7VF
+- **Tombstoned Equipment:** SSP9TIU7O7VF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: FRX
+- **Tombstoned Equipment:** FRX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: FRX
+- **Tombstoned Equipment:** FRX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: U01M
+- **Tombstoned Equipment:** U01M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: U01M
+- **Tombstoned Equipment:** U01M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: Q236E6HGY6JK
+- **Tombstoned Equipment:** Q236E6HGY6JK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: Q236E6HGY6JK
+- **Tombstoned Equipment:** Q236E6HGY6JK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 6KRKN
+- **Tombstoned Equipment:** 6KRKN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 6KRKN
+- **Tombstoned Equipment:** 6KRKN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 6AYD1ZH5LUZ3
+- **Tombstoned Equipment:** 6AYD1ZH5LUZ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 6AYD1ZH5LUZ3
+- **Tombstoned Equipment:** 6AYD1ZH5LUZ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: EX83ZHG
+- **Tombstoned Equipment:** EX83ZHG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: EX83ZHG
+- **Tombstoned Equipment:** EX83ZHG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: BGNRHEXLC051
+- **Tombstoned Equipment:** BGNRHEXLC051
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: BGNRHEXLC051
+- **Tombstoned Equipment:** BGNRHEXLC051
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 4SMRT77KVO4R
+- **Tombstoned Equipment:** 4SMRT77KVO4R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 4SMRT77KVO4R
+- **Tombstoned Equipment:** 4SMRT77KVO4R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TZF
+- **Tombstoned Equipment:** TZF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TZF
+- **Tombstoned Equipment:** TZF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 2NIJLQIVQO
+- **Tombstoned Equipment:** 2NIJLQIVQO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 2NIJLQIVQO
+- **Tombstoned Equipment:** 2NIJLQIVQO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CFWEU3IMWR4B
+- **Tombstoned Equipment:** CFWEU3IMWR4B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CFWEU3IMWR4B
+- **Tombstoned Equipment:** CFWEU3IMWR4B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 6B4WBG1CWUAW
+- **Tombstoned Equipment:** 6B4WBG1CWUAW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 6B4WBG1CWUAW
+- **Tombstoned Equipment:** 6B4WBG1CWUAW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: WFS
+- **Tombstoned Equipment:** WFS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: WFS
+- **Tombstoned Equipment:** WFS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: D91ZN2
+- **Tombstoned Equipment:** D91ZN2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: D91ZN2
+- **Tombstoned Equipment:** D91ZN2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: QNFPZTSBN82O
+- **Tombstoned Equipment:** QNFPZTSBN82O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: QNFPZTSBN82O
+- **Tombstoned Equipment:** QNFPZTSBN82O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: JVM
+- **Tombstoned Equipment:** JVM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: JVM
+- **Tombstoned Equipment:** JVM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 8SUW7
+- **Tombstoned Equipment:** 8SUW7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 8SUW7
+- **Tombstoned Equipment:** 8SUW7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: U468O
+- **Tombstoned Equipment:** U468O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: U468O
+- **Tombstoned Equipment:** U468O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: OI2UKV3F7D37
+- **Tombstoned Equipment:** OI2UKV3F7D37
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: OI2UKV3F7D37
+- **Tombstoned Equipment:** OI2UKV3F7D37
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 7SFMZEM
+- **Tombstoned Equipment:** 7SFMZEM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 7SFMZEM
+- **Tombstoned Equipment:** 7SFMZEM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: YAVAVZ
+- **Tombstoned Equipment:** YAVAVZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: YAVAVZ
+- **Tombstoned Equipment:** YAVAVZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: I1TZ3A2PZJKL
+- **Tombstoned Equipment:** I1TZ3A2PZJKL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: I1TZ3A2PZJKL
+- **Tombstoned Equipment:** I1TZ3A2PZJKL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CEI
+- **Tombstoned Equipment:** CEI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CEI
+- **Tombstoned Equipment:** CEI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CO4DBOJH5B
+- **Tombstoned Equipment:** CO4DBOJH5B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CO4DBOJH5B
+- **Tombstoned Equipment:** CO4DBOJH5B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: T3I1A
+- **Tombstoned Equipment:** T3I1A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: T3I1A
+- **Tombstoned Equipment:** T3I1A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 30EB9
+- **Tombstoned Equipment:** 30EB9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 30EB9
+- **Tombstoned Equipment:** 30EB9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 4MH9V08UNH74
+- **Tombstoned Equipment:** 4MH9V08UNH74
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 4MH9V08UNH74
+- **Tombstoned Equipment:** 4MH9V08UNH74
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 2NYBCIC3Y
+- **Tombstoned Equipment:** 2NYBCIC3Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 2NYBCIC3Y
+- **Tombstoned Equipment:** 2NYBCIC3Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: OP9JQEU
+- **Tombstoned Equipment:** OP9JQEU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: OP9JQEU
+- **Tombstoned Equipment:** OP9JQEU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: F6CF
+- **Tombstoned Equipment:** F6CF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: F6CF
+- **Tombstoned Equipment:** F6CF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 7MX3MMXZPAJG
+- **Tombstoned Equipment:** 7MX3MMXZPAJG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 7MX3MMXZPAJG
+- **Tombstoned Equipment:** 7MX3MMXZPAJG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: KQP9VUUR23LV
+- **Tombstoned Equipment:** KQP9VUUR23LV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: KQP9VUUR23LV
+- **Tombstoned Equipment:** KQP9VUUR23LV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 5QTIODC
+- **Tombstoned Equipment:** 5QTIODC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 5QTIODC
+- **Tombstoned Equipment:** 5QTIODC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 1DBS
+- **Tombstoned Equipment:** 1DBS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 1DBS
+- **Tombstoned Equipment:** 1DBS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: DFAMI1K00A85
+- **Tombstoned Equipment:** DFAMI1K00A85
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: DFAMI1K00A85
+- **Tombstoned Equipment:** DFAMI1K00A85
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 3WBRDA
+- **Tombstoned Equipment:** 3WBRDA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 3WBRDA
+- **Tombstoned Equipment:** 3WBRDA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: OQVB
+- **Tombstoned Equipment:** OQVB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: OQVB
+- **Tombstoned Equipment:** OQVB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: IJYVQ
+- **Tombstoned Equipment:** IJYVQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: IJYVQ
+- **Tombstoned Equipment:** IJYVQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: ATC7XUMSTG
+- **Tombstoned Equipment:** ATC7XUMSTG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: ATC7XUMSTG
+- **Tombstoned Equipment:** ATC7XUMSTG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CDN
+- **Tombstoned Equipment:** CDN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CDN
+- **Tombstoned Equipment:** CDN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: EW7
+- **Tombstoned Equipment:** EW7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: EW7
+- **Tombstoned Equipment:** EW7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: LFSQAT3
+- **Tombstoned Equipment:** LFSQAT3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: LFSQAT3
+- **Tombstoned Equipment:** LFSQAT3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 6X5FJBMH484M
+- **Tombstoned Equipment:** 6X5FJBMH484M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 6X5FJBMH484M
+- **Tombstoned Equipment:** 6X5FJBMH484M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: S1H
+- **Tombstoned Equipment:** S1H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: S1H
+- **Tombstoned Equipment:** S1H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 05V
+- **Tombstoned Equipment:** 05V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 05V
+- **Tombstoned Equipment:** 05V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TF8CCM9C46QC
+- **Tombstoned Equipment:** TF8CCM9C46QC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TF8CCM9C46QC
+- **Tombstoned Equipment:** TF8CCM9C46QC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 4GXCHHEZN
+- **Tombstoned Equipment:** 4GXCHHEZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 4GXCHHEZN
+- **Tombstoned Equipment:** 4GXCHHEZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: X8T1X59P9CI
+- **Tombstoned Equipment:** X8T1X59P9CI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: X8T1X59P9CI
+- **Tombstoned Equipment:** X8T1X59P9CI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TLS9XFBE8N
+- **Tombstoned Equipment:** TLS9XFBE8N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TLS9XFBE8N
+- **Tombstoned Equipment:** TLS9XFBE8N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: QJ0A8XJQODI8
+- **Tombstoned Equipment:** QJ0A8XJQODI8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: QJ0A8XJQODI8
+- **Tombstoned Equipment:** QJ0A8XJQODI8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 9IK0FN5YK
+- **Tombstoned Equipment:** 9IK0FN5YK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 9IK0FN5YK
+- **Tombstoned Equipment:** 9IK0FN5YK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 1NP64MF80MJ4
+- **Tombstoned Equipment:** 1NP64MF80MJ4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 1NP64MF80MJ4
+- **Tombstoned Equipment:** 1NP64MF80MJ4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: E7LBKD65QI43
+- **Tombstoned Equipment:** E7LBKD65QI43
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: E7LBKD65QI43
+- **Tombstoned Equipment:** E7LBKD65QI43
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: N3P4
+- **Tombstoned Equipment:** N3P4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: N3P4
+- **Tombstoned Equipment:** N3P4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: ZS1CXRAPABGN
+- **Tombstoned Equipment:** ZS1CXRAPABGN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: ZS1CXRAPABGN
+- **Tombstoned Equipment:** ZS1CXRAPABGN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: RUMSKGYESN8P
+- **Tombstoned Equipment:** RUMSKGYESN8P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: RUMSKGYESN8P
+- **Tombstoned Equipment:** RUMSKGYESN8P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 4437Z
+- **Tombstoned Equipment:** 4437Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 4437Z
+- **Tombstoned Equipment:** 4437Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 16BN1Q7XEZY
+- **Tombstoned Equipment:** 16BN1Q7XEZY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 16BN1Q7XEZY
+- **Tombstoned Equipment:** 16BN1Q7XEZY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: O3Q1FE
+- **Tombstoned Equipment:** O3Q1FE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: O3Q1FE
+- **Tombstoned Equipment:** O3Q1FE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: EUJJ
+- **Tombstoned Equipment:** EUJJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: EUJJ
+- **Tombstoned Equipment:** EUJJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: MT0ACU48ZA5
+- **Tombstoned Equipment:** MT0ACU48ZA5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: MT0ACU48ZA5
+- **Tombstoned Equipment:** MT0ACU48ZA5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TDFNQ
+- **Tombstoned Equipment:** TDFNQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TDFNQ
+- **Tombstoned Equipment:** TDFNQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: VMJ7FKCCP
+- **Tombstoned Equipment:** VMJ7FKCCP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: VMJ7FKCCP
+- **Tombstoned Equipment:** VMJ7FKCCP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 46KEUI
+- **Tombstoned Equipment:** 46KEUI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 46KEUI
+- **Tombstoned Equipment:** 46KEUI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: H1ENHP
+- **Tombstoned Equipment:** H1ENHP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: H1ENHP
+- **Tombstoned Equipment:** H1ENHP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CK8KQPP7H7T
+- **Tombstoned Equipment:** CK8KQPP7H7T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CK8KQPP7H7T
+- **Tombstoned Equipment:** CK8KQPP7H7T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: L46YG99ZR7ZN
+- **Tombstoned Equipment:** L46YG99ZR7ZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: L46YG99ZR7ZN
+- **Tombstoned Equipment:** L46YG99ZR7ZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 0ERQMYC6OOAP
+- **Tombstoned Equipment:** 0ERQMYC6OOAP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 0ERQMYC6OOAP
+- **Tombstoned Equipment:** 0ERQMYC6OOAP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: R7I
+- **Tombstoned Equipment:** R7I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: R7I
+- **Tombstoned Equipment:** R7I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: E4M60LTJF8S
+- **Tombstoned Equipment:** E4M60LTJF8S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: E4M60LTJF8S
+- **Tombstoned Equipment:** E4M60LTJF8S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CJ60
+- **Tombstoned Equipment:** CJ60
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: CJ60
+- **Tombstoned Equipment:** CJ60
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 2QJ70G
+- **Tombstoned Equipment:** 2QJ70G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 2QJ70G
+- **Tombstoned Equipment:** 2QJ70G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 9ZGSZZ
+- **Tombstoned Equipment:** 9ZGSZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: 9ZGSZZ
+- **Tombstoned Equipment:** 9ZGSZZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: R66LA
+- **Tombstoned Equipment:** R66LA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: R66LA
+- **Tombstoned Equipment:** R66LA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: D7635
+- **Tombstoned Equipment:** D7635
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: D7635
+- **Tombstoned Equipment:** D7635
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: QP5
+- **Tombstoned Equipment:** QP5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: QP5
+- **Tombstoned Equipment:** QP5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: ZLXJ
+- **Tombstoned Equipment:** ZLXJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: ZLXJ
+- **Tombstoned Equipment:** ZLXJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: G3B
+- **Tombstoned Equipment:** G3B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: G3B
+- **Tombstoned Equipment:** G3B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: NNGMLZ
+- **Tombstoned Equipment:** NNGMLZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: NNGMLZ
+- **Tombstoned Equipment:** NNGMLZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: KGKWIBA
+- **Tombstoned Equipment:** KGKWIBA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: KGKWIBA
+- **Tombstoned Equipment:** KGKWIBA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: AIDT6WRSSKIM
+- **Tombstoned Equipment:** AIDT6WRSSKIM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: AIDT6WRSSKIM
+- **Tombstoned Equipment:** AIDT6WRSSKIM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: HTVR3NK7WIDB
+- **Tombstoned Equipment:** HTVR3NK7WIDB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: HTVR3NK7WIDB
+- **Tombstoned Equipment:** HTVR3NK7WIDB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: BLJ
+- **Tombstoned Equipment:** BLJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:02:17 UTC] Document Deletion: BLJ
+- **Tombstoned Equipment:** BLJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 29XCC400J
+- **Tombstoned Equipment:** 29XCC400J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 29XCC400J
+- **Tombstoned Equipment:** 29XCC400J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: DBB1
+- **Tombstoned Equipment:** DBB1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: DBB1
+- **Tombstoned Equipment:** DBB1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 4QNL2GXAHO
+- **Tombstoned Equipment:** 4QNL2GXAHO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 4QNL2GXAHO
+- **Tombstoned Equipment:** 4QNL2GXAHO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 0IP8L9M4HPV
+- **Tombstoned Equipment:** 0IP8L9M4HPV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 0IP8L9M4HPV
+- **Tombstoned Equipment:** 0IP8L9M4HPV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: DT9P5MV
+- **Tombstoned Equipment:** DT9P5MV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: DT9P5MV
+- **Tombstoned Equipment:** DT9P5MV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: UHURX949X
+- **Tombstoned Equipment:** UHURX949X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: UHURX949X
+- **Tombstoned Equipment:** UHURX949X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: DL0K46
+- **Tombstoned Equipment:** DL0K46
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: DL0K46
+- **Tombstoned Equipment:** DL0K46
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SWZL
+- **Tombstoned Equipment:** SWZL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SWZL
+- **Tombstoned Equipment:** SWZL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: JG444J6QRCOO
+- **Tombstoned Equipment:** JG444J6QRCOO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: JG444J6QRCOO
+- **Tombstoned Equipment:** JG444J6QRCOO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: LENG
+- **Tombstoned Equipment:** LENG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: LENG
+- **Tombstoned Equipment:** LENG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: B4WPJCGGW
+- **Tombstoned Equipment:** B4WPJCGGW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: B4WPJCGGW
+- **Tombstoned Equipment:** B4WPJCGGW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: BVI2BOF
+- **Tombstoned Equipment:** BVI2BOF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: BVI2BOF
+- **Tombstoned Equipment:** BVI2BOF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: RTGWPCO60L1I
+- **Tombstoned Equipment:** RTGWPCO60L1I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: RTGWPCO60L1I
+- **Tombstoned Equipment:** RTGWPCO60L1I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: H35IGGYOTASY
+- **Tombstoned Equipment:** H35IGGYOTASY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: H35IGGYOTASY
+- **Tombstoned Equipment:** H35IGGYOTASY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: EC0U1
+- **Tombstoned Equipment:** EC0U1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: EC0U1
+- **Tombstoned Equipment:** EC0U1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: KPWFF8E115Z1
+- **Tombstoned Equipment:** KPWFF8E115Z1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: KPWFF8E115Z1
+- **Tombstoned Equipment:** KPWFF8E115Z1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: NU5C0S
+- **Tombstoned Equipment:** NU5C0S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: NU5C0S
+- **Tombstoned Equipment:** NU5C0S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: JVFU
+- **Tombstoned Equipment:** JVFU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: JVFU
+- **Tombstoned Equipment:** JVFU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: Q5N7LMB95ZC
+- **Tombstoned Equipment:** Q5N7LMB95ZC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: Q5N7LMB95ZC
+- **Tombstoned Equipment:** Q5N7LMB95ZC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 7XAHVL
+- **Tombstoned Equipment:** 7XAHVL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 7XAHVL
+- **Tombstoned Equipment:** 7XAHVL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: XPJ8QXGGJ5A6
+- **Tombstoned Equipment:** XPJ8QXGGJ5A6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: XPJ8QXGGJ5A6
+- **Tombstoned Equipment:** XPJ8QXGGJ5A6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: L7C32
+- **Tombstoned Equipment:** L7C32
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: L7C32
+- **Tombstoned Equipment:** L7C32
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SDF
+- **Tombstoned Equipment:** SDF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SDF
+- **Tombstoned Equipment:** SDF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: K8LPN
+- **Tombstoned Equipment:** K8LPN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: K8LPN
+- **Tombstoned Equipment:** K8LPN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: D1PLID8R39SW
+- **Tombstoned Equipment:** D1PLID8R39SW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: D1PLID8R39SW
+- **Tombstoned Equipment:** D1PLID8R39SW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: T9YYCG6AEKWG
+- **Tombstoned Equipment:** T9YYCG6AEKWG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: T9YYCG6AEKWG
+- **Tombstoned Equipment:** T9YYCG6AEKWG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ZTZ
+- **Tombstoned Equipment:** ZTZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ZTZ
+- **Tombstoned Equipment:** ZTZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: XBMXA
+- **Tombstoned Equipment:** XBMXA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: XBMXA
+- **Tombstoned Equipment:** XBMXA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SYPQVYD37LTC
+- **Tombstoned Equipment:** SYPQVYD37LTC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SYPQVYD37LTC
+- **Tombstoned Equipment:** SYPQVYD37LTC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: P0223
+- **Tombstoned Equipment:** P0223
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: P0223
+- **Tombstoned Equipment:** P0223
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 0X7DZM
+- **Tombstoned Equipment:** 0X7DZM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 0X7DZM
+- **Tombstoned Equipment:** 0X7DZM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: AFP5H0EVIMW2
+- **Tombstoned Equipment:** AFP5H0EVIMW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: AFP5H0EVIMW2
+- **Tombstoned Equipment:** AFP5H0EVIMW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 7MX
+- **Tombstoned Equipment:** 7MX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 7MX
+- **Tombstoned Equipment:** 7MX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 7S5
+- **Tombstoned Equipment:** 7S5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 7S5
+- **Tombstoned Equipment:** 7S5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: COMPLETED
+- **Tombstoned Equipment:** COMPLETED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: COMPLETED
+- **Tombstoned Equipment:** COMPLETED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: USA0G6EXVFND
+- **Tombstoned Equipment:** USA0G6EXVFND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: USA0G6EXVFND
+- **Tombstoned Equipment:** USA0G6EXVFND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 2G8
+- **Tombstoned Equipment:** 2G8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 2G8
+- **Tombstoned Equipment:** 2G8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: T51LE4G2
+- **Tombstoned Equipment:** T51LE4G2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: T51LE4G2
+- **Tombstoned Equipment:** T51LE4G2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SIS
+- **Tombstoned Equipment:** SIS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SIS
+- **Tombstoned Equipment:** SIS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ORJ9IP5LSZV9
+- **Tombstoned Equipment:** ORJ9IP5LSZV9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ORJ9IP5LSZV9
+- **Tombstoned Equipment:** ORJ9IP5LSZV9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 07V
+- **Tombstoned Equipment:** 07V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 07V
+- **Tombstoned Equipment:** 07V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: GJAFXM
+- **Tombstoned Equipment:** GJAFXM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: GJAFXM
+- **Tombstoned Equipment:** GJAFXM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: HN6
+- **Tombstoned Equipment:** HN6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: HN6
+- **Tombstoned Equipment:** HN6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 40C4Q6ABP6JC
+- **Tombstoned Equipment:** 40C4Q6ABP6JC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 40C4Q6ABP6JC
+- **Tombstoned Equipment:** 40C4Q6ABP6JC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ZPZ3II4VZ7F
+- **Tombstoned Equipment:** ZPZ3II4VZ7F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ZPZ3II4VZ7F
+- **Tombstoned Equipment:** ZPZ3II4VZ7F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: X60
+- **Tombstoned Equipment:** X60
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: X60
+- **Tombstoned Equipment:** X60
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5CZ8
+- **Tombstoned Equipment:** 5CZ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5CZ8
+- **Tombstoned Equipment:** 5CZ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: G3HFWYM639J4
+- **Tombstoned Equipment:** G3HFWYM639J4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: G3HFWYM639J4
+- **Tombstoned Equipment:** G3HFWYM639J4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 611
+- **Tombstoned Equipment:** 611
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 611
+- **Tombstoned Equipment:** 611
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: FYEIU0B
+- **Tombstoned Equipment:** FYEIU0B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: FYEIU0B
+- **Tombstoned Equipment:** FYEIU0B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: FQPVQLNB7UH
+- **Tombstoned Equipment:** FQPVQLNB7UH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: FQPVQLNB7UH
+- **Tombstoned Equipment:** FQPVQLNB7UH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ZIEB5Z
+- **Tombstoned Equipment:** ZIEB5Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ZIEB5Z
+- **Tombstoned Equipment:** ZIEB5Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: MEAY6T8G90
+- **Tombstoned Equipment:** MEAY6T8G90
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: MEAY6T8G90
+- **Tombstoned Equipment:** MEAY6T8G90
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: A0SKH
+- **Tombstoned Equipment:** A0SKH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: A0SKH
+- **Tombstoned Equipment:** A0SKH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: WNA5RM
+- **Tombstoned Equipment:** WNA5RM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: WNA5RM
+- **Tombstoned Equipment:** WNA5RM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 0D59H0V
+- **Tombstoned Equipment:** 0D59H0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 0D59H0V
+- **Tombstoned Equipment:** 0D59H0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5DKH
+- **Tombstoned Equipment:** 5DKH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5DKH
+- **Tombstoned Equipment:** 5DKH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: WHGO
+- **Tombstoned Equipment:** WHGO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: WHGO
+- **Tombstoned Equipment:** WHGO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: LOW
+- **Tombstoned Equipment:** LOW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: LOW
+- **Tombstoned Equipment:** LOW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: FAA23BXPADZI
+- **Tombstoned Equipment:** FAA23BXPADZI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: FAA23BXPADZI
+- **Tombstoned Equipment:** FAA23BXPADZI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: Y80HZNM7
+- **Tombstoned Equipment:** Y80HZNM7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: Y80HZNM7
+- **Tombstoned Equipment:** Y80HZNM7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: CDI
+- **Tombstoned Equipment:** CDI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: CDI
+- **Tombstoned Equipment:** CDI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: VF1ORYUPMFY2
+- **Tombstoned Equipment:** VF1ORYUPMFY2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: VF1ORYUPMFY2
+- **Tombstoned Equipment:** VF1ORYUPMFY2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ANMPLLM
+- **Tombstoned Equipment:** ANMPLLM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ANMPLLM
+- **Tombstoned Equipment:** ANMPLLM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 9JWMLU4
+- **Tombstoned Equipment:** 9JWMLU4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 9JWMLU4
+- **Tombstoned Equipment:** 9JWMLU4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: W684
+- **Tombstoned Equipment:** W684
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: W684
+- **Tombstoned Equipment:** W684
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ZXO
+- **Tombstoned Equipment:** ZXO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: ZXO
+- **Tombstoned Equipment:** ZXO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: DG9
+- **Tombstoned Equipment:** DG9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: DG9
+- **Tombstoned Equipment:** DG9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: KVNP9S
+- **Tombstoned Equipment:** KVNP9S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: KVNP9S
+- **Tombstoned Equipment:** KVNP9S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 978
+- **Tombstoned Equipment:** 978
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 978
+- **Tombstoned Equipment:** 978
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 296W5LYHKPVX
+- **Tombstoned Equipment:** 296W5LYHKPVX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 296W5LYHKPVX
+- **Tombstoned Equipment:** 296W5LYHKPVX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5R7FMN4V2N
+- **Tombstoned Equipment:** 5R7FMN4V2N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5R7FMN4V2N
+- **Tombstoned Equipment:** 5R7FMN4V2N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 8USSCQ
+- **Tombstoned Equipment:** 8USSCQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 8USSCQ
+- **Tombstoned Equipment:** 8USSCQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: M58
+- **Tombstoned Equipment:** M58
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: M58
+- **Tombstoned Equipment:** M58
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 7VU
+- **Tombstoned Equipment:** 7VU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 7VU
+- **Tombstoned Equipment:** 7VU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: QW3B1A
+- **Tombstoned Equipment:** QW3B1A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: QW3B1A
+- **Tombstoned Equipment:** QW3B1A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: Y037UEIDAO
+- **Tombstoned Equipment:** Y037UEIDAO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: Y037UEIDAO
+- **Tombstoned Equipment:** Y037UEIDAO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: BRT
+- **Tombstoned Equipment:** BRT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: BRT
+- **Tombstoned Equipment:** BRT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 68097MG5Y472
+- **Tombstoned Equipment:** 68097MG5Y472
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 68097MG5Y472
+- **Tombstoned Equipment:** 68097MG5Y472
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: QZ9Q
+- **Tombstoned Equipment:** QZ9Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: QZ9Q
+- **Tombstoned Equipment:** QZ9Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 13T9SN
+- **Tombstoned Equipment:** 13T9SN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 13T9SN
+- **Tombstoned Equipment:** 13T9SN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: AALG
+- **Tombstoned Equipment:** AALG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: AALG
+- **Tombstoned Equipment:** AALG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: UGE
+- **Tombstoned Equipment:** UGE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: UGE
+- **Tombstoned Equipment:** UGE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: P3NR
+- **Tombstoned Equipment:** P3NR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: P3NR
+- **Tombstoned Equipment:** P3NR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5TDQ8Q633RKR
+- **Tombstoned Equipment:** 5TDQ8Q633RKR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5TDQ8Q633RKR
+- **Tombstoned Equipment:** 5TDQ8Q633RKR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5PIRMQFK7R3L
+- **Tombstoned Equipment:** 5PIRMQFK7R3L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 5PIRMQFK7R3L
+- **Tombstoned Equipment:** 5PIRMQFK7R3L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: W0QT1IVNAQSR
+- **Tombstoned Equipment:** W0QT1IVNAQSR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: W0QT1IVNAQSR
+- **Tombstoned Equipment:** W0QT1IVNAQSR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: JYDYD3FL6IZM
+- **Tombstoned Equipment:** JYDYD3FL6IZM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: JYDYD3FL6IZM
+- **Tombstoned Equipment:** JYDYD3FL6IZM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: KJIJU
+- **Tombstoned Equipment:** KJIJU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: KJIJU
+- **Tombstoned Equipment:** KJIJU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: TD0ZVD
+- **Tombstoned Equipment:** TD0ZVD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: TD0ZVD
+- **Tombstoned Equipment:** TD0ZVD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 2QZXUN
+- **Tombstoned Equipment:** 2QZXUN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: 2QZXUN
+- **Tombstoned Equipment:** 2QZXUN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: XXI
+- **Tombstoned Equipment:** XXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: XXI
+- **Tombstoned Equipment:** XXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: EOTQ
+- **Tombstoned Equipment:** EOTQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: EOTQ
+- **Tombstoned Equipment:** EOTQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: LDI49FYFL
+- **Tombstoned Equipment:** LDI49FYFL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: LDI49FYFL
+- **Tombstoned Equipment:** LDI49FYFL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: N804PC
+- **Tombstoned Equipment:** N804PC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: N804PC
+- **Tombstoned Equipment:** N804PC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:06:34 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: TV3H
+- **Tombstoned Equipment:** TV3H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: TV3H
+- **Tombstoned Equipment:** TV3H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 8585KRW
+- **Tombstoned Equipment:** 8585KRW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 8585KRW
+- **Tombstoned Equipment:** 8585KRW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: FJR87YY
+- **Tombstoned Equipment:** FJR87YY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: FJR87YY
+- **Tombstoned Equipment:** FJR87YY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SXM
+- **Tombstoned Equipment:** SXM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SXM
+- **Tombstoned Equipment:** SXM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: N94XGLS37R1Y
+- **Tombstoned Equipment:** N94XGLS37R1Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: N94XGLS37R1Y
+- **Tombstoned Equipment:** N94XGLS37R1Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SLBY
+- **Tombstoned Equipment:** SLBY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SLBY
+- **Tombstoned Equipment:** SLBY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 47FWJWI36
+- **Tombstoned Equipment:** 47FWJWI36
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 47FWJWI36
+- **Tombstoned Equipment:** 47FWJWI36
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: ETI3O9
+- **Tombstoned Equipment:** ETI3O9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: ETI3O9
+- **Tombstoned Equipment:** ETI3O9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: Y0YRU5
+- **Tombstoned Equipment:** Y0YRU5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: Y0YRU5
+- **Tombstoned Equipment:** Y0YRU5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: KJS6DZDIKVOA
+- **Tombstoned Equipment:** KJS6DZDIKVOA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: KJS6DZDIKVOA
+- **Tombstoned Equipment:** KJS6DZDIKVOA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: PX33
+- **Tombstoned Equipment:** PX33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: PX33
+- **Tombstoned Equipment:** PX33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: VMY2X
+- **Tombstoned Equipment:** VMY2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: VMY2X
+- **Tombstoned Equipment:** VMY2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0L72
+- **Tombstoned Equipment:** 0L72
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0L72
+- **Tombstoned Equipment:** 0L72
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: HBG
+- **Tombstoned Equipment:** HBG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: HBG
+- **Tombstoned Equipment:** HBG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 6UCZ6LZ
+- **Tombstoned Equipment:** 6UCZ6LZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 6UCZ6LZ
+- **Tombstoned Equipment:** 6UCZ6LZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 20OG
+- **Tombstoned Equipment:** 20OG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 20OG
+- **Tombstoned Equipment:** 20OG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3YOSM7VQ1SH7
+- **Tombstoned Equipment:** 3YOSM7VQ1SH7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3YOSM7VQ1SH7
+- **Tombstoned Equipment:** 3YOSM7VQ1SH7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: JIMWTG
+- **Tombstoned Equipment:** JIMWTG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: JIMWTG
+- **Tombstoned Equipment:** JIMWTG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 8BRVPB4
+- **Tombstoned Equipment:** 8BRVPB4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 8BRVPB4
+- **Tombstoned Equipment:** 8BRVPB4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3ZGY
+- **Tombstoned Equipment:** 3ZGY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3ZGY
+- **Tombstoned Equipment:** 3ZGY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3SI3RXHLU55Y
+- **Tombstoned Equipment:** 3SI3RXHLU55Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3SI3RXHLU55Y
+- **Tombstoned Equipment:** 3SI3RXHLU55Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 1XXX2NAALW6O
+- **Tombstoned Equipment:** 1XXX2NAALW6O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 1XXX2NAALW6O
+- **Tombstoned Equipment:** 1XXX2NAALW6O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: MHPULZDSE
+- **Tombstoned Equipment:** MHPULZDSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: MHPULZDSE
+- **Tombstoned Equipment:** MHPULZDSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 07XWM
+- **Tombstoned Equipment:** 07XWM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 07XWM
+- **Tombstoned Equipment:** 07XWM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: DQXOQ9ER87AL
+- **Tombstoned Equipment:** DQXOQ9ER87AL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: DQXOQ9ER87AL
+- **Tombstoned Equipment:** DQXOQ9ER87AL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: MPZS
+- **Tombstoned Equipment:** MPZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: MPZS
+- **Tombstoned Equipment:** MPZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: O5HPQJFZ6O
+- **Tombstoned Equipment:** O5HPQJFZ6O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: O5HPQJFZ6O
+- **Tombstoned Equipment:** O5HPQJFZ6O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2PT29YF
+- **Tombstoned Equipment:** 2PT29YF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2PT29YF
+- **Tombstoned Equipment:** 2PT29YF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0E9DNJEB5HZ0
+- **Tombstoned Equipment:** 0E9DNJEB5HZ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0E9DNJEB5HZ0
+- **Tombstoned Equipment:** 0E9DNJEB5HZ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: JUFGMVEV4T3B
+- **Tombstoned Equipment:** JUFGMVEV4T3B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: JUFGMVEV4T3B
+- **Tombstoned Equipment:** JUFGMVEV4T3B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 81OQ5OPA6GTM
+- **Tombstoned Equipment:** 81OQ5OPA6GTM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 81OQ5OPA6GTM
+- **Tombstoned Equipment:** 81OQ5OPA6GTM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: JSH75Q1VTZXL
+- **Tombstoned Equipment:** JSH75Q1VTZXL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: JSH75Q1VTZXL
+- **Tombstoned Equipment:** JSH75Q1VTZXL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: AMWPZBO8HCIE
+- **Tombstoned Equipment:** AMWPZBO8HCIE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: AMWPZBO8HCIE
+- **Tombstoned Equipment:** AMWPZBO8HCIE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 4F53YOCUEH
+- **Tombstoned Equipment:** 4F53YOCUEH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 4F53YOCUEH
+- **Tombstoned Equipment:** 4F53YOCUEH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: H9X
+- **Tombstoned Equipment:** H9X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: H9X
+- **Tombstoned Equipment:** H9X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: QXONK
+- **Tombstoned Equipment:** QXONK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: QXONK
+- **Tombstoned Equipment:** QXONK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: T0FRS
+- **Tombstoned Equipment:** T0FRS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: T0FRS
+- **Tombstoned Equipment:** T0FRS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: GLI
+- **Tombstoned Equipment:** GLI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: GLI
+- **Tombstoned Equipment:** GLI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 9GK
+- **Tombstoned Equipment:** 9GK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 9GK
+- **Tombstoned Equipment:** 9GK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2W81R7JA4
+- **Tombstoned Equipment:** 2W81R7JA4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2W81R7JA4
+- **Tombstoned Equipment:** 2W81R7JA4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: I4YGV6VT5
+- **Tombstoned Equipment:** I4YGV6VT5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: I4YGV6VT5
+- **Tombstoned Equipment:** I4YGV6VT5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: RS7
+- **Tombstoned Equipment:** RS7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: RS7
+- **Tombstoned Equipment:** RS7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: KYM
+- **Tombstoned Equipment:** KYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: KYM
+- **Tombstoned Equipment:** KYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: XFTA1
+- **Tombstoned Equipment:** XFTA1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: XFTA1
+- **Tombstoned Equipment:** XFTA1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: MYE8839
+- **Tombstoned Equipment:** MYE8839
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: MYE8839
+- **Tombstoned Equipment:** MYE8839
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: MAN304GFD81Q
+- **Tombstoned Equipment:** MAN304GFD81Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: MAN304GFD81Q
+- **Tombstoned Equipment:** MAN304GFD81Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: VEE4UT5ZB3GR
+- **Tombstoned Equipment:** VEE4UT5ZB3GR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: VEE4UT5ZB3GR
+- **Tombstoned Equipment:** VEE4UT5ZB3GR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 7KGPG9VT1P8Z
+- **Tombstoned Equipment:** 7KGPG9VT1P8Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 7KGPG9VT1P8Z
+- **Tombstoned Equipment:** 7KGPG9VT1P8Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: WAU
+- **Tombstoned Equipment:** WAU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: WAU
+- **Tombstoned Equipment:** WAU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: YFVW6JRLLH7M
+- **Tombstoned Equipment:** YFVW6JRLLH7M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: YFVW6JRLLH7M
+- **Tombstoned Equipment:** YFVW6JRLLH7M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 8ZJ1CP
+- **Tombstoned Equipment:** 8ZJ1CP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 8ZJ1CP
+- **Tombstoned Equipment:** 8ZJ1CP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: X688J27EVR
+- **Tombstoned Equipment:** X688J27EVR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: X688J27EVR
+- **Tombstoned Equipment:** X688J27EVR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 1RJ
+- **Tombstoned Equipment:** 1RJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 1RJ
+- **Tombstoned Equipment:** 1RJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: RGQ
+- **Tombstoned Equipment:** RGQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: RGQ
+- **Tombstoned Equipment:** RGQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: ZRH8Z9XRD
+- **Tombstoned Equipment:** ZRH8Z9XRD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: ZRH8Z9XRD
+- **Tombstoned Equipment:** ZRH8Z9XRD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: HJF
+- **Tombstoned Equipment:** HJF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: HJF
+- **Tombstoned Equipment:** HJF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: U9ZWR0B
+- **Tombstoned Equipment:** U9ZWR0B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: U9ZWR0B
+- **Tombstoned Equipment:** U9ZWR0B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2ND6YD
+- **Tombstoned Equipment:** 2ND6YD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2ND6YD
+- **Tombstoned Equipment:** 2ND6YD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: EJ3C
+- **Tombstoned Equipment:** EJ3C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: EJ3C
+- **Tombstoned Equipment:** EJ3C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: UDY
+- **Tombstoned Equipment:** UDY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: UDY
+- **Tombstoned Equipment:** UDY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: FWDB2EVSAZHQ
+- **Tombstoned Equipment:** FWDB2EVSAZHQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: FWDB2EVSAZHQ
+- **Tombstoned Equipment:** FWDB2EVSAZHQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: C4Q8BYTMP
+- **Tombstoned Equipment:** C4Q8BYTMP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: C4Q8BYTMP
+- **Tombstoned Equipment:** C4Q8BYTMP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 8UJ46YQ3
+- **Tombstoned Equipment:** 8UJ46YQ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 8UJ46YQ3
+- **Tombstoned Equipment:** 8UJ46YQ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 018E3
+- **Tombstoned Equipment:** 018E3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 018E3
+- **Tombstoned Equipment:** 018E3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0DJWJ6IKTO2Q
+- **Tombstoned Equipment:** 0DJWJ6IKTO2Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0DJWJ6IKTO2Q
+- **Tombstoned Equipment:** 0DJWJ6IKTO2Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: HSQ
+- **Tombstoned Equipment:** HSQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: HSQ
+- **Tombstoned Equipment:** HSQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 87EQ7
+- **Tombstoned Equipment:** 87EQ7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 87EQ7
+- **Tombstoned Equipment:** 87EQ7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: KPTDQV5N2P77
+- **Tombstoned Equipment:** KPTDQV5N2P77
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: KPTDQV5N2P77
+- **Tombstoned Equipment:** KPTDQV5N2P77
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: BSSQMTSY9O
+- **Tombstoned Equipment:** BSSQMTSY9O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: BSSQMTSY9O
+- **Tombstoned Equipment:** BSSQMTSY9O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SX8GY
+- **Tombstoned Equipment:** SX8GY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SX8GY
+- **Tombstoned Equipment:** SX8GY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: FQX26PF
+- **Tombstoned Equipment:** FQX26PF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: FQX26PF
+- **Tombstoned Equipment:** FQX26PF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: WVLF
+- **Tombstoned Equipment:** WVLF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: WVLF
+- **Tombstoned Equipment:** WVLF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SNUHYJ
+- **Tombstoned Equipment:** SNUHYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SNUHYJ
+- **Tombstoned Equipment:** SNUHYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SGGILP8NB
+- **Tombstoned Equipment:** SGGILP8NB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: SGGILP8NB
+- **Tombstoned Equipment:** SGGILP8NB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 4L34PLLC
+- **Tombstoned Equipment:** 4L34PLLC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 4L34PLLC
+- **Tombstoned Equipment:** 4L34PLLC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: F2NJ
+- **Tombstoned Equipment:** F2NJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: F2NJ
+- **Tombstoned Equipment:** F2NJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: DPX3
+- **Tombstoned Equipment:** DPX3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: DPX3
+- **Tombstoned Equipment:** DPX3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: QFOK
+- **Tombstoned Equipment:** QFOK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: QFOK
+- **Tombstoned Equipment:** QFOK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: N5O
+- **Tombstoned Equipment:** N5O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: N5O
+- **Tombstoned Equipment:** N5O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: YQRCSV5
+- **Tombstoned Equipment:** YQRCSV5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: YQRCSV5
+- **Tombstoned Equipment:** YQRCSV5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 9OOGYZXNWK8P
+- **Tombstoned Equipment:** 9OOGYZXNWK8P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 9OOGYZXNWK8P
+- **Tombstoned Equipment:** 9OOGYZXNWK8P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 444NZ5YRNQ8H
+- **Tombstoned Equipment:** 444NZ5YRNQ8H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 444NZ5YRNQ8H
+- **Tombstoned Equipment:** 444NZ5YRNQ8H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3NTF
+- **Tombstoned Equipment:** 3NTF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3NTF
+- **Tombstoned Equipment:** 3NTF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 5L4
+- **Tombstoned Equipment:** 5L4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 5L4
+- **Tombstoned Equipment:** 5L4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: TRXZYV
+- **Tombstoned Equipment:** TRXZYV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: TRXZYV
+- **Tombstoned Equipment:** TRXZYV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: U54
+- **Tombstoned Equipment:** U54
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: U54
+- **Tombstoned Equipment:** U54
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: HH2L
+- **Tombstoned Equipment:** HH2L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: HH2L
+- **Tombstoned Equipment:** HH2L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2WT5O
+- **Tombstoned Equipment:** 2WT5O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2WT5O
+- **Tombstoned Equipment:** 2WT5O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0JEYK14DX
+- **Tombstoned Equipment:** 0JEYK14DX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0JEYK14DX
+- **Tombstoned Equipment:** 0JEYK14DX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3BS
+- **Tombstoned Equipment:** 3BS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 3BS
+- **Tombstoned Equipment:** 3BS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2WU7
+- **Tombstoned Equipment:** 2WU7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 2WU7
+- **Tombstoned Equipment:** 2WU7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: AYMPL
+- **Tombstoned Equipment:** AYMPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: AYMPL
+- **Tombstoned Equipment:** AYMPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: Z9E
+- **Tombstoned Equipment:** Z9E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: Z9E
+- **Tombstoned Equipment:** Z9E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 1ID
+- **Tombstoned Equipment:** 1ID
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 1ID
+- **Tombstoned Equipment:** 1ID
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0W2W851A67ES
+- **Tombstoned Equipment:** 0W2W851A67ES
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 0W2W851A67ES
+- **Tombstoned Equipment:** 0W2W851A67ES
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 9GEG7V
+- **Tombstoned Equipment:** 9GEG7V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: 9GEG7V
+- **Tombstoned Equipment:** 9GEG7V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: BLOCKED
+- **Tombstoned Equipment:** BLOCKED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:14:06 UTC] Document Deletion: BLOCKED
+- **Tombstoned Equipment:** BLOCKED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: JJ81AHZ99G0W
+- **Tombstoned Equipment:** JJ81AHZ99G0W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: JJ81AHZ99G0W
+- **Tombstoned Equipment:** JJ81AHZ99G0W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 6M47
+- **Tombstoned Equipment:** 6M47
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 6M47
+- **Tombstoned Equipment:** 6M47
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 4R741AEDR7Z9
+- **Tombstoned Equipment:** 4R741AEDR7Z9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 4R741AEDR7Z9
+- **Tombstoned Equipment:** 4R741AEDR7Z9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: H4K
+- **Tombstoned Equipment:** H4K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: H4K
+- **Tombstoned Equipment:** H4K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: VMEIE
+- **Tombstoned Equipment:** VMEIE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: VMEIE
+- **Tombstoned Equipment:** VMEIE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: KR9D
+- **Tombstoned Equipment:** KR9D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: KR9D
+- **Tombstoned Equipment:** KR9D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: Y4JS6ULMD2QJ
+- **Tombstoned Equipment:** Y4JS6ULMD2QJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: Y4JS6ULMD2QJ
+- **Tombstoned Equipment:** Y4JS6ULMD2QJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: ITB46T
+- **Tombstoned Equipment:** ITB46T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: ITB46T
+- **Tombstoned Equipment:** ITB46T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: WVBXSC4JY
+- **Tombstoned Equipment:** WVBXSC4JY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: WVBXSC4JY
+- **Tombstoned Equipment:** WVBXSC4JY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: OSK
+- **Tombstoned Equipment:** OSK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: OSK
+- **Tombstoned Equipment:** OSK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 7AF
+- **Tombstoned Equipment:** 7AF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 7AF
+- **Tombstoned Equipment:** 7AF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: PMY
+- **Tombstoned Equipment:** PMY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: PMY
+- **Tombstoned Equipment:** PMY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 0ABS0
+- **Tombstoned Equipment:** 0ABS0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 0ABS0
+- **Tombstoned Equipment:** 0ABS0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: PP0QNG
+- **Tombstoned Equipment:** PP0QNG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: PP0QNG
+- **Tombstoned Equipment:** PP0QNG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: CHNHNS2
+- **Tombstoned Equipment:** CHNHNS2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: CHNHNS2
+- **Tombstoned Equipment:** CHNHNS2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SIL
+- **Tombstoned Equipment:** SIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SIL
+- **Tombstoned Equipment:** SIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: DXL3E3N8X7F6
+- **Tombstoned Equipment:** DXL3E3N8X7F6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: DXL3E3N8X7F6
+- **Tombstoned Equipment:** DXL3E3N8X7F6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: S18ZW
+- **Tombstoned Equipment:** S18ZW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: S18ZW
+- **Tombstoned Equipment:** S18ZW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: ZXQH
+- **Tombstoned Equipment:** ZXQH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: ZXQH
+- **Tombstoned Equipment:** ZXQH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: RESUMED
+- **Tombstoned Equipment:** RESUMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: RESUMED
+- **Tombstoned Equipment:** RESUMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: YMVHCE7JF6
+- **Tombstoned Equipment:** YMVHCE7JF6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: YMVHCE7JF6
+- **Tombstoned Equipment:** YMVHCE7JF6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SW9N6MT977MB
+- **Tombstoned Equipment:** SW9N6MT977MB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SW9N6MT977MB
+- **Tombstoned Equipment:** SW9N6MT977MB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: L2WN2TMSIP95
+- **Tombstoned Equipment:** L2WN2TMSIP95
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: L2WN2TMSIP95
+- **Tombstoned Equipment:** L2WN2TMSIP95
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 6E5P
+- **Tombstoned Equipment:** 6E5P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 6E5P
+- **Tombstoned Equipment:** 6E5P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 41T
+- **Tombstoned Equipment:** 41T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 41T
+- **Tombstoned Equipment:** 41T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: PASSED
+- **Tombstoned Equipment:** PASSED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: PASSED
+- **Tombstoned Equipment:** PASSED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: LOYYN7JNNXF3
+- **Tombstoned Equipment:** LOYYN7JNNXF3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: LOYYN7JNNXF3
+- **Tombstoned Equipment:** LOYYN7JNNXF3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: YM5ND
+- **Tombstoned Equipment:** YM5ND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: YM5ND
+- **Tombstoned Equipment:** YM5ND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: Z702
+- **Tombstoned Equipment:** Z702
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: Z702
+- **Tombstoned Equipment:** Z702
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SZW87UMK
+- **Tombstoned Equipment:** SZW87UMK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SZW87UMK
+- **Tombstoned Equipment:** SZW87UMK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: CQ59HU30E
+- **Tombstoned Equipment:** CQ59HU30E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: CQ59HU30E
+- **Tombstoned Equipment:** CQ59HU30E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: S3K
+- **Tombstoned Equipment:** S3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: S3K
+- **Tombstoned Equipment:** S3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: NJOWHUMYTQ9D
+- **Tombstoned Equipment:** NJOWHUMYTQ9D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: NJOWHUMYTQ9D
+- **Tombstoned Equipment:** NJOWHUMYTQ9D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 8OCZHSEXYI6
+- **Tombstoned Equipment:** 8OCZHSEXYI6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 8OCZHSEXYI6
+- **Tombstoned Equipment:** 8OCZHSEXYI6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 4MKW9
+- **Tombstoned Equipment:** 4MKW9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 4MKW9
+- **Tombstoned Equipment:** 4MKW9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: COM1
+- **Tombstoned Equipment:** COM1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: COM1
+- **Tombstoned Equipment:** COM1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: W0PQTT
+- **Tombstoned Equipment:** W0PQTT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: W0PQTT
+- **Tombstoned Equipment:** W0PQTT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SKXQD6GW8AT
+- **Tombstoned Equipment:** SKXQD6GW8AT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SKXQD6GW8AT
+- **Tombstoned Equipment:** SKXQD6GW8AT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SERYR
+- **Tombstoned Equipment:** SERYR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: SERYR
+- **Tombstoned Equipment:** SERYR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 7U8RQ3
+- **Tombstoned Equipment:** 7U8RQ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 7U8RQ3
+- **Tombstoned Equipment:** 7U8RQ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: LQ0YDQWGERHR
+- **Tombstoned Equipment:** LQ0YDQWGERHR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: LQ0YDQWGERHR
+- **Tombstoned Equipment:** LQ0YDQWGERHR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 91OLHO5
+- **Tombstoned Equipment:** 91OLHO5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 91OLHO5
+- **Tombstoned Equipment:** 91OLHO5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: T9H7O8IDNWYC
+- **Tombstoned Equipment:** T9H7O8IDNWYC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: T9H7O8IDNWYC
+- **Tombstoned Equipment:** T9H7O8IDNWYC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: KBZCIF5JKIIB
+- **Tombstoned Equipment:** KBZCIF5JKIIB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: KBZCIF5JKIIB
+- **Tombstoned Equipment:** KBZCIF5JKIIB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: BLOCKED
+- **Tombstoned Equipment:** BLOCKED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: BLOCKED
+- **Tombstoned Equipment:** BLOCKED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: AT81CVHPT54O
+- **Tombstoned Equipment:** AT81CVHPT54O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: AT81CVHPT54O
+- **Tombstoned Equipment:** AT81CVHPT54O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 7I63
+- **Tombstoned Equipment:** 7I63
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 7I63
+- **Tombstoned Equipment:** 7I63
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 4S4LZZ67T
+- **Tombstoned Equipment:** 4S4LZZ67T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 4S4LZZ67T
+- **Tombstoned Equipment:** 4S4LZZ67T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: OI9ANGR
+- **Tombstoned Equipment:** OI9ANGR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: OI9ANGR
+- **Tombstoned Equipment:** OI9ANGR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 3IK2VRE
+- **Tombstoned Equipment:** 3IK2VRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 3IK2VRE
+- **Tombstoned Equipment:** 3IK2VRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: V0M9W7
+- **Tombstoned Equipment:** V0M9W7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: V0M9W7
+- **Tombstoned Equipment:** V0M9W7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 6MSPHJDD8SM2
+- **Tombstoned Equipment:** 6MSPHJDD8SM2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 6MSPHJDD8SM2
+- **Tombstoned Equipment:** 6MSPHJDD8SM2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: Y3FIBNCS5VF
+- **Tombstoned Equipment:** Y3FIBNCS5VF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: Y3FIBNCS5VF
+- **Tombstoned Equipment:** Y3FIBNCS5VF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: DPYNR
+- **Tombstoned Equipment:** DPYNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: DPYNR
+- **Tombstoned Equipment:** DPYNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: XLV6G
+- **Tombstoned Equipment:** XLV6G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: XLV6G
+- **Tombstoned Equipment:** XLV6G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: MPSFRX
+- **Tombstoned Equipment:** MPSFRX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: MPSFRX
+- **Tombstoned Equipment:** MPSFRX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: KBBV5Y
+- **Tombstoned Equipment:** KBBV5Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: KBBV5Y
+- **Tombstoned Equipment:** KBBV5Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: DK6U
+- **Tombstoned Equipment:** DK6U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: DK6U
+- **Tombstoned Equipment:** DK6U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 2UYY
+- **Tombstoned Equipment:** 2UYY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 2UYY
+- **Tombstoned Equipment:** 2UYY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 04W9Z
+- **Tombstoned Equipment:** 04W9Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 04W9Z
+- **Tombstoned Equipment:** 04W9Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: QKW4YRVQMZEG
+- **Tombstoned Equipment:** QKW4YRVQMZEG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: QKW4YRVQMZEG
+- **Tombstoned Equipment:** QKW4YRVQMZEG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: COMPLETED
+- **Tombstoned Equipment:** COMPLETED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: COMPLETED
+- **Tombstoned Equipment:** COMPLETED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: ZDEH0OXFJZI1
+- **Tombstoned Equipment:** ZDEH0OXFJZI1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: ZDEH0OXFJZI1
+- **Tombstoned Equipment:** ZDEH0OXFJZI1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: L4R
+- **Tombstoned Equipment:** L4R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: L4R
+- **Tombstoned Equipment:** L4R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: JEOL7SAJON
+- **Tombstoned Equipment:** JEOL7SAJON
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: JEOL7SAJON
+- **Tombstoned Equipment:** JEOL7SAJON
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: HIGH
+- **Tombstoned Equipment:** HIGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: HIGH
+- **Tombstoned Equipment:** HIGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 9VE12
+- **Tombstoned Equipment:** 9VE12
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 9VE12
+- **Tombstoned Equipment:** 9VE12
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 67R2H65X
+- **Tombstoned Equipment:** 67R2H65X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 67R2H65X
+- **Tombstoned Equipment:** 67R2H65X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: U0B4PS
+- **Tombstoned Equipment:** U0B4PS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: U0B4PS
+- **Tombstoned Equipment:** U0B4PS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 14EB
+- **Tombstoned Equipment:** 14EB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 14EB
+- **Tombstoned Equipment:** 14EB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: ST8
+- **Tombstoned Equipment:** ST8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: ST8
+- **Tombstoned Equipment:** ST8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 6W5BH
+- **Tombstoned Equipment:** 6W5BH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 6W5BH
+- **Tombstoned Equipment:** 6W5BH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 2VRM
+- **Tombstoned Equipment:** 2VRM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 2VRM
+- **Tombstoned Equipment:** 2VRM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: LKC4
+- **Tombstoned Equipment:** LKC4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: LKC4
+- **Tombstoned Equipment:** LKC4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: BIYIX8QZ96
+- **Tombstoned Equipment:** BIYIX8QZ96
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: BIYIX8QZ96
+- **Tombstoned Equipment:** BIYIX8QZ96
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: BSD
+- **Tombstoned Equipment:** BSD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: BSD
+- **Tombstoned Equipment:** BSD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: NS8P
+- **Tombstoned Equipment:** NS8P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: NS8P
+- **Tombstoned Equipment:** NS8P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: KV9UA2
+- **Tombstoned Equipment:** KV9UA2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: KV9UA2
+- **Tombstoned Equipment:** KV9UA2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: MCE6X1UUZVD1
+- **Tombstoned Equipment:** MCE6X1UUZVD1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: MCE6X1UUZVD1
+- **Tombstoned Equipment:** MCE6X1UUZVD1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: L0CB3Q
+- **Tombstoned Equipment:** L0CB3Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: L0CB3Q
+- **Tombstoned Equipment:** L0CB3Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 5A3Z9ADKV63
+- **Tombstoned Equipment:** 5A3Z9ADKV63
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 5A3Z9ADKV63
+- **Tombstoned Equipment:** 5A3Z9ADKV63
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: XQSSI
+- **Tombstoned Equipment:** XQSSI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: XQSSI
+- **Tombstoned Equipment:** XQSSI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: UNKNOWN
+- **Tombstoned Equipment:** UNKNOWN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: UNKNOWN
+- **Tombstoned Equipment:** UNKNOWN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: N01V2CH253LP
+- **Tombstoned Equipment:** N01V2CH253LP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: N01V2CH253LP
+- **Tombstoned Equipment:** N01V2CH253LP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: QD1WW7
+- **Tombstoned Equipment:** QD1WW7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: QD1WW7
+- **Tombstoned Equipment:** QD1WW7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: I8MG81AF8DTM
+- **Tombstoned Equipment:** I8MG81AF8DTM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: I8MG81AF8DTM
+- **Tombstoned Equipment:** I8MG81AF8DTM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: HCV
+- **Tombstoned Equipment:** HCV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: HCV
+- **Tombstoned Equipment:** HCV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: B5T70N
+- **Tombstoned Equipment:** B5T70N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: B5T70N
+- **Tombstoned Equipment:** B5T70N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: YO1LBB8037XN
+- **Tombstoned Equipment:** YO1LBB8037XN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: YO1LBB8037XN
+- **Tombstoned Equipment:** YO1LBB8037XN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 985HR81
+- **Tombstoned Equipment:** 985HR81
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 985HR81
+- **Tombstoned Equipment:** 985HR81
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 32XL
+- **Tombstoned Equipment:** 32XL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 32XL
+- **Tombstoned Equipment:** 32XL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: UKHU
+- **Tombstoned Equipment:** UKHU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: UKHU
+- **Tombstoned Equipment:** UKHU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: Y2LY04
+- **Tombstoned Equipment:** Y2LY04
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: Y2LY04
+- **Tombstoned Equipment:** Y2LY04
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: READY
+- **Tombstoned Equipment:** READY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: LOQCJV
+- **Tombstoned Equipment:** LOQCJV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: LOQCJV
+- **Tombstoned Equipment:** LOQCJV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 4UHMJE7R9N
+- **Tombstoned Equipment:** 4UHMJE7R9N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 4UHMJE7R9N
+- **Tombstoned Equipment:** 4UHMJE7R9N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: NCA7IOHOP
+- **Tombstoned Equipment:** NCA7IOHOP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: NCA7IOHOP
+- **Tombstoned Equipment:** NCA7IOHOP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 8WVP6
+- **Tombstoned Equipment:** 8WVP6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:16:55 UTC] Document Deletion: 8WVP6
+- **Tombstoned Equipment:** 8WVP6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: AA0Z
+- **Tombstoned Equipment:** AA0Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: AA0Z
+- **Tombstoned Equipment:** AA0Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: VL2
+- **Tombstoned Equipment:** VL2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: VL2
+- **Tombstoned Equipment:** VL2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: PUO
+- **Tombstoned Equipment:** PUO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: PUO
+- **Tombstoned Equipment:** PUO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 9T2EW0NU1U4S
+- **Tombstoned Equipment:** 9T2EW0NU1U4S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 9T2EW0NU1U4S
+- **Tombstoned Equipment:** 9T2EW0NU1U4S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: OL6WO6
+- **Tombstoned Equipment:** OL6WO6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: OL6WO6
+- **Tombstoned Equipment:** OL6WO6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: CDN
+- **Tombstoned Equipment:** CDN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: CDN
+- **Tombstoned Equipment:** CDN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 4SQJMUZOR0O7
+- **Tombstoned Equipment:** 4SQJMUZOR0O7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 4SQJMUZOR0O7
+- **Tombstoned Equipment:** 4SQJMUZOR0O7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZAH
+- **Tombstoned Equipment:** ZAH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZAH
+- **Tombstoned Equipment:** ZAH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: FR9L8TA
+- **Tombstoned Equipment:** FR9L8TA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: FR9L8TA
+- **Tombstoned Equipment:** FR9L8TA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: SDKG
+- **Tombstoned Equipment:** SDKG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: SDKG
+- **Tombstoned Equipment:** SDKG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: BGPU0WX4PAJX
+- **Tombstoned Equipment:** BGPU0WX4PAJX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: BGPU0WX4PAJX
+- **Tombstoned Equipment:** BGPU0WX4PAJX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 69EF
+- **Tombstoned Equipment:** 69EF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 69EF
+- **Tombstoned Equipment:** 69EF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: T4UK
+- **Tombstoned Equipment:** T4UK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: T4UK
+- **Tombstoned Equipment:** T4UK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: LGCJ0M1VXPTN
+- **Tombstoned Equipment:** LGCJ0M1VXPTN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: LGCJ0M1VXPTN
+- **Tombstoned Equipment:** LGCJ0M1VXPTN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: SOU6
+- **Tombstoned Equipment:** SOU6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: SOU6
+- **Tombstoned Equipment:** SOU6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: U93J6
+- **Tombstoned Equipment:** U93J6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: U93J6
+- **Tombstoned Equipment:** U93J6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 89H6TCM
+- **Tombstoned Equipment:** 89H6TCM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 89H6TCM
+- **Tombstoned Equipment:** 89H6TCM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 9OKHJ9
+- **Tombstoned Equipment:** 9OKHJ9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 9OKHJ9
+- **Tombstoned Equipment:** 9OKHJ9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: THP
+- **Tombstoned Equipment:** THP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: THP
+- **Tombstoned Equipment:** THP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: VOL
+- **Tombstoned Equipment:** VOL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: VOL
+- **Tombstoned Equipment:** VOL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: VIOLATION
+- **Tombstoned Equipment:** VIOLATION
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: VIOLATION
+- **Tombstoned Equipment:** VIOLATION
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: YPC4
+- **Tombstoned Equipment:** YPC4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: YPC4
+- **Tombstoned Equipment:** YPC4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: YS9T73RYCFNT
+- **Tombstoned Equipment:** YS9T73RYCFNT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: YS9T73RYCFNT
+- **Tombstoned Equipment:** YS9T73RYCFNT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 6IZSOE0ZH
+- **Tombstoned Equipment:** 6IZSOE0ZH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 6IZSOE0ZH
+- **Tombstoned Equipment:** 6IZSOE0ZH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 7STFX
+- **Tombstoned Equipment:** 7STFX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 7STFX
+- **Tombstoned Equipment:** 7STFX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 4EELSHGRD
+- **Tombstoned Equipment:** 4EELSHGRD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 4EELSHGRD
+- **Tombstoned Equipment:** 4EELSHGRD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 3ZUDHXO5
+- **Tombstoned Equipment:** 3ZUDHXO5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 3ZUDHXO5
+- **Tombstoned Equipment:** 3ZUDHXO5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 6X9RLP
+- **Tombstoned Equipment:** 6X9RLP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 6X9RLP
+- **Tombstoned Equipment:** 6X9RLP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: CEM9QLCX9M
+- **Tombstoned Equipment:** CEM9QLCX9M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: CEM9QLCX9M
+- **Tombstoned Equipment:** CEM9QLCX9M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 3PHMMGZ
+- **Tombstoned Equipment:** 3PHMMGZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 3PHMMGZ
+- **Tombstoned Equipment:** 3PHMMGZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 0YJ6Y8L6
+- **Tombstoned Equipment:** 0YJ6Y8L6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 0YJ6Y8L6
+- **Tombstoned Equipment:** 0YJ6Y8L6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: XSI
+- **Tombstoned Equipment:** XSI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: XSI
+- **Tombstoned Equipment:** XSI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: SUCCESS
+- **Tombstoned Equipment:** SUCCESS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: C095AR89U8M3
+- **Tombstoned Equipment:** C095AR89U8M3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: C095AR89U8M3
+- **Tombstoned Equipment:** C095AR89U8M3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: XP2U
+- **Tombstoned Equipment:** XP2U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: XP2U
+- **Tombstoned Equipment:** XP2U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZP9VQ4M2
+- **Tombstoned Equipment:** ZP9VQ4M2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZP9VQ4M2
+- **Tombstoned Equipment:** ZP9VQ4M2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: AUL7L93
+- **Tombstoned Equipment:** AUL7L93
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: AUL7L93
+- **Tombstoned Equipment:** AUL7L93
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: VK6XS1O6V
+- **Tombstoned Equipment:** VK6XS1O6V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: VK6XS1O6V
+- **Tombstoned Equipment:** VK6XS1O6V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P3QDVLTIU37O
+- **Tombstoned Equipment:** P3QDVLTIU37O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P3QDVLTIU37O
+- **Tombstoned Equipment:** P3QDVLTIU37O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: W20MQDMSJNPL
+- **Tombstoned Equipment:** W20MQDMSJNPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: W20MQDMSJNPL
+- **Tombstoned Equipment:** W20MQDMSJNPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: XY0U
+- **Tombstoned Equipment:** XY0U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: XY0U
+- **Tombstoned Equipment:** XY0U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: AZC0JOVPLL14
+- **Tombstoned Equipment:** AZC0JOVPLL14
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: AZC0JOVPLL14
+- **Tombstoned Equipment:** AZC0JOVPLL14
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: COMPLETED
+- **Tombstoned Equipment:** COMPLETED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: COMPLETED
+- **Tombstoned Equipment:** COMPLETED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: Q28
+- **Tombstoned Equipment:** Q28
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: Q28
+- **Tombstoned Equipment:** Q28
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: X7HXCZ8HWDA1
+- **Tombstoned Equipment:** X7HXCZ8HWDA1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: X7HXCZ8HWDA1
+- **Tombstoned Equipment:** X7HXCZ8HWDA1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: UUPO
+- **Tombstoned Equipment:** UUPO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: UUPO
+- **Tombstoned Equipment:** UUPO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: HNIP3XXSJFCP
+- **Tombstoned Equipment:** HNIP3XXSJFCP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: HNIP3XXSJFCP
+- **Tombstoned Equipment:** HNIP3XXSJFCP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: DA5
+- **Tombstoned Equipment:** DA5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: DA5
+- **Tombstoned Equipment:** DA5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 732WDXGJ12AW
+- **Tombstoned Equipment:** 732WDXGJ12AW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 732WDXGJ12AW
+- **Tombstoned Equipment:** 732WDXGJ12AW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 9VHEMK
+- **Tombstoned Equipment:** 9VHEMK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 9VHEMK
+- **Tombstoned Equipment:** 9VHEMK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: DSGS443UN33H
+- **Tombstoned Equipment:** DSGS443UN33H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: DSGS443UN33H
+- **Tombstoned Equipment:** DSGS443UN33H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: WMVXX
+- **Tombstoned Equipment:** WMVXX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: WMVXX
+- **Tombstoned Equipment:** WMVXX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 7HXYYKV2X
+- **Tombstoned Equipment:** 7HXYYKV2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 7HXYYKV2X
+- **Tombstoned Equipment:** 7HXYYKV2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: Z8K37
+- **Tombstoned Equipment:** Z8K37
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: Z8K37
+- **Tombstoned Equipment:** Z8K37
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: L02ZT3
+- **Tombstoned Equipment:** L02ZT3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: L02ZT3
+- **Tombstoned Equipment:** L02ZT3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: LS5
+- **Tombstoned Equipment:** LS5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: LS5
+- **Tombstoned Equipment:** LS5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 0T2WEZNKA
+- **Tombstoned Equipment:** 0T2WEZNKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 0T2WEZNKA
+- **Tombstoned Equipment:** 0T2WEZNKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: Q3V
+- **Tombstoned Equipment:** Q3V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: Q3V
+- **Tombstoned Equipment:** Q3V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: H4R31TM1BUYN
+- **Tombstoned Equipment:** H4R31TM1BUYN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: H4R31TM1BUYN
+- **Tombstoned Equipment:** H4R31TM1BUYN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: QQWVGHC72K
+- **Tombstoned Equipment:** QQWVGHC72K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: QQWVGHC72K
+- **Tombstoned Equipment:** QQWVGHC72K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P4WBI9W3G
+- **Tombstoned Equipment:** P4WBI9W3G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P4WBI9W3G
+- **Tombstoned Equipment:** P4WBI9W3G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 414GF
+- **Tombstoned Equipment:** 414GF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 414GF
+- **Tombstoned Equipment:** 414GF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: OP6
+- **Tombstoned Equipment:** OP6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: OP6
+- **Tombstoned Equipment:** OP6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: C4P7ZN3M5T4M
+- **Tombstoned Equipment:** C4P7ZN3M5T4M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: C4P7ZN3M5T4M
+- **Tombstoned Equipment:** C4P7ZN3M5T4M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZFGBV
+- **Tombstoned Equipment:** ZFGBV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZFGBV
+- **Tombstoned Equipment:** ZFGBV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 71AS
+- **Tombstoned Equipment:** 71AS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 71AS
+- **Tombstoned Equipment:** 71AS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 43N6C
+- **Tombstoned Equipment:** 43N6C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 43N6C
+- **Tombstoned Equipment:** 43N6C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: QY7D7L
+- **Tombstoned Equipment:** QY7D7L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: QY7D7L
+- **Tombstoned Equipment:** QY7D7L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 0BX
+- **Tombstoned Equipment:** 0BX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 0BX
+- **Tombstoned Equipment:** 0BX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: UKA
+- **Tombstoned Equipment:** UKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: UKA
+- **Tombstoned Equipment:** UKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: NBJSZMKONAU
+- **Tombstoned Equipment:** NBJSZMKONAU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: NBJSZMKONAU
+- **Tombstoned Equipment:** NBJSZMKONAU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P1EOHC
+- **Tombstoned Equipment:** P1EOHC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P1EOHC
+- **Tombstoned Equipment:** P1EOHC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: D2ZH
+- **Tombstoned Equipment:** D2ZH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: D2ZH
+- **Tombstoned Equipment:** D2ZH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZLI3JL1YN4VI
+- **Tombstoned Equipment:** ZLI3JL1YN4VI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZLI3JL1YN4VI
+- **Tombstoned Equipment:** ZLI3JL1YN4VI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: O8U006
+- **Tombstoned Equipment:** O8U006
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: O8U006
+- **Tombstoned Equipment:** O8U006
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: YUI7
+- **Tombstoned Equipment:** YUI7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: YUI7
+- **Tombstoned Equipment:** YUI7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: E0YE
+- **Tombstoned Equipment:** E0YE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: E0YE
+- **Tombstoned Equipment:** E0YE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 03X0
+- **Tombstoned Equipment:** 03X0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 03X0
+- **Tombstoned Equipment:** 03X0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P8ED0EC7J6V
+- **Tombstoned Equipment:** P8ED0EC7J6V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P8ED0EC7J6V
+- **Tombstoned Equipment:** P8ED0EC7J6V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: UJW5DKK
+- **Tombstoned Equipment:** UJW5DKK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: UJW5DKK
+- **Tombstoned Equipment:** UJW5DKK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 1MW
+- **Tombstoned Equipment:** 1MW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 1MW
+- **Tombstoned Equipment:** 1MW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZJQ3
+- **Tombstoned Equipment:** ZJQ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZJQ3
+- **Tombstoned Equipment:** ZJQ3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: IMLN
+- **Tombstoned Equipment:** IMLN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: IMLN
+- **Tombstoned Equipment:** IMLN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 9A8R5LT0
+- **Tombstoned Equipment:** 9A8R5LT0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 9A8R5LT0
+- **Tombstoned Equipment:** 9A8R5LT0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 4IQ7S5
+- **Tombstoned Equipment:** 4IQ7S5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 4IQ7S5
+- **Tombstoned Equipment:** 4IQ7S5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 5LXSJ4895
+- **Tombstoned Equipment:** 5LXSJ4895
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 5LXSJ4895
+- **Tombstoned Equipment:** 5LXSJ4895
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ADR2I
+- **Tombstoned Equipment:** ADR2I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ADR2I
+- **Tombstoned Equipment:** ADR2I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZGYKI
+- **Tombstoned Equipment:** ZGYKI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: ZGYKI
+- **Tombstoned Equipment:** ZGYKI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: JDC5AR
+- **Tombstoned Equipment:** JDC5AR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: JDC5AR
+- **Tombstoned Equipment:** JDC5AR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 2226JU9SBXQH
+- **Tombstoned Equipment:** 2226JU9SBXQH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 2226JU9SBXQH
+- **Tombstoned Equipment:** 2226JU9SBXQH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 3J3UIH2XRM63
+- **Tombstoned Equipment:** 3J3UIH2XRM63
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 3J3UIH2XRM63
+- **Tombstoned Equipment:** 3J3UIH2XRM63
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 4O5QNB3BUMKS
+- **Tombstoned Equipment:** 4O5QNB3BUMKS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: 4O5QNB3BUMKS
+- **Tombstoned Equipment:** 4O5QNB3BUMKS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P4PM5YIZRTEO
+- **Tombstoned Equipment:** P4PM5YIZRTEO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: P4PM5YIZRTEO
+- **Tombstoned Equipment:** P4PM5YIZRTEO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: BUL
+- **Tombstoned Equipment:** BUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: BUL
+- **Tombstoned Equipment:** BUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: K43USZVS
+- **Tombstoned Equipment:** K43USZVS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: K43USZVS
+- **Tombstoned Equipment:** K43USZVS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: UI85SUMIRLML
+- **Tombstoned Equipment:** UI85SUMIRLML
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: UI85SUMIRLML
+- **Tombstoned Equipment:** UI85SUMIRLML
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: Z8M7ZL
+- **Tombstoned Equipment:** Z8M7ZL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-27 02:25:10 UTC] Document Deletion: Z8M7ZL
+- **Tombstoned Equipment:** Z8M7ZL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: V69J
+- **Tombstoned Equipment:** V69J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: V69J
+- **Tombstoned Equipment:** V69J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: V4OAW4G3LRBD
+- **Tombstoned Equipment:** V4OAW4G3LRBD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: V4OAW4G3LRBD
+- **Tombstoned Equipment:** V4OAW4G3LRBD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: HDR63XWST9
+- **Tombstoned Equipment:** HDR63XWST9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: HDR63XWST9
+- **Tombstoned Equipment:** HDR63XWST9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ISVWWKCGDL8A
+- **Tombstoned Equipment:** ISVWWKCGDL8A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ISVWWKCGDL8A
+- **Tombstoned Equipment:** ISVWWKCGDL8A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DE8
+- **Tombstoned Equipment:** DE8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DE8
+- **Tombstoned Equipment:** DE8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 7LG20CFO
+- **Tombstoned Equipment:** 7LG20CFO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 7LG20CFO
+- **Tombstoned Equipment:** 7LG20CFO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: UB1W06UEFI2X
+- **Tombstoned Equipment:** UB1W06UEFI2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: UB1W06UEFI2X
+- **Tombstoned Equipment:** UB1W06UEFI2X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: YF9
+- **Tombstoned Equipment:** YF9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: YF9
+- **Tombstoned Equipment:** YF9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: QKTKC20WH
+- **Tombstoned Equipment:** QKTKC20WH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: QKTKC20WH
+- **Tombstoned Equipment:** QKTKC20WH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: FTK1G5YJS2G
+- **Tombstoned Equipment:** FTK1G5YJS2G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: FTK1G5YJS2G
+- **Tombstoned Equipment:** FTK1G5YJS2G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XXCONNSZRK
+- **Tombstoned Equipment:** XXCONNSZRK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XXCONNSZRK
+- **Tombstoned Equipment:** XXCONNSZRK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: EF5
+- **Tombstoned Equipment:** EF5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: EF5
+- **Tombstoned Equipment:** EF5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: FBW9
+- **Tombstoned Equipment:** FBW9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: FBW9
+- **Tombstoned Equipment:** FBW9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: F5RUSD
+- **Tombstoned Equipment:** F5RUSD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: F5RUSD
+- **Tombstoned Equipment:** F5RUSD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: N3PV3YU48WY7
+- **Tombstoned Equipment:** N3PV3YU48WY7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: N3PV3YU48WY7
+- **Tombstoned Equipment:** N3PV3YU48WY7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: EWU2
+- **Tombstoned Equipment:** EWU2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: EWU2
+- **Tombstoned Equipment:** EWU2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DUDPL8TA8U
+- **Tombstoned Equipment:** DUDPL8TA8U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DUDPL8TA8U
+- **Tombstoned Equipment:** DUDPL8TA8U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: SDTAOCJI4FG0
+- **Tombstoned Equipment:** SDTAOCJI4FG0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: SDTAOCJI4FG0
+- **Tombstoned Equipment:** SDTAOCJI4FG0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 99F
+- **Tombstoned Equipment:** 99F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 99F
+- **Tombstoned Equipment:** 99F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XG4TKR6
+- **Tombstoned Equipment:** XG4TKR6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XG4TKR6
+- **Tombstoned Equipment:** XG4TKR6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: S7DHWP
+- **Tombstoned Equipment:** S7DHWP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: S7DHWP
+- **Tombstoned Equipment:** S7DHWP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DSA7
+- **Tombstoned Equipment:** DSA7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DSA7
+- **Tombstoned Equipment:** DSA7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DRAAIZ8N
+- **Tombstoned Equipment:** DRAAIZ8N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DRAAIZ8N
+- **Tombstoned Equipment:** DRAAIZ8N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: BO212
+- **Tombstoned Equipment:** BO212
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: BO212
+- **Tombstoned Equipment:** BO212
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: F23212B4W5IB
+- **Tombstoned Equipment:** F23212B4W5IB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: F23212B4W5IB
+- **Tombstoned Equipment:** F23212B4W5IB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NJ76Q
+- **Tombstoned Equipment:** NJ76Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NJ76Q
+- **Tombstoned Equipment:** NJ76Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XQX47L87BWWU
+- **Tombstoned Equipment:** XQX47L87BWWU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XQX47L87BWWU
+- **Tombstoned Equipment:** XQX47L87BWWU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: PKIVTKRP
+- **Tombstoned Equipment:** PKIVTKRP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: PKIVTKRP
+- **Tombstoned Equipment:** PKIVTKRP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: KAB2P
+- **Tombstoned Equipment:** KAB2P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: KAB2P
+- **Tombstoned Equipment:** KAB2P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XC91CW5FC9RR
+- **Tombstoned Equipment:** XC91CW5FC9RR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XC91CW5FC9RR
+- **Tombstoned Equipment:** XC91CW5FC9RR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 4OFPCBHD7
+- **Tombstoned Equipment:** 4OFPCBHD7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 4OFPCBHD7
+- **Tombstoned Equipment:** 4OFPCBHD7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: X87R3547MR2
+- **Tombstoned Equipment:** X87R3547MR2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: X87R3547MR2
+- **Tombstoned Equipment:** X87R3547MR2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: FFFFFF
+- **Tombstoned Equipment:** FFFFFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: FFFFFF
+- **Tombstoned Equipment:** FFFFFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: BC8WN7DLTTDI
+- **Tombstoned Equipment:** BC8WN7DLTTDI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: BC8WN7DLTTDI
+- **Tombstoned Equipment:** BC8WN7DLTTDI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 5AP24OKRJCG1
+- **Tombstoned Equipment:** 5AP24OKRJCG1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 5AP24OKRJCG1
+- **Tombstoned Equipment:** 5AP24OKRJCG1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: E8NF1
+- **Tombstoned Equipment:** E8NF1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: E8NF1
+- **Tombstoned Equipment:** E8NF1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: L35M
+- **Tombstoned Equipment:** L35M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: L35M
+- **Tombstoned Equipment:** L35M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: J68H46KRQQ7S
+- **Tombstoned Equipment:** J68H46KRQQ7S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: J68H46KRQQ7S
+- **Tombstoned Equipment:** J68H46KRQQ7S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: RKL2ST16AP
+- **Tombstoned Equipment:** RKL2ST16AP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: RKL2ST16AP
+- **Tombstoned Equipment:** RKL2ST16AP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 9HRLSWKTWCH0
+- **Tombstoned Equipment:** 9HRLSWKTWCH0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 9HRLSWKTWCH0
+- **Tombstoned Equipment:** 9HRLSWKTWCH0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 66E6KPRRU43K
+- **Tombstoned Equipment:** 66E6KPRRU43K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 66E6KPRRU43K
+- **Tombstoned Equipment:** 66E6KPRRU43K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 8SE223QJ39Y0
+- **Tombstoned Equipment:** 8SE223QJ39Y0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 8SE223QJ39Y0
+- **Tombstoned Equipment:** 8SE223QJ39Y0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: JDWQ
+- **Tombstoned Equipment:** JDWQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: JDWQ
+- **Tombstoned Equipment:** JDWQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: C0L3CC7G
+- **Tombstoned Equipment:** C0L3CC7G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: C0L3CC7G
+- **Tombstoned Equipment:** C0L3CC7G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: WCRE09RVXIR
+- **Tombstoned Equipment:** WCRE09RVXIR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: WCRE09RVXIR
+- **Tombstoned Equipment:** WCRE09RVXIR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: UBSG6JFR1XQ8
+- **Tombstoned Equipment:** UBSG6JFR1XQ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: UBSG6JFR1XQ8
+- **Tombstoned Equipment:** UBSG6JFR1XQ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: B4YZ31GBYX33
+- **Tombstoned Equipment:** B4YZ31GBYX33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: B4YZ31GBYX33
+- **Tombstoned Equipment:** B4YZ31GBYX33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 8NGD
+- **Tombstoned Equipment:** 8NGD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 8NGD
+- **Tombstoned Equipment:** 8NGD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: HRSD
+- **Tombstoned Equipment:** HRSD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: HRSD
+- **Tombstoned Equipment:** HRSD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: YMZJ6FRQC00D
+- **Tombstoned Equipment:** YMZJ6FRQC00D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: YMZJ6FRQC00D
+- **Tombstoned Equipment:** YMZJ6FRQC00D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: O3MM7RNN713
+- **Tombstoned Equipment:** O3MM7RNN713
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: O3MM7RNN713
+- **Tombstoned Equipment:** O3MM7RNN713
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 706B
+- **Tombstoned Equipment:** 706B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 706B
+- **Tombstoned Equipment:** 706B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: IFF
+- **Tombstoned Equipment:** IFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: IFF
+- **Tombstoned Equipment:** IFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ZBIA4Y3XJ7B4
+- **Tombstoned Equipment:** ZBIA4Y3XJ7B4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ZBIA4Y3XJ7B4
+- **Tombstoned Equipment:** ZBIA4Y3XJ7B4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: LZTSFF308
+- **Tombstoned Equipment:** LZTSFF308
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: LZTSFF308
+- **Tombstoned Equipment:** LZTSFF308
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: H5NLXNEAA2N1
+- **Tombstoned Equipment:** H5NLXNEAA2N1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: H5NLXNEAA2N1
+- **Tombstoned Equipment:** H5NLXNEAA2N1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 44J
+- **Tombstoned Equipment:** 44J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 44J
+- **Tombstoned Equipment:** 44J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 19J18WZAT81
+- **Tombstoned Equipment:** 19J18WZAT81
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 19J18WZAT81
+- **Tombstoned Equipment:** 19J18WZAT81
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 5SLWJ2LYASOL
+- **Tombstoned Equipment:** 5SLWJ2LYASOL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 5SLWJ2LYASOL
+- **Tombstoned Equipment:** 5SLWJ2LYASOL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ZT9
+- **Tombstoned Equipment:** ZT9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ZT9
+- **Tombstoned Equipment:** ZT9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 36S7973L8MWV
+- **Tombstoned Equipment:** 36S7973L8MWV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 36S7973L8MWV
+- **Tombstoned Equipment:** 36S7973L8MWV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ED8E0N3
+- **Tombstoned Equipment:** ED8E0N3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ED8E0N3
+- **Tombstoned Equipment:** ED8E0N3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 6DCQBKCLW1V
+- **Tombstoned Equipment:** 6DCQBKCLW1V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 6DCQBKCLW1V
+- **Tombstoned Equipment:** 6DCQBKCLW1V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: RQAZD8QO
+- **Tombstoned Equipment:** RQAZD8QO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: RQAZD8QO
+- **Tombstoned Equipment:** RQAZD8QO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 1E7Y7S6V32BE
+- **Tombstoned Equipment:** 1E7Y7S6V32BE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 1E7Y7S6V32BE
+- **Tombstoned Equipment:** 1E7Y7S6V32BE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: Q0BK
+- **Tombstoned Equipment:** Q0BK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: Q0BK
+- **Tombstoned Equipment:** Q0BK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: BTKA
+- **Tombstoned Equipment:** BTKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: BTKA
+- **Tombstoned Equipment:** BTKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 00518VN79EOQ
+- **Tombstoned Equipment:** 00518VN79EOQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 00518VN79EOQ
+- **Tombstoned Equipment:** 00518VN79EOQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: M2Q049U46L
+- **Tombstoned Equipment:** M2Q049U46L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: M2Q049U46L
+- **Tombstoned Equipment:** M2Q049U46L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: YR9WOJNC22ZJ
+- **Tombstoned Equipment:** YR9WOJNC22ZJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: YR9WOJNC22ZJ
+- **Tombstoned Equipment:** YR9WOJNC22ZJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: UNEM4Z6RR4PO
+- **Tombstoned Equipment:** UNEM4Z6RR4PO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: UNEM4Z6RR4PO
+- **Tombstoned Equipment:** UNEM4Z6RR4PO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: I4Q4XCB3
+- **Tombstoned Equipment:** I4Q4XCB3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: I4Q4XCB3
+- **Tombstoned Equipment:** I4Q4XCB3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 1F4E78
+- **Tombstoned Equipment:** 1F4E78
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 1F4E78
+- **Tombstoned Equipment:** 1F4E78
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: M2UDNL68XN
+- **Tombstoned Equipment:** M2UDNL68XN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: M2UDNL68XN
+- **Tombstoned Equipment:** M2UDNL68XN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DSX5
+- **Tombstoned Equipment:** DSX5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DSX5
+- **Tombstoned Equipment:** DSX5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: IFMEML
+- **Tombstoned Equipment:** IFMEML
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: IFMEML
+- **Tombstoned Equipment:** IFMEML
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: K7RAJM0JZKWY
+- **Tombstoned Equipment:** K7RAJM0JZKWY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: K7RAJM0JZKWY
+- **Tombstoned Equipment:** K7RAJM0JZKWY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NPFT0E
+- **Tombstoned Equipment:** NPFT0E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NPFT0E
+- **Tombstoned Equipment:** NPFT0E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DGZJKWCTDQ9X
+- **Tombstoned Equipment:** DGZJKWCTDQ9X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: DGZJKWCTDQ9X
+- **Tombstoned Equipment:** DGZJKWCTDQ9X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: PKYR9ZE0NJ
+- **Tombstoned Equipment:** PKYR9ZE0NJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: PKYR9ZE0NJ
+- **Tombstoned Equipment:** PKYR9ZE0NJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 3SH7FUQB8FS
+- **Tombstoned Equipment:** 3SH7FUQB8FS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 3SH7FUQB8FS
+- **Tombstoned Equipment:** 3SH7FUQB8FS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 3MWA9
+- **Tombstoned Equipment:** 3MWA9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 3MWA9
+- **Tombstoned Equipment:** 3MWA9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: J3YA4C
+- **Tombstoned Equipment:** J3YA4C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: J3YA4C
+- **Tombstoned Equipment:** J3YA4C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: MM4
+- **Tombstoned Equipment:** MM4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: MM4
+- **Tombstoned Equipment:** MM4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: H6JZD31CAJK0
+- **Tombstoned Equipment:** H6JZD31CAJK0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: H6JZD31CAJK0
+- **Tombstoned Equipment:** H6JZD31CAJK0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XGLNO
+- **Tombstoned Equipment:** XGLNO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: XGLNO
+- **Tombstoned Equipment:** XGLNO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: IA132D
+- **Tombstoned Equipment:** IA132D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: IA132D
+- **Tombstoned Equipment:** IA132D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 7DWN2GPA
+- **Tombstoned Equipment:** 7DWN2GPA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 7DWN2GPA
+- **Tombstoned Equipment:** 7DWN2GPA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: L6VQEDV
+- **Tombstoned Equipment:** L6VQEDV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: L6VQEDV
+- **Tombstoned Equipment:** L6VQEDV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 3XPC
+- **Tombstoned Equipment:** 3XPC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: 3XPC
+- **Tombstoned Equipment:** 3XPC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: C0YDHKAT3XX
+- **Tombstoned Equipment:** C0YDHKAT3XX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: C0YDHKAT3XX
+- **Tombstoned Equipment:** C0YDHKAT3XX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NWEHKNPGQ6
+- **Tombstoned Equipment:** NWEHKNPGQ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NWEHKNPGQ6
+- **Tombstoned Equipment:** NWEHKNPGQ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ZW7
+- **Tombstoned Equipment:** ZW7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: ZW7
+- **Tombstoned Equipment:** ZW7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NGNA4LN6IW8
+- **Tombstoned Equipment:** NGNA4LN6IW8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: NGNA4LN6IW8
+- **Tombstoned Equipment:** NGNA4LN6IW8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: BLOCKED
+- **Tombstoned Equipment:** BLOCKED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: BLOCKED
+- **Tombstoned Equipment:** BLOCKED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: Q1W6MC2AO9O5
+- **Tombstoned Equipment:** Q1W6MC2AO9O5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: Q1W6MC2AO9O5
+- **Tombstoned Equipment:** Q1W6MC2AO9O5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: HZAF9EJOS
+- **Tombstoned Equipment:** HZAF9EJOS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: HZAF9EJOS
+- **Tombstoned Equipment:** HZAF9EJOS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: G39
+- **Tombstoned Equipment:** G39
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:14:34 UTC] Document Deletion: G39
+- **Tombstoned Equipment:** G39
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ROH02C0A0OIF
+- **Tombstoned Equipment:** ROH02C0A0OIF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ROH02C0A0OIF
+- **Tombstoned Equipment:** ROH02C0A0OIF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: FPBSTRIRRFMW
+- **Tombstoned Equipment:** FPBSTRIRRFMW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: FPBSTRIRRFMW
+- **Tombstoned Equipment:** FPBSTRIRRFMW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: LAG33Y
+- **Tombstoned Equipment:** LAG33Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: LAG33Y
+- **Tombstoned Equipment:** LAG33Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: OP517Z62J9N
+- **Tombstoned Equipment:** OP517Z62J9N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: OP517Z62J9N
+- **Tombstoned Equipment:** OP517Z62J9N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 7L5
+- **Tombstoned Equipment:** 7L5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 7L5
+- **Tombstoned Equipment:** 7L5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: RZQSEE
+- **Tombstoned Equipment:** RZQSEE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: RZQSEE
+- **Tombstoned Equipment:** RZQSEE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: XWF0Z8KOF04
+- **Tombstoned Equipment:** XWF0Z8KOF04
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: XWF0Z8KOF04
+- **Tombstoned Equipment:** XWF0Z8KOF04
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1R8VPGEWIX
+- **Tombstoned Equipment:** 1R8VPGEWIX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1R8VPGEWIX
+- **Tombstoned Equipment:** 1R8VPGEWIX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 9MI
+- **Tombstoned Equipment:** 9MI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 9MI
+- **Tombstoned Equipment:** 9MI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ZVMLZNG5TQ
+- **Tombstoned Equipment:** ZVMLZNG5TQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ZVMLZNG5TQ
+- **Tombstoned Equipment:** ZVMLZNG5TQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: PLFUTHBNOT
+- **Tombstoned Equipment:** PLFUTHBNOT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: PLFUTHBNOT
+- **Tombstoned Equipment:** PLFUTHBNOT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ZAK9YCGS0VP1
+- **Tombstoned Equipment:** ZAK9YCGS0VP1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ZAK9YCGS0VP1
+- **Tombstoned Equipment:** ZAK9YCGS0VP1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: RLLJBQZGPLQG
+- **Tombstoned Equipment:** RLLJBQZGPLQG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: RLLJBQZGPLQG
+- **Tombstoned Equipment:** RLLJBQZGPLQG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: CQ8QMIW4V1B
+- **Tombstoned Equipment:** CQ8QMIW4V1B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: CQ8QMIW4V1B
+- **Tombstoned Equipment:** CQ8QMIW4V1B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 9M63
+- **Tombstoned Equipment:** 9M63
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 9M63
+- **Tombstoned Equipment:** 9M63
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: X0Z
+- **Tombstoned Equipment:** X0Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: X0Z
+- **Tombstoned Equipment:** X0Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: TNKBLEP1KQO1
+- **Tombstoned Equipment:** TNKBLEP1KQO1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: TNKBLEP1KQO1
+- **Tombstoned Equipment:** TNKBLEP1KQO1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ET2
+- **Tombstoned Equipment:** ET2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ET2
+- **Tombstoned Equipment:** ET2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: MJUZ
+- **Tombstoned Equipment:** MJUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: MJUZ
+- **Tombstoned Equipment:** MJUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: F41
+- **Tombstoned Equipment:** F41
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: F41
+- **Tombstoned Equipment:** F41
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: VS1C
+- **Tombstoned Equipment:** VS1C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: VS1C
+- **Tombstoned Equipment:** VS1C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: EPU6B9
+- **Tombstoned Equipment:** EPU6B9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: EPU6B9
+- **Tombstoned Equipment:** EPU6B9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: M2DDB4S3T9HW
+- **Tombstoned Equipment:** M2DDB4S3T9HW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: M2DDB4S3T9HW
+- **Tombstoned Equipment:** M2DDB4S3T9HW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 100O85CCI5
+- **Tombstoned Equipment:** 100O85CCI5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 100O85CCI5
+- **Tombstoned Equipment:** 100O85CCI5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: OSDQLKEGJ34A
+- **Tombstoned Equipment:** OSDQLKEGJ34A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: OSDQLKEGJ34A
+- **Tombstoned Equipment:** OSDQLKEGJ34A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: S9H
+- **Tombstoned Equipment:** S9H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: S9H
+- **Tombstoned Equipment:** S9H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: K508617KA
+- **Tombstoned Equipment:** K508617KA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: K508617KA
+- **Tombstoned Equipment:** K508617KA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: UJ680W0DORW
+- **Tombstoned Equipment:** UJ680W0DORW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: UJ680W0DORW
+- **Tombstoned Equipment:** UJ680W0DORW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: LZ24HTACYI
+- **Tombstoned Equipment:** LZ24HTACYI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: LZ24HTACYI
+- **Tombstoned Equipment:** LZ24HTACYI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 4QD
+- **Tombstoned Equipment:** 4QD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 4QD
+- **Tombstoned Equipment:** 4QD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 8WYUNDJ89HXG
+- **Tombstoned Equipment:** 8WYUNDJ89HXG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 8WYUNDJ89HXG
+- **Tombstoned Equipment:** 8WYUNDJ89HXG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: KNPCXVW2I1QG
+- **Tombstoned Equipment:** KNPCXVW2I1QG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: KNPCXVW2I1QG
+- **Tombstoned Equipment:** KNPCXVW2I1QG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: IH5
+- **Tombstoned Equipment:** IH5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: IH5
+- **Tombstoned Equipment:** IH5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: B7E7ZJCGFC6G
+- **Tombstoned Equipment:** B7E7ZJCGFC6G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: B7E7ZJCGFC6G
+- **Tombstoned Equipment:** B7E7ZJCGFC6G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: JCN3W8DFF
+- **Tombstoned Equipment:** JCN3W8DFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: JCN3W8DFF
+- **Tombstoned Equipment:** JCN3W8DFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 052
+- **Tombstoned Equipment:** 052
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 052
+- **Tombstoned Equipment:** 052
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: P9L26
+- **Tombstoned Equipment:** P9L26
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: P9L26
+- **Tombstoned Equipment:** P9L26
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: VHZ
+- **Tombstoned Equipment:** VHZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: VHZ
+- **Tombstoned Equipment:** VHZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 3DH4
+- **Tombstoned Equipment:** 3DH4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 3DH4
+- **Tombstoned Equipment:** 3DH4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: F4NKFC
+- **Tombstoned Equipment:** F4NKFC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: F4NKFC
+- **Tombstoned Equipment:** F4NKFC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: CUE
+- **Tombstoned Equipment:** CUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: CUE
+- **Tombstoned Equipment:** CUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: HB0V
+- **Tombstoned Equipment:** HB0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: HB0V
+- **Tombstoned Equipment:** HB0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: MSV
+- **Tombstoned Equipment:** MSV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: MSV
+- **Tombstoned Equipment:** MSV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 4L5
+- **Tombstoned Equipment:** 4L5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 4L5
+- **Tombstoned Equipment:** 4L5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: CONFIRMED
+- **Tombstoned Equipment:** CONFIRMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: CONFIRMED
+- **Tombstoned Equipment:** CONFIRMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: JA2XWG6P18KP
+- **Tombstoned Equipment:** JA2XWG6P18KP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: JA2XWG6P18KP
+- **Tombstoned Equipment:** JA2XWG6P18KP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: SJB
+- **Tombstoned Equipment:** SJB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: SJB
+- **Tombstoned Equipment:** SJB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 38S3
+- **Tombstoned Equipment:** 38S3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 38S3
+- **Tombstoned Equipment:** 38S3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: QNQEFJ9Y1YQ
+- **Tombstoned Equipment:** QNQEFJ9Y1YQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: QNQEFJ9Y1YQ
+- **Tombstoned Equipment:** QNQEFJ9Y1YQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: M6H
+- **Tombstoned Equipment:** M6H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: M6H
+- **Tombstoned Equipment:** M6H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: BH160WDS
+- **Tombstoned Equipment:** BH160WDS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: BH160WDS
+- **Tombstoned Equipment:** BH160WDS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: GX2F275YG0
+- **Tombstoned Equipment:** GX2F275YG0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: GX2F275YG0
+- **Tombstoned Equipment:** GX2F275YG0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: DN4GP07UM
+- **Tombstoned Equipment:** DN4GP07UM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: DN4GP07UM
+- **Tombstoned Equipment:** DN4GP07UM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1W1A1
+- **Tombstoned Equipment:** 1W1A1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1W1A1
+- **Tombstoned Equipment:** 1W1A1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 81Y6EXVYN9X
+- **Tombstoned Equipment:** 81Y6EXVYN9X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 81Y6EXVYN9X
+- **Tombstoned Equipment:** 81Y6EXVYN9X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 03FWXIN
+- **Tombstoned Equipment:** 03FWXIN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 03FWXIN
+- **Tombstoned Equipment:** 03FWXIN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: CENNGLKX9G
+- **Tombstoned Equipment:** CENNGLKX9G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: CENNGLKX9G
+- **Tombstoned Equipment:** CENNGLKX9G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 3E8
+- **Tombstoned Equipment:** 3E8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 3E8
+- **Tombstoned Equipment:** 3E8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: U2Q
+- **Tombstoned Equipment:** U2Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: U2Q
+- **Tombstoned Equipment:** U2Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: LBC
+- **Tombstoned Equipment:** LBC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: LBC
+- **Tombstoned Equipment:** LBC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: EXB0TE
+- **Tombstoned Equipment:** EXB0TE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: EXB0TE
+- **Tombstoned Equipment:** EXB0TE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: IECQ3JJ
+- **Tombstoned Equipment:** IECQ3JJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: IECQ3JJ
+- **Tombstoned Equipment:** IECQ3JJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 8X4SNTWPDOZN
+- **Tombstoned Equipment:** 8X4SNTWPDOZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 8X4SNTWPDOZN
+- **Tombstoned Equipment:** 8X4SNTWPDOZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: KUE
+- **Tombstoned Equipment:** KUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: KUE
+- **Tombstoned Equipment:** KUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: GG0T4T00YNPU
+- **Tombstoned Equipment:** GG0T4T00YNPU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: GG0T4T00YNPU
+- **Tombstoned Equipment:** GG0T4T00YNPU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: DHOO4822DUC
+- **Tombstoned Equipment:** DHOO4822DUC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: DHOO4822DUC
+- **Tombstoned Equipment:** DHOO4822DUC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1L7A
+- **Tombstoned Equipment:** 1L7A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1L7A
+- **Tombstoned Equipment:** 1L7A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ZA6PKCDGC48V
+- **Tombstoned Equipment:** ZA6PKCDGC48V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ZA6PKCDGC48V
+- **Tombstoned Equipment:** ZA6PKCDGC48V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: A9QAJOEEF
+- **Tombstoned Equipment:** A9QAJOEEF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: A9QAJOEEF
+- **Tombstoned Equipment:** A9QAJOEEF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: SCM
+- **Tombstoned Equipment:** SCM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: SCM
+- **Tombstoned Equipment:** SCM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: VS5F
+- **Tombstoned Equipment:** VS5F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: VS5F
+- **Tombstoned Equipment:** VS5F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: BMIRFB7ATH5R
+- **Tombstoned Equipment:** BMIRFB7ATH5R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: BMIRFB7ATH5R
+- **Tombstoned Equipment:** BMIRFB7ATH5R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1EISDA6BR
+- **Tombstoned Equipment:** 1EISDA6BR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1EISDA6BR
+- **Tombstoned Equipment:** 1EISDA6BR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: O42WFMQVP3US
+- **Tombstoned Equipment:** O42WFMQVP3US
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: O42WFMQVP3US
+- **Tombstoned Equipment:** O42WFMQVP3US
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: M2WFKUPM
+- **Tombstoned Equipment:** M2WFKUPM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: M2WFKUPM
+- **Tombstoned Equipment:** M2WFKUPM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: L9ZS7
+- **Tombstoned Equipment:** L9ZS7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: L9ZS7
+- **Tombstoned Equipment:** L9ZS7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: U8M
+- **Tombstoned Equipment:** U8M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: U8M
+- **Tombstoned Equipment:** U8M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: EH0V
+- **Tombstoned Equipment:** EH0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: EH0V
+- **Tombstoned Equipment:** EH0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1WUNPY44P3SR
+- **Tombstoned Equipment:** 1WUNPY44P3SR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 1WUNPY44P3SR
+- **Tombstoned Equipment:** 1WUNPY44P3SR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: DZQT660AO
+- **Tombstoned Equipment:** DZQT660AO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: DZQT660AO
+- **Tombstoned Equipment:** DZQT660AO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: QQOGD
+- **Tombstoned Equipment:** QQOGD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: QQOGD
+- **Tombstoned Equipment:** QQOGD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: OQW
+- **Tombstoned Equipment:** OQW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: OQW
+- **Tombstoned Equipment:** OQW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: HYAD
+- **Tombstoned Equipment:** HYAD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: HYAD
+- **Tombstoned Equipment:** HYAD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: Z1T
+- **Tombstoned Equipment:** Z1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: Z1T
+- **Tombstoned Equipment:** Z1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: SD2FX3471AZY
+- **Tombstoned Equipment:** SD2FX3471AZY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: SD2FX3471AZY
+- **Tombstoned Equipment:** SD2FX3471AZY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ENZ2M2C
+- **Tombstoned Equipment:** ENZ2M2C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: ENZ2M2C
+- **Tombstoned Equipment:** ENZ2M2C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: MDUJ9UWL
+- **Tombstoned Equipment:** MDUJ9UWL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: MDUJ9UWL
+- **Tombstoned Equipment:** MDUJ9UWL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: B2VNZR8LA6KY
+- **Tombstoned Equipment:** B2VNZR8LA6KY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: B2VNZR8LA6KY
+- **Tombstoned Equipment:** B2VNZR8LA6KY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: FMAVL
+- **Tombstoned Equipment:** FMAVL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: FMAVL
+- **Tombstoned Equipment:** FMAVL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: HRJ
+- **Tombstoned Equipment:** HRJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: HRJ
+- **Tombstoned Equipment:** HRJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 91J
+- **Tombstoned Equipment:** 91J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 91J
+- **Tombstoned Equipment:** 91J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: NRRB
+- **Tombstoned Equipment:** NRRB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: NRRB
+- **Tombstoned Equipment:** NRRB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: QPZ8D2EU308
+- **Tombstoned Equipment:** QPZ8D2EU308
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: QPZ8D2EU308
+- **Tombstoned Equipment:** QPZ8D2EU308
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 62Z9GM0CEXXD
+- **Tombstoned Equipment:** 62Z9GM0CEXXD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 62Z9GM0CEXXD
+- **Tombstoned Equipment:** 62Z9GM0CEXXD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: EWBQHWZOGTJE
+- **Tombstoned Equipment:** EWBQHWZOGTJE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: EWBQHWZOGTJE
+- **Tombstoned Equipment:** EWBQHWZOGTJE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 3YB2YF67V301
+- **Tombstoned Equipment:** 3YB2YF67V301
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 3YB2YF67V301
+- **Tombstoned Equipment:** 3YB2YF67V301
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 5FJ7RAQBL4YM
+- **Tombstoned Equipment:** 5FJ7RAQBL4YM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:18:10 UTC] Document Deletion: 5FJ7RAQBL4YM
+- **Tombstoned Equipment:** 5FJ7RAQBL4YM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 4YN4F8ST3H
+- **Tombstoned Equipment:** 4YN4F8ST3H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 4YN4F8ST3H
+- **Tombstoned Equipment:** 4YN4F8ST3H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: YGR
+- **Tombstoned Equipment:** YGR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: YGR
+- **Tombstoned Equipment:** YGR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: NAE24B461Y1W
+- **Tombstoned Equipment:** NAE24B461Y1W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: NAE24B461Y1W
+- **Tombstoned Equipment:** NAE24B461Y1W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 931
+- **Tombstoned Equipment:** 931
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 931
+- **Tombstoned Equipment:** 931
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: BB40VX2
+- **Tombstoned Equipment:** BB40VX2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: BB40VX2
+- **Tombstoned Equipment:** BB40VX2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: BV1SPLD83
+- **Tombstoned Equipment:** BV1SPLD83
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: BV1SPLD83
+- **Tombstoned Equipment:** BV1SPLD83
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 3TFCLXAF1X2
+- **Tombstoned Equipment:** 3TFCLXAF1X2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 3TFCLXAF1X2
+- **Tombstoned Equipment:** 3TFCLXAF1X2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: HP6
+- **Tombstoned Equipment:** HP6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: HP6
+- **Tombstoned Equipment:** HP6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 5IEX
+- **Tombstoned Equipment:** 5IEX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 5IEX
+- **Tombstoned Equipment:** 5IEX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TWTVNYCTK81D
+- **Tombstoned Equipment:** TWTVNYCTK81D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TWTVNYCTK81D
+- **Tombstoned Equipment:** TWTVNYCTK81D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: AVKSGS63U1KE
+- **Tombstoned Equipment:** AVKSGS63U1KE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: AVKSGS63U1KE
+- **Tombstoned Equipment:** AVKSGS63U1KE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: Q1RH4MINP2S5
+- **Tombstoned Equipment:** Q1RH4MINP2S5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: Q1RH4MINP2S5
+- **Tombstoned Equipment:** Q1RH4MINP2S5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 5P846
+- **Tombstoned Equipment:** 5P846
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 5P846
+- **Tombstoned Equipment:** 5P846
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 4CSY34
+- **Tombstoned Equipment:** 4CSY34
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 4CSY34
+- **Tombstoned Equipment:** 4CSY34
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: WT89OTDAH9WA
+- **Tombstoned Equipment:** WT89OTDAH9WA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: WT89OTDAH9WA
+- **Tombstoned Equipment:** WT89OTDAH9WA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: LMM0AE
+- **Tombstoned Equipment:** LMM0AE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: LMM0AE
+- **Tombstoned Equipment:** LMM0AE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: I2VGKE
+- **Tombstoned Equipment:** I2VGKE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: I2VGKE
+- **Tombstoned Equipment:** I2VGKE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: YP8JF
+- **Tombstoned Equipment:** YP8JF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: YP8JF
+- **Tombstoned Equipment:** YP8JF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: CIXJCJRMY
+- **Tombstoned Equipment:** CIXJCJRMY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: CIXJCJRMY
+- **Tombstoned Equipment:** CIXJCJRMY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 4FNDP8
+- **Tombstoned Equipment:** 4FNDP8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 4FNDP8
+- **Tombstoned Equipment:** 4FNDP8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: GTEV36LF6Q
+- **Tombstoned Equipment:** GTEV36LF6Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: GTEV36LF6Q
+- **Tombstoned Equipment:** GTEV36LF6Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 3UQ4
+- **Tombstoned Equipment:** 3UQ4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 3UQ4
+- **Tombstoned Equipment:** 3UQ4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: KL4R
+- **Tombstoned Equipment:** KL4R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: KL4R
+- **Tombstoned Equipment:** KL4R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: RWZ9ZN
+- **Tombstoned Equipment:** RWZ9ZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: RWZ9ZN
+- **Tombstoned Equipment:** RWZ9ZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: ZSLTY361
+- **Tombstoned Equipment:** ZSLTY361
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: ZSLTY361
+- **Tombstoned Equipment:** ZSLTY361
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 47MDDJH
+- **Tombstoned Equipment:** 47MDDJH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 47MDDJH
+- **Tombstoned Equipment:** 47MDDJH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: R47VXCD3RG
+- **Tombstoned Equipment:** R47VXCD3RG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: R47VXCD3RG
+- **Tombstoned Equipment:** R47VXCD3RG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: KD3
+- **Tombstoned Equipment:** KD3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: KD3
+- **Tombstoned Equipment:** KD3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: N02
+- **Tombstoned Equipment:** N02
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: N02
+- **Tombstoned Equipment:** N02
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TR6B4ZNO8
+- **Tombstoned Equipment:** TR6B4ZNO8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TR6B4ZNO8
+- **Tombstoned Equipment:** TR6B4ZNO8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: I5J6
+- **Tombstoned Equipment:** I5J6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: I5J6
+- **Tombstoned Equipment:** I5J6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 1FT0XX
+- **Tombstoned Equipment:** 1FT0XX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 1FT0XX
+- **Tombstoned Equipment:** 1FT0XX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 0005A
+- **Tombstoned Equipment:** 0005A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 0005A
+- **Tombstoned Equipment:** 0005A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: HIGH
+- **Tombstoned Equipment:** HIGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: HIGH
+- **Tombstoned Equipment:** HIGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 9IV
+- **Tombstoned Equipment:** 9IV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 9IV
+- **Tombstoned Equipment:** 9IV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: IUCYJ
+- **Tombstoned Equipment:** IUCYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: IUCYJ
+- **Tombstoned Equipment:** IUCYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: DKSAZ51
+- **Tombstoned Equipment:** DKSAZ51
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: DKSAZ51
+- **Tombstoned Equipment:** DKSAZ51
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: JV8CX5D6EGOO
+- **Tombstoned Equipment:** JV8CX5D6EGOO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: JV8CX5D6EGOO
+- **Tombstoned Equipment:** JV8CX5D6EGOO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: AHHUUOMFZ2EV
+- **Tombstoned Equipment:** AHHUUOMFZ2EV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: AHHUUOMFZ2EV
+- **Tombstoned Equipment:** AHHUUOMFZ2EV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 3VHH7L
+- **Tombstoned Equipment:** 3VHH7L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 3VHH7L
+- **Tombstoned Equipment:** 3VHH7L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: GH7A7FC
+- **Tombstoned Equipment:** GH7A7FC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: GH7A7FC
+- **Tombstoned Equipment:** GH7A7FC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: F1T
+- **Tombstoned Equipment:** F1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: F1T
+- **Tombstoned Equipment:** F1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: PT4WP7NW
+- **Tombstoned Equipment:** PT4WP7NW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: PT4WP7NW
+- **Tombstoned Equipment:** PT4WP7NW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: LZGYKY
+- **Tombstoned Equipment:** LZGYKY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: LZGYKY
+- **Tombstoned Equipment:** LZGYKY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 94YT57ZQGQXJ
+- **Tombstoned Equipment:** 94YT57ZQGQXJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 94YT57ZQGQXJ
+- **Tombstoned Equipment:** 94YT57ZQGQXJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: YHNR6
+- **Tombstoned Equipment:** YHNR6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: YHNR6
+- **Tombstoned Equipment:** YHNR6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: P3Y48J
+- **Tombstoned Equipment:** P3Y48J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: P3Y48J
+- **Tombstoned Equipment:** P3Y48J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: KR6V6H1M0J
+- **Tombstoned Equipment:** KR6V6H1M0J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: KR6V6H1M0J
+- **Tombstoned Equipment:** KR6V6H1M0J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 9AQX
+- **Tombstoned Equipment:** 9AQX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 9AQX
+- **Tombstoned Equipment:** 9AQX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 73B
+- **Tombstoned Equipment:** 73B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 73B
+- **Tombstoned Equipment:** 73B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 06B
+- **Tombstoned Equipment:** 06B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 06B
+- **Tombstoned Equipment:** 06B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: DBDLKS7R8H2
+- **Tombstoned Equipment:** DBDLKS7R8H2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: DBDLKS7R8H2
+- **Tombstoned Equipment:** DBDLKS7R8H2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 1QAJJNURJGAB
+- **Tombstoned Equipment:** 1QAJJNURJGAB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 1QAJJNURJGAB
+- **Tombstoned Equipment:** 1QAJJNURJGAB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: RESUMED
+- **Tombstoned Equipment:** RESUMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: RESUMED
+- **Tombstoned Equipment:** RESUMED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: J7TN7S6
+- **Tombstoned Equipment:** J7TN7S6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: J7TN7S6
+- **Tombstoned Equipment:** J7TN7S6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: FWZV2K8
+- **Tombstoned Equipment:** FWZV2K8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: FWZV2K8
+- **Tombstoned Equipment:** FWZV2K8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 13YH1CW6F6
+- **Tombstoned Equipment:** 13YH1CW6F6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 13YH1CW6F6
+- **Tombstoned Equipment:** 13YH1CW6F6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TX2
+- **Tombstoned Equipment:** TX2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TX2
+- **Tombstoned Equipment:** TX2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: S0LL
+- **Tombstoned Equipment:** S0LL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: S0LL
+- **Tombstoned Equipment:** S0LL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: HEOTEQUPI52
+- **Tombstoned Equipment:** HEOTEQUPI52
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: HEOTEQUPI52
+- **Tombstoned Equipment:** HEOTEQUPI52
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: MJ4D00
+- **Tombstoned Equipment:** MJ4D00
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: MJ4D00
+- **Tombstoned Equipment:** MJ4D00
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: WL15P
+- **Tombstoned Equipment:** WL15P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: WL15P
+- **Tombstoned Equipment:** WL15P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: E646ZZAPUVM0
+- **Tombstoned Equipment:** E646ZZAPUVM0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: E646ZZAPUVM0
+- **Tombstoned Equipment:** E646ZZAPUVM0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: V9U9J00X
+- **Tombstoned Equipment:** V9U9J00X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: V9U9J00X
+- **Tombstoned Equipment:** V9U9J00X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: ZCSQ5
+- **Tombstoned Equipment:** ZCSQ5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: ZCSQ5
+- **Tombstoned Equipment:** ZCSQ5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TE0E7KSWIETR
+- **Tombstoned Equipment:** TE0E7KSWIETR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: TE0E7KSWIETR
+- **Tombstoned Equipment:** TE0E7KSWIETR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: FDLGLLVMU7U
+- **Tombstoned Equipment:** FDLGLLVMU7U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: FDLGLLVMU7U
+- **Tombstoned Equipment:** FDLGLLVMU7U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: IYMY6070V
+- **Tombstoned Equipment:** IYMY6070V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: IYMY6070V
+- **Tombstoned Equipment:** IYMY6070V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 7ZD
+- **Tombstoned Equipment:** 7ZD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 7ZD
+- **Tombstoned Equipment:** 7ZD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: IPOB7J64N6
+- **Tombstoned Equipment:** IPOB7J64N6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: IPOB7J64N6
+- **Tombstoned Equipment:** IPOB7J64N6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 0T45X
+- **Tombstoned Equipment:** 0T45X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 0T45X
+- **Tombstoned Equipment:** 0T45X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: RYC4
+- **Tombstoned Equipment:** RYC4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: RYC4
+- **Tombstoned Equipment:** RYC4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: IHUA
+- **Tombstoned Equipment:** IHUA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: IHUA
+- **Tombstoned Equipment:** IHUA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: O6B91J
+- **Tombstoned Equipment:** O6B91J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: O6B91J
+- **Tombstoned Equipment:** O6B91J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: X4XS20XW4DRD
+- **Tombstoned Equipment:** X4XS20XW4DRD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: X4XS20XW4DRD
+- **Tombstoned Equipment:** X4XS20XW4DRD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: J5QLF35XOQ3K
+- **Tombstoned Equipment:** J5QLF35XOQ3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: J5QLF35XOQ3K
+- **Tombstoned Equipment:** J5QLF35XOQ3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: USWEB1CPL4PO
+- **Tombstoned Equipment:** USWEB1CPL4PO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: USWEB1CPL4PO
+- **Tombstoned Equipment:** USWEB1CPL4PO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: OH779IVR33
+- **Tombstoned Equipment:** OH779IVR33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: OH779IVR33
+- **Tombstoned Equipment:** OH779IVR33
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: SDOR
+- **Tombstoned Equipment:** SDOR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: SDOR
+- **Tombstoned Equipment:** SDOR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: OQE9ZYDWAIL2
+- **Tombstoned Equipment:** OQE9ZYDWAIL2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: OQE9ZYDWAIL2
+- **Tombstoned Equipment:** OQE9ZYDWAIL2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: COM1
+- **Tombstoned Equipment:** COM1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: COM1
+- **Tombstoned Equipment:** COM1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: LG5AJZZ090OZ
+- **Tombstoned Equipment:** LG5AJZZ090OZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: LG5AJZZ090OZ
+- **Tombstoned Equipment:** LG5AJZZ090OZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: SHK1O
+- **Tombstoned Equipment:** SHK1O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: SHK1O
+- **Tombstoned Equipment:** SHK1O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: XU5KLRYT3ZG
+- **Tombstoned Equipment:** XU5KLRYT3ZG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: XU5KLRYT3ZG
+- **Tombstoned Equipment:** XU5KLRYT3ZG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: HE4D6UO
+- **Tombstoned Equipment:** HE4D6UO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: HE4D6UO
+- **Tombstoned Equipment:** HE4D6UO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 4JIQ4A
+- **Tombstoned Equipment:** 4JIQ4A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 4JIQ4A
+- **Tombstoned Equipment:** 4JIQ4A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: NMD
+- **Tombstoned Equipment:** NMD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: NMD
+- **Tombstoned Equipment:** NMD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: PCYF0EBPY
+- **Tombstoned Equipment:** PCYF0EBPY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: PCYF0EBPY
+- **Tombstoned Equipment:** PCYF0EBPY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: UG52SOEC2HUW
+- **Tombstoned Equipment:** UG52SOEC2HUW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: UG52SOEC2HUW
+- **Tombstoned Equipment:** UG52SOEC2HUW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 5QKR9Y
+- **Tombstoned Equipment:** 5QKR9Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: 5QKR9Y
+- **Tombstoned Equipment:** 5QKR9Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: OMW3ASJQ83A7
+- **Tombstoned Equipment:** OMW3ASJQ83A7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: OMW3ASJQ83A7
+- **Tombstoned Equipment:** OMW3ASJQ83A7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: RVP5OSTM
+- **Tombstoned Equipment:** RVP5OSTM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: RVP5OSTM
+- **Tombstoned Equipment:** RVP5OSTM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: L4G
+- **Tombstoned Equipment:** L4G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: L4G
+- **Tombstoned Equipment:** L4G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: MGZ
+- **Tombstoned Equipment:** MGZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: MGZ
+- **Tombstoned Equipment:** MGZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: EGCRV8
+- **Tombstoned Equipment:** EGCRV8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: EGCRV8
+- **Tombstoned Equipment:** EGCRV8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: MGUFJMVYGZ
+- **Tombstoned Equipment:** MGUFJMVYGZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:19:02 UTC] Document Deletion: MGUFJMVYGZ
+- **Tombstoned Equipment:** MGUFJMVYGZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2U473F
+- **Tombstoned Equipment:** 2U473F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2U473F
+- **Tombstoned Equipment:** 2U473F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: RYRZ8SM3Y6
+- **Tombstoned Equipment:** RYRZ8SM3Y6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: RYRZ8SM3Y6
+- **Tombstoned Equipment:** RYRZ8SM3Y6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 3NBRZEQY2PE2
+- **Tombstoned Equipment:** 3NBRZEQY2PE2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 3NBRZEQY2PE2
+- **Tombstoned Equipment:** 3NBRZEQY2PE2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: WMDWIEYRLG
+- **Tombstoned Equipment:** WMDWIEYRLG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: WMDWIEYRLG
+- **Tombstoned Equipment:** WMDWIEYRLG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: J8AS9D32ROB
+- **Tombstoned Equipment:** J8AS9D32ROB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: J8AS9D32ROB
+- **Tombstoned Equipment:** J8AS9D32ROB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: HF0ZE
+- **Tombstoned Equipment:** HF0ZE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: HF0ZE
+- **Tombstoned Equipment:** HF0ZE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: FFFFFF
+- **Tombstoned Equipment:** FFFFFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: FFFFFF
+- **Tombstoned Equipment:** FFFFFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 1W45
+- **Tombstoned Equipment:** 1W45
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 1W45
+- **Tombstoned Equipment:** 1W45
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: JMBC05C14BWN
+- **Tombstoned Equipment:** JMBC05C14BWN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: JMBC05C14BWN
+- **Tombstoned Equipment:** JMBC05C14BWN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 4MTBD0N0EK
+- **Tombstoned Equipment:** 4MTBD0N0EK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 4MTBD0N0EK
+- **Tombstoned Equipment:** 4MTBD0N0EK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: M3WS
+- **Tombstoned Equipment:** M3WS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: M3WS
+- **Tombstoned Equipment:** M3WS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: MKYR4
+- **Tombstoned Equipment:** MKYR4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: MKYR4
+- **Tombstoned Equipment:** MKYR4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: Z4FRTK
+- **Tombstoned Equipment:** Z4FRTK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: Z4FRTK
+- **Tombstoned Equipment:** Z4FRTK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: VBSX
+- **Tombstoned Equipment:** VBSX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: VBSX
+- **Tombstoned Equipment:** VBSX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: BJ1F
+- **Tombstoned Equipment:** BJ1F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: BJ1F
+- **Tombstoned Equipment:** BJ1F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ASRZHNPLJQ8
+- **Tombstoned Equipment:** ASRZHNPLJQ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ASRZHNPLJQ8
+- **Tombstoned Equipment:** ASRZHNPLJQ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: UXX
+- **Tombstoned Equipment:** UXX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: UXX
+- **Tombstoned Equipment:** UXX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 6BUM5BR
+- **Tombstoned Equipment:** 6BUM5BR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 6BUM5BR
+- **Tombstoned Equipment:** 6BUM5BR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: YEKQBN5
+- **Tombstoned Equipment:** YEKQBN5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: YEKQBN5
+- **Tombstoned Equipment:** YEKQBN5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: VYG69RHA1P4A
+- **Tombstoned Equipment:** VYG69RHA1P4A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: VYG69RHA1P4A
+- **Tombstoned Equipment:** VYG69RHA1P4A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ONP91U3G
+- **Tombstoned Equipment:** ONP91U3G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ONP91U3G
+- **Tombstoned Equipment:** ONP91U3G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: HQBX6GJ
+- **Tombstoned Equipment:** HQBX6GJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: HQBX6GJ
+- **Tombstoned Equipment:** HQBX6GJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: SIL
+- **Tombstoned Equipment:** SIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: SIL
+- **Tombstoned Equipment:** SIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 5BXMHUC794PK
+- **Tombstoned Equipment:** 5BXMHUC794PK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 5BXMHUC794PK
+- **Tombstoned Equipment:** 5BXMHUC794PK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: CZEWL0
+- **Tombstoned Equipment:** CZEWL0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: CZEWL0
+- **Tombstoned Equipment:** CZEWL0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 5WP
+- **Tombstoned Equipment:** 5WP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 5WP
+- **Tombstoned Equipment:** 5WP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 8P40DS
+- **Tombstoned Equipment:** 8P40DS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 8P40DS
+- **Tombstoned Equipment:** 8P40DS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: DWJ
+- **Tombstoned Equipment:** DWJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: DWJ
+- **Tombstoned Equipment:** DWJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: LFI259BT0UFQ
+- **Tombstoned Equipment:** LFI259BT0UFQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: LFI259BT0UFQ
+- **Tombstoned Equipment:** LFI259BT0UFQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ZAKS32ITLA
+- **Tombstoned Equipment:** ZAKS32ITLA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ZAKS32ITLA
+- **Tombstoned Equipment:** ZAKS32ITLA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 7JU9
+- **Tombstoned Equipment:** 7JU9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 7JU9
+- **Tombstoned Equipment:** 7JU9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: AMQ3X46EFE7N
+- **Tombstoned Equipment:** AMQ3X46EFE7N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: AMQ3X46EFE7N
+- **Tombstoned Equipment:** AMQ3X46EFE7N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: EVALUATED
+- **Tombstoned Equipment:** EVALUATED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: YP9VGWHF03TX
+- **Tombstoned Equipment:** YP9VGWHF03TX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: YP9VGWHF03TX
+- **Tombstoned Equipment:** YP9VGWHF03TX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 4JV
+- **Tombstoned Equipment:** 4JV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 4JV
+- **Tombstoned Equipment:** 4JV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 5XBEIC
+- **Tombstoned Equipment:** 5XBEIC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 5XBEIC
+- **Tombstoned Equipment:** 5XBEIC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 0KO
+- **Tombstoned Equipment:** 0KO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 0KO
+- **Tombstoned Equipment:** 0KO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: N6UI10DUG
+- **Tombstoned Equipment:** N6UI10DUG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: N6UI10DUG
+- **Tombstoned Equipment:** N6UI10DUG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: W0YN0U
+- **Tombstoned Equipment:** W0YN0U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: W0YN0U
+- **Tombstoned Equipment:** W0YN0U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: BEJ78
+- **Tombstoned Equipment:** BEJ78
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: BEJ78
+- **Tombstoned Equipment:** BEJ78
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: QNRHATA6SDIZ
+- **Tombstoned Equipment:** QNRHATA6SDIZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: QNRHATA6SDIZ
+- **Tombstoned Equipment:** QNRHATA6SDIZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: IFUJLOAY
+- **Tombstoned Equipment:** IFUJLOAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: IFUJLOAY
+- **Tombstoned Equipment:** IFUJLOAY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: T5177
+- **Tombstoned Equipment:** T5177
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: T5177
+- **Tombstoned Equipment:** T5177
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: AHG0S4S1ZOXG
+- **Tombstoned Equipment:** AHG0S4S1ZOXG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: AHG0S4S1ZOXG
+- **Tombstoned Equipment:** AHG0S4S1ZOXG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: JDNII39396Y6
+- **Tombstoned Equipment:** JDNII39396Y6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: JDNII39396Y6
+- **Tombstoned Equipment:** JDNII39396Y6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: DBH
+- **Tombstoned Equipment:** DBH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: DBH
+- **Tombstoned Equipment:** DBH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: O9Q9F2GQ9ZFD
+- **Tombstoned Equipment:** O9Q9F2GQ9ZFD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: O9Q9F2GQ9ZFD
+- **Tombstoned Equipment:** O9Q9F2GQ9ZFD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 28LV0PX64UQR
+- **Tombstoned Equipment:** 28LV0PX64UQR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 28LV0PX64UQR
+- **Tombstoned Equipment:** 28LV0PX64UQR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: TSN7Z
+- **Tombstoned Equipment:** TSN7Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: TSN7Z
+- **Tombstoned Equipment:** TSN7Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: EPO
+- **Tombstoned Equipment:** EPO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: EPO
+- **Tombstoned Equipment:** EPO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: QAJW99MH
+- **Tombstoned Equipment:** QAJW99MH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: QAJW99MH
+- **Tombstoned Equipment:** QAJW99MH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: QNOJE6L8
+- **Tombstoned Equipment:** QNOJE6L8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: QNOJE6L8
+- **Tombstoned Equipment:** QNOJE6L8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: MCG0KVGQM4M
+- **Tombstoned Equipment:** MCG0KVGQM4M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: MCG0KVGQM4M
+- **Tombstoned Equipment:** MCG0KVGQM4M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2YKRJS0HMWMR
+- **Tombstoned Equipment:** 2YKRJS0HMWMR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2YKRJS0HMWMR
+- **Tombstoned Equipment:** 2YKRJS0HMWMR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 34U8XDVB
+- **Tombstoned Equipment:** 34U8XDVB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 34U8XDVB
+- **Tombstoned Equipment:** 34U8XDVB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: LZSE1PZKA
+- **Tombstoned Equipment:** LZSE1PZKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: LZSE1PZKA
+- **Tombstoned Equipment:** LZSE1PZKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 26F8
+- **Tombstoned Equipment:** 26F8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 26F8
+- **Tombstoned Equipment:** 26F8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: TEIRFWYX9M61
+- **Tombstoned Equipment:** TEIRFWYX9M61
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: TEIRFWYX9M61
+- **Tombstoned Equipment:** TEIRFWYX9M61
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: QZTBMTV45QE
+- **Tombstoned Equipment:** QZTBMTV45QE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: QZTBMTV45QE
+- **Tombstoned Equipment:** QZTBMTV45QE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: MDE2WK14SLXO
+- **Tombstoned Equipment:** MDE2WK14SLXO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: MDE2WK14SLXO
+- **Tombstoned Equipment:** MDE2WK14SLXO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2G9IER
+- **Tombstoned Equipment:** 2G9IER
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2G9IER
+- **Tombstoned Equipment:** 2G9IER
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: N5SMH
+- **Tombstoned Equipment:** N5SMH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: N5SMH
+- **Tombstoned Equipment:** N5SMH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: P2Q0C
+- **Tombstoned Equipment:** P2Q0C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: P2Q0C
+- **Tombstoned Equipment:** P2Q0C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: A7A
+- **Tombstoned Equipment:** A7A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: A7A
+- **Tombstoned Equipment:** A7A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: X385FZKR0BD5
+- **Tombstoned Equipment:** X385FZKR0BD5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: X385FZKR0BD5
+- **Tombstoned Equipment:** X385FZKR0BD5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 4UTA7
+- **Tombstoned Equipment:** 4UTA7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 4UTA7
+- **Tombstoned Equipment:** 4UTA7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 39DXHX
+- **Tombstoned Equipment:** 39DXHX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 39DXHX
+- **Tombstoned Equipment:** 39DXHX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 9UJHYF
+- **Tombstoned Equipment:** 9UJHYF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 9UJHYF
+- **Tombstoned Equipment:** 9UJHYF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: LLY
+- **Tombstoned Equipment:** LLY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: LLY
+- **Tombstoned Equipment:** LLY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: V40ZI9OA
+- **Tombstoned Equipment:** V40ZI9OA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: V40ZI9OA
+- **Tombstoned Equipment:** V40ZI9OA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: Y4D22407KH4E
+- **Tombstoned Equipment:** Y4D22407KH4E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: Y4D22407KH4E
+- **Tombstoned Equipment:** Y4D22407KH4E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ZNEOT0
+- **Tombstoned Equipment:** ZNEOT0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ZNEOT0
+- **Tombstoned Equipment:** ZNEOT0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 7N62
+- **Tombstoned Equipment:** 7N62
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 7N62
+- **Tombstoned Equipment:** 7N62
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ZZ2FJP1LVCNI
+- **Tombstoned Equipment:** ZZ2FJP1LVCNI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ZZ2FJP1LVCNI
+- **Tombstoned Equipment:** ZZ2FJP1LVCNI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: BBQQBNM
+- **Tombstoned Equipment:** BBQQBNM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: BBQQBNM
+- **Tombstoned Equipment:** BBQQBNM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: G17
+- **Tombstoned Equipment:** G17
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: G17
+- **Tombstoned Equipment:** G17
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: MO4FBCKDE
+- **Tombstoned Equipment:** MO4FBCKDE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: MO4FBCKDE
+- **Tombstoned Equipment:** MO4FBCKDE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2R0VA7V
+- **Tombstoned Equipment:** 2R0VA7V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2R0VA7V
+- **Tombstoned Equipment:** 2R0VA7V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2DEKTSFTN
+- **Tombstoned Equipment:** 2DEKTSFTN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 2DEKTSFTN
+- **Tombstoned Equipment:** 2DEKTSFTN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: U4272O0F3DKA
+- **Tombstoned Equipment:** U4272O0F3DKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: U4272O0F3DKA
+- **Tombstoned Equipment:** U4272O0F3DKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 5XHII73AK930
+- **Tombstoned Equipment:** 5XHII73AK930
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 5XHII73AK930
+- **Tombstoned Equipment:** 5XHII73AK930
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: AQCPH
+- **Tombstoned Equipment:** AQCPH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: AQCPH
+- **Tombstoned Equipment:** AQCPH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: XYLJRIZ
+- **Tombstoned Equipment:** XYLJRIZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: XYLJRIZ
+- **Tombstoned Equipment:** XYLJRIZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: OJMAWW
+- **Tombstoned Equipment:** OJMAWW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: OJMAWW
+- **Tombstoned Equipment:** OJMAWW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: UVO8FSU3H7B1
+- **Tombstoned Equipment:** UVO8FSU3H7B1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: UVO8FSU3H7B1
+- **Tombstoned Equipment:** UVO8FSU3H7B1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: JKY7J
+- **Tombstoned Equipment:** JKY7J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: JKY7J
+- **Tombstoned Equipment:** JKY7J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: RBSB
+- **Tombstoned Equipment:** RBSB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: RBSB
+- **Tombstoned Equipment:** RBSB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: HATYFB1TP
+- **Tombstoned Equipment:** HATYFB1TP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: HATYFB1TP
+- **Tombstoned Equipment:** HATYFB1TP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 50SP5LNL
+- **Tombstoned Equipment:** 50SP5LNL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 50SP5LNL
+- **Tombstoned Equipment:** 50SP5LNL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: HZA
+- **Tombstoned Equipment:** HZA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: HZA
+- **Tombstoned Equipment:** HZA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 439
+- **Tombstoned Equipment:** 439
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 439
+- **Tombstoned Equipment:** 439
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: KO4U
+- **Tombstoned Equipment:** KO4U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: KO4U
+- **Tombstoned Equipment:** KO4U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: AJKX
+- **Tombstoned Equipment:** AJKX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: AJKX
+- **Tombstoned Equipment:** AJKX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 9MJ
+- **Tombstoned Equipment:** 9MJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: 9MJ
+- **Tombstoned Equipment:** 9MJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: P2SVNHC2
+- **Tombstoned Equipment:** P2SVNHC2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: P2SVNHC2
+- **Tombstoned Equipment:** P2SVNHC2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ZKQ11
+- **Tombstoned Equipment:** ZKQ11
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:37:42 UTC] Document Deletion: ZKQ11
+- **Tombstoned Equipment:** ZKQ11
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: PM6GEY
+- **Tombstoned Equipment:** PM6GEY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: PM6GEY
+- **Tombstoned Equipment:** PM6GEY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: AQYVMCVOAKP7
+- **Tombstoned Equipment:** AQYVMCVOAKP7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: AQYVMCVOAKP7
+- **Tombstoned Equipment:** AQYVMCVOAKP7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: TMAB4XG
+- **Tombstoned Equipment:** TMAB4XG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: TMAB4XG
+- **Tombstoned Equipment:** TMAB4XG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: TWVPD2P
+- **Tombstoned Equipment:** TWVPD2P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: TWVPD2P
+- **Tombstoned Equipment:** TWVPD2P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WR9UDDNR
+- **Tombstoned Equipment:** WR9UDDNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WR9UDDNR
+- **Tombstoned Equipment:** WR9UDDNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: YBN7HA482ZAO
+- **Tombstoned Equipment:** YBN7HA482ZAO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: YBN7HA482ZAO
+- **Tombstoned Equipment:** YBN7HA482ZAO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: Y527P
+- **Tombstoned Equipment:** Y527P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: Y527P
+- **Tombstoned Equipment:** Y527P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: X01I
+- **Tombstoned Equipment:** X01I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: X01I
+- **Tombstoned Equipment:** X01I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 3OG8HUUBSQZ
+- **Tombstoned Equipment:** 3OG8HUUBSQZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 3OG8HUUBSQZ
+- **Tombstoned Equipment:** 3OG8HUUBSQZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 5M3CF6D73
+- **Tombstoned Equipment:** 5M3CF6D73
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 5M3CF6D73
+- **Tombstoned Equipment:** 5M3CF6D73
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: ARFXAXDJ
+- **Tombstoned Equipment:** ARFXAXDJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: ARFXAXDJ
+- **Tombstoned Equipment:** ARFXAXDJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 9ZD1CSGZ95UK
+- **Tombstoned Equipment:** 9ZD1CSGZ95UK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 9ZD1CSGZ95UK
+- **Tombstoned Equipment:** 9ZD1CSGZ95UK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: KH5
+- **Tombstoned Equipment:** KH5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: KH5
+- **Tombstoned Equipment:** KH5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: YA4NGVZD
+- **Tombstoned Equipment:** YA4NGVZD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: YA4NGVZD
+- **Tombstoned Equipment:** YA4NGVZD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: TBD
+- **Tombstoned Equipment:** TBD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: TBD
+- **Tombstoned Equipment:** TBD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: RMGJ5OJ8QY
+- **Tombstoned Equipment:** RMGJ5OJ8QY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: RMGJ5OJ8QY
+- **Tombstoned Equipment:** RMGJ5OJ8QY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 1A3P
+- **Tombstoned Equipment:** 1A3P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 1A3P
+- **Tombstoned Equipment:** 1A3P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: BAU
+- **Tombstoned Equipment:** BAU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: BAU
+- **Tombstoned Equipment:** BAU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: K800C8T7
+- **Tombstoned Equipment:** K800C8T7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: K800C8T7
+- **Tombstoned Equipment:** K800C8T7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: JBAWTHX6UXTJ
+- **Tombstoned Equipment:** JBAWTHX6UXTJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: JBAWTHX6UXTJ
+- **Tombstoned Equipment:** JBAWTHX6UXTJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: UF4FWVKL9
+- **Tombstoned Equipment:** UF4FWVKL9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: UF4FWVKL9
+- **Tombstoned Equipment:** UF4FWVKL9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 4CYHG
+- **Tombstoned Equipment:** 4CYHG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 4CYHG
+- **Tombstoned Equipment:** 4CYHG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: SW94SLCCF
+- **Tombstoned Equipment:** SW94SLCCF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: SW94SLCCF
+- **Tombstoned Equipment:** SW94SLCCF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: HVJQTYF
+- **Tombstoned Equipment:** HVJQTYF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: HVJQTYF
+- **Tombstoned Equipment:** HVJQTYF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: YMCYQVD
+- **Tombstoned Equipment:** YMCYQVD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: YMCYQVD
+- **Tombstoned Equipment:** YMCYQVD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: NGTLF6XBLHO
+- **Tombstoned Equipment:** NGTLF6XBLHO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: NGTLF6XBLHO
+- **Tombstoned Equipment:** NGTLF6XBLHO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 77CMS4K
+- **Tombstoned Equipment:** 77CMS4K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 77CMS4K
+- **Tombstoned Equipment:** 77CMS4K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: Q0ED1L
+- **Tombstoned Equipment:** Q0ED1L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: Q0ED1L
+- **Tombstoned Equipment:** Q0ED1L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: G5LUNWCH
+- **Tombstoned Equipment:** G5LUNWCH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: G5LUNWCH
+- **Tombstoned Equipment:** G5LUNWCH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: VKY2LHP
+- **Tombstoned Equipment:** VKY2LHP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: VKY2LHP
+- **Tombstoned Equipment:** VKY2LHP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 331D8SL
+- **Tombstoned Equipment:** 331D8SL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 331D8SL
+- **Tombstoned Equipment:** 331D8SL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: YG9K4
+- **Tombstoned Equipment:** YG9K4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: YG9K4
+- **Tombstoned Equipment:** YG9K4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 58WUQ
+- **Tombstoned Equipment:** 58WUQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 58WUQ
+- **Tombstoned Equipment:** 58WUQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: DX1P
+- **Tombstoned Equipment:** DX1P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: DX1P
+- **Tombstoned Equipment:** DX1P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: GGRSNJYPJ
+- **Tombstoned Equipment:** GGRSNJYPJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: GGRSNJYPJ
+- **Tombstoned Equipment:** GGRSNJYPJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: M8FS8DH3S
+- **Tombstoned Equipment:** M8FS8DH3S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: M8FS8DH3S
+- **Tombstoned Equipment:** M8FS8DH3S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: LFGORB
+- **Tombstoned Equipment:** LFGORB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: LFGORB
+- **Tombstoned Equipment:** LFGORB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: FFFFFF
+- **Tombstoned Equipment:** FFFFFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: FFFFFF
+- **Tombstoned Equipment:** FFFFFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: RVH2MZX8K9WA
+- **Tombstoned Equipment:** RVH2MZX8K9WA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: RVH2MZX8K9WA
+- **Tombstoned Equipment:** RVH2MZX8K9WA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: PL5SBU
+- **Tombstoned Equipment:** PL5SBU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: PL5SBU
+- **Tombstoned Equipment:** PL5SBU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: IRTYR
+- **Tombstoned Equipment:** IRTYR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: IRTYR
+- **Tombstoned Equipment:** IRTYR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: PW0KTSNNV64
+- **Tombstoned Equipment:** PW0KTSNNV64
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: PW0KTSNNV64
+- **Tombstoned Equipment:** PW0KTSNNV64
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 3TX
+- **Tombstoned Equipment:** 3TX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 3TX
+- **Tombstoned Equipment:** 3TX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: GQPF
+- **Tombstoned Equipment:** GQPF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: GQPF
+- **Tombstoned Equipment:** GQPF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: M4E1BJOX5
+- **Tombstoned Equipment:** M4E1BJOX5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: M4E1BJOX5
+- **Tombstoned Equipment:** M4E1BJOX5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 53AS4VVGDO94
+- **Tombstoned Equipment:** 53AS4VVGDO94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 53AS4VVGDO94
+- **Tombstoned Equipment:** 53AS4VVGDO94
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WQTT44RJ5
+- **Tombstoned Equipment:** WQTT44RJ5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WQTT44RJ5
+- **Tombstoned Equipment:** WQTT44RJ5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 2H4B71Q7N53B
+- **Tombstoned Equipment:** 2H4B71Q7N53B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 2H4B71Q7N53B
+- **Tombstoned Equipment:** 2H4B71Q7N53B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: F69N9F3G2Q
+- **Tombstoned Equipment:** F69N9F3G2Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: F69N9F3G2Q
+- **Tombstoned Equipment:** F69N9F3G2Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 03MV
+- **Tombstoned Equipment:** 03MV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 03MV
+- **Tombstoned Equipment:** 03MV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 2K6
+- **Tombstoned Equipment:** 2K6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 2K6
+- **Tombstoned Equipment:** 2K6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: X4UHD2TBCZOQ
+- **Tombstoned Equipment:** X4UHD2TBCZOQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: X4UHD2TBCZOQ
+- **Tombstoned Equipment:** X4UHD2TBCZOQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 5LX1QC44ZSQ
+- **Tombstoned Equipment:** 5LX1QC44ZSQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 5LX1QC44ZSQ
+- **Tombstoned Equipment:** 5LX1QC44ZSQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 0JK
+- **Tombstoned Equipment:** 0JK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 0JK
+- **Tombstoned Equipment:** 0JK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: R6U1
+- **Tombstoned Equipment:** R6U1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: R6U1
+- **Tombstoned Equipment:** R6U1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: ZS7Z
+- **Tombstoned Equipment:** ZS7Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: ZS7Z
+- **Tombstoned Equipment:** ZS7Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: OGD
+- **Tombstoned Equipment:** OGD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: OGD
+- **Tombstoned Equipment:** OGD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: G0LT4YC
+- **Tombstoned Equipment:** G0LT4YC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: G0LT4YC
+- **Tombstoned Equipment:** G0LT4YC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: V60FYVKEZQ
+- **Tombstoned Equipment:** V60FYVKEZQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: V60FYVKEZQ
+- **Tombstoned Equipment:** V60FYVKEZQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: D1RC7Z4KDZ3D
+- **Tombstoned Equipment:** D1RC7Z4KDZ3D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: D1RC7Z4KDZ3D
+- **Tombstoned Equipment:** D1RC7Z4KDZ3D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WDZ
+- **Tombstoned Equipment:** WDZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WDZ
+- **Tombstoned Equipment:** WDZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: Y20HNONN7I58
+- **Tombstoned Equipment:** Y20HNONN7I58
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: Y20HNONN7I58
+- **Tombstoned Equipment:** Y20HNONN7I58
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: DRONK4YF9FSG
+- **Tombstoned Equipment:** DRONK4YF9FSG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: DRONK4YF9FSG
+- **Tombstoned Equipment:** DRONK4YF9FSG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 515QKXU
+- **Tombstoned Equipment:** 515QKXU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 515QKXU
+- **Tombstoned Equipment:** 515QKXU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: PNVCC
+- **Tombstoned Equipment:** PNVCC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: PNVCC
+- **Tombstoned Equipment:** PNVCC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 7VASPYZ48MED
+- **Tombstoned Equipment:** 7VASPYZ48MED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 7VASPYZ48MED
+- **Tombstoned Equipment:** 7VASPYZ48MED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 741RC
+- **Tombstoned Equipment:** 741RC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 741RC
+- **Tombstoned Equipment:** 741RC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: VYG
+- **Tombstoned Equipment:** VYG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: VYG
+- **Tombstoned Equipment:** VYG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: SQSTZHV
+- **Tombstoned Equipment:** SQSTZHV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: SQSTZHV
+- **Tombstoned Equipment:** SQSTZHV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: MR40EE
+- **Tombstoned Equipment:** MR40EE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: MR40EE
+- **Tombstoned Equipment:** MR40EE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WN1
+- **Tombstoned Equipment:** WN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WN1
+- **Tombstoned Equipment:** WN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: FART6
+- **Tombstoned Equipment:** FART6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: FART6
+- **Tombstoned Equipment:** FART6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: AUT5N27DN
+- **Tombstoned Equipment:** AUT5N27DN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: AUT5N27DN
+- **Tombstoned Equipment:** AUT5N27DN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 8H1I8GCDOTHC
+- **Tombstoned Equipment:** 8H1I8GCDOTHC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 8H1I8GCDOTHC
+- **Tombstoned Equipment:** 8H1I8GCDOTHC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: RD07WI72Y1OU
+- **Tombstoned Equipment:** RD07WI72Y1OU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: RD07WI72Y1OU
+- **Tombstoned Equipment:** RD07WI72Y1OU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: LN7
+- **Tombstoned Equipment:** LN7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: LN7
+- **Tombstoned Equipment:** LN7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: J0D
+- **Tombstoned Equipment:** J0D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: J0D
+- **Tombstoned Equipment:** J0D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WOVX
+- **Tombstoned Equipment:** WOVX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: WOVX
+- **Tombstoned Equipment:** WOVX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 4RX9
+- **Tombstoned Equipment:** 4RX9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 4RX9
+- **Tombstoned Equipment:** 4RX9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: LOL
+- **Tombstoned Equipment:** LOL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: LOL
+- **Tombstoned Equipment:** LOL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 79BTZTD
+- **Tombstoned Equipment:** 79BTZTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 79BTZTD
+- **Tombstoned Equipment:** 79BTZTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: DTK6
+- **Tombstoned Equipment:** DTK6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: DTK6
+- **Tombstoned Equipment:** DTK6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: KE3IQ18R8
+- **Tombstoned Equipment:** KE3IQ18R8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: KE3IQ18R8
+- **Tombstoned Equipment:** KE3IQ18R8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: NDNPH1
+- **Tombstoned Equipment:** NDNPH1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: NDNPH1
+- **Tombstoned Equipment:** NDNPH1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: LUREZ
+- **Tombstoned Equipment:** LUREZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: LUREZ
+- **Tombstoned Equipment:** LUREZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: X43JYCR
+- **Tombstoned Equipment:** X43JYCR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: X43JYCR
+- **Tombstoned Equipment:** X43JYCR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: VA7V
+- **Tombstoned Equipment:** VA7V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: VA7V
+- **Tombstoned Equipment:** VA7V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: Y4ET
+- **Tombstoned Equipment:** Y4ET
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: Y4ET
+- **Tombstoned Equipment:** Y4ET
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: ZBXF
+- **Tombstoned Equipment:** ZBXF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: ZBXF
+- **Tombstoned Equipment:** ZBXF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: TET84
+- **Tombstoned Equipment:** TET84
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: TET84
+- **Tombstoned Equipment:** TET84
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: FEDYEMA
+- **Tombstoned Equipment:** FEDYEMA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: FEDYEMA
+- **Tombstoned Equipment:** FEDYEMA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: JJ39SAVQ8NL0
+- **Tombstoned Equipment:** JJ39SAVQ8NL0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: JJ39SAVQ8NL0
+- **Tombstoned Equipment:** JJ39SAVQ8NL0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 4LVKB46X5
+- **Tombstoned Equipment:** 4LVKB46X5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 4LVKB46X5
+- **Tombstoned Equipment:** 4LVKB46X5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: T7IYHZI
+- **Tombstoned Equipment:** T7IYHZI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: T7IYHZI
+- **Tombstoned Equipment:** T7IYHZI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 3MHKKG4H
+- **Tombstoned Equipment:** 3MHKKG4H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 3MHKKG4H
+- **Tombstoned Equipment:** 3MHKKG4H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 7V3VH9
+- **Tombstoned Equipment:** 7V3VH9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: 7V3VH9
+- **Tombstoned Equipment:** 7V3VH9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: L9D6XDLXW76
+- **Tombstoned Equipment:** L9D6XDLXW76
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: L9D6XDLXW76
+- **Tombstoned Equipment:** L9D6XDLXW76
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: NPH
+- **Tombstoned Equipment:** NPH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:38:06 UTC] Document Deletion: NPH
+- **Tombstoned Equipment:** NPH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 04:38**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 04:38**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 04:38**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 04VTZHUZQ9E2
+- **Tombstoned Equipment:** 04VTZHUZQ9E2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 04VTZHUZQ9E2
+- **Tombstoned Equipment:** 04VTZHUZQ9E2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8YMPOQ9KGS68
+- **Tombstoned Equipment:** 8YMPOQ9KGS68
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8YMPOQ9KGS68
+- **Tombstoned Equipment:** 8YMPOQ9KGS68
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: U2XV
+- **Tombstoned Equipment:** U2XV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: U2XV
+- **Tombstoned Equipment:** U2XV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 7TD
+- **Tombstoned Equipment:** 7TD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 7TD
+- **Tombstoned Equipment:** 7TD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: MRK
+- **Tombstoned Equipment:** MRK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: MRK
+- **Tombstoned Equipment:** MRK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: QSEG0V1J
+- **Tombstoned Equipment:** QSEG0V1J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: QSEG0V1J
+- **Tombstoned Equipment:** QSEG0V1J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: RNOHBBWC3
+- **Tombstoned Equipment:** RNOHBBWC3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: RNOHBBWC3
+- **Tombstoned Equipment:** RNOHBBWC3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NP9I4SK5AG0Z
+- **Tombstoned Equipment:** NP9I4SK5AG0Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NP9I4SK5AG0Z
+- **Tombstoned Equipment:** NP9I4SK5AG0Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: T0256N00AC0A
+- **Tombstoned Equipment:** T0256N00AC0A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: T0256N00AC0A
+- **Tombstoned Equipment:** T0256N00AC0A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 5DBS721CL2KL
+- **Tombstoned Equipment:** 5DBS721CL2KL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 5DBS721CL2KL
+- **Tombstoned Equipment:** 5DBS721CL2KL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: GUU8872NM
+- **Tombstoned Equipment:** GUU8872NM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: GUU8872NM
+- **Tombstoned Equipment:** GUU8872NM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: V099
+- **Tombstoned Equipment:** V099
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: V099
+- **Tombstoned Equipment:** V099
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: IGQD5DBYX
+- **Tombstoned Equipment:** IGQD5DBYX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: IGQD5DBYX
+- **Tombstoned Equipment:** IGQD5DBYX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: LHF9C45
+- **Tombstoned Equipment:** LHF9C45
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: LHF9C45
+- **Tombstoned Equipment:** LHF9C45
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FFB5FF
+- **Tombstoned Equipment:** FFB5FF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FFB5FF
+- **Tombstoned Equipment:** FFB5FF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 7LSNJ28JBLH0
+- **Tombstoned Equipment:** 7LSNJ28JBLH0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 7LSNJ28JBLH0
+- **Tombstoned Equipment:** 7LSNJ28JBLH0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 787C
+- **Tombstoned Equipment:** 787C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 787C
+- **Tombstoned Equipment:** 787C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 5YY
+- **Tombstoned Equipment:** 5YY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 5YY
+- **Tombstoned Equipment:** 5YY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: BI20GN00DGZ6
+- **Tombstoned Equipment:** BI20GN00DGZ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: BI20GN00DGZ6
+- **Tombstoned Equipment:** BI20GN00DGZ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: J06RXF5
+- **Tombstoned Equipment:** J06RXF5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: J06RXF5
+- **Tombstoned Equipment:** J06RXF5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: ZM6OCMLWM3DS
+- **Tombstoned Equipment:** ZM6OCMLWM3DS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: ZM6OCMLWM3DS
+- **Tombstoned Equipment:** ZM6OCMLWM3DS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 1U1WW74LC2BE
+- **Tombstoned Equipment:** 1U1WW74LC2BE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 1U1WW74LC2BE
+- **Tombstoned Equipment:** 1U1WW74LC2BE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: TL5DKC0FPTPT
+- **Tombstoned Equipment:** TL5DKC0FPTPT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: TL5DKC0FPTPT
+- **Tombstoned Equipment:** TL5DKC0FPTPT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: XUCC7FXF9N82
+- **Tombstoned Equipment:** XUCC7FXF9N82
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: XUCC7FXF9N82
+- **Tombstoned Equipment:** XUCC7FXF9N82
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 3B5M
+- **Tombstoned Equipment:** 3B5M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 3B5M
+- **Tombstoned Equipment:** 3B5M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: TK0
+- **Tombstoned Equipment:** TK0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: TK0
+- **Tombstoned Equipment:** TK0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: JQUWR
+- **Tombstoned Equipment:** JQUWR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: JQUWR
+- **Tombstoned Equipment:** JQUWR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 02UX
+- **Tombstoned Equipment:** 02UX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 02UX
+- **Tombstoned Equipment:** 02UX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 3FXGK
+- **Tombstoned Equipment:** 3FXGK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 3FXGK
+- **Tombstoned Equipment:** 3FXGK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: ZBAI1GIZY772
+- **Tombstoned Equipment:** ZBAI1GIZY772
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: ZBAI1GIZY772
+- **Tombstoned Equipment:** ZBAI1GIZY772
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: ECWSHLH1P351
+- **Tombstoned Equipment:** ECWSHLH1P351
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: ECWSHLH1P351
+- **Tombstoned Equipment:** ECWSHLH1P351
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: MOZMC3SNZQM
+- **Tombstoned Equipment:** MOZMC3SNZQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: MOZMC3SNZQM
+- **Tombstoned Equipment:** MOZMC3SNZQM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: GQ24
+- **Tombstoned Equipment:** GQ24
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: GQ24
+- **Tombstoned Equipment:** GQ24
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: QTIA
+- **Tombstoned Equipment:** QTIA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: QTIA
+- **Tombstoned Equipment:** QTIA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: PJS
+- **Tombstoned Equipment:** PJS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: PJS
+- **Tombstoned Equipment:** PJS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: T2ZRE
+- **Tombstoned Equipment:** T2ZRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: T2ZRE
+- **Tombstoned Equipment:** T2ZRE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: EJ458ZC7N15K
+- **Tombstoned Equipment:** EJ458ZC7N15K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: EJ458ZC7N15K
+- **Tombstoned Equipment:** EJ458ZC7N15K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: SIEXWTB35
+- **Tombstoned Equipment:** SIEXWTB35
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: SIEXWTB35
+- **Tombstoned Equipment:** SIEXWTB35
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: JOZXXCDL7ZCZ
+- **Tombstoned Equipment:** JOZXXCDL7ZCZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: JOZXXCDL7ZCZ
+- **Tombstoned Equipment:** JOZXXCDL7ZCZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: N12UBJNS
+- **Tombstoned Equipment:** N12UBJNS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: N12UBJNS
+- **Tombstoned Equipment:** N12UBJNS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: MP42XS9AHTXI
+- **Tombstoned Equipment:** MP42XS9AHTXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: MP42XS9AHTXI
+- **Tombstoned Equipment:** MP42XS9AHTXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8UX2
+- **Tombstoned Equipment:** 8UX2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8UX2
+- **Tombstoned Equipment:** 8UX2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 511RKUGLZT0V
+- **Tombstoned Equipment:** 511RKUGLZT0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 511RKUGLZT0V
+- **Tombstoned Equipment:** 511RKUGLZT0V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: T5J
+- **Tombstoned Equipment:** T5J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: T5J
+- **Tombstoned Equipment:** T5J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 7ZT
+- **Tombstoned Equipment:** 7ZT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 7ZT
+- **Tombstoned Equipment:** 7ZT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: O2MDR4O
+- **Tombstoned Equipment:** O2MDR4O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: O2MDR4O
+- **Tombstoned Equipment:** O2MDR4O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: K0EO4JW
+- **Tombstoned Equipment:** K0EO4JW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: K0EO4JW
+- **Tombstoned Equipment:** K0EO4JW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 0CX53
+- **Tombstoned Equipment:** 0CX53
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 0CX53
+- **Tombstoned Equipment:** 0CX53
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 9OP6KGSVA5UU
+- **Tombstoned Equipment:** 9OP6KGSVA5UU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 9OP6KGSVA5UU
+- **Tombstoned Equipment:** 9OP6KGSVA5UU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NQW3ISC1K1KD
+- **Tombstoned Equipment:** NQW3ISC1K1KD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NQW3ISC1K1KD
+- **Tombstoned Equipment:** NQW3ISC1K1KD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 9Y67YH0RIE7W
+- **Tombstoned Equipment:** 9Y67YH0RIE7W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 9Y67YH0RIE7W
+- **Tombstoned Equipment:** 9Y67YH0RIE7W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 6VOO
+- **Tombstoned Equipment:** 6VOO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 6VOO
+- **Tombstoned Equipment:** 6VOO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KQHH
+- **Tombstoned Equipment:** KQHH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KQHH
+- **Tombstoned Equipment:** KQHH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: GWJB
+- **Tombstoned Equipment:** GWJB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: GWJB
+- **Tombstoned Equipment:** GWJB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FOQBV6PT
+- **Tombstoned Equipment:** FOQBV6PT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FOQBV6PT
+- **Tombstoned Equipment:** FOQBV6PT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KN1DX7DE2YF
+- **Tombstoned Equipment:** KN1DX7DE2YF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KN1DX7DE2YF
+- **Tombstoned Equipment:** KN1DX7DE2YF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: K1FLBA7Q
+- **Tombstoned Equipment:** K1FLBA7Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: K1FLBA7Q
+- **Tombstoned Equipment:** K1FLBA7Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 57YVZQLGV6KL
+- **Tombstoned Equipment:** 57YVZQLGV6KL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 57YVZQLGV6KL
+- **Tombstoned Equipment:** 57YVZQLGV6KL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KKIYFF20QB
+- **Tombstoned Equipment:** KKIYFF20QB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KKIYFF20QB
+- **Tombstoned Equipment:** KKIYFF20QB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: J3X6LH
+- **Tombstoned Equipment:** J3X6LH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: J3X6LH
+- **Tombstoned Equipment:** J3X6LH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 76GT
+- **Tombstoned Equipment:** 76GT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 76GT
+- **Tombstoned Equipment:** 76GT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: OOW
+- **Tombstoned Equipment:** OOW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: OOW
+- **Tombstoned Equipment:** OOW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NU2SY4
+- **Tombstoned Equipment:** NU2SY4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NU2SY4
+- **Tombstoned Equipment:** NU2SY4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 2HQOE80J78I7
+- **Tombstoned Equipment:** 2HQOE80J78I7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 2HQOE80J78I7
+- **Tombstoned Equipment:** 2HQOE80J78I7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: PCEFOZYDAUYE
+- **Tombstoned Equipment:** PCEFOZYDAUYE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: PCEFOZYDAUYE
+- **Tombstoned Equipment:** PCEFOZYDAUYE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8ZZ0
+- **Tombstoned Equipment:** 8ZZ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8ZZ0
+- **Tombstoned Equipment:** 8ZZ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FNL2
+- **Tombstoned Equipment:** FNL2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FNL2
+- **Tombstoned Equipment:** FNL2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: SAOJ8JN5LUJN
+- **Tombstoned Equipment:** SAOJ8JN5LUJN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: SAOJ8JN5LUJN
+- **Tombstoned Equipment:** SAOJ8JN5LUJN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 2302
+- **Tombstoned Equipment:** 2302
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 2302
+- **Tombstoned Equipment:** 2302
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FOUND
+- **Tombstoned Equipment:** FOUND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: FOUND
+- **Tombstoned Equipment:** FOUND
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: S2GPS
+- **Tombstoned Equipment:** S2GPS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: S2GPS
+- **Tombstoned Equipment:** S2GPS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: TY72ENTQJA9P
+- **Tombstoned Equipment:** TY72ENTQJA9P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: TY72ENTQJA9P
+- **Tombstoned Equipment:** TY72ENTQJA9P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 108
+- **Tombstoned Equipment:** 108
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 108
+- **Tombstoned Equipment:** 108
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: T6JP
+- **Tombstoned Equipment:** T6JP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: T6JP
+- **Tombstoned Equipment:** T6JP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: AB0O9LYGK8RR
+- **Tombstoned Equipment:** AB0O9LYGK8RR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: AB0O9LYGK8RR
+- **Tombstoned Equipment:** AB0O9LYGK8RR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: HEDHG9RG5U
+- **Tombstoned Equipment:** HEDHG9RG5U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: HEDHG9RG5U
+- **Tombstoned Equipment:** HEDHG9RG5U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KN05K1U4VZ6S
+- **Tombstoned Equipment:** KN05K1U4VZ6S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KN05K1U4VZ6S
+- **Tombstoned Equipment:** KN05K1U4VZ6S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: GV6CAI
+- **Tombstoned Equipment:** GV6CAI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: GV6CAI
+- **Tombstoned Equipment:** GV6CAI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8ABUX
+- **Tombstoned Equipment:** 8ABUX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8ABUX
+- **Tombstoned Equipment:** 8ABUX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: VUQ
+- **Tombstoned Equipment:** VUQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: VUQ
+- **Tombstoned Equipment:** VUQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: WYK2G3GT
+- **Tombstoned Equipment:** WYK2G3GT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: WYK2G3GT
+- **Tombstoned Equipment:** WYK2G3GT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: Q02
+- **Tombstoned Equipment:** Q02
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: Q02
+- **Tombstoned Equipment:** Q02
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NA99S
+- **Tombstoned Equipment:** NA99S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: NA99S
+- **Tombstoned Equipment:** NA99S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: XUWVNO1B33QV
+- **Tombstoned Equipment:** XUWVNO1B33QV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: XUWVNO1B33QV
+- **Tombstoned Equipment:** XUWVNO1B33QV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 31PW2
+- **Tombstoned Equipment:** 31PW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 31PW2
+- **Tombstoned Equipment:** 31PW2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: I7HFDPZU01E
+- **Tombstoned Equipment:** I7HFDPZU01E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: I7HFDPZU01E
+- **Tombstoned Equipment:** I7HFDPZU01E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 36W0J9
+- **Tombstoned Equipment:** 36W0J9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 36W0J9
+- **Tombstoned Equipment:** 36W0J9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: B92726
+- **Tombstoned Equipment:** B92726
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: B92726
+- **Tombstoned Equipment:** B92726
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: C4D4G5GHD0
+- **Tombstoned Equipment:** C4D4G5GHD0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: C4D4G5GHD0
+- **Tombstoned Equipment:** C4D4G5GHD0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 1195E6OU5WBV
+- **Tombstoned Equipment:** 1195E6OU5WBV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 1195E6OU5WBV
+- **Tombstoned Equipment:** 1195E6OU5WBV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KPXPNIPTIQNP
+- **Tombstoned Equipment:** KPXPNIPTIQNP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: KPXPNIPTIQNP
+- **Tombstoned Equipment:** KPXPNIPTIQNP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: IVIZ833KFW96
+- **Tombstoned Equipment:** IVIZ833KFW96
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: IVIZ833KFW96
+- **Tombstoned Equipment:** IVIZ833KFW96
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: X93TJ
+- **Tombstoned Equipment:** X93TJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: X93TJ
+- **Tombstoned Equipment:** X93TJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8MSMK04
+- **Tombstoned Equipment:** 8MSMK04
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 8MSMK04
+- **Tombstoned Equipment:** 8MSMK04
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 9WH
+- **Tombstoned Equipment:** 9WH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: 9WH
+- **Tombstoned Equipment:** 9WH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: HAI
+- **Tombstoned Equipment:** HAI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:41:31 UTC] Document Deletion: HAI
+- **Tombstoned Equipment:** HAI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 04:41**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 04:41**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: E08JJ
+- **Tombstoned Equipment:** E08JJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: E08JJ
+- **Tombstoned Equipment:** E08JJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: AN58Y93W7PT
+- **Tombstoned Equipment:** AN58Y93W7PT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: AN58Y93W7PT
+- **Tombstoned Equipment:** AN58Y93W7PT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: I5NPLNRZZ7J9
+- **Tombstoned Equipment:** I5NPLNRZZ7J9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: I5NPLNRZZ7J9
+- **Tombstoned Equipment:** I5NPLNRZZ7J9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: VWGUJGE4Y
+- **Tombstoned Equipment:** VWGUJGE4Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: VWGUJGE4Y
+- **Tombstoned Equipment:** VWGUJGE4Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 5CJHRUA
+- **Tombstoned Equipment:** 5CJHRUA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 5CJHRUA
+- **Tombstoned Equipment:** 5CJHRUA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 356D4CC
+- **Tombstoned Equipment:** 356D4CC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 356D4CC
+- **Tombstoned Equipment:** 356D4CC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: GXM4LKM
+- **Tombstoned Equipment:** GXM4LKM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: GXM4LKM
+- **Tombstoned Equipment:** GXM4LKM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2UKW
+- **Tombstoned Equipment:** 2UKW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2UKW
+- **Tombstoned Equipment:** 2UKW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: WRC3RO
+- **Tombstoned Equipment:** WRC3RO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: WRC3RO
+- **Tombstoned Equipment:** WRC3RO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8WS
+- **Tombstoned Equipment:** 8WS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8WS
+- **Tombstoned Equipment:** 8WS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2NTLSJB6E40H
+- **Tombstoned Equipment:** 2NTLSJB6E40H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2NTLSJB6E40H
+- **Tombstoned Equipment:** 2NTLSJB6E40H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: I3V
+- **Tombstoned Equipment:** I3V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: I3V
+- **Tombstoned Equipment:** I3V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: P87BD9
+- **Tombstoned Equipment:** P87BD9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: P87BD9
+- **Tombstoned Equipment:** P87BD9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 1O8KV63AWC
+- **Tombstoned Equipment:** 1O8KV63AWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 1O8KV63AWC
+- **Tombstoned Equipment:** 1O8KV63AWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ROJE00V18LD
+- **Tombstoned Equipment:** ROJE00V18LD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ROJE00V18LD
+- **Tombstoned Equipment:** ROJE00V18LD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: RLESB
+- **Tombstoned Equipment:** RLESB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: RLESB
+- **Tombstoned Equipment:** RLESB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: W3FVZR6HX9
+- **Tombstoned Equipment:** W3FVZR6HX9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: W3FVZR6HX9
+- **Tombstoned Equipment:** W3FVZR6HX9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 3AN2REAI
+- **Tombstoned Equipment:** 3AN2REAI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 3AN2REAI
+- **Tombstoned Equipment:** 3AN2REAI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: F86WGOCSKPR7
+- **Tombstoned Equipment:** F86WGOCSKPR7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: F86WGOCSKPR7
+- **Tombstoned Equipment:** F86WGOCSKPR7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: F0J3
+- **Tombstoned Equipment:** F0J3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: F0J3
+- **Tombstoned Equipment:** F0J3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 1V1IQ1YCU62P
+- **Tombstoned Equipment:** 1V1IQ1YCU62P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 1V1IQ1YCU62P
+- **Tombstoned Equipment:** 1V1IQ1YCU62P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2303
+- **Tombstoned Equipment:** 2303
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2303
+- **Tombstoned Equipment:** 2303
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: KQZRN
+- **Tombstoned Equipment:** KQZRN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: KQZRN
+- **Tombstoned Equipment:** KQZRN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2ZA
+- **Tombstoned Equipment:** 2ZA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2ZA
+- **Tombstoned Equipment:** 2ZA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: C505
+- **Tombstoned Equipment:** C505
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: C505
+- **Tombstoned Equipment:** C505
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8Y0D
+- **Tombstoned Equipment:** 8Y0D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8Y0D
+- **Tombstoned Equipment:** 8Y0D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: R3ZBIDL4KQ
+- **Tombstoned Equipment:** R3ZBIDL4KQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: R3ZBIDL4KQ
+- **Tombstoned Equipment:** R3ZBIDL4KQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZZQ
+- **Tombstoned Equipment:** ZZQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZZQ
+- **Tombstoned Equipment:** ZZQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: V66KBKRQSQY1
+- **Tombstoned Equipment:** V66KBKRQSQY1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: V66KBKRQSQY1
+- **Tombstoned Equipment:** V66KBKRQSQY1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 3HNN
+- **Tombstoned Equipment:** 3HNN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 3HNN
+- **Tombstoned Equipment:** 3HNN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: SH2YDII3D
+- **Tombstoned Equipment:** SH2YDII3D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: SH2YDII3D
+- **Tombstoned Equipment:** SH2YDII3D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: RESOLVED
+- **Tombstoned Equipment:** RESOLVED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: RESOLVED
+- **Tombstoned Equipment:** RESOLVED
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZWE3V0OQA
+- **Tombstoned Equipment:** ZWE3V0OQA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZWE3V0OQA
+- **Tombstoned Equipment:** ZWE3V0OQA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: H572AS2JCGO
+- **Tombstoned Equipment:** H572AS2JCGO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: H572AS2JCGO
+- **Tombstoned Equipment:** H572AS2JCGO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LWXSS
+- **Tombstoned Equipment:** LWXSS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LWXSS
+- **Tombstoned Equipment:** LWXSS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LZMYSBU
+- **Tombstoned Equipment:** LZMYSBU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LZMYSBU
+- **Tombstoned Equipment:** LZMYSBU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 6EMOH
+- **Tombstoned Equipment:** 6EMOH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 6EMOH
+- **Tombstoned Equipment:** 6EMOH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: AFHKV
+- **Tombstoned Equipment:** AFHKV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: AFHKV
+- **Tombstoned Equipment:** AFHKV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: DAZOYOH0Y7XO
+- **Tombstoned Equipment:** DAZOYOH0Y7XO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: DAZOYOH0Y7XO
+- **Tombstoned Equipment:** DAZOYOH0Y7XO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: U3FQT2KDJ2O5
+- **Tombstoned Equipment:** U3FQT2KDJ2O5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: U3FQT2KDJ2O5
+- **Tombstoned Equipment:** U3FQT2KDJ2O5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: OFVB2Y
+- **Tombstoned Equipment:** OFVB2Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: OFVB2Y
+- **Tombstoned Equipment:** OFVB2Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: H68ID
+- **Tombstoned Equipment:** H68ID
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: H68ID
+- **Tombstoned Equipment:** H68ID
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: HEBE6HV6BNGJ
+- **Tombstoned Equipment:** HEBE6HV6BNGJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: HEBE6HV6BNGJ
+- **Tombstoned Equipment:** HEBE6HV6BNGJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: XW9H
+- **Tombstoned Equipment:** XW9H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: XW9H
+- **Tombstoned Equipment:** XW9H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: OWQR6YJEGVM
+- **Tombstoned Equipment:** OWQR6YJEGVM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: OWQR6YJEGVM
+- **Tombstoned Equipment:** OWQR6YJEGVM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: YH9K5
+- **Tombstoned Equipment:** YH9K5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: YH9K5
+- **Tombstoned Equipment:** YH9K5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZXB775O
+- **Tombstoned Equipment:** ZXB775O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZXB775O
+- **Tombstoned Equipment:** ZXB775O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: QM0
+- **Tombstoned Equipment:** QM0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: QM0
+- **Tombstoned Equipment:** QM0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: T7F8
+- **Tombstoned Equipment:** T7F8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: T7F8
+- **Tombstoned Equipment:** T7F8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: FPW14JC9PY
+- **Tombstoned Equipment:** FPW14JC9PY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: FPW14JC9PY
+- **Tombstoned Equipment:** FPW14JC9PY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZSZ2
+- **Tombstoned Equipment:** ZSZ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZSZ2
+- **Tombstoned Equipment:** ZSZ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LF89Q5U27PXZ
+- **Tombstoned Equipment:** LF89Q5U27PXZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LF89Q5U27PXZ
+- **Tombstoned Equipment:** LF89Q5U27PXZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8RN7QSUABC2D
+- **Tombstoned Equipment:** 8RN7QSUABC2D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8RN7QSUABC2D
+- **Tombstoned Equipment:** 8RN7QSUABC2D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: AN88LTIC
+- **Tombstoned Equipment:** AN88LTIC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: AN88LTIC
+- **Tombstoned Equipment:** AN88LTIC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: DSC
+- **Tombstoned Equipment:** DSC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: DSC
+- **Tombstoned Equipment:** DSC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 6915Y
+- **Tombstoned Equipment:** 6915Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 6915Y
+- **Tombstoned Equipment:** 6915Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: YS76YI
+- **Tombstoned Equipment:** YS76YI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: YS76YI
+- **Tombstoned Equipment:** YS76YI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: J2SIRGPDJ8PI
+- **Tombstoned Equipment:** J2SIRGPDJ8PI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: J2SIRGPDJ8PI
+- **Tombstoned Equipment:** J2SIRGPDJ8PI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: HNYG0
+- **Tombstoned Equipment:** HNYG0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: HNYG0
+- **Tombstoned Equipment:** HNYG0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: DIH2XRE4
+- **Tombstoned Equipment:** DIH2XRE4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: DIH2XRE4
+- **Tombstoned Equipment:** DIH2XRE4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: TO8C9R1C
+- **Tombstoned Equipment:** TO8C9R1C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: TO8C9R1C
+- **Tombstoned Equipment:** TO8C9R1C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 4C9AGF7G2Q73
+- **Tombstoned Equipment:** 4C9AGF7G2Q73
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 4C9AGF7G2Q73
+- **Tombstoned Equipment:** 4C9AGF7G2Q73
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 4GY8DE92
+- **Tombstoned Equipment:** 4GY8DE92
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 4GY8DE92
+- **Tombstoned Equipment:** 4GY8DE92
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 29X
+- **Tombstoned Equipment:** 29X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 29X
+- **Tombstoned Equipment:** 29X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: M59P
+- **Tombstoned Equipment:** M59P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: M59P
+- **Tombstoned Equipment:** M59P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: IJLL8
+- **Tombstoned Equipment:** IJLL8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: IJLL8
+- **Tombstoned Equipment:** IJLL8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: FWGUZ
+- **Tombstoned Equipment:** FWGUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: FWGUZ
+- **Tombstoned Equipment:** FWGUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 43UQ
+- **Tombstoned Equipment:** 43UQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 43UQ
+- **Tombstoned Equipment:** 43UQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 21Z2U4JZZ00S
+- **Tombstoned Equipment:** 21Z2U4JZZ00S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 21Z2U4JZZ00S
+- **Tombstoned Equipment:** 21Z2U4JZZ00S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: XG3W9
+- **Tombstoned Equipment:** XG3W9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: XG3W9
+- **Tombstoned Equipment:** XG3W9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2L8T0QO31FFG
+- **Tombstoned Equipment:** 2L8T0QO31FFG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 2L8T0QO31FFG
+- **Tombstoned Equipment:** 2L8T0QO31FFG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: BEYVZ31ZAO7Y
+- **Tombstoned Equipment:** BEYVZ31ZAO7Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: BEYVZ31ZAO7Y
+- **Tombstoned Equipment:** BEYVZ31ZAO7Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: NQ40CE1FAID1
+- **Tombstoned Equipment:** NQ40CE1FAID1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: NQ40CE1FAID1
+- **Tombstoned Equipment:** NQ40CE1FAID1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: D9NC9I
+- **Tombstoned Equipment:** D9NC9I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: D9NC9I
+- **Tombstoned Equipment:** D9NC9I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 1B163Q5DRIJF
+- **Tombstoned Equipment:** 1B163Q5DRIJF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 1B163Q5DRIJF
+- **Tombstoned Equipment:** 1B163Q5DRIJF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: C3V6
+- **Tombstoned Equipment:** C3V6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: C3V6
+- **Tombstoned Equipment:** C3V6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZTC5SE8NIXGN
+- **Tombstoned Equipment:** ZTC5SE8NIXGN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: ZTC5SE8NIXGN
+- **Tombstoned Equipment:** ZTC5SE8NIXGN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: WU76Z
+- **Tombstoned Equipment:** WU76Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: WU76Z
+- **Tombstoned Equipment:** WU76Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: XJAW00RPH
+- **Tombstoned Equipment:** XJAW00RPH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: XJAW00RPH
+- **Tombstoned Equipment:** XJAW00RPH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8Z5AHF0LEM9
+- **Tombstoned Equipment:** 8Z5AHF0LEM9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8Z5AHF0LEM9
+- **Tombstoned Equipment:** 8Z5AHF0LEM9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: PFNH5
+- **Tombstoned Equipment:** PFNH5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: PFNH5
+- **Tombstoned Equipment:** PFNH5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LYM11M0PFFP
+- **Tombstoned Equipment:** LYM11M0PFFP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LYM11M0PFFP
+- **Tombstoned Equipment:** LYM11M0PFFP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 95ZAIEWI3
+- **Tombstoned Equipment:** 95ZAIEWI3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 95ZAIEWI3
+- **Tombstoned Equipment:** 95ZAIEWI3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: T2O
+- **Tombstoned Equipment:** T2O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: T2O
+- **Tombstoned Equipment:** T2O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 1OTTJ
+- **Tombstoned Equipment:** 1OTTJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 1OTTJ
+- **Tombstoned Equipment:** 1OTTJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: YNA0BIX
+- **Tombstoned Equipment:** YNA0BIX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: YNA0BIX
+- **Tombstoned Equipment:** YNA0BIX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: WPWC
+- **Tombstoned Equipment:** WPWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: WPWC
+- **Tombstoned Equipment:** WPWC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 64TV8
+- **Tombstoned Equipment:** 64TV8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 64TV8
+- **Tombstoned Equipment:** 64TV8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8YDQ
+- **Tombstoned Equipment:** 8YDQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 8YDQ
+- **Tombstoned Equipment:** 8YDQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: CG6K7G
+- **Tombstoned Equipment:** CG6K7G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: CG6K7G
+- **Tombstoned Equipment:** CG6K7G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: HDL9HJ0N4ARQ
+- **Tombstoned Equipment:** HDL9HJ0N4ARQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: HDL9HJ0N4ARQ
+- **Tombstoned Equipment:** HDL9HJ0N4ARQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: NEKQKNE1XJ0
+- **Tombstoned Equipment:** NEKQKNE1XJ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: NEKQKNE1XJ0
+- **Tombstoned Equipment:** NEKQKNE1XJ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LDK0H
+- **Tombstoned Equipment:** LDK0H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: LDK0H
+- **Tombstoned Equipment:** LDK0H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: D9H836FXEEKD
+- **Tombstoned Equipment:** D9H836FXEEKD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: D9H836FXEEKD
+- **Tombstoned Equipment:** D9H836FXEEKD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 0AQ
+- **Tombstoned Equipment:** 0AQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: 0AQ
+- **Tombstoned Equipment:** 0AQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: AVOG80GRO7
+- **Tombstoned Equipment:** AVOG80GRO7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 04:49:10 UTC] Document Deletion: AVOG80GRO7
+- **Tombstoned Equipment:** AVOG80GRO7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 04:49**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 04:49**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: H09JIXH5EG10
+- **Tombstoned Equipment:** H09JIXH5EG10
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: H09JIXH5EG10
+- **Tombstoned Equipment:** H09JIXH5EG10
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: X4Y
+- **Tombstoned Equipment:** X4Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: X4Y
+- **Tombstoned Equipment:** X4Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: E4KC
+- **Tombstoned Equipment:** E4KC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: E4KC
+- **Tombstoned Equipment:** E4KC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: W66CNA7L133W
+- **Tombstoned Equipment:** W66CNA7L133W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: W66CNA7L133W
+- **Tombstoned Equipment:** W66CNA7L133W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: RW3
+- **Tombstoned Equipment:** RW3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: RW3
+- **Tombstoned Equipment:** RW3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: A0L5R2HMX7SI
+- **Tombstoned Equipment:** A0L5R2HMX7SI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: A0L5R2HMX7SI
+- **Tombstoned Equipment:** A0L5R2HMX7SI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: DBGDX1
+- **Tombstoned Equipment:** DBGDX1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: DBGDX1
+- **Tombstoned Equipment:** DBGDX1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: YJH
+- **Tombstoned Equipment:** YJH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: YJH
+- **Tombstoned Equipment:** YJH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IIVZ
+- **Tombstoned Equipment:** IIVZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IIVZ
+- **Tombstoned Equipment:** IIVZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: PAT7YOLMY
+- **Tombstoned Equipment:** PAT7YOLMY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: PAT7YOLMY
+- **Tombstoned Equipment:** PAT7YOLMY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: D4Z
+- **Tombstoned Equipment:** D4Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: D4Z
+- **Tombstoned Equipment:** D4Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 860U5KMFVIG
+- **Tombstoned Equipment:** 860U5KMFVIG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 860U5KMFVIG
+- **Tombstoned Equipment:** 860U5KMFVIG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: HJ8IY5
+- **Tombstoned Equipment:** HJ8IY5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: HJ8IY5
+- **Tombstoned Equipment:** HJ8IY5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: C16W
+- **Tombstoned Equipment:** C16W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: C16W
+- **Tombstoned Equipment:** C16W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 07MRSPGY0707
+- **Tombstoned Equipment:** 07MRSPGY0707
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 07MRSPGY0707
+- **Tombstoned Equipment:** 07MRSPGY0707
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: SV1
+- **Tombstoned Equipment:** SV1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: SV1
+- **Tombstoned Equipment:** SV1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MIVFZ2FUQPDU
+- **Tombstoned Equipment:** MIVFZ2FUQPDU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MIVFZ2FUQPDU
+- **Tombstoned Equipment:** MIVFZ2FUQPDU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: EET14ISP3S
+- **Tombstoned Equipment:** EET14ISP3S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: EET14ISP3S
+- **Tombstoned Equipment:** EET14ISP3S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: NAJ82AWD1TA0
+- **Tombstoned Equipment:** NAJ82AWD1TA0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: NAJ82AWD1TA0
+- **Tombstoned Equipment:** NAJ82AWD1TA0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MKDM
+- **Tombstoned Equipment:** MKDM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MKDM
+- **Tombstoned Equipment:** MKDM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 52E7J67
+- **Tombstoned Equipment:** 52E7J67
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 52E7J67
+- **Tombstoned Equipment:** 52E7J67
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: WP38
+- **Tombstoned Equipment:** WP38
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: WP38
+- **Tombstoned Equipment:** WP38
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 786S
+- **Tombstoned Equipment:** 786S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 786S
+- **Tombstoned Equipment:** 786S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 86FDA6OA3H1T
+- **Tombstoned Equipment:** 86FDA6OA3H1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 86FDA6OA3H1T
+- **Tombstoned Equipment:** 86FDA6OA3H1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 5ZVLEKMWZA5X
+- **Tombstoned Equipment:** 5ZVLEKMWZA5X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 5ZVLEKMWZA5X
+- **Tombstoned Equipment:** 5ZVLEKMWZA5X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: NULL
+- **Tombstoned Equipment:** NULL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: RB3
+- **Tombstoned Equipment:** RB3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: RB3
+- **Tombstoned Equipment:** RB3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: YLC
+- **Tombstoned Equipment:** YLC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: YLC
+- **Tombstoned Equipment:** YLC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MVJ
+- **Tombstoned Equipment:** MVJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MVJ
+- **Tombstoned Equipment:** MVJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: UN90GNNO5Y
+- **Tombstoned Equipment:** UN90GNNO5Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: UN90GNNO5Y
+- **Tombstoned Equipment:** UN90GNNO5Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: DZJNQXJ2O1J7
+- **Tombstoned Equipment:** DZJNQXJ2O1J7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: DZJNQXJ2O1J7
+- **Tombstoned Equipment:** DZJNQXJ2O1J7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IVMC
+- **Tombstoned Equipment:** IVMC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IVMC
+- **Tombstoned Equipment:** IVMC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: M6AP58PG
+- **Tombstoned Equipment:** M6AP58PG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: M6AP58PG
+- **Tombstoned Equipment:** M6AP58PG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ZGGLB99VRQ5Z
+- **Tombstoned Equipment:** ZGGLB99VRQ5Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ZGGLB99VRQ5Z
+- **Tombstoned Equipment:** ZGGLB99VRQ5Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: U7BBTEP
+- **Tombstoned Equipment:** U7BBTEP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: U7BBTEP
+- **Tombstoned Equipment:** U7BBTEP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 93PES3
+- **Tombstoned Equipment:** 93PES3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 93PES3
+- **Tombstoned Equipment:** 93PES3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: GUZVD4G5
+- **Tombstoned Equipment:** GUZVD4G5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: GUZVD4G5
+- **Tombstoned Equipment:** GUZVD4G5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ZVCN1
+- **Tombstoned Equipment:** ZVCN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ZVCN1
+- **Tombstoned Equipment:** ZVCN1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ETG6THESU6ZG
+- **Tombstoned Equipment:** ETG6THESU6ZG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ETG6THESU6ZG
+- **Tombstoned Equipment:** ETG6THESU6ZG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: D80D
+- **Tombstoned Equipment:** D80D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: D80D
+- **Tombstoned Equipment:** D80D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: JL62XNHCYFAR
+- **Tombstoned Equipment:** JL62XNHCYFAR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: JL62XNHCYFAR
+- **Tombstoned Equipment:** JL62XNHCYFAR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 2C3
+- **Tombstoned Equipment:** 2C3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 2C3
+- **Tombstoned Equipment:** 2C3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: WDPK1
+- **Tombstoned Equipment:** WDPK1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: WDPK1
+- **Tombstoned Equipment:** WDPK1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 43TNKVL6DVWD
+- **Tombstoned Equipment:** 43TNKVL6DVWD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 43TNKVL6DVWD
+- **Tombstoned Equipment:** 43TNKVL6DVWD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: Q5U2XN
+- **Tombstoned Equipment:** Q5U2XN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: Q5U2XN
+- **Tombstoned Equipment:** Q5U2XN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MIR3TLX9Z9G3
+- **Tombstoned Equipment:** MIR3TLX9Z9G3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MIR3TLX9Z9G3
+- **Tombstoned Equipment:** MIR3TLX9Z9G3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: P6AVWOIM3HAI
+- **Tombstoned Equipment:** P6AVWOIM3HAI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: P6AVWOIM3HAI
+- **Tombstoned Equipment:** P6AVWOIM3HAI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 0KJS7QPTMD8W
+- **Tombstoned Equipment:** 0KJS7QPTMD8W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 0KJS7QPTMD8W
+- **Tombstoned Equipment:** 0KJS7QPTMD8W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: KQRPI4S3
+- **Tombstoned Equipment:** KQRPI4S3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: KQRPI4S3
+- **Tombstoned Equipment:** KQRPI4S3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: V4FKENN
+- **Tombstoned Equipment:** V4FKENN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: V4FKENN
+- **Tombstoned Equipment:** V4FKENN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 7NV7
+- **Tombstoned Equipment:** 7NV7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 7NV7
+- **Tombstoned Equipment:** 7NV7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MHJY
+- **Tombstoned Equipment:** MHJY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MHJY
+- **Tombstoned Equipment:** MHJY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: VGUJ
+- **Tombstoned Equipment:** VGUJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: VGUJ
+- **Tombstoned Equipment:** VGUJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: PY94B0TNEK6Q
+- **Tombstoned Equipment:** PY94B0TNEK6Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: PY94B0TNEK6Q
+- **Tombstoned Equipment:** PY94B0TNEK6Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 8PU
+- **Tombstoned Equipment:** 8PU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 8PU
+- **Tombstoned Equipment:** 8PU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IT9
+- **Tombstoned Equipment:** IT9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IT9
+- **Tombstoned Equipment:** IT9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IRT
+- **Tombstoned Equipment:** IRT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IRT
+- **Tombstoned Equipment:** IRT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 860
+- **Tombstoned Equipment:** 860
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 860
+- **Tombstoned Equipment:** 860
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: V6VJFHHU48PC
+- **Tombstoned Equipment:** V6VJFHHU48PC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: V6VJFHHU48PC
+- **Tombstoned Equipment:** V6VJFHHU48PC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 5JXR
+- **Tombstoned Equipment:** 5JXR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 5JXR
+- **Tombstoned Equipment:** 5JXR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IMKL
+- **Tombstoned Equipment:** IMKL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: IMKL
+- **Tombstoned Equipment:** IMKL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: EZV
+- **Tombstoned Equipment:** EZV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: EZV
+- **Tombstoned Equipment:** EZV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ASY
+- **Tombstoned Equipment:** ASY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ASY
+- **Tombstoned Equipment:** ASY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: KKR8QZHI6QFD
+- **Tombstoned Equipment:** KKR8QZHI6QFD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: KKR8QZHI6QFD
+- **Tombstoned Equipment:** KKR8QZHI6QFD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: BY0XEVB
+- **Tombstoned Equipment:** BY0XEVB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: BY0XEVB
+- **Tombstoned Equipment:** BY0XEVB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: P4B
+- **Tombstoned Equipment:** P4B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: P4B
+- **Tombstoned Equipment:** P4B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: FJELX2Y
+- **Tombstoned Equipment:** FJELX2Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: FJELX2Y
+- **Tombstoned Equipment:** FJELX2Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 6354
+- **Tombstoned Equipment:** 6354
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 6354
+- **Tombstoned Equipment:** 6354
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 8MZ1DXEAXXYV
+- **Tombstoned Equipment:** 8MZ1DXEAXXYV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 8MZ1DXEAXXYV
+- **Tombstoned Equipment:** 8MZ1DXEAXXYV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ZBCR
+- **Tombstoned Equipment:** ZBCR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ZBCR
+- **Tombstoned Equipment:** ZBCR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: LPT1
+- **Tombstoned Equipment:** LPT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: LPT1
+- **Tombstoned Equipment:** LPT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: J9KD8HIWN0A
+- **Tombstoned Equipment:** J9KD8HIWN0A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: J9KD8HIWN0A
+- **Tombstoned Equipment:** J9KD8HIWN0A
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: BXRH
+- **Tombstoned Equipment:** BXRH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: BXRH
+- **Tombstoned Equipment:** BXRH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: Y5DXE6NPN0XS
+- **Tombstoned Equipment:** Y5DXE6NPN0XS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: Y5DXE6NPN0XS
+- **Tombstoned Equipment:** Y5DXE6NPN0XS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: Y7VD
+- **Tombstoned Equipment:** Y7VD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: Y7VD
+- **Tombstoned Equipment:** Y7VD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: KUTBGC35JZJ9
+- **Tombstoned Equipment:** KUTBGC35JZJ9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: KUTBGC35JZJ9
+- **Tombstoned Equipment:** KUTBGC35JZJ9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: I3MX
+- **Tombstoned Equipment:** I3MX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: I3MX
+- **Tombstoned Equipment:** I3MX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: YCES46HUTK
+- **Tombstoned Equipment:** YCES46HUTK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: YCES46HUTK
+- **Tombstoned Equipment:** YCES46HUTK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: SIS
+- **Tombstoned Equipment:** SIS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: SIS
+- **Tombstoned Equipment:** SIS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: V7FKTGN
+- **Tombstoned Equipment:** V7FKTGN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: V7FKTGN
+- **Tombstoned Equipment:** V7FKTGN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: PSAV34H9WZ88
+- **Tombstoned Equipment:** PSAV34H9WZ88
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: PSAV34H9WZ88
+- **Tombstoned Equipment:** PSAV34H9WZ88
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 02NTN5
+- **Tombstoned Equipment:** 02NTN5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 02NTN5
+- **Tombstoned Equipment:** 02NTN5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: JJUTK
+- **Tombstoned Equipment:** JJUTK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: JJUTK
+- **Tombstoned Equipment:** JJUTK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: UVA267SY
+- **Tombstoned Equipment:** UVA267SY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: UVA267SY
+- **Tombstoned Equipment:** UVA267SY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: GMVVWG2B37I
+- **Tombstoned Equipment:** GMVVWG2B37I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: GMVVWG2B37I
+- **Tombstoned Equipment:** GMVVWG2B37I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MI2KBODRILBV
+- **Tombstoned Equipment:** MI2KBODRILBV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: MI2KBODRILBV
+- **Tombstoned Equipment:** MI2KBODRILBV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: Y6T9IN8IM
+- **Tombstoned Equipment:** Y6T9IN8IM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: Y6T9IN8IM
+- **Tombstoned Equipment:** Y6T9IN8IM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: T7QO
+- **Tombstoned Equipment:** T7QO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: T7QO
+- **Tombstoned Equipment:** T7QO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: U62W5SBG
+- **Tombstoned Equipment:** U62W5SBG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: U62W5SBG
+- **Tombstoned Equipment:** U62W5SBG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: UVPLZYCO9GC
+- **Tombstoned Equipment:** UVPLZYCO9GC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: UVPLZYCO9GC
+- **Tombstoned Equipment:** UVPLZYCO9GC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ME0F1J4VWG4C
+- **Tombstoned Equipment:** ME0F1J4VWG4C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: ME0F1J4VWG4C
+- **Tombstoned Equipment:** ME0F1J4VWG4C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: K3Z
+- **Tombstoned Equipment:** K3Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: K3Z
+- **Tombstoned Equipment:** K3Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: H80K
+- **Tombstoned Equipment:** H80K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: H80K
+- **Tombstoned Equipment:** H80K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 0DVWGRXP
+- **Tombstoned Equipment:** 0DVWGRXP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 0DVWGRXP
+- **Tombstoned Equipment:** 0DVWGRXP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 3LC5YG
+- **Tombstoned Equipment:** 3LC5YG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 3LC5YG
+- **Tombstoned Equipment:** 3LC5YG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: AS1MLTNGL1T
+- **Tombstoned Equipment:** AS1MLTNGL1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: AS1MLTNGL1T
+- **Tombstoned Equipment:** AS1MLTNGL1T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: NHUCP0AQUJO0
+- **Tombstoned Equipment:** NHUCP0AQUJO0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: NHUCP0AQUJO0
+- **Tombstoned Equipment:** NHUCP0AQUJO0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 1TFI
+- **Tombstoned Equipment:** 1TFI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 12:56:38 UTC] Document Deletion: 1TFI
+- **Tombstoned Equipment:** 1TFI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 12:56**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 12:56**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 60Y8
+- **Tombstoned Equipment:** 60Y8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 60Y8
+- **Tombstoned Equipment:** 60Y8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: PJLCELT
+- **Tombstoned Equipment:** PJLCELT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: PJLCELT
+- **Tombstoned Equipment:** PJLCELT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: TWN3VJZY
+- **Tombstoned Equipment:** TWN3VJZY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: TWN3VJZY
+- **Tombstoned Equipment:** TWN3VJZY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: UEVK
+- **Tombstoned Equipment:** UEVK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: UEVK
+- **Tombstoned Equipment:** UEVK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: VIOLATION
+- **Tombstoned Equipment:** VIOLATION
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: VIOLATION
+- **Tombstoned Equipment:** VIOLATION
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: AKC
+- **Tombstoned Equipment:** AKC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: AKC
+- **Tombstoned Equipment:** AKC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NF9HL
+- **Tombstoned Equipment:** NF9HL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NF9HL
+- **Tombstoned Equipment:** NF9HL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BDKYJ
+- **Tombstoned Equipment:** BDKYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BDKYJ
+- **Tombstoned Equipment:** BDKYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: PR223JRZG1JK
+- **Tombstoned Equipment:** PR223JRZG1JK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: PR223JRZG1JK
+- **Tombstoned Equipment:** PR223JRZG1JK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 5WVLG96GT4P
+- **Tombstoned Equipment:** 5WVLG96GT4P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 5WVLG96GT4P
+- **Tombstoned Equipment:** 5WVLG96GT4P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: S6RXE692E
+- **Tombstoned Equipment:** S6RXE692E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: S6RXE692E
+- **Tombstoned Equipment:** S6RXE692E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NNED4TFCR4NK
+- **Tombstoned Equipment:** NNED4TFCR4NK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NNED4TFCR4NK
+- **Tombstoned Equipment:** NNED4TFCR4NK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: RT3
+- **Tombstoned Equipment:** RT3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: RT3
+- **Tombstoned Equipment:** RT3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 22MCDWDV0U8S
+- **Tombstoned Equipment:** 22MCDWDV0U8S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 22MCDWDV0U8S
+- **Tombstoned Equipment:** 22MCDWDV0U8S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: GBE
+- **Tombstoned Equipment:** GBE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: GBE
+- **Tombstoned Equipment:** GBE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BHT1
+- **Tombstoned Equipment:** BHT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BHT1
+- **Tombstoned Equipment:** BHT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 2302
+- **Tombstoned Equipment:** 2302
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 2302
+- **Tombstoned Equipment:** 2302
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 19RO
+- **Tombstoned Equipment:** 19RO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 19RO
+- **Tombstoned Equipment:** 19RO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 70E3M1SPQ
+- **Tombstoned Equipment:** 70E3M1SPQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 70E3M1SPQ
+- **Tombstoned Equipment:** 70E3M1SPQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 78BOCI
+- **Tombstoned Equipment:** 78BOCI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 78BOCI
+- **Tombstoned Equipment:** 78BOCI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: JKIDUTS8G
+- **Tombstoned Equipment:** JKIDUTS8G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: JKIDUTS8G
+- **Tombstoned Equipment:** JKIDUTS8G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: GR6DOVXGI8WU
+- **Tombstoned Equipment:** GR6DOVXGI8WU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: GR6DOVXGI8WU
+- **Tombstoned Equipment:** GR6DOVXGI8WU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: TQQ16RYZ3K1
+- **Tombstoned Equipment:** TQQ16RYZ3K1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: TQQ16RYZ3K1
+- **Tombstoned Equipment:** TQQ16RYZ3K1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: JWGH9R
+- **Tombstoned Equipment:** JWGH9R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: JWGH9R
+- **Tombstoned Equipment:** JWGH9R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: DDIS99K8BX
+- **Tombstoned Equipment:** DDIS99K8BX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: DDIS99K8BX
+- **Tombstoned Equipment:** DDIS99K8BX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: WXK1U
+- **Tombstoned Equipment:** WXK1U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: WXK1U
+- **Tombstoned Equipment:** WXK1U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 6MAQ9NE
+- **Tombstoned Equipment:** 6MAQ9NE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 6MAQ9NE
+- **Tombstoned Equipment:** 6MAQ9NE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BOX0BE
+- **Tombstoned Equipment:** BOX0BE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BOX0BE
+- **Tombstoned Equipment:** BOX0BE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NMKYQZ15ST7M
+- **Tombstoned Equipment:** NMKYQZ15ST7M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NMKYQZ15ST7M
+- **Tombstoned Equipment:** NMKYQZ15ST7M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 6V1
+- **Tombstoned Equipment:** 6V1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 6V1
+- **Tombstoned Equipment:** 6V1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: FLEHMGDA
+- **Tombstoned Equipment:** FLEHMGDA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: FLEHMGDA
+- **Tombstoned Equipment:** FLEHMGDA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: G81CI
+- **Tombstoned Equipment:** G81CI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: G81CI
+- **Tombstoned Equipment:** G81CI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: XTTDHB5UK7
+- **Tombstoned Equipment:** XTTDHB5UK7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: XTTDHB5UK7
+- **Tombstoned Equipment:** XTTDHB5UK7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: FX2BMPD311B
+- **Tombstoned Equipment:** FX2BMPD311B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: FX2BMPD311B
+- **Tombstoned Equipment:** FX2BMPD311B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: HEALTHY
+- **Tombstoned Equipment:** HEALTHY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: HEALTHY
+- **Tombstoned Equipment:** HEALTHY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: J1W768Z
+- **Tombstoned Equipment:** J1W768Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: J1W768Z
+- **Tombstoned Equipment:** J1W768Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: E1RY
+- **Tombstoned Equipment:** E1RY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: E1RY
+- **Tombstoned Equipment:** E1RY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: HKWXRZK4J1MX
+- **Tombstoned Equipment:** HKWXRZK4J1MX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: HKWXRZK4J1MX
+- **Tombstoned Equipment:** HKWXRZK4J1MX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: Z77P6KEJ
+- **Tombstoned Equipment:** Z77P6KEJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: Z77P6KEJ
+- **Tombstoned Equipment:** Z77P6KEJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: B8W921
+- **Tombstoned Equipment:** B8W921
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: B8W921
+- **Tombstoned Equipment:** B8W921
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 49CQFOWSR0M
+- **Tombstoned Equipment:** 49CQFOWSR0M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 49CQFOWSR0M
+- **Tombstoned Equipment:** 49CQFOWSR0M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 9OWH
+- **Tombstoned Equipment:** 9OWH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 9OWH
+- **Tombstoned Equipment:** 9OWH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: VBSS9GF
+- **Tombstoned Equipment:** VBSS9GF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: VBSS9GF
+- **Tombstoned Equipment:** VBSS9GF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: X7H
+- **Tombstoned Equipment:** X7H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: X7H
+- **Tombstoned Equipment:** X7H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: Q7Z
+- **Tombstoned Equipment:** Q7Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: Q7Z
+- **Tombstoned Equipment:** Q7Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: UC9
+- **Tombstoned Equipment:** UC9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: UC9
+- **Tombstoned Equipment:** UC9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: PGUNVX086WNR
+- **Tombstoned Equipment:** PGUNVX086WNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: PGUNVX086WNR
+- **Tombstoned Equipment:** PGUNVX086WNR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BQF7C4VCOD
+- **Tombstoned Equipment:** BQF7C4VCOD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BQF7C4VCOD
+- **Tombstoned Equipment:** BQF7C4VCOD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: ZMX0N
+- **Tombstoned Equipment:** ZMX0N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: ZMX0N
+- **Tombstoned Equipment:** ZMX0N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: OOKFQXUBZ90
+- **Tombstoned Equipment:** OOKFQXUBZ90
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: OOKFQXUBZ90
+- **Tombstoned Equipment:** OOKFQXUBZ90
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: WIJE
+- **Tombstoned Equipment:** WIJE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: WIJE
+- **Tombstoned Equipment:** WIJE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 1RNR8T0V6I0
+- **Tombstoned Equipment:** 1RNR8T0V6I0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 1RNR8T0V6I0
+- **Tombstoned Equipment:** 1RNR8T0V6I0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 21U80LIMOOHW
+- **Tombstoned Equipment:** 21U80LIMOOHW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 21U80LIMOOHW
+- **Tombstoned Equipment:** 21U80LIMOOHW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: CAXYNK6
+- **Tombstoned Equipment:** CAXYNK6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: CAXYNK6
+- **Tombstoned Equipment:** CAXYNK6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 7CQNLSRL7YKM
+- **Tombstoned Equipment:** 7CQNLSRL7YKM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 7CQNLSRL7YKM
+- **Tombstoned Equipment:** 7CQNLSRL7YKM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: JJ2
+- **Tombstoned Equipment:** JJ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: JJ2
+- **Tombstoned Equipment:** JJ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: OT8YP5U
+- **Tombstoned Equipment:** OT8YP5U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: OT8YP5U
+- **Tombstoned Equipment:** OT8YP5U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: AKFRGJEV1
+- **Tombstoned Equipment:** AKFRGJEV1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: AKFRGJEV1
+- **Tombstoned Equipment:** AKFRGJEV1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: IO7
+- **Tombstoned Equipment:** IO7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: IO7
+- **Tombstoned Equipment:** IO7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: OVKIKXPOX1MG
+- **Tombstoned Equipment:** OVKIKXPOX1MG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: OVKIKXPOX1MG
+- **Tombstoned Equipment:** OVKIKXPOX1MG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 6VRV
+- **Tombstoned Equipment:** 6VRV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 6VRV
+- **Tombstoned Equipment:** 6VRV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: N0MBU3
+- **Tombstoned Equipment:** N0MBU3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: N0MBU3
+- **Tombstoned Equipment:** N0MBU3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 5RI0OD2L
+- **Tombstoned Equipment:** 5RI0OD2L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 5RI0OD2L
+- **Tombstoned Equipment:** 5RI0OD2L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 5KQTEJVOUD
+- **Tombstoned Equipment:** 5KQTEJVOUD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 5KQTEJVOUD
+- **Tombstoned Equipment:** 5KQTEJVOUD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: YO2Q2PXA
+- **Tombstoned Equipment:** YO2Q2PXA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: YO2Q2PXA
+- **Tombstoned Equipment:** YO2Q2PXA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: DKZI749
+- **Tombstoned Equipment:** DKZI749
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: DKZI749
+- **Tombstoned Equipment:** DKZI749
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: JAT22ZJGHEY0
+- **Tombstoned Equipment:** JAT22ZJGHEY0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: JAT22ZJGHEY0
+- **Tombstoned Equipment:** JAT22ZJGHEY0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: KE8TPIP4M5SE
+- **Tombstoned Equipment:** KE8TPIP4M5SE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: KE8TPIP4M5SE
+- **Tombstoned Equipment:** KE8TPIP4M5SE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 44UN
+- **Tombstoned Equipment:** 44UN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 44UN
+- **Tombstoned Equipment:** 44UN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: SV22MG
+- **Tombstoned Equipment:** SV22MG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: SV22MG
+- **Tombstoned Equipment:** SV22MG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NCAQ73GKQN21
+- **Tombstoned Equipment:** NCAQ73GKQN21
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NCAQ73GKQN21
+- **Tombstoned Equipment:** NCAQ73GKQN21
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: Y4PIYPQFDE2I
+- **Tombstoned Equipment:** Y4PIYPQFDE2I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: Y4PIYPQFDE2I
+- **Tombstoned Equipment:** Y4PIYPQFDE2I
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: OVIF47G9C2G
+- **Tombstoned Equipment:** OVIF47G9C2G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: OVIF47G9C2G
+- **Tombstoned Equipment:** OVIF47G9C2G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: F5RZFY7T7OP
+- **Tombstoned Equipment:** F5RZFY7T7OP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: F5RZFY7T7OP
+- **Tombstoned Equipment:** F5RZFY7T7OP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 41GQ1
+- **Tombstoned Equipment:** 41GQ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 41GQ1
+- **Tombstoned Equipment:** 41GQ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: FS7NR
+- **Tombstoned Equipment:** FS7NR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: FS7NR
+- **Tombstoned Equipment:** FS7NR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: QTU
+- **Tombstoned Equipment:** QTU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: QTU
+- **Tombstoned Equipment:** QTU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: IZYC
+- **Tombstoned Equipment:** IZYC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: IZYC
+- **Tombstoned Equipment:** IZYC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BKC3V94CGH
+- **Tombstoned Equipment:** BKC3V94CGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: BKC3V94CGH
+- **Tombstoned Equipment:** BKC3V94CGH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: L2DM542SR75O
+- **Tombstoned Equipment:** L2DM542SR75O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: L2DM542SR75O
+- **Tombstoned Equipment:** L2DM542SR75O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: SK9MXI7F
+- **Tombstoned Equipment:** SK9MXI7F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: SK9MXI7F
+- **Tombstoned Equipment:** SK9MXI7F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: H106LWQR
+- **Tombstoned Equipment:** H106LWQR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: H106LWQR
+- **Tombstoned Equipment:** H106LWQR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: SZG2N6RRMZTW
+- **Tombstoned Equipment:** SZG2N6RRMZTW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: SZG2N6RRMZTW
+- **Tombstoned Equipment:** SZG2N6RRMZTW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: CQUNYGZP5
+- **Tombstoned Equipment:** CQUNYGZP5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: CQUNYGZP5
+- **Tombstoned Equipment:** CQUNYGZP5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: Y21SQ6DY9
+- **Tombstoned Equipment:** Y21SQ6DY9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: Y21SQ6DY9
+- **Tombstoned Equipment:** Y21SQ6DY9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: E01
+- **Tombstoned Equipment:** E01
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: E01
+- **Tombstoned Equipment:** E01
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: MSZD
+- **Tombstoned Equipment:** MSZD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: MSZD
+- **Tombstoned Equipment:** MSZD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: WPU0
+- **Tombstoned Equipment:** WPU0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: WPU0
+- **Tombstoned Equipment:** WPU0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: EME
+- **Tombstoned Equipment:** EME
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: EME
+- **Tombstoned Equipment:** EME
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: SLO5KXB0X
+- **Tombstoned Equipment:** SLO5KXB0X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: SLO5KXB0X
+- **Tombstoned Equipment:** SLO5KXB0X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 718X5VIGWLHE
+- **Tombstoned Equipment:** 718X5VIGWLHE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 718X5VIGWLHE
+- **Tombstoned Equipment:** 718X5VIGWLHE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 3ZPZFSNJMN
+- **Tombstoned Equipment:** 3ZPZFSNJMN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 3ZPZFSNJMN
+- **Tombstoned Equipment:** 3ZPZFSNJMN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: CZZUKOJSN
+- **Tombstoned Equipment:** CZZUKOJSN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: CZZUKOJSN
+- **Tombstoned Equipment:** CZZUKOJSN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 0CX5
+- **Tombstoned Equipment:** 0CX5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 0CX5
+- **Tombstoned Equipment:** 0CX5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 582R
+- **Tombstoned Equipment:** 582R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: 582R
+- **Tombstoned Equipment:** 582R
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:01:33 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 13:01**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 13:01**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 8IYV00S
+- **Tombstoned Equipment:** 8IYV00S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 8IYV00S
+- **Tombstoned Equipment:** 8IYV00S
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: INF
+- **Tombstoned Equipment:** INF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6PH5PVXXGTTD
+- **Tombstoned Equipment:** 6PH5PVXXGTTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6PH5PVXXGTTD
+- **Tombstoned Equipment:** 6PH5PVXXGTTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: RBH4D0
+- **Tombstoned Equipment:** RBH4D0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: RBH4D0
+- **Tombstoned Equipment:** RBH4D0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: S6E
+- **Tombstoned Equipment:** S6E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: S6E
+- **Tombstoned Equipment:** S6E
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6XIQRIMCCYQ
+- **Tombstoned Equipment:** 6XIQRIMCCYQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6XIQRIMCCYQ
+- **Tombstoned Equipment:** 6XIQRIMCCYQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: LOM
+- **Tombstoned Equipment:** LOM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: LOM
+- **Tombstoned Equipment:** LOM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: EBU3CW
+- **Tombstoned Equipment:** EBU3CW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: EBU3CW
+- **Tombstoned Equipment:** EBU3CW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: AS0
+- **Tombstoned Equipment:** AS0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: AS0
+- **Tombstoned Equipment:** AS0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: EESAULFC
+- **Tombstoned Equipment:** EESAULFC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: EESAULFC
+- **Tombstoned Equipment:** EESAULFC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: XFQK
+- **Tombstoned Equipment:** XFQK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: XFQK
+- **Tombstoned Equipment:** XFQK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 5FFD
+- **Tombstoned Equipment:** 5FFD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 5FFD
+- **Tombstoned Equipment:** 5FFD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: A0QJ0KTMM5FO
+- **Tombstoned Equipment:** A0QJ0KTMM5FO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: A0QJ0KTMM5FO
+- **Tombstoned Equipment:** A0QJ0KTMM5FO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: SEGPKLSG83PS
+- **Tombstoned Equipment:** SEGPKLSG83PS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: SEGPKLSG83PS
+- **Tombstoned Equipment:** SEGPKLSG83PS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: TLM1K
+- **Tombstoned Equipment:** TLM1K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: TLM1K
+- **Tombstoned Equipment:** TLM1K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: XTAIDWI3J
+- **Tombstoned Equipment:** XTAIDWI3J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: XTAIDWI3J
+- **Tombstoned Equipment:** XTAIDWI3J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: Y0C
+- **Tombstoned Equipment:** Y0C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: Y0C
+- **Tombstoned Equipment:** Y0C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ZYYANWFNQFR0
+- **Tombstoned Equipment:** ZYYANWFNQFR0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ZYYANWFNQFR0
+- **Tombstoned Equipment:** ZYYANWFNQFR0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: KBKU
+- **Tombstoned Equipment:** KBKU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: KBKU
+- **Tombstoned Equipment:** KBKU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 9SP
+- **Tombstoned Equipment:** 9SP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 9SP
+- **Tombstoned Equipment:** 9SP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ZGR
+- **Tombstoned Equipment:** ZGR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ZGR
+- **Tombstoned Equipment:** ZGR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: TRBGKI6M
+- **Tombstoned Equipment:** TRBGKI6M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: TRBGKI6M
+- **Tombstoned Equipment:** TRBGKI6M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: QUAWX
+- **Tombstoned Equipment:** QUAWX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: QUAWX
+- **Tombstoned Equipment:** QUAWX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: OJU59
+- **Tombstoned Equipment:** OJU59
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: OJU59
+- **Tombstoned Equipment:** OJU59
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: UQG7
+- **Tombstoned Equipment:** UQG7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: UQG7
+- **Tombstoned Equipment:** UQG7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 3DTLI6BQN43O
+- **Tombstoned Equipment:** 3DTLI6BQN43O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 3DTLI6BQN43O
+- **Tombstoned Equipment:** 3DTLI6BQN43O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: PPZB5CSZA
+- **Tombstoned Equipment:** PPZB5CSZA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: PPZB5CSZA
+- **Tombstoned Equipment:** PPZB5CSZA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: YI4MY
+- **Tombstoned Equipment:** YI4MY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: YI4MY
+- **Tombstoned Equipment:** YI4MY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: S0K4OJ
+- **Tombstoned Equipment:** S0K4OJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: S0K4OJ
+- **Tombstoned Equipment:** S0K4OJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 9HCK
+- **Tombstoned Equipment:** 9HCK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 9HCK
+- **Tombstoned Equipment:** 9HCK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6EB
+- **Tombstoned Equipment:** 6EB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6EB
+- **Tombstoned Equipment:** 6EB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: KQIZVU2ZZ60W
+- **Tombstoned Equipment:** KQIZVU2ZZ60W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: KQIZVU2ZZ60W
+- **Tombstoned Equipment:** KQIZVU2ZZ60W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: IEYI3V4
+- **Tombstoned Equipment:** IEYI3V4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: IEYI3V4
+- **Tombstoned Equipment:** IEYI3V4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 2OT66S2NQG
+- **Tombstoned Equipment:** 2OT66S2NQG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 2OT66S2NQG
+- **Tombstoned Equipment:** 2OT66S2NQG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 66BIVPU
+- **Tombstoned Equipment:** 66BIVPU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 66BIVPU
+- **Tombstoned Equipment:** 66BIVPU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: UZJBH
+- **Tombstoned Equipment:** UZJBH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: UZJBH
+- **Tombstoned Equipment:** UZJBH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 2302
+- **Tombstoned Equipment:** 2302
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 2302
+- **Tombstoned Equipment:** 2302
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: DWS
+- **Tombstoned Equipment:** DWS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: DWS
+- **Tombstoned Equipment:** DWS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 5SP
+- **Tombstoned Equipment:** 5SP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 5SP
+- **Tombstoned Equipment:** 5SP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ACAB
+- **Tombstoned Equipment:** ACAB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ACAB
+- **Tombstoned Equipment:** ACAB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: HAFES34
+- **Tombstoned Equipment:** HAFES34
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: HAFES34
+- **Tombstoned Equipment:** HAFES34
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: KFGSGLJTOIMQ
+- **Tombstoned Equipment:** KFGSGLJTOIMQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: KFGSGLJTOIMQ
+- **Tombstoned Equipment:** KFGSGLJTOIMQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: JT10
+- **Tombstoned Equipment:** JT10
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: JT10
+- **Tombstoned Equipment:** JT10
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6RY8K013YEGB
+- **Tombstoned Equipment:** 6RY8K013YEGB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6RY8K013YEGB
+- **Tombstoned Equipment:** 6RY8K013YEGB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: G795W4
+- **Tombstoned Equipment:** G795W4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: G795W4
+- **Tombstoned Equipment:** G795W4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: IFWGDKFQJ1SJ
+- **Tombstoned Equipment:** IFWGDKFQJ1SJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: IFWGDKFQJ1SJ
+- **Tombstoned Equipment:** IFWGDKFQJ1SJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: UQDH1FR6ILAL
+- **Tombstoned Equipment:** UQDH1FR6ILAL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: UQDH1FR6ILAL
+- **Tombstoned Equipment:** UQDH1FR6ILAL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: K4N0
+- **Tombstoned Equipment:** K4N0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: K4N0
+- **Tombstoned Equipment:** K4N0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: R4KCP9HOQTWE
+- **Tombstoned Equipment:** R4KCP9HOQTWE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: R4KCP9HOQTWE
+- **Tombstoned Equipment:** R4KCP9HOQTWE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6BQM8C
+- **Tombstoned Equipment:** 6BQM8C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6BQM8C
+- **Tombstoned Equipment:** 6BQM8C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: QMROB
+- **Tombstoned Equipment:** QMROB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: QMROB
+- **Tombstoned Equipment:** QMROB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 4GJXYS
+- **Tombstoned Equipment:** 4GJXYS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 4GJXYS
+- **Tombstoned Equipment:** 4GJXYS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: K7YEBPK29LK5
+- **Tombstoned Equipment:** K7YEBPK29LK5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: K7YEBPK29LK5
+- **Tombstoned Equipment:** K7YEBPK29LK5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: WJM
+- **Tombstoned Equipment:** WJM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: WJM
+- **Tombstoned Equipment:** WJM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 5XV1NMY8
+- **Tombstoned Equipment:** 5XV1NMY8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 5XV1NMY8
+- **Tombstoned Equipment:** 5XV1NMY8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ITBS6EEUGJ02
+- **Tombstoned Equipment:** ITBS6EEUGJ02
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ITBS6EEUGJ02
+- **Tombstoned Equipment:** ITBS6EEUGJ02
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: BGPAJS
+- **Tombstoned Equipment:** BGPAJS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: BGPAJS
+- **Tombstoned Equipment:** BGPAJS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ELXQ6QY
+- **Tombstoned Equipment:** ELXQ6QY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ELXQ6QY
+- **Tombstoned Equipment:** ELXQ6QY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: OOXCR
+- **Tombstoned Equipment:** OOXCR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: OOXCR
+- **Tombstoned Equipment:** OOXCR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: NMF
+- **Tombstoned Equipment:** NMF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: NMF
+- **Tombstoned Equipment:** NMF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: HPBB4DN
+- **Tombstoned Equipment:** HPBB4DN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: HPBB4DN
+- **Tombstoned Equipment:** HPBB4DN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: WTC18
+- **Tombstoned Equipment:** WTC18
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: WTC18
+- **Tombstoned Equipment:** WTC18
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: NIL
+- **Tombstoned Equipment:** NIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: DXYDH760EOEP
+- **Tombstoned Equipment:** DXYDH760EOEP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: DXYDH760EOEP
+- **Tombstoned Equipment:** DXYDH760EOEP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: Q8PBK
+- **Tombstoned Equipment:** Q8PBK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: Q8PBK
+- **Tombstoned Equipment:** Q8PBK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: XQVHLZJ1PR8L
+- **Tombstoned Equipment:** XQVHLZJ1PR8L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: XQVHLZJ1PR8L
+- **Tombstoned Equipment:** XQVHLZJ1PR8L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: VB4Z1
+- **Tombstoned Equipment:** VB4Z1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: VB4Z1
+- **Tombstoned Equipment:** VB4Z1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: W1F
+- **Tombstoned Equipment:** W1F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: W1F
+- **Tombstoned Equipment:** W1F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 8XF4T
+- **Tombstoned Equipment:** 8XF4T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 8XF4T
+- **Tombstoned Equipment:** 8XF4T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ES8AHOKND3
+- **Tombstoned Equipment:** ES8AHOKND3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ES8AHOKND3
+- **Tombstoned Equipment:** ES8AHOKND3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: HSC1C58
+- **Tombstoned Equipment:** HSC1C58
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: HSC1C58
+- **Tombstoned Equipment:** HSC1C58
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: JJURWZN
+- **Tombstoned Equipment:** JJURWZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: JJURWZN
+- **Tombstoned Equipment:** JJURWZN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: YE2
+- **Tombstoned Equipment:** YE2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: YE2
+- **Tombstoned Equipment:** YE2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 8L68IVM2
+- **Tombstoned Equipment:** 8L68IVM2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 8L68IVM2
+- **Tombstoned Equipment:** 8L68IVM2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: VG7FSYK0NAIC
+- **Tombstoned Equipment:** VG7FSYK0NAIC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: VG7FSYK0NAIC
+- **Tombstoned Equipment:** VG7FSYK0NAIC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ESD
+- **Tombstoned Equipment:** ESD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: ESD
+- **Tombstoned Equipment:** ESD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: IDAFYY4QYC5
+- **Tombstoned Equipment:** IDAFYY4QYC5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: IDAFYY4QYC5
+- **Tombstoned Equipment:** IDAFYY4QYC5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: RSFAVEMKJ8C4
+- **Tombstoned Equipment:** RSFAVEMKJ8C4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: RSFAVEMKJ8C4
+- **Tombstoned Equipment:** RSFAVEMKJ8C4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 4Z63D910SS7G
+- **Tombstoned Equipment:** 4Z63D910SS7G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 4Z63D910SS7G
+- **Tombstoned Equipment:** 4Z63D910SS7G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: MFQ00XUJ1
+- **Tombstoned Equipment:** MFQ00XUJ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: MFQ00XUJ1
+- **Tombstoned Equipment:** MFQ00XUJ1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 9ZKA
+- **Tombstoned Equipment:** 9ZKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 9ZKA
+- **Tombstoned Equipment:** 9ZKA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 4C0416
+- **Tombstoned Equipment:** 4C0416
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 4C0416
+- **Tombstoned Equipment:** 4C0416
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 2KG3W
+- **Tombstoned Equipment:** 2KG3W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 2KG3W
+- **Tombstoned Equipment:** 2KG3W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 0DSFKGNS
+- **Tombstoned Equipment:** 0DSFKGNS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 0DSFKGNS
+- **Tombstoned Equipment:** 0DSFKGNS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 7OOUBE3H
+- **Tombstoned Equipment:** 7OOUBE3H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 7OOUBE3H
+- **Tombstoned Equipment:** 7OOUBE3H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: SFQIVN8SMFXR
+- **Tombstoned Equipment:** SFQIVN8SMFXR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: SFQIVN8SMFXR
+- **Tombstoned Equipment:** SFQIVN8SMFXR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: KNW5R58OG
+- **Tombstoned Equipment:** KNW5R58OG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: KNW5R58OG
+- **Tombstoned Equipment:** KNW5R58OG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: FUF9LBN
+- **Tombstoned Equipment:** FUF9LBN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: FUF9LBN
+- **Tombstoned Equipment:** FUF9LBN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6ZPWF1PU4PQZ
+- **Tombstoned Equipment:** 6ZPWF1PU4PQZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 6ZPWF1PU4PQZ
+- **Tombstoned Equipment:** 6ZPWF1PU4PQZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: A81Z8YKQAJYE
+- **Tombstoned Equipment:** A81Z8YKQAJYE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: A81Z8YKQAJYE
+- **Tombstoned Equipment:** A81Z8YKQAJYE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: RKZJ
+- **Tombstoned Equipment:** RKZJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: RKZJ
+- **Tombstoned Equipment:** RKZJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: LRWYT
+- **Tombstoned Equipment:** LRWYT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: LRWYT
+- **Tombstoned Equipment:** LRWYT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 68H
+- **Tombstoned Equipment:** 68H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 68H
+- **Tombstoned Equipment:** 68H
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: LPT1
+- **Tombstoned Equipment:** LPT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: LPT1
+- **Tombstoned Equipment:** LPT1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: H19MIKXXE66O
+- **Tombstoned Equipment:** H19MIKXXE66O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: H19MIKXXE66O
+- **Tombstoned Equipment:** H19MIKXXE66O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: FALSE
+- **Tombstoned Equipment:** FALSE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 3UNM27U
+- **Tombstoned Equipment:** 3UNM27U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: 3UNM27U
+- **Tombstoned Equipment:** 3UNM27U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: EI87
+- **Tombstoned Equipment:** EI87
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:03:50 UTC] Document Deletion: EI87
+- **Tombstoned Equipment:** EI87
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 13:03**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 13:03**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FROP
+- **Tombstoned Equipment:** FROP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FROP
+- **Tombstoned Equipment:** FROP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: VAVIQ97O4SYM
+- **Tombstoned Equipment:** VAVIQ97O4SYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: VAVIQ97O4SYM
+- **Tombstoned Equipment:** VAVIQ97O4SYM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QTT
+- **Tombstoned Equipment:** QTT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QTT
+- **Tombstoned Equipment:** QTT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: H2TNHBLG
+- **Tombstoned Equipment:** H2TNHBLG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: H2TNHBLG
+- **Tombstoned Equipment:** H2TNHBLG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IUTZW1UO4WSZ
+- **Tombstoned Equipment:** IUTZW1UO4WSZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IUTZW1UO4WSZ
+- **Tombstoned Equipment:** IUTZW1UO4WSZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: HQS8M
+- **Tombstoned Equipment:** HQS8M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: HQS8M
+- **Tombstoned Equipment:** HQS8M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 6I4P
+- **Tombstoned Equipment:** 6I4P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 6I4P
+- **Tombstoned Equipment:** 6I4P
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: A8MWRBBCB2JK
+- **Tombstoned Equipment:** A8MWRBBCB2JK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: A8MWRBBCB2JK
+- **Tombstoned Equipment:** A8MWRBBCB2JK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QDMJQRS
+- **Tombstoned Equipment:** QDMJQRS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QDMJQRS
+- **Tombstoned Equipment:** QDMJQRS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9EPT4
+- **Tombstoned Equipment:** 9EPT4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9EPT4
+- **Tombstoned Equipment:** 9EPT4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FODXDS4YJVS0
+- **Tombstoned Equipment:** FODXDS4YJVS0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FODXDS4YJVS0
+- **Tombstoned Equipment:** FODXDS4YJVS0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: OJWFLHTII334
+- **Tombstoned Equipment:** OJWFLHTII334
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: OJWFLHTII334
+- **Tombstoned Equipment:** OJWFLHTII334
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 1NFUECYXC8PA
+- **Tombstoned Equipment:** 1NFUECYXC8PA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 1NFUECYXC8PA
+- **Tombstoned Equipment:** 1NFUECYXC8PA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: VZDZ
+- **Tombstoned Equipment:** VZDZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: VZDZ
+- **Tombstoned Equipment:** VZDZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: F2YVZ8MWI1FS
+- **Tombstoned Equipment:** F2YVZ8MWI1FS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: F2YVZ8MWI1FS
+- **Tombstoned Equipment:** F2YVZ8MWI1FS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: Z2W7L0GF6N8
+- **Tombstoned Equipment:** Z2W7L0GF6N8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: Z2W7L0GF6N8
+- **Tombstoned Equipment:** Z2W7L0GF6N8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: E5XVVPV
+- **Tombstoned Equipment:** E5XVVPV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: E5XVVPV
+- **Tombstoned Equipment:** E5XVVPV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9OX0
+- **Tombstoned Equipment:** 9OX0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9OX0
+- **Tombstoned Equipment:** 9OX0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: XKMQ
+- **Tombstoned Equipment:** XKMQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: XKMQ
+- **Tombstoned Equipment:** XKMQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: ZA1EW9ETUD
+- **Tombstoned Equipment:** ZA1EW9ETUD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: ZA1EW9ETUD
+- **Tombstoned Equipment:** ZA1EW9ETUD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: OOT
+- **Tombstoned Equipment:** OOT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: OOT
+- **Tombstoned Equipment:** OOT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: TLM9Z
+- **Tombstoned Equipment:** TLM9Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: TLM9Z
+- **Tombstoned Equipment:** TLM9Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: NZ6FZVXZ
+- **Tombstoned Equipment:** NZ6FZVXZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: NZ6FZVXZ
+- **Tombstoned Equipment:** NZ6FZVXZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: PEFBCVO5AZPF
+- **Tombstoned Equipment:** PEFBCVO5AZPF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: PEFBCVO5AZPF
+- **Tombstoned Equipment:** PEFBCVO5AZPF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 94YT7P7
+- **Tombstoned Equipment:** 94YT7P7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 94YT7P7
+- **Tombstoned Equipment:** 94YT7P7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: W6M3BUDYCCT8
+- **Tombstoned Equipment:** W6M3BUDYCCT8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: W6M3BUDYCCT8
+- **Tombstoned Equipment:** W6M3BUDYCCT8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IVO
+- **Tombstoned Equipment:** IVO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IVO
+- **Tombstoned Equipment:** IVO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: GQL9O0BJ
+- **Tombstoned Equipment:** GQL9O0BJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: GQL9O0BJ
+- **Tombstoned Equipment:** GQL9O0BJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: SZIS1RVXUOPC
+- **Tombstoned Equipment:** SZIS1RVXUOPC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: SZIS1RVXUOPC
+- **Tombstoned Equipment:** SZIS1RVXUOPC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 1KOPQ125TX7X
+- **Tombstoned Equipment:** 1KOPQ125TX7X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 1KOPQ125TX7X
+- **Tombstoned Equipment:** 1KOPQ125TX7X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 7DJG4OUU9K6N
+- **Tombstoned Equipment:** 7DJG4OUU9K6N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 7DJG4OUU9K6N
+- **Tombstoned Equipment:** 7DJG4OUU9K6N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 4CFFNJU4TCSB
+- **Tombstoned Equipment:** 4CFFNJU4TCSB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 4CFFNJU4TCSB
+- **Tombstoned Equipment:** 4CFFNJU4TCSB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 0HIII
+- **Tombstoned Equipment:** 0HIII
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 0HIII
+- **Tombstoned Equipment:** 0HIII
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: UOD
+- **Tombstoned Equipment:** UOD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: UOD
+- **Tombstoned Equipment:** UOD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 74TY6SSP5AJ8
+- **Tombstoned Equipment:** 74TY6SSP5AJ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 74TY6SSP5AJ8
+- **Tombstoned Equipment:** 74TY6SSP5AJ8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 8AV
+- **Tombstoned Equipment:** 8AV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 8AV
+- **Tombstoned Equipment:** 8AV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: XSAG61MGM3WG
+- **Tombstoned Equipment:** XSAG61MGM3WG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: XSAG61MGM3WG
+- **Tombstoned Equipment:** XSAG61MGM3WG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: DFF
+- **Tombstoned Equipment:** DFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: DFF
+- **Tombstoned Equipment:** DFF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 0H2UFA1AYDV
+- **Tombstoned Equipment:** 0H2UFA1AYDV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 0H2UFA1AYDV
+- **Tombstoned Equipment:** 0H2UFA1AYDV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: RFD0BD
+- **Tombstoned Equipment:** RFD0BD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: RFD0BD
+- **Tombstoned Equipment:** RFD0BD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 8WAOUURHF
+- **Tombstoned Equipment:** 8WAOUURHF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 8WAOUURHF
+- **Tombstoned Equipment:** 8WAOUURHF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: LYKC3QVKA42
+- **Tombstoned Equipment:** LYKC3QVKA42
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: LYKC3QVKA42
+- **Tombstoned Equipment:** LYKC3QVKA42
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 4VIJPP43JAA
+- **Tombstoned Equipment:** 4VIJPP43JAA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 4VIJPP43JAA
+- **Tombstoned Equipment:** 4VIJPP43JAA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IPL
+- **Tombstoned Equipment:** IPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IPL
+- **Tombstoned Equipment:** IPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: JAD21C4FOVIX
+- **Tombstoned Equipment:** JAD21C4FOVIX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: JAD21C4FOVIX
+- **Tombstoned Equipment:** JAD21C4FOVIX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 8Y1X
+- **Tombstoned Equipment:** 8Y1X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 8Y1X
+- **Tombstoned Equipment:** 8Y1X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: GVVHVH
+- **Tombstoned Equipment:** GVVHVH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: GVVHVH
+- **Tombstoned Equipment:** GVVHVH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: WVATQM8K6UXE
+- **Tombstoned Equipment:** WVATQM8K6UXE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: WVATQM8K6UXE
+- **Tombstoned Equipment:** WVATQM8K6UXE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QK9S21TAY40
+- **Tombstoned Equipment:** QK9S21TAY40
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QK9S21TAY40
+- **Tombstoned Equipment:** QK9S21TAY40
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 6XO
+- **Tombstoned Equipment:** 6XO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 6XO
+- **Tombstoned Equipment:** 6XO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 041
+- **Tombstoned Equipment:** 041
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 041
+- **Tombstoned Equipment:** 041
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: NXSP8UAHZ6WZ
+- **Tombstoned Equipment:** NXSP8UAHZ6WZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: NXSP8UAHZ6WZ
+- **Tombstoned Equipment:** NXSP8UAHZ6WZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 6ESK8SV8OI3X
+- **Tombstoned Equipment:** 6ESK8SV8OI3X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 6ESK8SV8OI3X
+- **Tombstoned Equipment:** 6ESK8SV8OI3X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: YJ6AZRR
+- **Tombstoned Equipment:** YJ6AZRR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: YJ6AZRR
+- **Tombstoned Equipment:** YJ6AZRR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QGQKO9XZ2G4K
+- **Tombstoned Equipment:** QGQKO9XZ2G4K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QGQKO9XZ2G4K
+- **Tombstoned Equipment:** QGQKO9XZ2G4K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 21JQNACU90AD
+- **Tombstoned Equipment:** 21JQNACU90AD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 21JQNACU90AD
+- **Tombstoned Equipment:** 21JQNACU90AD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: DNE6LS6D0XQI
+- **Tombstoned Equipment:** DNE6LS6D0XQI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: DNE6LS6D0XQI
+- **Tombstoned Equipment:** DNE6LS6D0XQI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: RFODE2AAWU40
+- **Tombstoned Equipment:** RFODE2AAWU40
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: RFODE2AAWU40
+- **Tombstoned Equipment:** RFODE2AAWU40
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: G8Z
+- **Tombstoned Equipment:** G8Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: G8Z
+- **Tombstoned Equipment:** G8Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: JUX
+- **Tombstoned Equipment:** JUX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: JUX
+- **Tombstoned Equipment:** JUX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: KF9PW0NSHBLH
+- **Tombstoned Equipment:** KF9PW0NSHBLH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: KF9PW0NSHBLH
+- **Tombstoned Equipment:** KF9PW0NSHBLH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IU2ZKP1B2
+- **Tombstoned Equipment:** IU2ZKP1B2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IU2ZKP1B2
+- **Tombstoned Equipment:** IU2ZKP1B2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: P3PMJ
+- **Tombstoned Equipment:** P3PMJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: P3PMJ
+- **Tombstoned Equipment:** P3PMJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9HL
+- **Tombstoned Equipment:** 9HL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9HL
+- **Tombstoned Equipment:** 9HL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 6ILVGLN13HBN
+- **Tombstoned Equipment:** 6ILVGLN13HBN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 6ILVGLN13HBN
+- **Tombstoned Equipment:** 6ILVGLN13HBN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: KORLHUZ
+- **Tombstoned Equipment:** KORLHUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: KORLHUZ
+- **Tombstoned Equipment:** KORLHUZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: R512M7XZ8MU3
+- **Tombstoned Equipment:** R512M7XZ8MU3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: R512M7XZ8MU3
+- **Tombstoned Equipment:** R512M7XZ8MU3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 32WHCP
+- **Tombstoned Equipment:** 32WHCP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 32WHCP
+- **Tombstoned Equipment:** 32WHCP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QLS
+- **Tombstoned Equipment:** QLS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: QLS
+- **Tombstoned Equipment:** QLS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: AYJGHW9NHTYJ
+- **Tombstoned Equipment:** AYJGHW9NHTYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: AYJGHW9NHTYJ
+- **Tombstoned Equipment:** AYJGHW9NHTYJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9PRAA4SU38AB
+- **Tombstoned Equipment:** 9PRAA4SU38AB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9PRAA4SU38AB
+- **Tombstoned Equipment:** 9PRAA4SU38AB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9O2T3
+- **Tombstoned Equipment:** 9O2T3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9O2T3
+- **Tombstoned Equipment:** 9O2T3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: MXV
+- **Tombstoned Equipment:** MXV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: MXV
+- **Tombstoned Equipment:** MXV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 3Z2L
+- **Tombstoned Equipment:** 3Z2L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 3Z2L
+- **Tombstoned Equipment:** 3Z2L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: YIAY3
+- **Tombstoned Equipment:** YIAY3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: YIAY3
+- **Tombstoned Equipment:** YIAY3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 3LZV5UH
+- **Tombstoned Equipment:** 3LZV5UH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 3LZV5UH
+- **Tombstoned Equipment:** 3LZV5UH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: W71U
+- **Tombstoned Equipment:** W71U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: W71U
+- **Tombstoned Equipment:** W71U
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: NUL
+- **Tombstoned Equipment:** NUL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FRIRAK
+- **Tombstoned Equipment:** FRIRAK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FRIRAK
+- **Tombstoned Equipment:** FRIRAK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: S8ABVLXPR9WW
+- **Tombstoned Equipment:** S8ABVLXPR9WW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: S8ABVLXPR9WW
+- **Tombstoned Equipment:** S8ABVLXPR9WW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 7MQ2
+- **Tombstoned Equipment:** 7MQ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 7MQ2
+- **Tombstoned Equipment:** 7MQ2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: W8KFR79HK0VG
+- **Tombstoned Equipment:** W8KFR79HK0VG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: W8KFR79HK0VG
+- **Tombstoned Equipment:** W8KFR79HK0VG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: W9W2DQ2D66QJ
+- **Tombstoned Equipment:** W9W2DQ2D66QJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: W9W2DQ2D66QJ
+- **Tombstoned Equipment:** W9W2DQ2D66QJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: O688DB5XZ
+- **Tombstoned Equipment:** O688DB5XZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: O688DB5XZ
+- **Tombstoned Equipment:** O688DB5XZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: YOF
+- **Tombstoned Equipment:** YOF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: YOF
+- **Tombstoned Equipment:** YOF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: JEC5VIYISLW
+- **Tombstoned Equipment:** JEC5VIYISLW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: JEC5VIYISLW
+- **Tombstoned Equipment:** JEC5VIYISLW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: D5V
+- **Tombstoned Equipment:** D5V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: D5V
+- **Tombstoned Equipment:** D5V
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IB6BRR9VRJEG
+- **Tombstoned Equipment:** IB6BRR9VRJEG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: IB6BRR9VRJEG
+- **Tombstoned Equipment:** IB6BRR9VRJEG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: XC6
+- **Tombstoned Equipment:** XC6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: XC6
+- **Tombstoned Equipment:** XC6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FFYAUC
+- **Tombstoned Equipment:** FFYAUC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FFYAUC
+- **Tombstoned Equipment:** FFYAUC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: YF6
+- **Tombstoned Equipment:** YF6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: YF6
+- **Tombstoned Equipment:** YF6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: AALNS
+- **Tombstoned Equipment:** AALNS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: AALNS
+- **Tombstoned Equipment:** AALNS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 8M8B
+- **Tombstoned Equipment:** 8M8B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 8M8B
+- **Tombstoned Equipment:** 8M8B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FMTG06KBK7
+- **Tombstoned Equipment:** FMTG06KBK7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: FMTG06KBK7
+- **Tombstoned Equipment:** FMTG06KBK7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: SXGSUZTGD29
+- **Tombstoned Equipment:** SXGSUZTGD29
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: SXGSUZTGD29
+- **Tombstoned Equipment:** SXGSUZTGD29
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 3JT9UG
+- **Tombstoned Equipment:** 3JT9UG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 3JT9UG
+- **Tombstoned Equipment:** 3JT9UG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: LPL
+- **Tombstoned Equipment:** LPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: LPL
+- **Tombstoned Equipment:** LPL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9SG7
+- **Tombstoned Equipment:** 9SG7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 9SG7
+- **Tombstoned Equipment:** 9SG7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 720O6QYT4L58
+- **Tombstoned Equipment:** 720O6QYT4L58
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:05:52 UTC] Document Deletion: 720O6QYT4L58
+- **Tombstoned Equipment:** 720O6QYT4L58
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 13:05**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 13:05**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 13:10**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 5 action items.
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 59EV
+- **Tombstoned Equipment:** 59EV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 59EV
+- **Tombstoned Equipment:** 59EV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: IPDWAX6UW9B2
+- **Tombstoned Equipment:** IPDWAX6UW9B2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: IPDWAX6UW9B2
+- **Tombstoned Equipment:** IPDWAX6UW9B2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: MENE9ZDE1K
+- **Tombstoned Equipment:** MENE9ZDE1K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: MENE9ZDE1K
+- **Tombstoned Equipment:** MENE9ZDE1K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UAP548L
+- **Tombstoned Equipment:** UAP548L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UAP548L
+- **Tombstoned Equipment:** UAP548L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: XOJYCLSP21RK
+- **Tombstoned Equipment:** XOJYCLSP21RK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: XOJYCLSP21RK
+- **Tombstoned Equipment:** XOJYCLSP21RK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: X7N
+- **Tombstoned Equipment:** X7N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: X7N
+- **Tombstoned Equipment:** X7N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: P6XQQ4A04ZHR
+- **Tombstoned Equipment:** P6XQQ4A04ZHR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: P6XQQ4A04ZHR
+- **Tombstoned Equipment:** P6XQQ4A04ZHR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: E8Q
+- **Tombstoned Equipment:** E8Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: E8Q
+- **Tombstoned Equipment:** E8Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: HK1
+- **Tombstoned Equipment:** HK1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: HK1
+- **Tombstoned Equipment:** HK1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: PP20AX8SV
+- **Tombstoned Equipment:** PP20AX8SV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: PP20AX8SV
+- **Tombstoned Equipment:** PP20AX8SV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UBR28V9
+- **Tombstoned Equipment:** UBR28V9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UBR28V9
+- **Tombstoned Equipment:** UBR28V9
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: H93EHTNE1
+- **Tombstoned Equipment:** H93EHTNE1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: H93EHTNE1
+- **Tombstoned Equipment:** H93EHTNE1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: MZNGYX
+- **Tombstoned Equipment:** MZNGYX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: MZNGYX
+- **Tombstoned Equipment:** MZNGYX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: YOHZ
+- **Tombstoned Equipment:** YOHZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: YOHZ
+- **Tombstoned Equipment:** YOHZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: AU6C
+- **Tombstoned Equipment:** AU6C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: AU6C
+- **Tombstoned Equipment:** AU6C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UJGI27DEGOH5
+- **Tombstoned Equipment:** UJGI27DEGOH5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UJGI27DEGOH5
+- **Tombstoned Equipment:** UJGI27DEGOH5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: F2FJJ
+- **Tombstoned Equipment:** F2FJJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: F2FJJ
+- **Tombstoned Equipment:** F2FJJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: LKGD
+- **Tombstoned Equipment:** LKGD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: LKGD
+- **Tombstoned Equipment:** LKGD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: AXECIY02VADJ
+- **Tombstoned Equipment:** AXECIY02VADJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: AXECIY02VADJ
+- **Tombstoned Equipment:** AXECIY02VADJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: QECK8NC
+- **Tombstoned Equipment:** QECK8NC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: QECK8NC
+- **Tombstoned Equipment:** QECK8NC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2VCPHMWW7ITH
+- **Tombstoned Equipment:** 2VCPHMWW7ITH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2VCPHMWW7ITH
+- **Tombstoned Equipment:** 2VCPHMWW7ITH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: A2UB
+- **Tombstoned Equipment:** A2UB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: A2UB
+- **Tombstoned Equipment:** A2UB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 0ZLAL
+- **Tombstoned Equipment:** 0ZLAL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 0ZLAL
+- **Tombstoned Equipment:** 0ZLAL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: PTKIRNW
+- **Tombstoned Equipment:** PTKIRNW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: PTKIRNW
+- **Tombstoned Equipment:** PTKIRNW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EH447
+- **Tombstoned Equipment:** EH447
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EH447
+- **Tombstoned Equipment:** EH447
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 3BBON4
+- **Tombstoned Equipment:** 3BBON4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 3BBON4
+- **Tombstoned Equipment:** 3BBON4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UF0XZ12MZ8L
+- **Tombstoned Equipment:** UF0XZ12MZ8L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UF0XZ12MZ8L
+- **Tombstoned Equipment:** UF0XZ12MZ8L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EA0729TIWE97
+- **Tombstoned Equipment:** EA0729TIWE97
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EA0729TIWE97
+- **Tombstoned Equipment:** EA0729TIWE97
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: AQJ5W
+- **Tombstoned Equipment:** AQJ5W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: AQJ5W
+- **Tombstoned Equipment:** AQJ5W
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: Q8D
+- **Tombstoned Equipment:** Q8D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: Q8D
+- **Tombstoned Equipment:** Q8D
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 67MH7PQNFTWB
+- **Tombstoned Equipment:** 67MH7PQNFTWB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 67MH7PQNFTWB
+- **Tombstoned Equipment:** 67MH7PQNFTWB
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: MLHK62CU
+- **Tombstoned Equipment:** MLHK62CU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: MLHK62CU
+- **Tombstoned Equipment:** MLHK62CU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: Q7VC
+- **Tombstoned Equipment:** Q7VC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: Q7VC
+- **Tombstoned Equipment:** Q7VC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 8GPLFY64T4E6
+- **Tombstoned Equipment:** 8GPLFY64T4E6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 8GPLFY64T4E6
+- **Tombstoned Equipment:** 8GPLFY64T4E6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: D2EI
+- **Tombstoned Equipment:** D2EI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: D2EI
+- **Tombstoned Equipment:** D2EI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: AVX0I4NYF3AH
+- **Tombstoned Equipment:** AVX0I4NYF3AH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: AVX0I4NYF3AH
+- **Tombstoned Equipment:** AVX0I4NYF3AH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: FHR1ZV
+- **Tombstoned Equipment:** FHR1ZV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: FHR1ZV
+- **Tombstoned Equipment:** FHR1ZV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: H3Z
+- **Tombstoned Equipment:** H3Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: H3Z
+- **Tombstoned Equipment:** H3Z
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: JV4
+- **Tombstoned Equipment:** JV4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: JV4
+- **Tombstoned Equipment:** JV4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: NJBJL
+- **Tombstoned Equipment:** NJBJL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: NJBJL
+- **Tombstoned Equipment:** NJBJL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 10BZOOY5
+- **Tombstoned Equipment:** 10BZOOY5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 10BZOOY5
+- **Tombstoned Equipment:** 10BZOOY5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 00SIL6O74
+- **Tombstoned Equipment:** 00SIL6O74
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 00SIL6O74
+- **Tombstoned Equipment:** 00SIL6O74
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: TRUE
+- **Tombstoned Equipment:** TRUE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2UHKDX25BAHE
+- **Tombstoned Equipment:** 2UHKDX25BAHE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2UHKDX25BAHE
+- **Tombstoned Equipment:** 2UHKDX25BAHE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: G3VX93BL4V2L
+- **Tombstoned Equipment:** G3VX93BL4V2L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: G3VX93BL4V2L
+- **Tombstoned Equipment:** G3VX93BL4V2L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: Z2NM2
+- **Tombstoned Equipment:** Z2NM2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: Z2NM2
+- **Tombstoned Equipment:** Z2NM2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 5CS59VF
+- **Tombstoned Equipment:** 5CS59VF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 5CS59VF
+- **Tombstoned Equipment:** 5CS59VF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 9M3
+- **Tombstoned Equipment:** 9M3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 9M3
+- **Tombstoned Equipment:** 9M3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EV0LZPX8X42F
+- **Tombstoned Equipment:** EV0LZPX8X42F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EV0LZPX8X42F
+- **Tombstoned Equipment:** EV0LZPX8X42F
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 0RWR8FRURNHZ
+- **Tombstoned Equipment:** 0RWR8FRURNHZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 0RWR8FRURNHZ
+- **Tombstoned Equipment:** 0RWR8FRURNHZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2EWFATQLQW6X
+- **Tombstoned Equipment:** 2EWFATQLQW6X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2EWFATQLQW6X
+- **Tombstoned Equipment:** 2EWFATQLQW6X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: KJWPZ8O
+- **Tombstoned Equipment:** KJWPZ8O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: KJWPZ8O
+- **Tombstoned Equipment:** KJWPZ8O
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 0RCI8YE
+- **Tombstoned Equipment:** 0RCI8YE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 0RCI8YE
+- **Tombstoned Equipment:** 0RCI8YE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: K0JSPSPYS
+- **Tombstoned Equipment:** K0JSPSPYS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: K0JSPSPYS
+- **Tombstoned Equipment:** K0JSPSPYS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2UWPT8
+- **Tombstoned Equipment:** 2UWPT8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2UWPT8
+- **Tombstoned Equipment:** 2UWPT8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: K1HVAF9M1AGX
+- **Tombstoned Equipment:** K1HVAF9M1AGX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: K1HVAF9M1AGX
+- **Tombstoned Equipment:** K1HVAF9M1AGX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: R9KS
+- **Tombstoned Equipment:** R9KS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: R9KS
+- **Tombstoned Equipment:** R9KS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: PFMOEVD8EIOI
+- **Tombstoned Equipment:** PFMOEVD8EIOI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: PFMOEVD8EIOI
+- **Tombstoned Equipment:** PFMOEVD8EIOI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: DPZUHPFZ
+- **Tombstoned Equipment:** DPZUHPFZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: DPZUHPFZ
+- **Tombstoned Equipment:** DPZUHPFZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: Z44DA8YCRHTE
+- **Tombstoned Equipment:** Z44DA8YCRHTE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: Z44DA8YCRHTE
+- **Tombstoned Equipment:** Z44DA8YCRHTE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EPIO2K3J7G
+- **Tombstoned Equipment:** EPIO2K3J7G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EPIO2K3J7G
+- **Tombstoned Equipment:** EPIO2K3J7G
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: P3SHK6OCZ8VP
+- **Tombstoned Equipment:** P3SHK6OCZ8VP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: P3SHK6OCZ8VP
+- **Tombstoned Equipment:** P3SHK6OCZ8VP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 179I68V9Q
+- **Tombstoned Equipment:** 179I68V9Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 179I68V9Q
+- **Tombstoned Equipment:** 179I68V9Q
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EME
+- **Tombstoned Equipment:** EME
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EME
+- **Tombstoned Equipment:** EME
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: OK95CCTD
+- **Tombstoned Equipment:** OK95CCTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: OK95CCTD
+- **Tombstoned Equipment:** OK95CCTD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UJB4UE
+- **Tombstoned Equipment:** UJB4UE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UJB4UE
+- **Tombstoned Equipment:** UJB4UE
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: RZUSZGQ34M3Y
+- **Tombstoned Equipment:** RZUSZGQ34M3Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: RZUSZGQ34M3Y
+- **Tombstoned Equipment:** RZUSZGQ34M3Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 09K
+- **Tombstoned Equipment:** 09K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 09K
+- **Tombstoned Equipment:** 09K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: D1ZI4J
+- **Tombstoned Equipment:** D1ZI4J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: D1ZI4J
+- **Tombstoned Equipment:** D1ZI4J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 3L3E9HDG205X
+- **Tombstoned Equipment:** 3L3E9HDG205X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 3L3E9HDG205X
+- **Tombstoned Equipment:** 3L3E9HDG205X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 4XGV
+- **Tombstoned Equipment:** 4XGV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 4XGV
+- **Tombstoned Equipment:** 4XGV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: RAS
+- **Tombstoned Equipment:** RAS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: RAS
+- **Tombstoned Equipment:** RAS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: LTVHXCZCMASG
+- **Tombstoned Equipment:** LTVHXCZCMASG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: LTVHXCZCMASG
+- **Tombstoned Equipment:** LTVHXCZCMASG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 9L83UNFJNSF7
+- **Tombstoned Equipment:** 9L83UNFJNSF7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 9L83UNFJNSF7
+- **Tombstoned Equipment:** 9L83UNFJNSF7
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EGU09
+- **Tombstoned Equipment:** EGU09
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EGU09
+- **Tombstoned Equipment:** EGU09
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: H4XW182
+- **Tombstoned Equipment:** H4XW182
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: H4XW182
+- **Tombstoned Equipment:** H4XW182
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: MEM2RF
+- **Tombstoned Equipment:** MEM2RF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: MEM2RF
+- **Tombstoned Equipment:** MEM2RF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 9DSY22VC
+- **Tombstoned Equipment:** 9DSY22VC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 9DSY22VC
+- **Tombstoned Equipment:** 9DSY22VC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 5FJJ
+- **Tombstoned Equipment:** 5FJJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 5FJJ
+- **Tombstoned Equipment:** 5FJJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 4LRP4CCKZNR8
+- **Tombstoned Equipment:** 4LRP4CCKZNR8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 4LRP4CCKZNR8
+- **Tombstoned Equipment:** 4LRP4CCKZNR8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: LJNP
+- **Tombstoned Equipment:** LJNP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: LJNP
+- **Tombstoned Equipment:** LJNP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: R310
+- **Tombstoned Equipment:** R310
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: R310
+- **Tombstoned Equipment:** R310
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: HS7UZ6
+- **Tombstoned Equipment:** HS7UZ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: HS7UZ6
+- **Tombstoned Equipment:** HS7UZ6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: I6VQ2B
+- **Tombstoned Equipment:** I6VQ2B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: I6VQ2B
+- **Tombstoned Equipment:** I6VQ2B
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 405MFW
+- **Tombstoned Equipment:** 405MFW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 405MFW
+- **Tombstoned Equipment:** 405MFW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: ZNY2Q0QHZPUC
+- **Tombstoned Equipment:** ZNY2Q0QHZPUC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: ZNY2Q0QHZPUC
+- **Tombstoned Equipment:** ZNY2Q0QHZPUC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: N03
+- **Tombstoned Equipment:** N03
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: N03
+- **Tombstoned Equipment:** N03
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 9FEEWY98MFON
+- **Tombstoned Equipment:** 9FEEWY98MFON
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 9FEEWY98MFON
+- **Tombstoned Equipment:** 9FEEWY98MFON
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: NMRYE40I3RQ
+- **Tombstoned Equipment:** NMRYE40I3RQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: NMRYE40I3RQ
+- **Tombstoned Equipment:** NMRYE40I3RQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2PK
+- **Tombstoned Equipment:** 2PK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 2PK
+- **Tombstoned Equipment:** 2PK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UQ4Z19ITRDY5
+- **Tombstoned Equipment:** UQ4Z19ITRDY5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: UQ4Z19ITRDY5
+- **Tombstoned Equipment:** UQ4Z19ITRDY5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: CJN
+- **Tombstoned Equipment:** CJN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: CJN
+- **Tombstoned Equipment:** CJN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: C1YV9M5L3
+- **Tombstoned Equipment:** C1YV9M5L3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: C1YV9M5L3
+- **Tombstoned Equipment:** C1YV9M5L3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EIXI
+- **Tombstoned Equipment:** EIXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: EIXI
+- **Tombstoned Equipment:** EIXI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: HZMCZ3CPIF3K
+- **Tombstoned Equipment:** HZMCZ3CPIF3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: HZMCZ3CPIF3K
+- **Tombstoned Equipment:** HZMCZ3CPIF3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 5NT
+- **Tombstoned Equipment:** 5NT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: 5NT
+- **Tombstoned Equipment:** 5NT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: A07
+- **Tombstoned Equipment:** A07
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: A07
+- **Tombstoned Equipment:** A07
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: HXGU0
+- **Tombstoned Equipment:** HXGU0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: HXGU0
+- **Tombstoned Equipment:** HXGU0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: FF0000
+- **Tombstoned Equipment:** FF0000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:29:36 UTC] Document Deletion: FF0000
+- **Tombstoned Equipment:** FF0000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 13:29**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 13:29**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 000
+- **Tombstoned Equipment:** 000
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: L56Z15H0AC
+- **Tombstoned Equipment:** L56Z15H0AC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: L56Z15H0AC
+- **Tombstoned Equipment:** L56Z15H0AC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: HC7OM664HEOJ
+- **Tombstoned Equipment:** HC7OM664HEOJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: HC7OM664HEOJ
+- **Tombstoned Equipment:** HC7OM664HEOJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 2YZIAEZA62XA
+- **Tombstoned Equipment:** 2YZIAEZA62XA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 2YZIAEZA62XA
+- **Tombstoned Equipment:** 2YZIAEZA62XA
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 4X75T6QXH
+- **Tombstoned Equipment:** 4X75T6QXH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 4X75T6QXH
+- **Tombstoned Equipment:** 4X75T6QXH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: F3AHDHP0I213
+- **Tombstoned Equipment:** F3AHDHP0I213
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: F3AHDHP0I213
+- **Tombstoned Equipment:** F3AHDHP0I213
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: CNSP435MAFPI
+- **Tombstoned Equipment:** CNSP435MAFPI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: CNSP435MAFPI
+- **Tombstoned Equipment:** CNSP435MAFPI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5GFDGB3IXZ74
+- **Tombstoned Equipment:** 5GFDGB3IXZ74
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5GFDGB3IXZ74
+- **Tombstoned Equipment:** 5GFDGB3IXZ74
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: IKL64
+- **Tombstoned Equipment:** IKL64
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: IKL64
+- **Tombstoned Equipment:** IKL64
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: AQLBIG91J
+- **Tombstoned Equipment:** AQLBIG91J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: AQLBIG91J
+- **Tombstoned Equipment:** AQLBIG91J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 2FJPMV
+- **Tombstoned Equipment:** 2FJPMV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 2FJPMV
+- **Tombstoned Equipment:** 2FJPMV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: RPN3X918
+- **Tombstoned Equipment:** RPN3X918
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: RPN3X918
+- **Tombstoned Equipment:** RPN3X918
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 9JNP57UEOHQU
+- **Tombstoned Equipment:** 9JNP57UEOHQU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 9JNP57UEOHQU
+- **Tombstoned Equipment:** 9JNP57UEOHQU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: HSXU3225MGYQ
+- **Tombstoned Equipment:** HSXU3225MGYQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: HSXU3225MGYQ
+- **Tombstoned Equipment:** HSXU3225MGYQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 8Y92BYKKILN
+- **Tombstoned Equipment:** 8Y92BYKKILN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 8Y92BYKKILN
+- **Tombstoned Equipment:** 8Y92BYKKILN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 76U4XAYP4CO
+- **Tombstoned Equipment:** 76U4XAYP4CO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 76U4XAYP4CO
+- **Tombstoned Equipment:** 76U4XAYP4CO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: K7F2H69
+- **Tombstoned Equipment:** K7F2H69
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: K7F2H69
+- **Tombstoned Equipment:** K7F2H69
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: KZ8XGNB1JRJ
+- **Tombstoned Equipment:** KZ8XGNB1JRJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: KZ8XGNB1JRJ
+- **Tombstoned Equipment:** KZ8XGNB1JRJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: QD9PDTPDJX3K
+- **Tombstoned Equipment:** QD9PDTPDJX3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: QD9PDTPDJX3K
+- **Tombstoned Equipment:** QD9PDTPDJX3K
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BG4BK
+- **Tombstoned Equipment:** BG4BK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BG4BK
+- **Tombstoned Equipment:** BG4BK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: A8XDUJ
+- **Tombstoned Equipment:** A8XDUJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: A8XDUJ
+- **Tombstoned Equipment:** A8XDUJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: X18V94L
+- **Tombstoned Equipment:** X18V94L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: X18V94L
+- **Tombstoned Equipment:** X18V94L
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: LO0FJAYIXKIL
+- **Tombstoned Equipment:** LO0FJAYIXKIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: LO0FJAYIXKIL
+- **Tombstoned Equipment:** LO0FJAYIXKIL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: CPR
+- **Tombstoned Equipment:** CPR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: CPR
+- **Tombstoned Equipment:** CPR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: L7D46
+- **Tombstoned Equipment:** L7D46
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: L7D46
+- **Tombstoned Equipment:** L7D46
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: SNJE82QQ
+- **Tombstoned Equipment:** SNJE82QQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: SNJE82QQ
+- **Tombstoned Equipment:** SNJE82QQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: Y1UD
+- **Tombstoned Equipment:** Y1UD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: Y1UD
+- **Tombstoned Equipment:** Y1UD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: Z4B2
+- **Tombstoned Equipment:** Z4B2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: Z4B2
+- **Tombstoned Equipment:** Z4B2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: WGUQQ
+- **Tombstoned Equipment:** WGUQQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: WGUQQ
+- **Tombstoned Equipment:** WGUQQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: CFW0ZL2
+- **Tombstoned Equipment:** CFW0ZL2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: CFW0ZL2
+- **Tombstoned Equipment:** CFW0ZL2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: V8T5P0UZ93
+- **Tombstoned Equipment:** V8T5P0UZ93
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: V8T5P0UZ93
+- **Tombstoned Equipment:** V8T5P0UZ93
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: M6XN8W3EBDK1
+- **Tombstoned Equipment:** M6XN8W3EBDK1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: M6XN8W3EBDK1
+- **Tombstoned Equipment:** M6XN8W3EBDK1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: DHBX969M4KUP
+- **Tombstoned Equipment:** DHBX969M4KUP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: DHBX969M4KUP
+- **Tombstoned Equipment:** DHBX969M4KUP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 86GX
+- **Tombstoned Equipment:** 86GX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 86GX
+- **Tombstoned Equipment:** 86GX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: OZTRW11RLT
+- **Tombstoned Equipment:** OZTRW11RLT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: OZTRW11RLT
+- **Tombstoned Equipment:** OZTRW11RLT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BJKR61WPNY
+- **Tombstoned Equipment:** BJKR61WPNY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BJKR61WPNY
+- **Tombstoned Equipment:** BJKR61WPNY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: MQ54N
+- **Tombstoned Equipment:** MQ54N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: MQ54N
+- **Tombstoned Equipment:** MQ54N
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 936CJIRDGL
+- **Tombstoned Equipment:** 936CJIRDGL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 936CJIRDGL
+- **Tombstoned Equipment:** 936CJIRDGL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: IVAQ4BV28M
+- **Tombstoned Equipment:** IVAQ4BV28M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: IVAQ4BV28M
+- **Tombstoned Equipment:** IVAQ4BV28M
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 8M31
+- **Tombstoned Equipment:** 8M31
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 8M31
+- **Tombstoned Equipment:** 8M31
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: AQCUJ9R6
+- **Tombstoned Equipment:** AQCUJ9R6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: AQCUJ9R6
+- **Tombstoned Equipment:** AQCUJ9R6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: TXSB6HMVDB3Y
+- **Tombstoned Equipment:** TXSB6HMVDB3Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: TXSB6HMVDB3Y
+- **Tombstoned Equipment:** TXSB6HMVDB3Y
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: KR06BRJ9NRBX
+- **Tombstoned Equipment:** KR06BRJ9NRBX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: KR06BRJ9NRBX
+- **Tombstoned Equipment:** KR06BRJ9NRBX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: E59BJN85QLX
+- **Tombstoned Equipment:** E59BJN85QLX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: E59BJN85QLX
+- **Tombstoned Equipment:** E59BJN85QLX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: YI1
+- **Tombstoned Equipment:** YI1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: YI1
+- **Tombstoned Equipment:** YI1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 4PT
+- **Tombstoned Equipment:** 4PT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 4PT
+- **Tombstoned Equipment:** 4PT
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 8XN
+- **Tombstoned Equipment:** 8XN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 8XN
+- **Tombstoned Equipment:** 8XN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: MTF
+- **Tombstoned Equipment:** MTF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: MTF
+- **Tombstoned Equipment:** MTF
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: ZJJIQ
+- **Tombstoned Equipment:** ZJJIQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: ZJJIQ
+- **Tombstoned Equipment:** ZJJIQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: EK4
+- **Tombstoned Equipment:** EK4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: EK4
+- **Tombstoned Equipment:** EK4
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: EUTPZNVK
+- **Tombstoned Equipment:** EUTPZNVK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: EUTPZNVK
+- **Tombstoned Equipment:** EUTPZNVK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BBI3ZCSG
+- **Tombstoned Equipment:** BBI3ZCSG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BBI3ZCSG
+- **Tombstoned Equipment:** BBI3ZCSG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: ZMW2B2T7KJ0
+- **Tombstoned Equipment:** ZMW2B2T7KJ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: ZMW2B2T7KJ0
+- **Tombstoned Equipment:** ZMW2B2T7KJ0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: FXG
+- **Tombstoned Equipment:** FXG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: FXG
+- **Tombstoned Equipment:** FXG
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: POW
+- **Tombstoned Equipment:** POW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: POW
+- **Tombstoned Equipment:** POW
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: C5OJK
+- **Tombstoned Equipment:** C5OJK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: C5OJK
+- **Tombstoned Equipment:** C5OJK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: NG9RL8ML3IDL
+- **Tombstoned Equipment:** NG9RL8ML3IDL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: NG9RL8ML3IDL
+- **Tombstoned Equipment:** NG9RL8ML3IDL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 6XU
+- **Tombstoned Equipment:** 6XU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 6XU
+- **Tombstoned Equipment:** 6XU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: KQ9J
+- **Tombstoned Equipment:** KQ9J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: KQ9J
+- **Tombstoned Equipment:** KQ9J
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: VFNEDCT1SU93
+- **Tombstoned Equipment:** VFNEDCT1SU93
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: VFNEDCT1SU93
+- **Tombstoned Equipment:** VFNEDCT1SU93
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: TNN6BIN
+- **Tombstoned Equipment:** TNN6BIN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: TNN6BIN
+- **Tombstoned Equipment:** TNN6BIN
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: OY8
+- **Tombstoned Equipment:** OY8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: OY8
+- **Tombstoned Equipment:** OY8
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: VIH189NZS
+- **Tombstoned Equipment:** VIH189NZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: VIH189NZS
+- **Tombstoned Equipment:** VIH189NZS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: S1C
+- **Tombstoned Equipment:** S1C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: S1C
+- **Tombstoned Equipment:** S1C
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: R6YG3LFTNMS
+- **Tombstoned Equipment:** R6YG3LFTNMS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: R6YG3LFTNMS
+- **Tombstoned Equipment:** R6YG3LFTNMS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: NH6RE377
+- **Tombstoned Equipment:** NH6RE377
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: NH6RE377
+- **Tombstoned Equipment:** NH6RE377
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: A4VWA5IPP6BY
+- **Tombstoned Equipment:** A4VWA5IPP6BY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: A4VWA5IPP6BY
+- **Tombstoned Equipment:** A4VWA5IPP6BY
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: XXOC
+- **Tombstoned Equipment:** XXOC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: XXOC
+- **Tombstoned Equipment:** XXOC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: Y1OAO
+- **Tombstoned Equipment:** Y1OAO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: Y1OAO
+- **Tombstoned Equipment:** Y1OAO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BQEAM8ZN9QS
+- **Tombstoned Equipment:** BQEAM8ZN9QS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BQEAM8ZN9QS
+- **Tombstoned Equipment:** BQEAM8ZN9QS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: LHLXFHM
+- **Tombstoned Equipment:** LHLXFHM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: LHLXFHM
+- **Tombstoned Equipment:** LHLXFHM
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: QIZ0T
+- **Tombstoned Equipment:** QIZ0T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: QIZ0T
+- **Tombstoned Equipment:** QIZ0T
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 6JO8JILOW6SH
+- **Tombstoned Equipment:** 6JO8JILOW6SH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 6JO8JILOW6SH
+- **Tombstoned Equipment:** 6JO8JILOW6SH
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5EMEJ2RYS1
+- **Tombstoned Equipment:** 5EMEJ2RYS1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5EMEJ2RYS1
+- **Tombstoned Equipment:** 5EMEJ2RYS1
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: SB0PCV1YZMK6
+- **Tombstoned Equipment:** SB0PCV1YZMK6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: SB0PCV1YZMK6
+- **Tombstoned Equipment:** SB0PCV1YZMK6
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 453
+- **Tombstoned Equipment:** 453
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 453
+- **Tombstoned Equipment:** 453
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: NTW3
+- **Tombstoned Equipment:** NTW3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: NTW3
+- **Tombstoned Equipment:** NTW3
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: DU4B0
+- **Tombstoned Equipment:** DU4B0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: DU4B0
+- **Tombstoned Equipment:** DU4B0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5XU
+- **Tombstoned Equipment:** 5XU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5XU
+- **Tombstoned Equipment:** 5XU
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 29UVR9DCM9SL
+- **Tombstoned Equipment:** 29UVR9DCM9SL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 29UVR9DCM9SL
+- **Tombstoned Equipment:** 29UVR9DCM9SL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: ZYO
+- **Tombstoned Equipment:** ZYO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: ZYO
+- **Tombstoned Equipment:** ZYO
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 1FP0SVO5FR
+- **Tombstoned Equipment:** 1FP0SVO5FR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 1FP0SVO5FR
+- **Tombstoned Equipment:** 1FP0SVO5FR
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5HYWXF9H0
+- **Tombstoned Equipment:** 5HYWXF9H0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5HYWXF9H0
+- **Tombstoned Equipment:** 5HYWXF9H0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: AVV1ASQ
+- **Tombstoned Equipment:** AVV1ASQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: AVV1ASQ
+- **Tombstoned Equipment:** AVV1ASQ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: USDP
+- **Tombstoned Equipment:** USDP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: USDP
+- **Tombstoned Equipment:** USDP
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: GBIRDI6YFBLK
+- **Tombstoned Equipment:** GBIRDI6YFBLK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: GBIRDI6YFBLK
+- **Tombstoned Equipment:** GBIRDI6YFBLK
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: IU40DC
+- **Tombstoned Equipment:** IU40DC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: IU40DC
+- **Tombstoned Equipment:** IU40DC
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: LLD02ZVZ9WI
+- **Tombstoned Equipment:** LLD02ZVZ9WI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: LLD02ZVZ9WI
+- **Tombstoned Equipment:** LLD02ZVZ9WI
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: FR1SJS
+- **Tombstoned Equipment:** FR1SJS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: FR1SJS
+- **Tombstoned Equipment:** FR1SJS
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: VZUVO8UBZ
+- **Tombstoned Equipment:** VZUVO8UBZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: VZUVO8UBZ
+- **Tombstoned Equipment:** VZUVO8UBZ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: T0W0T25SO1X
+- **Tombstoned Equipment:** T0W0T25SO1X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: T0W0T25SO1X
+- **Tombstoned Equipment:** T0W0T25SO1X
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: U9FV4OD
+- **Tombstoned Equipment:** U9FV4OD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: U9FV4OD
+- **Tombstoned Equipment:** U9FV4OD
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5IBNAF0Z17RV
+- **Tombstoned Equipment:** 5IBNAF0Z17RV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 5IBNAF0Z17RV
+- **Tombstoned Equipment:** 5IBNAF0Z17RV
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: J0G7CJ7AU7PX
+- **Tombstoned Equipment:** J0G7CJ7AU7PX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: J0G7CJ7AU7PX
+- **Tombstoned Equipment:** J0G7CJ7AU7PX
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BEHL
+- **Tombstoned Equipment:** BEHL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: BEHL
+- **Tombstoned Equipment:** BEHL
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: QCG1A5
+- **Tombstoned Equipment:** QCG1A5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: QCG1A5
+- **Tombstoned Equipment:** QCG1A5
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: JVZJ
+- **Tombstoned Equipment:** JVZJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: JVZJ
+- **Tombstoned Equipment:** JVZJ
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 7IRB1HYFF2C0
+- **Tombstoned Equipment:** 7IRB1HYFF2C0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 7IRB1HYFF2C0
+- **Tombstoned Equipment:** 7IRB1HYFF2C0
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: SX47M6H08
+- **Tombstoned Equipment:** SX47M6H08
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: SX47M6H08
+- **Tombstoned Equipment:** SX47M6H08
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 3MKB2
+- **Tombstoned Equipment:** 3MKB2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+## [2026-08-31 13:45:14 UTC] Document Deletion: 3MKB2
+- **Tombstoned Equipment:** 3MKB2
+- **Tombstoned Instruments:** None
+- **Severed Graph Edges:** 0
+
+- **2026-08-31 13:45**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
+
+- **2026-08-31 13:45**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260831`) and Spanner Graph with 1 action items.
