@@ -277,9 +277,13 @@ fi
 # Execute Application Container Build & Deploy (if requested)
 if [[ "$DEPLOY_TARGET" == "app" || "$DEPLOY_TARGET" == "all" ]]; then
   log_info "Step 0/3: Verifying zero-mock cloud synchronization..."
-  if command -v python3 &>/dev/null && [[ -f "${ROOT_DIR}/scripts/sync_dataplex_catalog.py" ]]; then
+  PYTHON_BIN="python3"
+  if [[ -x "${ROOT_DIR}/.venv/bin/python" ]]; then
+    PYTHON_BIN="${ROOT_DIR}/.venv/bin/python"
+  fi
+  if [[ -f "${ROOT_DIR}/scripts/sync_dataplex_catalog.py" ]]; then
     log_info "Idempotently ensuring Dataplex Catalog entries are active..."
-    python3 "${ROOT_DIR}/scripts/sync_dataplex_catalog.py" || log_warn "Dataplex catalog check completed with notice."
+    "$PYTHON_BIN" "${ROOT_DIR}/scripts/sync_dataplex_catalog.py" || log_warn "Dataplex catalog check completed with notice."
   fi
 
   log_info "Step 1/3: Building container image via Google Cloud Build..."
