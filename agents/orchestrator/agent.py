@@ -34,7 +34,10 @@ class OrchestratorAgent:
         self.clarification = ClarificationManager()
 
         self.api_key = os.getenv("GEMINI_API_KEY", "")
-        self.model_name = os.getenv("DEFAULT_MODEL", "gemini-3.6-flash")
+        self.model_name = os.getenv("DEFAULT_MODEL", "gemini-3.7-flash")
+        self.use_vertex = os.getenv("GOOGLE_GENAI_USE_VERTEXAI", "").lower() in ("true", "1", "yes")
+        self.project = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
+        self.region = os.getenv("GCP_REGION", "asia-southeast1")
 
     def classify_intent_semantic(self, prompt: str) -> str:
         """Classifies intent dynamically via Gemini or semantic fallback."""
@@ -66,10 +69,16 @@ class OrchestratorAgent:
     ) -> str:
         """Synthesizes a cohesive, question-directed answer via live Gemini API."""
         
-        # Live Gemini API call if key is available and not running inside pytest
-        if self.api_key and not os.getenv("PYTEST_CURRENT_TEST"):
+        # Live Gemini Synthesis (supports Vertex AI ADC in production & optional API Key in dev)
+        use_live = (self.use_vertex or self.api_key) and not os.getenv("PYTEST_CURRENT_TEST")
+        if use_live:
             try:
-                url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
+                system_instruction = (
+                    "You are the Lead Process Safety & HAZOP AI Expert for Refinery Phenol Plant. "
+                    "Synthesize a clear, highly professional, direct answer to the user's question using the retrieved "
+                    "process safety information. Do NOT dump raw disconnected tables. Specifically answer the question asked, "
+                    "explain the engineering reasoning, state voting logic and isolation valves if relevant, and cite As-Built drawing references cleanly."
+                )
                 context_payload = {
                     "equipment_tag": target_tag,
                     "active_interlocks": interlocks,
@@ -77,27 +86,40 @@ class OrchestratorAgent:
                     "dataplex_provenance": prov,
                     "wiki_narrative_excerpt": wiki_doc.get("full_content", "")[:2500] if wiki_doc else ""
                 }
-                system_instruction = (
-                    "You are the Lead Process Safety & HAZOP AI Expert for PTT Global Chemical (PTT GC) Phenol Plant. "
-                    "Synthesize a clear, highly professional, direct answer to the user's question using the retrieved "
-                    "process safety information. Do NOT dump raw disconnected tables. Specifically answer the question asked, "
-                    "explain the engineering reasoning, state voting logic and isolation valves if relevant, and cite As-Built drawing references cleanly."
-                )
-                payload = {
-                    "contents": [{
-                        "parts": [{
-                            "text": f"{system_instruction}\n\nUser Question: {prompt}\n\nRetrieved Engineering Context:\n{json.dumps(context_payload, indent=2)}"
+                user_content = f"User Question: {prompt}\n\nRetrieved Engineering Context:\n{json.dumps(context_payload, indent=2)}"
+
+                if self.use_vertex:
+                    # Production Mode: Google Cloud Vertex AI via Application Default Credentials (ADC) / IAM
+                    from google import genai
+                    from google.genai import types
+                    client = genai.Client(vertexai=True, project=self.project, location=self.region)
+                    resp = client.models.generate_content(
+                        model=self.model_name,
+                        contents=user_content,
+                        config=types.GenerateContentConfig(
+                            system_instruction=system_instruction,
+                            temperature=0.2
+                        )
+                    )
+                    if resp and resp.text:
+                        return resp.text.strip()
+                elif self.api_key:
+                    # Development Mode: Developer API Key fallback
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
+                    payload = {
+                        "contents": [{
+                            "parts": [{
+                                "text": f"{system_instruction}\n\n{user_content}"
+                            }]
                         }]
-                    }]
-                }
-                with httpx.Client(timeout=15.0) as client:
-                    resp = client.post(url, json=payload)
-                    if resp.status_code == 200:
-                        data = resp.json()
-                        text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-                        return text
+                    }
+                    with httpx.Client(timeout=15.0) as client:
+                        resp = client.post(url, json=payload)
+                        if resp.status_code == 200:
+                            data = resp.json()
+                            return data["candidates"][0]["content"]["parts"][0]["text"].strip()
             except Exception as e:
-                print(f"[ORCHESTRATOR LIVE GEMINI FALLBACK] {e}")
+                print(f"[ORCHESTRATOR LIVE GEMINI/VERTEX FALLBACK] {e}")
 
         # Deterministic Fast Offline Synthesizer
         p_lower = prompt.lower()

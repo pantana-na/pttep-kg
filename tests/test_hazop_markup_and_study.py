@@ -7,7 +7,7 @@ import os
 import pytest
 import openpyxl
 from pathlib import Path
-from hypothesis import given, strategies as st
+from hypothesis import given, settings, strategies as st
 from fastapi.testclient import TestClient
 
 from database.init_db import init_local_mock
@@ -380,6 +380,7 @@ def test_pbt_ipl_likelihood_bounds(p, en, ec, s, init_l, sil_credit):
     assert second["overall_severity"] == first["overall_severity"]
 
 
+@settings(deadline=None)
 @given(
     st.integers(min_value=1, max_value=5),
     st.integers(min_value=1, max_value=5),

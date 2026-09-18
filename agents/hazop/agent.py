@@ -32,7 +32,10 @@ class HazopStudyAgent:
         self.scanner = AntiBiasScanner()
         self.markup_parser = PidMarkupParser()
         self.api_key = os.getenv("GEMINI_API_KEY", "")
-        self.model_name = os.getenv("DEFAULT_MODEL", "gemini-3.6-flash")
+        self.model_name = os.getenv("DEFAULT_MODEL", "gemini-3.7-flash")
+        self.use_vertex = os.getenv("GOOGLE_GENAI_USE_VERTEXAI", "").lower() in ("true", "1", "yes")
+        self.project = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
+        self.region = os.getenv("GCP_REGION", "asia-southeast1")
 
     def start_study_setup(self, node_id: str, raw_dir: str = "raw") -> Dict[str, Any]:
         """Validates Anti-Bias rule and initializes study session."""
@@ -410,21 +413,29 @@ status: CONFIRMED by engineer; ready for interactive deviation review
                 # Generate realistic recommendation
                 param_name = dev.split("—")[0].strip()
                 rec_text = f"Verify proof test interval and SIL compliance for credited {param_name} interlock safeguard."
-                if row_data.get("fetch_ai_recommendation", False) and self.api_key and not os.getenv("PYTEST_CURRENT_TEST"):
+                use_live = row_data.get("fetch_ai_recommendation", False) and (self.use_vertex or self.api_key) and not os.getenv("PYTEST_CURRENT_TEST")
+                if use_live:
                     try:
-                        url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
                         prompt = (
-                            f"As a Senior Process Safety Expert for PTT GC, formulate a concise, actionable HAZOP recommendation (format: [Action Verb] + [Specific Target Tag] + [Purpose]):\n"
+                            f"As a Senior Process Safety Expert for Refinery Phenol Plant, formulate a concise, actionable HAZOP recommendation (format: [Action Verb] + [Specific Target Tag] + [Purpose]):\n"
                             f"Deviation: {dev}\nCause: {cause}\nConsequence: {conseq}\n"
                             f"Initial Risk: {first_risk['initial_risk_rating']} -> Mitigated Risk: {second_risk['mitigated_risk_rating']}\n"
                             f"Active Safeguards: {[s.get('description') for s in selected_sgs]}\n\n"
                             f"Provide one actionable engineering recommendation (max 2 sentences)."
                         )
-                        payload = {"contents": [{"parts": [{"text": prompt}]}]}
-                        with httpx.Client(timeout=1.5) as client:
-                            resp = client.post(url, json=payload)
-                            if resp.status_code == 200:
-                                rec_text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+                        if self.use_vertex:
+                            from google import genai
+                            client = genai.Client(vertexai=True, project=self.project, location=self.region)
+                            resp = client.models.generate_content(model=self.model_name, contents=prompt)
+                            if resp and resp.text:
+                                rec_text = resp.text.strip()
+                        elif self.api_key:
+                            url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
+                            payload = {"contents": [{"parts": [{"text": prompt}]}]}
+                            with httpx.Client(timeout=1.5) as client:
+                                resp = client.post(url, json=payload)
+                                if resp.status_code == 200:
+                                    rec_text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
                     except Exception as e:
                         pass
             else:
@@ -599,23 +610,31 @@ status: CONFIRMED by engineer; ready for interactive deviation review
             rec_text = "Verify proof test interval for 1oo2 SIL 1 interlock."
             discipline = "Instrument / Process"
             
-            if self.api_key and not os.getenv("PYTEST_CURRENT_TEST"):
+            use_live = (self.use_vertex or self.api_key) and not os.getenv("PYTEST_CURRENT_TEST")
+            if use_live:
                 try:
-                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
                     prompt = (
-                        f"As a Senior Process Safety Expert for PTT GC, formulate a concise, actionable HAZOP recommendation (format: [Action Verb] + [Specific Target Tag] + [Purpose]):\n"
+                        f"As a Senior Process Safety Expert for Refinery Phenol Plant, formulate a concise, actionable HAZOP recommendation (format: [Action Verb] + [Specific Target Tag] + [Purpose]):\n"
                         f"Deviation: {deviation}\nCause: {cause}\nConsequence: {consequence}\n"
                         f"Initial Risk: {risk_res['initial_risk_rating']} -> Mitigated Risk: {risk_res['mitigated_risk_rating']}\n"
                         f"Safeguards: {confirmed_safeguards}\n\n"
                         f"Provide one actionable engineering recommendation (max 2 sentences)."
                     )
-                    payload = {"contents": [{"parts": [{"text": prompt}]}]}
-                    with httpx.Client(timeout=6.0) as client:
-                        resp = client.post(url, json=payload)
-                        if resp.status_code == 200:
-                            rec_text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+                    if self.use_vertex:
+                        from google import genai
+                        client = genai.Client(vertexai=True, project=self.project, location=self.region)
+                        resp = client.models.generate_content(model=self.model_name, contents=prompt)
+                        if resp and resp.text:
+                            rec_text = resp.text.strip()
+                    elif self.api_key:
+                        url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
+                        payload = {"contents": [{"parts": [{"text": prompt}]}]}
+                        with httpx.Client(timeout=6.0) as client:
+                            resp = client.post(url, json=payload)
+                            if resp.status_code == 200:
+                                rec_text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
                 except Exception as e:
-                    print(f"[HAZOP LIVE GEMINI RECOMMENDATION FALLBACK] {e}")
+                    print(f"[HAZOP LIVE GEMINI/VERTEX RECOMMENDATION FALLBACK] {e}")
 
         return {
             "status": "EVALUATED",

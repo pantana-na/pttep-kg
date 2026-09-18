@@ -43,6 +43,7 @@ specs/
 |---|---|---|---|---|
 | [`SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE`](./features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) | **Multi-Agent Cloud Architecture & Enterprise HAZOP Platform** | Decomposes system into 5 Gemini 3.7 Flash subagents, Cloud Spanner Graph + Dataplex Knowledge Catalog, Model Armor guardrails, and Web UI with full observability. | Implemented & Verified | 2026-08-27 |
 | [`SPEC-20260831-HAZOP-MARKUP-INGESTION-AND-STUDY-LIFECYCLE`](./features/SPEC-20260831-HAZOP-MARKUP-INGESTION-AND-STUDY-LIFECYCLE.md) | **HAZOP P&ID Markup Ingestion, Study Lifecycle & 7-Tab Excel Export** | Ingestion of engineer-annotated P&ID PDFs (e.g. Node 23-02/23-03), human-in-the-loop node confirmation gate, 14-parameter 3-risk-block deviation analysis, and 7-tab GC Excel export matching reference examples. | Implemented & Verified | 2026-08-31 |
+| [`SPEC-20260918-JOURNEY-1-EXPLORER-REDESIGN`](./features/SPEC-20260918-JOURNEY-1-EXPLORER-REDESIGN.md) | **Journey 1 Process Explorer & Enterprise Technical Cockpit Redesign** | Redesign dedicated to Journey 1 for customer IT technical demos: interactive Spanner knowledge graph topology visualizer, Model Armor security live metrics, Cloud Spanner ISO GQL & TrueTime inspector, and dynamic query subgraph filtering. | Implemented & Verified | 2026-09-18 |
 
 ### 2.4 Implementation Progress & Execution Reports (`specs/plan/`)
 
@@ -50,6 +51,7 @@ specs/
 |---|---|---|---|---|
 | [`PLAN-20260827-PROGRESS-REPORT`](./plan/PROGRESS_REPORT_20260827.md) | **Initial Multi-Agent Platform Progress Report** | Tracks completion of Steps 1.0–8.0, 40/40 Unit & PBT tests, Model Armor integration, live Gemini synthesis, and test prompts. | Implemented & Verified (40/40 Tests Green) | 2026-08-27 |
 | [`PLAN-20260831-PROGRESS-REPORT`](./plan/PROGRESS_REPORT_20260831.md) | **HAZOP Markup Ingestion, All-in-One Grid & AI Scenario Creator Report** | Tracks completion of P&ID markup parser, `<NodeConfirmationCard />`, All-in-One Excel grid with Freeze Panes, "What-If" AI Scenario Creator, 7-tab Excel exporter, and 59/59 tests. | Implemented & Verified (59/59 Tests Green) | 2026-08-31 |
+| [`PLAN-20260918-PROGRESS-REPORT`](./plan/PROGRESS_REPORT_20260918.md) | **Journey 1 Process Explorer & Enterprise Technical Cockpit Report** | Tracks completion of Option 1 Dual-Pane Mission Control Cockpit, interactive Spanner Knowledge Graph Canvas, Model Armor security live card, ISO GQL & TrueTime inspector, and 61/61 tests. | Implemented & Verified (61/61 Tests Green) | 2026-09-18 |
 
 ---
 

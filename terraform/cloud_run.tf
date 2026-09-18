@@ -4,6 +4,8 @@ resource "google_cloud_run_v2_service" "phenol_agent_service" {
   ingress  = "INGRESS_TRAFFIC_ALL"
 
   template {
+    service_account = var.service_account != "" ? var.service_account : null
+
     scaling {
       min_instance_count = var.environment == "prod" ? 1 : 0
       max_instance_count = var.environment == "prod" ? 10 : 3
@@ -35,6 +37,18 @@ resource "google_cloud_run_v2_service" "phenol_agent_service" {
         name  = "SPANNER_DATABASE"
         value = "safety-db"
       }
+      env {
+        name  = "GOOGLE_GENAI_USE_VERTEXAI"
+        value = "true"
+      }
+      env {
+        name  = "DEFAULT_MODEL"
+        value = var.default_model
+      }
+      env {
+        name  = "ENVIRONMENT"
+        value = var.environment
+      }
 
       liveness_probe {
         http_get {
@@ -50,6 +64,6 @@ resource "google_cloud_run_v2_service" "phenol_agent_service" {
 
   labels = {
     "run.googleapis.com/invoker-iam-disabled" = "true"
-    "environment"                            = var.environment
+    "environment"                             = var.environment
   }
 }

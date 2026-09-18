@@ -1,20 +1,18 @@
-# Technical Architecture: Data Ingestion, Multi-Tier Storage & Multi-Agent Retrieval Synthesis
+# Technical Architecture: Refinery Phenol Process Safety & Multi-Agent AI Platform
 
-**Project:** PTT Global Chemical (PTT GC) Phenol Process Safety & HAZOP AI Platform  
-**Specification Reference:** [`specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md`](../specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md)  
+**Project:** Refinery Phenol Process Safety Expert & Enterprise Technical Cockpit  
+**Specification Reference:** [`specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md`](../specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) & [`specs/features/SPEC-20260918-JOURNEY-1-EXPLORER-REDESIGN.md`](../specs/features/SPEC-20260918-JOURNEY-1-EXPLORER-REDESIGN.md)  
 **Companion Interactive HTML Diagram:** [**`docs/architecture.html`**](./architecture.html)
 
 ---
 
-## 🧭 Executive Overview
+## �� Executive Overview
 
-This document provides a technical walkthrough and architectural mapping of:
-1. **Raw Data Ingestion & Storage Architecture:** How raw engineering artifacts (PFDs, P&IDs, Data Sheets, Manuals) are classified, structured into **LLM-Wiki** Markdown format, and synchronized across **Cloud Spanner Graph**, **Dataplex Knowledge Catalog**, **Vertex AI Vector Search**, and **Google Cloud Storage (GCS)**.
-2. **Query Parsing, Semantic Tool Gating & Multi-Tier LLM Synthesis:** How incoming user queries pass through **Google Cloud Model Armor**, how semantic intents dictate dynamic tool routing, and how retrieved data across all storage tiers is synthesized by **Gemini 3.7 Flash** into cohesive, cited process safety dossiers.
+The **Refinery Phenol Process Safety Platform** is an enterprise-grade AI system designed for process engineers and safety specialists in petrochemical manufacturing. It unifies high-hazard process safety information (PSI) across **Cumene Oxidation, Concentration, and Cleavage Sections (CDN / OXI / ALKY)**, governed under **OEMS-005** process safety management standards.
 
 ```
 +-------------------------------------------------------------------------------------------------------------------------+
-|                                    PTT GC PHENOL PROCESS SAFETY ARCHITECTURE MAP                                        |
+|                                    REFINERY PHENOL PROCESS SAFETY ARCHITECTURE MAP                                      |
 +-------------------------------------------------------------------------------------------------------------------------+
 |                                                                                                                         |
 |   [ RAW ENGINEERING PSI ]          [ MULTIMODAL PARSING & WIKI ]                 [ 4 STORAGE TIERS ]                    |
@@ -25,11 +23,11 @@ This document provides a technical walkthrough and architectural mapping of:
 |                                                                                                                         |
 | ----------------------------------------------------------------------------------------------------------------------- |
 |                                                                                                                         |
-|   [ USER QUERY INGRESS ]           [ SECURITY & ORCHESTRATION ]                  [ TOOL GATING & LIVE GEMINI SYNTHESIS ]|
-|   • "What trips protect E-2303?"   • Model Armor Shield (<1ms)                   • Semantic Tool Gater (Upstream/Lineage)|
-|   • "Show equipment feeding..."    • Semantic Intent Classifier          ======> • RetrieverAgent (MCP Tool Calls)      |
-|   • "the pump" (Ambiguous)   ===>  • Clarification State Machine (HITL)  ======> • Live Gemini 3.7 Flash Synthesizer    |
-|   • Prompt Injection Attack        • Red Block Alert (0 Tool Calls)              • Multiplexed SSE UI Delivery          |
+|   [ USER INGRESS COCKPIT ]         [ SECURITY & ORCHESTRATION ]                  [ 3-TAB DEEP TECHNICAL INSPECTOR ]     |
+|   • Mission Control Dual-Pane UI   • Model Armor Shield (<1ms)                   • Tab 1: Spanner Knowledge Graph & GQL |
+|   • Sleek Quick Query Chips  ===>  • Semantic Intent Classifier          ======> • Tab 2: Dataplex Lineage & GCS Wiki   |
+|   • Ambiguous Tag Prompts          • Two-Tier HITL Clarification State           • Tab 3: Observability Latency Waterfall|
+|   • Prompt Injection Attack        • Red Block Alert (0 Tool Calls)              • Vertex AI Gemini 3.7 Flash (ADC IAM) |
 |                                                                                                                         |
 +-------------------------------------------------------------------------------------------------------------------------+
 ```
@@ -48,7 +46,7 @@ flowchart LR
     end
 
     subgraph Parsing["2. Parsing & Wiki Formation"]
-        Extr["🤖 ExtractorAgent<br/>• Gemini 2.5 Flash Vision OCR<br/>• OEMS-005 PSI Classifier"]
+        Extr["🤖 ExtractorAgent<br/>• Gemini Multimodal OCR<br/>• OEMS-005 PSI Classifier"]
         Wiki["📝 LLM-Wiki Formatter<br/>• YAML Frontmatter<br/>• [[equipment/E-2303]] Wikilinks"]
         DBAgent["🔄 DatabaseAgent<br/>• Multi-Target Sync<br/>• Cascading Tombstone Delete"]
     end
@@ -57,7 +55,7 @@ flowchart LR
         Spanner[("⚡ Cloud Spanner Graph<br/>• ISO GQL Engine<br/>• Nodes: Equipment, Interlock<br/>• Edges: FEEDS*1..3, TRIPS")]
         Dataplex[("📋 Dataplex Catalog<br/>• Entry Group: phenol-psi<br/>• OEMS-005 Aspects<br/>• As-Built Rev Z1")]
         Vector[("🔍 Vertex AI Vector<br/>• text-embedding-004 (768d)<br/>• Semantic Similarity on Notes")]
-        GCS[("📖 GCS LLM-Wiki<br/>• gs://phenol-llm-wiki/...<br/>• Markdown Dossiers<br/>• log.md & entities.md")]
+        GCS[("📖 GCS LLM-Wiki<br/>• gs://refinery-process-safety-lake/...<br/>• Markdown Dossiers<br/>• log.md & entities.md")]
     end
 
     RawPSI --> Extr
@@ -73,7 +71,7 @@ flowchart LR
 
 1. **Document Ingestion & OCR (`ExtractorAgent`):**
    - Ingests native PDFs or scanned raster drawings.
-   - Leverages **Gemini 2.5 Flash Multimodal OCR** to extract tabular data (mass balances, design temperatures, instrument setpoints) and line connectivity.
+   - Leverages **Gemini Multimodal OCR** to extract tabular data (mass balances, design temperatures, instrument setpoints) and line connectivity.
    - Classifies documents into OEMS-005 categories (`pfd`, `pid`, `data_sheets`, `operating_manuals`, `safeguards`).
 
 2. **LLM-Wiki Formatting (`LLM-Wiki Formatter`):**
@@ -97,25 +95,25 @@ flowchart LR
      - **Cloud Spanner Graph:** Upserts nodes (`Equipment`, `Unit`, `ChemicalHazard`, `InstrumentInterlock`) and inserts directed property graph edges (`FEEDS`, `PROTECTS`, `TRIPS`, `LOCATED_IN`).
      - **Dataplex Knowledge Catalog:** Creates/updates entries under entry group `phenol-psi`, attaching OEMS-005 metadata aspects and tracking As-Built certification revisions (`Rev Z1`).
      - **Vertex AI Vector Search:** Embeds unstructured text chunks and operating narrative descriptions using `text-embedding-004` (768 dimensions) for semantic retrieval.
-     - **Google Cloud Storage (GCS):** Uploads the human- and agent-readable Markdown files to `gs://phenol-llm-wiki/wiki/equipment/` and appends mutation logs to `wiki/log.md`.
+     - **Google Cloud Storage (GCS):** Uploads the human- and agent-readable Markdown files to `gs://refinery-process-safety-lake/wiki/` and appends mutation logs to `wiki/log.md`.
 
 ---
 
-## 2. Query Parsing, Semantic Tool Dispatching & Multi-Tier Synthesis
+## 2. Journey 1 Mission Control Cockpit, Security Shield & Synthesis
 
 ```mermaid
 flowchart TD
-    UserQuery["User Engineering Question<br/><i>e.g. 'What trips protect E-2303 from thermal runaway?'</i>"] --> Armor{"🛡️ Model Armor Guardrail<br/>(Policy: phenol-safety-template)"}
+    UserQuery["User Engineering Question<br/><i>e.g. 'What trips protect E-2303 from thermal runaway?'</i>"] --> Armor{"🛡️ Google Cloud Model Armor<br/>(Policy: phenol-safety-template)"}
 
-    Armor -->|Adversarial Injection / Jailbreak| Blocked["⛔ Intercept & Abort<br/>• 0 DB / Tool Calls<br/>• Red Security Alert Card"]
+    Armor -->|Adversarial Injection / Jailbreak| Blocked["⛔ Intercept & Abort<br/>• 0 DB / Tool Calls<br/>• Red Security Alert Badge (<1ms)"]
     Armor -->|Out-of-Domain / Chit-Chat| Guidance["⚠️ Domain Guidance<br/>• Returns Phenol Safety Scope Prompt List"]
     Armor -->|Clean Engineering Query| Orchestrator["🧠 Orchestrator Intent Classifier"]
 
-    Orchestrator -->|Ambiguous Prompt e.g. 'the pump'| HITL["❓ HITL Clarification State Machine<br/>• Renders UI Selection Pills (P-2301A/B, P-2303, P-2308)"]
+    Orchestrator -->|Ambiguous Prompt e.g. 'the pump'| HITL["❓ Two-Tier HITL Clarification<br/>• Renders UI Selection Pills (P-2301A/B, P-2303, P-2308)"]
     Orchestrator -->|Process Safety Query| ToolGater{"⚙️ Semantic Tool Gater"}
 
     subgraph RetrieverAgent["Retriever Subagent (MCP Tools)"]
-        ToolGater -->|Upstream / Feed Query| SpannerTool["⚡ spanner_graph_query<br/>(GQL FEEDS*1..3 Traversal)"]
+        ToolGater -->|Upstream / Feed Query| SpannerTool["⚡ spanner_graph_query<br/>(ISO GQL FEEDS*1..3 Traversal)"]
         ToolGater -->|Drawing / Lineage Query| DataplexTool["📋 query_knowledge_catalog<br/>(As-Built Rev Z1 Lineage)"]
         ToolGater -->|Operating SOP / Narrative| GCSTool["📖 read_gcs_wiki_document<br/>(Full Markdown SOP)"]
         ToolGater -->|Full Safety Audit / MOC| MultiTool["⚡ 📋 📖 Simultaneous 3-Tool Execution<br/>(Parallel Multi-Tier Fetch)"]
@@ -126,9 +124,9 @@ flowchart TD
     GCSTool --> Synthesizer
     MultiTool --> Synthesizer
 
-    subgraph SynthesisEngine["Cognitive Synthesis & Delivery"]
-        Synthesizer["⚡ Live Gemini 3.7 Flash Synthesizer<br/>• Reconciles Graph Interlocks + Drawings + SOP<br/>• Injects Chemical Runaway Limits (80°C)<br/>• Formulates Cohesive Engineering Dossier"]
-        Synthesizer --> UIStream["🖥️ Multiplexed SSE UI Stream<br/>• Model Armor Badge<br/>• Parallel Tool Badges<br/>• Marked.js Formatted Report"]
+    subgraph SynthesisEngine["Cognitive Synthesis & Deep Technical Inspector"]
+        Synthesizer["⚡ Vertex AI Gemini 3.7 Flash<br/>• Zero API Key in Production (ADC / IAM)<br/>• Reconciles Graph Interlocks + Drawings + SOP<br/>• Formulates Cohesive Engineering Dossier"]
+        Synthesizer --> UIStream["🖥️ Mission Control UI (Dual-Pane)<br/>• Left: Conversational Stream + Model Armor Badge<br/>• Right: 3-Tab Inspector (Graph GQL, Dataplex/Wiki, Waterfall)"]
     end
 ```
 
@@ -146,14 +144,18 @@ The Orchestrator inspects the semantic nature of the query and routes it to the 
 
 ---
 
-### 2.2 Live Gemini 3.7 Flash Cognitive Synthesis
+### 2.2 Production Authentication: Zero Gemini API Key Architecture
 
-When data returns from the Retriever subagent:
-1. **Context Packaging:** The Orchestrator aggregates the raw JSON results from Spanner Graph (interlock switches, voting, valve actions), Dataplex (certified drawing numbers), and GCS Wiki (chemical kinetics, thermal limits).
-2. **Zero-Hallucination Prompting:** Gemini 3.7 Flash is given system instructions to ground exclusively on the returned context payload. It synthesizes a unified engineering response:
-   - Identifies specific hazard limits (e.g. CHP thermal runaway onset at **80.0°C**).
-   - Explains **1oo2 voting logic** and final control elements (**dual steam isolation valves `UXV-0501` and `UXV-0502` in series**).
-   - Cites certified As-Built drawing references (`14780-8120-25-23-0005_Z1.pdf`).
+In accordance with enterprise Google Cloud security governance:
+1. **Google Cloud Vertex AI Application Default Credentials (ADC):**
+   - In production (`PROD_*`), the application communicates with Gemini 3.7 Flash via **Google Cloud Vertex AI** (`GOOGLE_GENAI_USE_VERTEXAI=true`).
+   - Authentication is handled exclusively through **Cloud Run Service Account IAM** (`roles/aiplatform.user`), eliminating developer API keys, secret rotation vulnerabilities, and key leakage risks.
+2. **Google Cloud Model Armor Inline Protection:**
+   - Evaluates incoming prompts against policy `phenol-safety-armor-template` in `< 1ms`.
+   - Blocks prompt injections, safety bypass attempts (`override sil rating`), and jailbreaks prior to LLM or database invocation.
+3. **Multi-Environment Unified Parameter Management:**
+   - Configured via a single unified `.env` file (documented in `.env.example`).
+   - Automated zero-downtime deployments via `./scripts/deploy.sh [nonprod|prod]`.
 
 ---
 

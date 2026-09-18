@@ -31,36 +31,49 @@ class DocumentClassificationResult(BaseModel):
 
 
 class DocumentClassifier:
-    def __init__(self, model_name: str = "gemini-3.6-flash"):
+    def __init__(self, model_name: str = "gemini-3.7-flash"):
         self.model_name = os.getenv("DEFAULT_MODEL", model_name)
         self.api_key = os.getenv("GEMINI_API_KEY", "")
+        self.use_vertex = os.getenv("GOOGLE_GENAI_USE_VERTEXAI", "").lower() in ("true", "1", "yes")
+        self.project = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
+        self.region = os.getenv("GCP_REGION", "asia-southeast1")
 
     def classify_document(self, filename: str, preview_text: str = "") -> DocumentClassificationResult:
         """Classifies a document via live Gemini API or fast schema-constrained fallback."""
         
         # 1. Live Gemini Classification (bypassed in fast unit test runs)
-        if self.api_key and not os.getenv("PYTEST_CURRENT_TEST"):
+        use_live = (self.use_vertex or self.api_key) and not os.getenv("PYTEST_CURRENT_TEST")
+        if use_live:
             try:
-                url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
                 prompt = (
-                    f"Classify this engineering document for PTT Global Chemical Phenol Plant into one of the 8 PSI categories:\n"
+                    f"Classify this engineering document for Refinery Phenol Plant into one of the 8 PSI categories:\n"
                     f"['pfd', 'pid', 'operating_manuals', 'data_sheets', 'standards', 'hazop', 'material_safety', 'vendor_drawings'].\n"
                     f"Filename: {filename}\n"
                     f"Content Preview: {preview_text[:500]}\n\n"
                     f"Respond ONLY with a JSON object: {{\"category\": \"...\", \"confidence\": 0.95, \"reasoning\": \"...\", \"suggested_wiki_path\": \"...\", \"target_unit\": \"CDN\"}}"
                 )
-                payload = {"contents": [{"parts": [{"text": prompt}]}]}
-                with httpx.Client(timeout=6.0) as client:
-                    resp = client.post(url, json=payload)
-                    if resp.status_code == 200:
-                        raw_text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
-                        if "{" in raw_text and "}" in raw_text:
-                            json_str = raw_text[raw_text.find("{"):raw_text.rfind("}")+1]
-                            data = json.loads(json_str)
-                            if data.get("category") in ["pfd", "pid", "operating_manuals", "data_sheets", "standards", "hazop", "material_safety", "vendor_drawings"]:
-                                return DocumentClassificationResult(**data)
+                raw_text = ""
+                if self.use_vertex:
+                    from google import genai
+                    client = genai.Client(vertexai=True, project=self.project, location=self.region)
+                    resp = client.models.generate_content(model=self.model_name, contents=prompt)
+                    if resp and resp.text:
+                        raw_text = resp.text.strip()
+                elif self.api_key:
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
+                    payload = {"contents": [{"parts": [{"text": prompt}]}]}
+                    with httpx.Client(timeout=6.0) as client:
+                        resp = client.post(url, json=payload)
+                        if resp.status_code == 200:
+                            raw_text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+
+                if "{" in raw_text and "}" in raw_text:
+                    json_str = raw_text[raw_text.find("{"):raw_text.rfind("}")+1]
+                    data = json.loads(json_str)
+                    if data.get("category") in ["pfd", "pid", "operating_manuals", "data_sheets", "standards", "hazop", "material_safety", "vendor_drawings"]:
+                        return DocumentClassificationResult(**data)
             except Exception as e:
-                print(f"[CLASSIFIER LIVE GEMINI FALLBACK] {e}")
+                print(f"[CLASSIFIER LIVE GEMINI/VERTEX FALLBACK] {e}")
 
         # 2. Fast Schema-Constrained Semantic Fallback
         fn_lower = filename.lower()

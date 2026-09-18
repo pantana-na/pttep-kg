@@ -10,7 +10,7 @@ resource "google_spanner_instance" "phenol_graph_instance" {
 }
 
 resource "google_spanner_database" "phenol_safety_db" {
-  instance = google_spanner_instance.phenol_graph_instance.name
-  name     = "safety-db"
+  instance                 = google_spanner_instance.phenol_graph_instance.name
+  name                     = "safety-db"
   version_retention_period = "3d"
 }

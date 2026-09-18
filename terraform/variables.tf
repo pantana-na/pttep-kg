@@ -21,3 +21,16 @@ variable "container_image" {
   type        = string
   default     = "asia-southeast1-docker.pkg.dev/cs-poc-y03r7kmfyov4kilzg50fd7s/phenol-repo/phenol-agent:latest"
 }
+
+variable "default_model" {
+  description = "Default Gemini model for agents"
+  type        = string
+  default     = "gemini-3.7-flash"
+}
+
+variable "service_account" {
+  description = "Dedicated Service Account email for Cloud Run execution"
+  type        = string
+  default     = ""
+}
+

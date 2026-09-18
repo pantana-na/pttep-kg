@@ -113,7 +113,14 @@ async def serve_ui():
     """Serves the Multi-Agent Process Safety UI."""
     index_file = Path("server/static/index.html")
     if index_file.exists():
-        return FileResponse(str(index_file))
+        return FileResponse(
+            str(index_file),
+            headers={
+                "Cache-Control": "no-cache, no-store, must-revalidate",
+                "Pragma": "no-cache",
+                "Expires": "0",
+            },
+        )
     return {"message": "Phenol Process Safety Platform API"}
 
 
@@ -172,6 +179,101 @@ async def handle_clarification(payload: ClarificationPayload):
         "interlocks": interlocks,
         "provenance": prov,
         "wiki_doc": wiki_doc
+    }
+
+
+@app.get("/api/v1/graph/topology")
+def get_graph_topology():
+    """Returns full topological nodes and directed edges for the interactive Spanner Graph Cockpit.
+    
+    Includes equipment nodes, instrument interlock nodes, process flow edges (FEEDS),
+    and instrument actuation edges (TRIPS).
+    """
+    nodes = []
+    node_ids = set()
+
+    for tag, eq in db.equipment.items():
+        nodes.append({
+            "id": tag,
+            "label": tag,
+            "type": "equipment",
+            "sub_type": eq.type,
+            "name": eq.name,
+            "unit": eq.unit_id,
+            "design_temp": eq.design_temp_celsius,
+            "operating_temp": eq.operating_temp_celsius,
+            "design_pressure": eq.design_pressure_barg,
+            "operating_pressure": eq.operating_pressure_barg
+        })
+        node_ids.add(tag)
+
+    for tag, inst in db.instruments.items():
+        nodes.append({
+            "id": tag,
+            "label": tag,
+            "type": "instrument",
+            "sub_type": inst.type,
+            "sil": inst.sil_rating,
+            "voting": inst.voting_logic,
+            "setpoint": inst.trip_setpoint,
+            "target_equipment": inst.equipment_tag
+        })
+        node_ids.add(tag)
+
+    edges = []
+    for flow in db.equipment_flows:
+        for t in (flow.from_equipment_tag, flow.to_equipment_tag):
+            if t not in node_ids:
+                nodes.append({
+                    "id": t,
+                    "label": t,
+                    "type": "equipment",
+                    "sub_type": "Connected Equipment",
+                    "name": f"Process Equipment {t}",
+                    "unit": "CDN"
+                })
+                node_ids.add(t)
+
+        edges.append({
+            "source": flow.from_equipment_tag,
+            "target": flow.to_equipment_tag,
+            "type": "FEEDS",
+            "label": flow.stream_id,
+            "stream": flow.stream_id
+        })
+
+    for act in db.instrument_actuations:
+        for t in (act.initiator_instrument_tag, act.target_equipment_tag):
+            if t not in node_ids:
+                is_inst = not t.startswith(("E-", "V-", "P-", "D-", "UXV-"))
+                nodes.append({
+                    "id": t,
+                    "label": t,
+                    "type": "instrument" if is_inst else "equipment",
+                    "sub_type": "Actuated Target" if not is_inst else "Initiator",
+                    "name": f"Safety Component {t}",
+                    "unit": "CDN"
+                })
+                node_ids.add(t)
+
+        edges.append({
+            "source": act.initiator_instrument_tag,
+            "target": act.target_equipment_tag,
+            "type": "TRIPS",
+            "label": act.interlock_action,
+            "action": act.interlock_action
+        })
+
+    return {
+        "status": "SUCCESS",
+        "nodes": nodes,
+        "edges": edges,
+        "stats": {
+            "equipment_count": len(db.equipment),
+            "instrument_count": len(db.instruments),
+            "feed_edges_count": len(db.equipment_flows),
+            "trip_edges_count": len(db.instrument_actuations)
+        }
     }
 
 
@@ -276,7 +378,7 @@ def calculate_2nd_risk(payload: SecondRiskPayload):
 
 @app.post("/api/v1/hazop/export-excel")
 def export_excel_endpoint(payload: ExportExcelPayload):
-    """Generates 7-tab PTT GC audit-compliant Excel deliverable matching hazop-example/*.xlsx."""
+    """Generates 7-tab Refinery audit-compliant Excel deliverable matching hazop-example/*.xlsx."""
     output_path = f"output/exports/{payload.study_metadata.get('node_id', 'CDN-N02')}_HAZOP-worksheet.xlsx"
     file_saved = orchestrator.hazop.export_study_workbook(
         study_metadata=payload.study_metadata,
