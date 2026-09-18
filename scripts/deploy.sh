@@ -205,7 +205,7 @@ if [[ -n "${DEPLOY_API_KEY}" ]]; then
   ENV_VARS_LIST="${ENV_VARS_LIST},GEMINI_API_KEY=${DEPLOY_API_KEY}"
 fi
 
-BUILD_CMD="gcloud builds submit --project=${GCP_PROJECT} --tag=${IMAGE_TAG} --tag=${IMAGE_LATEST} ${ROOT_DIR}"
+BUILD_CMD="gcloud builds submit --project=${GCP_PROJECT} --tag=${IMAGE_TAG} ${ROOT_DIR}"
 
 DEPLOY_CMD="gcloud run deploy ${SERVICE_NAME} \
   --project=${GCP_PROJECT} \
@@ -213,6 +213,7 @@ DEPLOY_CMD="gcloud run deploy ${SERVICE_NAME} \
   --region=${GCP_REGION} \
   --platform=managed \
   --ingress=all \
+  --no-allow-unauthenticated \
   --min-instances=${MIN_INSTANCES} \
   --max-instances=${MAX_INSTANCES} \
   --cpu=${CPU} \
@@ -251,6 +252,16 @@ fi
 log_info "Verifying gcloud authorization..."
 gcloud config set project "${GCP_PROJECT}"
 
+# Ensure Artifact Registry repository exists
+if ! gcloud artifacts repositories describe "${ARTIFACT_REGISTRY_REPO}" --location="${GCP_REGION}" --project="${GCP_PROJECT}" &>/dev/null; then
+  log_info "Creating Artifact Registry repository: ${ARTIFACT_REGISTRY_REPO} (${GCP_REGION})..."
+  gcloud artifacts repositories create "${ARTIFACT_REGISTRY_REPO}" \
+    --repository-format=docker \
+    --location="${GCP_REGION}" \
+    --description="Phenol Process Safety container repository" \
+    --project="${GCP_PROJECT}"
+fi
+
 # Execute Infrastructure Manager (if requested)
 if [[ "$DEPLOY_TARGET" == "infra" || "$DEPLOY_TARGET" == "all" ]]; then
   log_info "Applying Infrastructure via Google Cloud Infrastructure Manager (${DEPLOYMENT_ID})..."
@@ -262,6 +273,7 @@ fi
 if [[ "$DEPLOY_TARGET" == "app" || "$DEPLOY_TARGET" == "all" ]]; then
   log_info "Step 1/3: Building container image via Google Cloud Build..."
   eval "$BUILD_CMD"
+  gcloud artifacts docker tags add "${IMAGE_TAG}" "${IMAGE_LATEST}" --quiet 2>/dev/null || true
 
   log_info "Step 2/3: Deploying container to Cloud Run (${SERVICE_NAME})..."
   eval "$DEPLOY_CMD"
