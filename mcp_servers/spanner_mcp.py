@@ -5,11 +5,13 @@ query_knowledge_catalog_provenance, and read_gcs_wiki_document.
 """
 
 import os
+import re
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import yaml
+import httpx
 from database.models import HybridSearchResult
-from agents.database.spanner_sync import generate_pseudo_embedding
+from agents.database.spanner_sync import generate_embedding
 
 
 class SpannerMCPServer:
@@ -40,7 +42,7 @@ class SpannerMCPServer:
 
     def spanner_vector_search(self, query_text: str, limit: int = 10) -> List[Dict[str, Any]]:
         """Executes vector cosine similarity search on 768-dim embeddings."""
-        query_vec = generate_pseudo_embedding(query_text)
+        query_vec = generate_embedding(query_text)
         raw_results = self.db.vector_search(query_vec, limit=limit)
         formatted = []
         for tag, sim, eq in raw_results:
@@ -53,6 +55,35 @@ class SpannerMCPServer:
                 "markdown_uri": eq.markdown_uri or ""
             })
         return formatted
+
+    def _fetch_dataplex_entry(self, entry_id: str) -> Optional[Dict[str, Any]]:
+        """Fetches live Dataplex Catalog entry via REST API."""
+        if os.getenv("FORCE_OFFLINE_MOCK", "false").lower() in ("true", "1", "yes"):
+            return None
+        try:
+            import google.auth
+            from google.auth.transport.requests import Request
+
+            project_id = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
+            location = os.getenv("GCP_REGION", "asia-southeast1")
+            group = "phenol-psi"
+
+            credentials, _ = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
+            if not credentials.valid:
+                credentials.refresh(Request())
+
+            url = f"https://dataplex.googleapis.com/v1/projects/{project_id}/locations/{location}/entryGroups/{group}/entries/{entry_id}"
+            headers = {
+                "Authorization": f"Bearer {credentials.token}",
+                "X-Goog-User-Project": project_id
+            }
+            with httpx.Client(timeout=3.0) as client:
+                resp = client.get(url, headers=headers)
+                if resp.status_code == 200:
+                    return resp.json()
+        except Exception as e:
+            print(f"[DATAPLEX LIVE LOOKUP NOTICE] {e}")
+        return None
 
     def query_knowledge_catalog_provenance(self, target_tag: str) -> Dict[str, Any]:
         """Queries Dataplex Knowledge Catalog aspect metadata & source document lineage."""
@@ -78,6 +109,14 @@ class SpannerMCPServer:
                     tags = fm.get("tags", [])
                     last_updated = str(fm.get("last_updated", "2026-06-16"))
 
+        # Query live Google Cloud Dataplex entry
+        entry_id = re.sub(r'[^a-z0-9-]', '', target_tag.lower().replace('/', '-').replace('_', '-'))
+        live_entry = self._fetch_dataplex_entry(entry_id)
+        if live_entry:
+            source_info = live_entry.get("entrySource", {})
+            if source_info.get("updateTime"):
+                last_updated = source_info.get("updateTime")[:10]
+
         # Check if there is an explicit Knowledge Catalog entry in DB
         matching_hazop_entry = None
         if hasattr(self.db, "knowledge_catalog"):
@@ -90,6 +129,7 @@ class SpannerMCPServer:
             "status": "FOUND",
             "entity_tag": target_tag,
             "entity_name": eq.name,
+            "dataplex_entry_name": live_entry.get("name") if live_entry else f"projects/cs-poc-y03r7kmfyov4kilzg50fd7s/locations/asia-southeast1/entryGroups/phenol-psi/entries/{entry_id}",
             "dataplex_entry_group": f"projects/cs-poc-y03r7kmfyov4kilzg50fd7s/locations/asia-southeast1/entryGroups/phenol-psi",
             "aspect_types": ["oems_005_process_safety_aspect", "provenance_lineage_aspect"],
             "source_documents": sources,
@@ -97,7 +137,8 @@ class SpannerMCPServer:
             "governance_tags": tags,
             "as_built_revision": "Z1 (As-Built Certified)",
             "last_catalog_sync": matching_hazop_entry.get("last_updated", last_updated) if matching_hazop_entry else last_updated,
-            "hazop_study_metadata": matching_hazop_entry.get("aspects", {}).get("oems_005_process_safety_aspect") if matching_hazop_entry else None
+            "hazop_study_metadata": matching_hazop_entry.get("aspects", {}).get("oems_005_process_safety_aspect") if matching_hazop_entry else None,
+            "dataplex_cloud_synced": live_entry is not None
         }
 
     def read_gcs_wiki_document(self, target_tag_or_path: str) -> Dict[str, Any]:

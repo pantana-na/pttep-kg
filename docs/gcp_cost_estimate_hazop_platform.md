@@ -2,7 +2,7 @@
 
 **Document ID:** `DOC-20260827-GCP-COST-ESTIMATE`  
 **Date:** 2026-08-27  
-**Target Region:** `asia-southeast1` (Singapore — Primary Southeast Asia / PTT GC Region)  
+**Target Region:** `asia-southeast1` (Singapore — Primary Southeast Asia / Refinery Region)  
 **Architecture Spec Reference:** [`SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md`](../specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md)  
 **Terraform Baseline Reference:** [`terraform/`](../terraform/)  
 **Model Strategy:** Hybrid Tier (90% Gemini Flash for routine routing/retrieval + 10% Gemini Pro for deep HAZOP reasoning)

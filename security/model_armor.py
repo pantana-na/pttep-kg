@@ -69,12 +69,105 @@ class ModelArmorGuardrail:
             r"^help$"
         ]
 
+    def _call_cloud_model_armor(self, user_prompt: str) -> Optional[Dict[str, Any]]:
+        """Invokes Google Cloud Model Armor regional endpoint in asia-southeast1 via ADC."""
+        if os.getenv("FORCE_OFFLINE_MOCK", "false").lower() in ("true", "1", "yes"):
+            return None
+        try:
+            import google.auth
+            from google.auth.transport.requests import Request
+
+            credentials, _ = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
+            if not credentials.valid:
+                credentials.refresh(Request())
+
+            endpoint = f"https://modelarmor.{self.region}.rep.googleapis.com/v1/projects/{self.project}/locations/{self.region}/templates/{self.template_name}:sanitizeUserPrompt"
+            headers = {
+                "Authorization": f"Bearer {credentials.token}",
+                "X-Goog-User-Project": self.project,
+                "Content-Type": "application/json"
+            }
+            payload = {"userPromptData": {"text": user_prompt}}
+
+            with httpx.Client(timeout=4.0) as client:
+                resp = client.post(endpoint, headers=headers, json=payload)
+                if resp.status_code == 200:
+                    return resp.json()
+        except Exception as e:
+            print(f"[MODEL ARMOR CLOUD API NOTICE] API fallback: {e}")
+        return None
+
     def sanitize_user_prompt(self, user_prompt: str) -> ModelArmorInspectionResult:
         """Inspects and sanitizes user input before agent dispatch."""
         t0 = time.time()
         p_clean = user_prompt.strip()
         p_lower = p_clean.lower()
 
+        # 1. Out-of-Domain Conversational Pre-Filter
+        is_out_of_domain = any(re.search(pat, p_lower) for pat in self.out_of_domain_patterns)
+        if is_out_of_domain:
+            elapsed_ms = max(1, int((time.time() - t0) * 1000))
+            return ModelArmorInspectionResult(
+                sanitization_result="OUT_OF_DOMAIN",
+                inspection_time_ms=elapsed_ms,
+                filter_results={
+                    "out_of_domain": ArmorFilterResult(
+                        match_confidence="HIGH",
+                        detail="Non-engineering conversational input or out-of-domain request detected."
+                    )
+                },
+                sanitized_prompt=p_clean,
+                policy_template=self.template_name
+            )
+
+        # 2. Live Google Cloud Model Armor API
+        cloud_resp = self._call_cloud_model_armor(user_prompt)
+        if cloud_resp and "sanitizationResult" in cloud_resp:
+            res = cloud_resp["sanitizationResult"]
+            filter_state = res.get("filterMatchState", "NO_MATCH_FOUND")
+            filter_results_data = res.get("filterResults", {})
+
+            is_blocked = (filter_state == "MATCH_FOUND")
+            conf = "HIGH"
+            detail = "Adversarial prompt injection intercepted by Google Cloud Model Armor." if is_blocked else "Prompt passed Google Cloud Model Armor inspection."
+
+            pi_data = filter_results_data.get("pi_and_jailbreak", {}).get("piAndJailbreakFilterResult", {})
+            if pi_data.get("confidenceLevel"):
+                raw_conf = pi_data.get("confidenceLevel")
+                conf = "HIGH" if any(c in raw_conf for c in ["HIGH", "MEDIUM"]) else raw_conf
+
+            if is_blocked:
+                elapsed_ms = max(1, int((time.time() - t0) * 1000))
+                return ModelArmorInspectionResult(
+                    sanitization_result="BLOCKED",
+                    inspection_time_ms=elapsed_ms,
+                    filter_results={
+                        "prompt_injection": ArmorFilterResult(
+                            match_confidence=conf,
+                            detail=detail,
+                            detected_patterns=[user_prompt]
+                        ),
+                        "jailbreak": ArmorFilterResult(
+                            match_confidence=conf,
+                            detail=detail,
+                            detected_patterns=[user_prompt]
+                        ),
+                        "out_of_domain": ArmorFilterResult(
+                            match_confidence="LOW",
+                            detail="Domain relevance verified for petrochemical process safety."
+                        ),
+                        "model_armor_cloud": ArmorFilterResult(
+                            match_confidence="HIGH",
+                            detail=f"Live Google Cloud Model Armor evaluated in {self.region} (match={filter_state})"
+                        )
+                    },
+                    sanitized_prompt=p_clean,
+                    policy_template=self.template_name
+                )
+            # If cloud Model Armor did not match, continue to defense-in-depth heuristics below
+
+
+        # 3. Fallback Heuristic Checks (for offline test suite)
         detected_injections = []
         for pat in self.injection_patterns:
             if re.search(pat, p_lower):
@@ -84,8 +177,6 @@ class ModelArmorGuardrail:
         for pat in self.jailbreak_patterns:
             if re.search(pat, p_lower):
                 detected_jailbreaks.append(pat)
-
-        is_out_of_domain = any(re.search(pat, p_lower) for pat in self.out_of_domain_patterns)
 
         # Build filter results
         filter_results = {}

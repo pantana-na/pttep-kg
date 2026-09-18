@@ -1,8 +1,8 @@
 # Technical Design Document: HAZOP Study User Journey, P&ID Markup Ingestion & 7-Tab Excel Export
 
-**Project:** PTT Global Chemical (PTT GC) Phenol Process Safety & HAZOP AI Platform  
+**Project:** Refinery Phenol Process Safety & HAZOP AI Platform  
 **Specification Document:** [`specs/features/SPEC-20260831-HAZOP-MARKUP-INGESTION-AND-STUDY-LIFECYCLE.md`](../specs/features/SPEC-20260831-HAZOP-MARKUP-INGESTION-AND-STUDY-LIFECYCLE.md)  
-**Governing Standard:** `hazop-example/HAZOP-SKILLS.md` & PTT GC OEMS-005 / RAM `W-(Q-MP)-002 R2`  
+**Governing Standard:** `hazop-example/HAZOP-SKILLS.md` & Refinery OEMS-005 / RAM `W-(Q-MP)-002 R2`  
 **Reference Examples:** `hazop-example/Node 23-02.pdf`, `hazop-example/Node 23-03.pdf`, `hazop-example/2026-06-18_CDN-N02_HAZOP-worksheet.xlsx`, `hazop-example/2026-06-18_CDN-N03_HAZOP-worksheet.xlsx`  
 **Date:** 2026-08-31  
 
@@ -15,7 +15,7 @@ This design document formalizes the updated user journey and multi-agent archite
 ### Key Architectural Mandates:
 1. **User-Defined Study Area by PDF Markup:** The user uploads engineer-annotated P&ID PDFs (e.g., `Node 23-02.pdf`). The system parses the drawing sheets, color-coded node boundaries, and equipment tags, and **MUST confirm the node definition with the user before proceeding to deviation analysis**.
 2. **Follows Skill & Schema Directives (No Speculative Replication):** The agent strictly enforces the `HAZOP-SKILLS.md` 9-step study lifecycle, anti-bias rule, and 3-risk-block framework without copying or predicting past study conclusions unattended.
-3. **Audit-Ready 7-Tab Excel Deliverable:** Generates standardized PTT GC HAZOP workbooks matching `hazop-example/*.xlsx`.
+3. **Audit-Ready 7-Tab Excel Deliverable:** Generates standardized Refinery HAZOP workbooks matching `hazop-example/*.xlsx`.
 
 ---
 

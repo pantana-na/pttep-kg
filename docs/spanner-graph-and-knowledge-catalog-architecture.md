@@ -1,6 +1,6 @@
 # Deep Dive: Cloud Spanner Property Graph & Dataplex Knowledge Catalog Schema Architecture
 
-**Project:** PTT Global Chemical (PTT GC) Phenol Process Safety Platform  
+**Project:** Refinery Phenol Process Safety Platform  
 **Specification Reference:** [`specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md`](../specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) Section 3.2  
 **Companion Interactive HTML Diagram:** [**`docs/spanner-graph-and-knowledge-catalog-architecture.html`**](./spanner-graph-and-knowledge-catalog-architecture.html)
 
@@ -196,7 +196,7 @@ flowchart TD
 - **`unit_code` (STRING):** `CDN` (Concentration), `OXI` (Oxidation), `ALKY` (Alkylation), `CLEAVAGE`.
 - **`as_built_certified` (BOOL):** `true` for field-verified P&IDs.
 - **`drawing_revision` (STRING):** Revision code (`Z1`, `A1`, `B2`).
-- **`engineering_custodian` (STRING):** `PTT GC Phenol Asset Reliability Dept`.
+- **`engineering_custodian` (STRING):** `Refinery Phenol Asset Reliability Dept`.
 
 #### 2. `equipment_specification_aspect`
 - **`design_code` (STRING):** `ASME Section VIII Div 1` / `API 650` / `API 610`.
@@ -208,7 +208,7 @@ flowchart TD
 #### 3. `chemical_safety_aspect`
 - **`hazardous_substance` (STRING):** `Cumene Hydroperoxide (~80-85 wt%)`.
 - **`decomposition_limit_celsius` (FLOAT64):** `80.0°C` onset runaway threshold.
-- **`runaway_hazard_severity` (INT64):** Severity rating on PTT GC RAM Matrix (`5` = Extreme).
+- **`runaway_hazard_severity` (INT64):** Severity rating on Refinery RAM Matrix (`5` = Extreme).
 - **`required_cooling` (STRING):** `Reliable Emergency Bus Power Supply`.
 
 ---

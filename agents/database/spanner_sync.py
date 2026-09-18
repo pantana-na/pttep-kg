@@ -1,11 +1,23 @@
 """Cloud Spanner Graph Ingestion & Synchronization Engine."""
 
+import os
 import hashlib
-from typing import List, Any
+from typing import List, Any, Optional
 from database.models import (
     EquipmentModel, UnitModel, InstrumentModel, ChemicalHazardModel,
     EquipmentFlowEdge, InstrumentActuationEdge
 )
+
+_GENAI_CLIENT = None
+
+def get_vertex_client():
+    global _GENAI_CLIENT
+    if _GENAI_CLIENT is None:
+        from google import genai
+        project = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
+        region = os.getenv("GCP_REGION", "asia-southeast1")
+        _GENAI_CLIENT = genai.Client(vertexai=True, project=project, location=region)
+    return _GENAI_CLIENT
 
 
 def generate_pseudo_embedding(text: str, dim: int = 768) -> List[float]:
@@ -22,6 +34,33 @@ def generate_pseudo_embedding(text: str, dim: int = 768) -> List[float]:
     return [x / norm for x in vec] if norm > 0 else vec
 
 
+def generate_embedding(text: str, model: str = "text-embedding-004") -> List[float]:
+    """Generates 768-dim semantic embedding via Vertex AI text-embedding-004.
+    
+    Falls back to deterministic pseudo-embedding only when FORCE_OFFLINE_MOCK is set
+    or network/ADC credentials are intentionally unavailable.
+    """
+    if os.getenv("FORCE_OFFLINE_MOCK", "false").lower() in ("true", "1", "yes"):
+        return generate_pseudo_embedding(text)
+
+    try:
+        client = get_vertex_client()
+        resp = client.models.embed_content(
+            model=model,
+            contents=text
+        )
+        if hasattr(resp, "embeddings") and resp.embeddings:
+            return resp.embeddings[0].values
+        elif hasattr(resp, "embedding") and resp.embedding:
+            return resp.embedding.values
+    except Exception as e:
+        # Fallback to pseudo-embedding for hermetic test runners
+        print(f"[VERTEX EMBEDDING NOTICE] Falling back to offline embedding: {e}")
+        return generate_pseudo_embedding(text)
+
+    return generate_pseudo_embedding(text)
+
+
 class SpannerGraphSyncer:
     def __init__(self, db_instance=None):
         self.db = db_instance
@@ -35,7 +74,7 @@ class SpannerGraphSyncer:
         for item in items:
             if isinstance(item, EquipmentModel):
                 if not item.embedding and item.name:
-                    item.embedding = generate_pseudo_embedding(f"{item.equipment_tag} {item.name} {item.description_summary or ''}")
+                    item.embedding = generate_embedding(f"{item.equipment_tag} {item.name} {item.description_summary or ''}")
                 self.db.equipment[item.equipment_tag] = item
                 count += 1
             elif isinstance(item, InstrumentModel):

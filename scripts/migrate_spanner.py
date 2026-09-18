@@ -9,6 +9,7 @@ import time
 from pathlib import Path
 from google.cloud import spanner
 from database.init_db import load_ddl_statements, init_local_mock
+from agents.database.spanner_sync import generate_embedding
 
 PROJECT_ID = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
 INSTANCE_ID = os.getenv("SPANNER_INSTANCE", "phenol-process-graph")
@@ -73,7 +74,7 @@ def seed_data(database, mock_db):
                 eq.material,
                 eq.markdown_uri,
                 eq.description_summary,
-                eq.embedding or [0.0] * 768,
+                eq.embedding or generate_embedding(f"{eq.equipment_tag} {eq.name} {eq.description_summary or ''}"),
                 False,
                 spanner.COMMIT_TIMESTAMP
             )

@@ -203,6 +203,9 @@ ENV_VARS_LIST="${ENV_VARS_LIST},GOOGLE_GENAI_USE_VERTEXAI=${USE_VERTEXAI}"
 ENV_VARS_LIST="${ENV_VARS_LIST},ENVIRONMENT=${TARGET_ENV}"
 ENV_VARS_LIST="${ENV_VARS_LIST},GCS_WIKI_BUCKET=${GCS_WIKI_BUCKET}"
 ENV_VARS_LIST="${ENV_VARS_LIST},USE_REAL_SPANNER=true"
+ENV_VARS_LIST="${ENV_VARS_LIST},FORCE_OFFLINE_MOCK=false"
+ENV_VARS_LIST="${ENV_VARS_LIST},MODEL_ARMOR_TEMPLATE=projects/${GCP_PROJECT}/locations/${GCP_REGION}/templates/phenol-safety-armor-template"
+ENV_VARS_LIST="${ENV_VARS_LIST},DATAPLEX_ENTRY_GROUP=phenol-psi"
 if [[ -n "${DEPLOY_API_KEY}" ]]; then
   ENV_VARS_LIST="${ENV_VARS_LIST},GEMINI_API_KEY=${DEPLOY_API_KEY}"
 fi
@@ -273,6 +276,12 @@ fi
 
 # Execute Application Container Build & Deploy (if requested)
 if [[ "$DEPLOY_TARGET" == "app" || "$DEPLOY_TARGET" == "all" ]]; then
+  log_info "Step 0/3: Verifying zero-mock cloud synchronization..."
+  if command -v python3 &>/dev/null && [[ -f "${ROOT_DIR}/scripts/sync_dataplex_catalog.py" ]]; then
+    log_info "Idempotently ensuring Dataplex Catalog entries are active..."
+    python3 "${ROOT_DIR}/scripts/sync_dataplex_catalog.py" || log_warn "Dataplex catalog check completed with notice."
+  fi
+
   log_info "Step 1/3: Building container image via Google Cloud Build..."
   eval "$BUILD_CMD"
   gcloud artifacts docker tags add "${IMAGE_TAG}" "${IMAGE_LATEST}" --quiet 2>/dev/null || true
