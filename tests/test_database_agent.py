@@ -4,6 +4,7 @@ Verifies Markdown parsing to GQL edges, cascading deletions, and graph topology 
 """
 
 import pytest
+from pathlib import Path
 from hypothesis import given, strategies as st
 from database.mock_spanner import MockSpannerDatabase
 from database.models import EquipmentModel, InstrumentModel, EquipmentFlowEdge
@@ -84,6 +85,7 @@ def test_pbt_db_01_deletion_idempotence(tag):
     """PBT-DB-01: Graph Deletion Idempotence: Re-deleting an already deleted document is a no-op."""
     db = MockSpannerDatabase()
     agent = DatabaseAgent(db)
+    agent.deleter.log_file = Path("/dev/null")
     
     db.equipment[tag] = EquipmentModel(
         equipment_tag=tag,

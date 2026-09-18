@@ -253,7 +253,8 @@ def test_finalize_study_and_knowledge_catalog_sync(hazop_agent):
     assert Path(res["excel_deliverable"]).exists()
     
     # Verify Knowledge Catalog entry in DB
-    cat_entry = hazop_agent.db.get_knowledge_catalog_entry("hazop-cdn-n02-20260831")
+    entry_id = res["knowledge_catalog_entry"].split("/")[-1]
+    cat_entry = hazop_agent.db.get_knowledge_catalog_entry(entry_id)
     assert cat_entry is not None
     assert cat_entry["aspects"]["oems_005_process_safety_aspect"]["study_status"] == "COMPLETE"
 
