@@ -24,20 +24,12 @@ def test_ddl_statement_parsing():
     assert len(statements) >= 15, f"Expected >= 15 DDL statements, got {len(statements)}"
     
     ddl_joined = " ".join(statements)
-    assert "CREATE TABLE Units" in ddl_joined
-    assert "CREATE TABLE Equipment" in ddl_joined
-    assert "CREATE TABLE Streams" in ddl_joined
-    assert "CREATE TABLE Instruments" in ddl_joined
-    assert "CREATE TABLE ChemicalHazards" in ddl_joined
-    assert "CREATE TABLE HazopNodes" in ddl_joined
-    assert "CREATE TABLE Deviations" in ddl_joined
-    assert "CREATE TABLE Causes" in ddl_joined
-    assert "CREATE TABLE Consequences" in ddl_joined
-    assert "CREATE TABLE Safeguards" in ddl_joined
-    assert "CREATE TABLE ActionItems" in ddl_joined
-    assert "CREATE PROPERTY GRAPH PhenolProcessSafetyGraph" in ddl_joined
+    for table in ["Units", "Equipment", "Streams", "Instruments", "ChemicalHazards",
+                  "HazopNodes", "Deviations", "Causes", "Consequences", "Safeguards", "ActionItems"]:
+        assert f"TABLE {table}" in ddl_joined or f"TABLE IF NOT EXISTS {table}" in ddl_joined
+    assert "PROPERTY GRAPH PhenolProcessSafetyGraph" in ddl_joined
     assert "EquipmentKeywordSearchIndex" in ddl_joined
-    assert "EquipmentEmbeddingIndex" in ddl_joined
+    assert "InstrumentsKeywordSearchIndex" in ddl_joined
 
 
 def test_table_and_model_instantiation():

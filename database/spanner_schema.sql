@@ -4,7 +4,7 @@
 -- =============================================================================
 
 -- 1. Unit & Equipment Relational Tables
-CREATE TABLE Units (
+CREATE TABLE IF NOT EXISTS Units (
   UnitId STRING(32) NOT NULL,
   Name STRING(128) NOT NULL,
   Code STRING(16) NOT NULL,
@@ -13,11 +13,11 @@ CREATE TABLE Units (
   UpdatedAt TIMESTAMP OPTIONS (allow_commit_timestamp = true),
 ) PRIMARY KEY (UnitId);
 
-CREATE TABLE Equipment (
+CREATE TABLE IF NOT EXISTS Equipment (
   EquipmentTag STRING(64) NOT NULL,
   UnitId STRING(32) NOT NULL,
   Name STRING(128) NOT NULL,
-  Type STRING(32) NOT NULL, -- Vessel, HeatExchanger, Pump, Column, Reactor, Filter, Package
+  Type STRING(128) NOT NULL,
   DesignPressureBarg FLOAT64,
   DesignTempCelsius FLOAT64,
   OperatingPressureBarg FLOAT64,
@@ -33,16 +33,7 @@ CREATE TABLE Equipment (
   UpdatedAt TIMESTAMP OPTIONS (allow_commit_timestamp = true),
 ) PRIMARY KEY (EquipmentTag);
 
--- Full-Text (Keyword) Search Index on Equipment Tokens
-CREATE SEARCH INDEX EquipmentKeywordSearchIndex ON Equipment(EquipmentTokens)
-WHERE IsDeleted = false;
-
--- Vector Index on Equipment Semantic Embeddings
-CREATE VECTOR INDEX EquipmentEmbeddingIndex ON Equipment(Embedding)
-WHERE IsDeleted = false
-OPTIONS (distance_type => 'COSINE');
-
-CREATE TABLE Streams (
+CREATE TABLE IF NOT EXISTS Streams (
   StreamId STRING(64) NOT NULL,
   UnitId STRING(32) NOT NULL,
   Description STRING(128),
@@ -56,14 +47,14 @@ CREATE TABLE Streams (
   IsDeleted BOOL NOT NULL DEFAULT (false),
 ) PRIMARY KEY (StreamId);
 
-CREATE TABLE Instruments (
+CREATE TABLE IF NOT EXISTS Instruments (
   InstrumentTag STRING(64) NOT NULL,
   EquipmentTag STRING(64) NOT NULL,
-  Type STRING(32) NOT NULL, -- PT, TT, FT, LT, PSV, CV, Analyzer
+  Type STRING(128) NOT NULL,
   CalibratedRange STRING(64),
   TripSetpoint STRING(64),
-  SilRating STRING(16),     -- None, SIL 1, SIL 2, SIL 3
-  VotingLogic STRING(16),   -- 1oo1, 1oo2, 2oo3
+  SilRating STRING(16),
+  VotingLogic STRING(16),
   IsSisInitiator BOOL NOT NULL DEFAULT (false),
   InstrumentTokens TOKENLIST AS (
     TOKENIZE_FULLTEXT(InstrumentTag || ' ' || EquipmentTag || ' ' || Type || ' ' || IFNULL(TripSetpoint, ''))
@@ -71,11 +62,7 @@ CREATE TABLE Instruments (
   IsDeleted BOOL NOT NULL DEFAULT (false),
 ) PRIMARY KEY (InstrumentTag);
 
--- Full-Text (Keyword) Search Index on Instrument Tokens
-CREATE SEARCH INDEX InstrumentsKeywordSearchIndex ON Instruments(InstrumentTokens)
-WHERE IsDeleted = false;
-
-CREATE TABLE ChemicalHazards (
+CREATE TABLE IF NOT EXISTS ChemicalHazards (
   HazardId STRING(64) NOT NULL,
   ChemicalName STRING(128) NOT NULL,
   CasNumber STRING(32),
@@ -87,7 +74,7 @@ CREATE TABLE ChemicalHazards (
 ) PRIMARY KEY (HazardId);
 
 -- 2. HAZOP Study Relational Entities
-CREATE TABLE HazopNodes (
+CREATE TABLE IF NOT EXISTS HazopNodes (
   NodeId STRING(32) NOT NULL,
   Name STRING(128) NOT NULL,
   UnitId STRING(32) NOT NULL,
@@ -96,7 +83,7 @@ CREATE TABLE HazopNodes (
   IsDeleted BOOL NOT NULL DEFAULT (false),
 ) PRIMARY KEY (NodeId);
 
-CREATE TABLE Deviations (
+CREATE TABLE IF NOT EXISTS Deviations (
   DeviationId STRING(64) NOT NULL,
   NodeId STRING(32) NOT NULL,
   Parameter STRING(32) NOT NULL,
@@ -106,14 +93,14 @@ CREATE TABLE Deviations (
   Embedding ARRAY<FLOAT64>(vector_length=>768),
 ) PRIMARY KEY (DeviationId);
 
-CREATE TABLE Causes (
+CREATE TABLE IF NOT EXISTS Causes (
   CauseId STRING(64) NOT NULL,
   DeviationId STRING(64) NOT NULL,
   EquipmentTag STRING(64),
   Description STRING(MAX) NOT NULL,
 ) PRIMARY KEY (CauseId);
 
-CREATE TABLE Consequences (
+CREATE TABLE IF NOT EXISTS Consequences (
   ConsequenceId STRING(64) NOT NULL,
   CauseId STRING(64) NOT NULL,
   CausalChain STRING(MAX) NOT NULL,
@@ -125,7 +112,7 @@ CREATE TABLE Consequences (
   InitialRiskRating STRING(16) NOT NULL,
 ) PRIMARY KEY (ConsequenceId);
 
-CREATE TABLE Safeguards (
+CREATE TABLE IF NOT EXISTS Safeguards (
   SafeguardId STRING(64) NOT NULL,
   ConsequenceId STRING(64) NOT NULL,
   InstrumentTag STRING(64),
@@ -134,8 +121,8 @@ CREATE TABLE Safeguards (
   IplCreditLevel INT64 NOT NULL,
 ) PRIMARY KEY (SafeguardId);
 
-CREATE TABLE ActionItems (
-  ActionId STRING(32) NOT NULL, -- e.g. R-001
+CREATE TABLE IF NOT EXISTS ActionItems (
+  ActionId STRING(32) NOT NULL,
   ConsequenceId STRING(64) NOT NULL,
   NodeId STRING(32) NOT NULL,
   RecommendationText STRING(MAX) NOT NULL,
@@ -144,7 +131,7 @@ CREATE TABLE ActionItems (
   OwnerType STRING(16),
   Owner STRING(128),
   DueDate DATE,
-  Status STRING(16), -- Open, In Progress, Closed, Rejected
+  Status STRING(16),
   MitigatedLikelihood INT64,
   MitigatedRiskRating STRING(16),
   ResidualLikelihood INT64,
@@ -152,7 +139,7 @@ CREATE TABLE ActionItems (
 ) PRIMARY KEY (ActionId);
 
 -- 3. Graph Edge Tables
-CREATE TABLE EquipmentFlows (
+CREATE TABLE IF NOT EXISTS EquipmentFlows (
   FromEquipmentTag STRING(64) NOT NULL,
   ToEquipmentTag STRING(64) NOT NULL,
   StreamId STRING(64) NOT NULL,
@@ -162,7 +149,7 @@ CREATE TABLE EquipmentFlows (
   FOREIGN KEY (StreamId) REFERENCES Streams(StreamId)
 );
 
-CREATE TABLE NodeEquipmentMap (
+CREATE TABLE IF NOT EXISTS NodeEquipmentMap (
   NodeId STRING(32) NOT NULL,
   EquipmentTag STRING(64) NOT NULL,
   PRIMARY KEY (NodeId, EquipmentTag),
@@ -170,24 +157,29 @@ CREATE TABLE NodeEquipmentMap (
   FOREIGN KEY (EquipmentTag) REFERENCES Equipment(EquipmentTag)
 );
 
-CREATE TABLE InstrumentActuations (
+CREATE TABLE IF NOT EXISTS InstrumentActuations (
   InitiatorInstrumentTag STRING(64) NOT NULL,
   TargetEquipmentTag STRING(64) NOT NULL,
-  InterlockAction STRING(64) NOT NULL, -- e.g. "TRIP_CLOSE_UXV"
+  InterlockAction STRING(64) NOT NULL,
   PRIMARY KEY (InitiatorInstrumentTag, TargetEquipmentTag),
   FOREIGN KEY (InitiatorInstrumentTag) REFERENCES Instruments(InstrumentTag),
   FOREIGN KEY (TargetEquipmentTag) REFERENCES Equipment(EquipmentTag)
 );
 
--- 4. Property Graph Definition (GQL Standard)
-CREATE PROPERTY GRAPH PhenolProcessSafetyGraph
+-- 4. Full-Text Search Indexes
+CREATE SEARCH INDEX EquipmentKeywordSearchIndex ON Equipment(EquipmentTokens);
+
+CREATE SEARCH INDEX InstrumentsKeywordSearchIndex ON Instruments(InstrumentTokens);
+
+-- 5. Property Graph Definition (ISO GQL Standard)
+CREATE OR REPLACE PROPERTY GRAPH PhenolProcessSafetyGraph
   NODE TABLES (
     Units,
-    Equipment WHERE IsDeleted = false,
-    Streams WHERE IsDeleted = false,
-    Instruments WHERE IsDeleted = false,
+    Equipment,
+    Streams,
+    Instruments,
     ChemicalHazards,
-    HazopNodes WHERE IsDeleted = false,
+    HazopNodes,
     Deviations,
     Causes,
     Consequences,

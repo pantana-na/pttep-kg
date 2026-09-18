@@ -4,6 +4,7 @@ Exposes spanner_keyword_search, spanner_graph_query, spanner_vector_search,
 query_knowledge_catalog_provenance, and read_gcs_wiki_document.
 """
 
+import os
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import yaml
@@ -101,29 +102,58 @@ class SpannerMCPServer:
 
     def read_gcs_wiki_document(self, target_tag_or_path: str) -> Dict[str, Any]:
         """Reads complete Markdown narrative document from GCS LLM-Wiki."""
-        # Find path
+        bucket_name = os.getenv("GCS_WIKI_BUCKET", f"phenol-llm-wiki-{os.getenv('GCP_PROJECT', 'cs-poc-y03r7kmfyov4kilzg50fd7s')}-prod")
+
+        # 1. Resolve local file path if present
         file_path = None
         eq = self.db.equipment.get(target_tag_or_path)
         if eq and eq.markdown_uri and Path(eq.markdown_uri).exists():
             file_path = Path(eq.markdown_uri)
         else:
-            # Look in wiki/
             candidates = list(Path("wiki").rglob(f"*{target_tag_or_path}*.md"))
             if candidates:
                 file_path = candidates[0]
 
-        if not file_path or not file_path.exists():
+        # If local file exists, read it directly for speed while retaining exact GCS URI provenance
+        if file_path and file_path.exists():
+            content = file_path.read_text(encoding="utf-8")
             return {
-                "status": "NOT_FOUND",
-                "target": target_tag_or_path,
-                "message": f"Document not found in GCS LLM-Wiki for '{target_tag_or_path}'."
+                "status": "SUCCESS",
+                "gcs_uri": f"gs://{bucket_name}/{file_path}",
+                "local_path": str(file_path),
+                "full_content": content,
+                "byte_size": len(content.encode("utf-8"))
             }
 
-        content = file_path.read_text(encoding="utf-8")
+        # 2. Attempt direct GCS download from bucket
+        try:
+            from google.cloud import storage
+            client = storage.Client()
+            bucket = client.bucket(bucket_name)
+            blob_candidates = [
+                f"wiki/equipment/{target_tag_or_path}.md",
+                f"wiki/instruments/{target_tag_or_path}.md",
+                f"wiki/units/{target_tag_or_path}.md",
+                f"wiki/hazards/{target_tag_or_path}.md",
+                str(target_tag_or_path)
+            ]
+            for b_name in blob_candidates:
+                blob = bucket.blob(b_name)
+                if blob.exists():
+                    text = blob.download_as_text(encoding="utf-8")
+                    return {
+                        "status": "SUCCESS",
+                        "gcs_uri": f"gs://{bucket_name}/{b_name}",
+                        "local_path": "",
+                        "full_content": text,
+                        "byte_size": len(text.encode("utf-8"))
+                    }
+        except Exception as e:
+            print(f"[GCS READ NOTICE] GCS lookup fallback: {e}")
+
         return {
-            "status": "SUCCESS",
-            "gcs_uri": f"gs://phenol-llm-wiki-cs-poc-y03r7kmfyov4kilzg50fd7s/{file_path}",
-            "local_path": str(file_path),
-            "full_content": content,
-            "byte_size": len(content.encode("utf-8"))
+            "status": "NOT_FOUND",
+            "target": target_tag_or_path,
+            "message": f"Document not found in GCS LLM-Wiki for '{target_tag_or_path}'."
         }
+

@@ -77,6 +77,33 @@ def init_local_mock(wiki_dir: str = "wiki"):
     return db
 
 
+def get_database(wiki_dir: str = "wiki", force_mock: bool = False):
+    """Factory that returns live SpannerDatabaseClient if enabled/available, or MockSpannerDatabase."""
+    use_real_spanner = os.getenv("USE_REAL_SPANNER", "").lower() in ("true", "1", "yes")
+    # Also auto-detect Cloud Run production environment
+    if os.getenv("K_SERVICE") and os.getenv("USE_REAL_SPANNER", "").lower() not in ("false", "0", "no"):
+        use_real_spanner = True
+
+    if not force_mock and use_real_spanner:
+        try:
+            from database.spanner_client import SpannerDatabaseClient
+            print(f"[SPANNER FACTORY] Connecting to live Google Cloud Spanner ({INSTANCE_ID} / {DATABASE_ID})...")
+            client = SpannerDatabaseClient(
+                project_id=PROJECT_ID,
+                instance_id=INSTANCE_ID,
+                database_id=DATABASE_ID
+            )
+            if client.equipment:
+                print(f"[SPANNER FACTORY] Live Spanner client active with {len(client.equipment)} equipment, {len(client.instruments)} instruments.")
+                return client
+            else:
+                print("[SPANNER FACTORY WARNING] Live Spanner connected but returned 0 equipment. Falling back to local mock.")
+        except Exception as e:
+            print(f"[SPANNER FACTORY NOTICE] Could not initialize live Spanner client ({e}). Falling back to local mock.")
+
+    return init_local_mock(wiki_dir)
+
+
 if __name__ == "__main__":
     print(f"Initializing Phenol Process Safety Database for project {PROJECT_ID}...")
-    db = init_local_mock()
+    db = get_database()

@@ -13,7 +13,7 @@ from fastapi.responses import StreamingResponse, JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from database.init_db import init_local_mock
+from database.init_db import get_database
 from agents.orchestrator.agent import OrchestratorAgent
 
 app = FastAPI(title="Phenol Process Safety AI Platform", version="2.1.0")
@@ -27,8 +27,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Global in-memory DB and Orchestrator
-db = init_local_mock("wiki")
+# Global DB and Orchestrator (live Cloud Spanner in cloud, mock in local tests)
+db = get_database()
 orchestrator = OrchestratorAgent(db)
 
 
