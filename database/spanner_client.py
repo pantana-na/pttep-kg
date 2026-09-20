@@ -10,7 +10,7 @@ from google.cloud import spanner
 from google.cloud.spanner_v1.param_types import Array, FLOAT64, STRING, INT64
 from database.models import (
     EquipmentModel, UnitModel, InstrumentModel, ChemicalHazardModel,
-    EquipmentFlowEdge, InstrumentActuationEdge
+    EquipmentFlowEdge, InstrumentActuationEdge, HazopNodeModel, NodeEquipmentEdge
 )
 
 
@@ -162,7 +162,25 @@ class SpannerDatabaseClient:
                 for r in act_rows
             ]
 
-            print(f"[SPANNER CLIENT] Cache initialized from live Spanner: {len(self.equipment)} equipment, {len(self.instruments)} instruments, {len(self.equipment_flows)} flow edges.")
+            # 6. HazopNodes
+            with self.database.snapshot() as snapshot:
+                node_rows = list(snapshot.execute_sql(
+                    "SELECT NodeId, Name, UnitId, PidSheet, Status FROM HazopNodes WHERE IsDeleted = false"
+                ))
+            for r in node_rows:
+                self.hazop_nodes[r[0]] = HazopNodeModel(
+                    node_id=r[0], name=r[1], unit_id=r[2], pid_sheet=r[3], status=r[4]
+                )
+
+            # 7. NodeEquipmentMap
+            with self.database.snapshot() as snapshot:
+                map_rows = list(snapshot.execute_sql("SELECT NodeId, EquipmentTag FROM NodeEquipmentMap"))
+            self.node_equipment_map = [
+                NodeEquipmentEdge(node_id=r[0], equipment_tag=r[1])
+                for r in map_rows
+            ]
+
+            print(f"[SPANNER CLIENT] Cache initialized from live Spanner: {len(self.equipment)} equipment, {len(self.instruments)} instruments, {len(self.equipment_flows)} flow edges, {len(self.hazop_nodes)} HAZOP nodes, {len(self.node_equipment_map)} node mappings.")
         except Exception as e:
             print(f"[SPANNER CLIENT NOTICE] Failed to cache from Spanner: {e}")
 

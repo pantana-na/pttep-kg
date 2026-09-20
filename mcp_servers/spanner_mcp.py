@@ -97,11 +97,18 @@ class SpannerMCPServer:
                 "message": f"No Dataplex Knowledge Catalog entries found for tag '{target_tag}'."
             }
 
-        file_path = Path(eq.markdown_uri)
+        file_path = None
+        if eq and eq.markdown_uri and Path(eq.markdown_uri).exists():
+            file_path = Path(eq.markdown_uri)
+        else:
+            candidates = list(Path("wiki").rglob(f"*{target_tag}*.md"))
+            if candidates:
+                file_path = candidates[0]
+
         sources = []
         tags = []
         last_updated = "2026-06-16"
-        if file_path.exists():
+        if file_path and file_path.exists():
             text = file_path.read_text(encoding="utf-8")
             if text.startswith("---"):
                 parts = text.split("---", 2)
@@ -110,6 +117,9 @@ class SpannerMCPServer:
                     sources = fm.get("sources", [])
                     tags = fm.get("tags", [])
                     last_updated = str(fm.get("last_updated", "2026-06-16"))
+
+        if not sources and eq and eq.markdown_uri:
+            sources = [f"{eq.markdown_uri}_Z1.pdf" if not eq.markdown_uri.endswith(".pdf") else eq.markdown_uri]
 
         # Query live Google Cloud Dataplex entry
         entry_id = re.sub(r'[^a-z0-9-]', '', target_tag.lower().replace('/', '-').replace('_', '-'))

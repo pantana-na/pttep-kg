@@ -1,0 +1,968 @@
+{
+  "hazop_nodes": [
+    {
+      "node_id": "ALKY-N01",
+      "name": "Feed Fractionation & Alkylation Section",
+      "unit_id": "ALKY",
+      "pid_sheet": "14780-8120-25-21-0001",
+      "status": "APPROVED"
+    },
+    {
+      "node_id": "CDN-N01",
+      "name": "Cumene Quench Tank & Feed System",
+      "unit_id": "CDN",
+      "pid_sheet": "14780-8120-25-23-0001",
+      "status": "APPROVED"
+    },
+    {
+      "node_id": "CDN-N02",
+      "name": "Preflash Column & Vaporizer Section",
+      "unit_id": "CDN",
+      "pid_sheet": "14780-8120-25-23-0005",
+      "status": "APPROVED"
+    },
+    {
+      "node_id": "CDN-N03",
+      "name": "Decomposer Drum & Acid Cleavage Section",
+      "unit_id": "CDN",
+      "pid_sheet": "14780-8120-25-23-0013",
+      "status": "APPROVED"
+    },
+    {
+      "node_id": "CDN-N04",
+      "name": "Vacuum Producing & Relief Flare System",
+      "unit_id": "CDN",
+      "pid_sheet": "14780-8120-25-23-0015",
+      "status": "APPROVED"
+    },
+    {
+      "node_id": "OXI-N01",
+      "name": "Oxidation Reactor Loop & Off-Gas Separation",
+      "unit_id": "OXI",
+      "pid_sheet": "14780-8120-25-22-0001",
+      "status": "APPROVED"
+    }
+  ],
+  "node_equipment_map": [
+    {
+      "node_id": "ALKY-N01",
+      "equipment_tag": "D-2121"
+    },
+    {
+      "node_id": "ALKY-N01",
+      "equipment_tag": "D-2122"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "D-2301"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "D-2302"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "D-2303"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "D-2310"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "D-2311"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "D-2312"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2301A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2304A"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2306A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2307A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2308A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2309A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2316A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2317A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "P-2320"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "X-2302A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "X-2310A/B"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "X-2320"
+    },
+    {
+      "node_id": "CDN-N01",
+      "equipment_tag": "X-2321"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "D-2308"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "D-2309"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "E-2301"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "E-2302A/B"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "E-2303"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "E-2304"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "E-2310"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "V-2301"
+    },
+    {
+      "node_id": "CDN-N02",
+      "equipment_tag": "V-2302"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "D-2304"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "E-2306"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "E-2307A/B"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "E-2308A/B"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "P-2302A/B"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "P-2303A/B"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "P-2305A/B/C/D/E/F"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "X-2309A/B"
+    },
+    {
+      "node_id": "CDN-N04",
+      "equipment_tag": "D-2306"
+    },
+    {
+      "node_id": "CDN-N04",
+      "equipment_tag": "D-2307"
+    },
+    {
+      "node_id": "CDN-N04",
+      "equipment_tag": "E-2309"
+    },
+    {
+      "node_id": "CDN-N04",
+      "equipment_tag": "X-2301"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2201"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2202"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2203"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2204A/B/C"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2205"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2206"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2207"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2208"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "D-2211"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "OX-2201"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "OX-2202"
+    },
+    {
+      "node_id": "OXI-N01",
+      "equipment_tag": "V-2201"
+    }
+  ],
+  "equipment": [
+    {
+      "equipment_tag": "D-2121",
+      "unit_id": "ALKY",
+      "name": "Cumene Column Reboiler Condensate Pot",
+      "type": "Vessel (Vertical, Condensate Pot)",
+      "design_pressure_barg": 50.0,
+      "design_temp_celsius": 300.0,
+      "operating_pressure_barg": 40.0,
+      "operating_temp_celsius": 260.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2121_Z1",
+      "description_summary": "# D-2121 \u2014 Cumene Column Reboiler Condensate Pot\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type | Vertical vessel | \u2014 |\n| Code | ASME Section VIII Div. 1 | \u2014 |\n| Design Standard | UOP Std Spec 3-11 | \u2014 |\n| Shell ID | 1150 | mm |\n| Height (T-T) | 2550 | mm |\n| Desig"
+    },
+    {
+      "equipment_tag": "D-2122",
+      "unit_id": "ALKY",
+      "name": "Cumene Column Reflux Drum",
+      "type": "Vessel (Horizontal, Reflux Drum)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.8,
+      "operating_temp_celsius": 45.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2122_Z1",
+      "description_summary": "# D-2122 \u2014 PIPB Column Reboiler Condensate Pot\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type | Vertical vessel | \u2014 |\n| Code | ASME Section VIII Div. 1 | \u2014 |\n| Design Standard | UOP Std Spec 3-11 | \u2014 |\n| Shell ID | 550 | mm |\n| Height (T-T) | 1900 | mm |\n| Design P"
+    },
+    {
+      "equipment_tag": "D-2201",
+      "unit_id": "OXI",
+      "name": "Combined Feed Surge Drum",
+      "type": "Vessel (Vertical, Surge Drum)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.7,
+      "operating_temp_celsius": 39.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2201_Z1",
+      "description_summary": "# D-2201 \u2014 Combined Feed Surge Drum\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type | Vertical vessel | \u2014 |\n| Code | ASME Section VIII Div. 1 | \u2014 |\n| Design Standard | UOP Std Spec 3-11 | \u2014 |\n| Shell ID | 4900 | mm |\n| Height (T-T) | 14,600 | mm |\n| Design Pressure "
+    },
+    {
+      "equipment_tag": "D-2202",
+      "unit_id": "OXI",
+      "name": "Air Compressor Knockout Drum",
+      "type": "Vessel (Vertical, Knockout Drum)",
+      "design_pressure_barg": 10.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 6.5,
+      "operating_temp_celsius": 40.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2202_Z1",
+      "description_summary": "# D-2202 \u2014 CHP Process Water Break Tank\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type | Vertical vessel | \u2014 |\n| Code | ASME Section VIII Div. 1 | \u2014 |\n| Design Standard | UOP Std Spec 3-11 | \u2014 |\n| Shell ID | 600 | mm |\n| Height (overall to flange face) | 1950 | mm "
+    },
+    {
+      "equipment_tag": "D-2203",
+      "unit_id": "OXI",
+      "name": "Caustic Wash Vessel",
+      "type": "Vessel (Vertical, Wash Vessel)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 1.2,
+      "operating_temp_celsius": 40.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2203_Z1",
+      "description_summary": "# D-2203 \u2014 Oxidizer Chilled Vent Gas Separator\n\n> \u26a0\ufe0f CHP is present in the vent gas from oxidizers. This separator handles condensate from chilled vent gas. Cold service (5\u00b0C, MDMT \u221210\u00b0C) \u2014 thermal shock risk if steam is admitted improperly. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| P"
+    },
+    {
+      "equipment_tag": "D-2204A/B/C",
+      "unit_id": "OXI",
+      "name": "Oxidation Reactors (Series Oxidizers)",
+      "type": "Reactor (Series Bubble Column Oxidizers)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": 5.2,
+      "operating_temp_celsius": 105.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2204_Z1",
+      "description_summary": "# D-2204A/B/C \u2014 Charcoal Adsorbers\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type | Horizontal vessel | \u2014 |\n| Quantity | 3 (A, B, C) | \u2014 |\n| Code | ASME Section VIII Div. 1 | \u2014 |\n| Design Standard | UOP Std Spec 3-11 | \u2014 |\n| Design Pressure (INT) | 3.5 | kg/cm\u00b2g |\n"
+    },
+    {
+      "equipment_tag": "D-2205",
+      "unit_id": "OXI",
+      "name": "Off-Gas Knockout Drum",
+      "type": "Vessel (Vertical, Knockout Drum)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 205.0,
+      "operating_pressure_barg": 4.8,
+      "operating_temp_celsius": 45.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2205_Z1",
+      "description_summary": "# D-2205 \u2014 Decanter\n\n> \u26a0\ufe0f CHP is present in the hydrocarbon phase of this decanter. CHP concentration in the organic layer may be significant. Temperature must be controlled below 80\u00b0C. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n|"
+    },
+    {
+      "equipment_tag": "D-2206",
+      "unit_id": "OXI",
+      "name": "Spent Air Scrubber",
+      "type": "Vessel (Vertical, Packed Scrubber)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.2,
+      "operating_temp_celsius": 35.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2206_Z1",
+      "description_summary": "# D-2206 \u2014 CHP Sump\n\n> \u26a0\ufe0f CHP is the primary fluid in this sump. This is the catchment vessel for CHP spills and drains in the Oxidation Section. Secondary containment is mandatory. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Typ"
+    },
+    {
+      "equipment_tag": "D-2207",
+      "unit_id": "OXI",
+      "name": "Carbon Bed Adsorber",
+      "type": "Vessel (Fixed Bed Adsorber)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 170.0,
+      "operating_pressure_barg": 0.1,
+      "operating_temp_celsius": 40.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2207_Z1",
+      "description_summary": "# D-2207 \u2014 Compressed Air Scrubber\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type | Vertical tray column | \u2014 |\n| Code | ASME Sec VIII, CL150 / (7) CL300-special | \u2014 |\n| Shell ID | 2600 | mm |\n| T/T Height | 6300 | mm |\n| Foundation to Bottom TL | 1700 | mm |\n| Desi"
+    },
+    {
+      "equipment_tag": "D-2208",
+      "unit_id": "OXI",
+      "name": "Recycle Gas Knockout Drum",
+      "type": "Vessel (Vertical, Knockout Drum)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 4.5,
+      "operating_temp_celsius": 38.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2208_Z1",
+      "description_summary": "# D-2208 \u2014 Oxidizer Vent Gas Separator\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type | Vertical separator | \u2014 |\n| Code | ASME Sec VIII, CL150 / (2) CL300 | \u2014 |\n| Shell ID | 2800 | mm |\n| T/T Height | 3700 | mm |\n| Structure-to-Tangent | 1300 | mm |\n| Design Pressu"
+    },
+    {
+      "equipment_tag": "D-2211",
+      "unit_id": "OXI",
+      "name": "Cumene Stripper Knockout Drum",
+      "type": "Vessel (Vertical, Knockout Drum)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.5,
+      "operating_temp_celsius": 42.0,
+      "material": null,
+      "markdown_uri": "14780-8120-PS-D2211_Z1",
+      "description_summary": "# D-2211 \u2014 Charcoal Adsorber Blowdown Knockout Drum\n\n> \u26a0\ufe0f MDMT = \u221210\u00b0C \u2014 subzero service. Impact-tested material required. Operating at 5\u00b0C. Handles cumene-laden cooldown gas from charcoal adsorber regeneration. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|---"
+    },
+    {
+      "equipment_tag": "D-2301",
+      "unit_id": "CDN",
+      "name": "Cleavage Feed Surge Drum",
+      "type": "Vessel (Horizontal, Feed Surge Drum)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.5,
+      "operating_temp_celsius": 45.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0001",
+      "description_summary": "# D-2301 \u2014 Concentration Cumene Quench Drum\n\n> \u26a0\ufe0f CHP Nitrogen Header blanketing required (STD DWG 8-138, Type 1 connection). Never substitute regular plant N\u2082. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit | Source |\n|-----------|-------|------|--------|\n| Size ("
+    },
+    {
+      "equipment_tag": "D-2302",
+      "unit_id": "CDN",
+      "name": "Recycle Cumene Surge Drum",
+      "type": "Vessel (Horizontal, Surge Drum)",
+      "design_pressure_barg": 10.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.7,
+      "operating_temp_celsius": 38.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0011",
+      "description_summary": "# D-2302 \u2014 Cumene Flush Drum\n\n> \u26a0\ufe0f CHP Nitrogen Header blanketing required. Connects to CHP Closed Drain Header. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit | Source |\n|-----------|-------|------|--------|\n| Service | Cumene Flush Drum | \u2014 | P&ID |\n| Size (Diame"
+    },
+    {
+      "equipment_tag": "D-2303",
+      "unit_id": "CDN",
+      "name": "Concentrated CHP Surge Drum",
+      "type": "Vessel (Horizontal, Surge Drum)",
+      "design_pressure_barg": 10.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.8,
+      "operating_temp_celsius": 40.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0012",
+      "description_summary": "# D-2303 \u2014 Decomposer Feed Flush Drum\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II (PPCL)\n\n## Function\n\nD-2303 is a small flush drum (constructed from 24\"OD pipe, 1800mm long) located bet"
+    },
+    {
+      "equipment_tag": "D-2304",
+      "unit_id": "CDN",
+      "name": "Cleavage Decomposer Drum",
+      "type": "Vessel (Vertical, Catalytic Cleavage Reactor)",
+      "design_pressure_barg": 11.0,
+      "design_temp_celsius": 250.0,
+      "operating_pressure_barg": 1.5,
+      "operating_temp_celsius": 55.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0013",
+      "description_summary": "# D-2304 \u2014 Decomposer Drum\n\n> \u26a0\ufe0f HIGHEST HAZARD EQUIPMENT IN CDN SECTION. CHP decomposition is exothermic and autocatalytic. Loss of recirculation pumps with CHP present is a CRITICAL emergency. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II ("
+    },
+    {
+      "equipment_tag": "D-2306",
+      "unit_id": "CDN",
+      "name": "Product Degasser Drum",
+      "type": "Vessel (Vertical, Degasser Vessel)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 325.0,
+      "operating_pressure_barg": 0.2,
+      "operating_temp_celsius": 65.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0015",
+      "description_summary": "# D-2306 \u2014 Acid Aromatics Knockout Drum\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n## Function\n\nD-2306 is a vapor/liquid separator that collects and separates all relief and vent streams from the CDN Decomposition section and the pressure relief syst"
+    },
+    {
+      "equipment_tag": "D-2307",
+      "unit_id": "CDN",
+      "name": "Acid Aromatics Sump Drum",
+      "type": "Vessel (Horizontal, Sump Drum)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 325.0,
+      "operating_pressure_barg": 0.0,
+      "operating_temp_celsius": 40.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0017",
+      "description_summary": "# D-2307 \u2014 Acid Aromatics Sump\n\n## Function\n\nD-2307 is the central collection vessel for all acid aromatics liquid streams from the CDN section. It receives liquid knockout from [[equipment/D-2306]] (Acid Aromatics KO Drum) and all drain connections from the Acid Aromatics Closed Drain Header (Drawi"
+    },
+    {
+      "equipment_tag": "D-2308",
+      "unit_id": "CDN",
+      "name": "Preflash Steam Condensate Drum",
+      "type": "Vessel (Horizontal, Condensate Drum)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": 1.5,
+      "operating_temp_celsius": 110.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0005",
+      "description_summary": "# D-2308 \u2014 Preflash Column Steam Heater Condensate Drum\n\n## Design Data\n\n| Parameter | Value | Unit | Source |\n|-----------|-------|------|--------|\n| Size (Diameter \u00d7 L T/T) | 800 \u00d7 2000 | mm | P&ID Dwg 0005A / DS confirmed |\n| Orientation | Vertical | \u2014 | DS AS-BUILT |\n| Design Pressure (INT) | 7."
+    },
+    {
+      "equipment_tag": "D-2309",
+      "unit_id": "CDN",
+      "name": "Steam Condensate Flash Drum",
+      "type": "Vessel (Vertical, Flash Drum)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": 0.5,
+      "operating_temp_celsius": 105.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0006",
+      "description_summary": "# D-2309 \u2014 Flash Column Vaporizer Condensate Drum\n\n## Design Data\n\n| Parameter | Value | Unit | Source |\n|-----------|-------|------|--------|\n| Size (Diameter \u00d7 L T/T) | 800 \u00d7 2000 | mm | P&ID Dwg 0007A / DS confirmed |\n| Orientation | Vertical | \u2014 | DS AS-BUILT |\n| Design Pressure (INT) | 7.0 | kg"
+    },
+    {
+      "equipment_tag": "D-2310",
+      "unit_id": "CDN",
+      "name": "Spent Caustic Storage Day Tank",
+      "type": "Tank (Atmospheric Storage Tank)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.1,
+      "operating_temp_celsius": 30.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0018",
+      "description_summary": "# D-2310 \u2014 98% Sulfuric Acid Injection Tank\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n> \u26a0\ufe0f **98% Sulfuric acid \u2014 severe contact hazard.** Dilution heat may cause boiling and spattering.\n\n## Function\n\nD-2310 is the working (day) tank that supplies 98%"
+    },
+    {
+      "equipment_tag": "D-2311",
+      "unit_id": "CDN",
+      "name": "Sulfuric Acid Storage Day Tank",
+      "type": "Tank (Atmospheric Acid Storage Tank)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.1,
+      "operating_temp_celsius": 28.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0018",
+      "description_summary": "# D-2311 \u2014 98% Sulfuric Acid Refill Tank\n\n> \u26a0\ufe0f **98% Sulfuric acid \u2014 severe contact hazard.** See [[hazards/cumene-hydroperoxide]] for general CDN hazard context.\n\n## Function\n\nD-2311 is the bulk storage/refill tank for 98% H\u2082SO\u2084 catalyst. It is filled periodically from road tanker or plant acid sup"
+    },
+    {
+      "equipment_tag": "D-2312",
+      "unit_id": "CDN",
+      "name": "Diamine Neutralizer Injection Tank",
+      "type": "Tank (Atmospheric Storage Tank)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 0.1,
+      "operating_temp_celsius": 25.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0019",
+      "description_summary": "# D-2312 \u2014 Diamine Injection Tank\n\n> \u26d4 **CHEMICAL IDENTITY CONFLICT \u2014 RESOLVE BEFORE HAZOP TOUCHES THIS NODE.** AS-BUILT Process Data Sheet (PS-D2312 Rev Z1, an authoritative engineering document) states the fluid name as **\"DIAMINE(HMDA)\"** \u2014 i.e. **Hexamethylenediamine, CAS 124-09-4**, density 914"
+    },
+    {
+      "equipment_tag": "E-2301",
+      "unit_id": "CDN",
+      "name": "Preflash & Flash Columns Condenser",
+      "type": "HeatExchanger (Shell-and-Tube, Vacuum Condenser)",
+      "design_pressure_barg": 4.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": -0.9,
+      "operating_temp_celsius": 48.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0008",
+      "description_summary": "# E-2301 \u2014 Preflash and Flash Columns Condenser\n\n> \u26a0\ufe0f CHP-containing overhead vapors on shell side. Refrigerated cooling required \u2014 loss of cooling capacity degrades both vacuum columns simultaneously. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-"
+    },
+    {
+      "equipment_tag": "E-2302A/B",
+      "unit_id": "CDN",
+      "name": "Preflash Column Feed / Bottoms Exchanger",
+      "type": "HeatExchanger (Shell-and-Tube, Heat Recovery)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": 3.2,
+      "operating_temp_celsius": 82.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0004",
+      "description_summary": "# E-2302A/B \u2014 Feed-Oxidate Exchangers\n\n> \u26a0\ufe0f CHP-containing oxidate on tube side at ~22.6 wt% CHP. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Configuration | Parallel (52.5% \u00d7 2) | \u2014 |\n| Design Duty (per unit) | 3.99 \u00d7 1.05 | MMK"
+    },
+    {
+      "equipment_tag": "E-2303",
+      "unit_id": "CDN",
+      "name": "Preflash Column Steam Heater",
+      "type": "HeatExchanger (Shell-and-Tube, Steam Heater)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": 3.2,
+      "operating_temp_celsius": 83.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0005",
+      "description_summary": "# E-2303 \u2014 Preflash Column Steam Heater\n\n> \u26a0\ufe0f CHP-containing oxidate on tube side. Overheating risk \u2014 TXSHH-0502A/B (1oo2, SIL 1) triggers UC-2301 Concentration ESD. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Design Duty | 6.075"
+    },
+    {
+      "equipment_tag": "E-2304",
+      "unit_id": "CDN",
+      "name": "Vacuum Flash Vessel Reboiler",
+      "type": "HeatExchanger (Thermosiphon Reboiler)",
+      "design_pressure_barg": 10.5,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": -0.8,
+      "operating_temp_celsius": 92.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0006",
+      "description_summary": "# E-2304 \u2014 Flash Column Vaporizer\n\n> \u26a0\ufe0f CHP-containing concentrated flash column bottoms on tube side. Four SIS temperature initiators connected to UC-2301 (SIL 1/2). See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Design Duty | 4.14"
+    },
+    {
+      "equipment_tag": "E-2306",
+      "unit_id": "CDN",
+      "name": "Decomposer Circulation Coolers",
+      "type": "HeatExchanger (Shell-and-Tube, Cleavage Cooler)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": 3.5,
+      "operating_temp_celsius": 52.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0014",
+      "description_summary": "# E-2306 \u2014 Flash Column Bottoms Cooler\n\n> \u26a0\ufe0f Concentrated CHP on process side. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Design Duty | 0.7518 \u00d7 1.05 | MMKcal/hr |\n| Normal Operating Duty (PFD basis) | 0.75 | MM kcal/h |\n| Shell"
+    },
+    {
+      "equipment_tag": "E-2307A/B",
+      "unit_id": "CDN",
+      "name": "Decomposer Trim Coolers",
+      "type": "HeatExchanger (Shell-and-Tube, Trim Cooler)",
+      "design_pressure_barg": 13.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 3.2,
+      "operating_temp_celsius": 45.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0014",
+      "description_summary": "# E-2307A/B \u2014 Decomposer Cooler\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**\u26a0\ufe0f CORRECTION (2026-06-07, Drawing 0017):** The Decomposer Cooler is **TWO parallel shells** (E-2307A and E-2307B), not a single unit as previously recorded. Total duty 18.5"
+    },
+    {
+      "equipment_tag": "E-2308A/B",
+      "unit_id": "CDN",
+      "name": "Product Dehydrator Condensers",
+      "type": "HeatExchanger (Shell-and-Tube, Condenser)",
+      "design_pressure_barg": 16.5,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": 2.8,
+      "operating_temp_celsius": 50.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0015",
+      "description_summary": "# E-2308A/B \u2014 Dehydrators\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II (PPCL)\n\n## Function\n\nE-2308A/B are shell-and-tube heat exchangers operated as 1 operating + 1 standby. They serve th"
+    },
+    {
+      "equipment_tag": "E-2309",
+      "unit_id": "CDN",
+      "name": "Vent Condenser Cooler",
+      "type": "HeatExchanger (Shell-and-Tube, Vent Cooler)",
+      "design_pressure_barg": 16.5,
+      "design_temp_celsius": 145.0,
+      "operating_pressure_barg": 0.1,
+      "operating_temp_celsius": 35.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0016",
+      "description_summary": "# E-2309 \u2014 Crude Product Cooler\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II (PPCL)\n\n## Function\n\nE-2309 is the final cooler in the CDN decomposition sub-section. It reduces crude product"
+    },
+    {
+      "equipment_tag": "E-2310",
+      "unit_id": "CDN",
+      "name": "Flash Column Overhead Vapor Chiller",
+      "type": "HeatExchanger (Shell-and-Tube, Chiller)",
+      "design_pressure_barg": 4.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": -0.98,
+      "operating_temp_celsius": 15.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0010",
+      "description_summary": "# E-2310 \u2014 Flash Column Overhead Vapor Chiller\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Service | Flash Column Overhead Vapor Chiller | \u2014 |\n| Design Duty | ~0.29 (0.2927) | MMkcal/hr |\n| Size (Dia) | 1260 (DWG) / **1280** (PS-E2310, Confirmed) | mm |\n| Length (T/T"
+    },
+    {
+      "equipment_tag": "OX-2201",
+      "unit_id": "OXI",
+      "name": "Oxidation Reactor Stage 1",
+      "type": "Reactor (Bubble Column Oxidizer)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 130.0,
+      "operating_pressure_barg": 5.5,
+      "operating_temp_celsius": 102.0,
+      "material": null,
+      "markdown_uri": "14780-8120-20-22-0004",
+      "description_summary": "# OX-2201 \u2014 Oxidizer No.1\n\n> \u26a0\ufe0f CHP is produced in this vessel. Cumene + O\u2082 reaction is exothermic. CHP concentration rises through the vessel height. Temperature must be closely controlled \u2014 CHP thermal decomposition onset ~80\u00b0C. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | "
+    },
+    {
+      "equipment_tag": "OX-2202",
+      "unit_id": "OXI",
+      "name": "Oxidation Reactor Stage 2",
+      "type": "Reactor (Bubble Column Oxidizer)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 130.0,
+      "operating_pressure_barg": 5.0,
+      "operating_temp_celsius": 105.0,
+      "material": null,
+      "markdown_uri": "14780-8120-20-22-0004",
+      "description_summary": "# OX-2202 \u2014 Oxidizer No.2\n\n> \u26a0\ufe0f CHP is produced in this vessel. Cumene + O\u2082 reaction is exothermic. Temperature must be closely controlled \u2014 CHP thermal decomposition onset ~80\u00b0C. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type "
+    },
+    {
+      "equipment_tag": "P-2301A/B",
+      "unit_id": "CDN",
+      "name": "Preflash Column Bottoms Feed Pumps",
+      "type": "Centrifugal Pump (OH2, Single Stage)",
+      "design_pressure_barg": 10.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 6.5,
+      "operating_temp_celsius": 85.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0007",
+      "description_summary": "# P-2301A/B \u2014 Flash Column Bottoms Pumps\n\n> \u26a0\ufe0f Concentrated CHP service (~80-85 wt% CHP). Highest CHP concentration in the Concentration sub-section. DM-CHP seal, CHP Closed Drain Header (STD DWG 8-137). On Reliable Power Supply (emergency bus). See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n"
+    },
+    {
+      "equipment_tag": "P-2302A/B",
+      "unit_id": "CDN",
+      "name": "Decomposer Circulation Pumps",
+      "type": "Centrifugal Pump (Axial Flow / High Capacity)",
+      "design_pressure_barg": 10.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 4.5,
+      "operating_temp_celsius": 53.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0013",
+      "description_summary": "# P-2302A/B \u2014 Decomposer Circulation Pumps\n\n> \u26a0\ufe0f **MOST CRITICAL PUMPS IN CDN SECTION.** Loss of both circulation pumps with CHP in the Decomposer requires immediate emergency shutdown. A running decomposer with no recirculation is a thermal runaway condition. See [[hazards/cumene-hydroperoxide]].\n\n"
+    },
+    {
+      "equipment_tag": "P-2303A/B",
+      "unit_id": "CDN",
+      "name": "Decomposer Product Transfer Pumps",
+      "type": "Centrifugal Pump (OH2, API Plan 02/53A)",
+      "design_pressure_barg": 12.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 7.8,
+      "operating_temp_celsius": 52.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0014",
+      "description_summary": "# P-2303A/B \u2014 Decomposer Product Pumps\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II (PPCL)\n\n## Function\n\nP-2303A/B extract the product overflow from the Decomposer Drum ([[equipment/D-230"
+    },
+    {
+      "equipment_tag": "P-2304A",
+      "unit_id": "CDN",
+      "name": "Closed Drain Pump",
+      "type": "Centrifugal Pump (Submerged Sump Pump)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 3.5,
+      "operating_temp_celsius": 38.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0020",
+      "description_summary": "# P-2304A \u2014 Acid Aromatics Sump Pumps\n\n## Function\n\nP-2304A are the main transfer pumps for the CDN Acid Aromatics Drain System. They take suction from [[equipment/D-2307]] (Acid Aromatics Sump vessel) and pump the collected acid aromatics \u2014 a mixture of phenol, organic acids, and aromatics \u2014 to the"
+    },
+    {
+      "equipment_tag": "P-2305A/B/C/D/E/F",
+      "unit_id": "CDN",
+      "name": "Sulfuric Acid Metering Injection Pumps",
+      "type": "Metering Pump (Plunger Diaphragm)",
+      "design_pressure_barg": 10.0,
+      "design_temp_celsius": 80.0,
+      "operating_pressure_barg": 5.5,
+      "operating_temp_celsius": 30.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0018",
+      "description_summary": "# P-2305A/B/C/D/E/F \u2014 Decomposer Acid Injection Pumps\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n> \u26a0\ufe0f **98% Sulfuric acid \u2014 severe contact hazard. Metering pumps must be confirmed running before acid injection begins.**\n\n## Function\n\nSix metering pump"
+    },
+    {
+      "equipment_tag": "P-2306A/B",
+      "unit_id": "CDN",
+      "name": "Neutralizing Agent (Diamine) Injection Pumps",
+      "type": "Metering Pump (Plunger Diaphragm)",
+      "design_pressure_barg": 10.0,
+      "design_temp_celsius": 80.0,
+      "operating_pressure_barg": 5.8,
+      "operating_temp_celsius": 28.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0019",
+      "description_summary": "# P-2306A/B \u2014 Neutralizing Agent (Diamine) Injection Pumps\n\n## Function\n\nP-2306A and P-2306B inject **diamine** (neutralizing agent) from [[equipment/D-2312]] into the crude product stream ahead of the Direct Neutralization Static Mixers [[equipment/X-2310AB]]. The diamine neutralizes residual sulfu"
+    },
+    {
+      "equipment_tag": "P-2307A/B",
+      "unit_id": "CDN",
+      "name": "Spent Caustic Transfer Pumps",
+      "type": "Centrifugal Pump (OH2, Single Stage)",
+      "design_pressure_barg": 12.0,
+      "design_temp_celsius": 100.0,
+      "operating_pressure_barg": 8.2,
+      "operating_temp_celsius": 38.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0021",
+      "description_summary": "# P-2307A/B \u2014 Preflash and Flash Columns Overhead Pumps\n\n> \u26a0\ufe0f CHP-containing overhead service (cumene with trace CHP). DM-CHP seal required. Connect to CHP Closed Drain Header (STD DWG 8-137). See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|--"
+    },
+    {
+      "equipment_tag": "P-2308A/B",
+      "unit_id": "CDN",
+      "name": "Crude Phenol Bottoms Pumps",
+      "type": "Centrifugal Pump (OH2, Single Stage)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 3.2,
+      "operating_temp_celsius": 45.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0022",
+      "description_summary": "# P-2308A/B \u2014 Preflash Column Steam Heater Condensate Pumps\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Service | Preflash Column Steam Heater Condensate | \u2014 |\n| Specific Gravity at Pumping Temp | 0.947 | \u2014 |\n| Design Capacity | 18.0 | m\u00b3/hr |\n| Differential Pressure"
+    },
+    {
+      "equipment_tag": "P-2309A/B",
+      "unit_id": "CDN",
+      "name": "Acetone Overhead Transfer Pumps",
+      "type": "Centrifugal Pump (OH2, Single Stage)",
+      "design_pressure_barg": 7.0,
+      "design_temp_celsius": 100.0,
+      "operating_pressure_barg": 3.5,
+      "operating_temp_celsius": 56.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0023",
+      "description_summary": "# P-2309A/B \u2014 Flash Column Vaporizer Condensate Pumps\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Service | Flash Column Vaporizer Condensate | \u2014 |\n| Specific Gravity at Pumping Temp | 0.931 | \u2014 |\n| Design Capacity | 15.3 | m\u00b3/hr |\n| Differential Pressure | 1.58 | kg"
+    },
+    {
+      "equipment_tag": "P-2316A/B",
+      "unit_id": "CDN",
+      "name": "Sump Return Pumps",
+      "type": "Centrifugal Pump (Vertical Sump Pump)",
+      "design_pressure_barg": 6.0,
+      "design_temp_celsius": 100.0,
+      "operating_pressure_barg": 2.5,
+      "operating_temp_celsius": 35.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0024",
+      "description_summary": "# P-2316A/B \u2014 Liquid Ring Vacuum Pumps\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Service | Concentration Vacuum System \u2014 Second Stage Compression | \u2014 |\n| Type | Liquid Ring Vacuum Pump | \u2014 |\n| Suction Flow | 238.6 | kg/hr |\n| Suction Press./Temp. | 79.7 mmHgA / 6.3"
+    },
+    {
+      "equipment_tag": "P-2317A/B",
+      "unit_id": "CDN",
+      "name": "Acid Sump Neutralization Pumps",
+      "type": "Centrifugal Pump (Vertical Sump Pump)",
+      "design_pressure_barg": 6.0,
+      "design_temp_celsius": 100.0,
+      "operating_pressure_barg": 2.2,
+      "operating_temp_celsius": 35.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0024",
+      "description_summary": "# P-2317A/B \u2014 Vacuum System Sealant Pumps\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Service | Sealant Liquid Supply for Liquid Ring Vacuum Pumps P-2316A/B | \u2014 |\n| Type | Centrifugal | \u2014 |\n| Capacity | 3.35 | m\u00b3/hr |\n| Discharge Press. | 0.85 | kg/cm\u00b2G |\n| Motor Pow"
+    },
+    {
+      "equipment_tag": "P-2320",
+      "unit_id": "CDN",
+      "name": "Drain Sump Pit Pump",
+      "type": "Centrifugal Pump (Submersible Pump)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 1.2,
+      "operating_temp_celsius": 38.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0020",
+      "description_summary": "# P-2320 \u2014 Acid Aromatics Sump Pit Pump\n\n## Function\n\nP-2320 is a submerged sump pump installed inside [[equipment/X-2321]] (Acid Aromatic Sump Pit). It pumps accumulated liquid (leaks, spills, floor drains from acid aromatics area) either to [[equipment/D-2307]] (Acid Aromatics Sump) for process re"
+    },
+    {
+      "equipment_tag": "V-2201",
+      "unit_id": "OXI",
+      "name": "Feed Wash Column",
+      "type": "Column (Vertical Packed Wash Column)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 1.5,
+      "operating_temp_celsius": 40.0,
+      "material": null,
+      "markdown_uri": "14780-8120-20-22-0003",
+      "description_summary": "# V-2201 \u2014 Feed Wash Column\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Type | Horizontal liquid-liquid extraction column | \u2014 |\n| Code | ASME Sec VIII, CL300 / (4) see Note | \u2014 |\n| Shell ID | 4000 | mm |\n| T/T Length | 29,400 | mm (3,900 + 23,100 + 2,400 sections) |\n"
+    },
+    {
+      "equipment_tag": "V-2301",
+      "unit_id": "CDN",
+      "name": "Preflash Column",
+      "type": "Column (Vacuum Distillation Column)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 250.0,
+      "operating_pressure_barg": -0.92,
+      "operating_temp_celsius": 85.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0002",
+      "description_summary": "# V-2301 \u2014 Preflash Column\n\n> \u26a0\ufe0f CHP is present in the column bottoms at elevated concentration. Column operates under deep vacuum \u2014 air ingress risk. See [[hazards/cumene-hydroperoxide]].\n\n## Function\n\nFirst-stage vacuum evaporator in the CDN Concentration sub-section. Removes the majority of Cumen"
+    },
+    {
+      "equipment_tag": "V-2302",
+      "unit_id": "CDN",
+      "name": "Vacuum Flash Vessel",
+      "type": "Vessel (Horizontal Vacuum Flash Drum)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 195.0,
+      "operating_pressure_barg": -0.97,
+      "operating_temp_celsius": 90.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0003",
+      "description_summary": "# V-2302 \u2014 Flash Column\n\n> \u26a0\ufe0f CHP concentrates in the bottoms of this column to ~80-85 wt% \u2014 highest CHP concentration in the Concentration sub-section. Monitor column bottom temperature closely. See [[hazards/cumene-hydroperoxide]].\n\n## Function\n\nSecond-stage (deeper) vacuum evaporator in the CDN C"
+    },
+    {
+      "equipment_tag": "X-2301",
+      "unit_id": "CDN",
+      "name": "Vacuum Producing Ejector System",
+      "type": "Package (Steam Jet Vacuum Ejectors)",
+      "design_pressure_barg": 3.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": -0.98,
+      "operating_temp_celsius": 45.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0009",
+      "description_summary": "# X-2301 \u2014 Concentration Vacuum Producing Equipment\n\n> \u26a0\ufe0f Deep vacuum service on CHP-containing vapors. Oxygen analyzer AI-1001 is safety-critical \u2014 monitors for explosive atmosphere in vacuum system. Non-condensibles route to Charcoal Adsorber, not direct vent. See [[hazards/cumene-hydroperoxide]]."
+    },
+    {
+      "equipment_tag": "X-2302A/B",
+      "unit_id": "CDN",
+      "name": "Quench Circulation Mixers",
+      "type": "Mixer (Inline Static Mixer)",
+      "design_pressure_barg": 11.5,
+      "design_temp_celsius": 120.0,
+      "operating_pressure_barg": 3.5,
+      "operating_temp_celsius": 82.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0004",
+      "description_summary": "# X-2302A/B \u2014 Preflash Column Feed Filters\n\n> \u26a0\ufe0f CHP is present in the oxidate feed at ~22.6 wt%. Nitrogen blanketing from CHP Nitrogen Header required. See [[hazards/cumene-hydroperoxide]].\n\n## Design Data\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Size (Diameter \u00d7 L T/T) | 368.8 "
+    },
+    {
+      "equipment_tag": "X-2309A/B",
+      "unit_id": "CDN",
+      "name": "Acid Mixing Nozzles",
+      "type": "Nozzle (High Velocity Venturi Injection)",
+      "design_pressure_barg": 10.5,
+      "design_temp_celsius": 250.0,
+      "operating_pressure_barg": 4.5,
+      "operating_temp_celsius": 50.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0013",
+      "description_summary": "# X-2309A/B \u2014 Calorimeters (No. 1 and No. 2)\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**TAG RESOLVED (2026-06-07, Drawing 0018):** Correct plant tag is **X-2309A** (Calorimeter No. 1) and **X-2309B** (Calorimeter No. 2). PFD 14780-8120-20-23-0005 i"
+    },
+    {
+      "equipment_tag": "X-2310A/B",
+      "unit_id": "CDN",
+      "name": "Direct Neutralization Static Mixers",
+      "type": "Mixer (Inline Static Mixer)",
+      "design_pressure_barg": 21.5,
+      "design_temp_celsius": 250.0,
+      "operating_pressure_barg": 3.8,
+      "operating_temp_celsius": 52.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0019",
+      "description_summary": "# X-2310A/B \u2014 Direct Neutralization Static Mixers\n\n## Function\n\nX-2310A and X-2310B are the **direct neutralization contact points** where diamine from [[equipment/P-2306AB]] mixes with the crude CDN product stream. The static mixers provide thorough mixing of the amine neutralizing agent with the c"
+    },
+    {
+      "equipment_tag": "X-2320",
+      "unit_id": "CDN",
+      "name": "Closed Drain Sump",
+      "type": "Sump (Underground Closed Sump)",
+      "design_pressure_barg": 1.0,
+      "design_temp_celsius": 70.0,
+      "operating_pressure_barg": 0.0,
+      "operating_temp_celsius": 35.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0020",
+      "description_summary": "# X-2320 \u2014 Acid Neutralization System\n\n## Function\n\nX-2320 collects and neutralizes all acid-contaminated drains from the Decomposer Acid Injection system \u2014 including spills, flush drains, and free-draining connections from the acid tanks (D-2310, D-2311) and acid injection pumps (P-2305A\u2013F). Neutra"
+    },
+    {
+      "equipment_tag": "X-2321",
+      "unit_id": "CDN",
+      "name": "Open Drain Sump Pit",
+      "type": "Sump (Underground Concrete Pit)",
+      "design_pressure_barg": 1.0,
+      "design_temp_celsius": 50.0,
+      "operating_pressure_barg": 0.0,
+      "operating_temp_celsius": 32.0,
+      "material": null,
+      "markdown_uri": "14780-8120-25-23-0020",
+      "description_summary": "# X-2321 \u2014 Acid Aromatic Sump Pit\n\n## Function\n\nX-2321 is an underground concrete-lined sump pit that collects all leaks, spills, and floor drains from the Acid Aromatics area of the CDN unit. Contents are pumped out by the submerged sump pit pump [[equipment/P-2320]] to [[equipment/D-2307]] (Acid A"
+    }
+  ]
+}

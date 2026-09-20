@@ -3,9 +3,33 @@
 Corresponds to SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE Section 3.2.
 """
 
-from typing import List, Optional, Any, Dict
+from typing import List, Optional, Any, Dict, Set
 from datetime import date, datetime
 from pydantic import BaseModel, Field
+
+
+def resolve_equipment_tag_alias(tag: str, known_tags: Set[str]) -> str:
+    """Resolves compound tag variations (e.g. P-2301A -> P-2301A/B, E-2302B -> E-2302A/B)."""
+    if not tag:
+        return ""
+    clean = tag.strip().upper()
+    if clean in known_tags:
+        return clean
+    for k in known_tags:
+        k_clean = k.replace("/", "")
+        if clean == k_clean:
+            return k
+        if "/" in k:
+            parts = k.split("/")
+            prefix = parts[0]
+            if clean == prefix or clean == prefix[:-1]:
+                return k
+            base = prefix[:-1] if prefix[-1].isalpha() else prefix
+            if any(clean == f"{base}{s}" for s in [prefix[-1]] + parts[1:]):
+                return k
+            if clean.startswith(base):
+                return k
+    return clean
 
 
 class UnitModel(BaseModel):

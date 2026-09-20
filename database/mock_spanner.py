@@ -5,6 +5,7 @@ Implements GQL graph traversal, keyword token search, vector distance scoring, a
 
 import os
 import re
+import json
 import math
 import yaml
 from pathlib import Path
@@ -120,6 +121,38 @@ class MockSpannerDatabase:
         if hazards_dir.exists():
             for f in hazards_dir.glob("*.md"):
                 self._parse_hazard_file(f)
+
+        # 5. Ingest Database Catalog Seeds (HazopNodes, NodeEquipmentMap, operating/design conditions)
+        catalog_seed_path = Path("database/seeds/spanner_catalog.json")
+        if not catalog_seed_path.exists():
+            catalog_seed_path = Path(__file__).parent / "seeds" / "spanner_catalog.json"
+        if catalog_seed_path.exists():
+            try:
+                data = json.loads(catalog_seed_path.read_text(encoding="utf-8"))
+                for node_data in data.get("hazop_nodes", []):
+                    self.hazop_nodes[node_data["node_id"]] = HazopNodeModel(**node_data)
+
+                for map_data in data.get("node_equipment_map", []):
+                    self.node_equipment_map.append(NodeEquipmentEdge(**map_data))
+
+                for eq_data in data.get("equipment", []):
+                    tag = eq_data["equipment_tag"]
+                    if tag in self.equipment:
+                        existing = self.equipment[tag]
+                        existing.operating_temp_celsius = eq_data.get("operating_temp_celsius")
+                        existing.operating_pressure_barg = eq_data.get("operating_pressure_barg")
+                        existing.design_temp_celsius = eq_data.get("design_temp_celsius")
+                        existing.design_pressure_barg = eq_data.get("design_pressure_barg")
+                        if eq_data.get("markdown_uri"):
+                            existing.markdown_uri = eq_data["markdown_uri"]
+                        if eq_data.get("name"):
+                            existing.name = eq_data["name"]
+                        if eq_data.get("type"):
+                            existing.type = eq_data["type"]
+                    else:
+                        self.equipment[tag] = EquipmentModel(**eq_data)
+            except Exception as e:
+                print(f"[MOCK SPANNER NOTICE] Could not load catalog seeds: {e}")
 
     def _extract_frontmatter(self, file_path: Path) -> Tuple[Dict[str, Any], str]:
         text = file_path.read_text(encoding="utf-8")

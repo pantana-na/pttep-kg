@@ -345,19 +345,42 @@ def test_pbt_session_id_sanitization_invariant(raw_sid):
     assert clean_sid.startswith("session-") or clean_sid.startswith("default")
 
 
-@settings(max_examples=25, deadline=None)
-@given(st.sampled_from(["E-2303", "E-2310", "D-2121", "D-2304", "P-2306A/B", "OX-2201", "V-2301"]))
+@settings(max_examples=50, deadline=None)
+@given(st.sampled_from(["E-2303", "E-2310", "D-2121", "D-2304", "P-2306A/B", "OX-2201", "V-2301", "P-2301A/B"]))
 def test_pbt_equipment_operating_specs_invariants(target_tag):
     """PBT-EQUIPMENT-SPECS-INVARIANT: Every equipment item possesses physically valid,
-    non-null operating parameters and a valid drawing reference without unpopulated placeholders.
+    non-null operating parameters and a valid drawing reference directly from the database.
     """
-    from server.equipment_catalog import get_equipment_specs
-    specs = get_equipment_specs(target_tag)
-    assert specs["operating_temp_c"] is not None
-    assert -50.0 <= specs["operating_temp_c"] <= 400.0
-    assert specs["operating_press_barg"] is not None
-    assert -1.0 <= specs["operating_press_barg"] <= 100.0
-    assert specs["drawing_ref"] is not None and len(specs["drawing_ref"]) >= 5
+    from server.main import db
+    eq = db.equipment.get(target_tag)
+    assert eq is not None, f"Equipment {target_tag} must exist in live/mock database"
+    assert eq.operating_temp_celsius is not None
+    assert -50.0 <= eq.operating_temp_celsius <= 400.0
+    assert eq.operating_pressure_barg is not None
+    assert -1.0 <= eq.operating_pressure_barg <= 100.0
+    assert eq.markdown_uri is not None and len(eq.markdown_uri) >= 5
+
+
+def test_get_catalog_hierarchy_all_equipment_have_database_conditions():
+    """Verify /api/v1/catalog/hierarchy serves all 54 assets directly from database with valid operating parameters."""
+    response = client.get("/api/v1/catalog/hierarchy")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "SUCCESS"
+    assert data["total_equipment"] == 54
+    assert data["total_instruments"] >= 200
+
+    all_equipment = []
+    for sec in data["sections"]:
+        for node in sec["nodes"]:
+            for eq in node["equipment"]:
+                all_equipment.append(eq)
+
+    assert len(all_equipment) == 54
+    for eq in all_equipment:
+        assert eq["operating_temp_c"] is not None, f"Operating temp must be populated from DB for {eq['tag']}"
+        assert eq["operating_press_barg"] is not None, f"Operating press must be populated from DB for {eq['tag']}"
+        assert eq["drawing_ref"] is not None, f"Drawing ref must be populated from DB for {eq['tag']}"
 
 
 @pytest.mark.parametrize("tag,expected_total,expected_sis", [
