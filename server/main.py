@@ -27,6 +27,7 @@ from app.agent import (
     evaluate_hazop_deviation,
     before_agent_guardrail,
 )
+from security.model_armor import ModelArmorGuardrail
 from app.hazop.agent import HazopStudyAgent
 from app.reasoning_engine_adapter import attach_reasoning_engine_routes
 from server.proxy import AgentPlatformProxy
@@ -47,10 +48,11 @@ app.add_middleware(
 # for Gemini Enterprise Agent Platform runtime deployment (SPEC-20260918-FRONTEND-ONLY-CLOUD-RUN)
 attach_reasoning_engine_routes(app)
 
-# Global DB, HAZOP service, and Frontend Agent Platform Proxy
+# Global DB, HAZOP service, Model Armor Guardrail, and Frontend Agent Platform Proxy
 db = get_database()
 hazop_service = HazopStudyAgent(db)
 agent_proxy = AgentPlatformProxy()
+_model_armor = ModelArmorGuardrail()
 
 
 # ==========================================
@@ -490,56 +492,133 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
     """
     async def event_generator():
         if agent_proxy.is_configured:
-            t0 = time.time()
+            t0 = time.perf_counter()
             # 1. Model Armor inspection before remote proxy
-            t_armor_start = time.time()
-            armor_res = before_agent_guardrail(None)
-            armor_ms = max(0.5, (time.time() - t_armor_start) * 1000.0)
+            t_armor_start = time.perf_counter()
+            armor_res = _model_armor.sanitize_user_prompt(prompt)
+            armor_ms = max(0.5, (time.perf_counter() - t_armor_start) * 1000.0)
+
+            if armor_res.sanitization_result == "BLOCKED":
+                yield f"event: armor_inspection\ndata: {json.dumps({'status': 'BLOCKED', 'inspection_time_ms': round(armor_ms, 2), 'verdict': 'BLOCKED', 'policy': armor_res.policy_template})}\n\n"
+                blocked_msg = (
+                    "⛔ **Security Guardrail Alert:** Your request was intercepted and blocked by **Google Cloud Model Armor** "
+                    f"(Policy: `{armor_res.policy_template}`).\n\n"
+                    "- **Violation:** Adversarial prompt injection or unauthorized system instructions override attempt detected.\n"
+                    "- **Action:** Operation aborted immediately. Zero database queries or agent sub-tasks were executed.\n"
+                    "- **Audit:** Security event logged for compliance and threat analysis."
+                )
+                yield f"event: message_delta\ndata: {json.dumps({'content': blocked_msg, 'text_delta': blocked_msg, 'author': 'ModelArmorGuardrail'})}\n\n"
+                waterfall_payload = {
+                    "total_ms": round(armor_ms, 1),
+                    "phase1_ms": round(armor_ms, 1),
+                    "phase2_ms": 0.0,
+                    "phase3_ms": 0.0,
+                    "phase4_ms": 0.0,
+                    "phase1_pct": 100.0,
+                    "phase2_pct": 0.0,
+                    "phase3_pct": 0.0,
+                    "phase4_pct": 0.0,
+                }
+                yield f"event: telemetry_waterfall\ndata: {json.dumps(waterfall_payload)}\n\n"
+                yield f"event: message_done\ndata: {json.dumps({'status': 'BLOCKED', 'session_id': session_id})}\n\n"
+                return
+
             yield f"event: armor_inspection\ndata: {json.dumps({'status': 'PASSED', 'inspection_time_ms': round(armor_ms, 2), 'verdict': 'ALLOWED'})}\n\n"
 
             # 2. Initial cognitive thought
             yield f"event: thought\ndata: {json.dumps({'thought_chunk': f'Connecting to Gemini Enterprise Agent Platform for: {prompt[:70]}...', 'agent_role': 'OrchestratorAgent', 'timestamp_ms': round(time.time() * 1000)})}\n\n"
 
             has_deltas = False
+            remote_timings = None
+            t_proxy_turn_start = time.perf_counter()
+            t_first_stream_item = None
+            t_tool_call_stream = None
+            measured_tool_ms = 0.0
+            t_synth_stream_start = None
+
             async for item in agent_proxy.stream_query(prompt, session_id):
                 ev_name = item.get("event", "message_delta")
                 # Intercept premature message_done so waterfall and any fallbacks are sent first
                 if ev_name == "message_done":
                     continue
-                if ev_name == "message_delta":
+                if ev_name == "execution_timings":
+                    remote_timings = item.get("data", {})
+                    continue
+
+                now_ts = time.perf_counter()
+                if t_first_stream_item is None and ev_name in ("thought", "tool_invoked", "tool_start", "message_delta"):
+                    t_first_stream_item = now_ts
+                if ev_name in ("tool_invoked", "tool_start"):
+                    t_tool_call_stream = now_ts
+                elif ev_name == "tool_result":
+                    if t_tool_call_stream:
+                        measured_tool_ms += (now_ts - t_tool_call_stream) * 1000.0
+                        t_tool_call_stream = None
+                    t_synth_stream_start = now_ts
+                elif ev_name == "message_delta":
                     has_deltas = True
+                    if t_synth_stream_start is None:
+                        t_synth_stream_start = now_ts
+
                 data_json = json.dumps(item.get("data", {}))
                 yield f"event: {ev_name}\ndata: {data_json}\n\n"
 
             # 3. Fallback delta if remote backend produced no text chunks
             if not has_deltas:
                 tag = _extract_tag_from_prompt(prompt)
+                t_fb_tool_start = time.perf_counter()
                 if "hazop" in prompt.lower() or "deviation" in prompt.lower():
                     yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': 'evaluate_hazop_deviation', 'tool_args': {'target_tag': tag}, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
-                    yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'evaluate_hazop_deviation', 'latency_ms': 120.0, 'result_preview': f'HAZOP risk evaluation for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
+                    fb_tool_dur = max(5.0, (time.perf_counter() - t_fb_tool_start) * 1000.0)
+                    measured_tool_ms += fb_tool_dur
+                    yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'evaluate_hazop_deviation', 'latency_ms': round(fb_tool_dur, 1), 'result_preview': f'HAZOP risk evaluation for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 elif "instrument" in prompt.lower() or "how many" in prompt.lower() or "inventory" in prompt.lower():
                     yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'tool_args': {'target_tag': tag, 'mode': 'instruments'}, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
-                    yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'latency_ms': 88.0, 'result_preview': f'Retrieved full instrument inventory for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
+                    fb_tool_dur = max(5.0, (time.perf_counter() - t_fb_tool_start) * 1000.0)
+                    measured_tool_ms += fb_tool_dur
+                    yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'latency_ms': round(fb_tool_dur, 1), 'result_preview': f'Retrieved full instrument inventory for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 else:
                     yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'tool_args': {'target_tag': tag, 'mode': 'interlocks'}, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
-                    yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'latency_ms': 85.0, 'result_preview': f'Verified active interlocks for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
+                    fb_tool_dur = max(5.0, (time.perf_counter() - t_fb_tool_start) * 1000.0)
+                    measured_tool_ms += fb_tool_dur
+                    yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'latency_ms': round(fb_tool_dur, 1), 'result_preview': f'Verified active interlocks for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
 
                 fallback_msg = _generate_rich_fallback_response(prompt)
                 yield f"event: message_delta\ndata: {json.dumps({'content': fallback_msg, 'text_delta': fallback_msg, 'author': 'OrchestratorAgent'})}\n\n"
 
-            # 4. Always emit telemetry waterfall for remote proxy execution BEFORE message_done
-            total_elapsed = max(25.0, (time.time() - t0) * 1000.0)
-            reasoning_pool = max(20.0, total_elapsed - armor_ms)
+            # 4. Dynamic telemetry waterfall calculation based on real wall-clock performance
+            t_stream_done = time.perf_counter()
+            total_elapsed = max(10.0, (t_stream_done - t0) * 1000.0)
             p1 = armor_ms
-            p2 = min(120.0, reasoning_pool * 0.25)
-            p3 = min(200.0, reasoning_pool * 0.35)
-            p4 = max(15.0, total_elapsed - p1 - p2 - p3)
+
+            if remote_timings and "phase2_ms" in remote_timings:
+                p2 = remote_timings.get("phase2_ms", 10.0)
+                p3 = remote_timings.get("phase3_ms", 0.0)
+                p4 = remote_timings.get("phase4_ms", 10.0)
+            else:
+                if t_first_stream_item is None:
+                    t_first_stream_item = t_stream_done
+                if t_synth_stream_start is None:
+                    t_synth_stream_start = t_first_stream_item
+                p2 = max(5.0, (t_first_stream_item - t_proxy_turn_start) * 1000.0)
+                p3 = measured_tool_ms
+                p4 = max(5.0, (t_stream_done - t_synth_stream_start) * 1000.0)
+
+            # Reconcile phase breakdown to match total_elapsed
+            sub_total = p1 + p2 + p3 + p4
+            if sub_total > 0:
+                scale = total_elapsed / sub_total
+                p1 = round(p1 * scale, 1)
+                p2 = round(p2 * scale, 1)
+                p3 = round(p3 * scale, 1)
+                p4 = round(max(0.1, total_elapsed - p1 - p2 - p3), 1)
+
             waterfall_payload = {
                 "total_ms": round(total_elapsed, 1),
-                "phase1_ms": round(p1, 1),
-                "phase2_ms": round(p2, 1),
-                "phase3_ms": round(p3, 1),
-                "phase4_ms": round(p4, 1),
+                "phase1_ms": p1,
+                "phase2_ms": p2,
+                "phase3_ms": p3,
+                "phase4_ms": p4,
                 "phase1_pct": round((p1 / total_elapsed) * 100, 1),
                 "phase2_pct": round((p2 / total_elapsed) * 100, 1),
                 "phase3_pct": round((p3 / total_elapsed) * 100, 1),
@@ -548,20 +627,46 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
             yield f"event: telemetry_waterfall\ndata: {json.dumps(waterfall_payload)}\n\n"
             yield f"event: message_done\ndata: {json.dumps({'status': 'COMPLETED', 'session_id': session_id})}\n\n"
         else:
-            t0 = time.time()
+            t0 = time.perf_counter()
             # 1. Model Armor inspection
-            t_armor_start = time.time()
-            armor_res = before_agent_guardrail(None)
-            armor_ms = max(0.5, (time.time() - t_armor_start) * 1000.0)
+            t_armor_start = time.perf_counter()
+            armor_res = _model_armor.sanitize_user_prompt(prompt)
+            armor_ms = max(0.5, (time.perf_counter() - t_armor_start) * 1000.0)
+
+            if armor_res.sanitization_result == "BLOCKED":
+                yield f"event: armor_inspection\ndata: {json.dumps({'status': 'BLOCKED', 'inspection_time_ms': round(armor_ms, 2), 'verdict': 'BLOCKED', 'policy': armor_res.policy_template})}\n\n"
+                blocked_msg = (
+                    "⛔ **Security Guardrail Alert:** Your request was intercepted and blocked by **Google Cloud Model Armor** "
+                    f"(Policy: `{armor_res.policy_template}`).\n\n"
+                    "- **Violation:** Adversarial prompt injection or unauthorized system instructions override attempt detected.\n"
+                    "- **Action:** Operation aborted immediately. Zero database queries or agent sub-tasks were executed.\n"
+                    "- **Audit:** Security event logged for compliance and threat analysis."
+                )
+                yield f"event: message_delta\ndata: {json.dumps({'content': blocked_msg, 'text_delta': blocked_msg, 'author': 'ModelArmorGuardrail'})}\n\n"
+                waterfall_payload = {
+                    "total_ms": round(armor_ms, 1),
+                    "phase1_ms": round(armor_ms, 1),
+                    "phase2_ms": 0.0,
+                    "phase3_ms": 0.0,
+                    "phase4_ms": 0.0,
+                    "phase1_pct": 100.0,
+                    "phase2_pct": 0.0,
+                    "phase3_pct": 0.0,
+                    "phase4_pct": 0.0,
+                }
+                yield f"event: telemetry_waterfall\ndata: {json.dumps(waterfall_payload)}\n\n"
+                yield f"event: message_done\ndata: {json.dumps({'status': 'BLOCKED', 'session_id': session_id})}\n\n"
+                return
+
             yield f"event: armor_inspection\ndata: {json.dumps({'status': 'PASSED', 'inspection_time_ms': round(armor_ms, 2), 'verdict': 'ALLOWED'})}\n\n"
 
             # 2. Cognitive reasoning thought
-            t_thought_start = time.time()
-            yield f"event: thought\ndata: {json.dumps({'thought_chunk': f'Analyzing process safety inquiry for: {prompt[:80]}...', 'agent_role': 'OrchestratorAgent', 'timestamp_ms': round(t_thought_start * 1000)})}\n\n"
-            thought_ms = max(10.0, (time.time() - t_thought_start) * 1000.0)
+            t_thought_start = time.perf_counter()
+            yield f"event: thought\ndata: {json.dumps({'thought_chunk': f'Analyzing process safety inquiry for: {prompt[:80]}...', 'agent_role': 'OrchestratorAgent', 'timestamp_ms': round(time.time() * 1000)})}\n\n"
+            thought_ms = max(5.0, (time.perf_counter() - t_thought_start) * 1000.0)
 
             # 3. Direct Tool Execution with exact latency
-            t_tool_start = time.time()
+            t_tool_start = time.perf_counter()
             p_lower = prompt.lower()
             tag = "E-2303"
             for t in ["E-2303", "V-2301", "V-2302", "D-2304", "P-2301A/B", "D-2306", "P-2301A"]:
@@ -592,7 +697,7 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
                 yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': tool_name, 'tool_args': args, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 tool_output_raw = evaluate_hazop_deviation(node_id="CDN-N02", parameter=param, deviation=dev, cause=cause)
                 tool_data = json.loads(tool_output_raw)
-                tool_ms = max(5.0, (time.time() - t_tool_start) * 1000.0)
+                tool_ms = max(5.0, (time.perf_counter() - t_tool_start) * 1000.0)
                 first_r = tool_data.get("first_risk", {}).get("risk_rating", "Extreme")
                 second_r = tool_data.get("second_risk", {}).get("mitigated_risk_rating", "High")
                 preview_msg = f"Param: {param} | Initial: {first_r}, Mitigated: {second_r}"
@@ -613,7 +718,7 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
                 yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': tool_name, 'tool_args': args, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 tool_output_raw = query_knowledge_catalog_provenance(tag)
                 prov = json.loads(tool_output_raw)
-                tool_ms = max(5.0, (time.time() - t_tool_start) * 1000.0)
+                tool_ms = max(5.0, (time.perf_counter() - t_tool_start) * 1000.0)
                 draw_no = prov.get("as_built_drawing", "14780-8120-20-23-0002")
                 draw_rev = prov.get("as_built_revision", "Rev Z1")
                 preview_draw = f"Drawing: {draw_no}, Rev: {draw_rev}"
@@ -632,7 +737,7 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
                 yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': tool_name, 'tool_args': args, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 raw_kw = spanner_keyword_search("pump", limit=10)
                 matches = json.loads(raw_kw)
-                tool_ms = max(5.0, (time.time() - t_tool_start) * 1000.0)
+                tool_ms = max(5.0, (time.perf_counter() - t_tool_start) * 1000.0)
                 matched_tags = [m.get("tag") for m in matches if isinstance(m, dict)]
                 yield f"event: tool_result\ndata: {json.dumps({'tool_name': tool_name, 'latency_ms': round(tool_ms, 1), 'result_preview': f'Found {len(matched_tags)} pump candidates', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 content_text = (
@@ -645,7 +750,7 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
                 yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': tool_name, 'tool_args': args, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 raw_instruments = spanner_graph_query(tag, mode="instruments")
                 inst_data = json.loads(raw_instruments) if isinstance(raw_instruments, str) else raw_instruments
-                tool_ms = max(5.0, (time.time() - t_tool_start) * 1000.0)
+                tool_ms = max(5.0, (time.perf_counter() - t_tool_start) * 1000.0)
                 total_count = inst_data.get("total_instruments_count", len(inst_data.get("instruments", [])))
                 sis_count = inst_data.get("sis_interlocks_count", 0)
                 yield f"event: tool_result\ndata: {json.dumps({'tool_name': tool_name, 'latency_ms': round(tool_ms, 1), 'result_preview': f'Retrieved {total_count} instruments ({sis_count} SIS trips)', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
@@ -656,27 +761,42 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
                 yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': tool_name, 'tool_args': args, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 raw_interlocks = spanner_graph_query(tag, mode="interlocks")
                 interlocks = json.loads(raw_interlocks)
-                tool_ms = max(5.0, (time.time() - t_tool_start) * 1000.0)
+                tool_ms = max(5.0, (time.perf_counter() - t_tool_start) * 1000.0)
                 yield f"event: tool_result\ndata: {json.dumps({'tool_name': tool_name, 'latency_ms': round(tool_ms, 1), 'result_preview': f'Retrieved {len(interlocks)} active interlock trips', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 content_text = f"### Active Safety Instrumented Systems (SIS) Protections for **{tag}**\n\n"
                 for inst in interlocks:
                     content_text += f"- **Instrument:** `{inst.get('instrument_tag')}` ({inst.get('type')})\n  - **Voting Logic:** `{inst.get('voting_logic', '1oo2')}` | **SIL:** `{inst.get('sil_rating', 'SIL 1')}`\n  - **Interlock Action:** {inst.get('interlock_action', 'Actuates shutdown')}\n"
 
-
             # 4. Message delta and telemetry waterfall
+            t_synth_start = time.perf_counter()
             yield f"event: message_delta\ndata: {json.dumps({'content': content_text, 'text_delta': content_text})}\n\n"
-            total_elapsed = (time.time() - t0) * 1000.0
-            synth_ms = max(20.0, total_elapsed - armor_ms - thought_ms - tool_ms)
+            synth_ms = max(5.0, (time.perf_counter() - t_synth_start) * 1000.0)
+
+            t_done = time.perf_counter()
+            total_elapsed = max(10.0, (t_done - t0) * 1000.0)
+            p1 = armor_ms
+            p2 = thought_ms
+            p3 = tool_ms
+            p4 = synth_ms
+
+            sub_total = p1 + p2 + p3 + p4
+            if sub_total > 0:
+                scale = total_elapsed / sub_total
+                p1 = round(p1 * scale, 1)
+                p2 = round(p2 * scale, 1)
+                p3 = round(p3 * scale, 1)
+                p4 = round(max(0.1, total_elapsed - p1 - p2 - p3), 1)
+
             waterfall_payload = {
                 "total_ms": round(total_elapsed, 1),
-                "phase1_ms": round(armor_ms, 1),
-                "phase2_ms": round(thought_ms, 1),
-                "phase3_ms": round(tool_ms, 1),
-                "phase4_ms": round(synth_ms, 1),
-                "phase1_pct": round((armor_ms / total_elapsed) * 100, 1),
-                "phase2_pct": round((thought_ms / total_elapsed) * 100, 1),
-                "phase3_pct": round((tool_ms / total_elapsed) * 100, 1),
-                "phase4_pct": round((synth_ms / total_elapsed) * 100, 1),
+                "phase1_ms": p1,
+                "phase2_ms": p2,
+                "phase3_ms": p3,
+                "phase4_ms": p4,
+                "phase1_pct": round((p1 / total_elapsed) * 100, 1),
+                "phase2_pct": round((p2 / total_elapsed) * 100, 1),
+                "phase3_pct": round((p3 / total_elapsed) * 100, 1),
+                "phase4_pct": round((p4 / total_elapsed) * 100, 1),
             }
             yield f"event: telemetry_waterfall\ndata: {json.dumps(waterfall_payload)}\n\n"
             yield f"event: message_done\ndata: {json.dumps({'status': 'COMPLETED', 'session_id': session_id})}\n\n"

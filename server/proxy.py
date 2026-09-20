@@ -23,6 +23,7 @@ import json
 import logging
 import os
 import re
+import time
 from typing import AsyncGenerator, Dict, Any, Optional
 import httpx
 import google.auth
@@ -99,6 +100,12 @@ class AgentPlatformProxy:
             },
         }
 
+        t_proxy_start = time.perf_counter()
+        t_tool_call_start = None
+        total_tool_duration_ms = 0.0
+        first_cognitive_event_time = None
+        t_synthesis_start = None
+
         async with httpx.AsyncClient(timeout=120.0) as client:
             async with client.stream("POST", url, headers=headers, json=payload) as response:
                 if response.status_code != 200:
@@ -134,6 +141,10 @@ class AgentPlatformProxy:
                         logger.warning(f"Failed to parse JSON from stream line: {raw[:100]}")
                         continue
 
+                    now_ts = time.perf_counter()
+                    if first_cognitive_event_time is None:
+                        first_cognitive_event_time = now_ts
+
                     # ADK native event format
                     if "content" in event_data or "author" in event_data:
                         author = event_data.get("author", "OrchestratorAgent")
@@ -151,10 +162,12 @@ class AgentPlatformProxy:
                                                 "data": {
                                                     "thought_chunk": text,
                                                     "agent_role": author,
-                                                    "timestamp_ms": 0,
+                                                    "timestamp_ms": round(now_ts * 1000),
                                                 },
                                             }
                                         else:
+                                            if t_synthesis_start is None:
+                                                t_synthesis_start = now_ts
                                             yield {
                                                 "event": "message_delta",
                                                 "data": {
@@ -164,6 +177,7 @@ class AgentPlatformProxy:
                                                 },
                                             }
                                     elif "function_call" in part:
+                                        t_tool_call_start = time.perf_counter()
                                         fc = part["function_call"]
                                         tool_name = fc.get("name", "tool")
                                         args = fc.get("args", {})
@@ -187,6 +201,15 @@ class AgentPlatformProxy:
                                             },
                                         }
                                     elif "function_response" in part:
+                                        t_resp_now = time.perf_counter()
+                                        if t_tool_call_start is not None:
+                                            tool_dur = max(1.0, (t_resp_now - t_tool_call_start) * 1000.0)
+                                            total_tool_duration_ms += tool_dur
+                                            t_tool_call_start = None
+                                        else:
+                                            tool_dur = 25.0
+                                        t_synthesis_start = t_resp_now
+
                                         fr = part["function_response"]
                                         tool_name = fr.get("name", "tool")
                                         resp = fr.get("response", {})
@@ -196,12 +219,15 @@ class AgentPlatformProxy:
                                             "data": {
                                                 "tool_name": tool_name,
                                                 "tool": tool_name,
+                                                "latency_ms": round(tool_dur, 1),
                                                 "result_preview": resp_str[:300] if resp_str else "Success",
                                                 "response": resp,
                                                 "invoking_subagent": author,
                                             },
                                         }
                         elif isinstance(content, str) and content.strip():
+                            if t_synthesis_start is None:
+                                t_synthesis_start = now_ts
                             yield {
                                 "event": "message_delta",
                                 "data": {
@@ -211,6 +237,8 @@ class AgentPlatformProxy:
                                 },
                             }
                     elif "candidates" in event_data:
+                        if t_synthesis_start is None:
+                            t_synthesis_start = now_ts
                         for cand in event_data.get("candidates", []):
                             cand_content = cand.get("content", {})
                             if isinstance(cand_content, dict):
@@ -229,15 +257,29 @@ class AgentPlatformProxy:
                         ev = event_data["event"]
                         d = event_data["data"]
                         if ev in ("tool_invoked", "tool_start"):
+                            t_tool_call_start = time.perf_counter()
                             if "tool_name" not in d and "tool" in d:
                                 d["tool_name"] = d["tool"]
                             if "invoking_subagent" not in d:
                                 d["invoking_subagent"] = "OrchestratorAgent"
+                        elif ev == "tool_result":
+                            t_resp_now = time.perf_counter()
+                            if t_tool_call_start is not None:
+                                tool_dur = max(1.0, (t_resp_now - t_tool_call_start) * 1000.0)
+                                total_tool_duration_ms += tool_dur
+                                t_tool_call_start = None
+                                if "latency_ms" not in d:
+                                    d["latency_ms"] = round(tool_dur, 1)
+                            t_synthesis_start = t_resp_now
                         elif ev == "message_delta":
+                            if t_synthesis_start is None:
+                                t_synthesis_start = now_ts
                             if "text_delta" not in d and "content" in d:
                                 d["text_delta"] = d["content"]
                         yield event_data
                     elif "text" in event_data:
+                        if t_synthesis_start is None:
+                            t_synthesis_start = now_ts
                         yield {
                             "event": "message_delta",
                             "data": {"content": event_data["text"], "text_delta": event_data["text"], "author": "OrchestratorAgent"},
@@ -247,6 +289,25 @@ class AgentPlatformProxy:
                             "event": "message_delta",
                             "data": {"content": f"⚠️ **Error:** {event_data['error']}", "text_delta": f"⚠️ **Error:** {event_data['error']}"},
                         }
+
+                t_stream_end = time.perf_counter()
+                if first_cognitive_event_time is None:
+                    first_cognitive_event_time = t_stream_end
+                if t_synthesis_start is None:
+                    t_synthesis_start = first_cognitive_event_time
+
+                p2_ms = max(5.0, (first_cognitive_event_time - t_proxy_start) * 1000.0)
+                p3_ms = total_tool_duration_ms
+                p4_ms = max(5.0, (t_stream_end - t_synthesis_start) * 1000.0)
+
+                yield {
+                    "event": "execution_timings",
+                    "data": {
+                        "phase2_ms": round(p2_ms, 1),
+                        "phase3_ms": round(p3_ms, 1),
+                        "phase4_ms": round(p4_ms, 1),
+                    },
+                }
 
                 yield {"event": "message_done", "data": {"status": "COMPLETED"}}
 
