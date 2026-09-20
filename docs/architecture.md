@@ -2,7 +2,8 @@
 
 **Project:** Refinery Phenol Process Safety Expert & Enterprise Technical Cockpit  
 **Specification Reference:** [`specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md`](../specs/features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md) & [`specs/features/SPEC-20260918-JOURNEY-1-EXPLORER-REDESIGN.md`](../specs/features/SPEC-20260918-JOURNEY-1-EXPLORER-REDESIGN.md)  
-**Companion Interactive HTML Diagram:** [**`docs/architecture.html`**](./architecture.html)
+**Companion Interactive HTML Diagram:** [**`docs/architecture.html`**](./architecture.html)  
+**Detailed Query & Tools Deep Dive:** [**`docs/agent-query-tools-and-data-architecture.md`**](./agent-query-tools-and-data-architecture.md) ([Interactive HTML](./agent-query-tools-and-data-architecture.html))
 
 ---
 
