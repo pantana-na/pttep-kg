@@ -107,14 +107,47 @@ In response to business user requirements for intuitive plant asset navigation, 
 
 - **Target Environment:** Production (`prod`)
 - **Service Name:** `phenol-process-safety-prod`
-- **Revision:** `phenol-process-safety-prod-00012-vr7`
+- **Revision:** `phenol-process-safety-prod-00014-df9` (Cloud Build ID: `718ccf3c-6eab-447c-96d2-5f6ecaec51e7`, Commit: `81731e5`)
 - **Region:** `asia-southeast1`
 - **Live URL:** `https://phenol-process-safety-prod-114618371568.asia-southeast1.run.app`
 - **Backend Agent Engine:** `projects/114618371568/locations/asia-southeast1/reasoningEngines/5733267043596107776`
 - **Live Production Verification:**
   - `GET /`: Serves complete Tri-Pane Mission Control Cockpit (HTML5 + Tailwind CSS + Spanner Canvas).
+  - `GET /api/v1/health` & `/api/v1/adk/info`: 200 OK — Reports frontend proxy connected to backend Reasoning Engine.
   - `GET /api/v1/catalog/hierarchy`: 200 OK — 3 sections, 6 nodes, 54 equipment (100% non-null temp & pressure), 256 instruments.
   - `POST /api/v1/session/reset`: 200 OK — Generates fresh session token.
-  - `GET /api/v1/adk/info`: 200 OK — Reports frontend proxy connected to backend Reasoning Engine.
-  - `GET /api/v1/agent/stream`: 200 OK — Live streaming from Vertex AI Reasoning Engine yields complete multi-page safety dossiers without dead-end fallback.
+  - `GET /api/v1/agent/stream`: 200 OK — Live streaming from Vertex AI Reasoning Engine yields complete multi-page safety dossiers with certified As-Built P&ID drawing citations (`Rev Z1`), 1oo2 SIL 1 voting logic, and SIS trip explanations.
+
+---
+
+## 5. Feature Amendment: Full Instrument Inventory & Compound Tag Awareness (Option 2)
+
+### 5.1 Business Context & Problem Statement
+When exploring equipment assets in the Left Pane (e.g. `E-2303`, `V-2301`, `P-2301A/B`), users observed that the count of mounted instruments shown in the Left Pane (`inst` count, e.g. 41 for `E-2303`, 12 for `V-2301`, 8 for `P-2301A/B`) did not immediately match conversational queries asking *"How many instruments are connected to E-2303?"* because the backend agent's interlock query mode was previously restricted to active automated SIS emergency trip shutoffs (`InstrumentActuations`, e.g. 6 for `E-2303`, 3 for `V-2301`).
+
+Furthermore, dual-asset pump tags such as `P-2301A` and `P-2301B` are cataloged in Cloud Spanner as compound equipment tags (`P-2301A/B`), causing single-letter queries to miss their parent asset.
+
+### 5.2 Architectural Enhancements
+1. **Cloud Spanner Database Layer (`database/spanner_client.py` & `database/mock_spanner.py`):**
+   - Implemented `resolve_equipment_tag_alias(tag, known_tags)`: automatically resolves split tags (`P-2301A`, `P-2301B`, `E-2302A`, etc.) to their canonical compound database tags (`P-2301A/B`, `E-2302A/B`).
+   - Implemented `graph_find_all_instruments(target_equipment_tag)`: executes live Spanner SQL querying table `Instruments` joined with `InstrumentActuations`, returning both total physical instruments mounted on the P&ID and the subset configured with SIS automated trips.
+2. **MCP Spanner Server (`mcp_servers/spanner_mcp.py`):**
+   - Added `mode="instruments"` (and aliases `all`, `all_instruments`) to `spanner_graph_query`, returning total instrument counts, SIS interlocks counts, and full instrument lists.
+3. **ADK Orchestrator Agent (`app/agent.py`):**
+   - Updated system instructions and tool docstrings directing the model to call `mode='instruments'` when users ask for instrument counts or inventories, providing a comprehensive explanation distinguishing total installed instruments from active SIS trips.
+4. **Thin Web Cockpit Server (`server/main.py`):**
+   - In `get_catalog_hierarchy`: added compound tag normalization (`inst_by_eq.get(eq_tag) or inst_by_eq.get(normalize_tag(eq_tag), [])`).
+   - In `_generate_rich_fallback_response`: added structured instrument inventory tables detailing transmitter types, measurement variables, and trip actions.
+5. **Frontend Mission Control UI (`server/static/index.html`):**
+   - Added `🎛️ Field Instruments` quick action button in the action dock.
+   - Added `actionQueryInstruments()` triggering `How many instruments are connected to {tag}?`.
+
+### 5.3 Test Verification & Production Invariants
+- **PyTest Suites:** 53 / 53 passed (100% green).
+  - Unit tests: `test_tool_spanner_graph_query_instruments`, `test_tool_spanner_graph_query_compound_tag_aliasing` in `tests/test_adk_agents.py`.
+  - Property-based tests: `test_pbt_spanner_graph_query_instrument_inventory_invariants` in `tests/test_adk_agents.py`.
+  - Frontend proxy tests: `test_stream_instrument_inventory_inquiry` across `E-2303` (41/6), `V-2301` (12/3), `D-2304` (4/1), `P-2301A` (8/0) in `tests/test_frontend_proxy.py`.
+  - Invariant test: `test_pbt_instrument_count_alignment_invariant` verifying hierarchy count matches tool query count.
+- **Production Probes:** Live probes against `https://phenol-process-safety-prod-114618371568.asia-southeast1.run.app` verify 100% healthy status, complete 54-equipment hierarchy, and live cognitive streaming from the Vertex AI Reasoning Engine.
+
 
