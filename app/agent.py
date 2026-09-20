@@ -181,6 +181,7 @@ def read_gcs_wiki_document(target_tag_or_path: str) -> str:
           Example: "What are the safe operating limits for the preflash feed section?" -> read_gcs_wiki_document(target_tag_or_path="E-2303")
 
     When NOT to use:
+        - DO NOT use if the user asks how many instruments are connected, what instruments are installed, or asks for instrument counts/inventory (ALWAYS use spanner_graph_query with mode='instruments').
         - DO NOT use if the user only asks for interlock tags or voting logic (use spanner_graph_query).
         - DO NOT use if the user only asks for P&ID drawing numbers or revision status (use query_knowledge_catalog_provenance).
 
@@ -408,6 +409,7 @@ ORCHESTRATOR_INSTRUCTION = (
     "     * 'What is the certified As-Built drawing and revision for V-2301?' -> query_knowledge_catalog_provenance(target_tag='V-2301')\n\n"
     "3. `read_gcs_wiki_document`:\n"
     "   - SITUATION: Inquiries requesting complete operating philosophies, operational narratives, safe operating limits, or chemical kinetics from Google Cloud Storage wiki lake.\n"
+    "   - DO NOT USE: When the user asks how many instruments are connected, what instruments are installed/mounted on an asset, or asks for instrument inventory/counts (ALWAYS use `spanner_graph_query` with `mode='instruments'`).\n"
     "   - EXAMPLES:\n"
     "     * 'Read the full operating procedure for E-2303 from GCS wiki' -> read_gcs_wiki_document(target_tag_or_path='E-2303')\n"
     "     * 'What is the heating philosophy and runaway kinetics for preflash feed?' -> read_gcs_wiki_document(target_tag_or_path='E-2303')\n\n"
