@@ -1,7 +1,7 @@
 ---
-name: Preflash Column Feed-Heating / Steam-Condensate Circuit
+name: Preflash Column & Vaporizer Section
 node_id: CDN-N02
-markup_label: "Node 23-02 (engineer P&ID markup)"
+markup_label: "Node CDN-N02 (engineer P&ID markup)"
 unit: CDN
 pid_sheet: "14780-8120-25-23-0005, 14780-8120-25-23-0005A"
 pid_marked_up: "Node 23-02.pdf"
@@ -12,10 +12,10 @@ last_updated: 2026-08-31
 status: COMPLETE — Closed-out & certified by engineer; ready for interactive deviation review
 ---
 
-# HAZOP Node CDN-N02 — Preflash Column Feed-Heating / Steam-Condensate Circuit
+# HAZOP Node CDN-N02 — Preflash Column & Vaporizer Section
 
 ## Design Intent
-Heat oxidate feed to Preflash Column target temp: recover heat in E-2302A/B, trim with SC1.5 steam in E-2303, deliver to V-2301; collect/return E-2303 condensate.
+Safe operation of Preflash Column & Vaporizer Section (CDN-N02)
 
 ## Node Boundaries
 - **Inlet Boundary:** Oxidate feed to E-2302A/B tube side (from feed filters X-2302A/B / Node 23-01) + hot OXI recirculate to E-2302A/B shell (from OXI Oxidizer No.2 pumps) + SC1.5 steam supply to E-2303 tube (via UXV-0501/0502)

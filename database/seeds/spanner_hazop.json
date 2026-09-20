@@ -1,0 +1,878 @@
+{
+  "deviations": [
+    {
+      "deviation_id": "DEV-CDN-N02-01",
+      "node_id": "CDN-N02",
+      "parameter": "Flow",
+      "guideword": "No / Low Flow",
+      "deviation_label": "Flow \u2014 No / Low Flow",
+      "sequence_number": 1
+    },
+    {
+      "deviation_id": "DEV-CDN-N02-02",
+      "node_id": "CDN-N02",
+      "parameter": "Flow",
+      "guideword": "More Flow",
+      "deviation_label": "Flow \u2014 More Flow",
+      "sequence_number": 2
+    },
+    {
+      "deviation_id": "DEV-CDN-N02-03",
+      "node_id": "CDN-N02",
+      "parameter": "Temperature",
+      "guideword": "High Temperature",
+      "deviation_label": "Temperature \u2014 High Temperature",
+      "sequence_number": 3
+    },
+    {
+      "deviation_id": "DEV-CDN-N02-04",
+      "node_id": "CDN-N02",
+      "parameter": "Pressure",
+      "guideword": "High Pressure",
+      "deviation_label": "Pressure \u2014 High Pressure",
+      "sequence_number": 4
+    },
+    {
+      "deviation_id": "DEV-CDN-N02-05",
+      "node_id": "CDN-N02",
+      "parameter": "Level",
+      "guideword": "Low Level",
+      "deviation_label": "Level \u2014 Low Level",
+      "sequence_number": 5
+    },
+    {
+      "deviation_id": "DEV-CDN-N02-06",
+      "node_id": "CDN-N02",
+      "parameter": "Composition",
+      "guideword": "Tube Leak",
+      "deviation_label": "Composition \u2014 Tube Leak",
+      "sequence_number": 6
+    },
+    {
+      "deviation_id": "DEV-CDN-N03-01",
+      "node_id": "CDN-N03",
+      "parameter": "Flow",
+      "guideword": "No / Low Flow",
+      "deviation_label": "Flow \u2014 No / Low Flow",
+      "sequence_number": 1
+    },
+    {
+      "deviation_id": "DEV-CDN-N03-02",
+      "node_id": "CDN-N03",
+      "parameter": "Temperature",
+      "guideword": "High Temperature",
+      "deviation_label": "Temperature \u2014 High Temperature",
+      "sequence_number": 2
+    },
+    {
+      "deviation_id": "DEV-CDN-N03-03",
+      "node_id": "CDN-N03",
+      "parameter": "Level",
+      "guideword": "Low Level",
+      "deviation_label": "Level \u2014 Low Level",
+      "sequence_number": 3
+    },
+    {
+      "deviation_id": "DEV-CDN-N03-04",
+      "node_id": "CDN-N03",
+      "parameter": "Level",
+      "guideword": "High Level",
+      "deviation_label": "Level \u2014 High Level",
+      "sequence_number": 4
+    },
+    {
+      "deviation_id": "DEV-CDN-N03-05",
+      "node_id": "CDN-N03",
+      "parameter": "Pressure",
+      "guideword": "High Pressure",
+      "deviation_label": "Pressure \u2014 High Pressure",
+      "sequence_number": 5
+    },
+    {
+      "deviation_id": "DEV-CDN-N03-06",
+      "node_id": "CDN-N03",
+      "parameter": "Flow",
+      "guideword": "Reverse Flow",
+      "deviation_label": "Flow \u2014 Reverse Flow",
+      "sequence_number": 6
+    },
+    {
+      "deviation_id": "DEV-CDN-N01-01",
+      "node_id": "CDN-N01",
+      "parameter": "Level",
+      "guideword": "High Level",
+      "deviation_label": "Level \u2014 High Level",
+      "sequence_number": 1
+    },
+    {
+      "deviation_id": "DEV-CDN-N01-02",
+      "node_id": "CDN-N01",
+      "parameter": "Flow",
+      "guideword": "No / Low Flow",
+      "deviation_label": "Flow \u2014 No / Low Flow",
+      "sequence_number": 2
+    },
+    {
+      "deviation_id": "DEV-CDN-N04-01",
+      "node_id": "CDN-N04",
+      "parameter": "Pressure",
+      "guideword": "High Pressure",
+      "deviation_label": "Pressure \u2014 High Pressure",
+      "sequence_number": 1
+    },
+    {
+      "deviation_id": "DEV-OXI-N01-01",
+      "node_id": "OXI-N01",
+      "parameter": "Temperature",
+      "guideword": "High Temperature",
+      "deviation_label": "Temperature \u2014 High Temperature",
+      "sequence_number": 1
+    },
+    {
+      "deviation_id": "DEV-OXI-N01-02",
+      "node_id": "OXI-N01",
+      "parameter": "Flow",
+      "guideword": "More Flow",
+      "deviation_label": "Flow \u2014 More Air Flow",
+      "sequence_number": 2
+    },
+    {
+      "deviation_id": "DEV-ALKY-N01-01",
+      "node_id": "ALKY-N01",
+      "parameter": "Pressure",
+      "guideword": "High Pressure",
+      "deviation_label": "Pressure \u2014 High Pressure",
+      "sequence_number": 1
+    }
+  ],
+  "causes": [
+    {
+      "cause_id": "CAU-CDN-N02-01",
+      "deviation_id": "DEV-CDN-N02-01",
+      "equipment_tag": "E-2303",
+      "description": "FCV-0501 fails closed on oxidate feed to E-2303 steam heater while SC1.5 heating continues"
+    },
+    {
+      "cause_id": "CAU-CDN-N02-02",
+      "deviation_id": "DEV-CDN-N02-02",
+      "equipment_tag": "V-2301",
+      "description": "FV-2302 control valve fails open on oxidate feed to Preflash Column V-2301"
+    },
+    {
+      "cause_id": "CAU-CDN-N02-03",
+      "deviation_id": "DEV-CDN-N02-03",
+      "equipment_tag": "E-2303",
+      "description": "SC1.5 steam control valve TV-0501 fails open to E-2303 vaporizer"
+    },
+    {
+      "cause_id": "CAU-CDN-N02-04",
+      "deviation_id": "DEV-CDN-N02-04",
+      "equipment_tag": "E-2303",
+      "description": "Isolation valve closed downstream of E-2303 while steam heating applied"
+    },
+    {
+      "cause_id": "CAU-CDN-N02-05",
+      "deviation_id": "DEV-CDN-N02-05",
+      "equipment_tag": "D-2308",
+      "description": "Condensate collection vessel D-2308 level control LV-2308 fails open"
+    },
+    {
+      "cause_id": "CAU-CDN-N02-06",
+      "deviation_id": "DEV-CDN-N02-06",
+      "equipment_tag": "E-2303",
+      "description": "Internal tube rupture or erosion leak in E-2303 steam heater"
+    },
+    {
+      "cause_id": "CAU-CDN-N03-01",
+      "deviation_id": "DEV-CDN-N03-01",
+      "equipment_tag": "P-2301A/B",
+      "description": "P-2301A/B pump trip on V-2302 bottoms suction while E-2304 vaporizer heating active"
+    },
+    {
+      "cause_id": "CAU-CDN-N03-02",
+      "deviation_id": "DEV-CDN-N03-02",
+      "equipment_tag": "E-2304",
+      "description": "SC3 steam pressure regulator valve fails open to E-2304 vaporizer"
+    },
+    {
+      "cause_id": "CAU-CDN-N03-03",
+      "deviation_id": "DEV-CDN-N03-03",
+      "equipment_tag": "V-2302",
+      "description": "Flash Column V-2302 level control valve LV-0801 fails open to cleavage"
+    },
+    {
+      "cause_id": "CAU-CDN-N03-04",
+      "deviation_id": "DEV-CDN-N03-04",
+      "equipment_tag": "V-2302",
+      "description": "Cleavage feed pump P-2301A/B trips while feed to V-2302 continues"
+    },
+    {
+      "cause_id": "CAU-CDN-N03-05",
+      "deviation_id": "DEV-CDN-N03-05",
+      "equipment_tag": "E-2304",
+      "description": "Block-isolation of E-2304 tube side while steam heating remains active"
+    },
+    {
+      "cause_id": "CAU-CDN-N03-06",
+      "deviation_id": "DEV-CDN-N03-06",
+      "equipment_tag": "P-2301A/B",
+      "description": "Check valve failure on P-2301 discharge allowing acid backflow from Decomposer D-2304"
+    },
+    {
+      "cause_id": "CAU-CDN-N01-01",
+      "deviation_id": "DEV-CDN-N01-01",
+      "equipment_tag": "D-2301",
+      "description": "Feed surge drum D-2301 inlet control valve fails open"
+    },
+    {
+      "cause_id": "CAU-CDN-N01-02",
+      "deviation_id": "DEV-CDN-N01-02",
+      "equipment_tag": "P-2305A/B/C/D/E/F",
+      "description": "Quench bottoms pump P-2305 trip causing loss of quench recirculation"
+    },
+    {
+      "cause_id": "CAU-CDN-N04-01",
+      "deviation_id": "DEV-CDN-N04-01",
+      "equipment_tag": "D-2305",
+      "description": "Relief knockout drum D-2305 outlet valve inadvertently closed during relief event"
+    },
+    {
+      "cause_id": "CAU-OXI-N01-01",
+      "deviation_id": "DEV-OXI-N01-01",
+      "equipment_tag": "OX-2201",
+      "description": "Loss of cooling water to Oxidation Reactor OX-2201 jacket and cooling coils"
+    },
+    {
+      "cause_id": "CAU-OXI-N01-02",
+      "deviation_id": "DEV-OXI-N01-02",
+      "equipment_tag": "OX-2201",
+      "description": "Oxidation process air compressor control valve fails open"
+    },
+    {
+      "cause_id": "CAU-ALKY-N01-01",
+      "deviation_id": "DEV-ALKY-N01-01",
+      "equipment_tag": "D-2121",
+      "description": "Benzene column reboiler steam valve fails wide open"
+    }
+  ],
+  "consequences": [
+    {
+      "consequence_id": "CON-CDN-N02-01",
+      "cause_id": "CAU-CDN-N02-01",
+      "causal_chain": "Stagnant CHP in E-2303 overheats >80\u00b0C -> autocatalytic exothermic decomposition runaway -> rapid gas generation -> overpressure rupture & potential multiple fatalities",
+      "severity_people": 5,
+      "severity_environment": 4,
+      "severity_economic": 5,
+      "severity_social": 4,
+      "initial_likelihood": 4,
+      "initial_risk_rating": "Extreme"
+    },
+    {
+      "consequence_id": "CON-CDN-N02-02",
+      "cause_id": "CAU-CDN-N02-02",
+      "causal_chain": "Preflash column V-2301 flooded -> liquid carryover to overhead condensation system and vacuum knockout drum",
+      "severity_people": 3,
+      "severity_environment": 2,
+      "severity_economic": 4,
+      "severity_social": 3,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "High"
+    },
+    {
+      "consequence_id": "CON-CDN-N02-03",
+      "cause_id": "CAU-CDN-N02-03",
+      "causal_chain": "Tube skin temp exceeds 120\u00b0C -> accelerates local CHP decomposition runaway -> tube rupture & high pressure relief",
+      "severity_people": 4,
+      "severity_environment": 3,
+      "severity_economic": 4,
+      "severity_social": 3,
+      "initial_likelihood": 4,
+      "initial_risk_rating": "High"
+    },
+    {
+      "consequence_id": "CON-CDN-N02-04",
+      "cause_id": "CAU-CDN-N02-04",
+      "causal_chain": "Hydraulic thermal expansion in tube/shell -> mechanical overpressure & flange leak of hazardous CHP hydrocarbons",
+      "severity_people": 4,
+      "severity_environment": 3,
+      "severity_economic": 3,
+      "severity_social": 3,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "Medium"
+    },
+    {
+      "consequence_id": "CON-CDN-N02-05",
+      "cause_id": "CAU-CDN-N02-05",
+      "causal_chain": "Steam blow-through to condensate header -> severe water hammer & piping vibration",
+      "severity_people": 3,
+      "severity_environment": 1,
+      "severity_economic": 3,
+      "severity_social": 2,
+      "initial_likelihood": 4,
+      "initial_risk_rating": "Medium"
+    },
+    {
+      "consequence_id": "CON-CDN-N02-06",
+      "cause_id": "CAU-CDN-N02-06",
+      "causal_chain": "Process CHP leaks into SC1.5 steam condensate system -> contamination of boiler feedwater and unrated utility piping",
+      "severity_people": 4,
+      "severity_environment": 4,
+      "severity_economic": 5,
+      "severity_social": 4,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "High"
+    },
+    {
+      "consequence_id": "CON-CDN-N03-01",
+      "cause_id": "CAU-CDN-N03-01",
+      "causal_chain": "Stagnant ~85 wt% concentrated CHP in E-2304 -> catastrophic thermal decomposition deflagration & DIERS runaway",
+      "severity_people": 5,
+      "severity_environment": 5,
+      "severity_economic": 5,
+      "severity_social": 5,
+      "initial_likelihood": 4,
+      "initial_risk_rating": "Extreme"
+    },
+    {
+      "consequence_id": "CON-CDN-N03-02",
+      "cause_id": "CAU-CDN-N03-02",
+      "causal_chain": "E-2304 shell temp exceeds 75\u00b0C -> accelerated CHP decomposition and foaming in vacuum column",
+      "severity_people": 5,
+      "severity_environment": 4,
+      "severity_economic": 5,
+      "severity_social": 4,
+      "initial_likelihood": 4,
+      "initial_risk_rating": "Extreme"
+    },
+    {
+      "consequence_id": "CON-CDN-N03-03",
+      "cause_id": "CAU-CDN-N03-03",
+      "causal_chain": "V-2302 dryout -> E-2304 tubes lose liquid coverage -> severe skin overheating & polymer fouling",
+      "severity_people": 5,
+      "severity_environment": 4,
+      "severity_economic": 4,
+      "severity_social": 4,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "High"
+    },
+    {
+      "consequence_id": "CON-CDN-N03-04",
+      "cause_id": "CAU-CDN-N03-04",
+      "causal_chain": "V-2302 high level carryover into vacuum overhead condenser system",
+      "severity_people": 4,
+      "severity_environment": 3,
+      "severity_economic": 4,
+      "severity_social": 3,
+      "initial_likelihood": 4,
+      "initial_risk_rating": "High"
+    },
+    {
+      "consequence_id": "CON-CDN-N03-05",
+      "cause_id": "CAU-CDN-N03-05",
+      "causal_chain": "Trapped CHP decomposition thermal runaway -> severe overpressurization & rupture of exchanger shell/tubes",
+      "severity_people": 5,
+      "severity_environment": 4,
+      "severity_economic": 5,
+      "severity_social": 4,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "Extreme"
+    },
+    {
+      "consequence_id": "CON-CDN-N03-06",
+      "cause_id": "CAU-CDN-N03-06",
+      "causal_chain": "Acid backflow catalyzes immediate uncontrolled CHP decomposition in V-2302 sump",
+      "severity_people": 5,
+      "severity_environment": 5,
+      "severity_economic": 5,
+      "severity_social": 5,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "Extreme"
+    },
+    {
+      "consequence_id": "CON-CDN-N01-01",
+      "cause_id": "CAU-CDN-N01-01",
+      "causal_chain": "Liquid overflow from D-2301 to downstream preflash feed filters and pumps",
+      "severity_people": 3,
+      "severity_environment": 2,
+      "severity_economic": 3,
+      "severity_social": 2,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "Medium"
+    },
+    {
+      "consequence_id": "CON-CDN-N01-02",
+      "cause_id": "CAU-CDN-N01-02",
+      "causal_chain": "Loss of quench circulation to oxidate cooler -> temperature escalation in quench drum",
+      "severity_people": 4,
+      "severity_environment": 3,
+      "severity_economic": 4,
+      "severity_social": 3,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "Medium"
+    },
+    {
+      "consequence_id": "CON-CDN-N04-01",
+      "cause_id": "CAU-CDN-N04-01",
+      "causal_chain": "Relief knockout drum D-2305 overpressurization -> potential pipe failure and unignited toxic vapor release",
+      "severity_people": 4,
+      "severity_environment": 3,
+      "severity_economic": 4,
+      "severity_social": 3,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "Medium"
+    },
+    {
+      "consequence_id": "CON-OXI-N01-01",
+      "cause_id": "CAU-OXI-N01-01",
+      "causal_chain": "Cumene oxidation runaway -> high temperature triggers explosive CHP decomposition in reactor",
+      "severity_people": 5,
+      "severity_environment": 4,
+      "severity_economic": 5,
+      "severity_social": 4,
+      "initial_likelihood": 4,
+      "initial_risk_rating": "Extreme"
+    },
+    {
+      "consequence_id": "CON-OXI-N01-02",
+      "cause_id": "CAU-OXI-N01-02",
+      "causal_chain": "High oxygen concentration in reactor off-gas reaching flammable vapor envelope",
+      "severity_people": 5,
+      "severity_environment": 3,
+      "severity_economic": 4,
+      "severity_social": 4,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "High"
+    },
+    {
+      "consequence_id": "CON-ALKY-N01-01",
+      "cause_id": "CAU-ALKY-N01-01",
+      "causal_chain": "Column tray mechanical damage and relief valve discharge to plant flare system",
+      "severity_people": 3,
+      "severity_environment": 2,
+      "severity_economic": 4,
+      "severity_social": 2,
+      "initial_likelihood": 3,
+      "initial_risk_rating": "Medium"
+    }
+  ],
+  "safeguards": [
+    {
+      "safeguard_id": "SG-CDN-N02-01-01",
+      "consequence_id": "CON-CDN-N02-01",
+      "instrument_tag": "TXSHH-0501",
+      "description": "TXSHH-0501 (1oo1, SIL 1) trips UC-2301 steam supply UXV-0501/0502",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-01-02",
+      "consequence_id": "CON-CDN-N02-01",
+      "instrument_tag": "TXSHH-0502A/B",
+      "description": "TXSHH-0502A/B (1oo2, SIL 1) trips UXV-0501 and UXV-0502",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-01-03",
+      "consequence_id": "CON-CDN-N02-01",
+      "instrument_tag": "FXSLL-0401A/B/C",
+      "description": "FXSLL-0401A/B/C (2oo3, SIL 1) low oxidate feed trip",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-01-04",
+      "consequence_id": "CON-CDN-N02-01",
+      "instrument_tag": "TIC-0501",
+      "description": "TIC-0501 high temperature alarm in DCS (BPCS)",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-02-01",
+      "consequence_id": "CON-CDN-N02-02",
+      "instrument_tag": "FAH-2302",
+      "description": "FAH-2302 high feed flow alarm in DCS (BPCS)",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-02-02",
+      "consequence_id": "CON-CDN-N02-02",
+      "instrument_tag": "LAH-2301",
+      "description": "LAH-2301 V-2301 high level alarm in DCS",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-02-03",
+      "consequence_id": "CON-CDN-N02-02",
+      "instrument_tag": "LSHH-2301",
+      "description": "LSHH-2301 trips feed isolation XV-2301 (SIL 1)",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-03-01",
+      "consequence_id": "CON-CDN-N02-03",
+      "instrument_tag": "TXSHH-0502A/B",
+      "description": "TXSHH-0502A/B (1oo2, SIL 1) trips steam supply UXV-0501/0502",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-03-02",
+      "consequence_id": "CON-CDN-N02-03",
+      "instrument_tag": "TAH-0501",
+      "description": "TAH-0501 DCS high temperature alarm (BPCS)",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-04-01",
+      "consequence_id": "CON-CDN-N02-04",
+      "instrument_tag": "PSV-2303",
+      "description": "PSV-2303 thermal relief valve set at 12 kg/cm\u00b2g to closed flare header",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-04-02",
+      "consequence_id": "CON-CDN-N02-04",
+      "instrument_tag": "PAH-2303",
+      "description": "PAH-2303 DCS high pressure alarm",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-05-01",
+      "consequence_id": "CON-CDN-N02-05",
+      "instrument_tag": "LSL-2308",
+      "description": "LSL-2308 low level switch trips condensate pump P-2308A/B (SIL 1)",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-05-02",
+      "consequence_id": "CON-CDN-N02-05",
+      "instrument_tag": "LAL-2308",
+      "description": "LAL-2308 low level alarm in DCS (BPCS)",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N02-06-01",
+      "consequence_id": "CON-CDN-N02-06",
+      "instrument_tag": "AT-2308",
+      "description": "DCS condensate conductivity and pH monitoring with operator manual isolation",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-01-01",
+      "consequence_id": "CON-CDN-N03-01",
+      "instrument_tag": "TXSHH-0805A/B",
+      "description": "TXSHH-0805A/B (1oo2, SIL 2) trips SC3 steam shutoff valves UXV-0701..0706",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 2
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-01-02",
+      "consequence_id": "CON-CDN-N03-01",
+      "instrument_tag": "LXSHH-0802",
+      "description": "LXSHH-0802 (1oo1, SIL 1) trips reboiler SC3 steam supply",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-01-03",
+      "consequence_id": "CON-CDN-N03-01",
+      "instrument_tag": "PAL-0801",
+      "description": "PAL-0801 low discharge pressure alarm in DCS",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-02-01",
+      "consequence_id": "CON-CDN-N03-02",
+      "instrument_tag": "TXSHH-0805A/B",
+      "description": "TXSHH-0805A/B (1oo2, SIL 2) trips UXV-0701..0706 within 2 sec",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 2
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-02-02",
+      "consequence_id": "CON-CDN-N03-02",
+      "instrument_tag": "TAH-0804",
+      "description": "TAH-0804 reboiler exit high temperature alarm (BPCS)",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-03-01",
+      "consequence_id": "CON-CDN-N03-03",
+      "instrument_tag": "LXSL-0801",
+      "description": "LXSL-0801 (SIL 1) low level interlock trips steam UXV-0701..0706",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-03-02",
+      "consequence_id": "CON-CDN-N03-03",
+      "instrument_tag": "LAL-0801",
+      "description": "LAL-0801 DCS low level alarm",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-04-01",
+      "consequence_id": "CON-CDN-N03-04",
+      "instrument_tag": "LSHH-0801",
+      "description": "LSHH-0801 (1oo1, SIL 1) trips upstream feed isolation valve XV-0701",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-04-02",
+      "consequence_id": "CON-CDN-N03-04",
+      "instrument_tag": "LAH-0801",
+      "description": "LAH-0801 DCS high level alarm",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-05-01",
+      "consequence_id": "CON-CDN-N03-05",
+      "instrument_tag": "PSV-23-0801",
+      "description": "V-2302 DIERS runaway relief system (effective when connected)",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N03-06-01",
+      "consequence_id": "CON-CDN-N03-06",
+      "instrument_tag": "NRV-0901",
+      "description": "Dual high-integrity non-return check valves in series on P-2301A/B discharge lines",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N01-01-01",
+      "consequence_id": "CON-CDN-N01-01",
+      "instrument_tag": "LSHH-2301",
+      "description": "LSHH-2301 (SIL 1) high level trip to inlet feed isolation XV-2301",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N01-01-02",
+      "consequence_id": "CON-CDN-N01-01",
+      "instrument_tag": "LAH-2301",
+      "description": "LAH-2301 DCS high level alarm in control room",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-CDN-N01-02-01",
+      "consequence_id": "CON-CDN-N01-02",
+      "instrument_tag": "FSL-2305",
+      "description": "FSL-2305 low quench flow alarm with auto-start standby pump FY-2305",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N04-01-01",
+      "consequence_id": "CON-CDN-N04-01",
+      "instrument_tag": "CSO-2305",
+      "description": "Car-seal open (CSO) mechanical padlock on relief knockout drum isolation valves",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 1
+    },
+    {
+      "safeguard_id": "SG-CDN-N04-01-02",
+      "consequence_id": "CON-CDN-N04-01",
+      "instrument_tag": "PAH-2305",
+      "description": "PAH-2305 DCS high header pressure alarm with operator advisory",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-OXI-N01-01-01",
+      "consequence_id": "CON-OXI-N01-01",
+      "instrument_tag": "TXSHH-2201",
+      "description": "TXSHH-2201 (2oo3, SIL 2) emergency reactor air depressurization and N2 purge",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 2
+    },
+    {
+      "safeguard_id": "SG-OXI-N01-01-02",
+      "consequence_id": "CON-OXI-N01-01",
+      "instrument_tag": "TAH-2201",
+      "description": "TAH-2201 high temperature pre-alarm in DCS",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 0
+    },
+    {
+      "safeguard_id": "SG-OXI-N01-02-01",
+      "consequence_id": "CON-OXI-N01-02",
+      "instrument_tag": "OXSHH-2201",
+      "description": "OXSHH-2201 (2oo3, SIL 2) off-gas oxygen interlock cuts air feed within 1 sec",
+      "is_interlock_esd": true,
+      "ipl_credit_level": 2
+    },
+    {
+      "safeguard_id": "SG-ALKY-N01-01-01",
+      "consequence_id": "CON-ALKY-N01-01",
+      "instrument_tag": "PSV-2101",
+      "description": "PSV-2101 ASME VIII certified relief valve discharging to closed flare header",
+      "is_interlock_esd": false,
+      "ipl_credit_level": 1
+    }
+  ],
+  "action_items": [
+    {
+      "action_id": "R-001",
+      "consequence_id": "CON-CDN-N02-01",
+      "node_id": "CDN-N02",
+      "recommendation_text": "LOPA / SIF verification of combined overheat protection (TXSHH-0501 + TXSHH-0502A/B SIL 1 + UXV-0501/0502) for the S5 CHP-decomposition consequence; confirm setpoints below 80 \u00b0C onset with margin.",
+      "risk_rank": "Medium",
+      "discipline": "Instrument / Process",
+      "owner_type": "Internal",
+      "owner": "Lead Process Safety Engineer",
+      "due_date": "2026-12-31",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Medium",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Medium"
+    },
+    {
+      "action_id": "R-002",
+      "consequence_id": "CON-CDN-N02-06",
+      "node_id": "CDN-N02",
+      "recommendation_text": "Provide on-line CHP/hydrocarbon detection (conductivity/pH or HC analyzer + alarm/divert) on D-2308 / steam-condensate return to detect an E-2303 tube leak and prevent CHP migration to the unrated utility condensate system.",
+      "risk_rank": "High",
+      "discipline": "Process / Instrument",
+      "owner_type": "Internal",
+      "owner": "Lead Analyzer Specialist",
+      "due_date": "2026-11-30",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Medium",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Medium"
+    },
+    {
+      "action_id": "R-003",
+      "consequence_id": "CON-CDN-N02-04",
+      "node_id": "CDN-N02",
+      "recommendation_text": "Review overpressure/thermal-relief protection for E-2302A/B and E-2303 process (CHP) side when block-isolated for maintenance (no dedicated PSV once isolated from V-2301 relief).",
+      "risk_rank": "Medium",
+      "discipline": "Process / Mechanical",
+      "owner_type": "Internal",
+      "owner": "Mechanical Engineer",
+      "due_date": "2026-12-31",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Low",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Low"
+    },
+    {
+      "action_id": "R-004",
+      "consequence_id": "CON-CDN-N02-02",
+      "node_id": "CDN-N02",
+      "recommendation_text": "Resolve oxidate feed pressure data conflict (S229 78 kg/cm\u00b2G vs E-2302 tube 12 / X-2302 8 kg/cm\u00b2g) and confirm feed-line design pressure / piping class.",
+      "risk_rank": "Low",
+      "discipline": "Process",
+      "owner_type": "Internal",
+      "owner": "Process Engineer",
+      "due_date": "2026-10-31",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Low",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Low"
+    },
+    {
+      "action_id": "R-005",
+      "consequence_id": "CON-CDN-N03-01",
+      "node_id": "CDN-N03",
+      "recommendation_text": "LOPA / SIF verification that combined over-temperature protection (TXSHH-0701A/0702A SIL 2 + TXSHH-0805A/B SIL 2) achieves tolerable risk for the S5 concentrated-CHP (~80-85 wt%) decomposition consequence; confirm setpoints below 80 \u00b0C onset.",
+      "risk_rank": "Medium",
+      "discipline": "Instrument / Process",
+      "owner_type": "Internal",
+      "owner": "Lead Process Safety Engineer",
+      "due_date": "2026-12-31",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Medium",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Medium"
+    },
+    {
+      "action_id": "R-006",
+      "consequence_id": "CON-CDN-N03-05",
+      "node_id": "CDN-N03",
+      "recommendation_text": "Review overpressure/thermal-relief for E-2304 tube side and P-2301A/B discharge when block-isolated (no dedicated PSV once UXV-0802/0803 closed and isolated from V-2302 PSV-23-0801 relief).",
+      "risk_rank": "High",
+      "discipline": "Process / Mechanical",
+      "owner_type": "Internal",
+      "owner": "Mechanical Engineer",
+      "due_date": "2026-12-31",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Medium",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Medium"
+    },
+    {
+      "action_id": "R-007",
+      "consequence_id": "CON-CDN-N03-01",
+      "node_id": "CDN-N03",
+      "recommendation_text": "Confirm P-2301A/B Plan 53A dual-seal cumene-flush / N2-barrier low-pressure/high-flow alarm coverage and operator response are adequate to detect loss of seal flush before concentrated CHP attacks the seal.",
+      "risk_rank": "Medium",
+      "discipline": "Mechanical / Process",
+      "owner_type": "Internal",
+      "owner": "Rotating Equipment Engineer",
+      "due_date": "2026-12-31",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Medium",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Medium"
+    },
+    {
+      "action_id": "R-008",
+      "consequence_id": "CON-CDN-N03-02",
+      "node_id": "CDN-N03",
+      "recommendation_text": "Provide on-line CHP/hydrocarbon detection (conductivity/pH or HC analyzer + alarm/divert) on D-2309 / SC3 condensate return to detect an E-2304 tube leak.",
+      "risk_rank": "High",
+      "discipline": "Process / Instrument",
+      "owner_type": "Internal",
+      "owner": "Lead Analyzer Specialist",
+      "due_date": "2026-11-30",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Medium",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Medium"
+    },
+    {
+      "action_id": "R-009",
+      "consequence_id": "CON-CDN-N03-06",
+      "node_id": "CDN-N03",
+      "recommendation_text": "Confirm independent check-valve protection on P-2301A/B discharge prevents reverse flow of acidified/partially-decomposed material from the Decomposer feed back into the concentrated CHP at V-2302.",
+      "risk_rank": "Medium",
+      "discipline": "Process / Mechanical",
+      "owner_type": "Internal",
+      "owner": "Lead Process Safety Engineer",
+      "due_date": "2026-12-31",
+      "status": "Open",
+      "mitigated_likelihood": 2,
+      "mitigated_risk_rating": "Medium",
+      "residual_likelihood": 2,
+      "residual_risk_rating": "Medium"
+    }
+  ]
+}

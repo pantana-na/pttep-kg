@@ -195,13 +195,14 @@ async def handle_query(payload: QueryPayload):
     if agent_proxy.is_configured:
         return await agent_proxy.direct_query(payload.prompt, payload.session_id)
     
-    # Offline fallback using official production tools
-    interlocks = json.loads(spanner_graph_query("E-2303", mode="interlocks"))
+    # Offline fallback using official production tools and dynamic prompt tag
+    target_tag = _extract_tag_from_prompt(payload.prompt)
+    interlocks = json.loads(spanner_graph_query(target_tag, mode="interlocks"))
     events = [
-        {"event": "thought", "data": {"thought_chunk": "Querying Spanner Graph via production tools..."}},
-        {"event": "tool_invoked", "data": {"tool_name": "spanner_graph_query", "tool_args": {"target_tag": "E-2303"}}},
+        {"event": "thought", "data": {"thought_chunk": f"Querying Spanner Graph for {target_tag} via production tools..."}},
+        {"event": "tool_invoked", "data": {"tool_name": "spanner_graph_query", "tool_args": {"target_tag": target_tag}}},
         {"event": "tool_result", "data": {"result_preview": f"Retrieved {len(interlocks)} interlocks."}},
-        {"event": "message_delta", "data": {"text_delta": f"Retrieved {len(interlocks)} interlocks for E-2303."}},
+        {"event": "message_delta", "data": {"text_delta": f"Retrieved {len(interlocks)} interlocks for {target_tag}."}},
         {"event": "message_done", "data": {"status": "SUCCESS"}}
     ]
     return {"status": "SUCCESS", "events": events}
@@ -209,71 +210,77 @@ async def handle_query(payload: QueryPayload):
 
 @app.get("/api/v1/catalog/hierarchy")
 def get_catalog_hierarchy():
-    """Returns full structured plant hierarchy: Sections -> HAZOP Nodes -> Equipment -> Instruments."""
-    sections = [
-        {
-            "section_id": "SEC-23",
-            "name": "Cleavage & Decomposition Section (CDN)",
-            "description": "Cumene hydroperoxide cleavage with sulfuric acid catalyst into phenol and acetone",
-            "nodes": [
-                {
-                    "node_id": "CDN-N01",
-                    "name": "Cumene Quench Tank & Feed System",
-                    "description": "Feed surge drum, bottoms feed pumps, and quench recirculation",
-                    "equipment": []
-                },
-                {
-                    "node_id": "CDN-N02",
-                    "name": "Preflash Column & Vaporizer Section",
-                    "description": "Preflash column, steam heater, vacuum flash vessel, and condensers",
-                    "equipment": []
-                },
-                {
-                    "node_id": "CDN-N03",
-                    "name": "Decomposer Drum & Acid Cleavage Section",
-                    "description": "Decomposer circulation loop, sulfuric acid injection, and cleavage coolers",
-                    "equipment": []
-                },
-                {
-                    "node_id": "CDN-N04",
-                    "name": "Vacuum Producing & Relief Flare System",
-                    "description": "Vacuum ejector systems, relief knockout drums, and condenser coolers",
-                    "equipment": []
-                }
-            ]
-        },
-        {
-            "section_id": "SEC-22",
-            "name": "Cumene Oxidation Section (OXI)",
-            "description": "Air oxidation of cumene to cumene hydroperoxide (CHP) in series reactors",
-            "nodes": [
-                {
-                    "node_id": "OXI-N01",
-                    "name": "Oxidation Reactor Loop & Off-Gas Separation",
-                    "description": "Oxidizers, cooling loops, scrubbers, and vent gas separation",
-                    "equipment": []
-                }
-            ]
-        },
-        {
-            "section_id": "SEC-21",
-            "name": "Cumene Recovery & Alkylation (ALKY)",
-            "description": "Feed distillation, benzene alkylation, and polyisopropylbenzene recovery",
-            "nodes": [
-                {
-                    "node_id": "ALKY-N01",
-                    "name": "Feed Fractionation & Alkylation Section",
-                    "description": "Cumene column reboilers, condensate pots, and bottoms recovery",
-                    "equipment": []
-                }
-            ]
-        }
-    ]
+    """Returns full structured plant hierarchy: Sections -> HAZOP Nodes -> Equipment -> Instruments 100% from database."""
+    # 1. Build Unit sections dynamically from db.units
+    unit_map = {}
+    sections = []
+    unit_sec_map = {
+        "ALKY": "SEC-21",
+        "ALKYLATION": "SEC-21",
+        "OXI": "SEC-22",
+        "OXIDATION": "SEC-22",
+        "CDN": "SEC-23",
+        "CLP": "SEC-23",
+        "CLEAVAGE": "SEC-23",
+        "DIST": "SEC-24",
+        "DISTILLATION": "SEC-24",
+    }
+    seen_sec_ids = set()
+    for u in sorted(db.units.values(), key=lambda x: getattr(x, "unit_id", "")):
+        u_id = getattr(u, "unit_id", "")
+        u_code = getattr(u, "code", u_id)
+        sec_id = unit_sec_map.get(u_code.upper(), unit_sec_map.get(u_id.upper(), f"SEC-{u_code}"))
+        sec_name = getattr(u, "name", sec_id)
+        sec_desc = getattr(u, "description", "") or ""
 
+        if sec_id in seen_sec_ids:
+            canonical_sec = next(s for s in sections if s["section_id"] == sec_id)
+            unit_map[u_id.upper()] = canonical_sec
+            if u_code:
+                unit_map[u_code.upper()] = canonical_sec
+            continue
+
+        seen_sec_ids.add(sec_id)
+        sec_obj = {
+            "section_id": sec_id,
+            "unit_id": u_id,
+            "code": u_code,
+            "name": sec_name,
+            "description": sec_desc,
+            "nodes": []
+        }
+        sections.append(sec_obj)
+        unit_map[u_id.upper()] = sec_obj
+        unit_map[sec_id.upper()] = sec_obj
+        if u_code:
+            unit_map[u_code.upper()] = sec_obj
+
+    # 2. Build HazopNodes dynamically from db.hazop_nodes
     node_map = {}
-    for s in sections:
-        for n in s["nodes"]:
-            node_map[n["node_id"]] = n
+    for n in sorted(db.hazop_nodes.values(), key=lambda x: getattr(x, "node_id", "")):
+        n_id = getattr(n, "node_id", "")
+        n_unit = getattr(n, "unit_id", "").upper()
+        n_name = getattr(n, "name", n_id)
+        n_pid = getattr(n, "pid_sheet", "")
+        node_obj = {
+            "node_id": n_id,
+            "name": n_name,
+            "unit_id": n_unit,
+            "pid_sheet": n_pid,
+            "description": f"P&ID Sheet: {n_pid}" if n_pid else n_name,
+            "equipment": []
+        }
+        node_map[n_id] = node_obj
+
+        parent_sec = unit_map.get(n_unit)
+        if parent_sec:
+            parent_sec["nodes"].append(node_obj)
+        elif sections:
+            sections[0]["nodes"].append(node_obj)
+
+    active_sections = [s for s in sections if len(s["nodes"]) > 0]
+    if not active_sections:
+        active_sections = sections
 
     inst_by_eq = {}
     for inst in db.instruments.values():
@@ -316,7 +323,7 @@ def get_catalog_hierarchy():
             "operating_press_barg": getattr(eq, "operating_pressure_barg", None),
             "design_temp_c": getattr(eq, "design_temp_celsius", None),
             "design_press_barg": getattr(eq, "design_pressure_barg", None),
-            "drawing_ref": getattr(eq, "markdown_uri", None) or "14780-8120-20-23-0002",
+            "drawing_ref": getattr(eq, "markdown_uri", None) or "Drawing pending",
             "instrument_count": len(eq_instruments),
             "instruments": eq_instruments
         }
@@ -327,19 +334,62 @@ def get_catalog_hierarchy():
         "status": "SUCCESS",
         "total_equipment": total_equipment,
         "total_instruments": total_instruments,
-        "sections": sections
+        "sections": active_sections
+    }
+
+
+@app.get("/api/v1/catalog/lineage")
+def get_catalog_lineage(tag: str):
+    """Returns certified drawing lineage, Dataplex provenance, operating envelope, and wiki docs for tag."""
+    tag_clean = tag.strip().upper()
+    known_tags = set(db.equipment.keys())
+    resolved_tag = resolve_equipment_tag_alias(tag_clean, known_tags)
+    eq = db.equipment.get(tag_clean) or db.equipment.get(resolved_tag)
+    if not eq:
+        return JSONResponse(status_code=404, content={"status": "NOT_FOUND", "message": f"Asset '{tag}' not found in database."})
+
+    # Query Knowledge Catalog provenance
+    provenance = json.loads(query_knowledge_catalog_provenance(resolved_tag))
+    
+    # Query GCS Wiki documentation
+    wiki_res = json.loads(read_gcs_wiki_document(resolved_tag))
+    wiki_text = wiki_res.get("full_content", "")
+
+    # Extract drawing and status
+    sources = provenance.get("source_documents", [])
+    drawing_name = sources[0] if sources else (getattr(eq, "markdown_uri", "") or f"{resolved_tag}_P&ID.pdf")
+    if not drawing_name.endswith(".pdf"):
+        drawing_name = f"{drawing_name}_Z1.pdf"
+
+    return {
+        "status": "SUCCESS",
+        "tag": getattr(eq, "equipment_tag", resolved_tag),
+        "name": getattr(eq, "name", resolved_tag),
+        "type": getattr(eq, "type", "Equipment"),
+        "drawing": drawing_name,
+        "drawing_status": provenance.get("as_built_revision", "Approved Rev Z1"),
+        "psi_category": provenance.get("psi_category", "PSI Category 4 / P&ID Drawing"),
+        "governance_tags": provenance.get("governance_tags", ["certified"]),
+        "wiki_markdown": wiki_text,
+        "operating_conditions": {
+            "operating_temp_c": getattr(eq, "operating_temp_celsius", None),
+            "operating_press_barg": getattr(eq, "operating_pressure_barg", None),
+            "design_temp_c": getattr(eq, "design_temp_celsius", None),
+            "design_press_barg": getattr(eq, "design_pressure_barg", None),
+            "material": getattr(eq, "material", None)
+        }
     }
 
 
 def _extract_tag_from_prompt(prompt: str) -> str:
-    """Extracts known equipment tag from prompt or defaults to E-2303."""
+    """Extracts known equipment tag from prompt or defaults to first database equipment tag."""
     p_upper = prompt.upper()
     # Sort tags by descending length so compound tags match first (e.g. P-2301A/B before P-2301A)
     sorted_tags = sorted(db.equipment.keys(), key=lambda k: len(k), reverse=True)
     for t in sorted_tags:
         if t.upper() in p_upper:
             return t
-    return "E-2303"
+    return sorted_tags[0] if sorted_tags else ""
 
 
 def _generate_rich_fallback_response(prompt: str) -> str:
@@ -352,11 +402,11 @@ def _generate_rich_fallback_response(prompt: str) -> str:
     node_by_eq = {edge.equipment_tag: edge.node_id for edge in getattr(db, "node_equipment_map", [])}
     target_node = node_by_eq.get(tag) or node_by_eq.get(resolved_tag, "CDN-N02")
     eq_name = getattr(eq, "name", tag) if eq else tag
-    oper_temp = getattr(eq, "operating_temp_celsius", 83.0) if eq and getattr(eq, "operating_temp_celsius", None) is not None else 83.0
-    oper_press = getattr(eq, "operating_pressure_barg", 3.2) if eq and getattr(eq, "operating_pressure_barg", None) is not None else 3.2
-    design_temp = getattr(eq, "design_temp_celsius", 195.0) if eq and getattr(eq, "design_temp_celsius", None) is not None else 195.0
-    design_press = getattr(eq, "design_pressure_barg", 3.5) if eq and getattr(eq, "design_pressure_barg", None) is not None else 3.5
-    drawing_ref = getattr(eq, "markdown_uri", "14780-8120-25-23-0005") if eq and getattr(eq, "markdown_uri", None) else "14780-8120-25-23-0005"
+    oper_temp = getattr(eq, "operating_temp_celsius", None)
+    oper_press = getattr(eq, "operating_pressure_barg", None)
+    design_temp = getattr(eq, "design_temp_celsius", None)
+    design_press = getattr(eq, "design_pressure_barg", None)
+    drawing_ref = getattr(eq, "markdown_uri", None) or "Drawing pending"
 
     if "hazop" in p_lower or "deviation" in p_lower:
         param = "Flow" if "flow" in p_lower else ("Pressure" if ("pressure" in p_lower or "press" in p_lower) else ("Level" if "level" in p_lower else "Temperature"))

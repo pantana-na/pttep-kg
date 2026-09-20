@@ -11,38 +11,85 @@ import subprocess
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 
+from database.models import resolve_hazop_node_id
+
 
 class PidMarkupParser:
     """Parses engineer-annotated P&ID markup PDFs for HAZOP study boundary extraction."""
 
-    KNOWN_NODE_METADATA = {
-        "23-02": {
-            "node_id": "CDN-N02",
-            "markup_label": "Node 23-02 (engineer P&ID markup)",
-            "colour_code": "Yellow",
-            "unit": "CDN",
-            "name": "Preflash Column Feed-Heating / Steam-Condensate Circuit",
-            "pid_drawings": ["14780-8120-25-23-0005", "14780-8120-25-23-0005A"],
-            "boundary_crossings": ["14780-8120-25-23-0004", "14780-8120-25-23-0007"],
-            "inlet_boundary": "Oxidate feed to E-2302A/B tube side (from feed filters X-2302A/B / Node 23-01) + hot OXI recirculate to E-2302A/B shell (from OXI Oxidizer No.2 pumps) + SC1.5 steam supply to E-2303 tube (via UXV-0501/0502)",
-            "outlet_boundary": "Heated oxidate to V-2301 (Preflash Column) + OXI recirculate shell return to OXI + steam condensate from P-2308A/B to condensate return system (66-0056)",
-            "equipment_tags": ["E-2302A/B", "E-2303", "D-2308", "P-2308A/B"],
-            "design_intent": "Heat oxidate feed to Preflash Column target temp: recover heat in E-2302A/B, trim with SC1.5 steam in E-2303, deliver to V-2301; collect/return E-2303 condensate."
-        },
-        "23-03": {
-            "node_id": "CDN-N03",
-            "markup_label": "Node 23-03 (engineer P&ID markup)",
-            "colour_code": "Green",
-            "unit": "CDN",
-            "name": "Flash Column Vaporizer & Concentrated Bottoms Circuit",
-            "pid_drawings": ["14780-8120-25-23-0007", "14780-8120-25-23-0007A", "14780-8120-25-23-0008", "14780-8120-25-23-0009"],
-            "boundary_crossings": ["14780-8120-25-23-0005", "14780-8120-25-23-0010"],
-            "inlet_boundary": "V-2302 bottoms to E-2304 shell side + SC3 steam supply to E-2304 tube side via UXV-0701..0706 + V-2302 concentrated bottoms to P-2301A/B suction",
-            "outlet_boundary": "Two-phase vapor/liquid return to V-2302 + concentrated CHP product to Cleavage Reactor D-2304 via P-2301A/B discharge + E-2304 steam condensate",
-            "equipment_tags": ["E-2304", "P-2301A/B", "V-2302", "X-2301A/B"],
-            "design_intent": "Reboil V-2302 with SC3 steam in E-2304 to concentrate CHP to ~80-85 wt% and safely pump bottoms to Cleavage Section D-2304 via P-2301A/B."
+    def __init__(self, db=None):
+        self._db = db
+
+    @property
+    def db(self):
+        if self._db is None:
+            from database.init_db import get_database
+            self._db = get_database()
+        return self._db
+
+    def get_node_metadata(self, node_key: str) -> Dict[str, Any]:
+        """Resolves node metadata dynamically from database HazopNodes, NodeEquipmentMap, and wiki docs."""
+        nid = resolve_hazop_node_id(node_key, self.db.hazop_nodes)
+
+        hazop_node = self.db.hazop_nodes.get(nid)
+        name = getattr(hazop_node, "name", nid) if hazop_node else nid
+        unit = getattr(hazop_node, "unit_id", "CDN") if hazop_node else "CDN"
+        pid = getattr(hazop_node, "pid_sheet", "") if hazop_node else ""
+
+        # Equipment tags from NodeEquipmentMap
+        eq_tags = [
+            m.equipment_tag for m in getattr(self.db, "node_equipment_map", [])
+            if m.node_id == nid
+        ]
+
+        # Check for wiki frontmatter if available
+        wiki_candidates = sorted(
+            Path("wiki/hazop/nodes").glob(f"*{nid.lower()}*.md"),
+            key=lambda p: (0 if p.name.startswith("cdn-N") else 1, p.stat().st_size),
+            reverse=True
+        )
+        inlet = "Node process inlet boundary"
+        outlet = "Node process outlet boundary"
+        design_intent = f"Safe operation of {name} ({nid})"
+        pid_drawings = [pid] if pid else []
+        boundary_crossings = []
+        color = "Yellow" if "N02" in nid else ("Green" if "N03" in nid else "Blue")
+
+        if wiki_candidates:
+            import yaml
+            text = wiki_candidates[0].read_text(encoding="utf-8")
+            if text.startswith("---"):
+                parts = text.split("---", 2)
+                if len(parts) >= 3:
+                    try:
+                        fm = yaml.safe_load(parts[1]) or {}
+                        inlet = fm.get("inlet_boundary", inlet)
+                        outlet = fm.get("outlet_boundary", outlet)
+                        design_intent = fm.get("design_intent", design_intent)
+                        if fm.get("pid_sheet"):
+                            pid_drawings = [p.strip() for p in str(fm["pid_sheet"]).split(",") if p.strip()]
+                    except Exception:
+                        pass
+
+            # Extract equipment tags documented in wiki node markdown (e.g. Normal Operating Parameters table)
+            table_tags = re.findall(r"\|\s*\*\*([A-Z]-[0-9]+[A-Z]*(?:/[A-Z]+)*)(?:\s+[a-z]+)?\*\*", text)
+            for tt in table_tags:
+                if tt not in eq_tags:
+                    eq_tags.append(tt)
+
+        return {
+            "node_id": nid,
+            "markup_label": f"Node {nid} (engineer P&ID markup)",
+            "colour_code": color,
+            "unit": unit,
+            "name": name,
+            "pid_drawings": pid_drawings,
+            "boundary_crossings": boundary_crossings,
+            "inlet_boundary": inlet,
+            "outlet_boundary": outlet,
+            "equipment_tags": eq_tags,
+            "design_intent": design_intent
         }
-    }
 
     def parse_pdf_text(self, pdf_path: str) -> str:
         """Extracts text from PDF using pdftotext CLI or fallback."""
@@ -77,20 +124,15 @@ class PidMarkupParser:
             except Exception:
                 text = ""
 
-        # 1. Match Node pattern in text or filename
-        node_key = None
-        match = re.search(r"Node[\s_-]*23[-_]?(0[1-9]|1[0-9])", f"{fn} {text}", re.IGNORECASE)
-        if match:
-            node_key = f"23-{match.group(1)}"
-        elif "23-02" in fn or "23-02" in text or "N02" in fn:
-            node_key = "23-02"
-        elif "23-03" in fn or "23-03" in text or "N03" in fn:
-            node_key = "23-03"
-        else:
-            # Default to 23-02 if ambiguous
-            node_key = "23-02"
+        # 1. Match Node pattern in filename first, then text, dynamically against registered HazopNodes
+        node_key = resolve_hazop_node_id(fn, self.db.hazop_nodes)
+        first_key = next(iter(self.db.hazop_nodes.keys())) if self.db.hazop_nodes else ""
+        if (node_key == fn or node_key == first_key) and text:
+            resolved_from_text = resolve_hazop_node_id(text, self.db.hazop_nodes)
+            if resolved_from_text and resolved_from_text in self.db.hazop_nodes:
+                node_key = resolved_from_text
 
-        base_meta = self.KNOWN_NODE_METADATA.get(node_key, self.KNOWN_NODE_METADATA["23-02"]).copy()
+        base_meta = self.get_node_metadata(node_key)
         
         # Build structured NodeDefinition
         node_def = {

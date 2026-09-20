@@ -21,6 +21,7 @@ from google.adk.apps import App
 from google.genai import types
 
 from database.init_db import get_database
+from database.models import resolve_hazop_node_id
 from mcp_servers.spanner_mcp import SpannerMCPServer
 from app.hazop.agent import HazopStudyAgent
 from security.model_armor import ModelArmorGuardrail
@@ -217,37 +218,113 @@ def evaluate_hazop_deviation(node_id: str, parameter: str, deviation: str, cause
     Returns:
         JSON string containing unmitigated PEES/L risk, candidates, IPL credits, and mitigated risk.
     """
+    # 1. Normalize Node ID dynamically against registered database HAZOP nodes
+    nid = resolve_hazop_node_id(node_id, _db.hazop_nodes)
+
+    # 2. Look up matching deviation and causes directly from database
+    target_dev = None
+    for d in _db.deviations.values():
+        if getattr(d, "node_id", "") == nid:
+            if parameter.lower() in getattr(d, "parameter", "").lower() or getattr(d, "parameter", "").lower() in parameter.lower():
+                target_dev = d
+                break
+
+    matched_cq = None
+    matched_sgs = []
+    matched_cause_desc = cause
+
+    if target_dev:
+        matching_causes = [c for c in _db.causes.values() if getattr(c, "deviation_id", "") == target_dev.deviation_id]
+        chosen_cause = None
+        for c in matching_causes:
+            c_desc_lower = getattr(c, "description", "").lower()
+            if any(w in c_desc_lower for w in cause.lower().split() if len(w) > 3):
+                chosen_cause = c
+                break
+        if not chosen_cause and matching_causes:
+            chosen_cause = matching_causes[0]
+
+        if chosen_cause:
+            matched_cause_desc = getattr(chosen_cause, "description", cause)
+            matching_cqs = [cq for cq in _db.consequences.values() if getattr(cq, "cause_id", "") == chosen_cause.cause_id]
+            if matching_cqs:
+                matched_cq = matching_cqs[0]
+                matched_sgs = [
+                    sg for sg in _db.safeguards.values()
+                    if getattr(sg, "consequence_id", "") == matched_cq.consequence_id
+                ]
+
+    # If no exact cause/consequence match, resolve from database consequences for the node
+    if not matched_cq and _db.consequences:
+        node_dev_ids = {d.deviation_id for d in _db.deviations.values() if getattr(d, "node_id", "") == nid}
+        node_causes = [c for c in _db.causes.values() if getattr(c, "deviation_id", "") in node_dev_ids]
+        node_cause_ids = {c.cause_id for c in node_causes}
+        candidate_cqs = [cq for cq in _db.consequences.values() if getattr(cq, "cause_id", "") in node_cause_ids]
+        if candidate_cqs:
+            matched_cq = candidate_cqs[0]
+        else:
+            matched_cq = next(iter(_db.consequences.values()))
+        matched_sgs = [
+            sg for sg in _db.safeguards.values()
+            if getattr(sg, "consequence_id", "") == matched_cq.consequence_id
+        ]
+
+    # 3. Assemble row data 100% from database records
+    if matched_cq:
+        p_sev = getattr(matched_cq, "severity_people", 0)
+        en_sev = getattr(matched_cq, "severity_environment", 0)
+        ec_sev = getattr(matched_cq, "severity_economic", 0)
+        s_sev = getattr(matched_cq, "severity_social", 0)
+        init_l = getattr(matched_cq, "initial_likelihood", 0)
+        chain = getattr(matched_cq, "causal_chain", "") or f"Process upset resulting in {deviation}"
+        db_sgs = []
+        for sg in matched_sgs:
+            is_esd = getattr(sg, "is_interlock_esd", False)
+            inst_tag = getattr(sg, "instrument_tag", "")
+            inst_obj = _db.instruments.get(inst_tag)
+            sil = getattr(inst_obj, "sil_rating", "SIL 1") if is_esd else "None"
+            ipl = getattr(sg, "ipl_credit_level", 1 if is_esd else 0)
+            db_sgs.append({
+                "description": getattr(sg, "description", ""),
+                "il_esd": "Yes" if is_esd else "No",
+                "sil_rating": sil,
+                "is_ipl": ipl > 0,
+                "ipl_credit": ipl,
+                "selected": True
+            })
+    else:
+        p_sev, en_sev, ec_sev, s_sev, init_l = 0, 0, 0, 0, 0
+        chain = f"Process upset caused by {cause} resulting in {deviation}"
+        db_sgs = []
+
     row_data = {
-        "node_id": node_id,
+        "node_id": nid,
         "parameter": parameter,
         "deviation": deviation,
-        "cause": cause,
-        "consequence": f"Process upset caused by {cause} resulting in {deviation}",
-        "wo_p": 5, "wo_en": 4, "wo_ec": 5, "wo_s": 4, "wo_l": 4,
-        "safeguards": [
-            {"description": "SIS interlock trips isolation valve", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True},
-            {"description": "BPCS critical alarm alert to DCS board operator", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-        ]
+        "cause": matched_cause_desc,
+        "consequence": chain,
+        "wo_p": p_sev, "wo_en": en_sev, "wo_ec": ec_sev, "wo_s": s_sev, "wo_l": init_l,
+        "safeguards": db_sgs
     }
     result = _hazop_service.evaluate_row(row_data)
     result["first_risk"] = {
-        "severity": result.get("wo_s_overall", 5),
-        "overall_severity": result.get("wo_s_overall", 5),
-        "likelihood": result.get("wo_l", 4),
-        "initial_likelihood": result.get("wo_l", 4),
-        "risk_rating": result.get("wo_rr", "Extreme"),
-        "initial_risk_rating": result.get("wo_rr", "Extreme"),
-        "people": result.get("wo_p", 5),
-        "env": result.get("wo_en", 4),
-        "econ": result.get("wo_ec", 5),
-        "social": result.get("wo_s", 4)
+        "severity": result["wo_s_overall"],
+        "overall_severity": result["wo_s_overall"],
+        "likelihood": result["wo_l"],
+        "initial_likelihood": result["wo_l"],
+        "risk_rating": result["wo_rr"],
+        "initial_risk_rating": result["wo_rr"],
+        "people": result["wo_p"],
+        "env": result["wo_en"],
+        "econ": result["wo_ec"],
+        "social": result["wo_s"]
     }
     result["second_risk"] = {
-        "overall_severity": result.get("w_s_overall", 5),
-        "mitigated_likelihood": result.get("w_l", 3),
-        "mitigated_risk_rating": result.get("w_rr", "High"),
-        "total_ipl_credits": result.get("total_ipl_credits", 1),
-        "action_required": result.get("requires_action", True)
+        "overall_severity": result["w_s_overall"],
+        "mitigated_likelihood": result["w_l"],
+        "mitigated_risk_rating": result["w_rr"],
+        "total_ipl_credits": result["total_ipl_credits"],
+        "action_required": result["requires_action"]
     }
     return json.dumps(result, indent=2)
 

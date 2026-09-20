@@ -154,6 +154,26 @@ class MockSpannerDatabase:
             except Exception as e:
                 print(f"[MOCK SPANNER NOTICE] Could not load catalog seeds: {e}")
 
+        # 6. Ingest Database HAZOP Seeds (Deviations, Causes, Consequences, Safeguards, ActionItems)
+        hazop_seed_path = Path("database/seeds/spanner_hazop.json")
+        if not hazop_seed_path.exists():
+            hazop_seed_path = Path(__file__).parent / "seeds" / "spanner_hazop.json"
+        if hazop_seed_path.exists():
+            try:
+                h_data = json.loads(hazop_seed_path.read_text(encoding="utf-8"))
+                for d in h_data.get("deviations", []):
+                    self.deviations[d["deviation_id"]] = DeviationModel(**d)
+                for c in h_data.get("causes", []):
+                    self.causes[c["cause_id"]] = CauseModel(**c)
+                for cq in h_data.get("consequences", []):
+                    self.consequences[cq["consequence_id"]] = ConsequenceModel(**cq)
+                for s in h_data.get("safeguards", []):
+                    self.safeguards[s["safeguard_id"]] = SafeguardModel(**s)
+                for a in h_data.get("action_items", []):
+                    self.action_items[a["action_id"]] = ActionItemModel(**a)
+            except Exception as e:
+                print(f"[MOCK SPANNER NOTICE] Could not load hazop seeds: {e}")
+
     def _extract_frontmatter(self, file_path: Path) -> Tuple[Dict[str, Any], str]:
         text = file_path.read_text(encoding="utf-8")
         if text.startswith("---"):

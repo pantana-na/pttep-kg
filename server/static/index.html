@@ -505,13 +505,27 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
     // State management
     window.graphData = { nodes: [], edges: [], stats: {} };
     window.selectedNode = null;
-    window.currentTargetNodeId = 'E-2303';
+    window.currentTargetNodeId = null;
     window.showFullPlant = false;
     window.graphFilter = 'all';
     window.graphTransform = { x: 40, y: 30, scale: 0.85 };
     window.catalogData = null;
-    window.selectedCatalogTag = 'E-2303';
+    window.selectedCatalogTag = null;
     window.currentEventSource = null;
+
+    function getSelectedOrFirstTag() {
+      if (window.selectedCatalogTag) return window.selectedCatalogTag;
+      if (window.catalogData && window.catalogData.sections) {
+        for (const s of window.catalogData.sections) {
+          for (const n of (s.nodes || [])) {
+            if (n.equipment && n.equipment.length > 0 && n.equipment[0].tag) {
+              return n.equipment[0].tag;
+            }
+          }
+        }
+      }
+      return '';
+    }
 
     // Persistent Session Management (Hyphenated format required for Vertex AI Reasoning Engine)
     function getSessionId() {
@@ -602,11 +616,13 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
     async function initCatalogHierarchy() {
       try {
         const resp = await fetch('/api/v1/catalog/hierarchy');
-        if (!resp.ok) return;
         window.catalogData = await resp.json();
         renderCatalogTree(window.catalogData);
-        // Default select E-2303
-        selectCatalogEntity('E-2303');
+        // Default select first available equipment tag from database catalog
+        const firstTag = getSelectedOrFirstTag();
+        if (firstTag) {
+          selectCatalogEntity(firstTag);
+        }
       } catch (err) {
         console.error('Failed to load catalog hierarchy:', err);
       }
@@ -746,13 +762,13 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
 
     // Quick action buttons
     function actionQueryInterlocks() {
-      const tag = window.selectedCatalogTag || 'E-2303';
+      const tag = getSelectedOrFirstTag();
       const prompt = 'What trip protections and SIS interlocks protect ' + tag + '?';
       setQueryAndRun(prompt);
     }
 
     function actionQueryInstruments() {
-      const tag = window.selectedCatalogTag || 'E-2303';
+      const tag = getSelectedOrFirstTag();
       const prompt = 'How many instruments are connected to ' + tag + '?';
       setQueryAndRun(prompt);
     }
@@ -768,7 +784,7 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
     }
 
     function actionRunHazopDeviation(param) {
-      const tag = window.selectedCatalogTag || 'E-2303';
+      const tag = getSelectedOrFirstTag();
       let dev = 'Temperature — High Temperature';
       let cause = 'Steam control valve fail open or loss of quench';
       if (param === 'Flow') {
@@ -786,7 +802,7 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
     }
 
     function actionRunHazop() {
-      const tag = window.selectedCatalogTag || 'E-2303';
+      const tag = getSelectedOrFirstTag();
       // Select natural default for equipment category if main button clicked directly
       if (tag.startsWith('P-')) {
         actionRunHazopDeviation('Flow');
@@ -798,7 +814,7 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
     }
 
     function actionQueryPid() {
-      const tag = window.selectedCatalogTag || 'E-2303';
+      const tag = getSelectedOrFirstTag();
       const prompt = 'Show certified As-Built P&ID drawing and provenance for ' + tag;
       setQueryAndRun(prompt);
     }
@@ -842,21 +858,7 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
         }
       }
 
-      // 2. Comprehensive fallback known tags across all units
-      const knownTags = [
-        'P-2301A/B', 'P-2302A/B', 'P-2303A/B', 'P-2305A/B/C/D/E/F', 'P-2306A/B', 'P-2307A/B', 'P-2308A/B',
-        'P-2301A', 'P-2301B', 'P-2302A', 'P-2302B', 'P-2303A', 'P-2303B', 'P-2306A', 'P-2306B', 'P-2307A', 'P-2307B',
-        'E-2303', 'E-2301', 'E-2302', 'E-2304', 'E-2305', 'E-2306', 'E-2307', 'E-2308', 'E-2309', 'E-2310', 'E-2311', 'E-2312',
-        'V-2301', 'V-2302', 'V-2201', 'V-2101', 'V-2102', 'V-2103', 'V-2104',
-        'D-2301', 'D-2302', 'D-2303', 'D-2304', 'D-2305', 'D-2306', 'D-2121', 'D-2122', 'D-2201', 'D-2202', 'D-2203', 'D-2204A/B/C', 'D-2205', 'D-2206', 'D-2207', 'D-2208',
-        'OX-2201', 'OX-2202', 'OX-2203', 'OX-2204', 'X-2301', 'X-2302A/B', 'X-2303', 'X-2304', 'X-2305',
-        'UXV-0501', 'UXV-0502', 'TXSHH-0502A', 'TXSHH-0502B'
-      ];
-      knownTags.sort((a, b) => b.length - a.length);
-      for (const t of knownTags) {
-        if (pUpper.includes(t)) return t;
-      }
-      return window.selectedCatalogTag || 'E-2303';
+      return getSelectedOrFirstTag();
     }
 
     function renderMarkdownSafe(element, text) {
@@ -873,48 +875,37 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
       }
     }
 
-    function updateLineageDocsForTag(tag) {
+    async function updateLineageDocsForTag(tag) {
+      if (!tag) return;
       const lineageDrawing = document.getElementById('lineage-drawing');
       const lineageStatus = document.getElementById('lineage-status');
       const wikiBox = document.getElementById('wiki-content-box');
 
-      const docMap = {
-        'E-2303': {
-          drawing: '14780-8120-25-23-0005_Z1.pdf',
-          status: 'Approved Rev Z1',
-          wiki: '<p><b>Thermal Runaway Kinetics:</b> Cumene Hydroperoxide (CHP) decomposition is exothermic (&Delta;H = -252 kJ/mol). Above 80.0 °C, reaction enters runaway regime.</p><p><b>Heating Philosophy:</b> Preflash Feed Heater E-2303 utilizes SC1.5 low pressure saturated steam to trim temperature to 83.0 °C before column V-2301.</p>'
-        },
-        'V-2301': {
-          drawing: '14780-8120-25-23-0004_Z1.pdf',
-          status: 'Approved Rev Z1',
-          wiki: '<p><b>Vacuum Column Operation:</b> V-2301 operates under vacuum (300 mmHgA) to flash cumene overhead at reduced temperatures preventing thermal degradation.</p>'
-        },
-        'P-2301A': {
-          drawing: '14780-8120-25-23-0002_Z1.pdf',
-          status: 'Approved Rev Z1',
-          wiki: '<p><b>Feed Pump Safeguards:</b> P-2301A/B transfers oxidate from quench drum to preflash heater. Minimum flow protection via bypass orifice to prevent deadheading.</p>'
-        },
-        'P-2301B': {
-          drawing: '14780-8120-25-23-0002_Z1.pdf',
-          status: 'Approved Rev Z1',
-          wiki: '<p><b>Feed Pump Safeguards:</b> P-2301A/B transfers oxidate from quench drum to preflash heater. Minimum flow protection via bypass orifice to prevent deadheading.</p>'
-        },
-        'D-2304': {
-          drawing: '14780-8120-25-23-0006_Z1.pdf',
-          status: 'Approved Rev Z1',
-          wiki: '<p><b>Cleavage Surge Vessel:</b> D-2304 maintains surge volume for cleavage reactor circulation. High level trips acid feed pumps immediately.</p>'
+      if (lineageStatus) lineageStatus.textContent = 'Querying Dataplex Lineage...';
+
+      try {
+        const res = await fetch(`/api/v1/catalog/lineage?tag=${encodeURIComponent(tag)}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (lineageDrawing) lineageDrawing.textContent = data.drawing || `${tag}_P&ID.pdf`;
+          if (lineageStatus) lineageStatus.textContent = data.drawing_status || 'Approved Rev Z1';
+          if (wikiBox) {
+            const markdown = data.wiki_markdown;
+            if (markdown && typeof marked !== 'undefined' && marked && typeof marked.parse === 'function') {
+              wikiBox.innerHTML = marked.parse(markdown);
+            } else if (markdown) {
+              wikiBox.textContent = markdown;
+            } else {
+              wikiBox.innerHTML = `<p><b>${escapeHtml(data.name || tag)}</b>: Governed by PTTEP OEMS-005 Process Safety Information standards.</p>`;
+            }
+          }
+        } else {
+          if (lineageStatus) lineageStatus.textContent = 'Lineage Pending';
         }
-      };
-
-      const doc = docMap[tag] || {
-        drawing: `14780-8120-25-23-${(tag || '').replace(/[^0-9]/g, '') || '0001'}_Z1.pdf`,
-        status: 'Approved Rev Z1',
-        wiki: `<p><b>Safety Specification for ${escapeHtml(tag)}:</b> Governed by PTTEP OEMS-005 Process Safety Information standards. Active interlocks certified under IEC 61511 Functional Safety.</p>`
-      };
-
-      if (lineageDrawing) lineageDrawing.textContent = doc.drawing;
-      if (lineageStatus) lineageStatus.textContent = doc.status;
-      if (wikiBox) wikiBox.innerHTML = doc.wiki;
+      } catch (err) {
+        console.warn('Failed to fetch lineage docs:', err);
+        if (lineageStatus) lineageStatus.textContent = 'Lineage Offline';
+      }
     }
 
     function renderCompletedToolCard(tool, container) {
@@ -1107,7 +1098,7 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
       }
 
       // 5. Spanner Graph Target
-      const tag = turn.graphTarget || turn.targetTag || 'E-2303';
+      const tag = turn.graphTarget || turn.targetTag || getSelectedOrFirstTag();
       const scopeLabel = document.getElementById('graph-scope-label');
       if (scopeLabel) scopeLabel.textContent = `Target: ${tag} (Turn #${turn.turnNumber})`;
       window.selectedCatalogTag = tag;

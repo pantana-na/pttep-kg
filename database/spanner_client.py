@@ -10,7 +10,8 @@ from google.cloud import spanner
 from google.cloud.spanner_v1.param_types import Array, FLOAT64, STRING, INT64
 from database.models import (
     EquipmentModel, UnitModel, InstrumentModel, ChemicalHazardModel,
-    EquipmentFlowEdge, InstrumentActuationEdge, HazopNodeModel, NodeEquipmentEdge
+    EquipmentFlowEdge, InstrumentActuationEdge, HazopNodeModel, NodeEquipmentEdge,
+    DeviationModel, CauseModel, ConsequenceModel, SafeguardModel, ActionItemModel
 )
 
 
@@ -180,7 +181,66 @@ class SpannerDatabaseClient:
                 for r in map_rows
             ]
 
-            print(f"[SPANNER CLIENT] Cache initialized from live Spanner: {len(self.equipment)} equipment, {len(self.instruments)} instruments, {len(self.equipment_flows)} flow edges, {len(self.hazop_nodes)} HAZOP nodes, {len(self.node_equipment_map)} node mappings.")
+            # 8. Deviations
+            with self.database.snapshot() as snapshot:
+                dev_rows = list(snapshot.execute_sql(
+                    "SELECT DeviationId, NodeId, Parameter, Guideword, DeviationLabel, SequenceNumber FROM Deviations"
+                ))
+            for r in dev_rows:
+                self.deviations[r[0]] = DeviationModel(
+                    deviation_id=r[0], node_id=r[1], parameter=r[2], guideword=r[3], deviation_label=r[4], sequence_number=r[5]
+                )
+
+            # 9. Causes
+            with self.database.snapshot() as snapshot:
+                cau_rows = list(snapshot.execute_sql(
+                    "SELECT CauseId, DeviationId, EquipmentTag, Description FROM Causes"
+                ))
+            for r in cau_rows:
+                self.causes[r[0]] = CauseModel(
+                    cause_id=r[0], deviation_id=r[1], equipment_tag=r[2], description=r[3]
+                )
+
+            # 10. Consequences
+            with self.database.snapshot() as snapshot:
+                cq_rows = list(snapshot.execute_sql(
+                    "SELECT ConsequenceId, CauseId, CausalChain, SeverityPeople, SeverityEnvironment, "
+                    "SeverityEconomic, SeveritySocial, InitialLikelihood, InitialRiskRating FROM Consequences"
+                ))
+            for r in cq_rows:
+                self.consequences[r[0]] = ConsequenceModel(
+                    consequence_id=r[0], cause_id=r[1], causal_chain=r[2],
+                    severity_people=r[3], severity_environment=r[4], severity_economic=r[5],
+                    severity_social=r[6], initial_likelihood=r[7], initial_risk_rating=r[8]
+                )
+
+            # 11. Safeguards
+            with self.database.snapshot() as snapshot:
+                sg_rows = list(snapshot.execute_sql(
+                    "SELECT SafeguardId, ConsequenceId, InstrumentTag, Description, IsInterlockEsd, IplCreditLevel FROM Safeguards"
+                ))
+            for r in sg_rows:
+                self.safeguards[r[0]] = SafeguardModel(
+                    safeguard_id=r[0], consequence_id=r[1], instrument_tag=r[2],
+                    description=r[3], is_interlock_esd=r[4], ipl_credit_level=r[5]
+                )
+
+            # 12. ActionItems
+            with self.database.snapshot() as snapshot:
+                act_rows = list(snapshot.execute_sql(
+                    "SELECT ActionId, ConsequenceId, NodeId, RecommendationText, RiskRank, Discipline, "
+                    "OwnerType, Owner, DueDate, Status, MitigatedLikelihood, MitigatedRiskRating, "
+                    "ResidualLikelihood, ResidualRiskRating FROM ActionItems"
+                ))
+            for r in act_rows:
+                self.action_items[r[0]] = ActionItemModel(
+                    action_id=r[0], consequence_id=r[1], node_id=r[2], recommendation_text=r[3],
+                    risk_rank=r[4], discipline=r[5], owner_type=r[6], owner=r[7],
+                    due_date=r[8], status=r[9], mitigated_likelihood=r[10],
+                    mitigated_risk_rating=r[11], residual_likelihood=r[12], residual_risk_rating=r[13]
+                )
+
+            print(f"[SPANNER CLIENT] Cache initialized from live Spanner: {len(self.equipment)} equipment, {len(self.instruments)} instruments, {len(self.equipment_flows)} flow edges, {len(self.hazop_nodes)} HAZOP nodes, {len(self.deviations)} deviations, {len(self.safeguards)} safeguards.")
         except Exception as e:
             print(f"[SPANNER CLIENT NOTICE] Failed to cache from Spanner: {e}")
 

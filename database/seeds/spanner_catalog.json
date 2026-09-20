@@ -166,6 +166,14 @@
     },
     {
       "node_id": "CDN-N03",
+      "equipment_tag": "E-2304"
+    },
+    {
+      "node_id": "CDN-N03",
+      "equipment_tag": "P-2301A/B"
+    },
+    {
+      "node_id": "CDN-N03",
       "equipment_tag": "D-2304"
     },
     {

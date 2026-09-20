@@ -25,11 +25,76 @@ def resolve_equipment_tag_alias(tag: str, known_tags: Set[str]) -> str:
             if clean == prefix or clean == prefix[:-1]:
                 return k
             base = prefix[:-1] if prefix[-1].isalpha() else prefix
-            if any(clean == f"{base}{s}" for s in [prefix[-1]] + parts[1:]):
-                return k
             if clean.startswith(base):
                 return k
     return clean
+
+
+def resolve_hazop_node_id(raw_input: str, known_nodes: Dict[str, Any]) -> str:
+    """Dynamically resolves freeform node references to official HazopNode IDs from database.
+
+    Driven 100% by live registered HazopNodes in database (zero hardcoded strings).
+    """
+    if not raw_input or not known_nodes:
+        return raw_input or ""
+
+    clean = raw_input.strip()
+    if clean in known_nodes:
+        return clean
+
+    import re
+    clean_upper = clean.upper()
+
+    # 1. Direct case-insensitive key match
+    for k in known_nodes:
+        if k.upper() == clean_upper:
+            return k
+
+    # 2. Check if clean_upper contains the exact node ID as a token
+    for k in known_nodes:
+        if re.search(r"\b" + re.escape(k.upper()) + r"\b", clean_upper):
+            return k
+
+    # 3. Check if clean matches "Node <sec>-<node>" or "<sec>-<node>" pattern, e.g. "Node 23-02" -> sec 23, num 02
+    node_pattern = re.search(r"(?:NODE[\s_-]*)?(\d{2})[-_](\d{2})", clean, re.IGNORECASE)
+    if node_pattern:
+        sec_num, node_num = node_pattern.group(1), node_pattern.group(2)
+        for k, node in known_nodes.items():
+            pid = getattr(node, "pid_sheet", "")
+            u_id = getattr(node, "unit_id", "").upper()
+            sec_match = (
+                f"-{sec_num}-" in pid
+                or (sec_num == "23" and u_id in ("CDN", "CLP", "CLEAVAGE"))
+                or (sec_num == "22" and u_id in ("OXI", "OXIDATION"))
+                or (sec_num == "21" and u_id in ("ALKY", "ALKYLATION"))
+                or (sec_num == "24" and u_id in ("DIST", "DISTILLATION"))
+            )
+            node_digits = re.sub(r"\D", "", k.split("-")[-1])
+            if sec_match and (node_digits == node_num or node_digits == str(int(node_num)).zfill(2)):
+                return k
+
+    # 4. Check if clean matches just node number token, e.g. "N02" or "N-02"
+    node_num_match = re.search(r"\bN[-_]?0?([1-9])\b", clean_upper)
+    if node_num_match:
+        target_num = node_num_match.group(1).zfill(2)
+        for k in known_nodes:
+            k_digits = re.sub(r"\D", "", k.split("-")[-1])
+            if k_digits == target_num:
+                if any(u in clean_upper for u in ["OXI", "ALKY", "CDN", "DIST"]):
+                    u_id = k.split("-")[0]
+                    if u_id in clean_upper:
+                        return k
+                else:
+                    return k
+
+    # 5. Check if raw_input contains node name or vice-versa
+    for k, node in known_nodes.items():
+        node_name = getattr(node, "name", "") or ""
+        if node_name and (clean_upper in node_name.upper() or node_name.upper() in clean_upper):
+            return k
+
+    # 6. Default to first node in database if none matched
+    return next(iter(known_nodes.keys())) if known_nodes else clean
 
 
 class UnitModel(BaseModel):

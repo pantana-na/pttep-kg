@@ -7,6 +7,7 @@ SPEC-20260831-HAZOP-MARKUP-INGESTION-AND-STUDY-LIFECYCLE.
 """
 
 import os
+import re
 import json
 from pathlib import Path
 from typing import Dict, Any, List, Optional
@@ -22,6 +23,7 @@ from app.hazop.ram_evaluator import (
     calculate_ipl_credit
 )
 from app.hazop.excel_exporter import export_hazop_study_to_excel
+from database.models import resolve_hazop_node_id, resolve_equipment_tag_alias
 
 
 class HazopStudyAgent:
@@ -57,76 +59,90 @@ class HazopStudyAgent:
         """Parses marked-up P&ID PDF and hydrates side-by-side design/operating conditions from wiki."""
         node_def = self.markup_parser.extract_node_markup(pdf_path_or_bytes, filename)
         
-        # Hydrate operating parameters for included equipment tags
-        params = []
-        for tag in node_def["equipment_tags"]:
-            # Query db for equipment details
-            eq = self.db.equipment.get(tag, {})
-            if hasattr(eq, "unit"):
-                unit = eq.unit
-                desc = getattr(eq, "name", getattr(eq, "description", tag))
-            elif isinstance(eq, dict):
-                unit = eq.get("unit", node_def["unit"])
-                desc = eq.get("name", eq.get("description", tag))
-            else:
-                unit = node_def["unit"]
-                desc = tag
-            
-            # Default / realistic operating limits from wiki knowledge base
-            if "2302" in tag:
-                params.append({
-                    "tag": f"{tag} tube",
-                    "stream": "Fresh oxidate feed (CHP ~22.6 wt%)",
-                    "design_condition": "12 kg/cm²g / FV @ 83→120 °C",
-                    "operating_condition": "~82–83 °C; feed flow part of S229 1,076,643 kg/h total",
-                    "source": f"{tag}; PFD-0001"
-                })
-                params.append({
-                    "tag": f"{tag} shell",
-                    "stream": "Hot OXI recirculate (CHP-containing)",
-                    "design_condition": "3.5 kg/cm²g / FV @ 195/250 °C",
-                    "operating_condition": "hot recirculate from OXI",
-                    "source": f"{tag}"
-                })
-            elif "2303" in tag:
-                params.append({
-                    "tag": f"{tag} shell",
-                    "stream": "Oxidate (process, CHP)",
-                    "design_condition": "3.5 kg/cm²g / FV @ 195/250 °C",
-                    "operating_condition": "in ~82 °C → out ~83 °C target to V-2301",
-                    "source": f"{tag}"
-                })
-                params.append({
-                    "tag": f"{tag} tube",
-                    "stream": "SC1.5 steam",
-                    "design_condition": "7 kg/cm²g / FV @ 120/195 °C",
-                    "operating_condition": "SC1.5 steam, ~120–133 °C sat.",
-                    "source": f"{tag}"
-                })
-            elif "2304" in tag:
-                params.append({
-                    "tag": f"{tag} shell",
-                    "stream": "Concentrated CHP (~80-85 wt%)",
-                    "design_condition": "3.5 kg/cm²g / FV @ 195 °C",
-                    "operating_condition": "60–75 °C reboil liquid",
-                    "source": f"{tag}"
-                })
-            elif "2308" in tag:
-                params.append({
-                    "tag": tag,
-                    "stream": "Steam condensate",
-                    "design_condition": "INT 7 kg/cm²g / FV @ 195 °C",
-                    "operating_condition": "0.9 kg/cm²g / 117 °C; NLL 550 mm",
-                    "source": tag
-                })
-            else:
-                params.append({
-                    "tag": tag,
-                    "stream": desc,
-                    "design_condition": "Design limit per data sheet",
-                    "operating_condition": "Normal operating envelope",
-                    "source": f"wiki/equipment/{tag}.md"
-                })
+        # 1. First check if node has a verified operating parameters table in its wiki document
+        node_id = node_def.get("node_id", "")
+        wiki_candidates = sorted(
+            Path("wiki/hazop/nodes").glob(f"*{node_id.lower()}*.md"),
+            key=lambda p: (0 if p.name.startswith("cdn-N") else 1, p.stat().st_size),
+            reverse=True
+        )
+        wiki_params = []
+        if wiki_candidates:
+            text = wiki_candidates[0].read_text(encoding="utf-8")
+            table_match = re.search(r"## Normal Operating Parameters[^\n]*\n+([\s\S]*?)(?:\n##|\Z)", text)
+            if table_match:
+                table_text = table_match.group(1).strip()
+                for line in table_text.splitlines():
+                    if not line.startswith("|") or "---" in line or "Stream" in line or "Design Condition" in line:
+                        continue
+                    cols = [c.strip() for c in line.split("|")[1:-1]]
+                    if len(cols) >= 4:
+                        raw_tag = cols[0].replace("**", "").strip()
+                        stream = cols[1].strip()
+                        design_cond = cols[2].strip()
+                        oper_cond = cols[3].strip()
+                        src = cols[4].strip() if len(cols) > 4 else "Wiki"
+                        wiki_params.append({
+                            "tag": raw_tag,
+                            "stream": stream,
+                            "design_condition": design_cond,
+                            "operating_condition": oper_cond,
+                            "source": src
+                        })
+
+        if wiki_params:
+            params = wiki_params
+        else:
+            # 2. Hydrate operating parameters for included equipment tags directly from db.equipment
+            params = []
+            for tag in node_def["equipment_tags"]:
+                eq = self.db.equipment.get(tag)
+                if not eq:
+                    resolved = resolve_equipment_tag_alias(tag, set(self.db.equipment.keys()))
+                    eq = self.db.equipment.get(resolved)
+
+                desc = getattr(eq, "name", tag) if eq else tag
+                oper_t = getattr(eq, "operating_temp_celsius", None)
+                oper_p = getattr(eq, "operating_pressure_barg", None)
+                des_t = getattr(eq, "design_temp_celsius", None)
+                des_p = getattr(eq, "design_pressure_barg", None)
+                doc_src = getattr(eq, "markdown_uri", None) or f"Drawing / Wiki: {tag}"
+                eq_type = getattr(eq, "type", "")
+
+                oper_str = (
+                    f"~{oper_t} °C @ {oper_p} barg"
+                    if oper_t is not None and oper_p is not None
+                    else (f"~{oper_t} °C" if oper_t is not None else "Normal operating envelope")
+                )
+                des_str = (
+                    f"{des_p} barg / FV @ {des_t} °C"
+                    if des_p is not None and des_t is not None
+                    else (f"{des_p} barg" if des_p is not None else "Design limit per data sheet")
+                )
+
+                if eq_type == "HeatExchanger" or tag.startswith("E-"):
+                    params.append({
+                        "tag": f"{tag} tube",
+                        "stream": f"{desc} (tube side)",
+                        "design_condition": des_str,
+                        "operating_condition": oper_str,
+                        "source": doc_src
+                    })
+                    params.append({
+                        "tag": f"{tag} shell",
+                        "stream": f"{desc} (shell side)",
+                        "design_condition": des_str,
+                        "operating_condition": oper_str,
+                        "source": doc_src
+                    })
+                else:
+                    params.append({
+                        "tag": tag,
+                        "stream": desc,
+                        "design_condition": des_str,
+                        "operating_condition": oper_str,
+                        "source": doc_src
+                    })
 
         node_def["parameters"] = params
         return node_def
@@ -199,184 +215,156 @@ status: CONFIRMED by engineer; ready for interactive deviation review
         equipment_tag: str,
         deviation_type: str = "Flow"
     ) -> List[Dict[str, Any]]:
-        """HITL Gate 2: Proposes existing safeguards and calculated IPL credits."""
+        """HITL Gate 2: Proposes existing safeguards and calculated IPL credits directly from database."""
+        # 1. Query interlocks from graph
+        interlocks = self.db.graph_find_interlocks(equipment_tag)
         safeguards = []
-        if "2302" in equipment_tag or "2303" in equipment_tag:
+        for it in interlocks:
+            sil = it.get("sil_rating", "SIL 1")
+            voting = it.get("voting_logic", "1oo1")
+            act = it.get("interlock_action", "Trip")
+            tag = it.get("instrument_tag", "")
+            ipl_credit = 2 if "SIL 2" in sil else (1 if "SIL 1" in sil else 0)
             safeguards.append({
-                "description": "TXSHH-0501 (1oo1, SIL 1) trips UC-2301 steam supply",
+                "description": f"{tag} ({voting}, {sil}) {act}",
                 "il_esd": "Yes",
-                "sil_rating": "SIL 1",
-                "is_ipl": True,
-                "ipl_credit": 1
+                "sil_rating": sil,
+                "is_ipl": ipl_credit > 0,
+                "ipl_credit": ipl_credit
             })
-            safeguards.append({
-                "description": "TXSHH-0502A/B (1oo2, SIL 1) trips UXV-0501 and UXV-0502",
-                "il_esd": "Yes",
-                "sil_rating": "SIL 1",
-                "is_ipl": True,
-                "ipl_credit": 1
-            })
-            safeguards.append({
-                "description": "FXSLL-0401A/B/C (2oo3, SIL 1) low oxidate feed trip",
-                "il_esd": "Yes",
-                "sil_rating": "SIL 1",
-                "is_ipl": True,
-                "ipl_credit": 1
-            })
-        elif "2304" in equipment_tag or "2301" in equipment_tag:
-            safeguards.append({
-                "description": "LXSHH-0802 (1oo1) Flash Col bottoms low level trip",
-                "il_esd": "Yes",
-                "sil_rating": "SIL 1",
-                "is_ipl": True,
-                "ipl_credit": 1
-            })
-            safeguards.append({
-                "description": "TXSHH-0805A/B (1oo2, SIL 2) Flash Col bottom over-temp trip",
-                "il_esd": "Yes",
-                "sil_rating": "SIL 2",
-                "is_ipl": True,
-                "ipl_credit": 2
-            })
-        else:
-            safeguards.append({
-                "description": "TIC high temperature alarm (BPCS)",
-                "il_esd": "No",
-                "sil_rating": "None",
-                "is_ipl": False,
-                "ipl_credit": 0
-            })
+
+        # 2. Query relational safeguards associated with equipment tag from causes/consequences
+        matching_causes = [
+            c for c in self.db.causes.values()
+            if getattr(c, "equipment_tag", "") == equipment_tag
+        ]
+        seen_desc = set(s["description"] for s in safeguards)
+        for c in matching_causes:
+            c_conseqs = [cq for cq in self.db.consequences.values() if getattr(cq, "cause_id", "") == getattr(c, "cause_id", "")]
+            for cq in c_conseqs:
+                c_sgs = [sg for sg in self.db.safeguards.values() if getattr(sg, "consequence_id", "") == getattr(cq, "consequence_id", "")]
+                for sg in c_sgs:
+                    desc = getattr(sg, "description", "")
+                    if desc and desc not in seen_desc:
+                        seen_desc.add(desc)
+                        is_esd = getattr(sg, "is_interlock_esd", False)
+                        ipl = getattr(sg, "ipl_credit_level", 1 if is_esd else 0)
+                        safeguards.append({
+                            "description": desc,
+                            "il_esd": "Yes" if is_esd else "No",
+                            "sil_rating": "SIL 1" if is_esd else "None",
+                            "is_ipl": ipl > 0,
+                            "ipl_credit": ipl
+                        })
 
         return safeguards
 
     def discover_node_risks(self, node_id: str, equipment_tags: Optional[List[str]] = None) -> List[Dict[str, Any]]:
-        """Discovers and populates all candidate deviations, causes, and safeguards for a confirmed node."""
-        tags = equipment_tags or []
-        is_node_03 = "03" in node_id or "2304" in "".join(tags) or "P-2301" in "".join(tags)
+        """Discovers and populates all candidate deviations, causes, and safeguards for a node directly from database."""
+        # 1. Resolve normalized node ID dynamically against registered database HAZOP nodes
+        target_nid = resolve_hazop_node_id(node_id, self.db.hazop_nodes)
+
+        # 2. Query all Deviations for target node from db
+        matching_devs = [
+            d for d in self.db.deviations.values()
+            if getattr(d, "node_id", "") == target_nid
+        ]
+        # If no deviations match exact target_nid, try fallback match on node_id substring or equipment tag map
+        if not matching_devs:
+            matching_devs = [
+                d for d in self.db.deviations.values()
+                if getattr(d, "node_id", "") in target_nid or target_nid in getattr(d, "node_id", "")
+            ]
+
+        matching_devs.sort(key=lambda d: getattr(d, "sequence_number", 0))
 
         discovered = []
-        if not is_node_03:
-            # Node CDN-N02 (Preflash Column Feed-Heating / Steam-Condensate Circuit)
-            discovered = [
-                {
-                    "ref": "1.1.1",
-                    "parameter": "Flow",
-                    "deviation": "Flow — No / Low Flow",
-                    "cause": "FCV-0501 fails closed on oxidate feed to E-2303",
-                    "consequence": "Stagnant CHP in E-2303 overheats >80°C -> thermal decomposition runaway",
-                    "wo_p": 5, "wo_en": 4, "wo_ec": 5, "wo_s": 4, "wo_l": 4,
-                    "available_safeguards": [
-                        {"description": "TXSHH-0501 (1oo1, SIL 1) trips UC-2301 steam supply", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True},
-                        {"description": "TXSHH-0502A/B (1oo2, SIL 1) trips UXV-0501 and UXV-0502", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True},
-                        {"description": "FXSLL-0401A/B/C (2oo3, SIL 1) low oxidate feed trip", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": False},
-                        {"description": "TIC-0501 high temperature alarm in DCS (BPCS)", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-                    ]
-                },
-                {
-                    "ref": "1.2.1",
-                    "parameter": "Flow",
-                    "deviation": "Flow — More Flow",
-                    "cause": "FV-2302 control valve fails open on oxidate feed to Preflash Column V-2301",
-                    "consequence": "Preflash column V-2301 flooded -> liquid carryover to overhead condensation system",
-                    "wo_p": 3, "wo_en": 2, "wo_ec": 4, "wo_s": 3, "wo_l": 3,
-                    "available_safeguards": [
-                        {"description": "FAH-2302 high feed flow alarm in DCS (BPCS)", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True},
-                        {"description": "LAH-2301 V-2301 high level alarm in DCS", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True},
-                        {"description": "LSHH-2301 trips feed isolation XV-2301 (SIL 1)", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True}
-                    ]
-                },
-                {
-                    "ref": "2.1.1",
-                    "parameter": "Temperature",
-                    "deviation": "Temperature — High Temperature",
-                    "cause": "SC1.5 steam control valve TV-0501 fails open to E-2303 vaporizer",
-                    "consequence": "Tube skin temp exceeds 120°C -> accelerates local CHP decomposition runaway",
-                    "wo_p": 4, "wo_en": 3, "wo_ec": 4, "wo_s": 3, "wo_l": 4,
-                    "available_safeguards": [
-                        {"description": "TXSHH-0502A/B (1oo2, SIL 1) trips steam supply UXV-0501/0502", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True},
-                        {"description": "TAH-0501 DCS high temperature alarm (BPCS)", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-                    ]
-                },
-                {
-                    "ref": "3.1.1",
-                    "parameter": "Pressure",
-                    "deviation": "Pressure — High Pressure",
-                    "cause": "Isolation valve closed downstream of E-2303 while heating applied",
-                    "consequence": "Hydraulic thermal expansion in tube/shell -> mechanical overpressure & flange leak",
-                    "wo_p": 4, "wo_en": 3, "wo_ec": 3, "wo_s": 3, "wo_l": 3,
-                    "available_safeguards": [
-                        {"description": "PSV-2303 thermal relief valve set at 12 kg/cm²g to closed flare header", "il_esd": "No", "sil_rating": "Relief", "is_ipl": True, "ipl_credit": 1, "selected": True},
-                        {"description": "PAH-2303 DCS high pressure alarm", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-                    ]
-                },
-                {
-                    "ref": "4.1.1",
-                    "parameter": "Level",
-                    "deviation": "Level — Low Level",
-                    "cause": "Condensate collection vessel D-2308 level control LV-2308 fails open",
-                    "consequence": "Steam blow-through to condensate header -> severe water hammer & piping vibration",
-                    "wo_p": 3, "wo_en": 1, "wo_ec": 3, "wo_s": 2, "wo_l": 4,
-                    "available_safeguards": [
-                        {"description": "LSL-2308 low level switch trips condensate pump P-2308A/B (SIL 1)", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True},
-                        {"description": "LAL-2308 low level alarm in DCS (BPCS)", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-                    ]
-                }
-            ]
-        else:
-            # Node CDN-N03 (Flash Column Vaporizer & Concentrated Bottoms Circuit)
-            discovered = [
-                {
-                    "ref": "1.1.1",
-                    "parameter": "Flow",
-                    "deviation": "Flow — No / Low Flow",
-                    "cause": "P-2301A/B pump trip on V-2302 bottoms suction",
-                    "consequence": "Stagnant ~85 wt% concentrated CHP in E-2304 -> catastrophic thermal decomposition",
-                    "wo_p": 5, "wo_en": 5, "wo_ec": 5, "wo_s": 5, "wo_l": 4,
-                    "available_safeguards": [
-                        {"description": "TXSHH-0805A/B (1oo2, SIL 2) trips SC3 steam shutoff valves UXV-0701..0706", "il_esd": "Yes", "sil_rating": "SIL 2", "is_ipl": True, "ipl_credit": 2, "selected": True},
-                        {"description": "LXSHH-0802 (1oo1, SIL 1) trips reboiler SC3 steam supply", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True},
-                        {"description": "PAL-0801 low discharge pressure alarm in DCS", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-                    ]
-                },
-                {
-                    "ref": "2.1.1",
-                    "parameter": "Temperature",
-                    "deviation": "Temperature — High Temperature",
-                    "cause": "SC3 steam pressure regulator valve fails open to E-2304 vaporizer",
-                    "consequence": "E-2304 shell temp exceeds 75°C -> accelerated CHP decomposition and foaming",
-                    "wo_p": 5, "wo_en": 4, "wo_ec": 5, "wo_s": 4, "wo_l": 4,
-                    "available_safeguards": [
-                        {"description": "TXSHH-0805A/B (1oo2, SIL 2) trips UXV-0701..0706 within 2 sec", "il_esd": "Yes", "sil_rating": "SIL 2", "is_ipl": True, "ipl_credit": 2, "selected": True},
-                        {"description": "TAH-0804 reboiler exit high temperature alarm (BPCS)", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-                    ]
-                },
-                {
-                    "ref": "4.1.1",
-                    "parameter": "Level",
-                    "deviation": "Level — Low Level",
-                    "cause": "Flash Column V-2302 level control valve LV-0801 fails open to cleavage",
-                    "consequence": "V-2302 dryout -> E-2304 tubes lose liquid coverage -> severe skin overheating & fouling",
-                    "wo_p": 5, "wo_en": 4, "wo_ec": 4, "wo_s": 4, "wo_l": 3,
-                    "available_safeguards": [
-                        {"description": "LXSL-0801 (SIL 1) low level interlock trips steam UXV-0701..0706", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True},
-                        {"description": "LAL-0801 DCS low level alarm", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-                    ]
-                },
-                {
-                    "ref": "4.2.1",
-                    "parameter": "Level",
-                    "deviation": "Level — High Level",
-                    "cause": "Cleavage feed pump P-2301A/B trips while feed to V-2302 continues",
-                    "consequence": "V-2302 high level carryover into vacuum overhead condenser system",
-                    "wo_p": 4, "wo_en": 3, "wo_ec": 4, "wo_s": 3, "wo_l": 4,
-                    "available_safeguards": [
-                        {"description": "LSHH-0801 (1oo1, SIL 1) trips upstream feed isolation valve XV-0701", "il_esd": "Yes", "sil_rating": "SIL 1", "is_ipl": True, "ipl_credit": 1, "selected": True},
-                        {"description": "LAH-0801 DCS high level alarm", "il_esd": "No", "sil_rating": "None", "is_ipl": False, "ipl_credit": 0, "selected": True}
-                    ]
-                }
+        for dev in matching_devs:
+            dev_id = getattr(dev, "deviation_id", "")
+            param = getattr(dev, "parameter", "")
+            dev_label = getattr(dev, "deviation_label", "")
+            seq = getattr(dev, "sequence_number", 1)
+
+            # Find Causes
+            matching_causes = [
+                c for c in self.db.causes.values()
+                if getattr(c, "deviation_id", "") == dev_id
             ]
 
-        # Evaluate each row initially
+            cause_idx = 1
+            for cause in matching_causes:
+                c_id = getattr(cause, "cause_id", "")
+                c_desc = getattr(cause, "description", "")
+                c_eq = getattr(cause, "equipment_tag", "")
+
+                # Find Consequences
+                matching_conseqs = [
+                    cq for cq in self.db.consequences.values()
+                    if getattr(cq, "cause_id", "") == c_id
+                ]
+
+                conseq_idx = 1
+                for cq in matching_conseqs:
+                    cq_id = getattr(cq, "consequence_id", "")
+                    chain = getattr(cq, "causal_chain", "")
+                    p_sev = getattr(cq, "severity_people", 5)
+                    en_sev = getattr(cq, "severity_environment", 4)
+                    ec_sev = getattr(cq, "severity_economic", 5)
+                    s_sev = getattr(cq, "severity_social", 4)
+                    init_l = getattr(cq, "initial_likelihood", 4)
+
+                    # Find Safeguards
+                    matching_sgs = [
+                        sg for sg in self.db.safeguards.values()
+                        if getattr(sg, "consequence_id", "") == cq_id
+                    ]
+
+                    available_sgs = []
+                    active_ipl_count = 0
+                    for sg in matching_sgs:
+                        is_esd = getattr(sg, "is_interlock_esd", False)
+                        inst_tag = getattr(sg, "instrument_tag", "")
+                        inst_obj = self.db.instruments.get(inst_tag)
+                        sil = getattr(inst_obj, "sil_rating", "SIL 1") if is_esd else "None"
+                        ipl = getattr(sg, "ipl_credit_level", 1 if is_esd else 0)
+
+                        is_selected = True
+                        if ipl > 0:
+                            if active_ipl_count + ipl <= 2:
+                                is_selected = True
+                                active_ipl_count += ipl
+                            else:
+                                is_selected = False
+                        else:
+                            is_selected = True
+
+                        available_sgs.append({
+                            "description": getattr(sg, "description", ""),
+                            "il_esd": "Yes" if is_esd else "No",
+                            "sil_rating": sil,
+                            "is_ipl": ipl > 0,
+                            "ipl_credit": ipl,
+                            "selected": is_selected
+                        })
+
+                    row = {
+                        "ref": f"{seq}.{cause_idx}.{conseq_idx}",
+                        "parameter": param,
+                        "deviation": dev_label,
+                        "cause": c_desc,
+                        "consequence": chain,
+                        "wo_p": p_sev,
+                        "wo_en": en_sev,
+                        "wo_ec": ec_sev,
+                        "wo_s": s_sev,
+                        "wo_l": init_l,
+                        "available_safeguards": available_sgs
+                    }
+                    discovered.append(row)
+                    conseq_idx += 1
+                cause_idx += 1
+
+        # Evaluate each row
         evaluated_rows = []
         for r in discovered:
             eval_res = self.evaluate_row(r)
