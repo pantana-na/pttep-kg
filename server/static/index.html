@@ -507,13 +507,20 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
     window.selectedCatalogTag = 'E-2303';
     window.currentEventSource = null;
 
-    // Persistent Session Management
+    // Persistent Session Management (Hyphenated format required for Vertex AI Reasoning Engine)
     function getSessionId() {
       let s = localStorage.getItem('phenol_session_id');
-      if (!s) {
-        s = 'sess_' + Math.random().toString(36).substring(2, 10);
+      if (s) {
+        // Automatically migrate any legacy underscore format to hyphens
+        s = s.replace(/_/g, '-');
+        if (!s.startsWith('session-') && !s.startsWith('sess-')) {
+          s = 'session-' + s;
+        }
         localStorage.setItem('phenol_session_id', s);
+        return s;
       }
+      s = 'session-' + Math.random().toString(36).substring(2, 10);
+      localStorage.setItem('phenol_session_id', s);
       return s;
     }
 
@@ -532,12 +539,13 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
         });
         if (resp.ok) {
           const data = await resp.json();
-          localStorage.setItem('phenol_session_id', data.session_id);
+          const cleanId = (data.session_id || '').replace(/_/g, '-');
+          localStorage.setItem('phenol_session_id', cleanId);
         } else {
-          localStorage.setItem('phenol_session_id', 'sess_' + Math.random().toString(36).substring(2, 10));
+          localStorage.setItem('phenol_session_id', 'session-' + Math.random().toString(36).substring(2, 10));
         }
       } catch (e) {
-        localStorage.setItem('phenol_session_id', 'sess_' + Math.random().toString(36).substring(2, 10));
+        localStorage.setItem('phenol_session_id', 'session-' + Math.random().toString(36).substring(2, 10));
       }
       updateSessionPill();
 
@@ -803,7 +811,35 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
 
     function detectTargetTag(prompt) {
       const pUpper = (prompt || '').toUpperCase();
-      const knownTags = ['E-2303', 'V-2301', 'V-2302', 'D-2304', 'P-2301A/B', 'P-2301A', 'P-2301B', 'D-2306', 'UXV-0501', 'UXV-0502', 'TXSHH-0502A', 'TXSHH-0502B'];
+
+      // 1. Dynamic matching across all loaded catalog equipment
+      if (window.catalogData && window.catalogData.sections) {
+        const allTags = [];
+        for (const sec of window.catalogData.sections) {
+          for (const n of (sec.nodes || [])) {
+            for (const eq of (n.equipment || [])) {
+              if (eq.tag) allTags.push(eq.tag);
+            }
+          }
+        }
+        // Match longer compound tags first (e.g. P-2301A/B before P-2301A)
+        allTags.sort((a, b) => b.length - a.length);
+        for (const t of allTags) {
+          if (pUpper.includes(t.toUpperCase())) return t;
+        }
+      }
+
+      // 2. Comprehensive fallback known tags across all units
+      const knownTags = [
+        'P-2301A/B', 'P-2302A/B', 'P-2303A/B', 'P-2305A/B/C/D/E/F', 'P-2306A/B', 'P-2307A/B', 'P-2308A/B',
+        'P-2301A', 'P-2301B', 'P-2302A', 'P-2302B', 'P-2303A', 'P-2303B', 'P-2306A', 'P-2306B', 'P-2307A', 'P-2307B',
+        'E-2303', 'E-2301', 'E-2302', 'E-2304', 'E-2305', 'E-2306', 'E-2307', 'E-2308', 'E-2309', 'E-2310', 'E-2311', 'E-2312',
+        'V-2301', 'V-2302', 'V-2201', 'V-2101', 'V-2102', 'V-2103', 'V-2104',
+        'D-2301', 'D-2302', 'D-2303', 'D-2304', 'D-2305', 'D-2306', 'D-2121', 'D-2122', 'D-2201', 'D-2202', 'D-2203', 'D-2204A/B/C', 'D-2205', 'D-2206', 'D-2207', 'D-2208',
+        'OX-2201', 'OX-2202', 'OX-2203', 'OX-2204', 'X-2301', 'X-2302A/B', 'X-2303', 'X-2304', 'X-2305',
+        'UXV-0501', 'UXV-0502', 'TXSHH-0502A', 'TXSHH-0502B'
+      ];
+      knownTags.sort((a, b) => b.length - a.length);
       for (const t of knownTags) {
         if (pUpper.includes(t)) return t;
       }

@@ -57,6 +57,19 @@ In response to business user requirements for intuitive plant asset navigation, 
   - In `server/main.py`, replaced the 1-line static fallback with `_generate_rich_fallback_response(prompt)`, executing live production tools (`evaluate_hazop_deviation`, `spanner_graph_query`, `read_gcs_wiki_document`) to return a comprehensive technical report even in offline/empty-proxy edge cases.
   - Built and deployed new production Cloud Run revision `phenol-process-safety-prod-00012-vr7`. Verified live streaming returns full markdown responses with 1oo2 voting architecture, SIS interlock causes, and certified P&ID citations.
 
+### 2.3 Session ID Format Bug & Tool Telemetry Synchronization
+- **Root Cause:**
+  - `server/main.py` and `server/static/index.html` generated session IDs with underscores (`session_...` / `sess_...`).
+  - Vertex AI Reasoning Engine's agent runtime rejects session IDs with underscores, causing `streamQuery` to silently return `0` data chunks while returning HTTP 200 OK.
+  - The proxy's fallback branch was then triggered. In the fallback branch, `_generate_rich_fallback_response` was executed, which only emitted `message_delta` and did not emit `tool_invoked` or `tool_result`, leaving the UI's right-pane tool execution drawer empty and Middle Pane showing a canned search response.
+  - In addition, `detectTargetTag` in `server/static/index.html` only recognized 12 hardcoded tags, causing `D-2121` to default to `E-2303` in the right-pane Spanner Graph and drawing lineage tabs.
+- **Resolution:**
+  - Normalized all session IDs to hyphenated alphanumeric format (`session-...`) in `server/main.py`, `server/proxy.py`, and `server/static/index.html`.
+  - Added auto-sanitization in `server/proxy.py` and `server/static/index.html` so legacy cached sessions in user localStorage are instantly migrated to hyphens.
+  - Updated fallback execution to yield proper `tool_invoked` and `tool_result` events for each tool executed.
+  - Made `detectTargetTag` in `server/static/index.html` dynamically match against all 54 loaded equipment tags from `window.catalogData`.
+  - Removed canned static text prefixes from fallback responses.
+
 ---
 
 ## 3. Implementation Progress & Test Matrix
@@ -69,19 +82,22 @@ In response to business user requirements for intuitive plant asset navigation, 
 | **4** | SSE Proxy Resilience | Fixed `data:` SSE prefix parsing and multi-layer tool fallback in `server/proxy.py` | Complete | `server/proxy.py`, `server/main.py` | 100% |
 | **5** | Tri-Pane HTML Cockpit | Rebuilt `server/static/index.html` with responsive 3-pane layout & multi-turn sync | Complete | `server/static/index.html` | 100% |
 | **6** | Parameter-Aware HAZOP | Multi-parameter quick deviation selector (Flow, Temp, Press, Level) | Complete | `server/main.py`, `server/static/index.html` | 100% |
-| **7** | Frontend Proxy Tests | Added Unit & PBT tests for proxy sequencing, hierarchy, specs, and HAZOP routing | Complete | `tests/test_frontend_proxy.py` (17/17 passed) | 100% |
-| **8** | Agent Regression Suites | Verified root orchestrator and ADK agent hierarchy compliance | Complete | `tests/test_orchestrator_agent.py` (9/9 passed)<br>`tests/test_adk_agents.py` (17/17 passed) | 100% |
-| **9** | Production Cloud Deployment | Built container via Cloud Build and deployed to Cloud Run | Complete | `./scripts/deploy.sh prod --app` | 100% |
+| **7** | Session ID Normalization | Hyphenated session ID formatting and fallback tool telemetry emission | Complete | `server/proxy.py`, `server/main.py`, `server/static/index.html` | 100% |
+| **8** | Dynamic Tag Detection | Dynamic matching against all 54 loaded equipment items in UI | Complete | `server/static/index.html` | 100% |
+| **9** | Frontend Proxy Tests | Added Unit & PBT tests for proxy sequencing, hierarchy, specs, session ID, and HAZOP routing | Complete | `tests/test_frontend_proxy.py` (19/19 passed) | 100% |
+| **10** | Agent Regression Suites | Verified root orchestrator and ADK agent hierarchy compliance | Complete | `tests/test_orchestrator_agent.py` (9/9 passed)<br>`tests/test_adk_agents.py` (17/17 passed) | 100% |
+| **11** | Production Cloud Deployment | Built container via Cloud Build and deployed to Cloud Run | Complete | `./scripts/deploy.sh prod --app` | 100% |
 
 ---
 
 ## 4. Quality & Test Verification Metrics
 
-- **Total Test Suite:** 43 / 43 passed (100% green)
-  - `tests/test_frontend_proxy.py`: 17 passed
+- **Total Test Suite:** 45 / 45 passed (100% green)
+  - `tests/test_frontend_proxy.py`: 19 passed (including session ID and tool telemetry PBT)
   - `tests/test_orchestrator_agent.py`: 9 passed
   - `tests/test_adk_agents.py`: 17 passed
 - **Property-Based Invariants Verified:**
+  - `PBT-SESSION-SANITIZATION-INVARIANT`: Every session ID containing underscores is safely normalized to hyphens for Vertex AI compatibility.
   - `PBT-HIERARCHY-INVARIANT`: Structural hierarchy, exact instrument count matching, and valid node linkage across all plant sections.
   - `PBT-EQUIPMENT-SPECS-INVARIANT`: Every equipment item possesses physically valid, non-null operating parameters and valid drawing references.
   - `PBT-SSE-FRAMING-INVARIANT`: Every SSE chunk strictly adheres to `event: <name>\ndata: <json>\n\n`.

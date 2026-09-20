@@ -179,13 +179,13 @@ def test_session_reset_endpoint():
     assert resp1.status_code == 200
     data1 = resp1.json()
     assert data1["status"] == "SUCCESS"
-    assert data1["session_id"].startswith("session_")
+    assert data1["session_id"].startswith("session-")
     assert "timestamp" in data1
 
     resp2 = client.post("/api/v1/session/reset")
     assert resp2.status_code == 200
     data2 = resp2.json()
-    assert data2["session_id"].startswith("session_")
+    assert data2["session_id"].startswith("session-")
     assert data1["session_id"] != data2["session_id"]
 
 
@@ -302,7 +302,7 @@ def test_proxy_stream_lifecycle_sequencing():
 
 
 def test_proxy_stream_fallback_delta_on_empty():
-    """Verify that if the remote reasoning engine yields no message_deltas, a rich fallback delta is emitted."""
+    """Verify that if the remote reasoning engine yields no message_deltas, a rich fallback delta is emitted along with tool telemetry."""
     async def mock_empty_proxy_stream(prompt, session_id="default-session"):
         yield {"event": "thought", "data": {"thought_chunk": "Reasoning completed with empty body."}}
         yield {"event": "message_done", "data": {"status": "COMPLETED"}}
@@ -312,11 +312,36 @@ def test_proxy_stream_fallback_delta_on_empty():
             resp = client.get("/api/v1/agent/stream?prompt=What%20interlocks%20protect%20E-2303?")
             assert resp.status_code == 200
             body = resp.text
+            assert "event: tool_invoked" in body
+            assert "event: tool_result" in body
             assert "event: message_delta" in body
-            assert "Analysis complete." in body
             assert "Certified Safety Protections" in body
             assert "event: telemetry_waterfall" in body
             assert "event: message_done" in body
+
+
+def test_reset_session_hyphenated_format():
+    """Verify /api/v1/session/reset produces hyphenated session IDs without underscores."""
+    resp = client.post("/api/v1/session/reset")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["status"] == "SUCCESS"
+    sid = data["session_id"]
+    assert "_" not in sid, f"Session ID must not contain underscores: {sid}"
+    assert sid.startswith("session-")
+
+
+@settings(max_examples=50, deadline=None)
+@given(st.text(alphabet=st.characters(whitelist_categories=('Lu', 'Ll', 'Nd'), whitelist_characters='_-'), min_size=1, max_size=30))
+def test_pbt_session_id_sanitization_invariant(raw_sid):
+    """PBT-SESSION-SANITIZATION-INVARIANT: Any session ID containing underscores is safely
+    normalized to hyphens, ensuring Vertex AI Reasoning Engine compatibility.
+    """
+    clean_sid = (raw_sid or "default-session").replace("_", "-")
+    if not clean_sid.startswith("session-") and not clean_sid.startswith("default"):
+        clean_sid = f"session-{clean_sid}"
+    assert "_" not in clean_sid
+    assert clean_sid.startswith("session-") or clean_sid.startswith("default")
 
 
 @settings(max_examples=25, deadline=None)

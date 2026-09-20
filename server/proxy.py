@@ -85,11 +85,16 @@ class AgentPlatformProxy:
             "Content-Type": "application/json",
         }
         url = self._build_endpoint_url("streamQuery")
+        # Vertex AI Reasoning Engine requires hyphenated alphanumeric session IDs (rejects underscores)
+        clean_session_id = (session_id or "default-session").replace("_", "-")
+        if not clean_session_id.startswith("session-") and not clean_session_id.startswith("default"):
+            clean_session_id = f"session-{clean_session_id}"
+
         payload = {
             "class_method": "async_stream_query",
             "input": {
                 "user_id": "web-cockpit-user",
-                "session_id": session_id,
+                "session_id": clean_session_id,
                 "message": prompt,
             },
         }
