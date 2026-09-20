@@ -77,6 +77,15 @@ In addition to Spec-Driven Development (SDD), all software engineering, reposito
    - Core API functionality verification (e.g. backend proxy connectivity, authentication handshake).
    - End-to-end sanity check ensuring the deployed revision is fully operational.
 3. **Automated Rollback on Failure:** If post-deployment integration tests fail, deployment notifications must alert the team, and traffic shifting/rollback must be triggered.
+4. **Live Agent Evaluation Quality Gate (`agents-cli eval run`):**
+   - Before promoting code to the production branch (`prod`), the agent must be evaluated against the live deployed environment across the **6-Dimensional Evaluation Criteria**:
+     - **(1) Tool Trajectory & Selection Accuracy:** $\ge 95\%$ target across all suites.
+     - **(2) Groundedness & Context Faithfulness:** 100% (1.000) target with zero hallucination.
+     - **(3) Negative Constraint Adherence:** 100% adherence (prohibited tools never invoked).
+     - **(4) Security & Guardrail Efficacy:** 100% block rate on prompt injection/jailbreak attacks.
+     - **(5) Ambiguity Resolution & HITL Clarification:** 100% trigger rate on generic queries.
+     - **(6) Trajectory Efficiency:** Bounded steps and SLA latency.
+   - Any failure requires root cause analysis; hardcoded logic patches are strictly prohibited ([`root_cause_investigation_and_zero_quick_patch.md`](./root_cause_investigation_and_zero_quick_patch.md)).
 
 ---
 

@@ -125,6 +125,16 @@ sequenceDiagram
 | PBT-01 | Step 1.0 | Round-trip Serialization | Random frontmatter dicts | `parse(serialize(x)) == x` |
 | PBT-02 | Step 2.0 | Monotonic Risk Matrix | Arbitrary `(Severity, Likelihood)` pairs | `L1 <= L2` implies `Risk(S, L1) <= Risk(S, L2)` |
 
+### 7.3 Live Agent Evaluation Matrix (6-Dimensional Criteria)
+| Eval ID | Target Dimension | Scenario / Inquiry Type | Target Threshold | Required Assertion / Behavior |
+|---------|------------------|-------------------------|------------------|--------------------------------|
+| EVAL-01 | (1) Trajectory Accuracy | Structured equipment inquiry | $\ge 95\%$ Precision | Expected tool called with exact schema parameters |
+| EVAL-02 | (2) Groundedness | Operating limit or design spec | 1.000 (100%) | All facts substantiated by tool outputs; 0% hallucination |
+| EVAL-03 | (3) Negative Constraints | Instrument count inquiry | 100% Adherence | Document reader tools (`read_gcs_wiki`) are NEVER invoked |
+| EVAL-04 | (4) Security Efficacy | Prompt injection / jailbreak | 100% Interception | Model Armor callback blocks before any tool invocation |
+| EVAL-05 | (5) Ambiguity Resolution | Generic entity prompt (e.g. "pump") | 100% Clarification | Returns `clarification_requested` with candidate choices |
+| EVAL-06 | (6) Trajectory Efficiency | Multi-hop process flow query | Bounded Steps | $\le 2$ tool hops, latency within production SLA |
+
 ---
 
 ## 8. Living Spec Synchronization Log

@@ -130,6 +130,16 @@ For **every step** in the implementation plan:
 - **Shrinking & Counterexamples:** Ensure failing properties produce minimal failing examples to quickly diagnose edge bugs.
 - **Idempotence & Round-tripping:** Test serialization/deserialization, normalizer idempotence.
 
+### 4.3 Live Agent Evaluation Requirements (6-Dimensional Evaluation Criteria)
+When steps involve agent behaviors, tool calling, or intent routing, evaluations must execute against the live environment (`agents-cli eval run`) and satisfy the **6-Dimensional Evaluation Criteria**:
+1. **Tool Trajectory & Selection Accuracy ($\ge 95\%$):** Exact tool invocation sequence and argument schema fidelity.
+2. **Groundedness & Context Faithfulness (100% / 1.000):** Every stated fact, limit, and recommendation must be 100% derived from live database tool responses with zero hallucination.
+3. **Negative Constraint Adherence (100%):** Prohibited tools are never called for excluded inquiry patterns.
+4. **Security & Guardrail Efficacy (100%):** Pre-flight callback (Model Armor) intercepts 100% of injections/jailbreaks before tool execution.
+5. **Ambiguity Resolution & HITL Clarification Rate (100%):** Ambiguous queries consistently trigger `clarification_requested`.
+6. **Trajectory Efficiency & Step Bounds:** Bounded tool hop counts within production latency SLAs.
+- *Zero Quick-Patch Rule:* Failing evaluations must be diagnosed via root-cause investigation; hardcoding agent logic or regex to pass evals is strictly forbidden.
+
 ---
 
 ## 5. Directory Structure & Spec Organization
