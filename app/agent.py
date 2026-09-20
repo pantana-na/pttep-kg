@@ -39,20 +39,29 @@ MODEL_NAME = os.getenv("DEFAULT_MODEL", "gemini-3.8-flash")
 # =====================================================================
 
 def spanner_graph_query(target_tag: str, mode: str = "interlocks", max_depth: int = 3) -> str:
-    """Executes ISO standard GQL graph traversal on Cloud Spanner Property Graph (PhenolProcessSafetyGraph).
+    """Executes ISO standard GQL graph traversal and instrument inventory queries on Cloud Spanner.
 
-    Use this tool to inspect Safety Instrumented Systems (SIS), interlocks, trip setpoints,
-    voting logic (e.g. 1oo2, 2oo3), SIL ratings, or upstream equipment flow topology.
+    Use this tool to inspect:
+    1. Full physical field instrument inventory connected to / mounted on an equipment (mode='instruments').
+    2. Safety Instrumented Systems (SIS), interlocks, trip setpoints, voting logic, SIL ratings (mode='interlocks').
+    3. Upstream equipment flow topology and feed streams (mode='upstream').
 
     Args:
-        target_tag: Equipment or instrument tag (e.g. 'E-2303', 'V-2301', 'P-2301A', 'TXSHH-0502A').
+        target_tag: Equipment tag (e.g. 'E-2303', 'V-2301', 'P-2301A', 'P-2301A/B').
         mode: Query mode:
+              - 'instruments': Returns complete physical instrument inventory (total count, transmitters,
+                indicators, control valves, and SIS flags) connected to/mounted on the equipment.
+                ALWAYS use this mode when the user asks how many instruments are connected to an equipment,
+                what instruments are installed on an equipment, or asks for instrument count.
               - 'interlocks': Retrieves active SIS trips, voting logic (1oo2, 2oo3), SIL ratings,
                 initiating transmitters, and final control elements (valves/pumps).
               - 'upstream': Traces upstream process equipment and feed streams flowing into this tag.
         max_depth: Maximum graph traversal hop depth (default 3).
 
     When to use:
+        - User asks how many instruments or what instruments are connected to an equipment:
+          Example: "How many instruments connected to E-2303?" -> spanner_graph_query(target_tag="E-2303", mode="instruments")
+          Example: "List instruments on pump P-2301A" -> spanner_graph_query(target_tag="P-2301A", mode="instruments")
         - User asks about trips, interlocks, ESD, safety shutdown, voting logic, or SIL ratings for an equipment:
           Example: "What trip protections prevent runaway in E-2303?" -> spanner_graph_query(target_tag="E-2303", mode="interlocks")
           Example: "Show interlocks on pump P-2301A" -> spanner_graph_query(target_tag="P-2301A", mode="interlocks")
@@ -65,10 +74,11 @@ def spanner_graph_query(target_tag: str, mode: str = "interlocks", max_depth: in
         - DO NOT use if the user didn't specify an equipment tag and wants to search by text (use spanner_keyword_search).
 
     Returns:
-        JSON string detailing nodes, directed edges, voting logic, and trip actions.
+        JSON string detailing instruments, interlocks, voting logic, or upstream flow topology.
     """
     results = _spanner_mcp.spanner_graph_query(target_tag=target_tag, mode=mode, max_depth=max_depth)
     return json.dumps(results, indent=2)
+
 
 
 def spanner_keyword_search(query_string: str, limit: int = 10) -> str:
@@ -302,14 +312,18 @@ ORCHESTRATOR_INSTRUCTION = (
     "- Once the tool returns data, IMMEDIATELY synthesize the final technical response. Do not invoke additional tools.\n\n"
     "### 📋 TOOL SELECTION DECISION MATRIX & EXACT CALL EXAMPLES:\n\n"
     "1. `spanner_graph_query`:\n"
-    "   - SITUATION: Inquiries regarding Safety Instrumented Systems (SIS), interlocks, trip setpoints, voting logic (e.g. 1oo2, 2oo3), SIL ratings, ESD block valves, OR upstream feed equipment topology.\n"
+    "   - SITUATION: Inquiries regarding physical instrument inventory/counts, Safety Instrumented Systems (SIS), interlocks, trip setpoints, voting logic (e.g. 1oo2, 2oo3), SIL ratings, ESD block valves, OR upstream feed equipment topology.\n"
     "   - EXACT MODES:\n"
+    "     * Use `mode='instruments'` whenever the user asks how many instruments are connected to an equipment, what instruments are installed/mounted on an asset, or asks for instrument inventory. In your response, report BOTH dimensions clearly: the total physical field instruments mounted on P&ID and the subset of active SIS trip interlocks.\n"
     "     * Use `mode='interlocks'` for active trips, switches, interlocks, voting logic, and valves.\n"
     "     * Use `mode='upstream'` for upstream feed streams and preceding equipment connections.\n"
     "   - EXAMPLES:\n"
+    "     * 'How many instruments connected to E-2303?' -> spanner_graph_query(target_tag='E-2303', mode='instruments')\n"
+    "     * 'How many instruments connected to P-2301A?' -> spanner_graph_query(target_tag='P-2301A', mode='instruments')\n"
     "     * 'What trip protections prevent cumene hydroperoxide runaway in E-2303?' -> spanner_graph_query(target_tag='E-2303', mode='interlocks')\n"
     "     * 'Show interlock logic and voting on pump P-2301A' -> spanner_graph_query(target_tag='P-2301A', mode='interlocks')\n"
     "     * 'Show all equipment feeding into Preflash Column V-2301' -> spanner_graph_query(target_tag='V-2301', mode='upstream')\n\n"
+
     "2. `query_knowledge_catalog_provenance`:\n"
     "   - SITUATION: Inquiries regarding source P&ID drawings, As-Built revision status (e.g. Rev Z1), OEMS-005 Process Safety Information (PSI) categories, or Dataplex catalog governance metadata.\n"
     "   - EXAMPLES:\n"

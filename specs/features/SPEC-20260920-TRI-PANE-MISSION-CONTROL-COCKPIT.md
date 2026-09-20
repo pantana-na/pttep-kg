@@ -171,3 +171,45 @@ Events emitted:
 - Author `specs/plan/PROGRESS_REPORT_20260920_TRI_PANE_COCKPIT_REDESIGN.md`.
 - Synchronize `specs/README.md`.
 
+---
+
+## 5. Feature Amendment: Full Instrument Inventory & Compound Tag Awareness (Option 2)
+
+### 5.1 Problem Statement & Root Cause
+In the Left Asset Pane, equipment badges report the total relational instrument count from Cloud Spanner table `Instruments` (e.g., `41 inst` for `E-2303`, `12 inst` for `V-2301`, `8 inst` for `P-2301A/B`). However, when engineers asked the conversational agent *"how many instruments connected to E-2303?"*, the agent called `spanner_graph_query(target_tag="E-2303", mode="interlocks")` which only traversed `ACTUATES_INTERLOCK` edges in `PhenolProcessSafetyGraph`, returning only the 6 active SIS trip interlocks. Furthermore, queries for compound equipment tags such as `P-2301A` yielded 0 instruments due to strict string matching against compound key `P-2301A/B`.
+
+### 5.2 Architectural Resolution & Data Contracts
+1. **Tool Expansion (`spanner_graph_query`):**
+   - Introduce `mode="instruments"` (and aliases `"all"`, `"all_instruments"`) to query the physical field instrumentation inventory installed on P&ID drawings for the target asset.
+   - Return payload schema:
+     ```json
+     {
+       "target_tag": "E-2303",
+       "equipment_tag": "E-2303",
+       "total_instruments_count": 41,
+       "sis_interlocks_count": 6,
+       "instruments": [
+         {
+           "instrument_tag": "TSHH-0503",
+           "equipment_tag": "E-2303",
+           "type": "Temperature Switch High High",
+           "calibrated_range": "0 - 150 °C",
+           "trip_setpoint": "110 °C",
+           "sil_rating": "SIL 2",
+           "voting_logic": "1oo2",
+           "is_sis_initiator": true,
+           "is_interlock": true,
+           "interlock_action": "Trip steam shutoff valve XV-2301"
+         }
+       ]
+     }
+     ```
+2. **Compound Tag Alias Resolution:**
+   - Implement `_resolve_equipment_tag_alias(tag, known_tags)` mapping split tag queries (e.g. `P-2301A`, `P-2301B`, `p-2301a`) directly to their compound parent key `P-2301A/B`.
+   - Apply transparently across `graph_find_all_instruments`, `graph_find_interlocks`, and `get_catalog_hierarchy`.
+3. **Agent Cognition & Instruction Protocol:**
+   - Update `app/agent.py` tool docstrings and `ORCHESTRATOR_INSTRUCTION` instructing the model to invoke `mode="instruments"` for instrument count / inventory questions, and synthesize answers explaining both dimensions (total physical field instruments installed vs active SIS trip interlocks).
+4. **UI Action Integration:**
+   - Add direct `🎛️ Instruments Inventory` quick action chip in the Left Asset Pane staging queries to the agent dock.
+
+

@@ -88,6 +88,35 @@ def test_tool_spanner_graph_query_upstream():
     assert len(data) > 0
 
 
+def test_tool_spanner_graph_query_instruments():
+    """Validates spanner_graph_query mode='instruments' returns full inventory and SIS trip counts."""
+    raw = spanner_graph_query("E-2303", mode="instruments")
+    data = json.loads(raw)
+    assert isinstance(data, dict)
+    assert data["target_tag"] == "E-2303"
+    assert data["total_instruments_count"] == 41
+    assert data["sis_interlocks_count"] == 6
+    assert len(data["instruments"]) == 41
+    sis_items = [i for i in data["instruments"] if i.get("is_interlock")]
+    assert len(sis_items) == 6
+    assert any("TXSHH-0502" in i["instrument_tag"] for i in sis_items)
+
+
+
+def test_tool_spanner_graph_query_compound_tag_aliasing():
+    """Validates compound tag aliasing (e.g. P-2301A -> P-2301A/B, E-2302B -> E-2302A/B)."""
+    raw_pump = spanner_graph_query("P-2301A", mode="instruments")
+    pump_data = json.loads(raw_pump)
+    assert pump_data["equipment_tag"] == "P-2301A/B"
+    assert pump_data["total_instruments_count"] == 8
+
+    raw_exchanger = spanner_graph_query("E-2302B", mode="instruments")
+    ex_data = json.loads(raw_exchanger)
+    assert ex_data["equipment_tag"] == "E-2302A/B"
+    assert ex_data["total_instruments_count"] == 5
+
+
+
 def test_tool_spanner_keyword_search():
     """Validates full-text keyword search tool."""
     raw = spanner_keyword_search("cumene hydroperoxide", limit=5)
@@ -253,3 +282,29 @@ def test_pbt_adk_model_armor_adversarial_invariance(injection_snippet):
     assert result is not None
     assert isinstance(result, types.Content)
     assert "Model Armor" in result.parts[0].text
+
+
+@settings(deadline=None, max_examples=8)
+@given(
+    target_tag=st.sampled_from([
+        "E-2303", "V-2301", "D-2304", "P-2301A", "P-2301B", "P-2301A/B",
+        "E-2302A", "E-2302B", "E-2302A/B", "D-2121", "P-2305C"
+    ])
+)
+def test_pbt_spanner_graph_query_instrument_inventory_invariants(target_tag):
+    """Invariant: total_instruments_count == len(instruments) and sis_interlocks_count <= total_instruments_count."""
+    raw = spanner_graph_query(target_tag, mode="instruments")
+    data = json.loads(raw)
+    assert isinstance(data, dict)
+    assert "total_instruments_count" in data
+    assert "sis_interlocks_count" in data
+    assert "instruments" in data
+    assert data["total_instruments_count"] == len(data["instruments"])
+    assert data["sis_interlocks_count"] <= data["total_instruments_count"]
+    # Every instrument item has required schema attributes
+    for inst in data["instruments"]:
+        assert "instrument_tag" in inst
+        assert "type" in inst
+        assert "is_interlock" in inst
+        assert isinstance(inst["is_interlock"], bool)
+

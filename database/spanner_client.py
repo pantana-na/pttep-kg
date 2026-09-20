@@ -14,6 +14,30 @@ from database.models import (
 )
 
 
+def resolve_equipment_tag_alias(tag: str, known_tags: set) -> str:
+    """Resolves compound tag variations (e.g. P-2301A -> P-2301A/B, E-2302B -> E-2302A/B)."""
+    if not tag:
+        return ""
+    clean = tag.strip().upper()
+    if clean in known_tags:
+        return clean
+    for k in known_tags:
+        k_clean = k.replace("/", "")
+        if clean == k_clean:
+            return k
+        if "/" in k:
+            parts = k.split("/")
+            prefix = parts[0]
+            if clean == prefix or clean == prefix[:-1]:
+                return k
+            base = prefix[:-1] if prefix[-1].isalpha() else prefix
+            if any(clean == f"{base}{s}" for s in [prefix[-1]] + parts[1:]):
+                return k
+            if clean.startswith(base):
+                return k
+    return clean
+
+
 class SpannerDatabaseClient:
     """Client for querying live Google Cloud Spanner Property Graph and tables."""
 
@@ -275,11 +299,15 @@ class SpannerDatabaseClient:
 
     def graph_find_interlocks(self, target_equipment_tag: str) -> List[Dict[str, Any]]:
         """Executes ISO GQL interlock trip query in Cloud Spanner."""
+        known_tags = set(self.equipment.keys()) | set(act.target_equipment_tag for act in self.instrument_actuations)
+        resolved_tag = resolve_equipment_tag_alias(target_equipment_tag, known_tags)
+
         try:
             with self.database.snapshot() as snapshot:
                 gql = """
                 GRAPH PhenolProcessSafetyGraph
-                MATCH (inst:Instruments)-[act:ACTUATES_INTERLOCK]->(eq:Equipment {EquipmentTag: @target_tag})
+                MATCH (inst:Instruments)-[act:ACTUATES_INTERLOCK]->(eq:Equipment)
+                WHERE eq.EquipmentTag = @target_tag OR eq.EquipmentTag = @resolved_tag
                 RETURN inst.InstrumentTag AS instrument_tag,
                        inst.Type AS type,
                        inst.SilRating AS sil_rating,
@@ -287,8 +315,8 @@ class SpannerDatabaseClient:
                        inst.TripSetpoint AS trip_setpoint,
                        act.InterlockAction AS interlock_action
                 """
-                params = {"target_tag": target_equipment_tag}
-                param_types = {"target_tag": STRING}
+                params = {"target_tag": target_equipment_tag, "resolved_tag": resolved_tag}
+                param_types = {"target_tag": STRING, "resolved_tag": STRING}
                 rows = list(snapshot.execute_sql(gql, params=params, param_types=param_types))
                 results = []
                 for row in rows:
@@ -308,7 +336,7 @@ class SpannerDatabaseClient:
         # Fallback in-memory
         results = []
         for act in self.instrument_actuations:
-            if act.target_equipment_tag == target_equipment_tag:
+            if act.target_equipment_tag in (target_equipment_tag, resolved_tag):
                 inst = self.instruments.get(act.initiator_instrument_tag)
                 results.append({
                     "instrument_tag": act.initiator_instrument_tag,
@@ -319,6 +347,84 @@ class SpannerDatabaseClient:
                     "interlock_action": act.interlock_action
                 })
         return results
+
+    def graph_find_all_instruments(self, target_equipment_tag: str) -> Dict[str, Any]:
+        """Queries full physical instrument inventory and active SIS interlocks for target equipment."""
+        known_tags = set(self.equipment.keys()) | set(inst.equipment_tag for inst in self.instruments.values())
+        resolved_tag = resolve_equipment_tag_alias(target_equipment_tag, known_tags)
+
+        # 1. First build actuation lookup
+        actuations_map = {}
+        for act in self.instrument_actuations:
+            if act.target_equipment_tag in (target_equipment_tag, resolved_tag):
+                actuations_map[act.initiator_instrument_tag] = act.interlock_action
+
+        instruments = []
+        try:
+            with self.database.snapshot() as snapshot:
+                sql = """
+                SELECT InstrumentTag, EquipmentTag, Type, CalibratedRange, TripSetpoint, SilRating, VotingLogic, IsSisInitiator
+                FROM Instruments
+                WHERE (EquipmentTag = @target_tag OR EquipmentTag = @resolved_tag) AND IsDeleted = false
+                ORDER BY InstrumentTag
+                """
+                params = {"target_tag": target_equipment_tag, "resolved_tag": resolved_tag}
+                param_types = {"target_tag": STRING, "resolved_tag": STRING}
+                rows = list(snapshot.execute_sql(sql, params=params, param_types=param_types))
+                for r in rows:
+                    tag = r[0]
+                    act_action = actuations_map.get(tag)
+                    is_sis = bool(r[7] or act_action)
+                    instruments.append({
+                        "instrument_tag": tag,
+                        "equipment_tag": r[1],
+                        "type": r[2] or "Instrument",
+                        "calibrated_range": r[3],
+                        "trip_setpoint": r[4],
+                        "sil_rating": r[5] or ("SIL 2" if is_sis else "None"),
+                        "voting_logic": r[6] or ("1oo2" if is_sis else "1oo1"),
+                        "is_sis_initiator": bool(r[7]),
+                        "is_interlock": is_sis,
+                        "interlock_action": act_action or ("Active SIS Trip Initiator" if is_sis else "None")
+                    })
+                if instruments:
+                    sis_count = sum(1 for i in instruments if i["is_interlock"])
+                    return {
+                        "target_tag": target_equipment_tag,
+                        "equipment_tag": resolved_tag,
+                        "total_instruments_count": len(instruments),
+                        "sis_interlocks_count": sis_count,
+                        "instruments": instruments
+                    }
+        except Exception as err:
+            print(f"[SPANNER SQL NOTICE] Instruments query fallback: {err}")
+
+        # Fallback in-memory
+        instruments = []
+        for inst in self.instruments.values():
+            if inst.equipment_tag in (target_equipment_tag, resolved_tag):
+                act_action = actuations_map.get(inst.instrument_tag)
+                is_sis = bool(inst.is_sis_initiator or act_action)
+                instruments.append({
+                    "instrument_tag": inst.instrument_tag,
+                    "equipment_tag": inst.equipment_tag,
+                    "type": inst.type or "Instrument",
+                    "calibrated_range": inst.calibrated_range,
+                    "trip_setpoint": inst.trip_setpoint,
+                    "sil_rating": inst.sil_rating or ("SIL 2" if is_sis else "None"),
+                    "voting_logic": inst.voting_logic or ("1oo2" if is_sis else "1oo1"),
+                    "is_sis_initiator": bool(inst.is_sis_initiator),
+                    "is_interlock": is_sis,
+                    "interlock_action": act_action or ("Active SIS Trip Initiator" if is_sis else "None")
+                })
+        sis_count = sum(1 for i in instruments if i["is_interlock"])
+        return {
+            "target_tag": target_equipment_tag,
+            "equipment_tag": resolved_tag,
+            "total_instruments_count": len(instruments),
+            "sis_interlocks_count": sis_count,
+            "instruments": instruments
+        }
 
     def register_knowledge_catalog_entry(self, entry_id: str, entry_data: Dict[str, Any]) -> Dict[str, Any]:
         self.knowledge_catalog[entry_id] = entry_data

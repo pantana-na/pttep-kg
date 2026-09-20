@@ -26,6 +26,7 @@ from hypothesis import given, strategies as st, settings
 
 from server.main import app, agent_proxy
 from server.proxy import AgentPlatformProxy
+from app.agent import spanner_graph_query
 
 client = TestClient(app)
 
@@ -357,6 +358,56 @@ def test_pbt_equipment_operating_specs_invariants(target_tag):
     assert specs["operating_press_barg"] is not None
     assert -1.0 <= specs["operating_press_barg"] <= 100.0
     assert specs["drawing_ref"] is not None and len(specs["drawing_ref"]) >= 5
+
+
+@pytest.mark.parametrize("tag,expected_total,expected_sis", [
+    ("E-2303", 41, 6),
+    ("V-2301", 12, 3),
+    ("D-2304", 4, 1),
+    ("P-2301A", 8, 0),
+])
+def test_stream_instrument_inventory_inquiry(tag, expected_total, expected_sis):
+    """Verify /api/v1/agent/stream correctly answers instrument count questions with full inventory."""
+    with patch.dict("os.environ", {"FORCE_OFFLINE_MOCK": "true", "AGENT_ENGINE_RESOURCE_NAME": ""}):
+        with patch.object(agent_proxy, "resource_name", ""):
+            prompt = f"How many instruments are connected to {tag}?"
+            resp = client.get("/api/v1/agent/stream", params={"prompt": prompt})
+            assert resp.status_code == 200
+            body = resp.text
+
+            # Verify tool was invoked with mode='instruments'
+            assert "event: tool_invoked" in body
+            assert '"mode": "instruments"' in body
+            assert f"{expected_total} instruments" in body
+            assert "event: message_done" in body
+
+
+@settings(max_examples=10, deadline=None)
+@given(st.sampled_from(["E-2303", "V-2301", "D-2304", "P-2301A/B"]))
+def test_pbt_instrument_count_alignment_invariant(tag):
+    """PBT-INSTRUMENT-ALIGNMENT-INVARIANT: Hierarchy instrument_count matches spanner_graph_query total_instruments_count."""
+    # 1. Fetch from hierarchy
+    resp = client.get("/api/v1/catalog/hierarchy")
+    assert resp.status_code == 200
+    hierarchy = resp.json()
+
+    hierarchy_count = None
+    for sec in hierarchy["sections"]:
+        for node in sec["nodes"]:
+            for eq in node["equipment"]:
+                if eq["tag"] == tag:
+                    hierarchy_count = eq["instrument_count"]
+                    break
+
+    assert hierarchy_count is not None, f"Tag {tag} not found in hierarchy"
+
+    # 2. Fetch from spanner_graph_query mode='instruments'
+    raw_query = spanner_graph_query(tag, mode="instruments")
+    query_data = json.loads(raw_query)
+    assert query_data["total_instruments_count"] == hierarchy_count, (
+        f"Mismatch for {tag}: hierarchy shows {hierarchy_count}, tool returns {query_data['total_instruments_count']}"
+    )
+
 
 
 

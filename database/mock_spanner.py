@@ -34,6 +34,30 @@ def cosine_similarity(v1: List[float], v2: List[float]) -> float:
     return max(-1.0, min(1.0, res))
 
 
+def resolve_equipment_tag_alias(tag: str, known_tags: set) -> str:
+    """Resolves compound tag variations (e.g. P-2301A -> P-2301A/B, E-2302B -> E-2302A/B)."""
+    if not tag:
+        return ""
+    clean = tag.strip().upper()
+    if clean in known_tags:
+        return clean
+    for k in known_tags:
+        k_clean = k.replace("/", "")
+        if clean == k_clean:
+            return k
+        if "/" in k:
+            parts = k.split("/")
+            prefix = parts[0]
+            if clean == prefix or clean == prefix[:-1]:
+                return k
+            base = prefix[:-1] if prefix[-1].isalpha() else prefix
+            if any(clean == f"{base}{s}" for s in [prefix[-1]] + parts[1:]):
+                return k
+            if clean.startswith(base):
+                return k
+    return clean
+
+
 class MockSpannerDatabase:
     def __init__(self):
         # Relational Tables
@@ -293,9 +317,11 @@ class MockSpannerDatabase:
         return results
 
     def graph_find_interlocks(self, target_equipment_tag: str) -> List[Dict[str, Any]]:
+        known_tags = set(self.equipment.keys()) | set(act.target_equipment_tag for act in self.instrument_actuations)
+        resolved_tag = resolve_equipment_tag_alias(target_equipment_tag, known_tags)
         results = []
         for act in self.instrument_actuations:
-            if act.target_equipment_tag == target_equipment_tag:
+            if act.target_equipment_tag in (target_equipment_tag, resolved_tag):
                 inst = self.instruments.get(act.initiator_instrument_tag)
                 results.append({
                     "instrument_tag": act.initiator_instrument_tag,
@@ -306,3 +332,40 @@ class MockSpannerDatabase:
                     "interlock_action": act.interlock_action
                 })
         return results
+
+    def graph_find_all_instruments(self, target_equipment_tag: str) -> Dict[str, Any]:
+        """Queries full physical instrument inventory and active SIS interlocks for target equipment."""
+        known_tags = set(self.equipment.keys()) | set(inst.equipment_tag for inst in self.instruments.values())
+        resolved_tag = resolve_equipment_tag_alias(target_equipment_tag, known_tags)
+
+        actuations_map = {}
+        for act in self.instrument_actuations:
+            if act.target_equipment_tag in (target_equipment_tag, resolved_tag):
+                actuations_map[act.initiator_instrument_tag] = act.interlock_action
+
+        instruments = []
+        for inst in self.instruments.values():
+            if inst.equipment_tag in (target_equipment_tag, resolved_tag):
+                act_action = actuations_map.get(inst.instrument_tag)
+                is_sis = bool(inst.is_sis_initiator or act_action)
+                instruments.append({
+                    "instrument_tag": inst.instrument_tag,
+                    "equipment_tag": inst.equipment_tag,
+                    "type": inst.type or "Instrument",
+                    "calibrated_range": inst.calibrated_range,
+                    "trip_setpoint": inst.trip_setpoint,
+                    "sil_rating": inst.sil_rating or ("SIL 2" if is_sis else "None"),
+                    "voting_logic": inst.voting_logic or ("1oo2" if is_sis else "1oo1"),
+                    "is_sis_initiator": bool(inst.is_sis_initiator),
+                    "is_interlock": is_sis,
+                    "interlock_action": act_action or ("Active SIS Trip Initiator" if is_sis else "None")
+                })
+        sis_count = sum(1 for i in instruments if i["is_interlock"])
+        return {
+            "target_tag": target_equipment_tag,
+            "equipment_tag": resolved_tag,
+            "total_instruments_count": len(instruments),
+            "sis_interlocks_count": sis_count,
+            "instruments": instruments
+        }
+

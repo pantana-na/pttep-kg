@@ -30,7 +30,7 @@ from app.agent import (
 from app.hazop.agent import HazopStudyAgent
 from app.reasoning_engine_adapter import attach_reasoning_engine_routes
 from server.proxy import AgentPlatformProxy
-from server.equipment_catalog import get_equipment_specs, EQUIPMENT_SPECS
+from server.equipment_catalog import get_equipment_specs, EQUIPMENT_SPECS, normalize_tag
 
 app = FastAPI(title="Phenol Process Safety AI Platform", version="2.2.0")
 
@@ -310,7 +310,7 @@ def get_catalog_hierarchy():
 
         specs = get_equipment_specs(eq_tag)
         target_node = specs.get("node_id", target_node)
-        eq_instruments = inst_by_eq.get(eq_tag, [])
+        eq_instruments = inst_by_eq.get(eq_tag) or inst_by_eq.get(normalize_tag(eq_tag), [])
         eq_item = {
             "tag": eq_tag,
             "name": getattr(eq, "name", None) or specs.get("name", eq_tag),
@@ -368,6 +368,36 @@ def _generate_rich_fallback_response(prompt: str) -> str:
             f"- **Mitigated Residual Risk:** `{second_r}`\n"
             f"- **Certified P&ID Citation:** Drawing `{specs.get('drawing_ref')}`, Rev Z1"
         )
+    elif "instrument" in p_lower or "how many" in p_lower or "inventory" in p_lower:
+        raw_instruments = spanner_graph_query(tag, mode="instruments")
+        inst_data = json.loads(raw_instruments) if isinstance(raw_instruments, str) else raw_instruments
+        total_count = inst_data.get("total_instruments_count", len(inst_data.get("instruments", [])))
+        sis_count = inst_data.get("sis_interlocks_count", 0)
+        items = inst_data.get("instruments", [])
+
+        resp = (
+            f"### Certified Field Instrument Inventory for **{tag}** ({specs.get('name', tag)})\n\n"
+            f"- **Operating Conditions:** **{specs.get('operating_temp_c')} °C** | **{specs.get('operating_press_barg')} barg**\n"
+            f"- **Certified As-Built Drawing:** `{specs.get('drawing_ref')}` (Rev Z1)\n"
+            f"- **Total Physical Instruments:** **{total_count} instruments** mounted on P&ID\n"
+            f"- **Active SIS Trip Interlocks:** **{sis_count} automated trips**\n"
+            f"- **Monitoring & Control Instruments:** **{total_count - sis_count} instruments**\n\n"
+            f"#### Active Safety Instrumented Systems (SIS) Interlocks ({sis_count}):\n"
+        )
+        sis_items = [i for i in items if i.get("is_interlock")]
+        for inst in sis_items:
+            resp += f"- **`{inst.get('instrument_tag')}`** ({inst.get('type')}) — SIL: **{inst.get('sil_rating', 'SIL 2')}**, Voting: `{inst.get('voting_logic', '1oo2')}`\n  - *Action:* {inst.get('interlock_action', 'Emergency trip shutdown')}\n"
+        if not sis_items:
+            resp += f"- *Note:* No active automated trip interlocks are registered in SIS for {tag}. Mechanical containment design envelope: {specs.get('design_press_barg')} barg / {specs.get('design_temp_c')} °C.\n"
+
+        resp += f"\n#### Field Instrumentation Breakdown ({total_count} Total):\n"
+        type_counts = {}
+        for i in items:
+            t = i.get("type", "Instrument")
+            type_counts[t] = type_counts.get(t, 0) + 1
+        for itype, icnt in sorted(type_counts.items(), key=lambda x: x[1], reverse=True):
+            resp += f"- **{itype}**: {icnt} units\n"
+        return resp
     else:
         raw_interlocks = spanner_graph_query(tag, mode="interlocks")
         interlocks = json.loads(raw_interlocks)
@@ -429,6 +459,9 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
                 if "hazop" in prompt.lower() or "deviation" in prompt.lower():
                     yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': 'evaluate_hazop_deviation', 'tool_args': {'target_tag': tag}, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                     yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'evaluate_hazop_deviation', 'latency_ms': 120.0, 'result_preview': f'HAZOP risk evaluation for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
+                elif "instrument" in prompt.lower() or "how many" in prompt.lower() or "inventory" in prompt.lower():
+                    yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'tool_args': {'target_tag': tag, 'mode': 'instruments'}, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
+                    yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'latency_ms': 88.0, 'result_preview': f'Retrieved full instrument inventory for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                 else:
                     yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'tool_args': {'target_tag': tag, 'mode': 'interlocks'}, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
                     yield f"event: tool_result\ndata: {json.dumps({'tool_name': 'spanner_graph_query', 'latency_ms': 85.0, 'result_preview': f'Verified active interlocks for {tag}', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
@@ -548,6 +581,17 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
                     f"clarification_requested Multiple pump candidates match query: `{matched_tags}`. "
                     f"Please select the target equipment tag to inspect its safety interlocks."
                 )
+            elif "instrument" in p_lower or "how many" in p_lower or "inventory" in p_lower:
+                tool_name = "spanner_graph_query"
+                args = {"target_tag": tag, "mode": "instruments"}
+                yield f"event: tool_invoked\ndata: {json.dumps({'tool_name': tool_name, 'tool_args': args, 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
+                raw_instruments = spanner_graph_query(tag, mode="instruments")
+                inst_data = json.loads(raw_instruments) if isinstance(raw_instruments, str) else raw_instruments
+                tool_ms = max(5.0, (time.time() - t_tool_start) * 1000.0)
+                total_count = inst_data.get("total_instruments_count", len(inst_data.get("instruments", [])))
+                sis_count = inst_data.get("sis_interlocks_count", 0)
+                yield f"event: tool_result\ndata: {json.dumps({'tool_name': tool_name, 'latency_ms': round(tool_ms, 1), 'result_preview': f'Retrieved {total_count} instruments ({sis_count} SIS trips)', 'invoking_subagent': 'OrchestratorAgent'})}\n\n"
+                content_text = _generate_rich_fallback_response(prompt)
             else:
                 tool_name = "spanner_graph_query"
                 args = {"target_tag": tag, "mode": "interlocks"}
@@ -559,6 +603,7 @@ async def stream_agent(prompt: str, session_id: str = "default-session"):
                 content_text = f"### Active Safety Instrumented Systems (SIS) Protections for **{tag}**\n\n"
                 for inst in interlocks:
                     content_text += f"- **Instrument:** `{inst.get('instrument_tag')}` ({inst.get('type')})\n  - **Voting Logic:** `{inst.get('voting_logic', '1oo2')}` | **SIL:** `{inst.get('sil_rating', 'SIL 1')}`\n  - **Interlock Action:** {inst.get('interlock_action', 'Actuates shutdown')}\n"
+
 
             # 4. Message delta and telemetry waterfall
             yield f"event: message_delta\ndata: {json.dumps({'content': content_text, 'text_delta': content_text})}\n\n"

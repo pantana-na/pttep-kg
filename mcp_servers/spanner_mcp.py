@@ -33,9 +33,11 @@ class SpannerMCPServer:
             })
         return formatted
 
-    def spanner_graph_query(self, target_tag: str, mode: str = "upstream", max_depth: int = 3) -> List[Dict[str, Any]]:
-        """Executes ISO standard GQL graph traversal on PhenolProcessSafetyGraph."""
-        if mode == "interlocks":
+    def spanner_graph_query(self, target_tag: str, mode: str = "interlocks", max_depth: int = 3) -> Any:
+        """Executes ISO standard GQL graph traversal or instrument inventory query on PhenolProcessSafetyGraph."""
+        if mode in ("instruments", "all_instruments", "all"):
+            return self.db.graph_find_all_instruments(target_tag)
+        elif mode == "interlocks":
             return self.db.graph_find_interlocks(target_tag)
         else:
             return self.db.graph_traverse_upstream(target_tag, max_depth=max_depth)
