@@ -127,13 +127,15 @@ Events emitted:
 - Author formal SDD `specs/features/SPEC-20260920-TRI-PANE-MISSION-CONTROL-COCKPIT.md`.
 - Update `specs/README.md`.
 
-### Step 2: Backend API Endpoints & Session Management (`server/main.py`)
-- Implement `GET /api/v1/catalog/hierarchy` grouping Spanner DB equipment and instruments by Section and HAZOP Node (`CDN-N01`, `CDN-N02`, `CDN-N03`, `CDN-N04`, `OXI-N01`, `ALKY-N01`).
-- Update `/api/v1/agent/stream` to honor `session_id` and stream per-step tool execution durations and waterfall breakdowns.
+### Step 2: Backend API Endpoints, Catalog Enrichment & SSE Proxy Resilience (`server/main.py`, `server/proxy.py`, `server/equipment_catalog.py`)
+- Implement `server/equipment_catalog.py` providing certified operating temperatures (°C), operating pressures (barg), and drawing references for all 54 assets.
+- Implement `GET /api/v1/catalog/hierarchy` grouping Spanner DB equipment and instruments by Section and HAZOP Node (`CDN-N01`, `CDN-N02`, `CDN-N03`, `CDN-N04`, `OXI-N01`, `ALKY-N01`), fully enriched with operating parameters so no equipment displays `--`.
+- Update `server/proxy.py` to robustly parse Server-Sent Events with `data: `, `event: `, and `[DONE]` protocol framing, extracting parts from Google ADK events, Gemini candidates, and raw text.
+- Update `/api/v1/agent/stream` to honor `session_id`, stream per-step tool execution durations and waterfall breakdowns, and provide comprehensive multi-tool fallback responses if the remote proxy produces no text deltas.
 - Implement `POST /api/v1/session/reset` to support clean session recycling.
 
 ### Step 3: Tri-Pane Mission Control UI Redesign & Multi-Turn Synchronization (`server/static/index.html`)
-- **Left Pane:** Plant hierarchy accordion tree with search filter, badge indicators, and quick action chips (`🛡️ Query Interlocks`, `⚡ Run HAZOP`, `📋 Certified P&ID`).
+- **Left Pane:** Plant hierarchy accordion tree with search filter, badge indicators, drawer displaying real operating temperature and pressure, and quick action chips (`🛡️ Query Interlocks`, `⚡ Run HAZOP`, `📋 Certified P&ID`).
 - **Center Pane:** Conversational chat thread with message bubbles, Markdown formatting, auto-scroll, persistent `session_id` in localStorage, non-destructive DOM insertion (`insertAdjacentHTML`), and `🔄 Reset Session` control.
   - Interactive Conversation Turn Header: Each turn bubble renders `Turn #N` with an interactive badge: `🟢 Showing in Right Pane` (active) / `📊 View Stats` (clickable).
   - Resilient streaming renderer: try/catch markdown parser with fallback, inline error status on disconnect.

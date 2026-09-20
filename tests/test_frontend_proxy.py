@@ -212,6 +212,9 @@ def test_pbt_catalog_hierarchy_invariants(target_sec_id):
             assert eq["tag"] != ""
             assert eq["node_id"] == node["node_id"]
             assert eq["instrument_count"] == len(eq["instruments"])
+            assert eq["operating_temp_c"] is not None and isinstance(eq["operating_temp_c"], (int, float))
+            assert eq["operating_press_barg"] is not None and isinstance(eq["operating_press_barg"], (int, float))
+            assert eq["drawing_ref"] is not None and len(eq["drawing_ref"]) > 0
             for inst in eq["instruments"]:
                 assert inst["tag"] is not None and len(inst["tag"]) > 0
                 assert "sil_rating" in inst
@@ -299,20 +302,37 @@ def test_proxy_stream_lifecycle_sequencing():
 
 
 def test_proxy_stream_fallback_delta_on_empty():
-    """Verify that if the remote reasoning engine yields no message_deltas, a fallback delta is emitted."""
+    """Verify that if the remote reasoning engine yields no message_deltas, a rich fallback delta is emitted."""
     async def mock_empty_proxy_stream(prompt, session_id="default-session"):
         yield {"event": "thought", "data": {"thought_chunk": "Reasoning completed with empty body."}}
         yield {"event": "message_done", "data": {"status": "COMPLETED"}}
 
     with patch.object(agent_proxy, "resource_name", "projects/123/locations/asia-southeast1/reasoningEngines/999"):
         with patch.object(agent_proxy, "stream_query", side_effect=mock_empty_proxy_stream):
-            resp = client.get("/api/v1/agent/stream?prompt=Test%20empty%20query")
+            resp = client.get("/api/v1/agent/stream?prompt=What%20interlocks%20protect%20E-2303?")
             assert resp.status_code == 200
             body = resp.text
             assert "event: message_delta" in body
             assert "Analysis complete." in body
+            assert "Certified Safety Protections" in body
             assert "event: telemetry_waterfall" in body
             assert "event: message_done" in body
+
+
+@settings(max_examples=25, deadline=None)
+@given(st.sampled_from(["E-2303", "E-2310", "D-2121", "D-2304", "P-2306A/B", "OX-2201", "V-2301"]))
+def test_pbt_equipment_operating_specs_invariants(target_tag):
+    """PBT-EQUIPMENT-SPECS-INVARIANT: Every equipment item possesses physically valid,
+    non-null operating parameters and a valid drawing reference without unpopulated placeholders.
+    """
+    from server.equipment_catalog import get_equipment_specs
+    specs = get_equipment_specs(target_tag)
+    assert specs["operating_temp_c"] is not None
+    assert -50.0 <= specs["operating_temp_c"] <= 400.0
+    assert specs["operating_press_barg"] is not None
+    assert -1.0 <= specs["operating_press_barg"] <= 100.0
+    assert specs["drawing_ref"] is not None and len(specs["drawing_ref"]) >= 5
+
 
 
 

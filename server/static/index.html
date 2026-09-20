@@ -129,9 +129,9 @@
             </div>
             
             <div class="grid grid-cols-2 gap-1.5 text-[10px] font-mono text-slate-400 bg-slate-950 p-2 rounded-lg border border-slate-800/80">
-              <div>Temp: <b id="sel-eq-temp" class="text-amber-300">115.0 °C</b></div>
-              <div>Press: <b id="sel-eq-press" class="text-cyan-300">0.8 barg</b></div>
-              <div class="col-span-2 truncate">P&amp;ID: <b id="sel-eq-drawing" class="text-indigo-300 font-mono">14780-8120-20-23-0002</b></div>
+              <div>Temp: <b id="sel-eq-temp" class="text-amber-300">83.0 °C</b></div>
+              <div>Press: <b id="sel-eq-press" class="text-cyan-300">3.2 barg</b></div>
+              <div class="col-span-2 truncate">P&amp;ID: <b id="sel-eq-drawing" class="text-indigo-300 font-mono">14780-8120-25-23-0005</b></div>
             </div>
 
             <!-- Action Buttons -->
@@ -714,8 +714,8 @@ RETURN e.tag, i.instrument_tag, i.sil_rating;</pre>
         if (badge) badge.textContent = foundEq.tag;
         if (name) name.textContent = foundEq.name;
         if (type) type.textContent = foundEq.type;
-        if (temp) temp.textContent = (foundEq.operating_temp_c !== null ? foundEq.operating_temp_c : '--') + ' °C';
-        if (press) press.textContent = (foundEq.operating_press_barg !== null ? foundEq.operating_press_barg : '--') + ' barg';
+        if (temp) temp.textContent = (foundEq.operating_temp_c !== null && foundEq.operating_temp_c !== undefined ? foundEq.operating_temp_c : '--') + ' °C';
+        if (press) press.textContent = (foundEq.operating_press_barg !== null && foundEq.operating_press_barg !== undefined ? foundEq.operating_press_barg : '--') + ' barg';
         if (draw) draw.textContent = foundEq.drawing_ref || '14780-8120-20-23-0002';
         
         const trayPill = document.getElementById('hazop-tray-tag-pill');

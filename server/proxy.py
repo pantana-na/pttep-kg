@@ -114,9 +114,19 @@ class AgentPlatformProxy:
                 async for line in response.aiter_lines():
                     if not line or not line.strip():
                         continue
+                    
+                    raw = line.strip()
+                    if raw.startswith("event:"):
+                        continue
+                    if raw.startswith("data:"):
+                        raw = raw[5:].strip()
+                    if not raw or raw == "[DONE]":
+                        continue
+
                     try:
-                        event_data = json.loads(line)
+                        event_data = json.loads(raw)
                     except json.JSONDecodeError:
+                        logger.warning(f"Failed to parse JSON from stream line: {raw[:100]}")
                         continue
 
                     # ADK native event format
@@ -184,6 +194,30 @@ class AgentPlatformProxy:
                                                 "result_preview": resp_str[:300] if resp_str else "Success",
                                                 "response": resp,
                                                 "invoking_subagent": author,
+                                            },
+                                        }
+                        elif isinstance(content, str) and content.strip():
+                            yield {
+                                "event": "message_delta",
+                                "data": {
+                                    "content": content,
+                                    "text_delta": content,
+                                    "author": author,
+                                },
+                            }
+                    elif "candidates" in event_data:
+                        for cand in event_data.get("candidates", []):
+                            cand_content = cand.get("content", {})
+                            if isinstance(cand_content, dict):
+                                for part in cand_content.get("parts", []):
+                                    if isinstance(part, dict) and "text" in part:
+                                        text = part["text"]
+                                        yield {
+                                            "event": "message_delta",
+                                            "data": {
+                                                "content": text,
+                                                "text_delta": text,
+                                                "author": "OrchestratorAgent",
                                             },
                                         }
                     elif "event" in event_data and "data" in event_data:
