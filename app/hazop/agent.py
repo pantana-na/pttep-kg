@@ -13,15 +13,15 @@ from typing import Dict, Any, List, Optional
 from datetime import datetime
 import httpx
 
-from agents.hazop.anti_bias import AntiBiasScanner, AntiBiasException
-from agents.hazop.markup_parser import PidMarkupParser
-from agents.hazop.ram_evaluator import (
+from app.hazop.anti_bias import AntiBiasScanner, AntiBiasException
+from app.hazop.markup_parser import PidMarkupParser
+from app.hazop.ram_evaluator import (
     evaluate_1st_risk,
     evaluate_2nd_risk,
     evaluate_deviation_risk,
     calculate_ipl_credit
 )
-from agents.hazop.excel_exporter import export_hazop_study_to_excel
+from app.hazop.excel_exporter import export_hazop_study_to_excel
 
 
 class HazopStudyAgent:
@@ -32,7 +32,7 @@ class HazopStudyAgent:
         self.scanner = AntiBiasScanner()
         self.markup_parser = PidMarkupParser()
         self.api_key = os.getenv("GEMINI_API_KEY", "")
-        self.model_name = os.getenv("DEFAULT_MODEL", "gemini-3.7-flash")
+        self.model_name = os.getenv("DEFAULT_MODEL", "gemini-3.8-flash")
         self.use_vertex = os.getenv("GOOGLE_GENAI_USE_VERTEXAI", "").lower() in ("true", "1", "yes")
         self.project = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
         self.region = os.getenv("GCP_REGION", "asia-southeast1")

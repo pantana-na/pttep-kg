@@ -40,7 +40,7 @@ Thumbs.db
 ~
 .obsidian/workspace.json
 
-# Temporary working outputs
 output/working/
 output/exports/
 *.log
+*.egg-info/

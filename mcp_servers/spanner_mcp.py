@@ -11,7 +11,7 @@ from typing import List, Dict, Any, Optional
 import yaml
 import httpx
 from database.models import HybridSearchResult
-from agents.database.spanner_sync import generate_embedding
+from database.spanner_sync import generate_embedding
 
 
 class SpannerMCPServer:

@@ -64,7 +64,8 @@ class ModelArmorGuardrail:
             r"^(hello|hi|hey|good\s+morning|good\s+afternoon|good\s+evening)\b",
             r"^how\s+are\s+you",
             r"^tell\s+me\s+a\s+joke",
-            r"^what\s+is\s+the\s+weather",
+            r"^(write|generate|compose)\s+.*(poem|song|story)",
+            r"^what\s+is\s+the\s+(weather|capital)",
             r"^who\s+won\s+the",
             r"^help$"
         ]

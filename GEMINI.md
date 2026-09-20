@@ -28,6 +28,8 @@ This project strictly follows the **Spec-Driven Development (SDD)** process alon
 8. **Centralized Multi-Environment Parameter Management (Unified Single File):** All configurable parameters for **both Non-Prod and Prod environments** must be maintained in the **same unified `.env` file** (documented in `.env.example`), structured into shared core variables and distinct environment-specific blocks (`NONPROD_*` and `PROD_*`).
 9. **Terraform & Google Cloud Infrastructure Manager:** Deployment must be managed by Terraform using Google Cloud Infrastructure Manager with isolated deployment instances per environment (e.g., `phenol-container-nonprod` vs `phenol-container-prod`).
 10. **IAM Domain Restricted Sharing & Authentication Recommendations:** Organization policy strictly prohibits `allUsers` and non-domain members in IAM policies. Agents must proactively recommend compliant authentication and ingress options: **Identity-Aware Proxy (IAP)** for production external apps, **App-level Google OAuth 2.0** for internal apps requiring user identity, or **Direct Unauthenticated Ingress (`invoker-iam-disabled: 'true'`)** for friction-free public/internal tools.
+11. **Google Agent Development Kit (ADK) & Gemini Enterprise Agent Platform Mandate:** All agents, tool integrations, and orchestration flows must be implemented using the official `google-adk` framework (`Agent`, `LlmAgent`, `App`, `FunctionTool`) and deployed to the Gemini Enterprise Agent Platform runtime (`agent_runtime`) via `agents-cli deploy`. Cloud Run serves strictly as the **Frontend Web Cockpit and thin SSE streaming proxy**, with zero local model reasoning ([`_agents/rules/google_adk_and_agent_runtime.md`](./_agents/rules/google_adk_and_agent_runtime.md)).
+12. **Mandatory Model-Driven Reasoning & Zero Hardcoded / Regex Agent Logic:** All agent decisions, intent classification, entity extraction, and routing must be driven by cognitive model reasoning, structured tool schemas (`FunctionTool`), semantic embeddings, and live database queries. Never use regular expressions or hardcoded if/else heuristics to classify user intents or determine agent actions. Intents are strictly standardized to `PROCESS_SAFETY_QA`, `FACILITATE_HAZOP`, and `OTHERS` ([`_agents/rules/no_hardcoded_or_regex_in_agents.md`](./_agents/rules/no_hardcoded_or_regex_in_agents.md)).
 
 ---
 
@@ -38,7 +40,8 @@ This project strictly follows the **Spec-Driven Development (SDD)** process alon
   - `specs/features/`: Proposed feature specifications with step-by-step plans & test matrices.
   - `specs/plan/`: Implementation progress reports, milestone execution tracking, and verification metrics.
   - `specs/templates/`: Reusable SDD templates.
+- `app/`: Official Google ADK Agent application (`Agent`, `App`, `FunctionTools`, Reasoning Engine routes).
 - `src/`: Frontend React + Vite + TypeScript + Tailwind CSS application.
-- `server/`: Backend Node.js + Express / FastAPI proxy integrating with the Gemini API.
+- `server/`: Cloud Run Frontend Web Cockpit server & thin SSE proxy communicating with Agent Platform backend.
 - `terraform/`: Declarative Infrastructure as Code for Cloud Run, Artifact Registry, IAM, and observability managed via Infrastructure Manager.
 - `_agents/rules/`: Agent behavioral rules, SDD standards, and DevOps/Security governance.

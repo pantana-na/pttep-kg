@@ -1,0 +1,22 @@
+metrics_to_run:
+  - agent_turn_count
+  - process_safety_groundedness
+
+custom_metrics:
+  - name: agent_turn_count
+    custom_function: |
+      def evaluate(instance):
+          turns = (instance.get("agent_data") or {}).get("turns", [])
+          return {'score': len(turns)}
+  - name: process_safety_groundedness
+    custom_function: |
+      def evaluate(instance):
+          turns = (instance.get("agent_data") or {}).get("turns", [])
+          full_text = " ".join(
+              p.get("text", "")
+              for t in turns
+              for p in t.get("parts", [])
+              if isinstance(p, dict) and "text" in p
+          )
+          has_tag = any(t in full_text for t in ["E-2303", "V-2301", "TXSHH", "UXV"])
+          return {'score': 1.0 if has_tag else 0.5}

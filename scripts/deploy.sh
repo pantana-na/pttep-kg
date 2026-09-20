@@ -4,11 +4,13 @@
 # Governed by: GEMINI.md (Rules 8, 9, 10) & DevOps Standards
 #
 # Usage:
-#   ./scripts/deploy.sh [nonprod|prod] [--dry-run]
+#   ./scripts/deploy.sh [nonprod|prod] [--agents-cli|--app|--infra|--all] [--dry-run]
 #
 # Examples:
-#   ./scripts/deploy.sh nonprod             # Deploy to Non-Prod / Staging
-#   ./scripts/deploy.sh prod                # Deploy to Production (Vertex AI ADC)
+#   ./scripts/deploy.sh nonprod             # Deploy ADK agent via agents-cli to Non-Prod
+#   ./scripts/deploy.sh prod                # Deploy ADK agent via agents-cli to Prod
+#   ./scripts/deploy.sh prod --app          # Deploy Web Cockpit container to Cloud Run
+#   ./scripts/deploy.sh prod --all          # Deploy via agents-cli AND build Cloud Run app
 #   ./scripts/deploy.sh prod --dry-run      # Print resolved config & commands
 # ==============================================================================
 
@@ -35,7 +37,7 @@ log_error() { echo -e "${RED}[ERROR]${NC} $1"; }
 # 1. Parse Arguments
 # ------------------------------------------------------------------------------
 TARGET_ENV="nonprod"
-DEPLOY_TARGET="app"
+DEPLOY_TARGET="agent-runtime"
 DRY_RUN=false
 
 while [[ $# -gt 0 ]]; do
@@ -48,12 +50,16 @@ while [[ $# -gt 0 ]]; do
       TARGET_ENV="prod"
       shift
       ;;
-    --infra|--infra-manager)
-      DEPLOY_TARGET="infra"
+    --agents-cli|--agent-runtime)
+      DEPLOY_TARGET="agent-runtime"
       shift
       ;;
-    --app)
+    --app|--cloud-run)
       DEPLOY_TARGET="app"
+      shift
+      ;;
+    --infra|--infra-manager)
+      DEPLOY_TARGET="infra"
       shift
       ;;
     --all)
@@ -65,20 +71,21 @@ while [[ $# -gt 0 ]]; do
       shift
       ;;
     --help|-h)
-      echo "Usage: ./scripts/deploy.sh [nonprod|prod] [--app|--infra|--all] [--dry-run]"
+      echo "Usage: ./scripts/deploy.sh [nonprod|prod] [--agents-cli|--app|--infra|--all] [--dry-run]"
       echo ""
       echo "Environments:"
       echo "  nonprod   Deploy to Non-Prod (min=0, max=3, dev bucket)"
       echo "  prod      Deploy to Production (min=1, max=10, Vertex AI ADC, NO API Key)"
       echo ""
       echo "Deployment Targets:"
-      echo "  --app     (Default) Deploy application container via Cloud Build + Cloud Run"
-      echo "  --infra   Provision Cloud Infrastructure (Spanner, GCS, Cloud Run) via"
-      echo "            Google Cloud Infrastructure Manager & Terraform (GEMINI.md Rule 9)"
-      echo "  --all     Provision infrastructure via Infra Manager, then build and deploy container"
+      echo "  --agents-cli    (Default) Deploy AI Reasoning Backend to Gemini Enterprise Agent Platform via agents-cli"
+      echo "  --app           Deploy Frontend Web Cockpit container to Cloud Run (proxies to Agent Platform backend)"
+      echo "  --infra         Provision Cloud Infrastructure (Spanner, GCS, Cloud Run) via"
+      echo "                  Google Cloud Infrastructure Manager & Terraform (GEMINI.md Rule 9)"
+      echo "  --all           Full Stack: Deploy Backend (agents-cli) + Frontend Web Cockpit (Cloud Run)"
       echo ""
       echo "Flags:"
-      echo "  --dry-run Print configuration and gcloud commands without executing"
+      echo "  --dry-run Print configuration and commands without executing"
       exit 0
       ;;
     *)
@@ -116,8 +123,8 @@ set +a
 GCP_PROJECT="${GCP_PROJECT:-cs-poc-y03r7kmfyov4kilzg50fd7s}"
 GCP_REGION="${GCP_REGION:-asia-southeast1}"
 GENAI_LOCATION="${GENAI_LOCATION:-asia-southeast1}"
-DEFAULT_MODEL="${DEFAULT_MODEL:-gemini-3.7-flash}"
-REASONING_MODEL="${REASONING_MODEL:-gemini-3.7-flash}"
+DEFAULT_MODEL="${DEFAULT_MODEL:-gemini-3.8-flash}"
+REASONING_MODEL="${REASONING_MODEL:-gemini-3.8-flash}"
 SPANNER_INSTANCE="${SPANNER_INSTANCE:-phenol-process-graph}"
 SPANNER_DATABASE="${SPANNER_DATABASE:-safety-db}"
 ARTIFACT_REGISTRY_REPO="${ARTIFACT_REGISTRY_REPO:-phenol-repo}"
@@ -156,11 +163,13 @@ IMAGE_LATEST="${GCP_REGION}-docker.pkg.dev/${GCP_PROJECT}/${ARTIFACT_REGISTRY_RE
 # ------------------------------------------------------------------------------
 # 4. Deployment Plan Summary
 # ------------------------------------------------------------------------------
-MODE_DESC="App Container Only (Cloud Build + Cloud Run)"
+MODE_DESC="Frontend Web Cockpit Container (Cloud Run -> Agent Platform Backend)"
 if [[ "$DEPLOY_TARGET" == "infra" ]]; then
   MODE_DESC="Infrastructure Only (Terraform via Google Cloud Infrastructure Manager)"
+elif [[ "$DEPLOY_TARGET" == "agent-runtime" ]]; then
+  MODE_DESC="Gemini Enterprise Agent Platform Backend (agents-cli deploy)"
 elif [[ "$DEPLOY_TARGET" == "all" ]]; then
-  MODE_DESC="Full Stack (Infra Manager Terraform + App Container Build & Deploy)"
+  MODE_DESC="Full Stack: Backend Agent Platform (agents-cli) + Frontend Web Cockpit (Cloud Run)"
 fi
 
 INFRA_INPUTS="project_id=${GCP_PROJECT},region=${GCP_REGION},environment=${TARGET_ENV},container_image=${IMAGE_TAG},default_model=${DEFAULT_MODEL}"
@@ -206,6 +215,16 @@ ENV_VARS_LIST="${ENV_VARS_LIST},USE_REAL_SPANNER=true"
 ENV_VARS_LIST="${ENV_VARS_LIST},FORCE_OFFLINE_MOCK=false"
 ENV_VARS_LIST="${ENV_VARS_LIST},MODEL_ARMOR_TEMPLATE=projects/${GCP_PROJECT}/locations/${GCP_REGION}/templates/phenol-safety-armor-template"
 ENV_VARS_LIST="${ENV_VARS_LIST},DATAPLEX_ENTRY_GROUP=phenol-psi"
+
+# Resolve backend Agent Platform Reasoning Engine resource name for frontend Cloud Run proxy
+AGENT_ENGINE_ID=""
+if [[ -f "${ROOT_DIR}/deployment_metadata.json" ]]; then
+  AGENT_ENGINE_ID=$(jq -r '.remote_agent_runtime_id // empty' "${ROOT_DIR}/deployment_metadata.json" 2>/dev/null || echo "")
+fi
+if [[ -n "${AGENT_ENGINE_ID}" ]]; then
+  ENV_VARS_LIST="${ENV_VARS_LIST},AGENT_ENGINE_RESOURCE_NAME=${AGENT_ENGINE_ID}"
+fi
+
 if [[ -n "${DEPLOY_API_KEY}" ]]; then
   ENV_VARS_LIST="${ENV_VARS_LIST},GEMINI_API_KEY=${DEPLOY_API_KEY}"
 fi
@@ -224,7 +243,7 @@ DEPLOY_CMD="gcloud run deploy ${SERVICE_NAME} \
   --cpu=${CPU} \
   --memory=${MEMORY} \
   --set-env-vars=${ENV_VARS_LIST} \
-  --labels=run.googleapis.com/invoker-iam-disabled=true,environment=${TARGET_ENV}"
+  --labels=run.googleapis.com/invoker-iam-disabled=true,environment=${TARGET_ENV},role=frontend"
 
 if [[ -n "${SERVICE_ACCOUNT}" ]]; then
   DEPLOY_CMD="${DEPLOY_CMD} --service-account=${SERVICE_ACCOUNT}"
@@ -274,9 +293,57 @@ if [[ "$DEPLOY_TARGET" == "infra" || "$DEPLOY_TARGET" == "all" ]]; then
   log_success "Infrastructure Manager deployment submitted successfully."
 fi
 
-# Execute Application Container Build & Deploy (if requested)
+# Execute Gemini Enterprise Agent Platform Runtime Deployment via agents-cli (Default or part of --all)
+if [[ "$DEPLOY_TARGET" == "agent-runtime" || "$DEPLOY_TARGET" == "all" ]]; then
+  log_info "Step [Agent Platform]: Verifying Model Armor RAI & Dataplex synchronization..."
+  PYTHON_BIN="python3"
+  if [[ -x "${ROOT_DIR}/.venv/bin/python" ]]; then
+    PYTHON_BIN="${ROOT_DIR}/.venv/bin/python"
+  fi
+  if [[ -f "${ROOT_DIR}/scripts/ensure_model_armor.py" ]]; then
+    log_info "Ensuring Model Armor RAI filters are LOW_AND_ABOVE..."
+    "$PYTHON_BIN" "${ROOT_DIR}/scripts/ensure_model_armor.py" || log_warn "Model Armor check completed with notice."
+  fi
+
+  log_info "Step [Agent Platform]: Deploying ADK Agent to Gemini Enterprise Agent Platform Runtime via agents-cli (${GCP_REGION})..."
+  AGENT_RUNTIME_CMD="agents-cli deploy --project=${GCP_PROJECT} --region=${GCP_REGION} --deployment-target=agent_runtime --no-confirm-project"
+  eval "$AGENT_RUNTIME_CMD"
+  log_success "Gemini Enterprise Agent Platform deployment completed successfully via agents-cli."
+
+  # Refresh AGENT_ENGINE_ID from updated deployment_metadata.json
+  if [[ -f "${ROOT_DIR}/deployment_metadata.json" ]]; then
+    AGENT_ENGINE_ID=$(jq -r '.remote_agent_runtime_id // empty' "${ROOT_DIR}/deployment_metadata.json" 2>/dev/null || echo "")
+    if [[ -n "${AGENT_ENGINE_ID}" ]]; then
+      log_info "Captured deployed Agent Platform Runtime ID: ${AGENT_ENGINE_ID}"
+      # Update ENV_VARS_LIST and DEPLOY_CMD with fresh runtime ID
+      if [[ "$ENV_VARS_LIST" == *"AGENT_ENGINE_RESOURCE_NAME="* ]]; then
+        ENV_VARS_LIST=$(echo "$ENV_VARS_LIST" | sed -E "s|AGENT_ENGINE_RESOURCE_NAME=[^,]*|AGENT_ENGINE_RESOURCE_NAME=${AGENT_ENGINE_ID}|")
+      else
+        ENV_VARS_LIST="${ENV_VARS_LIST},AGENT_ENGINE_RESOURCE_NAME=${AGENT_ENGINE_ID}"
+      fi
+      DEPLOY_CMD="gcloud run deploy ${SERVICE_NAME} \
+  --project=${GCP_PROJECT} \
+  --image=${IMAGE_TAG} \
+  --region=${GCP_REGION} \
+  --platform=managed \
+  --ingress=all \
+  --no-allow-unauthenticated \
+  --min-instances=${MIN_INSTANCES} \
+  --max-instances=${MAX_INSTANCES} \
+  --cpu=${CPU} \
+  --memory=${MEMORY} \
+  --set-env-vars=${ENV_VARS_LIST} \
+  --labels=run.googleapis.com/invoker-iam-disabled=true,environment=${TARGET_ENV},role=frontend"
+      if [[ -n "${SERVICE_ACCOUNT}" ]]; then
+        DEPLOY_CMD="${DEPLOY_CMD} --service-account=${SERVICE_ACCOUNT}"
+      fi
+    fi
+  fi
+fi
+
+# Execute Application Container Build & Deploy (Frontend Web Cockpit)
 if [[ "$DEPLOY_TARGET" == "app" || "$DEPLOY_TARGET" == "all" ]]; then
-  log_info "Step 0/3: Verifying zero-mock cloud synchronization..."
+  log_info "Step [Cloud Run Frontend]: Verifying zero-mock cloud synchronization..."
   PYTHON_BIN="python3"
   if [[ -x "${ROOT_DIR}/.venv/bin/python" ]]; then
     PYTHON_BIN="${ROOT_DIR}/.venv/bin/python"
@@ -286,22 +353,29 @@ if [[ "$DEPLOY_TARGET" == "app" || "$DEPLOY_TARGET" == "all" ]]; then
     "$PYTHON_BIN" "${ROOT_DIR}/scripts/sync_dataplex_catalog.py" || log_warn "Dataplex catalog check completed with notice."
   fi
 
-  log_info "Step 1/3: Building container image via Google Cloud Build..."
+  log_info "Configuring Cloud Run strictly as Frontend Web Cockpit & Thin Streaming Proxy."
+  if [[ -n "${AGENT_ENGINE_ID}" ]]; then
+    log_info "Cloud Run Frontend will proxy all agent reasoning to Backend Agent Platform: ${AGENT_ENGINE_ID}"
+  else
+    log_warn "No AGENT_ENGINE_RESOURCE_NAME set. Cloud Run will run with local fallback."
+  fi
+
+  log_info "Step 1/3: Building frontend container image via Google Cloud Build..."
   eval "$BUILD_CMD"
   gcloud artifacts docker tags add "${IMAGE_TAG}" "${IMAGE_LATEST}" --quiet 2>/dev/null || true
 
-  log_info "Step 2/3: Deploying container to Cloud Run (${SERVICE_NAME})..."
+  log_info "Step 2/3: Deploying frontend container to Cloud Run (${SERVICE_NAME})..."
   eval "$DEPLOY_CMD"
 
   log_info "Step 3/3: Running post-deployment health check..."
   SERVICE_URL=$(gcloud run services describe "${SERVICE_NAME}" --project="${GCP_PROJECT}" --region="${GCP_REGION}" --format='value(status.url)' 2>/dev/null || echo "")
 
   if [[ -n "$SERVICE_URL" ]]; then
-    log_success "Cloud Run service is live at: ${SERVICE_URL}"
+    log_success "Cloud Run frontend service is live at: ${SERVICE_URL}"
     log_info "Probing health check at: ${SERVICE_URL}/healthz"
     if curl -f -s -m 10 "${SERVICE_URL}/healthz"; then
       echo ""
-      log_success "Service health check probe PASSED (200 OK)."
+      log_success "Frontend health check probe PASSED (200 OK)."
     else
       log_warn "Health check probe timed out or returned non-200. Container may still be initializing."
     fi

@@ -8,12 +8,12 @@ import pytest
 import openpyxl
 from hypothesis import given, strategies as st
 from database.init_db import init_local_mock
-from agents.hazop.ram_evaluator import (
+from app.hazop.ram_evaluator import (
     calculate_overall_severity, get_risk_rating,
     calculate_ipl_credit, evaluate_deviation_risk,
     RISK_RANKS, RAM_GRID
 )
-from agents.hazop.agent import HazopStudyAgent
+from app.hazop.agent import HazopStudyAgent
 
 
 # ==============================================================================

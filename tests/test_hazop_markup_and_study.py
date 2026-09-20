@@ -11,9 +11,9 @@ from hypothesis import given, settings, strategies as st
 from fastapi.testclient import TestClient
 
 from database.init_db import init_local_mock
-from agents.hazop.agent import HazopStudyAgent
-from agents.hazop.markup_parser import PidMarkupParser
-from agents.hazop.ram_evaluator import (
+from app.hazop.agent import HazopStudyAgent
+from app.hazop.markup_parser import PidMarkupParser
+from app.hazop.ram_evaluator import (
     calculate_overall_severity,
     get_risk_rating,
     calculate_ipl_credit,
@@ -21,7 +21,7 @@ from agents.hazop.ram_evaluator import (
     evaluate_2nd_risk,
     evaluate_deviation_risk
 )
-from agents.hazop.excel_exporter import export_hazop_study_to_excel
+from app.hazop.excel_exporter import export_hazop_study_to_excel
 from server.main import app
 
 
@@ -355,7 +355,7 @@ def test_api_discover_and_evaluate_row(test_client):
 )
 def test_pbt_ram_monotonicity(severity, l1, l2):
     """PBT-RAM-MONO: For any fixed Severity, Risk(S, L1) <= Risk(S, L2) whenever L1 <= L2."""
-    from agents.hazop.ram_evaluator import RISK_RANKS
+    from app.hazop.ram_evaluator import RISK_RANKS
     
     r1 = get_risk_rating(severity, min(l1, l2))
     r2 = get_risk_rating(severity, max(l1, l2))
@@ -392,7 +392,7 @@ def test_pbt_ipl_likelihood_bounds(p, en, ec, s, init_l, sil_credit):
 )
 def test_pbt_evaluate_row_monotonicity_with_safeguards(p, en, ec, s, init_l, sg1_sel, sg2_sel):
     """PBT-EVAL-ROW: Selecting additional valid IPL safeguards must never increase final risk rating."""
-    from agents.hazop.ram_evaluator import RISK_RANKS
+    from app.hazop.ram_evaluator import RISK_RANKS
     mock_db = init_local_mock("wiki")
     agent = HazopStudyAgent(mock_db)
 
@@ -467,7 +467,7 @@ def test_api_generate_scenario_row(test_client):
 @given(st.text(min_size=1, max_size=80))
 def test_pbt_generate_scenario_row_invariants(scenario_text):
     """PBT-SCENARIO: Any arbitrary scenario text produces a strictly bounded, valid HAZOP row."""
-    from agents.hazop.ram_evaluator import RISK_RANKS
+    from app.hazop.ram_evaluator import RISK_RANKS
     mock_db = init_local_mock("wiki")
     agent = HazopStudyAgent(mock_db)
 

@@ -16,18 +16,18 @@ The **Refinery Phenol Process Safety Platform** is an enterprise-grade AI system
 +-------------------------------------------------------------------------------------------------------------------------+
 |                                                                                                                         |
 |   [ RAW ENGINEERING PSI ]          [ MULTIMODAL PARSING & WIKI ]                 [ 4 STORAGE TIERS ]                    |
-|   • PFD Flow Diagrams              • ExtractorAgent (OCR + Parser)       ======> • Cloud Spanner Graph (ISO GQL)        |
+|   • PFD Flow Diagrams              • Extractor ADK Agent (OCR)           ======> • Cloud Spanner Graph (ISO GQL)        |
 |   • P&ID As-Built Drawings   ===>  • LLM-Wiki Formatter (Frontmatter)    ======> • Dataplex Knowledge Catalog           |
-|   • Process Data Sheets            • DatabaseAgent (Spanner Sync)        ======> • Vertex AI Vector Search (Embeddings) |
+|   • Process Data Sheets            • Database ADK Agent (Spanner Sync)   ======> • Vertex AI Vector Search (Embeddings) |
 |   • Operating SOP Manuals                                                ======> • GCS LLM-Wiki Markdown Lake           |
 |                                                                                                                         |
 | ----------------------------------------------------------------------------------------------------------------------- |
 |                                                                                                                         |
-|   [ USER INGRESS COCKPIT ]         [ SECURITY & ORCHESTRATION ]                  [ 3-TAB DEEP TECHNICAL INSPECTOR ]     |
-|   • Mission Control Dual-Pane UI   • Model Armor Shield (<1ms)                   • Tab 1: Spanner Knowledge Graph & GQL |
-|   • Sleek Quick Query Chips  ===>  • Semantic Intent Classifier          ======> • Tab 2: Dataplex Lineage & GCS Wiki   |
-|   • Ambiguous Tag Prompts          • Two-Tier HITL Clarification State           • Tab 3: Observability Latency Waterfall|
-|   • Prompt Injection Attack        • Red Block Alert (0 Tool Calls)              • Vertex AI Gemini 3.7 Flash (ADC IAM) |
+|   [ USER & CLI INGRESS ]           [ GOOGLE ADK AGENT RUNTIME ]                  [ 3-TAB DEEP TECHNICAL INSPECTOR ]     |
+|   • Mission Control Dual-Pane UI   • Root Orchestrator (google.adk.Agent)        • Tab 1: Spanner Knowledge Graph & GQL |
+|   • agents-cli CLI & A2A     ===>  • Model Armor before_agent_callback   ======> • Tab 2: Dataplex Lineage & GCS Wiki   |
+|   • Ambiguous Tag Prompts          • Managed ADK Subagents & FunctionTools       • Tab 3: Observability Latency Waterfall|
+|   • agents-cli eval & deploy       • Gemini Enterprise Agent Platform Runtime    • Vertex AI Gemini 3.8 Flash (ADC IAM) |
 |                                                                                                                         |
 +-------------------------------------------------------------------------------------------------------------------------+
 ```
@@ -107,12 +107,12 @@ flowchart TD
 
     Armor -->|Adversarial Injection / Jailbreak| Blocked["⛔ Intercept & Abort<br/>• 0 DB / Tool Calls<br/>• Red Security Alert Badge (<1ms)"]
     Armor -->|Out-of-Domain / Chit-Chat| Guidance["⚠️ Domain Guidance<br/>• Returns Phenol Safety Scope Prompt List"]
-    Armor -->|Clean Engineering Query| Orchestrator["🧠 Orchestrator Intent Classifier"]
+    Armor -->|Clean Engineering Query| Orchestrator["🧠 Google ADK Root Agent<br/>(google.adk.agents.Agent)"]
 
     Orchestrator -->|Ambiguous Prompt e.g. 'the pump'| HITL["❓ Two-Tier HITL Clarification<br/>• Renders UI Selection Pills (P-2301A/B, P-2303, P-2308)"]
-    Orchestrator -->|Process Safety Query| ToolGater{"⚙️ Semantic Tool Gater"}
+    Orchestrator -->|Process Safety Query| ToolGater{"⚙️ ADK Semantic FunctionTool Router"}
 
-    subgraph RetrieverAgent["Retriever Subagent (MCP Tools)"]
+    subgraph ADKSubagents["Managed Google ADK Subagents & Tools"]
         ToolGater -->|Upstream / Feed Query| SpannerTool["⚡ spanner_graph_query<br/>(ISO GQL FEEDS*1..3 Traversal)"]
         ToolGater -->|Drawing / Lineage Query| DataplexTool["📋 query_knowledge_catalog<br/>(As-Built Rev Z1 Lineage)"]
         ToolGater -->|Operating SOP / Narrative| GCSTool["📖 read_gcs_wiki_document<br/>(Full Markdown SOP)"]
@@ -124,9 +124,9 @@ flowchart TD
     GCSTool --> Synthesizer
     MultiTool --> Synthesizer
 
-    subgraph SynthesisEngine["Cognitive Synthesis & Deep Technical Inspector"]
-        Synthesizer["⚡ Vertex AI Gemini 3.7 Flash<br/>• Zero API Key in Production (ADC / IAM)<br/>• Reconciles Graph Interlocks + Drawings + SOP<br/>• Formulates Cohesive Engineering Dossier"]
-        Synthesizer --> UIStream["🖥️ Mission Control UI (Dual-Pane)<br/>• Left: Conversational Stream + Model Armor Badge<br/>• Right: 3-Tab Inspector (Graph GQL, Dataplex/Wiki, Waterfall)"]
+    subgraph ADKRuntime["Gemini Enterprise Agent Platform Runtime (App)"]
+        Synthesizer["⚡ Vertex AI Gemini 3.8 Flash<br/>• Zero API Key in Production (ADC / IAM)<br/>• ADK Structured Function Calling<br/>• Formulates Cohesive Engineering Dossier"]
+        Synthesizer --> UIStream["🖥️ Dual-Pane UI & agents-cli Stream<br/>• Left: Conversational Stream + Model Armor Badge<br/>• Right: 3-Tab Inspector (Graph GQL, Dataplex/Wiki, Waterfall)"]
     end
 ```
 
@@ -148,14 +148,26 @@ The Orchestrator inspects the semantic nature of the query and routes it to the 
 
 In accordance with enterprise Google Cloud security governance:
 1. **Google Cloud Vertex AI Application Default Credentials (ADC):**
-   - In production (`PROD_*`), the application communicates with Gemini 3.7 Flash via **Google Cloud Vertex AI** (`GOOGLE_GENAI_USE_VERTEXAI=true`).
+   - In production (`PROD_*`), the application communicates with Gemini 3.8 Flash via **Google Cloud Vertex AI** (`GOOGLE_GENAI_USE_VERTEXAI=true`).
    - Authentication is handled exclusively through **Cloud Run Service Account IAM** (`roles/aiplatform.user`), eliminating developer API keys, secret rotation vulnerabilities, and key leakage risks.
 2. **Google Cloud Model Armor Inline Protection:**
    - Evaluates incoming prompts against policy `phenol-safety-armor-template` in `< 1ms`.
    - Blocks prompt injections, safety bypass attempts (`override sil rating`), and jailbreaks prior to LLM or database invocation.
-3. **Multi-Environment Unified Parameter Management:**
+3. **Decoupled Topology & Multi-Target Deployment (`scripts/deploy.sh`):**
    - Configured via a single unified `.env` file (documented in `.env.example`).
-   - Automated zero-downtime deployments via `./scripts/deploy.sh [nonprod|prod]`.
+   - **Frontend (Google Cloud Run):** Strictly hosts the Single-Page Application Web Cockpit (`server/static/index.html`) and serves as a lightweight SSE streaming proxy. Zero local model reasoning occurs in Cloud Run.
+   - **Backend (Gemini Enterprise Agent Platform):** Deployed to Vertex AI Reasoning Engines (`agent_runtime`) via official **`agents-cli deploy`**. Hosts the ADK Multi-Agent hierarchy, connects to Spanner Graph, GCS Wiki, Dataplex, Model Armor, and Vertex AI Gemini 3.8 Flash.
+   - **Automated Deployment Pipeline:** `./scripts/deploy.sh [nonprod|prod]` coordinates the decoupled stack:
+     - `--agents-cli` (default): Deploys the AI reasoning backend to Gemini Enterprise Agent Platform via `agents-cli deploy`.
+     - `--app`: Deploys the Frontend Web Cockpit container to Cloud Run, automatically wired to the backend `AGENT_ENGINE_RESOURCE_NAME`.
+     - `--all`: Deploys the backend via `agents-cli`, captures the new runtime ID, and deploys Cloud Run frontend pointing to it.
+     ```bash
+     # Deploy backend Reasoning Engine
+     ./scripts/deploy.sh prod --agents-cli
+
+     # Deploy frontend Cloud Run web cockpit
+     ./scripts/deploy.sh prod --app
+     ```
 
 ---
 

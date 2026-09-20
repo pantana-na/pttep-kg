@@ -1,0 +1,33 @@
+[project]
+name = "phenol-process-safety"
+version = "1.0.0"
+description = "Refinery Phenol Process Safety & HAZOP Multi-Agent System on Google ADK"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "google-adk>=2.9.0",
+    "google-genai>=0.1.0",
+    "google-cloud-spanner>=3.45.0",
+    "google-cloud-storage>=2.18.0",
+    "google-cloud-aiplatform>=2.0.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.9.0",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.2",
+    "openpyxl>=3.1.5",
+    "httpx>=0.27.0",
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+    "hypothesis>=6.112.0",
+]
+
+[project.optional-dependencies]
+eval = [
+    "pandas>=2.0.0",
+    "google-cloud-aiplatform[evaluation]>=2.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

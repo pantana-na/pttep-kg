@@ -25,7 +25,7 @@ variable "container_image" {
 variable "default_model" {
   description = "Default Gemini model for agents"
   type        = string
-  default     = "gemini-3.7-flash"
+  default     = "gemini-3.8-flash"
 }
 
 variable "service_account" {

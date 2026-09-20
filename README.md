@@ -1,6 +1,6 @@
 # Refinery Phenol Process Safety Expert & Multi-Agent Platform
 
-An enterprise multi-agent petrochemical process safety system built for chemical engineers, safety specialists, and HAZOP teams. Powered by **Google Cloud Vertex AI (Gemini 3.7 Flash)**, **Cloud Spanner ISO GQL Property Graph**, **Google Cloud Model Armor**, and **Dataplex Knowledge Catalog**.
+An enterprise multi-agent petrochemical process safety system built for chemical engineers, safety specialists, and HAZOP teams. Powered by **Google Cloud Vertex AI (Gemini 3.8 Flash)**, **Cloud Spanner ISO GQL Property Graph**, **Google Cloud Model Armor**, and **Dataplex Knowledge Catalog**.
 
 ---
 
@@ -8,14 +8,14 @@ An enterprise multi-agent petrochemical process safety system built for chemical
 
 1. **Dual-Pane Interactive Process Cockpit:**
    - **Left Pane (Conversational AI & Security Shield):**
-     - Streaming Gemini 3.7 Flash reasoning with real-time thought chunk cards.
+     - Streaming Gemini 3.8 Flash reasoning with real-time thought chunk cards.
      - Sleek **Quick Query Chips** (`🛡️ E-2303 Thermal Trips`, `🕸️ V-2301 Feed Streams`, `❓ Clarify Pump`, `🚨 Attack Test`).
      - Sub-millisecond **Google Cloud Model Armor** live guardrail (`<1ms` inspection badge, prompt injection intercept alert).
      - **Two-Tier Human-in-the-Loop (HITL) Disambiguation:** Interactive UI selection pills for generic tags (e.g. pumps, exchangers).
    - **Right Pane (Deep Technical Inspector — 3 Consolidated Tabs):**
      - **Tab 1: Spanner Knowledge Graph & ISO GQL Console:** Subgraph extraction focusing on target equipment, 1-hop upstream/downstream feeds, and SIS interlocks, alongside a live ISO GQL console with TrueTime transaction tokens.
      - **Tab 2: Dataplex Lineage & GCS LLM-Wiki:** Consolidated OEMS-005 metadata aspects, certified As-Built drawing lineage (`14780-8120-25-23-0005_Z1.pdf`), and GCS Markdown technical documentation viewer.
-     - **Tab 3: Observability & Latency Waterfall Breakdown:** Multi-phase millisecond breakdown across request phases (Model Armor <1ms, Orchestrator ~115ms, Retriever MCP ~42ms, Gemini 3.7 Flash ~740ms).
+     - **Tab 3: Observability & Latency Waterfall Breakdown:** Multi-phase millisecond breakdown across request phases (Model Armor <1ms, Orchestrator ~115ms, Retriever MCP ~42ms, Gemini 3.8 Flash ~740ms).
 
 ---
 
@@ -37,7 +37,7 @@ All parameters for **both Non-Prod and Prod environments** are maintained in a *
 GCP_PROJECT=cs-poc-y03r7kmfyov4kilzg50fd7s
 GCP_REGION=asia-southeast1
 GENAI_LOCATION=asia-southeast1
-DEFAULT_MODEL=gemini-3.7-flash
+DEFAULT_MODEL=gemini-3.8-flash
 SPANNER_INSTANCE=phenol-process-graph
 SPANNER_DATABASE=safety-db
 ARTIFACT_REGISTRY_REPO=phenol-repo
@@ -62,33 +62,53 @@ PROD_SERVICE_ACCOUNT=phenol-runner-sa@cs-poc-y03r7kmfyov4kilzg50fd7s.iam.gservic
 
 ---
 
-## 🚢 Automated Cloud Deployment Script (`scripts/deploy.sh`)
+## 🚀 Enterprise Agent Platform & CLI Deployment (`agents-cli`)
 
-Deploying the platform to Google Cloud is fully automated via [`scripts/deploy.sh`](./scripts/deploy.sh):
+The multi-agent system is deployed to the **Gemini Enterprise Agent Platform (`agent_runtime`)** using official **`agents-cli`**:
 
 ```bash
-# 1. Validate configuration and commands (Dry-Run Mode)
-./scripts/deploy.sh nonprod --dry-run
-./scripts/deploy.sh prod --dry-run
+# 1. Direct Agent Platform Deployment via agents-cli
+agents-cli deploy --project=cs-poc-y03r7kmfyov4kilzg50fd7s --region=asia-southeast1
 
-# 2. Provision Infrastructure via Google Cloud Infrastructure Manager & Terraform (GEMINI.md Rule 9)
-./scripts/deploy.sh nonprod --infra
-./scripts/deploy.sh prod --infra
+# 2. Check deployment status or view deployed agents
+agents-cli deploy --status
+agents-cli deploy --list
 
-# 3. Deploy Application Container (Default: Cloud Build + Cloud Run)
-./scripts/deploy.sh nonprod
-./scripts/deploy.sh prod
+# 3. Evaluate Agent Performance & Golden Benchmark Rubrics
+agents-cli eval generate --config tests/eval/eval_config.yaml
+agents-cli eval grade
 
-# 4. Full Stack Provision & Deploy (Infra Manager Terraform + Container Build & Deploy)
+# 4. Local Interactive ADK CLI Chat
+adk run app
+```
+
+---
+
+## 🚢 Decoupled Multi-Target Deployment Script (`scripts/deploy.sh`)
+
+[`scripts/deploy.sh`](./scripts/deploy.sh) orchestrates decoupled deployments for both the **AI Reasoning Backend (`Gemini Enterprise Agent Platform`)** and the **Frontend Web Cockpit (`Google Cloud Run`)**:
+
+```bash
+# 1. Deploy AI Reasoning Backend to Gemini Enterprise Agent Platform via agents-cli (Default)
+./scripts/deploy.sh nonprod             # Non-Prod Agent Runtime
+./scripts/deploy.sh prod                # Production Agent Runtime (Vertex AI ADC)
+
+# 2. Deploy Frontend Web Cockpit Container to Cloud Run (Proxies to Agent Platform Backend)
+./scripts/deploy.sh nonprod --app
+./scripts/deploy.sh prod --app
+
+# 3. Full-Stack Deployment (agents-cli Backend first + Cloud Run Frontend wired to it)
 ./scripts/deploy.sh prod --all
+
+# 4. Dry-Run Validation
+./scripts/deploy.sh prod --dry-run
 ```
 
 The script automatically:
-1. Loads and validates variables from `.env`.
-2. Resolves environment profiles (`NONPROD_*` vs `PROD_*`).
-3. For `--infra`: invokes `gcloud infra-manager deployments apply` targeting `phenol-container-nonprod` or `phenol-container-prod` using declarative Terraform files in `terraform/`.
-4. For `--app`: submits container build to Google Cloud Build and deploys to Google Cloud Run with Vertex AI ADC, resource limits, and compliant labels (`run.googleapis.com/invoker-iam-disabled: 'true'`).
-5. Performs an automated health check probe against `/healthz`.
+1. Loads and validates multi-environment variables from unified `.env`.
+2. Verifies zero-mock cloud synchronization: checks Dataplex Catalog and ensures Model Armor RAI filters are `LOW_AND_ABOVE`.
+3. Dispatches `agents-cli deploy` targeting `agent_runtime` in `asia-southeast1` using [`agents-cli-manifest.yaml`](./agents-cli-manifest.yaml).
+4. When `--app` or `--all` is set, builds and deploys the frontend web container to Cloud Run with `invoker-iam-disabled: 'true'` compliance and automatic `AGENT_ENGINE_RESOURCE_NAME` backend binding.
 
 ---
 

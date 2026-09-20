@@ -4,8 +4,14 @@ Uses Dataplex REST API v1 with Application Default Credentials (ADC).
 """
 
 import os
+import sys
 import re
 import time
+from pathlib import Path
+
+# Ensure project root is in sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 import httpx
 import google.auth
 from google.auth.transport.requests import Request

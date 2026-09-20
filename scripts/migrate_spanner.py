@@ -9,7 +9,7 @@ import time
 from pathlib import Path
 from google.cloud import spanner
 from database.init_db import load_ddl_statements, init_local_mock
-from agents.database.spanner_sync import generate_embedding
+from database.spanner_sync import generate_embedding
 
 PROJECT_ID = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
 INSTANCE_ID = os.getenv("SPANNER_INSTANCE", "phenol-process-graph")

@@ -1315,8 +1315,8 @@ Unified single `.env` / `.env.example` managing both Non-Prod and Prod settings:
 # Core Shared Configuration
 GCP_PROJECT=cs-poc-y03r7kmfyov4kilzg50fd7s
 GCP_REGION=asia-southeast1
-DEFAULT_MODEL=gemini-3.7-flash
-REASONING_MODEL=gemini-3.7-flash
+DEFAULT_MODEL=gemini-3.8-flash
+REASONING_MODEL=gemini-3.8-flash
 SPANNER_INSTANCE=phenol-process-graph
 SPANNER_DATABASE=safety-db
 

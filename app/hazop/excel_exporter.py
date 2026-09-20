@@ -71,7 +71,7 @@ def export_hazop_study_to_excel(
         ("Equipment in node", ", ".join(study_metadata.get("equipment_tags", ["E-2302A/B", "E-2303", "D-2308", "P-2308A/B"]))),
         ("P&ID drawings", ", ".join(study_metadata.get("pid_drawings", ["14780-8120-25-23-0005", "-0005A"]))),
         ("Methodology", "PTT GC OEMS-005 / RAM W-(Q-MP)-002 R2 (5x5 Matrix)"),
-        ("Facilitator", "AI HAZOP Study Agent (Gemini 3.7 Flash & Google ADK)"),
+        ("Facilitator", "AI HAZOP Study Agent (Gemini 3.8 Flash & Google ADK)"),
         ("Date", "2026-08-31"),
         ("Status", "PRELIMINARY — Confirmed by Engineer, Ready for Team Validation"),
         ("Disclaimer", "Preliminary workshop draft generated with engineer-in-the-loop validation.")

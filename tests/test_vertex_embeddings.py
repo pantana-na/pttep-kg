@@ -10,7 +10,7 @@ SPEC-20260918-ZERO-MOCK-CLOUD-NATIVE-MIGRATION Section 3.3.
 import os
 import pytest
 from hypothesis import given, settings, strategies as st
-from agents.database.spanner_sync import generate_embedding, generate_pseudo_embedding
+from database.spanner_sync import generate_embedding, generate_pseudo_embedding
 from database.init_db import init_local_mock
 from mcp_servers.spanner_mcp import SpannerMCPServer
 
