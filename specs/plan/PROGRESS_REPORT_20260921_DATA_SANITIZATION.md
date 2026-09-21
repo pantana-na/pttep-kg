@@ -31,6 +31,7 @@ The transformation spanned **52 knowledge base markdown files**, all **applicati
 | **5.0** | **Specifications & Documentation** | [`specs/baseline/system-overview.md`](../baseline/system-overview.md)<br/>[`specs/features/*.md`](../features/)<br/>[`specs/plan/*.md`](../plan/)<br/>[`docs/test_prompts/*.md`](../../docs/test_prompts/) | **DONE** | Harmonized architectural specs and prompt guides to Neutral Refinery taxonomy |
 | **6.0** | **Automated Invariant & PBT Verification** | [`tests/test_entity_sanitization_pbt.py`](../../tests/test_entity_sanitization_pbt.py) | **DONE** | 155 / 155 tests passed (152 file invariant checks + 3 unit/PBT tests) |
 | **7.0** | **Living Spec Synchronization** | [`specs/plan/PROGRESS_REPORT_20260921_DATA_SANITIZATION.md`](PROGRESS_REPORT_20260921_DATA_SANITIZATION.md)<br/>[`specs/README.md`](../README.md) | **DONE** | Documented delivery, updated specification index |
+| **8.0** | **Live Cloud Synchronization** | GCS Bucket `phenol-llm-wiki-*-prod`<br/>Spanner `safety-db`<br/>Dataplex `phenol-psi`<br/>[`scripts/sync_dataplex_catalog.py`](../../scripts/sync_dataplex_catalog.py) | **DONE** | • **GCS:** 138/138 wiki files synchronized via `gcloud storage rsync`<br/>• **Spanner:** 5/5 `Equipment` records updated via DML; 0 matches across all 14 tables<br/>• **Dataplex:** 54/54 equipment entries updated via REST API PATCH (`updateMask=entrySource.description`) |
 
 ---
 

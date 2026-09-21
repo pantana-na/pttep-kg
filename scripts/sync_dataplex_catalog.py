@@ -12,6 +12,7 @@ from pathlib import Path
 # Ensure project root is in sys.path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from datetime import datetime, timezone
 import httpx
 import google.auth
 from google.auth.transport.requests import Request
@@ -50,17 +51,41 @@ def sync_dataplex_entries():
 
     base_url = f"https://dataplex.googleapis.com/v1/projects/{PROJECT_ID}/locations/{LOCATION}/entryGroups/{ENTRY_GROUP}/entries"
     created = 0
+    updated = 0
     existing = 0
 
     with httpx.Client(timeout=15.0) as client:
         for idx, eq in enumerate(equipment_items):
             entry_id = sanitize_entry_id(eq.equipment_tag)
             entry_url = f"{base_url}/{entry_id}"
+            target_desc = (eq.description_summary or eq.name)[:400]
+            target_name = f"{eq.equipment_tag} — {eq.name[:100]}"
 
             # Check if exists
             check_resp = client.get(entry_url, headers=headers)
             if check_resp.status_code == 200:
-                existing += 1
+                existing_data = check_resp.json()
+                existing_source = existing_data.get("entrySource", {})
+                curr_desc = existing_source.get("description", "")
+                curr_name = existing_source.get("displayName", "")
+
+                if curr_desc != target_desc or curr_name != target_name:
+                    patch_url = f"{entry_url}?updateMask=entrySource.description,entrySource.displayName,entrySource.updateTime"
+                    patch_payload = {
+                        "entrySource": {
+                            "displayName": target_name,
+                            "description": target_desc,
+                            "updateTime": datetime.now(timezone.utc).isoformat(),
+                        }
+                    }
+                    patch_resp = client.patch(patch_url, headers=headers, json=patch_payload)
+                    if patch_resp.status_code in (200, 201):
+                        updated += 1
+                        print(f"  [{idx+1}/{len(equipment_items)}] Updated Dataplex entry: {entry_id}")
+                    else:
+                        print(f"  [{idx+1}/{len(equipment_items)}] Failed to update {entry_id}: {patch_resp.status_code} - {patch_resp.text[:120]}")
+                else:
+                    existing += 1
                 continue
 
             # Create entry
@@ -69,8 +94,8 @@ def sync_dataplex_entries():
                 "entryType": ENTRY_TYPE,
                 "entrySource": {
                     "system": "Refinery PSI System",
-                    "displayName": f"{eq.equipment_tag} — {eq.name[:100]}",
-                    "description": (eq.description_summary or eq.name)[:400],
+                    "displayName": target_name,
+                    "description": target_desc,
                     "updateTime": "2026-06-16T00:00:00Z",
                     "location": LOCATION
                 }
@@ -82,7 +107,7 @@ def sync_dataplex_entries():
             else:
                 print(f"  [{idx+1}/{len(equipment_items)}] Notice for {entry_id}: {create_resp.status_code} - {create_resp.text[:120]}")
 
-    print(f"[DATAPLEX SYNC COMPLETE] {created} created, {existing} already present in Dataplex Entry Group '{ENTRY_GROUP}'.")
+    print(f"[DATAPLEX SYNC COMPLETE] {created} created, {updated} updated, {existing} up-to-date in Dataplex Entry Group '{ENTRY_GROUP}'.")
 
 
 if __name__ == "__main__":
