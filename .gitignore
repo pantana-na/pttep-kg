@@ -45,3 +45,4 @@ output/exports/*
 !output/exports/.gitkeep
 *.log
 *.egg-info/
+raw/
