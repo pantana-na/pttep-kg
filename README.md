@@ -34,17 +34,17 @@ All configurable parameters for **both Non-Prod and Prod environments** are main
 
 ```bash
 # Core Shared Configuration
-GCP_PROJECT=cs-poc-y03r7kmfyov4kilzg50fd7s
+GCP_PROJECT=your-gcp-project-id
 GCP_REGION=asia-southeast1
 GENAI_LOCATION=asia-southeast1
 DEFAULT_MODEL=gemini-3.8-flash
 SPANNER_INSTANCE=phenol-process-graph
 SPANNER_DATABASE=safety-db
 ARTIFACT_REGISTRY_REPO=phenol-repo
-GITHUB_REPO_URL=https://github.com/pantana-na/pttep-kg.git
+GITHUB_REPO_URL=https://github.com/your-org/pttep-kg.git
 
 # Gemini Enterprise Agent Platform Backend (Reasoning Engine Resource ID)
-AGENT_ENGINE_RESOURCE_NAME=projects/114618371568/locations/asia-southeast1/reasoningEngines/5733267043596107776
+AGENT_ENGINE_RESOURCE_NAME=projects/YOUR_PROJECT_NUMBER/locations/asia-southeast1/reasoningEngines/YOUR_REASONING_ENGINE_ID
 
 # Non-Prod Environment
 NONPROD_ENVIRONMENT_NAME=development
@@ -59,13 +59,13 @@ NONPROD_GEMINI_API_KEY=""
 PROD_ENVIRONMENT_NAME=production
 PROD_SERVICE_NAME=phenol-process-safety-prod
 PROD_DEPLOYMENT_ID=phenol-container-prod
-PROD_GCS_RAW_BUCKET=phenol-raw-docs-cs-poc-y03r7kmfyov4kilzg50fd7s-prod
-PROD_GCS_WIKI_BUCKET=phenol-llm-wiki-cs-poc-y03r7kmfyov4kilzg50fd7s-prod
+PROD_GCS_RAW_BUCKET=phenol-raw-docs-your-gcp-project-id-prod
+PROD_GCS_WIKI_BUCKET=phenol-llm-wiki-your-gcp-project-id-prod
 PROD_MIN_INSTANCES=1
 PROD_MAX_INSTANCES=10
 PROD_USE_VERTEXAI=true
 PROD_GEMINI_API_KEY=""
-PROD_SERVICE_ACCOUNT=phenol-runner-sa@cs-poc-y03r7kmfyov4kilzg50fd7s.iam.gserviceaccount.com
+PROD_SERVICE_ACCOUNT=phenol-runner-sa@your-gcp-project-id.iam.gserviceaccount.com
 PROD_MODEL_ARMOR_TEMPLATE=phenol-safety-armor-template
 ```
 
