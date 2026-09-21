@@ -9,7 +9,7 @@ An enterprise multi-agent petrochemical process safety system built for chemical
 1. **Dual-Pane Interactive Process Cockpit:**
    - **Left Pane (Conversational AI & Security Shield):**
      - Streaming Gemini 3.8 Flash reasoning with real-time thought chunk cards.
-     - Sleek **Quick Query Chips** (`🛡️ E-2303 Thermal Trips`, `🕸️ V-2301 Feed Streams`, `❓ Clarify Pump`, `🚨 Attack Test`).
+     - Sleek **Quick Query Chips** (`🛡️ E-2303 Thermal Trips`, `��️ V-2301 Feed Streams`, `❓ Clarify Pump`, `🚨 Attack Test`).
      - Sub-millisecond **Google Cloud Model Armor** live guardrail (`<1ms` inspection badge, prompt injection intercept alert).
      - **Two-Tier Human-in-the-Loop (HITL) Disambiguation:** Interactive UI selection pills for generic tags (e.g. pumps, exchangers).
    - **Right Pane (Deep Technical Inspector — 3 Consolidated Tabs):**
@@ -19,7 +19,7 @@ An enterprise multi-agent petrochemical process safety system built for chemical
 
 ---
 
-## �� Enterprise Cloud Security: Zero Gemini API Key in Production
+## 🔒 Enterprise Cloud Security: Zero Gemini API Key in Production
 
 In accordance with enterprise Google Cloud security governance:
 - **Production (`PROD_*`):** Uses **Google Cloud Vertex AI** via Application Default Credentials (ADC) and Cloud Run Service Account IAM (`roles/aiplatform.user`). **ZERO Gemini API keys** are used, stored, or passed in production.
@@ -30,7 +30,7 @@ In accordance with enterprise Google Cloud security governance:
 
 ## ⚙️ Centralized Multi-Environment Configuration (`.env`)
 
-All parameters for **both Non-Prod and Prod environments** are maintained in a **single unified `.env` file** (templated in `.env.example`):
+All configurable parameters for **both Non-Prod and Prod environments** are maintained in a **single unified `.env` file** (templated in `.env.example`):
 
 ```bash
 # Core Shared Configuration
@@ -41,10 +41,15 @@ DEFAULT_MODEL=gemini-3.8-flash
 SPANNER_INSTANCE=phenol-process-graph
 SPANNER_DATABASE=safety-db
 ARTIFACT_REGISTRY_REPO=phenol-repo
+GITHUB_REPO_URL=https://github.com/pantana-na/pttep-kg.git
+
+# Gemini Enterprise Agent Platform Backend (Reasoning Engine Resource ID)
+AGENT_ENGINE_RESOURCE_NAME=projects/114618371568/locations/asia-southeast1/reasoningEngines/5733267043596107776
 
 # Non-Prod Environment
 NONPROD_ENVIRONMENT_NAME=development
 NONPROD_SERVICE_NAME=phenol-process-safety-nonprod
+NONPROD_DEPLOYMENT_ID=phenol-container-nonprod
 NONPROD_MIN_INSTANCES=0
 NONPROD_MAX_INSTANCES=3
 NONPROD_USE_VERTEXAI=true
@@ -53,62 +58,150 @@ NONPROD_GEMINI_API_KEY=""
 # Production Environment (ZERO API Key — Vertex AI ADC / Service Account IAM)
 PROD_ENVIRONMENT_NAME=production
 PROD_SERVICE_NAME=phenol-process-safety-prod
+PROD_DEPLOYMENT_ID=phenol-container-prod
+PROD_GCS_RAW_BUCKET=phenol-raw-docs-cs-poc-y03r7kmfyov4kilzg50fd7s-prod
+PROD_GCS_WIKI_BUCKET=phenol-llm-wiki-cs-poc-y03r7kmfyov4kilzg50fd7s-prod
 PROD_MIN_INSTANCES=1
 PROD_MAX_INSTANCES=10
 PROD_USE_VERTEXAI=true
 PROD_GEMINI_API_KEY=""
 PROD_SERVICE_ACCOUNT=phenol-runner-sa@cs-poc-y03r7kmfyov4kilzg50fd7s.iam.gserviceaccount.com
+PROD_MODEL_ARMOR_TEMPLATE=phenol-safety-armor-template
 ```
 
 ---
 
-## 🚀 Enterprise Agent Platform & CLI Deployment (`agents-cli`)
+## 🚢 Deployment & Redeployment Guide (Frontend & Backend)
 
-The multi-agent system is deployed to the **Gemini Enterprise Agent Platform (`agent_runtime`)** using official **`agents-cli`**:
+The system is decoupled into two independent deployable services:
+1. **AI Reasoning Backend:** Gemini Enterprise Agent Platform (`agent_runtime` / Vertex AI Reasoning Engine) deployed via `agents-cli`.
+2. **Frontend Web Cockpit:** Thin SSE streaming proxy and web UI container deployed to **Google Cloud Run**.
 
+### 1. Prerequisites
+Ensure active Google Cloud credentials and environment variables:
 ```bash
-# 1. Direct Agent Platform Deployment via agents-cli
-agents-cli deploy --project=cs-poc-y03r7kmfyov4kilzg50fd7s --region=asia-southeast1
+# 1. On Cloudtop: Ensure LOAS certificate is fresh
+gcert
 
-# 2. Check deployment status or view deployed agents
-agents-cli deploy --status
-agents-cli deploy --list
+# 2. Authenticate Application Default Credentials (ADC)
+gcloud auth application-default print-access-token >/dev/null
 
-# 3. Evaluate Agent Performance & Golden Benchmark Rubrics
-agents-cli eval generate --config tests/eval/eval_config.yaml
-agents-cli eval grade
-
-# 4. Local Interactive ADK CLI Chat
-adk run app
+# 3. Set default GCP project and region
+gcloud config set project cs-poc-y03r7kmfyov4kilzg50fd7s
+gcloud config set compute/region asia-southeast1
 ```
 
 ---
 
-## 🚢 Decoupled Multi-Target Deployment Script (`scripts/deploy.sh`)
-
-[`scripts/deploy.sh`](./scripts/deploy.sh) orchestrates decoupled deployments for both the **AI Reasoning Backend (`Gemini Enterprise Agent Platform`)** and the **Frontend Web Cockpit (`Google Cloud Run`)**:
+### 2. Full-Stack One-Command Deployment (`--all`)
+To deploy or redeploy **both the AI Reasoning Backend and Frontend Web Cockpit** in a single synchronized workflow:
 
 ```bash
-# 1. Deploy AI Reasoning Backend to Gemini Enterprise Agent Platform via agents-cli (Default)
-./scripts/deploy.sh nonprod             # Non-Prod Agent Runtime
-./scripts/deploy.sh prod                # Production Agent Runtime (Vertex AI ADC)
-
-# 2. Deploy Frontend Web Cockpit Container to Cloud Run (Proxies to Agent Platform Backend)
-./scripts/deploy.sh nonprod --app
-./scripts/deploy.sh prod --app
-
-# 3. Full-Stack Deployment (agents-cli Backend first + Cloud Run Frontend wired to it)
+# Production Full-Stack Redeployment (Backend first, then Frontend wired to it)
 ./scripts/deploy.sh prod --all
 
-# 4. Dry-Run Validation
+# Non-Prod Full-Stack Redeployment
+./scripts/deploy.sh nonprod --all
+
+# Dry-run validation (inspect resolved configuration without deploying)
 ./scripts/deploy.sh prod --dry-run
 ```
 
-The script automatically:
-1. Loads and validates multi-environment variables from unified `.env`.
-2. Verifies zero-mock cloud synchronization: checks Dataplex Catalog and ensures Model Armor RAI filters are `LOW_AND_ABOVE`.
-3. Dispatches `agents-cli deploy` targeting `agent_runtime` in `asia-southeast1` using [`agents-cli-manifest.yaml`](./agents-cli-manifest.yaml).
-4. When `--app` or `--all` is set, builds and deploys the frontend web container to Cloud Run with `invoker-iam-disabled: 'true'` compliance and automatic `AGENT_ENGINE_RESOURCE_NAME` backend binding.
+---
+
+### 3. Deploying / Redeploying Backend Only (`agents-cli`)
+Deploy or redeploy the **AI Reasoning Backend** whenever you modify:
+- Agent prompts and orchestration logic (`app/agent.py`, `app/hazop/agent.py`)
+- Tool definitions and database connectors (`app/tools.py`)
+- Model Armor pre-flight security callbacks (`app/security/model_armor.py`)
+
+#### Option A: Using the Deployment Script (Recommended)
+```bash
+# Deploy backend to Production Agent Platform runtime
+./scripts/deploy.sh prod
+
+# Deploy backend to Non-Prod Agent Platform runtime
+./scripts/deploy.sh nonprod
+```
+
+#### Option B: Direct `agents-cli` Command
+```bash
+# Deploy to Gemini Enterprise Agent Platform runtime
+agents-cli deploy \
+  --project=cs-poc-y03r7kmfyov4kilzg50fd7s \
+  --region=asia-southeast1
+
+# Inspect deployment status and live resource ID
+agents-cli deploy --status
+agents-cli deploy --list
+```
+
+> **Note on Resource IDs:** If `agents-cli deploy` provisions a new Reasoning Engine ID, update `AGENT_ENGINE_RESOURCE_NAME` in `.env` so the frontend directs requests to the new instance:
+> ```bash
+> # Example:
+> AGENT_ENGINE_RESOURCE_NAME=projects/114618371568/locations/asia-southeast1/reasoningEngines/<NEW_ENGINE_ID>
+> ```
+
+---
+
+### 4. Deploying / Redeploying Frontend Only (`Cloud Run`)
+Deploy or redeploy the **Frontend Web Cockpit** whenever you modify:
+- User interface layout or styling (`server/static/index.html`, JavaScript/CSS)
+- FastAPI routing or endpoints (`server/main.py`)
+- SSE streaming proxy layer (`server/proxy.py`)
+- Dockerfile packaging or dependencies
+
+#### Option A: Using the Deployment Script (Recommended)
+```bash
+# Deploy frontend container to Production Cloud Run
+./scripts/deploy.sh prod --app
+
+# Deploy frontend container to Non-Prod Cloud Run
+./scripts/deploy.sh nonprod --app
+```
+
+#### Option B: Direct Cloud Build & Cloud Run Commands
+```bash
+# 1. Build and push container image via Cloud Build
+gcloud builds submit \
+  --tag asia-southeast1-docker.pkg.dev/cs-poc-y03r7kmfyov4kilzg50fd7s/phenol-repo/phenol-process-safety-prod:latest \
+  .
+
+# 2. Deploy container to Google Cloud Run
+gcloud run deploy phenol-process-safety-prod \
+  --image asia-southeast1-docker.pkg.dev/cs-poc-y03r7kmfyov4kilzg50fd7s/phenol-repo/phenol-process-safety-prod:latest \
+  --region asia-southeast1 \
+  --service-account phenol-runner-sa@cs-poc-y03r7kmfyov4kilzg50fd7s.iam.gserviceaccount.com \
+  --min-instances 1 \
+  --max-instances 10 \
+  --cpu 2000m \
+  --memory 2Gi \
+  --set-env-vars="USE_REAL_SPANNER=true,GCP_PROJECT=cs-poc-y03r7kmfyov4kilzg50fd7s,GCP_REGION=asia-southeast1,SPANNER_INSTANCE=phenol-process-graph,SPANNER_DATABASE=safety-db,DATAPLEX_ENTRY_GROUP=phenol-psi,PROD_GCS_WIKI_BUCKET=phenol-llm-wiki-cs-poc-y03r7kmfyov4kilzg50fd7s-prod,AGENT_ENGINE_RESOURCE_NAME=projects/114618371568/locations/asia-southeast1/reasoningEngines/5733267043596107776,FORCE_OFFLINE_MOCK=false,PROD_USE_VERTEXAI=true,PROD_MODEL_ARMOR_TEMPLATE=phenol-safety-armor-template"
+```
+
+#### Verifying Frontend Deployment
+```bash
+# Check service health endpoint
+curl -f https://phenol-process-safety-prod-114618371568.asia-southeast1.run.app/healthz
+# Expected output: {"status":"healthy"}
+```
+
+---
+
+### 5. Synchronizing Cloud Data Tiers (Spanner, Dataplex & GCS)
+
+If you modify wiki markdown files, database seeds, or equipment descriptions:
+
+```bash
+# 1. Synchronize GCS LLM-Wiki bucket
+gcloud storage rsync -r wiki/ gs://phenol-llm-wiki-cs-poc-y03r7kmfyov4kilzg50fd7s-prod/wiki/ --delete-unmatched-destination-objects
+
+# 2. Synchronize Dataplex Knowledge Catalog entries
+./.venv/bin/python scripts/sync_dataplex_catalog.py
+
+# 3. Seed / verify Cloud Spanner database
+./.venv/bin/python database/init_db.py
+```
 
 ---
 
@@ -119,20 +212,28 @@ The script automatically:
 uv venv && source .venv/bin/activate
 uv pip install -r requirements.txt
 
-# 2. Run local server
+# 2. Run local Web Cockpit server
 PYTHONPATH=. python -m uvicorn server.main:app --host 0.0.0.0 --port 8000
 
-# 3. Access local Mission Control UI
+# 3. Access local UI in browser
 open http://127.0.0.1:8000
 
-# 4. Run automated test suite (Unit & Property-Based Tests)
+# 4. Interactive ADK CLI Chat
+adk run app
+
+# 5. Run full test suite (Unit & Property-Based Tests)
 PYTHONPATH=. pytest
+
+# 6. Run Golden Agent Evaluation Benchmark
+agents-cli eval run --config tests/eval/eval_config.yaml
 ```
 
 ---
 
-## 📚 Technical Architecture Documentation
+## 📚 Technical Architecture & Specifications
 
-- **Architecture Walkthrough:** [`docs/architecture.md`](./docs/architecture.md)
+- **Consolidated System Specification:** [`specs/features/CONSOLIDATED_FEATURE_SPECIFICATION.md`](./specs/features/CONSOLIDATED_FEATURE_SPECIFICATION.md)
+- **Consolidated Master Implementation Plan:** [`specs/plan/CONSOLIDATED_IMPLEMENTATION_PLAN.md`](./specs/plan/CONSOLIDATED_IMPLEMENTATION_PLAN.md)
+- **Architecture Documentation:** [`docs/architecture.md`](./docs/architecture.md)
 - **Interactive Dark-Themed SVG Architecture Diagram:** Open [`docs/architecture.html`](./docs/architecture.html) in any browser.
-- **Specifications & SDDs:** [`specs/README.md`](./specs/README.md)
+- **Master SDD Index:** [`specs/README.md`](./specs/README.md)
