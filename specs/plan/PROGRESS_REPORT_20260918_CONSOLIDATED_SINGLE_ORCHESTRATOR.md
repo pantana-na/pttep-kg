@@ -11,23 +11,23 @@
 
 In response to direct stakeholder guidance, this phase executed a thorough cleanup and consolidation across the agent architecture:
 1. **Purged Legacy Pre-ADK Code:**
-   - Removed the legacy `class OrchestratorAgent` (~625 lines) from [`app/agent.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/app/agent.py). This class was an offline mock simulator with heuristic routing and simulated tool outputs that was never invoked in production on Vertex AI Reasoning Engine.
-   - Deleted the obsolete [`agents/`](file:///usr/local/google/home/pantana/lab/pttep-kg/agents) directory containing superseded subagent implementations (`agents/database/`, `agents/extractor/`, `agents/hazop/`, `agents/orchestrator/`, `agents/retriever/`).
-   - Deleted dead files including [`app/clarification_sm.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/app/clarification_sm.py).
+   - Removed the legacy `class OrchestratorAgent` (~625 lines) from [`app/agent.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/app/agent.py). This class was an offline mock simulator with heuristic routing and simulated tool outputs that was never invoked in production on Vertex AI Reasoning Engine.
+   - Deleted the obsolete [`agents/`](file:///usr/local/google/home/pantana/lab/Refinery-kg/agents) directory containing superseded subagent implementations (`agents/database/`, `agents/extractor/`, `agents/hazop/`, `agents/orchestrator/`, `agents/retriever/`).
+   - Deleted dead files including [`app/clarification_sm.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/app/clarification_sm.py).
 2. **Canonical Google ADK Single-Agent Architecture:**
-   - [`app/agent.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/app/agent.py) is now a clean 258-line file strictly defining the canonical Google ADK primitives:
+   - [`app/agent.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/app/agent.py) is now a clean 258-line file strictly defining the canonical Google ADK primitives:
      - 6 Production `FunctionTools`: `spanner_graph_query`, `spanner_keyword_search`, `spanner_vector_search`, `query_knowledge_catalog_provenance`, `read_gcs_wiki_document`, `evaluate_hazop_deviation`.
      - Model Armor guardrail callback: `before_agent_guardrail`.
      - Comprehensive orchestrator system prompt: `ORCHESTRATOR_INSTRUCTION`.
      - Production ADK definitions: `root_agent = Agent(...)` and `app = App(...)`.
 3. **Decoupled Server Endpoints:**
-   - Updated [`server/main.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/server/main.py) to remove all imports and references to the legacy `OrchestratorAgent`.
+   - Updated [`server/main.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/server/main.py) to remove all imports and references to the legacy `OrchestratorAgent`.
    - Direct execution fallback routes now invoke production ADK tools directly from `app.agent`.
 4. **Test Suite Modernization (100% Production Alignment):**
    - Replaced all tests that previously instantiated mock orchestrator wrappers or deleted agent classes.
-   - [`tests/test_orchestrator_agent.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/tests/test_orchestrator_agent.py): Directly tests `root_agent`, `ORCHESTRATOR_INSTRUCTION`, and the 6 production tools with unit and property-based tests (PBT).
-   - [`tests/test_model_armor.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/tests/test_model_armor.py): Directly tests the ADK `before_agent_guardrail` callback hook.
-   - [`evals/run_evals.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/evals/run_evals.py): Updated to run benchmark evaluations directly on production ADK tools (5/5 scenarios pass with 1.0000 groundedness).
+   - [`tests/test_orchestrator_agent.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/tests/test_orchestrator_agent.py): Directly tests `root_agent`, `ORCHESTRATOR_INSTRUCTION`, and the 6 production tools with unit and property-based tests (PBT).
+   - [`tests/test_model_armor.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/tests/test_model_armor.py): Directly tests the ADK `before_agent_guardrail` callback hook.
+   - [`evals/run_evals.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/evals/run_evals.py): Updated to run benchmark evaluations directly on production ADK tools (5/5 scenarios pass with 1.0000 groundedness).
    - Entire test suite: **80/80 tests passing** in 83.45s (100% pass rate).
 
 ---
@@ -53,15 +53,15 @@ In response to direct stakeholder guidance, this phase executed a thorough clean
 
 | Step | Milestone / Action | Deliverables | Status | Verification |
 |---|---|---|---|---|
-| **1.0** | **Prune `app/agent.py`** | [`app/agent.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/app/agent.py) | **DONE** | Removed `class OrchestratorAgent`; file reduced from 883 to 258 lines |
+| **1.0** | **Prune `app/agent.py`** | [`app/agent.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/app/agent.py) | **DONE** | Removed `class OrchestratorAgent`; file reduced from 883 to 258 lines |
 | **2.0** | **Delete Dead Agent Directories** | `agents/`, `app/clarification_sm.py` | **DONE** | Removed unused directories and files |
-| **3.0** | **Update Server Endpoints** | [`server/main.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/server/main.py) | **DONE** | Removed legacy orchestrator imports; routes invoke ADK tools directly |
-| **4.0** | **Align Orchestrator Tests** | [`tests/test_orchestrator_agent.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/tests/test_orchestrator_agent.py) | **DONE** | 8/8 tests pass (unit + Hypothesis PBT testing `root_agent` & tools) |
-| **5.0** | **Align Model Armor Tests** | [`tests/test_model_armor.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/tests/test_model_armor.py) | **DONE** | 7/7 tests pass (unit + PBT testing `before_agent_guardrail`) |
-| **6.0** | **Align Evaluation Benchmarks** | [`evals/run_evals.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/evals/run_evals.py) | **DONE** | 5/5 evaluation scenarios pass (1.0000 groundedness; `test_agent_eval.py` passes) |
+| **3.0** | **Update Server Endpoints** | [`server/main.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/server/main.py) | **DONE** | Removed legacy orchestrator imports; routes invoke ADK tools directly |
+| **4.0** | **Align Orchestrator Tests** | [`tests/test_orchestrator_agent.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/tests/test_orchestrator_agent.py) | **DONE** | 8/8 tests pass (unit + Hypothesis PBT testing `root_agent` & tools) |
+| **5.0** | **Align Model Armor Tests** | [`tests/test_model_armor.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/tests/test_model_armor.py) | **DONE** | 7/7 tests pass (unit + PBT testing `before_agent_guardrail`) |
+| **6.0** | **Align Evaluation Benchmarks** | [`evals/run_evals.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/evals/run_evals.py) | **DONE** | 5/5 evaluation scenarios pass (1.0000 groundedness; `test_agent_eval.py` passes) |
 | **8.0** | **Deploy Backend to Vertex AI** | `scripts/deploy.sh prod` | **DONE** | Reasoning Engine `5733267043596107776` updated via `agents-cli deploy` |
 | **9.0** | **Deploy Cloud Run Cockpit** | `scripts/deploy.sh prod --app` | **DONE** | Build and deployed frontend revision `phenol-process-safety-prod-00008-mh5` to Cloud Run |
-| **10.0** | **UI & Tool Call Alignment** | [`server/static/index.html`](file:///usr/local/google/home/pantana/lab/pttep-kg/server/static/index.html), [`server/proxy.py`](file:///usr/local/google/home/pantana/lab/pttep-kg/server/proxy.py) | **DONE** | Interactive tool execution cards with badge/metadata matching 6 backend tools, live `/api/v1/adk/info` telemetry, zero `RetrieverAgent` fallbacks |
+| **10.0** | **UI & Tool Call Alignment** | [`server/static/index.html`](file:///usr/local/google/home/pantana/lab/Refinery-kg/server/static/index.html), [`server/proxy.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/server/proxy.py) | **DONE** | Interactive tool execution cards with badge/metadata matching 6 backend tools, live `/api/v1/adk/info` telemetry, zero `RetrieverAgent` fallbacks |
 
 ---
 

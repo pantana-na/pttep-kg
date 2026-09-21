@@ -14,7 +14,7 @@ last_updated: 2026-06-13
 | Field | Value |
 |-------|-------|
 | Title | HAZOP Leadership Training for GC — Course Introduction |
-| Organisation | PTT Global Chemical PCL — Technical Safety Service Division (Q-TS-TS) |
+| Organisation | Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS) |
 | Instructor | Mr. Noraphol Sookkho, Division Manager, Q-TS-TS |
 | Date | 1–3 November 2021 |
 | Format | 3-day workshop (slides) |
@@ -22,7 +22,7 @@ last_updated: 2026-06-13
 
 ## Purpose
 
-Administrative introduction to the PTT GC internal HAZOP Leadership Training Course. Covers course objectives, daily schedule, and workshop rules. No process-specific technical content.
+Administrative introduction to the Refinery Group internal HAZOP Leadership Training Course. Covers course objectives, daily schedule, and workshop rules. No process-specific technical content.
 
 ## Course Scope (3 Days)
 
@@ -41,7 +41,7 @@ Administrative introduction to the PTT GC internal HAZOP Leadership Training Cou
 
 - Understand HAZOP methodology to guide and lead a HAZOP team
 - Understand steps and concerns for preparing, planning, running, and reporting HAZOP
-- Qualify as HAZOP Leader per PTT GC requirements
+- Qualify as HAZOP Leader per Refinery Group requirements
 
 ## Instructor Background
 

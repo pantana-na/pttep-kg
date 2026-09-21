@@ -1,4 +1,4 @@
-"""Unit and Property-Based Tests for HAZOP Study Agent & PTT GC RAM Evaluator (Step 5.0).
+"""Unit and Property-Based Tests for HAZOP Study Agent & Refinery 5x5 RAM Evaluator (Step 5.0).
 
 Verifies RAM calculation, IPL safeguard credits, Anti-Bias halting, and Excel workbook export.
 """

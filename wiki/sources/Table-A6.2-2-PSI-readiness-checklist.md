@@ -8,7 +8,7 @@ last_updated: 2026-06-13
 
 # Source: Table A6.2-2 — PSI Readiness Checklist for HAZOP Study
 
-**Issuer:** PTT Global Chemical Public Company Limited, GC Management System and Process Safety (Q-MP)
+**Issuer:** Refinery Petrochemical Corporation, GC Management System and Process Safety (Q-MP)
 **Reference in parent standard:** SG-(Q-MP)-014 R3 §6.2 / Table A6.2-2
 **Revision:** Final R1
 **Format:** XLSX (2 sheets)
@@ -54,7 +54,7 @@ Governs which documents are Essential (E) or Desirable (D) by project phase.
 
 **Applicable phase for CDN HAZOP:** Operation — therefore all items marked E are **Essential**.
 
-> ⚠️ Note: "Previous HAZID/HAZOP reports and Close-out reports" is listed as Essential for Operation phase. **However**, per [[CLAUDE.md]] HAZOP Anti-Bias Rule, this must NOT be ingested until all node worksheets are signed off. The Anti-Bias Rule supersedes this checklist item during active node analysis. After study completion, archive documents may be reviewed for gap comparison per the Anti-Bias Rule procedure.
+> ⚠️ Note: "Previous HAZID/HAZOP reports and Close-out reports" is listed as Essential for Operation phase. **However**, per the HAZOP Anti-Bias Rule (`app/hazop/anti_bias.py`), this must NOT be ingested until all node worksheets are signed off. The Anti-Bias Rule supersedes this checklist item during active node analysis. After study completion, archive documents may be reviewed for gap comparison per the Anti-Bias Rule procedure.
 
 ---
 

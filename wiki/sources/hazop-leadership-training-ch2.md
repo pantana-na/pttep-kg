@@ -14,7 +14,7 @@ last_updated: 2026-06-13
 | Field | Value |
 |-------|-------|
 | Title | HAZOP Leadership Training for GC — Chapter 2: Overview PHA Techniques |
-| Organisation | PTT Global Chemical PCL — Technical Safety Service Division (Q-TS-TS) |
+| Organisation | Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS) |
 | Instructor | Mr. Noraphol Sookkho, Division Manager, Q-TS-TS |
 | Date | 1–3 November 2021 |
 | File | `raw/standards/3. Chapter 2 - Overview PHA techniqes.pdf` |
@@ -22,7 +22,7 @@ last_updated: 2026-06-13
 
 ## Purpose
 
-Training material giving a structured comparison of Process Hazard Analysis (PHA) techniques used in the PTT GC / industry context. Provides the basis for selecting the right PHA tool for each project phase and complexity level. Also includes the IEAT (Thai regulatory) approved PHA method list and the Preliminary SHE Assessment form used for MOC review.
+Training material giving a structured comparison of Process Hazard Analysis (PHA) techniques used in the Refinery Group / industry context. Provides the basis for selecting the right PHA tool for each project phase and complexity level. Also includes the IEAT (Thai regulatory) approved PHA method list and the Preliminary SHE Assessment form used for MOC review.
 
 ---
 
@@ -103,7 +103,7 @@ Per Thai Department of Industrial Works (IEAT/DIW) Process Safety Management reg
 
 ## Preliminary SHE Assessment Form (MOC Context)
 
-The chapter includes the full **Preliminary SHE Assessment** form used by PTT GC for Management of Change (MOC) screening. Key structure:
+The chapter includes the full **Preliminary SHE Assessment** form used by Refinery Group for Management of Change (MOC) screening. Key structure:
 
 | Part | Content |
 |------|---------|
@@ -153,6 +153,6 @@ The chapter includes the full **Preliminary SHE Assessment** form used by PTT GC
 ## References
 - [[sources/hazop-leadership-training-intro]] — Course introduction (same series)
 - [[sources/hazop-leadership-training-ch1]] — Chapter 1: Hazard and Risk Concepts
-- [[sources/P-Q-MP-OEMS-005]] — PTT GC governing HAZOP procedure
+- [[sources/P-Q-MP-OEMS-005]] — Refinery Group governing HAZOP procedure
 - [[hazop/methodology]] — Full HAZOP method detail per SG-(Q-MP)-014
 - [[hazop/study-info]] — CDN HAZOP study scope and status

@@ -15,7 +15,7 @@ last_updated: 2026-06-14
 | Field | Value |
 |-------|-------|
 | Title | HAZOP Leadership Training for GC — Chapter 7: GC HAZOP Workflow |
-| Author / Owner | Technical Safety Service Division (Q-TS-TS), PTT Global Chemical PCL |
+| Author / Owner | Technical Safety Service Division (Q-TS-TS), Refinery Petrochemical Corporation |
 | Date | 1–3 November 2021 |
 | Format | PowerPoint slides (7 slides) |
 | File | `raw/standards/8. Chapter 7 - GC HAZOP Workflow.pdf` |

@@ -11,7 +11,7 @@ last_updated: 2026-06-14
 # Source: GC HAZOP Leadership Training — Chapter 6: Facilitator Skill
 
 **File:** `raw/standards/7. Chapter 6 - Facilitator skill.pdf`
-**Producer:** PTT Global Chemical — Technical Safety Service Division (Q-TS-TS)
+**Producer:** Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS)
 **Course:** HAZOP Leadership Training, 1–3 November 2021
 **Slides:** 19 pages (4 sub-chapters: 6-1 Effectiveness, 6-2 Decision Making, 6-3 Role of Facilitator, 6-4 Active Listening)
 

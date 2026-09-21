@@ -8,7 +8,7 @@ last_updated: 2026-06-16
 
 **Files:** 13 process/project specification sheets sorted from `input/` → `raw/data_sheets/` (14780-8120-PS-* series, Rev Z1, As-Built, May 10, 2016).
 
-**Source:** POSCO Engineering & Construction for PTT Phenol Train II (PPCL). UOP licence, Project Spec 963766. All sheets are UOP-branded "Project Specification" forms (centrifugal pumps form 501, proportioning pumps form 503, sealless pumps form 506, vacuum pumps form 511, filters form 912) co-issued with POSCO's "Process Specification" cover pages.
+**Source:** POSCO Engineering & Construction for Refinery Phenol Train II. UOP licence, Project Spec 963766. All sheets are UOP-branded "Project Specification" forms (centrifugal pumps form 501, proportioning pumps form 503, sealless pumps form 506, vacuum pumps form 511, filters form 912) co-issued with POSCO's "Process Specification" cover pages.
 
 **Purpose:** Closes PSI Readiness Table A6.2-2 Item 4 (Equipment Data Sheets) for CDN rotating equipment (pumps) and static filters/vacuum package not previously covered by the 2026-06-14 static equipment batch.
 

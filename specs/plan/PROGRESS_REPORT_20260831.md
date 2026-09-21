@@ -10,7 +10,7 @@
 
 ## 1. Executive Summary
 
-The **PTT Global Chemical (PTT GC) Phenol Process Safety & HAZOP AI Platform** has completed the full implementation of:
+The **Refinery Petrochemical Corporation (Refinery Group) Phenol Process Safety & HAZOP AI Platform** has completed the full implementation of:
 1. **Engineer P&ID Markup PDF Ingestion (`PidMarkupParser`):** Automatically extracts color-coded node boundaries (`Yellow` for `Node 23-02`, `Green` for `Node 23-03`), related P&ID drawings, and included equipment tags.
 2. **Human-in-the-Loop Node Confirmation Gate:** Hydrates side-by-side design vs. operating conditions from the wiki and requires explicit human confirmation before beginning deviation analysis.
 3. **All-in-One Discovered Risks Excel Grid with Freeze Panes & Viewport Scroll:**
@@ -25,7 +25,7 @@ The **PTT Global Chemical (PTT GC) Phenol Process Safety & HAZOP AI Platform** h
    - **Prominent Action Buttons:** Consolidated top toolbar with `✨ AI Add Risk Scenario` and `➕ Add Blank Row Manually` alongside `⚡ Update & Recalculate All` and `📥 Export 7-Tab Official Excel`.
    - **Instant Row Synthesis:** Natural language failure descriptions or suggested chips (e.g. *Instrument Air Loss to TV-0501*, *E-2303 Tube Rupture*, *Chemical Contamination*) are parsed by AI to auto-populate tagged root causes, runaway consequence chains, PEES scores, candidate IPL safeguards, and final ratings.
    - **1-Click Insertion:** Live modal preview with 1-click addition to worksheet and smooth focus scroll.
-5. **Audit-Ready 7-Tab Excel Exporter (`export_hazop_study_to_excel`):** Exports official PTT GC workbooks matching `hazop-example/*.xlsx` across all 7 tabs (`Cover Page`, `HAZOP Information`, `WorkSheet Index`, `WorkSheet <Node>` with 27 columns and styled risk badges, `Action Items`, `Risk Ranking`, and `Interlock-ESD Summary`).
+5. **Audit-Ready 7-Tab Excel Exporter (`export_hazop_study_to_excel`):** Exports official Refinery Group workbooks matching `hazop-example/*.xlsx` across all 7 tabs (`Cover Page`, `HAZOP Information`, `WorkSheet Index`, `WorkSheet <Node>` with 27 columns and styled risk badges, `Action Items`, `Risk Ranking`, and `Interlock-ESD Summary`).
 6. **Study Finalization & Dataplex Knowledge Catalog Sync:** Automatically registers completed HAZOP study records in Google Cloud Dataplex Knowledge Catalog under entry group `phenol-psi`, attaching `oems_005_process_safety_aspect` (Category 6: PHA / HAZOP), linking open recommendations, updating Spanner Graph status to `COMPLETE`, and updating the GCS wiki.
 
 ```mermaid

@@ -13,7 +13,7 @@
 ## 1. Problem Statement & Objectives
 
 ### 1.1 Context & Background
-In industrial chemical manufacturing facilities such as **PTT Phenol Train II (PPCL)**, HAZOP studies are strictly bounded by process segments marked up directly on Piping & Instrumentation Diagrams (P&IDs) by experienced lead process safety engineers.
+In industrial chemical manufacturing facilities such as **Refinery Phenol Train II**, HAZOP studies are strictly bounded by process segments marked up directly on Piping & Instrumentation Diagrams (P&IDs) by experienced lead process safety engineers.
 
 As demonstrated in `hazop-example/`, the engineer supplies:
 1. **Expert-Marked P&IDs (PDFs):** Color-coded boundaries (e.g., Yellow for `Node 23-02`, Green for `Node 23-03`) defining physical node limits, related drawings, and equipment tags.
@@ -139,7 +139,7 @@ The export engine generates the 7 sheets identical to `hazop-example/`:
 3. **`WorkSheet Index`:** Node No, Description, Design Intention, Design/Operating Conditions, Colour code, Related Drawings, Status.
 4. **`WorkSheet <Node>`:** Grouped two-tier headers, freeze pane at row 3, color-coded risk rank cells (Extreme = Maroon `#800000`/White, High = Red `#FF0000`/White, Medium = Orange `#FFC000`/Black, Low = Yellow `#FFFF00`/Black, Very Low = Green `#92D050`/Black).
 5. **`Action Items`:** Recommendation register (`Rec#`, `Node`, `Deviation Ref`, `Action Detail`, `Risk Rank`, `Discipline`, `Owner Type`, `Responsible`, `Due Date`, `Approver`, `Completion Date`, `Approved Date`, `Status`).
-6. **`Risk Ranking`:** 5x5 RAM lookup matrix and PTT GC PEES criteria (BU economic tier: $\ge$100M THB).
+6. **`Risk Ranking`:** 5x5 RAM lookup matrix and Refinery PEES criteria (BU economic tier: $\ge$100M THB).
 7. **`Interlock-ESD Summary`:** Rollup table of all credited SIS trips (`IL/ESD = Yes`).
 
 ---

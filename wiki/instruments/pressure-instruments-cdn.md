@@ -8,7 +8,7 @@ last_updated: 2026-06-16
 
 # CDN Pressure Instrument Register
 
-**Source:** 14780-8120-PS-0032, Rev Z1 (AS-BUILT, May 2016), PTT Phenol Train II, POSCO Engineering / UOP licensor basis. 40-page process specification covering pressure transmitters, differential pressure transmitters, and local pressure gauges across the CDN unit.
+**Source:** 14780-8120-PS-0032, Rev Z1 (AS-BUILT, May 2016), Refinery Phenol Train II, POSCO Engineering / UOP licensor basis. 40-page process specification covering pressure transmitters, differential pressure transmitters, and local pressure gauges across the CDN unit.
 
 This is the consolidated reference for CDN pressure measurement devices. Individual equipment pages reference the relevant tags; this page holds the full sizing/range data.
 

@@ -450,7 +450,7 @@
       "operating_temp_celsius": 40.0,
       "material": null,
       "markdown_uri": "14780-8120-25-23-0012",
-      "description_summary": "# D-2303 \u2014 Decomposer Feed Flush Drum\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II (PPCL)\n\n## Function\n\nD-2303 is a small flush drum (constructed from 24\"OD pipe, 1800mm long) located bet"
+      "description_summary": "# D-2303 \u2014 Decomposer Feed Flush Drum\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** Refinery Phenol Train II\n\n## Function\n\nD-2303 is a small flush drum (constructed from 24\"OD pipe, 1800mm long) located bet"
     },
     {
       "equipment_tag": "D-2304",
@@ -463,7 +463,7 @@
       "operating_temp_celsius": 55.0,
       "material": null,
       "markdown_uri": "14780-8120-25-23-0013",
-      "description_summary": "# D-2304 \u2014 Decomposer Drum\n\n> \u26a0\ufe0f HIGHEST HAZARD EQUIPMENT IN CDN SECTION. CHP decomposition is exothermic and autocatalytic. Loss of recirculation pumps with CHP present is a CRITICAL emergency. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II ("
+      "description_summary": "# D-2304 \u2014 Decomposer Drum\n\n> \u26a0\ufe0f HIGHEST HAZARD EQUIPMENT IN CDN SECTION. CHP decomposition is exothermic and autocatalytic. Loss of recirculation pumps with CHP present is a CRITICAL emergency. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** Refinery Phenol Train II"
     },
     {
       "equipment_tag": "D-2306",
@@ -645,7 +645,7 @@
       "operating_temp_celsius": 50.0,
       "material": null,
       "markdown_uri": "14780-8120-25-23-0015",
-      "description_summary": "# E-2308A/B \u2014 Dehydrators\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II (PPCL)\n\n## Function\n\nE-2308A/B are shell-and-tube heat exchangers operated as 1 operating + 1 standby. They serve th"
+      "description_summary": "# E-2308A/B \u2014 Dehydrators\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** Refinery Phenol Train II\n\n## Function\n\nE-2308A/B are shell-and-tube heat exchangers operated as 1 operating + 1 standby. They serve th"
     },
     {
       "equipment_tag": "E-2309",
@@ -658,7 +658,7 @@
       "operating_temp_celsius": 35.0,
       "material": null,
       "markdown_uri": "14780-8120-25-23-0016",
-      "description_summary": "# E-2309 \u2014 Crude Product Cooler\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II (PPCL)\n\n## Function\n\nE-2309 is the final cooler in the CDN decomposition sub-section. It reduces crude product"
+      "description_summary": "# E-2309 \u2014 Crude Product Cooler\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** Refinery Phenol Train II\n\n## Function\n\nE-2309 is the final cooler in the CDN decomposition sub-section. It reduces crude product"
     },
     {
       "equipment_tag": "E-2310",
@@ -736,7 +736,7 @@
       "operating_temp_celsius": 52.0,
       "material": null,
       "markdown_uri": "14780-8120-25-23-0014",
-      "description_summary": "# P-2303A/B \u2014 Decomposer Product Pumps\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** PTT Phenol Train II (PPCL)\n\n## Function\n\nP-2303A/B extract the product overflow from the Decomposer Drum ([[equipment/D-230"
+      "description_summary": "# P-2303A/B \u2014 Decomposer Product Pumps\n\n> \u26a0\ufe0f CHP is a peroxide \u2014 thermal decomposition risk. See [[hazards/cumene-hydroperoxide]].\n\n**Technology:** UOP CDN Process | **Plant:** Refinery Phenol Train II\n\n## Function\n\nP-2303A/B extract the product overflow from the Decomposer Drum ([[equipment/D-230"
     },
     {
       "equipment_tag": "P-2304A",

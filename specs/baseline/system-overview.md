@@ -2,7 +2,7 @@
 
 **Document ID:** `SPEC-BASELINE-20260824-SYSTEM-OVERVIEW`  
 **System Name:** Phenol Process Expert (LLM Wiki & HAZOP Safety Agent)  
-**Target Facility:** PTT Phenol Company Limited (PPCL) — Train II, Map Ta Phut, Thailand  
+**Target Facility:** Refinery Operations Ltd. — Train II, Map Ta Phut, Thailand  
 **Process Technology:** Hock Process (UOP Cumene Oxidation & Cleavage)  
 **Status:** Approved Baseline  
 **Governing Standard:** Spec-Driven Development (SDD) Brownfield Protocol (`_agents/rules/spec_driven_development.md`)  
@@ -13,32 +13,32 @@
 ## 1. Executive Summary & Problem Domain
 
 ### 1.1 Context & Background
-The **Phenol Process Expert** is a persistent, AI-maintained engineering knowledge base and interactive process safety agent designed for chemical process specialists and safety engineers at petrochemical facilities. Operating specifically on the **PTT Phenol Train II (PPCL)** plant in Map Ta Phut, Thailand (engineered by POSCO Engineering under license from UOP / Honeywell), the application synthesizes complex process safety information (PSI) spanning Process Flow Diagrams (PFDs), Piping & Instrumentation Diagrams (P&IDs), Process/Equipment Data Sheets, General Operating Manuals (GOM), Safety Data Sheets (SDS), and corporate safety standards into an interconnected knowledge graph.
+The **Phenol Process Expert** is a persistent, AI-maintained engineering knowledge base and interactive process safety agent designed for chemical process specialists and safety engineers at petrochemical facilities. Operating specifically on the **Refinery Phenol Train II** plant in Map Ta Phut, Thailand (engineered by POSCO Engineering under license from UOP / Honeywell), the application synthesizes complex process safety information (PSI) spanning Process Flow Diagrams (PFDs), Piping & Instrumentation Diagrams (P&IDs), Process/Equipment Data Sheets, General Operating Manuals (GOM), Safety Data Sheets (SDS), and corporate safety standards into an interconnected knowledge graph.
 
 ### 1.2 Core Problem Statement
 Process engineering and Hazard and Operability (HAZOP) studies face critical operational challenges:
 1. **Knowledge Fragmentation:** Vital process limits, equipment design ratings, interlock logic, and operating windows are scattered across hundreds of dense PDF documents, spreadsheets, and CAD drawings.
 2. **Ephemeral Context in LLM Chatbots:** Generic conversational AI tools suffer from hallucination, lack persistent memory, cannot perform compounding multi-document synthesis, and fail to ground engineering assertions in verified plant documentation.
-3. **Auditability & Regulatory Rigor in HAZOP Studies:** Traditional HAZOP analysis requires strict compliance with corporate and statutory risk standards (e.g., PTT GC OEMS and DIW regulations). Ad-hoc LLM generation of HAZOP worksheets is prone to anchoring bias, unjustified risk reductions, missing cause-consequence chains, and non-defensible safeguard credits.
+3. **Auditability & Regulatory Rigor in HAZOP Studies:** Traditional HAZOP analysis requires strict compliance with corporate and statutory risk standards (e.g., Refinery OEMS and DIW regulations). Ad-hoc LLM generation of HAZOP worksheets is prone to anchoring bias, unjustified risk reductions, missing cause-consequence chains, and non-defensible safeguard credits.
 
 ### 1.3 System Mission & Objectives
 - **Persistent Compounding Knowledge (LLM Wiki Pattern):** Transform raw engineering documents into a living, cross-referenced Markdown wiki where every new document enriches existing equipment, unit, stream, procedure, and hazard pages.
 - **Strict Grounding & Citation:** Ensure every technical answer cites exact wiki entities and source documents. If data is absent or contradictory, the system explicitly flags the gap rather than speculating.
-- **Standards-Bound HAZOP Facilitation:** Drive an interactive, node-by-node, deviation-by-deviation HAZOP study lifecycle governed by PTT GC corporate standards (`P-(Q-MP)-OEMS-005`, `W-(Q-MP)-002`, `SG-(Q-MP)-014`), generating audit-ready worksheets, action registers, and Excel deliverables.
+- **Standards-Bound HAZOP Facilitation:** Drive an interactive, node-by-node, deviation-by-deviation HAZOP study lifecycle governed by Refinery Group corporate standards (`P-(Q-MP)-OEMS-005`, `W-(Q-MP)-002`, `SG-(Q-MP)-014`), generating audit-ready worksheets, action registers, and Excel deliverables.
 
 ---
 
 ## 2. High-Level Architecture & Component Boundaries
 
-The system architecture combines a file-based Markdown knowledge repository (compatible with Obsidian vaults), a Claude Code Agent runtime governed by declarative schemas and skills, Python automation utilities, and openpyxl-based deliverable generators.
+The system architecture combines a persistent engineering knowledge base (compatible with Markdown vaults and Cloud Spanner), governed by declarative schemas and rules in GEMINI.md, Google ADK agents, and Python automation utilities.
 
 ```mermaid
 graph TD
-    User([Process Specialist / Safety Engineer]) <-->|CLI / Conversational Interaction| Agent[Claude Code Agent Engine]
+    User([Process Specialist / Safety Engineer]) <-->|Web Cockpit / Chat| Agent[Google ADK OrchestratorAgent Engine]
     
     subgraph "Rule & Schema Governance"
-        CLAUDE[CLAUDE.md Schema & Rules] -.-> Agent
-        HazopSkill[.claude/skills/hazop/SKILL.md] -.-> Agent
+        GEMINI[GEMINI.md & AGENTS.md Central Directives] -.-> Agent
+        HazopEngine[app/hazop/agent.py & ram_evaluator.py] -.-> Agent
         AgentsRules[_agents/rules/*.md] -.-> Agent
     end
     
@@ -85,11 +85,11 @@ graph TD
 
 | Subsystem | Components | Primary Responsibility | Data Access |
 |---|---|---|---|
-| **Agent Runtime** | `CLAUDE.md`, `.claude/skills/hazop/SKILL.md` | Enforces prompt contracts, session bootstrap, workflow routing, safety invariants, and interactive HAZOP deviation loops. | Read/Write `wiki/`, `output/`; Read `raw/` |
+| **Agent Runtime** | `GEMINI.md`, `app/hazop/agent.py` | Enforces prompt contracts, session bootstrap, workflow routing, safety invariants, and interactive HAZOP deviation loops. | Read/Write `wiki/`, `output/`; Read `raw/` |
 | **Input Classifier** | `sort_input.py`, `input/` | Scans incoming files, performs keyword/regex matching on filenames and text previews, handles collision renaming, and moves files to `raw/`. | Read `input/`, Write `raw/` |
 | **Raw Vault** | `raw/` (`pfd`, `pid`, `data_sheets`, `operating_manuals`, `standards`, `assets`) | Immutable, human-provided engineering source files (PDFs, spreadsheets, images). | Read-Only for Agent |
 | **Wiki Knowledge Base** | `wiki/` (151+ files across 9 domains) | Structured, human-readable Markdown vault containing synthesized unit descriptions, equipment specs, control loops, safety data, and HAZOP records. | Full Agent Ownership (Read/Write) |
-| **Deliverables Pipeline** | `output/working/build_cdn_n*.py`, `output/` | Python scripts utilizing `openpyxl` to build official multi-tab PTT GC HAZOP workbooks, reports, and presentations. | Write to `output/exports/`, `output/reports/` |
+| **Deliverables Pipeline** | `output/working/build_cdn_n*.py`, `output/` | Python scripts utilizing `openpyxl` to build official multi-tab Refinery Group HAZOP workbooks, reports, and presentations. | Write to `output/exports/`, `output/reports/` |
 
 ---
 
@@ -101,7 +101,7 @@ Every entity in `wiki/` is structured as a Markdown file with YAML frontmatter. 
 
 ```
 /
-├── CLAUDE.md                          ← Agent Master Schema & Invariant Directives
+├── GEMINI.md                          ← Agent Master Schema & Invariant Directives
 ├── sort_input.py                      ← CLI First-Pass File Classifier
 ├── input/                             ← Unclassified Drop Zone (DROP_FILES_HERE.md)
 ├── raw/                               ← Read-Only Primary Source Documentation
@@ -134,7 +134,7 @@ Every entity in `wiki/` is structured as a Markdown file with YAML frontmatter. 
     ├── sources/                       ← Source Document Ingestion Summaries
     └── hazop/                         ← HAZOP Study Data & Records
         ├── study-info.md              ← Scope, Team, PSI Status & Node Register
-        ├── risk-matrix.md             ← PTT GC 5x5 RAM Specification
+        ├── risk-matrix.md             ← Refinery 5x5 RAM Specification
         ├── methodology.md             ← 9-Step HAZOP & IPL Credit Guidelines
         ├── action-register.md         ← Master Recommendation Tracker
         ├── interlock-esd-summary.md   ← Cross-Node SIS/ESD Safeguard Rollup
@@ -289,7 +289,7 @@ Triggered by technical questions (e.g., *"What is the normal operating temperatu
 
 ### 4.4 End-to-End HAZOP Study Lifecycle
 
-The HAZOP workflow is governed exclusively by `.claude/skills/hazop/SKILL.md`.
+The HAZOP workflow is governed exclusively by the HAZOP study engine (`app/hazop/agent.py` and `app/hazop/ram_evaluator.py`).
 
 ```mermaid
 stateDiagram-v2
@@ -346,7 +346,7 @@ Within `wiki/hazop/nodes/<unit>-N<nn>.md`, deviations are structured hierarchica
 ### 4.5 Excel Worksheet Export Pipeline
 Triggered by `"Export <Node> worksheet to Excel"`.
 
-Python scripts (`output/working/build_cdn_n02_xlsx.py`, `output/working/build_cdn_n03_xlsx.py`) utilize `openpyxl` to build an official 7-tab PTT GC HAZOP workbook:
+Python scripts (`output/working/build_cdn_n02_xlsx.py`, `output/working/build_cdn_n03_xlsx.py`) utilize `openpyxl` to build an official 7-tab Refinery Group HAZOP workbook:
 1. **Cover Page:** Plant metadata, study scope, P&ID list, disclaimer.
 2. **HAZOP Information:** Chemical hazards, governing RAM, licensor limits, anti-bias declaration.
 3. **WorkSheet Index:** Summary table of node descriptions, boundaries, and drawings.
@@ -368,7 +368,7 @@ Python scripts (`output/working/build_cdn_n02_xlsx.py`, `output/working/build_cd
 ### 5.2 Non-Negotiable Engineering Rules
 
 #### 1. HAZOP Anti-Bias Rule
-> ⛔ **HARD PROHIBITION:** Previous HAZOP reports, revalidation worksheets, or recommendation registers for **PTT Phenol / CDN** must NEVER be ingested into `raw/` or `wiki/` during an active study.
+> ⛔ **HARD PROHIBITION:** Previous HAZOP reports, revalidation worksheets, or recommendation registers for **Refinery Phenol / CDN** must NEVER be ingested into `raw/` or `wiki/` during an active study.
 - **Enforcement:** Agent scans `raw/` before any SETUP or NODE action. If an old plant HAZOP is detected, execution halts immediately.
 
 #### 2. Standards Primacy Rule
@@ -381,8 +381,8 @@ Python scripts (`output/working/build_cdn_n02_xlsx.py`, `output/working/build_cd
 - The agent must not guess or auto-generate boundaries. If markup is absent or ambiguous, the agent stops and asks.
 
 #### 4. RAM & Economic Severity Resolution
-- Risk Assessment Matrix adheres to **PTT GC Operational RAM `W-(Q-MP)-002 R2`** (5x5 matrix, PEES severity).
-- **Economic Severity Tier for PPCL:** Formally resolved as **BU** tier (Extreme ≥100M THB, High 10–<100M, Medium 1–<10M, Low 0.1–<1M, Very Low <0.1M THB).
+- Risk Assessment Matrix adheres to **Refinery Operational RAM `W-(Q-MP)-002 R2`** (5x5 matrix, PEES severity).
+- **Economic Severity Tier for Refinery Operations Ltd.:** Formally resolved as **BU** tier (Extreme ≥100M THB, High 10–<100M, Medium 1–<10M, Low 0.1–<1M, Very Low <0.1M THB).
 
 ---
 

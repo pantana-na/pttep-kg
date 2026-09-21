@@ -1,12 +1,12 @@
-"""PTT GC 5x5 Risk Assessment Matrix (RAM) & LOPA Safeguard Evaluator.
+"""Refinery 5x5 Risk Assessment Matrix (RAM) & LOPA Safeguard Evaluator.
 
-Governed by PTT GC Corporate Standard W-(Q-MP)-002 R2 and SPEC-20260831-HAZOP-MARKUP-INGESTION-AND-STUDY-LIFECYCLE.
+Governed by Refinery 5x5 RAM Standard W-(Q-MP)-002 R2 and SPEC-20260831-HAZOP-MARKUP-INGESTION-AND-STUDY-LIFECYCLE.
 Supports 3-Risk-Block Lifecycle and 3 Human-in-the-Loop (HITL) gates.
 """
 
 from typing import Tuple, List, Dict, Any, Optional
 
-# PTT GC 5x5 RAM Lookup Grid: rows = Severity (1..5), cols = Likelihood (1..5)
+# Refinery 5x5 RAM Lookup Grid: rows = Severity (1..5), cols = Likelihood (1..5)
 # Severity: 1=Slight, 2=Minor, 3=Local, 4=Major, 5=Extensive
 # Likelihood: 1=Improbable, 2=Remote, 3=Occasional, 4=Probable, 5=Frequent
 RAM_GRID = {

@@ -1,20 +1,20 @@
 ---
-name: HAZOP Risk Matrix — PTT GC RAM W-(Q-MP)-002
+name: HAZOP Risk Matrix — Refinery 5x5 RAM W-(Q-MP)-002
 tags: [hazop, risk-matrix, standard]
 source: W-(Q-MP)-002_R2.pdf
 governing_section: "§6.2.1.3.1 — RAM for Process Hazard Analysis (PHA)"
 last_updated: 2026-06-17
 ---
 
-# HAZOP Risk Matrix — PTT GC Operational RAM
+# HAZOP Risk Matrix — Refinery Operational RAM
 
-> **Governing Document:** W-(Q-MP)-002 Rev.2 (10/09/2025) — PTT Global Chemical Operational Risk Assessment Matrix
+> **Governing Document:** W-(Q-MP)-002 Rev.2 (10/09/2025) — Refinery Petrochemical Corporation Operational Risk Assessment Matrix
 > **Applicable Section:** §6.2.1.3.1 — RAM for Process Hazard Analysis (PHA)
 > **Source file:** `raw/standards/W-(Q-MP)-002_R2.pdf`
 > **Source summary:** [[wiki/sources/W-Q-MP-002]]
 > **Independently corroborated by:** GC ePHA Template v5.0 (Risk Ranking) — `raw/standards/GC_ePHA_Template_v5.0(Risk Ranking).xlsm`. See [[wiki/sources/gc-epha-template-v5-risk-ranking]]. Core matrix, Likelihood, People, Environment, and Social tables match exactly between both sources; Economic table has a category-naming and value CONFLICT — see note in that section below.
 
-This page is the **single authoritative risk ranking reference** for all HAZOP node analyses in this wiki. Per the Standards Primacy Rule in CLAUDE.md, all Severity, Likelihood, and Risk rankings must cite this page.
+This page is the **single authoritative risk ranking reference** for all HAZOP node analyses in this wiki. Per the Standards Primacy Rule in `GEMINI.md`, all Severity, Likelihood, and Risk rankings must cite this page.
 
 ---
 
@@ -36,8 +36,8 @@ This page is the **single authoritative risk ranking reference** for all HAZOP n
 | Level | Label | Frequency Basis |
 |-------|-------|----------------|
 | 5 | Frequent | Has happened **more than once per year** at the Location |
-| 4 | Likely | Has happened **at the Location** OR more than once/year in PTTGC group |
-| 3 | Possible | Has happened in the **PTTGC group** OR more than once/year in the Industry |
+| 4 | Likely | Has happened **at the Location** OR more than once/year in the Refinery group |
+| 3 | Possible | Has happened in the **Refinery group** OR more than once/year in the Industry |
 | 2 | Unlikely | **Possible to occur** in the Industry (or has occurred in Industry) |
 | 1 | Improbable | **Unlikely to occur** in the Industry (or has not occurred) |
 
@@ -75,11 +75,11 @@ This page is the **single authoritative risk ranking reference** for all HAZOP n
 
 ## Consequence Severity — Economic (§6.2.1.3.1)
 
-Economic thresholds vary by plant category. For HAZOP at PTT Phenol, apply the relevant category:
+Economic thresholds vary by plant category. For HAZOP at Refinery Phenol, apply the relevant category:
 
-> ✅ **RESOLVED FOR PPCL (2026-06-17):** PPCL is classified **BU**. Use the **BU** economic thresholds from the GC ePHA Template v5.0 table below — Extreme(5) ≥100 M THB; High(4) 10–<100 M; Medium(3) 1–<10 M; Low(2) 0.1–<1 M; Very Low(1) <0.1 M. This governs all PPCL HAZOP node Economic severity scoring (first applied in [[wiki/hazop/nodes/cdn-N02]]). The category-naming conflict below is retained for reference; the BU column is the one in force for this study. Decision provided by the study owner.
+> ✅ **RESOLVED FOR Refinery Operations Ltd. (2026-06-17):** Refinery Operations Ltd. is classified **BU**. Use the **BU** economic thresholds from the GC ePHA Template v5.0 table below — Extreme(5) ≥100 M THB; High(4) 10–<100 M; Medium(3) 1–<10 M; Low(2) 0.1–<1 M; Very Low(1) <0.1 M. This governs all Refinery Operations Ltd. HAZOP node Economic severity scoring (first applied in [[wiki/hazop/nodes/cdn-N02]]). The category-naming conflict below is retained for reference; the BU column is the one in force for this study. Decision provided by the study owner.
 
-> ⛔ **CONFLICT (historical reference — superseded for PPCL by the BU resolution above)** [W-(Q-MP)-002_R2.pdf vs GC_ePHA_Template_v5.0(Risk Ranking).xlsm]: the two governing sources use different category names AND, for two of three categories, different THB thresholds. W-(Q-MP)-002 R2 names categories **Upstream / Downstream / GC-S**; the GC ePHA Template v5.0 names categories **GPC / BU / Small BU**. The **Upstream** column matches **GPC** exactly. **Downstream** does **not** match **BU**, and **GC-S** does **not** match **Small BU** (see GPC/BU/Small BU table below). Resolve which category applies to PTT Phenol (PPCL) and which document's numbers govern before using Economic severity in any node worksheet. See [[wiki/sources/gc-epha-template-v5-risk-ranking]] for the full side-by-side comparison.
+> ⛔ **CONFLICT (historical reference — superseded for Refinery Operations Ltd. by the BU resolution above)** [W-(Q-MP)-002_R2.pdf vs GC_ePHA_Template_v5.0(Risk Ranking).xlsm]: the two governing sources use different category names AND, for two of three categories, different THB thresholds. W-(Q-MP)-002 R2 names categories **Upstream / Downstream / GC-S**; the GC ePHA Template v5.0 names categories **GPC / BU / Small BU**. The **Upstream** column matches **GPC** exactly. **Downstream** does **not** match **BU**, and **GC-S** does **not** match **Small BU** (see GPC/BU/Small BU table below). Resolve which category applies to Refinery Phenol and which document's numbers govern before using Economic severity in any node worksheet. See [[wiki/sources/gc-epha-template-v5-risk-ranking]] for the full side-by-side comparison.
 
 ### Upstream Plant (O-P1, O-P2, O-P3, O-P4, U-P1, U-CM, R-P1, R-RM, A-P1, A-P2) — per W-(Q-MP)-002 R2
 | Level | Label | Loss (THB) |
@@ -117,7 +117,7 @@ Economic thresholds vary by plant category. For HAZOP at PTT Phenol, apply the r
 | 2 | Low | 0.3 – < 3 M | 0.1 – < 1 M | 0.01 – < 0.1 M |
 | 1 | Very Low | < 0.3 M | < 0.1 M | < 0.01 M |
 
-> **Note:** PTT Phenol (PPCL) plant classification (Upstream vs Downstream vs GPC/BU/Small BU) should be confirmed with the HAZOP team before applying economic thresholds. PH-P1/PH-P2 codes in the Downstream category may refer to phenol plants. **GPC = Upstream is the only confirmed equivalence; do not assume Downstream = BU or GC-S = Small BU.**
+> **Note:** Refinery Phenol plant classification (Upstream vs Downstream vs GPC/BU/Small BU) should be confirmed with the HAZOP team before applying economic thresholds. PH-P1/PH-P2 codes in the Downstream category may refer to phenol plants. **GPC = Upstream is the only confirmed equivalence; do not assume Downstream = BU or GC-S = Small BU.**
 
 ---
 

@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary
 
-In accordance with user directives and the Master Test Prompts Suite ([`test_prompt/`](../../test_prompt/)), the platform's automated **Agent Evaluation (Agent Eval)** system was expanded from 5 baseline cases to **105 comprehensive production benchmark datasets**.
+In accordance with user directives and the Master Test Prompts Suite ([`docs/test_prompts/`](../../docs/test_prompts/)), the platform's automated **Agent Evaluation (Agent Eval)** system was expanded from 5 baseline cases to **105 comprehensive production benchmark datasets**.
 
 The benchmark validates:
 1. **Tri-Tier Process Safety Retrieval:** ISO GQL Spanner Property Graph traversals, certified Dataplex P&ID drawing lineage (`Rev Z1`), and GCS LLM-Wiki operational narratives.

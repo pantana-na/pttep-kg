@@ -48,7 +48,7 @@ flowchart TD
 ```
 ================================ test session starts ================================
 platform linux -- Python 3.13.15, pytest-9.1.1, pluggy-1.6.0
-rootdir: /usr/local/google/home/pantana/lab/pttep-kg
+rootdir: /usr/local/google/home/pantana/lab/Refinery-kg
 plugins: hypothesis-6.168.0, anyio-4.15.1, asyncio-1.4.0
 
 tests/test_agent_eval.py .                                         [PASSED]

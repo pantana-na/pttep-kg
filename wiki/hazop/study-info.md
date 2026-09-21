@@ -14,7 +14,7 @@ last_updated: 2026-06-14
 
 ## Scope
 
-- **Plant:** PTT Phenol Train II (PPCL), Map Ta Phut, Thailand
+- **Plant:** Refinery Phenol Train II, Map Ta Phut, Thailand
 - **Licensor:** UOP / Honeywell
 - **Engineer:** POSCO Engineering
 - **Sections in scope:** CDN — Concentration, Decomposition, Neutralization (primary scope; initial study phase)
@@ -105,7 +105,7 @@ Preferred approach: **Consensus** — team more committed to conclusions, fewer 
 
 ## Anti-Bias Declaration
 
-> ⚠️ **No previous HAZOP reports have been ingested into this wiki.** This study is conducted independently. No prior worksheets, revalidation reports, or recommendation registers are present in `raw/`. See HAZOP Anti-Bias Rule in CLAUDE.md.
+> ⚠️ **No previous HAZOP reports have been ingested into this wiki.** This study is conducted independently. No prior worksheets, revalidation reports, or recommendation registers are present in `raw/`. See HAZOP Anti-Bias Rule in `app/hazop/anti_bias.py` and `GEMINI.md`.
 
 ---
 

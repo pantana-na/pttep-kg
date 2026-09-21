@@ -12,7 +12,7 @@ last_updated: 2026-06-16
 
 ## Purpose
 
-136-page AS-BUILT (Rev Z1) Control Valve process data sheet for the CDN unit, prepared by POSCO Engineering for PTT Phenol Train II under UOP licence. Covers 43 distinct control/on-off valve tags (34 full process/actuator data sheets + 9 condensed pump-seal/N₂ purge valves in tabular format).
+136-page AS-BUILT (Rev Z1) Control Valve process data sheet for the CDN unit, prepared by POSCO Engineering for Refinery Phenol Train II under UOP licence. Covers 43 distinct control/on-off valve tags (34 full process/actuator data sheets + 9 condensed pump-seal/N₂ purge valves in tabular format).
 
 Full extraction is at [[instruments/control-valves-cdn]] — this page summarizes findings only.
 

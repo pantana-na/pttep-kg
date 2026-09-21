@@ -8,7 +8,7 @@ last_updated: 2026-06-16
 
 # CDN Flow Instrument Register
 
-**Source:** 14780-8120-PS-0031, Rev Z1 (AS-BUILT), PTT Phenol Train II, POSCO Engineering / UOP licensor basis. 53 instrument data sheets across 6 instrument families.
+**Source:** 14780-8120-PS-0031, Rev Z1 (AS-BUILT), Refinery Phenol Train II, POSCO Engineering / UOP licensor basis. 53 instrument data sheets across 6 instrument families.
 
 This is the consolidated reference for CDN flow measurement devices — differential-pressure transmitters, primary flow elements (orifice plates), Coriolis mass flow meters, thermal mass flow instruments/switches, restriction orifices, and one rotameter. Individual equipment pages reference the relevant tags; this page holds the full sizing/range data.
 

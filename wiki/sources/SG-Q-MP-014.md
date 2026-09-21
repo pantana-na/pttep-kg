@@ -7,7 +7,7 @@ last_updated: 2026-06-13
 
 # Source: SG-(Q-MP)-014 — Guidance for HAZOP Studies
 
-**Issuer:** PTT Global Chemical Public Company Limited, GC Management System and Process Safety (Q-MP)
+**Issuer:** Refinery Petrochemical Corporation, GC Management System and Process Safety (Q-MP)
 **Document No.:** SG-(Q-MP)-014
 **Revision:** 3
 **Date:** 26/05/2026

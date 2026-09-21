@@ -4,6 +4,13 @@ Append-only. Each entry starts with `## [YYYY-MM-DD] <type> | <title>` for grep-
 
 To see last 5 entries: `grep "^## \[" wiki/log.md | tail -5`
 
+## [2026-09-21] refactor | decommission and delete all Claude-specific files
+
+Type: system refactor / migration cleanup
+Action: Deleted CLAUDE.md, .claude/skills/hazop/SKILL.md (.claude directory), and hazop-example/HAZOP-SKILLS.md
+Sanitization: Updated all active documentation in wiki/ and specs/ to point to GEMINI.md and Python implementations (app/hazop/anti_bias.py, app/hazop/agent.py, app/hazop/ram_evaluator.py)
+Status: Completed — Google ADK & Gemini Enterprise Agent Platform runtime fully governing the platform
+
 ## [2026-06-26] output | replication kit — generic LLM Process Expert Wiki prompts
 Type: working documents (3 files)
 Destination: output/working/
@@ -78,7 +85,7 @@ Content: full preliminary CDN-N02 report — scope/boundaries (engineer-confirme
 
 Study owner answered the three open items on the CDN-N02 preliminary worksheet:
 1. **Boundaries CONFIRMED** — the recorded node 23-02 boundary interpretation is correct (inlet tie-in N01↔N02 and the Dwg 0007 segment both confirmed). "To confirm" flags in [[hazop/nodes/cdn-N02]] changed to ✅ confirmed.
-2. **Economic category RESOLVED: PPCL = BU.** Applied GC ePHA Template v5.0 BU thresholds (Extreme ≥100 M / High 10–<100 M / Medium 1–<10 M / Low 0.1–<1 M / Very Low <0.1 M). Recorded the resolution on [[hazop/risk-matrix]] Economic section (long-standing wiki Open Conflict now resolved *for PPCL*; category-naming conflict retained as historical reference). Economic scores added to all CDN-N02 deviation rows + the interlock/ESD summary: CHP catastrophic rows Ec 5 (People 5 still binds — RR unchanged); production-loss rows #2.1/#5.1 scored Ec 2 (first-pass, team to validate vs rate-loss financials).
+2. **Economic category RESOLVED: Refinery Operations Ltd. = BU.** Applied GC ePHA Template v5.0 BU thresholds (Extreme ≥100 M / High 10–<100 M / Medium 1–<10 M / Low 0.1–<1 M / Very Low <0.1 M). Recorded the resolution on [[hazop/risk-matrix]] Economic section (long-standing wiki Open Conflict now resolved *for Refinery Operations Ltd.*; category-naming conflict retained as historical reference). Economic scores added to all CDN-N02 deviation rows + the interlock/ESD summary: CHP catastrophic rows Ec 5 (People 5 still binds — RR unchanged); production-loss rows #2.1/#5.1 scored Ec 2 (first-pass, team to validate vs rate-loss financials).
 3. **Mode confirmed:** system generates PRELIMINARY info; human/specialist team finalizes and reviews. Node remains PRELIMINARY.
 
 Re-ranking effect of Economic=BU:
@@ -86,7 +93,7 @@ Re-ranking effect of Economic=BU:
 - #5.1 (Low Temp / steam loss): without-safeguard RR Low → **Medium**; residual (with safeguard) stays **Low** → no new recommendation.
 - No change to recommendation set (R-001..R-004 unchanged); no residual ≥ Medium introduced.
 
-Pages updated: wiki/hazop/nodes/cdn-N02.md (status, boundaries, Economic note, severities, two row re-ranks), wiki/hazop/interlock-esd-summary.md (Ec scores), wiki/hazop/risk-matrix.md (PPCL=BU resolution).
+Pages updated: wiki/hazop/nodes/cdn-N02.md (status, boundaries, Economic note, severities, two row re-ranks), wiki/hazop/interlock-esd-summary.md (Ec scores), wiki/hazop/risk-matrix.md (Refinery Operations Ltd.=BU resolution).
 
 ## [2026-06-17] hazop-node | CDN-N02 (markup "Node 23-02") — Preflash Column feed-heating / steam-condensate circuit — PRELIMINARY
 
@@ -114,13 +121,13 @@ Recommendations (preliminary, Rec# range R-001 to R-004):
 
 Rule compliance / open items:
 - Standards Primacy: all risk rankings cite [[wiki/hazop/risk-matrix]].
-- Economic Severity Conflict (rule 4): NO Economic score assigned — used highest of People/Env/Social; rows where Economic would bind (#2.1, #5.1) flagged [Ec: CONFLICT — unresolved]. PPCL plant category still to be confirmed by team.
+- Economic Severity Conflict (rule 4): NO Economic score assigned — used highest of People/Env/Social; rows where Economic would bind (#2.1, #5.1) flagged [Ec: CONFLICT — unresolved]. Refinery Operations Ltd. plant category still to be confirmed by team.
 - Node Boundary Rule: core circuit confirmed from markup; exact N01↔N02 feed tie-in and the 0007 yellow segment flagged for engineer confirmation (not guessed).
 - Status: PRELIMINARY desktop pass — requires HAZOP team facilitation to finalize. HAZOP Coordinator sign-off on Table A6.2-3 and PSV set-pressure items still outstanding per study-info.
 
 ## [2026-06-16] ingest | CDN Static Vessel Process Data Sheets (D-2301 through D-2312, 11 sheets)
 
-Files: 11 AS-BUILT/FINAL (Rev Z1, 2014-2016) process specification sheets from raw/data_sheets/ — the last un-ingested data sheet batch in raw/. Source: POSCO Engineering for PTT Phenol Train II (PPCL). Licensor: UOP/Honeywell.
+Files: 11 AS-BUILT/FINAL (Rev Z1, 2014-2016) process specification sheets from raw/data_sheets/ — the last un-ingested data sheet batch in raw/. Source: POSCO Engineering for Refinery Phenol Train II. Licensor: UOP/Honeywell.
 
 Data sheets ingested (11 files): D-2301 (Concentration Cumene Quench Drum), D-2302 (Cumene Flush Drum), D-2303 (Decomposer Feed Flush Drum), D-2304 (Decomposer Drum), D-2306 (Acid Aromatics Knockout Drum), D-2307 (Acid Aromatics Sump), D-2308 (Preflash Column Steam Heater Condensate Drum), D-2309 (Flash Column Vaporizer Condensate Drum), D-2310 (98% H2SO4 Injection Tank), D-2311 (98% H2SO4 Refill Tank), D-2312 (Diamine Injection Tank).
 
@@ -171,7 +178,7 @@ Key findings:
 ## [2026-06-16] ingest | CDN Rotating Equipment, Filters & Vacuum Package Process Data Sheets — 13 AS-BUILT sheets
 
 Files: 13 process/project specification sheets sorted from input/ → raw/data_sheets/ (14780-8120-PS-* series, Rev Z1, As-Built, May 10, 2016)
-Source: POSCO Engineering & Construction for PTT Phenol Train II (PPCL). UOP licence, Project Spec 963766.
+Source: POSCO Engineering & Construction for Refinery Phenol Train II. UOP licence, Project Spec 963766.
 Purpose: Closes PSI Readiness Table A6.2-2 Item 4 (Equipment Data Sheets) for CDN rotating equipment, filters, and vacuum package.
 
 Files ingested (raw/data_sheets/): PS-P2301, P2302, P2303, P2304, P2305, P2306, P2307, P2308, P2309, P2320, X2301, X2302, X2309 (all .pdf, Rev Z1)
@@ -204,7 +211,7 @@ Key findings:
 ## [2026-06-14] ingest | Static Equipment Process Data Sheets — 15 AS-BUILT sheets (ALKY, OXI, CDN update)
 
 Files: 15 process data sheets sorted from input/ → raw/data_sheets/ (14780-8120-PS-* series, Rev Z1, As-Built, May 2016)
-Source: POSCO Engineering & Construction for PTT Phenol Train II (PPCL). UOP licence. Spec refs: 963764 (ALKY), 963765 (OXI), 963766 (CDN).
+Source: POSCO Engineering & Construction for Refinery Phenol Train II. UOP licence. Spec refs: 963764 (ALKY), 963765 (OXI), 963766 (CDN).
 Purpose: Closes PSI Readiness Table A6.2-2 Item 4 (Equipment Data Sheets) for OXI and ALKY static equipment.
 
 Files ingested (raw/data_sheets/): 14780-8120-PS-D-2121.pdf, D-2122.pdf (ALKY); D-2201, D-2202, D-2203, D-2204ABC, D-2205, D-2206, D-2207, D-2208, D-2211, OX-2201, OX-2202, V-2201.pdf (OXI); V-2301.pdf (CDN update)
@@ -266,7 +273,7 @@ Pages updated:
 ## [2026-06-14] ingest | SDS PSI Batch — 15 GHS Safety Data Sheets
 
 Files: 15 SDS PDFs sorted from input/ → raw/standards/ (previously confirmed sorted)
-Source: GHS 16-section Safety Data Sheets compiled for PTT Phenol (PPCL) Train II CDN HAZOP PSI
+Source: GHS 16-section Safety Data Sheets compiled for Refinery Phenol Train II CDN HAZOP PSI
 Purpose: Closes PSI Readiness Category 1 (Chemical and Reaction hazard — GHS-compliant SDS) per Table A6.2-2
 
 **SDS files ingested (all in raw/standards/):**
@@ -318,7 +325,7 @@ Key findings:
 
 File: raw/standards/7. Chapter 6 - Facilitator skill.pdf
 Sorted from: input/ → raw/standards/ (same Q-TS-TS training series)
-Source: PTT Global Chemical — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.6, Nov 2021
+Source: Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.6, Nov 2021
 Size: 19 slides — 4 sub-chapters (6-1 Effectiveness, 6-2 Decision Making, 6-3 Facilitator Role, 6-4 Active Listening)
 Nature: Facilitation / soft-skills chapter — no new process or risk matrix content
 
@@ -343,7 +350,7 @@ Key findings:
 
 File: raw/standards/8. Chapter 7 - GC HAZOP Workflow.pdf
 Sorted from: input/ → raw/standards/ (same Q-TS-TS training series — final chapter)
-Source: PTT Global Chemical — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.7, Nov 2021
+Source: Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.7, Nov 2021
 Size: 7 slides — 2 sub-chapters (7-1 PHA document list, 7-2 GC HAZOP Workflow)
 
 Pages created:
@@ -371,7 +378,7 @@ Key findings:
 
 File: raw/standards/6. Chapter 5 - HAZOP Preparation.pdf
 Sorted from: input/ → raw/standards/ (same Q-TS-TS training series)
-Source: PTT Global Chemical — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.5, Nov 2021
+Source: Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.5, Nov 2021
 Size: 24 slides — 4 sub-chapters (5-1 Planning, 5-2 Documents, 5-3 Team, 5-4 Worksheet)
 
 Pages created:
@@ -397,7 +404,7 @@ Key findings:
 
 File: raw/standards/5. Chapter 4 - HAZOP Methodology.pdf
 Sorted from: input/ → raw/standards/ (same Q-TS-TS training series)
-Source: PTT Global Chemical — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.4, Nov 2021
+Source: Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.4, Nov 2021
 Size: 37,502 chars — largest chapter; 9 sub-chapters (4-1 through 4-9)
 
 Pages created:
@@ -428,7 +435,7 @@ Key findings:
 
 File: raw/standards/4. Chapter 3 – Introduction to HAZOP study.pdf
 Sorted from: input/ → raw/standards/ (script = UNCLASSIFIED; manual override — same Q-TS-TS training series)
-Source: PTT Global Chemical — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.3, Nov 2021
+Source: Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.3, Nov 2021
 
 Pages created:
 - wiki/sources/hazop-leadership-training-ch3.md
@@ -448,7 +455,7 @@ Key findings:
 
 File: raw/standards/3. Chapter 2 - Overview PHA techniqes.pdf
 Sorted from: input/ → raw/standards/ (script = UNCLASSIFIED; manual override — same Q-TS-TS training series)
-Source: PTT Global Chemical — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.2, Nov 2021
+Source: Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.2, Nov 2021
 
 Pages created:
 - wiki/sources/hazop-leadership-training-ch2.md
@@ -467,15 +474,15 @@ Key findings:
 ## [2026-06-13] sort | input batch — HAZOP Training Course materials
 
 Files sorted: 2
-- `1. Course intoduction.pdf` → raw/standards/ (PTT GC internal HAZOP training; script = UNCLASSIFIED; manual override — Q-TS-TS produced standards material)
+- `1. Course intoduction.pdf` → raw/standards/ (Refinery Group internal HAZOP training; script = UNCLASSIFIED; manual override — Q-TS-TS produced standards material)
 - `2. Chapter 1 - Hazard and Risk concept.pdf` → raw/standards/ (same series; manual override)
 Unclassified by script: 2 (both; no keyword match)
 Ingested immediately: yes
 
-## [2026-06-13] ingest | 1. Course intoduction.pdf — PTT GC HAZOP Leadership Training: Course Introduction
+## [2026-06-13] ingest | 1. Course intoduction.pdf — Refinery Group HAZOP Leadership Training: Course Introduction
 
 File: raw/standards/1. Course intoduction.pdf
-Source: PTT Global Chemical — Technical Safety Service Division (Q-TS-TS), 3-day HAZOP Leadership workshop, Nov 2021
+Source: Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS), 3-day HAZOP Leadership workshop, Nov 2021
 Instructor: Mr. Noraphol Sookkho, Division Manager Q-TS-TS
 
 Pages created:
@@ -492,7 +499,7 @@ Key findings:
 ## [2026-06-13] ingest | 2. Chapter 1 - Hazard and Risk concept.pdf — HAZOP Leadership Training Ch.1
 
 File: raw/standards/2. Chapter 1 - Hazard and Risk concept.pdf
-Source: PTT Global Chemical — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.1, Nov 2021
+Source: Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS), HAZOP Leadership Course Ch.1, Nov 2021
 
 Pages created:
 - wiki/sources/hazop-leadership-training-ch1.md
@@ -504,7 +511,7 @@ Key findings:
 - Hazard/Harm/Risk definitions: RISK = Frequency × Consequence
 - Three-tier PHA hierarchy confirmed: Qualitative (RAM) → Semi-Quant (LOPA) → Quantitative (QRA); this HAZOP study is Qualitative
 - GC Master Risk Matrix PEES severity tables cross-confirm W-(Q-MP)-002 R2 — no discrepancies found
-- Economic: PH-P1/PH-P2 codes listed under Downstream Plant — confirms Downstream thresholds apply for PTT Phenol
+- Economic: PH-P1/PH-P2 codes listed under Downstream Plant — confirms Downstream thresholds apply for Refinery Phenol
 - Environmental: quantitative spill thresholds confirmed (1 bbl / 50 bbl / 100 bbl breakpoints)
 - LOPC severity tied to API RP 754 Table 1 and Table 2 thresholds (Process Safety Event Tier 1 and Tier 2)
 - W-(Q-MP)-002 R2 remains the authoritative source; training slides are cross-reference only
@@ -534,7 +541,7 @@ Note: Refrigerant confirmed as 80 wt% Water + 20 wt% Ethylene Glycol (CAS 107-21
 ## [2026-06-13] ingest | Table A6.2-2 PSI readiness checklist (Final R1).xlsx
 
 File: raw/standards/Table A6.2-2 PSI readiness checklist (Final R1).xlsx
-Source: PTT GC formal PSI Readiness Checklist — Table A6.2-2 per SG-(Q-MP)-014 R3 §6.2
+Source: Refinery Group formal PSI Readiness Checklist — Table A6.2-2 per SG-(Q-MP)-014 R3 §6.2
 Revision: Final R1
 Format: XLSX with 2 sheets
 Sorted from: input/ → raw/standards/ (script = UNCLASSIFIED; manual override — clearly a standards/HAZOP form)
@@ -559,10 +566,10 @@ PSI Readiness blockers outstanding:
 3. ⚠️ Alarm/trip setpoints (Category 6 — High) — PSV set P for V-2301/V-2302; calorimeter ΔT trips
 4. ⚠️ Relief & flare design data (Category 7 — High) — PSV sizing basis
 
-## [2026-06-13] ingest | SG-(Q-MP)-014_R3.pdf — PTT GC HAZOP Guidance (61 pages)
+## [2026-06-13] ingest | SG-(Q-MP)-014_R3.pdf — Refinery Group HAZOP Guidance (61 pages)
 
 File: raw/standards/SG-(Q-MP)-014_R3.pdf
-Source: PTT Global Chemical Public Company Limited, GC Management System and Process Safety (Q-MP)
+Source: Refinery Petrochemical Corporation, GC Management System and Process Safety (Q-MP)
 Document Rev: 3, dated 26/05/2026, 61 pages
 Created by: Mr. Pongpasin Tanaruangarmorn (Senior Safety Engineer)
 Approved by: Mr. Warakorn Decha (Vice President)
@@ -600,10 +607,10 @@ HAZOP Setup Status after this ingest:
 
 ---
 
-## [2026-06-13] ingest | W-(Q-MP)-002_R2.pdf — PTT GC Operational Risk Assessment Matrix
+## [2026-06-13] ingest | W-(Q-MP)-002_R2.pdf — Refinery Group Operational Risk Assessment Matrix
 
 File: raw/standards/W-(Q-MP)-002_R2.pdf
-Source: PTT Global Chemical Public Company Limited, GC Management System and Process Safety (Q-MP)
+Source: Refinery Petrochemical Corporation, GC Management System and Process Safety (Q-MP)
 Document Rev: 2, dated 10/09/2025, 55 pages
 Created by: Mr. Pattara Tepnu (Senior Safety Engineer)
 Approved by: Mr. Warakorn Decha (Vice President)
@@ -625,7 +632,7 @@ Key findings:
 - Action thresholds: Extreme/High = immediate action; Medium = risk reduction plan required; Low = review control plan
 - Two-stage assessment per §6.5.2: Severity FIXED; Likelihood changes between initial (no safeguards) and mitigated (with safeguards)
 - Thai DIW compliance: 4×4 sub-matrix applies (no Extreme level, Likelihood 1-4 only)
-- PTT Phenol economic threshold category (Upstream vs Downstream): confirm with HAZOP team — PH-P1/PH-P2 codes appear in Downstream list
+- Refinery Phenol economic threshold category (Upstream vs Downstream): confirm with HAZOP team — PH-P1/PH-P2 codes appear in Downstream list
 
 HAZOP Setup Status after this ingest:
 - ✅ Procedure (P-(Q-MP)-OEMS-005) — ingested
@@ -637,12 +644,12 @@ HAZOP Setup Status after this ingest:
 
 File: P-(Q-MP)-OEMS-005_R4.pdf
 Classification: Company HAZOP procedure standard → raw/standards/
-Rationale: Document is PTT GC corporate HAZOP methodology, contains roles, workflow, KPIs, definitions. Contains severity×likelihood references but not the actual risk matrix (separate doc W-(Q-MP)-002).
+Rationale: Document is Refinery Group corporate HAZOP methodology, contains roles, workflow, KPIs, definitions. Contains severity×likelihood references but not the actual risk matrix (separate doc W-(Q-MP)-002).
 
 ## [2026-06-13] ingest | P-(Q-MP)-OEMS-005_R4.pdf — GC HAZOP Procedure Rev 4
 
 File: raw/standards/P-(Q-MP)-OEMS-005_R4.pdf
-Source: PTT Global Chemical Public Company Limited, GC Management System and Process Safety (Q-MP)
+Source: Refinery Petrochemical Corporation, GC Management System and Process Safety (Q-MP)
 Document Rev: 4, dated 26/05/2026, 24 pages
 
 Pages created:
@@ -955,7 +962,7 @@ Outstanding gaps: CDN process P&ID sheets 0002–0023 (29 sheets, not yet receiv
 Pages created: project.md, units/cdn.md, equipment/V-2301.md, equipment/V-2302.md, equipment/D-2304.md, equipment/D-2306.md, equipment/E-2304.md, equipment/E-2307.md, equipment/X-2308.md, sources/pfd-cdn.md
 Pages updated: index.md, overview.md
 Key findings:
-- Plant identity confirmed: PTT Phenol Train II (PPCL), Map Ta Phut, Thailand; Licensor UOP; Engineer POSCO Engineering; Project 120117
+- Plant identity confirmed: Refinery Phenol Train II, Map Ta Phut, Thailand; Licensor UOP; Engineer POSCO Engineering; Project 120117
 - CDN section = Concentration + Decomposition + Neutralization (3 sub-sections, not just cleavage)
 - 30+ equipment tags identified with real tag numbers (V-23xx, D-23xx, E-23xx, P-23xx, X-23xx)
 - Decomposer (D-2304) recirculation ratio confirmed as 30.8:1 (1,887,481 vs 61,248 kg/h)
@@ -978,7 +985,7 @@ Outstanding gaps: All equipment, stream, instrument, procedure, and parameter pa
 ## [2026-06-14] ingest | Static Equipment Process Data Sheets — ALKY & OXI Batch (15 sheets)
 
 Files: 15 AS-BUILT (Rev Z1, May 2016) process data sheets from raw/data_sheets/
-Source: POSCO Engineering & Construction for PTT Phenol Train II (PPCL). Licensor: UOP/Honeywell.
+Source: POSCO Engineering & Construction for Refinery Phenol Train II. Licensor: UOP/Honeywell.
 Purpose: Provides mechanical design data (design pressure, temperature, material, internals) for ALKY and OXI static equipment. Partially satisfies PSI Readiness Category 6 — Equipment Data Sheets (Table A6.2-2).
 
 **Data sheets ingested (15 files — all in raw/data_sheets/):**
@@ -1036,7 +1043,7 @@ Unclassified: none — all matched "data sheet" + equipment tag heuristic, all C
 ## [2026-06-16] ingest | CDN Heat Exchanger Process Data Sheets (9 sheets)
 
 Files: 9 AS-BUILT (Rev Z1, May 2016) process data sheets from raw/data_sheets/
-Source: POSCO Engineering & Construction for PTT Phenol Train II (PPCL). Licensor: UOP/Honeywell. Thermal data sheets co-stamped Bechtel.
+Source: POSCO Engineering & Construction for Refinery Phenol Train II. Licensor: UOP/Honeywell. Thermal data sheets co-stamped Bechtel.
 Purpose: Provides mechanical design data (materials, MDMT, corrosion allowance, tube counts, codes) for all CDN section heat exchangers. Substantially advances PSI Readiness Category 6 — Equipment Data Sheets (Table A6.2-2) for CDN.
 
 **Data sheets ingested (9 files — all in raw/data_sheets/):**
@@ -1069,7 +1076,7 @@ PSI status: Category 6 (Equipment Data Sheets) substantially advanced for CDN �
 ## [2026-06-16] ingest | CDN Instrument Data Sheets — PSV, Flow Instrument, Control Valve, Analyzer (4 documents)
 
 Files: 4 AS-BUILT (Rev Z1, May 2016) process data sheets from raw/data_sheets/
-Source: POSCO Engineering & Construction for PTT Phenol Train II (PPCL). Licensor: UOP/Honeywell.
+Source: POSCO Engineering & Construction for Refinery Phenol Train II. Licensor: UOP/Honeywell.
 Purpose: Closes the PSV set-pressure TBC gap (P&ID Readiness Checklist Item 7) and adds full flow/control-valve/analyzer instrumentation data for the CDN unit.
 
 **Data sheets ingested (4 files, all in raw/data_sheets/):**
@@ -1128,7 +1135,7 @@ PSI status: Category 6 (Equipment Data Sheets) — PSV/relief device data now co
 ## [2026-06-16] ingest | CDN Instrument Data Sheets — Pressure, Level, Temperature (3 documents)
 
 Files: 3 AS-BUILT (Rev Z1, May 2016) process data sheets from raw/data_sheets/ (sorted from input/ this session via sort_input.py)
-Source: POSCO Engineering & Construction for PTT Phenol Train II (PPCL). Licensor: UOP/Honeywell.
+Source: POSCO Engineering & Construction for Refinery Phenol Train II. Licensor: UOP/Honeywell.
 Purpose: Completes the CDN basic-process-measurement instrumentation picture (pressure, level, temperature), complementing the PSV/Flow/Control Valve/Analyzer batch ingested earlier today.
 
 **Data sheets ingested (3 files, all in raw/data_sheets/):**
@@ -1176,14 +1183,14 @@ Pages updated:
 
 Key findings:
 - Core RAM (5×5 Likelihood×Severity matrix, Likelihood frequency basis, People/Environment/Social PEES tables, risk-level action bands) is now independently confirmed by both W-(Q-MP)-002 R2 and this e-PHA template — strengthens confidence for all future node risk rankings
-- Economic severity table is NOT consistent between the two governing documents: category names differ (GPC/BU/Small BU vs Upstream/Downstream/GC-S) and only one of three tiers maps cleanly (GPC=Upstream). This must be resolved with the HAZOP coordinator/safety engineer before Economic severity is used in any node worksheet — compounds the pre-existing open question of which plant classification applies to PTT Phenol (PPCL)
+- Economic severity table is NOT consistent between the two governing documents: category names differ (GPC/BU/Small BU vs Upstream/Downstream/GC-S) and only one of three tiers maps cleanly (GPC=Upstream). This must be resolved with the HAZOP coordinator/safety engineer before Economic severity is used in any node worksheet — compounds the pre-existing open question of which plant classification applies to Refinery Phenol
 - Workbook also contains a GWMaster (expanded guideword set) and official worksheet/action-item column templates — not ingested into methodology.md this pass; flagged for future review in the source page
 
 PSI/HAZOP status: Risk matrix now corroborated by a second independent company standard. Economic severity category conflict is a new blocker that must be resolved before any node worksheet assigns an Economic severity score. Does not block node boundary definition (still pending expert P&ID markup).
 
 ## [2026-06-17] ingest | Example HAZOP Report O-P3-PHA-2026/005 (Olefins 3, Unit 1400 Fractionation)
 
-⚠️ **Anti-bias deviation note:** This is a previous, completed HAZOP/PHA report. Per CLAUDE.md's HAZOP Anti-Bias Rule, previous reports must never be ingested during an active study. The user explicitly requested ingestion for documentation-style/template purposes, reasoning that the source unit (Olefins 3, Unit 1400 — Ethylene/Propylene Fractionation) is unrelated to PTT Phenol (PPCL) CDN and therefore cannot anchor CDN-specific findings. I flagged the conflict with AskUserQuestion before proceeding; user chose "Full ingest" split into two pages (structure-only + full example), explicitly authorizing this exception.
+⚠️ **Anti-bias deviation note:** This is a previous, completed HAZOP/PHA report. Per CLAUDE.md's HAZOP Anti-Bias Rule, previous reports must never be ingested during an active study. The user explicitly requested ingestion for documentation-style/template purposes, reasoning that the source unit (Olefins 3, Unit 1400 — Ethylene/Propylene Fractionation) is unrelated to Refinery Phenol CDN and therefore cannot anchor CDN-specific findings. I flagged the conflict with AskUserQuestion before proceeding; user chose "Full ingest" split into two pages (structure-only + full example), explicitly authorizing this exception.
 
 File moved from input/ to raw/hazop/example/O-P3-PHA-2026_005.xlsx (kept separate from raw/standards/ and from raw/hazop/archive/, which CLAUDE.md reserves for post-study gap comparison).
 
@@ -32411,3 +32418,15 @@ Method: NotebookLM slide-deck generation (detailed format) from output/working/2
 - **2026-09-20 07:27**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260920`) and Spanner Graph with 1 action items.
 
 - **2026-09-20 07:27**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260920`) and Spanner Graph with 1 action items.
+
+- **2026-09-21 02:56**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260921`) and Spanner Graph with 1 action items.
+
+- **2026-09-21 02:56**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260921`) and Spanner Graph with 1 action items.
+
+- **2026-09-21 03:15**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260921`) and Spanner Graph with 1 action items.
+
+- **2026-09-21 03:15**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260921`) and Spanner Graph with 1 action items.
+
+- **2026-09-21 03:26**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260921`) and Spanner Graph with 1 action items.
+
+- **2026-09-21 03:26**: HAZOP Study for Node **CDN-N02** finalized. Registered in Dataplex Knowledge Catalog (`hazop-cdn-n02-20260921`) and Spanner Graph with 1 action items.

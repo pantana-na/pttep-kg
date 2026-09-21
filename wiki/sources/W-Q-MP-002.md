@@ -7,7 +7,7 @@ last_updated: 2026-06-13
 
 # Source: W-(Q-MP)-002 — Operational Risk Assessment Matrix and Its Applications
 
-**Issuer:** PTT Global Chemical Public Company Limited, GC Management System and Process Safety (Q-MP)
+**Issuer:** Refinery Petrochemical Corporation, GC Management System and Process Safety (Q-MP)
 **Document No.:** W-(Q-MP)-002
 **Revision:** 2
 **Date:** 10/09/2025
@@ -21,7 +21,7 @@ last_updated: 2026-06-13
 
 ## Document Purpose
 
-Establishes the GC Risk Assessment Matrix (RAM) — a qualitative risk assessment tool used consistently across PTTGC and subsidiaries. The RAM is applied to Process Hazard Analysis (PHA/HAZOP), Incident Investigation, RCM, RBI, SIF, Corrective Maintenance, OT Cyber Security, and other operational risk processes.
+Establishes the GC Risk Assessment Matrix (RAM) — a qualitative risk assessment tool used consistently across Refinery Group and subsidiaries. The RAM is applied to Process Hazard Analysis (PHA/HAZOP), Incident Investigation, RCM, RBI, SIF, Corrective Maintenance, OT Cyber Security, and other operational risk processes.
 
 The wiki page extracted for HAZOP use: [[wiki/hazop/risk-matrix]]
 

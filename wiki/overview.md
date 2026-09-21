@@ -6,7 +6,7 @@ last_updated: 2026-06-06
 
 # Phenol Plant — Process Overview
 
-**Plant:** PTT Phenol Company Limited (PPCL) — **Train II**  
+**Plant:** Refinery Operations Ltd. — **Train II**  
 **Location:** Hemaraj Eastern Industrial Estate, Map Ta Phut, Rayong, Thailand  
 **Licensor:** UOP (Universal Oil Products) | **Engineer:** POSCO Engineering | **Project No.:** 120117  
 **Reference:** [[project]]
@@ -95,7 +95,7 @@ PROPYLENE─┘                 ↑                                             
 
 ## Process Sections Summary
 
-| Code | Section | PPCL Name | Purpose | Key Hazard |
+| Code | Section | Refinery Operations Ltd. Name | Purpose | Key Hazard |
 |------|---------|-----------|---------|-----------|
 | ALKY | Alkylation | *(TBC)* | Make Cumene | High-pressure, flammable hydrocarbons |
 | OXI | Oxidation | Oxidation Section | Make CHP | Peroxide accumulation, thermal runaway |
@@ -104,7 +104,7 @@ PROPYLENE─┘                 ↑                                             
 | UT | Utilities | Utilities | Steam, cooling water, N₂, instrument air | — |
 | ETP | Effluent Treatment | ETP | Treat phenolic wastewater | Phenol toxicity |
 
-**Plant-specific note:** PPCL uses "CDN" for the combined Concentration + Decomposition + Neutralization section. This is a UOP-specific process design. See [[units/cdn]] for full plant data.
+**Plant-specific note:** Refinery Operations Ltd. uses "CDN" for the combined Concentration + Decomposition + Neutralization section. This is a UOP-specific process design. See [[units/cdn]] for full plant data.
 
 ---
 

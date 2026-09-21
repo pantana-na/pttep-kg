@@ -8,7 +8,7 @@ last_updated: 2026-06-16
 
 # CDN Temperature Instrument Register
 
-**Source:** 14780-8120-PS-0034, Rev Z1 (AS-BUILT, May 2016), PTT Phenol Train II, POSCO Engineering / UOP licensor basis. 28-page process specification covering thermocouples/wells, RTD elements/wells, field temperature transmitters, one special in-tube RTD assembly, local thermometers/wells, and one field output indicator.
+**Source:** 14780-8120-PS-0034, Rev Z1 (AS-BUILT, May 2016), Refinery Phenol Train II, POSCO Engineering / UOP licensor basis. 28-page process specification covering thermocouples/wells, RTD elements/wells, field temperature transmitters, one special in-tube RTD assembly, local thermometers/wells, and one field output indicator.
 
 > ⚠️ Several of these instruments measure CHP-bearing streams (Decomposer circulation, calorimeters). See [[hazards/cumene-hydroperoxide]].
 

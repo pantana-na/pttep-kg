@@ -1,6 +1,6 @@
 ---
 name: SDS PSI Batch — 15 GHS Safety Data Sheets (2026-06-14)
-description: Consolidated source summary for 15 GHS-compliant Safety Data Sheets ingested to complete PSI Category 1 (Chemical hazard SDS) for PPCL CDN HAZOP study
+description: Consolidated source summary for 15 GHS-compliant Safety Data Sheets ingested to complete PSI Category 1 (Chemical hazard SDS) for Refinery Operations Ltd. CDN HAZOP study
 metadata:
   type: source
 tags: [source, hazard, sds, psi, ghs]
@@ -12,7 +12,7 @@ last_updated: 2026-06-14
 
 ## Purpose
 
-These 15 GHS-compliant Safety Data Sheets (16-section GHS format) were compiled and ingested on 2026-06-14 to fulfil **PSI Readiness Category 1** (Chemical and Reaction hazard — GHS-compliant SDS) per the formal Table A6.2-2 PSI Readiness Checklist for the PTT Phenol (PPCL) Train II CDN HAZOP study.
+These 15 GHS-compliant Safety Data Sheets (16-section GHS format) were compiled and ingested on 2026-06-14 to fulfil **PSI Readiness Category 1** (Chemical and Reaction hazard — GHS-compliant SDS) per the formal Table A6.2-2 PSI Readiness Checklist for the Refinery Phenol Train II CDN HAZOP study.
 
 ---
 
@@ -31,7 +31,7 @@ These 15 GHS-compliant Safety Data Sheets (16-section GHS format) were compiled 
 | 9 | Ethylene Glycol | 107-21-1 | SDS_107-21-1_ethylene-glycol.pdf | [[hazards/ethylene-glycol]] | None; fomepizole antidote noted |
 | 10 | Diamine Additive (TBC) | 110-97-4 (DIPA — PLACEHOLDER) | SDS_110-97-4_dipa-placeholder-diamine-tbc.pdf | [[hazards/diamine-tbc]] | ⛔ PLACEHOLDER: actual additive identity NOT confirmed; DIPA used as surrogate — PRIORITY ACTION required |
 | 11 | Di-isopropylbenzene (DIPB) | 100-18-5 | SDS_100-18-5_di-isopropylbenzene.pdf | [[hazards/di-isopropylbenzene]] | H304 and H411 not confirmed in plant SDS — by structural analogy only; ECHA verification required |
-| 12 | Dimethylbenzylcarbinol (DMBA) | 100-86-7 | SDS_100-86-7_dmba-dimethylbenzylcarbinol.pdf | [[hazards/dimethylbenzylcarbinol]] | ⚠️ IDENTITY FLAG: CAS 100-86-7 vs 617-94-7 — confirm with PPCL; H301 vs H302 CONFLICT |
+| 12 | Dimethylbenzylcarbinol (DMBA) | 100-86-7 | SDS_100-86-7_dmba-dimethylbenzylcarbinol.pdf | [[hazards/dimethylbenzylcarbinol]] | ⚠️ IDENTITY FLAG: CAS 100-86-7 vs 617-94-7 — confirm with Refinery Operations Ltd.; H301 vs H302 CONFLICT |
 | 13 | Sodium Carbonate Solution | 497-19-8 | SDS_497-19-8_sodium-carbonate-solution.pdf | [[hazards/sodium-carbonate]] | None |
 | 14 | Nitrogen | 7727-37-9 | SDS_7727-37-9_nitrogen.pdf | [[hazards/nitrogen]] | None |
 | 15 | Acetophenone | 98-86-2 | SDS_98-86-2_acetophenone.pdf | [[hazards/acetophenone]] | Solidifies at 19.6°C — heat tracing required |
@@ -57,7 +57,7 @@ These 15 GHS-compliant Safety Data Sheets (16-section GHS format) were compiled 
 | Q-04 | DMBA | H301 vs H302 acute tox conflict between sources | Confirm CAS identity first, then resolve against ECHA C&L |
 | Q-05 | Benzene | ACGIH 2024 NIC proposes TLV-TWA reduction from 0.5 ppm to 0.02 ppm | Verify final ACGIH 2024/2025 adopted value; align Thailand OEL |
 
-### Identity Flags (require PPCL/licensor confirmation)
+### Identity Flags (require Refinery Operations Ltd./licensor confirmation)
 
 | # | Chemical | Flag | Priority |
 |---|---------|------|----------|

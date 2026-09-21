@@ -4,13 +4,13 @@
 **Reference Specification:** [`SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md`](../features/SPEC-20260824-MULTI-AGENT-CLOUD-ARCHITECTURE.md)  
 **Date:** August 27, 2026  
 **Status:** All 8 Phases Implemented, Tested & Verified (40/40 Tests Passing)  
-**Git Repository:** [`https://github.com/pantana-na/pttgc-hazop-agent-v2.git`](https://github.com/pantana-na/pttgc-hazop-agent-v2.git) (Branch: `main`)
+**Git Repository:** [`https://github.com/pantana-na/Refinery Group-hazop-agent-v2.git`](https://github.com/pantana-na/Refinery Group-hazop-agent-v2.git) (Branch: `main`)
 
 ---
 
 ## 1. Executive Summary
 
-The **PTT Global Chemical (PTT GC) Phenol Process Safety & HAZOP AI Agent Platform** has completed all 8 implementation steps defined in the SDD specification. The platform is running locally, tested with 40 automated Unit & Property-Based Tests (PBT), integrated with **Live Google Gemini 3.6/3.7 Flash**, and safeguarded by **Google Cloud Model Armor** prompt injection guardrails.
+The **Refinery Petrochemical Corporation (Refinery Group) Phenol Process Safety & HAZOP AI Agent Platform** has completed all 8 implementation steps defined in the SDD specification. The platform is running locally, tested with 40 automated Unit & Property-Based Tests (PBT), integrated with **Live Google Gemini 3.6/3.7 Flash**, and safeguarded by **Google Cloud Model Armor** prompt injection guardrails.
 
 ```mermaid
 pie title Test Suite & Quality Gate Status
@@ -29,7 +29,7 @@ pie title Test Suite & Quality Gate Status
 | **2.0** | **Extractor Agent & OEMS-005 PSI Classifier** | `agents/extractor/classifier.py`<br>`agents/extractor/agent.py`<br>`parsers/pfd_parser.py`<br>`parsers/pid_parser.py`<br>`parsers/datasheet_parser.py` | `test_extractor_agent.py`<br>(4 Unit & PBT Tests) | **Completed** |
 | **3.0** | **Database Agent & Cascading Graph Deletion** | `agents/database/markdown_parser.py`<br>`agents/database/spanner_sync.py`<br>`agents/database/cascade_delete.py`<br>`agents/database/agent.py` | `test_database_agent.py`<br>(5 Unit & PBT Tests) | **Completed** |
 | **4.0** | **Retriever Agent & Tri-Tier Storage Search** | `mcp_servers/spanner_mcp.py`<br>`agents/retriever/rrf_fusion.py`<br>`agents/retriever/agent.py` | `test_retriever_agent.py`<br>(4 Unit & PBT Tests) | **Completed** |
-| **5.0** | **HAZOP Study Agent & PTT GC 5×5 RAM Evaluator** | `agents/hazop/ram_evaluator.py`<br>`agents/hazop/anti_bias.py`<br>`agents/hazop/excel_exporter.py`<br>`agents/hazop/agent.py` | `test_hazop_agent.py`<br>(6 Unit & PBT Tests) | **Completed** |
+| **5.0** | **HAZOP Study Agent & Refinery 5x5 RAM Evaluator** | `agents/hazop/ram_evaluator.py`<br>`agents/hazop/anti_bias.py`<br>`agents/hazop/excel_exporter.py`<br>`agents/hazop/agent.py` | `test_hazop_agent.py`<br>(6 Unit & PBT Tests) | **Completed** |
 | **6.0** | **Orchestrator Agent & Clarification State Machine** | `agents/orchestrator/clarification_sm.py`<br>`agents/orchestrator/agent.py`<br>`server/main.py` | `test_orchestrator_agent.py`<br>(5 Unit & PBT Tests) | **Completed** |
 | **7.0** | **Web UI & Multi-Agent Observability Suite** | `server/static/index.html`<br>`src/components/observability/*`<br>`server/main.py` | `test_server_endpoints.py`<br>(4 Integration Tests) | **Completed** |
 | **8.0** | **Model Armor Guardrails, Eval & Terraform IaC** | `security/model_armor.py`<br>`evals/run_evals.py`<br>`evals/datasets/phenol_safety_bench.jsonl`<br>`terraform/*.tf`<br>`Dockerfile`<br>`cloudbuild.yaml` | `test_model_armor.py`<br>`test_agent_eval.py`<br>(7 Tests) | **Completed** |
@@ -61,7 +61,7 @@ pie title Test Suite & Quality Gate Status
 - Resolved SSE EventSource auto-retry looping by enforcing clean terminal event delivery (`message_done`).
 
 ### 3.5 Comprehensive Test Prompt Repository
-- Authoring of 17 copy-pasteable test scenarios under [`test_prompt/`](../../test_prompt/README.md) covering all intents, subagents, and guardrails.
+- Authoring of 17 copy-pasteable test scenarios under [`docs/test_prompts/`](../../docs/test_prompts/README.md) covering all intents, subagents, and guardrails.
 
 ---
 

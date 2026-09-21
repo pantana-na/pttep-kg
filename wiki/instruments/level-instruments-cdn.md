@@ -8,7 +8,7 @@ last_updated: 2026-06-16
 
 # CDN Level Instrument Register
 
-**Source:** 14780-8120-PS-0033, Rev Z1 (AS-BUILT, May 2016), PTT Phenol Train II, POSCO Engineering / UOP licensor basis. 22-page process specification covering DP/capillary level transmitters, one guided-wave radar transmitter, one thermal-dispersion shutdown switch, level gauges (reflex glass), and one level switch.
+**Source:** 14780-8120-PS-0033, Rev Z1 (AS-BUILT, May 2016), Refinery Phenol Train II, POSCO Engineering / UOP licensor basis. 22-page process specification covering DP/capillary level transmitters, one guided-wave radar transmitter, one thermal-dispersion shutdown switch, level gauges (reflex glass), and one level switch.
 
 ---
 

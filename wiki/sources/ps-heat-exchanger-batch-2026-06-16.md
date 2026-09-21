@@ -1,6 +1,6 @@
 ---
 name: Process Data Sheets — CDN Heat Exchanger Batch (9 sheets, 2026-06-16)
-description: Source summary for 9 shell-and-tube/plate heat exchanger process data sheets covering all CDN section heat exchangers (E-2301 through E-2310); AS-BUILT Rev Z1, May 2016, POSCO Engineering for PTT Phenol Train II
+description: Source summary for 9 shell-and-tube/plate heat exchanger process data sheets covering all CDN section heat exchangers (E-2301 through E-2310); AS-BUILT Rev Z1, May 2016, POSCO Engineering for Refinery Phenol Train II
 metadata:
   type: source
 tags: [source, equipment, data-sheet, heat-exchanger, CDN]
@@ -12,7 +12,7 @@ last_updated: 2026-06-16
 
 ## Purpose
 
-9 AS-BUILT (Rev Z1, May 2016) Process Data Sheets for all shell-and-tube and plate heat exchangers in the CDN section of PTT Phenol Train II. Prepared by POSCO Engineering & Construction (process sheets stamped Bechtel for thermal data) under UOP licence. These data sheets provide mechanical design basis (materials, MDMT, corrosion allowance, tube counts, codes) confirming and extending the existing CDN equipment pages built from P&ID and PFD drawings.
+9 AS-BUILT (Rev Z1, May 2016) Process Data Sheets for all shell-and-tube and plate heat exchangers in the CDN section of Refinery Phenol Train II. Prepared by POSCO Engineering & Construction (process sheets stamped Bechtel for thermal data) under UOP licence. These data sheets provide mechanical design basis (materials, MDMT, corrosion allowance, tube counts, codes) confirming and extending the existing CDN equipment pages built from P&ID and PFD drawings.
 
 This batch substantially closes **PSI Readiness Category 6 — Equipment Data Sheets** for CDN heat exchangers.
 
@@ -67,7 +67,7 @@ E-2302A/B and E-2303 are both stabbed directly into the Preflash Column V-2301 s
 - **E-2309** (Crude Product Cooler): cooling water backflush connection provided for tube-side cleaning
 
 ### Severe / Special Service Notes
-- **E-2304**: existing Train I exchanger design (PPCL DS 13850-8100-DS-0042, E-1304) found NOT thermally suitable for Train II's new duty (−30.7% undersurface) — confirms a new design was required, not a Train I copy
+- **E-2304**: existing Train I exchanger design (Refinery Operations Ltd. DS 13850-8100-DS-0042, E-1304) found NOT thermally suitable for Train II's new duty (−30.7% undersurface) — confirms a new design was required, not a Train I copy
 - **E-2307A/B**: two parallel shells (not a single unit) — already correctly noted in existing wiki page from Drawing 0017 correction (2026-06-07)
 - **E-2308A/B**: 2 units, 1 operating + 1 standby (not parallel duty-sharing)
 

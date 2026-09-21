@@ -14,7 +14,7 @@ last_updated: 2026-06-13
 | Field | Value |
 |-------|-------|
 | Title | HAZOP Leadership Training for GC — Chapter 1: Hazard and Risk Concept |
-| Organisation | PTT Global Chemical PCL — Technical Safety Service Division (Q-TS-TS) |
+| Organisation | Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS) |
 | Instructor | Mr. Noraphol Sookkho, Division Manager, Q-TS-TS |
 | Date | 1–3 November 2021 |
 | File | `raw/standards/2. Chapter 1 - Hazard and Risk concept.pdf` |
@@ -22,7 +22,7 @@ last_updated: 2026-06-13
 
 ## Purpose
 
-Training material presenting the PTT GC risk and hazard conceptual framework used as the basis for HAZOP and PHA activities. Contains definitions, risk assessment process, acceptable risk concept, and GC Master Risk Matrix severity tables for all four PEES categories.
+Training material presenting the Refinery Group risk and hazard conceptual framework used as the basis for HAZOP and PHA activities. Contains definitions, risk assessment process, acceptable risk concept, and GC Master Risk Matrix severity tables for all four PEES categories.
 
 ---
 
@@ -38,7 +38,7 @@ Training material presenting the PTT GC risk and hazard conceptual framework use
 
 ## Three Types of Risk Determination
 
-| Type | Method | PTT GC Application |
+| Type | Method | Refinery Group Application |
 |------|--------|--------------------|
 | **Qualitative** | Risk matrix (colour/level) | HAZOP — governs this study via [[hazop/risk-matrix]] |
 | **Semi-Quantitative** | Layer of Protection Analysis (LOPA) | Used for SIL verification |
@@ -87,7 +87,7 @@ This training cross-references the same GC RAM as [[hazop/risk-matrix]] (W-(Q-MP
 
 ### Economic Severity
 
-| Level | Label | Downstream Plant (PTT Phenol applies here) |
+| Level | Label | Downstream Plant (Refinery Phenol applies here) |
 |-------|-------|-------------------------------------------|
 | 5 | Extreme | ≥ 150 M THB |
 | 4 | High | 15 – < 150 M THB |
@@ -97,7 +97,7 @@ This training cross-references the same GC RAM as [[hazop/risk-matrix]] (W-(Q-MP
 
 *Economic loss includes: product loss, opportunity loss, asset damage, and clean-up cost.*
 
-*PTT Phenol category classification:* PH-P1/PH-P2 codes listed under Downstream Plant in training slides — confirms Downstream thresholds apply. Note: per [[hazop/risk-matrix]], the plant's specific classification should be confirmed with the HAZOP team.
+*Refinery Phenol category classification:* PH-P1/PH-P2 codes listed under Downstream Plant in training slides — confirms Downstream thresholds apply. Note: per [[hazop/risk-matrix]], the plant's specific classification should be confirmed with the HAZOP team.
 
 ### Social Severity
 
@@ -115,7 +115,7 @@ This training cross-references the same GC RAM as [[hazop/risk-matrix]] (W-(Q-MP
 
 Key principle from training: *"You want a valve that doesn't leak, and you try everything possible to develop one. But the world provides you with a leaking valve. You have to determine how much leakage you can tolerate."* — NASA senior scientist
 
-Acceptable risk in PTT GC context: governed by the RAM action thresholds in [[hazop/risk-matrix]]:
+Acceptable risk in Refinery Group context: governed by the RAM action thresholds in [[hazop/risk-matrix]]:
 - **Low / Very Low** = acceptable risk (control plan required)
 - **Medium and above** = risk reduction required
 
@@ -123,7 +123,7 @@ Acceptable risk in PTT GC context: governed by the RAM action thresholds in [[ha
 
 ## Relevance to This HAZOP Study
 
-This document confirms and cross-validates the PTT GC risk framework applied in this wiki:
+This document confirms and cross-validates the Refinery Group risk framework applied in this wiki:
 - PEES severity tables here are consistent with [[hazop/risk-matrix]] (W-(Q-MP)-002 R2)
 - Three-type risk determination hierarchy confirms that this HAZOP uses qualitative RAM, not QRA
 - Economic thresholds confirm PH-P1/PH-P2 codes are Downstream Plant category → apply Downstream thresholds

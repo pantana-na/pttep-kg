@@ -1,4 +1,4 @@
-"""PTT GC 7-Tab HAZOP Excel Workbook Exporter using openpyxl.
+"""Refinery 7-Tab HAZOP Excel Workbook Exporter using openpyxl.
 
 Faithfully implements the 7-tab structure and styling from hazop-example/*.xlsx:
 1. Cover Page
@@ -17,7 +17,7 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-# Color fills for PTT GC 5x5 RAM ratings
+# Color fills for Refinery 5x5 RAM ratings
 RISK_FILLS = {
     "Extreme": PatternFill(start_color="800000", end_color="800000", fill_type="solid"),
     "High": PatternFill(start_color="FF0000", end_color="FF0000", fill_type="solid"),
@@ -64,13 +64,13 @@ def export_hazop_study_to_excel(
     ws_cover["A2"].font = Font(size=14, bold=True, color="1F4E78")
     
     cover_data = [
-        ("Plant", "PTT Phenol Train II (PPCL), Map Ta Phut, Rayong"),
+        ("Plant", "Refinery Phenol Train II, Map Ta Phut, Rayong"),
         ("Section / Unit", f"{unit} — Concentration, Decomposition, Neutralization"),
         ("Node", f"{node_id} (engineer P&ID markup: {study_metadata.get('markup_label', 'Node 23-02')})"),
         ("Node description", node_name),
         ("Equipment in node", ", ".join(study_metadata.get("equipment_tags", ["E-2302A/B", "E-2303", "D-2308", "P-2308A/B"]))),
         ("P&ID drawings", ", ".join(study_metadata.get("pid_drawings", ["14780-8120-25-23-0005", "-0005A"]))),
-        ("Methodology", "PTT GC OEMS-005 / RAM W-(Q-MP)-002 R2 (5x5 Matrix)"),
+        ("Methodology", "Refinery OEMS-005 / RAM W-(Q-MP)-002 R2 (5x5 Matrix)"),
         ("Facilitator", "AI HAZOP Study Agent (Gemini 3.8 Flash & Google ADK)"),
         ("Date", "2026-08-31"),
         ("Status", "PRELIMINARY — Confirmed by Engineer, Ready for Team Validation"),
@@ -93,14 +93,14 @@ def export_hazop_study_to_excel(
 
     info_data = [
         ("Project / MOC No.", "Standalone CDN HAZOP Study"),
-        ("Project title", "PTT Phenol Train II — CDN Process Safety Assessment"),
-        ("Plant", "PTT Phenol Train II (PPCL)"),
+        ("Project title", "Refinery Phenol Train II — CDN Process Safety Assessment"),
+        ("Plant", "Refinery Phenol Train II"),
         ("Unit / Facility", f"{unit} — Concentration sub-section"),
         ("HAZOP purpose", "Identify deviations, verify SIL safeguards, prevent CHP thermal decomposition"),
         ("HAZOP scope (this export)", f"Node {node_id} — {node_name}"),
         ("Process description", study_metadata.get("design_intent", "Feed heating and thermal trim")),
         ("Chemical hazards", "Cumene Hydroperoxide (CHP) thermal runaway onset at 80 °C"),
-        ("Governing RAM", "PTT GC W-(Q-MP)-002 R2 (5x5 Matrix, BU economic tier >= 100M THB)"),
+        ("Governing RAM", "Refinery 5x5 RAM W-(Q-MP)-002 R2 (5x5 Matrix, BU economic tier >= 100M THB)"),
         ("Licensor limits", "UOP General Operating Manual safe operating limits"),
         ("Anti-Bias declaration", "Verified: No prior Phenol study reports ingested during active session.")
     ]

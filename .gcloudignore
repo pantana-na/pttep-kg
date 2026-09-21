@@ -6,11 +6,9 @@ __pycache__
 raw/
 output/
 hazop-example/
-.obsidian/
 app/.adk/
 ~*
 .hypothesis
 .pytest_cache
 specs/
 docs/
-test_prompt/

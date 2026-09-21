@@ -14,7 +14,7 @@ last_updated: 2026-06-13
 | Field | Value |
 |-------|-------|
 | Title | HAZOP Leadership Training for GC — Chapter 4: HAZOP Study Methodology |
-| Organisation | PTT Global Chemical PCL — Technical Safety Service Division (Q-TS-TS) |
+| Organisation | Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS) |
 | Instructor | Mr. Noraphol Sookkho, Division Manager, Q-TS-TS |
 | Date | 1–3 November 2021 |
 | File | `raw/standards/5. Chapter 4 - HAZOP Methodology.pdf` |

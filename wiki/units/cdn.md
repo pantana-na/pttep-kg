@@ -11,7 +11,7 @@ last_updated: 2026-06-13
 > ⚠️ CHP is a peroxide — thermal decomposition risk in all three sub-sections. See [[hazards/cumene-hydroperoxide]].
 
 **Technology Licensor:** UOP (Universal Oil Products) — Basis documents: 963766-110-01 to 06-A1  
-**Plant:** PTT Phenol Train II (PPCL) — [[project]]
+**Plant:** Refinery Phenol Train II — [[project]]
 
 ## Purpose
 

@@ -24,7 +24,7 @@ last_updated: 2026-06-16
 | 14780-8120-PS-D2311 | D-2311 | 98% Sulfuric Acid Refill Tank | Z1 (AS BUILT) | 2016-05-10 |
 | 14780-8120-PS-D2312 | D-2312 | Diamine Injection Tank | Z1 (AS BUILT) | 2016-05-10 |
 
-Source: POSCO Engineering & Construction for PTT Phenol Train II (PPCL), Project No. 120117. Licensor: UOP/Honeywell. All vessel sheets co-stamped Bechtel and reference UOP Project Specification 963766-301 (Vessels) and UOP Standard Specification 3-11/3-15.
+Source: POSCO Engineering & Construction for Refinery Phenol Train II, Project No. 120117. Licensor: UOP/Honeywell. All vessel sheets co-stamped Bechtel and reference UOP Project Specification 963766-301 (Vessels) and UOP Standard Specification 3-11/3-15.
 
 **Purpose:** Provides mechanical/material design data (shell/head material, corrosion allowance, MDMT, design pressure/temperature, specific gravity/density, nozzle schedules) for all remaining CDN static vessels not yet covered by heat exchanger or rotating equipment data sheet batches. Closes PSI Readiness Category 6 (Equipment Data Sheets) for the CDN section's static vessel population (D-2301 through D-2312, less D-2305 which does not exist as a tag).
 

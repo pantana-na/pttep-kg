@@ -12,7 +12,7 @@ last_updated: 2026-06-16
 
 ## Purpose
 
-12-page AS-BUILT (Rev Z1) Analyzer process data sheet for the CDN unit, prepared by POSCO Engineering for PTT Phenol Train II under UOP licence. Covers 5 analyzer systems: two density-based CHP concentration transmitters, two colorimetric sulfuric acid analyzers, and one paramagnetic oxygen analyzer.
+12-page AS-BUILT (Rev Z1) Analyzer process data sheet for the CDN unit, prepared by POSCO Engineering for Refinery Phenol Train II under UOP licence. Covers 5 analyzer systems: two density-based CHP concentration transmitters, two colorimetric sulfuric acid analyzers, and one paramagnetic oxygen analyzer.
 
 Full extraction is at [[instruments/analyzers-cdn]] — this page summarizes findings only.
 

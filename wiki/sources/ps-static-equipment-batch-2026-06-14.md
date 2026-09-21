@@ -10,7 +10,7 @@ last_updated: 2026-06-14
 
 ## Overview
 
-Fifteen (15) UOP process data sheets for static equipment (pressure vessels, columns, tanks, and sumps) from the PTT Phenol Train II Project (PPCL), Map Ta Phut, Thailand. Prepared by POSCO Engineering & Construction under UOP licence. Document numbering prefix: 14780-8120-PS-*.
+Fifteen (15) UOP process data sheets for static equipment (pressure vessels, columns, tanks, and sumps) from the Refinery Phenol Train II Project (Refinery Operations Ltd.), Map Ta Phut, Thailand. Prepared by POSCO Engineering & Construction under UOP licence. Document numbering prefix: 14780-8120-PS-*.
 
 These data sheets are the formal engineering basis for vessel design parameters. They establish the Process Safety Information (PSI) required under equipment data sheets (Table A6.2-2, Item 4 of the PSI Readiness Checklist).
 

@@ -7,7 +7,7 @@ last_updated: 2026-06-17
 
 # Source: GC ePHA Template v5.0 (Risk Ranking)
 
-**Issuer:** PTT Global Chemical Public Company Limited — official e-PHA recording template (SharePoint: `EHAZOP` site collection, host `spapps`, domain `PTTGC`)
+**Issuer:** Refinery Petrochemical Corporation — official e-PHA recording template (SharePoint: `EHAZOP` site collection, host `spapps`, domain `Refinery Group`)
 **Files:**
 - `raw/standards/GC_ePHA_Template_v5.0(Risk Ranking).xlsm` — full workbook (sheets: `metadata`, `RiskRank`, `Worksheet HAZOP-TPL_TLM`, `Worksheet HAZOP-TPL`, `Action Items-TPL`, `GWMaster`, `RiskMatrixMaster`, `Worksheet NoCode`, `P5-PID-Marked up Node`, `oldP6-Worksheet HAZOP-Node1`, `oldP7-Action Items`, `Risk Ranking`)
 - `raw/standards/Risk Ranking Matrix.png` — image export of the `Risk Ranking` sheet (identical content to the xlsm sheet)
@@ -55,9 +55,9 @@ The existing [[wiki/hazop/risk-matrix]] (from W-(Q-MP)-002 R2) uses three *diffe
 | 2 Low | 0.3 – < 3 M | 0.15 – < 1.5 M | 0.05 – < 0.5 M |
 | 1 Very Low | < 0.3 M | < 0.15 M | < 0.05 M |
 
-**GPC = Upstream** (numbers match exactly). **BU and Small BU do NOT match Downstream or GC-S** (BU thresholds are roughly double GC-S/Downstream's neighbor tier, no clean 1:1 mapping). [CONFLICT: W-(Q-MP)-002_R2.pdf names categories Upstream/Downstream/GC-S with one set of THB bands; GC_ePHA_Template_v5.0 names categories GPC/BU/Small BU with a different set of THB bands for two of the three tiers — resolve with HAZOP coordinator/safety engineer before applying economic severity at PTT Phenol]
+**GPC = Upstream** (numbers match exactly). **BU and Small BU do NOT match Downstream or GC-S** (BU thresholds are roughly double GC-S/Downstream's neighbor tier, no clean 1:1 mapping). [CONFLICT: W-(Q-MP)-002_R2.pdf names categories Upstream/Downstream/GC-S with one set of THB bands; GC_ePHA_Template_v5.0 names categories GPC/BU/Small BU with a different set of THB bands for two of the three tiers — resolve with HAZOP coordinator/safety engineer before applying economic severity at Refinery Phenol]
 
-PTT Phenol (PPCL) plant classification under either naming scheme has not yet been confirmed by the HAZOP team — this conflict compounds the existing open note in [[wiki/hazop/risk-matrix]] about classification.
+Refinery Phenol plant classification under either naming scheme has not yet been confirmed by the HAZOP team — this conflict compounds the existing open note in [[wiki/hazop/risk-matrix]] about classification.
 
 ### Additional content not yet incorporated into the wiki
 - `GWMaster` sheet contains an expanded Parameter × Guideword deviation matrix (Flow, Pressure, Temperature, Level, Reaction, Mixing, Phase, Viscosity, Composition, Erosion, Corrosion, Service Failures, Sequence, Incident, Human, Other) — broadly consistent with Table 6.1 in [[wiki/hazop/methodology]] but more granular for some parameters (e.g., separate Erosion/Corrosion columns). Not ingested into methodology.md in this pass — flagged for future review.

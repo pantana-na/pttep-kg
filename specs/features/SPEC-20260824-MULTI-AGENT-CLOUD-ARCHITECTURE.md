@@ -26,7 +26,7 @@ The existing system operates as a file-based Claude Code agent running locally a
 - **Hybrid Storage (GCS Wiki + Cloud Spanner Graph + Knowledge Catalog):** Store human-readable Markdown in Google Cloud Storage (GCS) while maintaining an indexed property graph in **Cloud Spanner Graph** combined with **Dataplex Knowledge Catalog** and Vector Search.
 - **Standardized MCP Tool Integration:** Equip the Retriever agent with off-the-shelf **Model Context Protocol (MCP)** tool connectors for Cloud Spanner and Knowledge Catalog.
 - **Intuitive Web UI (No-Auth Frictionless Ingress):** Provide a modern chat-based user interface tailored to HAZOP workflows, document ingestion/deletion, and cited Q&A.
-- **Zero Regression on Domain Invariants:** Strictly preserve the Hock Process chemical constraints (CHP 80°C onset), PTT GC 5×5 RAM (`W-(Q-MP)-002 R2`), Anti-Bias rule, Standards Primacy rule, and Node Boundary rules established in the baseline.
+- **Zero Regression on Domain Invariants:** Strictly preserve the Hock Process chemical constraints (CHP 80°C onset), Refinery 5x5 RAM (`W-(Q-MP)-002 R2`), Anti-Bias rule, Standards Primacy rule, and Node Boundary rules established in the baseline.
 
 ### 1.4 Non-Goals (Out of Scope for this Phase)
 - User authentication, role-based access control (RBAC), or multi-tenant customer isolation (designed as frictionless direct ingress per user mandate).
@@ -605,7 +605,7 @@ Dataplex Knowledge Catalog acts as the single pane of glass for governing docume
 graph LR
     subgraph "Knowledge Catalog Aspects"
         Doc[PDF Source Asset] --> AspectPSI[PSI Governance Aspect<br/>Category 1-8, Criticality, Audit Score]
-        Doc --> AspectEng[Plant Engineering Aspect<br/>Plant: PPCL, Licensor: UOP, Rev: Z1]
+        Doc --> AspectEng[Plant Engineering Aspect<br/>Plant: Refinery Operations Ltd., Licensor: UOP, Rev: Z1]
         Doc --> AspectLineage[Lineage Aspect<br/>PDF → Extractor Job → GCS Wiki → Spanner Graph]
     end
     
@@ -1209,7 +1209,7 @@ Every conversational bubble and studio action card embeds four dedicated observa
 
 ### 5.5 Journey 3: Interactive HAZOP Study Studio (with Observability Telemetry)
 1. **Initiation (`/hazop setup`):**
-   - `<AgentThoughtStream />` logs reasoning verifying presence of PTT GC RAM `W-(Q-MP)-002 R2` and OEMS-005.
+   - `<AgentThoughtStream />` logs reasoning verifying presence of Refinery 5x5 RAM `W-(Q-MP)-002 R2` and OEMS-005.
    - Anti-Bias scan confirms no old Phenol/CDN HAZOP reports exist in `raw/`.
 2. **Node Selection & Marked-up P&ID Upload:**
    - User uploads digital markup drawing `Node 23-02.pdf` for `CDN-N02`.
@@ -1337,7 +1337,7 @@ PROD_MAX_INSTANCES=10
 
 ### 6.5 Google Cloud Model Armor & Prompt Injection Defense (Local & Cloud Architecture)
 
-To safeguard the PTT GC Phenol Process Safety & HAZOP platform from adversarial prompt injection, jailbreaking, system prompt extraction, and unsafe conversational deviations, the architecture incorporates **Google Cloud Model Armor** as an inline bi-directional security layer before any agent reasoning or tool execution takes place.
+To safeguard the Refinery Group Phenol Process Safety & HAZOP platform from adversarial prompt injection, jailbreaking, system prompt extraction, and unsafe conversational deviations, the architecture incorporates **Google Cloud Model Armor** as an inline bi-directional security layer before any agent reasoning or tool execution takes place.
 
 ```mermaid
 flowchart TD
@@ -1496,12 +1496,12 @@ graph TD
   - Implement adaptive execution (Mode 1 Direct Parallel vs Mode 2 Pipelined Candidate Resolution).
 * **Testing:** `UT-RET-01`, `PBT-STREAM-01`.
 
-#### Step 5.0: HAZOP Study Agent Engine (PTT GC RAM & LOPA Reasoning)
+#### Step 5.0: HAZOP Study Agent Engine (Refinery 5x5 RAM & LOPA Reasoning)
 * **Target Files:** `agents/hazop/agent.py`, `agents/hazop/ram_evaluator.py`, `agents/hazop/anti_bias.py`, `agents/hazop/excel_exporter.py`.
 * **Deliverables:**
   - Implement 9-step study lifecycle with extended thinking for LOPA.
   - Anti-Bias scan halting study if raw Phenol reports exist in input directory.
-  - Deterministic PTT GC 5x5 RAM risk calculation and IPL credit scoring (-1 for SIL 1, -2 for SIL 2).
+  - Deterministic Refinery 5x5 RAM risk calculation and IPL credit scoring (-1 for SIL 1, -2 for SIL 2).
   - Openpyxl export generating 7-tab audit-compliant `.xlsx` workbooks.
 * **Testing:** `UT-HAZ-01`, `UT-HAZ-02`, `PBT-RAM-01`, `PBT-RAM-02`, `PBT-IPL-01`.
 
@@ -1553,7 +1553,7 @@ graph TD
 | **UT-UI-TOOL-01** | Step 7.0 | `<ToolExecutionCard />` | Receive `tool_invoked` followed by `tool_result` | Renders tool badge, latency pill (`18ms`), and expands collapsible parameter/result drawer. |
 | **UT-UI-GQL-01** | Step 7.0 | `<GqlQueryInspector />` | Receive `gql_executed` payload | Applies ISO GQL syntax highlighting, renders TrueTime badge, and generates interactive graph path preview. |
 | **UT-UI-CLARIFY-01**| Step 7.0| `<ClarificationCard />` | Render candidate pills and handle selection click | Dispatches `/api/v1/agent/clarify` payload and resumes stream without page reload. |
-| **UT-UI-01** | Step 7.0 | Web UI | Click "Export Excel" in HAZOP Studio | Triggers download of valid `.xlsx` file matching PTT GC template structure. |
+| **UT-UI-01** | Step 7.0 | Web UI | Click "Export Excel" in HAZOP Studio | Triggers download of valid `.xlsx` file matching Refinery Group template structure. |
 
 ### 8.2 Property-Based Testing (PBT) Matrix
 
@@ -1712,7 +1712,7 @@ graph TD
 | **1. Groundedness & Anti-Hallucination** | Every equipment tag, setpoint, material, and hazard threshold in the answer must map to an active GCS Markdown page or Spanner Graph entity. | **$\ge 0.98$ (98%)** | Vertex AI Groundedness Metric + Citation Verifier | **P0 (Blocker)** |
 | **2. Trajectory & Tool Precision** | Precision and recall of subagent dispatch, MCP tool selection (`spanner_keyword_search` $\rightarrow$ `spanner_graph_query`), and valid ISO GQL syntax without hallucinated edge/node labels. | **$\ge 0.95$ (95%)** | ADK Trajectory Matcher against Golden Tool Sequence | **P1 (High)** |
 | **3. Process Safety Invariant Adherence** | Zero tolerance for violating chemical constraints (CHP 80 °C decomposition limit) or failing the Anti-Bias historical report scan. | **$1.0$ (100%)** | Deterministic Assertions on Trajectory & Output | **P0 (Blocker)** |
-| **4. PTT GC 5×5 RAM & LOPA Calculation** | Exact computation of Initial Risk, SIL safeguard credits (-1 for SIL 1, -2 for SIL 2), Mitigated Likelihood, and mandatory recommendation triggering for $\ge \text{Medium}$ risk. | **$1.0$ (100%)** | Mathematical Grid Assertion across all 25 RAM cells | **P0 (Blocker)** |
+| **4. Refinery 5x5 RAM & LOPA Calculation** | Exact computation of Initial Risk, SIL safeguard credits (-1 for SIL 1, -2 for SIL 2), Mitigated Likelihood, and mandatory recommendation triggering for $\ge \text{Medium}$ risk. | **$1.0$ (100%)** | Mathematical Grid Assertion across all 25 RAM cells | **P0 (Blocker)** |
 | **5. Multi-Turn Clarification Fidelity** | Accurately detects underspecified queries, triggers `<ClarificationCard />`, respects `MAX_CLARIFICATION_DEPTH = 3`, and preserves working memory across turns. | **$\ge 0.95$ (95%)** | Multi-Turn Scripted Dialogue Evaluator | **P1 (High)** |
 
 #### 8.4.2 Golden Process Safety Benchmark Dataset (`evals/datasets/phenol_safety_bench.jsonl`)

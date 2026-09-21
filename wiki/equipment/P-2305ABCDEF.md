@@ -113,7 +113,7 @@ UOP Project Spec 963766-503 (API 675 controlled-volume proportioning pump data s
 | Min Design Metal Temp | 15°C | PS-P2305 |
 | Control | Automatic, remote, electronic signal (4–20 mA) | PS-P2305 |
 | Relief Valve Setting | 4.921 kg/cm²g (external, vendor-furnished) | PS-P2305 |
-| Material Revision | Materials revised per UOP-PPCL-SPOT RELEASE-T170 | PS-P2305 Record of Revision A2 |
+| Material Revision | Materials revised per UOP-Refinery Operations Ltd.-SPOT RELEASE-T170 | PS-P2305 Record of Revision A2 |
 
 **Alloy 20 construction** is notable — selected specifically for resistance to concentrated sulfuric acid, distinct from the 316 SS used on the centrifugal pumps elsewhere in CDN.
 

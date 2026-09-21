@@ -1,18 +1,18 @@
 ---
-name: Project Identity — PTT Phenol Train II
+name: Project Identity — Refinery Phenol Train II
 tags: [project, identity]
 sources: [14780-8120-20-23_CDN PROCESS FLOW DIAGRAM COVER_Z1.pdf]
 last_updated: 2026-06-06
 ---
 
-# Project Identity — PTT Phenol Train II
+# Project Identity — Refinery Phenol Train II
 
 ## Plant Details
 
 | Field | Value |
 |-------|-------|
-| Plant Name | PTT Phenol Train II |
-| Owner / Client | PTT Phenol Company Limited (PPCL) |
+| Plant Name | Refinery Phenol Train II |
+| Owner / Client | Refinery Operations Ltd. |
 | Location | Hemaraj Eastern Industrial Estate, Map Ta Phut, Rayong, Kingdom of Thailand |
 | Technology Licensor | UOP (Universal Oil Products) |
 | Engineering Contractor | POSCO Engineering (Korea) |
@@ -44,11 +44,11 @@ last_updated: 2026-06-06
 | 6 | 14780-8120-20-23-0005 | Calorimeters – Decomposer Drum – Acid Injection |
 | 7 | 14780-8120-20-23-0006 | Neutralizing Agent Injection – Knockout Drum – Acid Aromatics Sump |
 
-## Process Section Naming (PPCL Convention)
+## Process Section Naming (Refinery Operations Ltd. Convention)
 
 The plant uses the following naming conventions:
 
-| Generic Name | PPCL Name | Wiki Page |
+| Generic Name | Refinery Operations Ltd. Name | Wiki Page |
 |-------------|-----------|-----------|
 | Cleavage / Decomposition (inc. concentration) | CDN Section | [[units/cdn]] |
 | Oxidation | Oxidation Section | [[units/oxidation]] |

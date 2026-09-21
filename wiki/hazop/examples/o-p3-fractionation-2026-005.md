@@ -2,20 +2,20 @@
 name: Example HAZOP Report — Olefins 3 (O-P3) Fractionation Unit 1400 Revalidation
 tags: [hazop, example, external-reference]
 source: O-P3-PHA-2026_005.xlsx
-plant: Olefins 3 (O-P3) — NOT PTT Phenol (PPCL)
+plant: Olefins 3 (O-P3) — NOT Refinery Phenol
 last_updated: 2026-06-17
 ---
 
 # Example HAZOP Report — O-P3 Fractionation Unit 1400 (PHA No. O-P3-PHA-2026/005)
 
 > ⚠️ **ANTI-BIAS CAUTION — READ BEFORE USE**
-> This page contains **actual findings** (causes, consequences, safeguards, recommendations, risk rankings) from a real, completed GC HAZOP revalidation. It is from **Olefins 3 (O-P3), Unit 1400 — Ethylene/Propylene Fractionation** — a different plant, different unit, different chemistry (C2/C3 olefins, not phenol/cumene) from PTT Phenol (PPCL) CDN.
+> This page contains **actual findings** (causes, consequences, safeguards, recommendations, risk rankings) from a real, completed GC HAZOP revalidation. It is from **Olefins 3 (O-P3), Unit 1400 — Ethylene/Propylene Fractionation** — a different plant, different unit, different chemistry (C2/C3 olefins, not phenol/cumene) from Refinery Phenol CDN.
 >
 > **Permitted use:** as a worked example of GC's documentation style, level of technical detail, and recording conventions (per the user's explicit instruction on 2026-06-17 to ingest this for template/concept purposes, given it is from an unrelated unit).
 >
 > **Not permitted:** citing this page's specific causes, consequences, safeguard designs, or risk rankings as a basis for any Phenol CDN node deviation, safeguard adequacy judgment, or risk score. CDN HAZOP node analysis must derive findings independently from CDN process data per the Standards Primacy Rule and the project's HAZOP Anti-Bias Rule. Do not reference this page from any `wiki/hazop/nodes/<id>.md` worksheet.
 >
-> Per CLAUDE.md, previous reports are normally excluded entirely during an active study; this page exists as a deliberate, user-authorized exception scoped to template/style learning only, because the source unit is unrelated to the plant under study.
+> Per the Anti-Bias Rule (`app/hazop/anti_bias.py`), previous reports are normally excluded entirely during an active study; this page exists as a deliberate, user-authorized exception scoped to template/style learning only, because the source unit is unrelated to the plant under study.
 
 ---
 

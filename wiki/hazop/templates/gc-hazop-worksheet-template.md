@@ -47,7 +47,7 @@ This is a superset of our node page's "Design Intent" + "Normal Operating Parame
 
 ## Deviation Table — Column Structure (3 Risk Blocks)
 
-The worksheet uses **three parallel risk blocks**, one more than our current `CLAUDE.md` node-page template (which has two: Without/With safeguard):
+The worksheet uses **three parallel risk blocks**, extending the baseline node-page template (which had two: Without/With safeguard):
 
 | Block | Columns | Notes |
 |-------|---------|-------|
@@ -59,7 +59,7 @@ The worksheet uses **three parallel risk blocks**, one more than our current `CL
 | **After Recommendation Comp.** | L, Severity (P / En / Ec / S), RR | **Third risk block** — re-assessed risk AFTER the recommendation is implemented and closed. Not present in our current template. |
 
 ### Recommended addition to our schema
-Our [[wiki/hazop/methodology]] "GC HAZOP Worksheet — Official Column Structure" section and the node-page worksheet table in `CLAUDE.md` currently only carry Initial Risk + Mitigated Risk. The real company template carries a **third, post-closure risk block** ("After Recommendation Comp.") populated once a recommendation is implemented — this is the mechanism by which residual risk is formally re-verified at action close-out, consistent with [[wiki/hazop/methodology]]'s Phase 5 (Action Close-out). Consider adding an "After Recommendation Risk" column to the node worksheet table for completed recommendations.
+Our [[wiki/hazop/methodology]] "GC HAZOP Worksheet — Official Column Structure" section and the baseline node-page worksheet table currently only carry Initial Risk + Mitigated Risk. The real company template carries a **third, post-closure risk block** ("After Recommendation Comp.") populated once a recommendation is implemented — this is the mechanism by which residual risk is formally re-verified at action close-out, consistent with [[wiki/hazop/methodology]]'s Phase 5 (Action Close-out). Consider adding an "After Recommendation Risk" column to the node worksheet table for completed recommendations.
 
 ### IL/ESD flag
 Each safeguard row carries a `Yes`/`No` flag for whether it is an Interlock or ESD action (as opposed to an alarm, procedure, or other non-IPL safeguard). This is a cheap, useful field to add to our safeguard recording convention in [[wiki/hazop/methodology]] (DO/DON'T safeguard examples) — it makes the Interlock/ESD Summary rollup possible.

@@ -14,7 +14,7 @@
 ### 1.1 Context & Background
 The platform provides multi-tier process safety retrieval, 5x5 RAM risk evaluations, and Model Armor security guardrails for a Refinery Phenol Unit. Previously, the automated Agent Evaluation (`evals/datasets/phenol_safety_bench.jsonl` and `tests/eval/datasets/basic-dataset.json`) contained only 5 basic test scenarios. 
 
-To ensure continuous regression testing, safety grounding, and production readiness across all engineering scenarios, the platform requires an exhaustive benchmark suite of at least 100 golden test cases directly derived from the **Master Test Prompts Suite** (`test_prompt/`).
+To ensure continuous regression testing, safety grounding, and production readiness across all engineering scenarios, the platform requires an exhaustive benchmark suite of at least 100 golden test cases directly derived from the **Master Test Prompts Suite** (`docs/test_prompts/`).
 
 ### 1.2 Problem Statement
 How do we generate, structure, and automate a comprehensive $\ge 100$ scenario evaluation dataset that rigorously validates:

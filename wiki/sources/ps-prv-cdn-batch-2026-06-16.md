@@ -12,7 +12,7 @@ last_updated: 2026-06-16
 
 ## Purpose
 
-18-page AS-BUILT (Rev Z1) Pressure Relief Valve / rupture disc process data sheet for the CDN unit, prepared by POSCO Engineering for PTT Phenol Train II under UOP licence. Provides set pressure, sizing case, relief capacity, orifice designation, valve type, and discharge routing for all CDN relief devices.
+18-page AS-BUILT (Rev Z1) Pressure Relief Valve / rupture disc process data sheet for the CDN unit, prepared by POSCO Engineering for Refinery Phenol Train II under UOP licence. Provides set pressure, sizing case, relief capacity, orifice designation, valve type, and discharge routing for all CDN relief devices.
 
 > ✅ **This closes [[sources/Table-A6.2-3-PID-readiness-checklist]] Item 7 (PSV set pressures TBC)** — the single remaining blocker noted in the P&ID Readiness assessment for CDN. All CDN PSV set pressures are now AS-BUILT confirmed.
 

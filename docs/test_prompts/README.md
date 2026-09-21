@@ -1,4 +1,4 @@
-# 🧪 PTT GC Phenol Process Safety & HAZOP Agent: Master Test Prompts Suite
+# 🧪 Refinery Group Phenol Process Safety & HAZOP Agent: Master Test Prompts Suite
 
 This directory contains comprehensive, copy-pasteable test prompts covering all **intents**, **subagents**, **storage tiers**, and **security guardrails** in the platform.
 
@@ -15,7 +15,7 @@ This directory contains comprehensive, copy-pasteable test prompts covering all 
 | **5** | **Tri-Tier Comprehensive** | Simultaneous 3-Tool Execution | [Suite 1](./01_process_safety_and_tri_tier_prompts.md#test-case-15-full-safety-audit--moc-comprehensive-review-simultaneous-3-tool-execution) | `Perform a full safety audit on Steam Heater E-2303: trace its interlock trip logic, identify its As-Built P&ID drawing provenance, and retrieve its operating narrative.` |
 | **6** | **Chemical Hazard Limits** | Thermal Decomposition Limits | [Suite 1](./01_process_safety_and_tri_tier_prompts.md) | `What is the thermal decomposition onset temperature of cumene hydroperoxide?` |
 | **7** | **HAZOP Deviation Review** | `HazopStudyAgent` + RAM 5×5 | [Suite 2](./02_hazop_study_and_lopa_prompts.md#test-case-21-high-temperature-deviation-evaluation-on-steam-heater) | `Evaluate HAZOP deviation for higher temperature in E-2303 when steam control valve FCV-0501 fails open` |
-| **8** | **LOPA Safeguard Credits** | PTT GC RAM Evaluator | [Suite 2](./02_hazop_study_and_lopa_prompts.md#test-case-22-lopa--safeguard-sufficiency-verification) | `Perform LOPA risk ranking and safeguard evaluation for high pressure deviation in Preflash Column V-2301` |
+| **8** | **LOPA Safeguard Credits** | Refinery 5x5 RAM Evaluator | [Suite 2](./02_hazop_study_and_lopa_prompts.md#test-case-22-lopa--safeguard-sufficiency-verification) | `Perform LOPA risk ranking and safeguard evaluation for high pressure deviation in Preflash Column V-2301` |
 | **9** | **Anti-Bias Verification** | `AntiBiasScanner` | [Suite 2](./02_hazop_study_and_lopa_prompts.md#test-case-23-anti-bias-protection-verification) | `Start HAZOP study setup for Node CDN-N01` |
 | **10** | **HITL Disambiguation (Pump)** | `ClarificationManager` (Pumps) | [Suite 3](./03_hitl_clarification_prompts.md#test-case-31-ambiguous-generic-pump-query) | `show me interlocks on the pump` |
 | **11** | **HITL Disambiguation (Heater)**| `ClarificationManager` (Heaters) | [Suite 3](./03_hitl_clarification_prompts.md#test-case-32-ambiguous-heater--exchanger-query) | `the heater` |

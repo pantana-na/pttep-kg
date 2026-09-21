@@ -5,7 +5,7 @@ source: SG-(Q-MP)-014_R3.pdf
 last_updated: 2026-06-14
 ---
 
-# HAZOP Methodology — PTT GC Study Execution Guide
+# HAZOP Methodology — Refinery Group Study Execution Guide
 
 > **Governing Document:** SG-(Q-MP)-014 Rev.3 (26/05/2026) — Guidance for Hazard and Operability Studies
 > **Source file:** `raw/standards/SG-(Q-MP)-014_R3.pdf`
@@ -381,7 +381,7 @@ In addition to parameter × guideword deviations, consider these at every node:
 | Partial plug — pipeline mixer | ~1/11 per year | **L4** |
 | Partial plug — reboiler tubes | ~1/17 per year | **L4** |
 
-*Use PTTGC location-specific incident history where available to adjust Likelihood per §6.2.1.3.1.*
+*Use Refinery Group location-specific incident history where available to adjust Likelihood per §6.2.1.3.1.*
 
 ¹ *Note: Training material [[sources/hazop-leadership-training-ch4]] (2021) assigns pump/compressor failure → L3 (1/10 to 1/100 per year). This governing table (SG-(Q-MP)-014 R3, 2026) assigns L4. Use L4 for this study.*
 

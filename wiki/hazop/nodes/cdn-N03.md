@@ -75,7 +75,7 @@ Normal process fluid is single-phase liquid concentrated CHP under deep vacuum (
 
 > Risk rankings per [[wiki/hazop/risk-matrix]]. Safeguard adequacy per [[wiki/sources/P-Q-MP-OEMS-005]] and [[wiki/hazop/methodology]] Tables 6.4-6.6.
 >
-> ✅ **Economic severity:** PPCL classified **BU** (resolved 2026-06-17) — Extreme(5) ≥100 M THB; High(4) 10–<100 M; Medium(3) 1–<10 M; Low(2) 0.1–<1 M; Very Low(1) <0.1 M, per [[wiki/hazop/risk-matrix]]. Risk uses the **highest** of People/Environment/Economic/Social. Production-loss Ec estimates are first-pass for team validation.
+> ✅ **Economic severity:** Refinery Operations Ltd. classified **BU** (resolved 2026-06-17) — Extreme(5) ≥100 M THB; High(4) 10–<100 M; Medium(3) 1–<10 M; Low(2) 0.1–<1 M; Very Low(1) <0.1 M, per [[wiki/hazop/risk-matrix]]. Risk uses the **highest** of People/Environment/Economic/Social. Production-loss Ec estimates are first-pass for team validation.
 >
 > Likelihood basis: [[wiki/hazop/methodology]] Table 6.3. IPL credit: Tables 6.4-6.6. SIL credit: SIL 1 = −1 level, SIL 2 = −2 levels.
 

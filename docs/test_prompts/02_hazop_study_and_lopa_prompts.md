@@ -1,6 +1,6 @@
 # Test Suite 2: HAZOP Study, RAM Matrix & LOPA Prompts
 
-This test suite covers **Interactive HAZOP Study Facilitation**, **PTT GC 5×5 RAM Matrix Calculation**, and **Anti-Bias Rule Enforcement**.
+This test suite covers **Interactive HAZOP Study Facilitation**, **Refinery 5x5 RAM Matrix Calculation**, and **Anti-Bias Rule Enforcement**.
 
 ---
 
@@ -12,7 +12,7 @@ This test suite covers **Interactive HAZOP Study Facilitation**, **PTT GC 5×5 R
 * **Primary Intent:** `FACILITATE_HAZOP`
 * **Subagent Dispatched:** `HazopStudyAgent`
 * **Tools Invoked:**
-  - `evaluate_deviation_risk` (PTT GC 5×5 RAM Engine)
+  - `evaluate_deviation_risk` (Refinery 5x5 RAM Engine)
 * **Expected Result:**
   - **Initial Risk:** Severity 5 (People), Likelihood 4 $\to$ Initial Risk **`5D`** (High Risk).
   - **Safeguards & Credits:** `TXSHH-0502A/B` (1oo2 SIL 1) $\to$ **1 IPL Credit**.

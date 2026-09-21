@@ -7,7 +7,7 @@ last_updated: 2026-06-16
 
 # CDN Pressure, Level & Temperature Instrument Process Data Sheets
 
-**Documents:** 3 AS-BUILT (Rev Z1, May 10, 2016) UOP/POSCO process specifications for PTT Phenol Train II Project (Job No. 120117), CDN Unit, owner PTT Phenol Company Limited (PPCL).
+**Documents:** 3 AS-BUILT (Rev Z1, May 10, 2016) UOP/POSCO process specifications for Refinery Phenol Train II Project (Job No. 120117), CDN Unit, owner Refinery Operations Ltd..
 
 | Doc No. | Title | Pages | Tag Count |
 |---------|-------|-------|-----------|
@@ -15,7 +15,7 @@ last_updated: 2026-06-16
 | 14780-8120-PS-0033 | Level Instrument Process Data Sheet | 22 | 38 (21 LT/LXT, 1 radar, 1 switch, 13 LGR, 1 LS) |
 | 14780-8120-PS-0034 | Temperature Instrument Process Data Sheet | 28 | 65+ (33 TE/TT, 13 RTD, 22 TXT, 1 special, 6 thermometer/output) |
 
-**Source:** POSCO Engineering Co., Ltd. for PTT Phenol Train II Project. Original UOP LLC project specifications (963766 series) supplemented with PTT/Bechtel-format CDN-specific data sheets, dated 25 JUN 2012 (UOP base spec) through 10 MAY 2016 (As-Built finalization).
+**Source:** POSCO Engineering Co., Ltd. for Refinery Phenol Train II Project. Original UOP LLC project specifications (963766 series) supplemented with Refinery/Bechtel-format CDN-specific data sheets, dated 25 JUN 2012 (UOP base spec) through 10 MAY 2016 (As-Built finalization).
 
 ## Purpose
 

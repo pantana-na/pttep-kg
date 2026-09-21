@@ -6,7 +6,7 @@ last_updated: 2026-06-17
 
 # HAZOP Interlock/ESD Summary
 
-> Cross-node rollup of every safeguard flagged IL/ESD = Yes during node analysis. Cross-check against [[wiki/instruments/cause-effect-cdn]] and [[wiki/instruments/sis-cdn]] — every SIS trip credited here should also appear there, and vice versa. Maintained by the `hazop` skill (`.claude/skills/hazop/SKILL.md`) as nodes are completed.
+> Cross-node rollup of every safeguard flagged IL/ESD = Yes during node analysis. Cross-check against [[wiki/instruments/cause-effect-cdn]] and [[wiki/instruments/sis-cdn]] — every SIS trip credited here should also appear there, and vice versa. Maintained by the HAZOP study engine ([`app/hazop/agent.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/app/hazop/agent.py)) as nodes are completed.
 >
 > **Status: PRELIMINARY — IL/ESD safeguards from the desktop first-passes of Nodes CDN-N02 ("Node 23-02", UC-2301 Causes 1/2/3) and CDN-N03 ("Node 23-03", UC-2301 Causes 6/8/9/10/11 + UC-2302 UXV-0802/0803). All cross-checked against [[wiki/instruments/cause-effect-cdn]]. Risk values are preliminary pending team confirmation.**
 
@@ -27,4 +27,4 @@ last_updated: 2026-06-17
 ## References
 - [[wiki/hazop/study-info]] — node status register
 - [[wiki/instruments/cause-effect-cdn]], [[wiki/instruments/sis-cdn]] — SIS data to cross-check against
-- `.claude/skills/hazop/SKILL.md` — owning skill
+- [`app/hazop/agent.py`](file:///usr/local/google/home/pantana/lab/Refinery-kg/app/hazop/agent.py) — HAZOP facilitator engine

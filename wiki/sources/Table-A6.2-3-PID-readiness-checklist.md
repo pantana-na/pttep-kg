@@ -15,7 +15,7 @@ last_updated: 2026-06-13
 |-------|-------|
 | Title | Table A6.2-3 P&ID Readiness Checklist for HAZOP Study |
 | Revision | Final R1 |
-| Organisation | PTT GC |
+| Organisation | Refinery Group |
 | Parent Standard | [[sources/SG-Q-MP-014]] — Appendix 6.2 |
 | File | `raw/standards/Table A6.2-3 PID readiness checklist (Fianl R1).xlsx` |
 | Sheets | Appendix 6.2 (phase matrix), Table A6.2-3 (checklist) |

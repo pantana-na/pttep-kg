@@ -5,7 +5,7 @@ tags: [source, standard, hazop]
 document_id: P-(Q-MP)-OEMS-005
 revision: "4"
 date: 2026-05-26
-owner: PTT Global Chemical Public Company Limited — GC Management System and Process Safety (Q-MP)
+owner: Refinery Petrochemical Corporation — GC Management System and Process Safety (Q-MP)
 custodian: Technical Safety Service (Q-MP-TS)
 created_by: Mr. Pongpasin Tanaruangarmorn (Senior Safety Engineer)
 approved_by: Mr. Warakorn Decha (Vice President)
@@ -15,7 +15,7 @@ last_updated: 2026-06-13
 
 # Source: P-(Q-MP)-OEMS-005 — Hazard and Operability Study (HAZOP) Procedure
 
-GC corporate HAZOP procedure. Governs all HAZOP studies performed within PTT Global Chemical (GC) under the Management of Change (MoC) framework. 24 pages, Rev 4.
+GC corporate HAZOP procedure. Governs all HAZOP studies performed within Refinery Petrochemical Corporation (GC) under the Management of Change (MoC) framework. 24 pages, Rev 4.
 
 ---
 

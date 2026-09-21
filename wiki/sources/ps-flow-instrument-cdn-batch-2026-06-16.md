@@ -12,7 +12,7 @@ last_updated: 2026-06-16
 
 ## Purpose
 
-50-page AS-BUILT (Rev Z1) Flow Instrument process data sheet for the CDN unit, prepared by POSCO Engineering for PTT Phenol Train II under UOP licence. Covers 53 instrument data sheets across 6 device families: DP transmitters, primary flow elements (orifice plates), Coriolis mass flow meters, thermal mass flow instruments/switches, restriction orifices, and one rotameter.
+50-page AS-BUILT (Rev Z1) Flow Instrument process data sheet for the CDN unit, prepared by POSCO Engineering for Refinery Phenol Train II under UOP licence. Covers 53 instrument data sheets across 6 device families: DP transmitters, primary flow elements (orifice plates), Coriolis mass flow meters, thermal mass flow instruments/switches, restriction orifices, and one rotameter.
 
 Full extraction is at [[instruments/flow-instruments-cdn]] — this page summarizes findings only.
 

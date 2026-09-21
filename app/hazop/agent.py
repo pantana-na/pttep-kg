@@ -27,7 +27,7 @@ from database.models import resolve_hazop_node_id, resolve_equipment_tag_alias
 
 
 class HazopStudyAgent:
-    """Enterprise HAZOP facilitator governing PTT GC OEMS-005 and RAM W-(Q-MP)-002 R2."""
+    """Enterprise HAZOP facilitator governing Refinery OEMS-005 and RAM W-(Q-MP)-002 R2."""
 
     def __init__(self, db_instance):
         self.db = db_instance
@@ -738,7 +738,7 @@ status: CONFIRMED by engineer; ready for interactive deviation review
             "entry_id": entry_id,
             "entry_group": "projects/cs-poc-y03r7kmfyov4kilzg50fd7s/locations/asia-southeast1/entryGroups/phenol-psi",
             "display_name": f"HAZOP Study Worksheet — {node_id} ({node_name})",
-            "description": f"PTT Phenol Train II — Formal HAZOP Review for {node_id}. Governed by W-(Q-MP)-002 R2.",
+            "description": f"Refinery Phenol Train II — Formal HAZOP Review for {node_id}. Governed by W-(Q-MP)-002 R2.",
             "psi_category": 6,  # Category 6: Process Hazard Analysis & HAZOP
             "status": "COMPLETE",
             "linked_drawings": pid_drawings,

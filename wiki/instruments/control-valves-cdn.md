@@ -8,7 +8,7 @@ last_updated: 2026-06-16
 
 # CDN Control Valve Register
 
-**Source:** 14780-8120-PS-0010, Rev Z1 (AS-BUILT), PTT Phenol Train II, POSCO Engineering / UOP licensor basis. 136 pages, 43 distinct valve tags (34 main process data sheets + 9 condensed pump-seal/N₂ purge valves). Manufacturer basis throughout: Masoneilan or Metso Automation (or equal).
+**Source:** 14780-8120-PS-0010, Rev Z1 (AS-BUILT), Refinery Phenol Train II, POSCO Engineering / UOP licensor basis. 136 pages, 43 distinct valve tags (34 main process data sheets + 9 condensed pump-seal/N₂ purge valves). Manufacturer basis throughout: Masoneilan or Metso Automation (or equal).
 
 This is the consolidated reference for CDN control/on-off valves. Body material is predominantly 316/316L SS for hydrocarbon/CHP service and carbon steel for steam/cooling-water service.
 

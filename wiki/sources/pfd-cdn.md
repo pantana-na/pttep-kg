@@ -1,10 +1,10 @@
 ---
-name: PFD CDN Unit — PTT Phenol Train II
+name: PFD CDN Unit — Refinery Phenol Train II
 tags: [source, pfd, cdn]
 last_updated: 2026-06-06
 ---
 
-# Source: PFD CDN Unit — PTT Phenol Train II
+# Source: PFD CDN Unit — Refinery Phenol Train II
 
 ## Document Set
 
@@ -26,8 +26,8 @@ All documents: As-Built (Z1), Dated April 25, 2016. Basis: UOP 963766-110-01 to 
 ## Key Information Extracted
 
 ### Project Identity
-- Client: PTT Phenol Company Limited (PPCL)
-- Project: PTT Phenol Train II | Project No. 120117
+- Client: Refinery Operations Ltd.
+- Project: Refinery Phenol Train II | Project No. 120117
 - Location: Hemaraj Eastern Industrial Estate, Map Ta Phut, Thailand
 - Licensor: UOP | Engineer: POSCO Engineering
 

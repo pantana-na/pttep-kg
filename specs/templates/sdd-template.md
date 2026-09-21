@@ -32,12 +32,14 @@
 
 ```mermaid
 graph TD
-    User([User / Process Specialist]) --> Agent[Claude Code Agent]
-    Agent --> Classifier[sort_input.py Classifier]
-    Agent --> Wiki[Obsidian Markdown Wiki Knowledge Base]
-    Agent --> HazopSkill[.claude/skills/hazop/SKILL.md]
-    HazopSkill --> ExcelGen[openpyxl Worksheet Exporters]
-    ExcelGen --> Output[output/exports/hazop/ Deliverables]
+    User([User / Process Specialist]) --> UI[Tri-Pane Web Cockpit / Cloud Run]
+    UI --> Armor[Google Cloud Model Armor]
+    Armor --> Agent[Google ADK OrchestratorAgent]
+    Agent --> Spanner[Cloud Spanner Property Graph & Relational Catalog]
+    Agent --> GCS[Google Cloud Storage LLM-Wiki]
+    Agent --> Dataplex[Dataplex Knowledge Catalog]
+    Agent --> HazopEngine[HAZOP & LOPA Risk Engine]
+    HazopEngine --> Output[output/exports/hazop/ Deliverables]
 ```
 
 ### 2.2 Component Responsibilities

@@ -8,7 +8,7 @@ last_updated: 2026-06-16
 
 # CDN Analyzer Register
 
-**Source:** 14780-8120-PS-0003, Rev Z1 (AS-BUILT), PTT Phenol Train II, POSCO Engineering / UOP licensor basis. 5 analyzer systems across 12 pages.
+**Source:** 14780-8120-PS-0003, Rev Z1 (AS-BUILT), Refinery Phenol Train II, POSCO Engineering / UOP licensor basis. 5 analyzer systems across 12 pages.
 
 > **Tag-format note:** every tag in this source carries the "23-" area prefix and is dual-labeled **AT/AY** (transmitter + relay/converter), e.g. `AT/AY-23-0801`, whereas earlier wiki ingests recorded these as bare `AI-0801A/B`. Cross-checked below — in the two CHP cases this is a **naming-convention difference, not a real instrument discrepancy**: each is a single density-measuring transmitter with two simultaneous 4–20 mA outputs (density span + converted CHP wt%), which is exactly what the wiki's "A/B" pair represented. The two acid analyzers and the O₂ analyzer match the wiki's existing tags directly once the prefix is normalized.
 

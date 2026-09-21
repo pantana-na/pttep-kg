@@ -10,8 +10,8 @@ last_updated: 2026-06-07
 
 # Source: CDN P&ID Standard Details Set — 14780-8120-25-23 Series
 
-**Project:** PTT Phenol Train II — Project No. 120117  
-**Client:** PTT Phenol Company Limited (PPCL)  
+**Project:** Refinery Phenol Train II — Project No. 120117  
+**Client:** Refinery Operations Ltd.  
 **Location:** Hemaraj Eastern Industrial Estate, Map Ta Phut, Kingdom of Thailand  
 **Engineer:** POSCO Engineering  
 **Licensor Basis:** UOP (Standard Dwg 963766-120-01-A1)  

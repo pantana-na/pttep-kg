@@ -8,7 +8,7 @@ last_updated: 2026-06-16
 
 # CDN Pressure Relief Valve (PSV) Register
 
-**Source:** 14780-8120-PS-0018, Rev Z1 (AS-BUILT), PTT Phenol Train II, POSCO Engineering / UOP licensor basis.
+**Source:** 14780-8120-PS-0018, Rev Z1 (AS-BUILT), Refinery Phenol Train II, POSCO Engineering / UOP licensor basis.
 
 > ✅ **This document closes the long-standing "PSV set pressures TBC" gap** flagged in [[sources/Table-A6.2-3-PID-readiness-checklist]] (P&ID Readiness Item 7) and the HAZOP Gaps list. All CDN PSV set pressures are now confirmed AS-BUILT. Risk ranking and IPL credit for these devices in HAZOP node analysis should cite this page per the Standards Primacy Rule.
 
@@ -100,7 +100,7 @@ These protect the cold/CW-side of heat exchangers against thermal expansion when
 | Item | Issue |
 |------|-------|
 | PSV-23-1002 | Listed in revision log as **DELETED** — vendor-supplied, not part of this data sheet. No equipment page action needed. |
-| PSV-23-1408A/B | Revision log (Rev F1) states this PSV was **"ADDED"** per UOP-PPCL-SPOTS RELEASE-T178, referencing page 18 — but page 18 in this Rev Z1 copy contains PSV-23-1701/1405A/B/1903A/B, not 1408A/B. **No data sheet for PSV-1408A/B exists in this revision.** Either superseded/renumbered in a later revision without updating the log, or a stale log entry. **Open documentation gap — flag for the process engineer; do not assume this device's protection scope until resolved.** |
+| PSV-23-1408A/B | Revision log (Rev F1) states this PSV was **"ADDED"** per UOP-Refinery Operations Ltd.-SPOTS RELEASE-T178, referencing page 18 — but page 18 in this Rev Z1 copy contains PSV-23-1701/1405A/B/1903A/B, not 1408A/B. **No data sheet for PSV-1408A/B exists in this revision.** Either superseded/renumbered in a later revision without updating the log, or a stale log entry. **Open documentation gap — flag for the process engineer; do not assume this device's protection scope until resolved.** |
 
 ## References
 

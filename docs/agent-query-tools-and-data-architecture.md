@@ -143,7 +143,7 @@ All agent capabilities are formally encapsulated in official Google ADK `Functio
 - **Structure:** Structured Markdown dossiers for plant equipment sections (`CDN/`, `OXI/`, `ALKY/`) with YAML frontmatter metadata, Safe Operating Limits (SOL), operating procedures, and incident case histories.
 
 ### 4.6 5×5 Risk Assessment Matrix (RAM) & LOPA SIL Engine
-- **Standards:** PTTEP / GC Corporate Process Safety Standards.
+- **Standards:** Refinery Corporate Process Safety Standards.
 - **Multi-Dimensional Severity (PEES):**
   - **P (People):** Level 0 (No injury) to Level 5 (Multiple fatalities).
   - **E (Environment):** Level 0 (No effect) to Level 5 (Massive offsite impact).

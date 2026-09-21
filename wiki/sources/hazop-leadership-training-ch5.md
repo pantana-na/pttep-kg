@@ -11,7 +11,7 @@ last_updated: 2026-06-14
 # Source: GC HAZOP Leadership Training — Chapter 5: HAZOP Preparation
 
 **File:** `raw/standards/6. Chapter 5 - HAZOP Preparation.pdf`
-**Producer:** PTT Global Chemical — Technical Safety Service Division (Q-TS-TS)
+**Producer:** Refinery Petrochemical Corporation — Technical Safety Service Division (Q-TS-TS)
 **Course:** HAZOP Leadership Training, 1–3 November 2021
 **Slides:** 24 pages (4 sub-chapters: 5-1 Planning, 5-2 Assemble Documents, 5-3 Team Selection, 5-4 Worksheet)
 
@@ -98,7 +98,7 @@ E = Essential, D = Desirable
 - For **operating facility undergoing modification or new facility**: PSI level appropriate to project phase
 - HAZOP Leader shall evaluate adequacy and accuracy to ensure information is sufficiently developed for an effective review
 
-**Notable:** "Previous HAZID/HAZOP reports" listed as Essential for Execute/Operation phases — governed by [[CLAUDE.md]] Anti-Bias Rule during active node analysis; only permitted for gap comparison after study completion.
+**Notable:** "Previous HAZID/HAZOP reports" listed as Essential for Execute/Operation phases — governed by the Anti-Bias Rule (`app/hazop/anti_bias.py`) during active node analysis; only permitted for gap comparison after study completion.
 
 ---
 

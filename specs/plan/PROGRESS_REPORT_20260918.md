@@ -13,7 +13,7 @@
 In response to user directives to optimize and focus the application exclusively on **Journey 1: Interactive Process Safety Q&A, Security Guardrails & Topological Exploration** for presentation to a **Customer IT Technical Team**, the following comprehensive refinements were delivered:
 
 1. **Refinery Branding Alignment:**
-   - Replaced all user interface references to "PTTGC" or "PTT GC" with **"Refinery"** (e.g. *Refinery Phenol Process Safety Expert*).
+   - Replaced all user interface references to "Refinery Group" or "Refinery Group" with **"Refinery"** (e.g. *Refinery Phenol Process Safety Expert*).
    - Cleaned up docstrings and test assertions to preserve 100% naming consistency.
 2. **Streamlined Mission Control Dual-Pane Cockpit:**
    - **Left Pane (45% Conversational AI & Security Shield):**
