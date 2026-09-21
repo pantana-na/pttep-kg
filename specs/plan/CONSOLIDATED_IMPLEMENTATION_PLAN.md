@@ -43,6 +43,7 @@ The platform has transitioned from an initial multi-agent prototype into an ente
 | **M-13** | **Spanner Graph 2D Pan/Scroll** | Drag-to-pan, 2D mouse wheel/trackpad scroll, toolbar directional controls, mathematical auto-centering. | 2026-09-20 | ✅ 40/40 Tests Green |
 | **M-14** | **Repository Data Sanitization** | Decontaminated proprietary identifiers across 52 wiki files, DB seeds, and code; adopted Neutral Refinery Profile. | 2026-09-21 | ✅ 155/155 Tests Green |
 | **M-15** | **Live Cloud Synchronization** | Synchronized 138 wiki files to GCS; updated Spanner Equipment rows; patched 54 Dataplex catalog entries. | 2026-09-21 | ✅ Live GCP Verified |
+| **M-16** | **Full-Stack Production Redeployment** | Deployed backend ADK agent to Gemini Enterprise Agent Platform runtime; deployed frontend Web Cockpit container revision `phenol-process-safety-prod-00020-vbp` to Cloud Run. | 2026-09-21 | ✅ Deployed & Serving 100% |
 
 ---
 
