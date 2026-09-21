@@ -33,7 +33,7 @@ The **Refinery Phenol Process Safety AI Platform** operates on a zero-speculatio
 |   2. spanner_keyword_search           (Relational Full-Text)     ====> • Cloud Spanner Relational Catalog (100% DB-Driven Assets)  |
 |   3. spanner_vector_search            (Semantic 768d Cosine)     ====> • Spanner Vector Index + Vertex AI text-embedding-004       |
 |   4. query_knowledge_catalog_provenance(Metadata Governance)     ====> • Dataplex Knowledge Catalog (Entry Group: phenol-psi)      |
-|   5. read_gcs_wiki_document           (Unstructured Retrieval)   ====> • Google Cloud Storage LLM-Wiki (Markdown Operating Dossiers)|
+|   5. read_gcs_wiki_document           (Unstructured Retrieval)   ====> • Google Cloud Storage (Markdown Operating Dossiers)         |
 |   6. evaluate_hazop_deviation         (Safety Risk Engine)       ====> • 5x5 Risk Assessment Matrix (RAM) & LOPA SIL Engine        |
 |                                                                                                                                    |
 +------------------------------------------------------------------------------------------------------------------------------------+
@@ -100,11 +100,11 @@ All agent capabilities are formally encapsulated in official Google ADK `Functio
 
 | Tool Name | Tool Type | Primary Database / Backend | Target Query Pattern | Excluded Use Cases (Negative Rules) |
 |---|---|---|---|---|
-| **`spanner_graph_query`** | **Property Graph Traversal (ISO GQL)** | Cloud Spanner Property Graph (`phenol-process-graph` / `safety-db`) | Instrument counts/inventory, active trips, voting logic (1oo2, 2oo3), upstream process flow | ❌ Do NOT use for drawing revision numbers (use Dataplex).<br/>❌ Do NOT use for procedures (use GCS wiki). |
+| **`spanner_graph_query`** | **Property Graph Traversal (ISO GQL)** | Cloud Spanner Property Graph (`phenol-process-graph` / `safety-db`) | Instrument counts/inventory, active trips, voting logic (1oo2, 2oo3), upstream process flow | ❌ Do NOT use for drawing revision numbers (use Dataplex).<br/>❌ Do NOT use for procedures (use Google Cloud Storage). |
 | **`spanner_keyword_search`** | **Relational Full-Text Search** | Cloud Spanner Relational Tables (`Equipment`, `Instruments`, `CatalogTokens`) | Generic equipment search by name, category, or partial token when exact tag is unknown | ❌ Do NOT use if exact tag is already provided (e.g. `E-2303`).<br/>❌ Do NOT use for trips or interlocks. |
 | **`spanner_vector_search`** | **Semantic Vector Similarity** | Cloud Spanner Vector Index + Vertex AI `text-embedding-004` (768d) | Broad conceptual hazards, thermal runaway risks, acid runaway decomposition | ❌ Do NOT use for specific equipment interlock tags or certified drawings. |
 | **`query_knowledge_catalog_provenance`** | **Metadata Governance & Lineage** | Google Cloud Dataplex Knowledge Catalog (`phenol-psi`) | Certified As-Built P&ID drawing numbers, revision status (Rev Z1), OEMS-005 PSI tags | ❌ Do NOT use for operating temperatures or interlocks.<br/>❌ Do NOT use for HAZOP risk calculations. |
-| **`read_gcs_wiki_document`** | **Unstructured Document Retrieval** | Google Cloud Storage LLM-Wiki Bucket (`phenol-llm-wiki-*-prod`) | Complete operating philosophies, Safe Operating Limits (SOL), chemical reaction kinetics | ❌ **CRITICAL NEGATIVE RULE:** Never call for instrument counts/inventory (use `spanner_graph_query`). |
+| **`read_gcs_wiki_document`** | **Unstructured Document Retrieval** | Google Cloud Storage (`phenol-llm-wiki-*-prod`) | Complete operating philosophies, Safe Operating Limits (SOL), chemical reaction kinetics | ❌ **CRITICAL NEGATIVE RULE:** Never call for instrument counts/inventory (use `spanner_graph_query`). |
 | **`evaluate_hazop_deviation`** | **Safety Assessment & Quantitative Risk Engine** | 100% Database-Driven HAZOP Tables + 5x5 RAM + LOPA SIL Engine | Process deviation assessment (Flow, Temp, Press, Level), PEES severity, IPL credits | ❌ Do NOT use for simple PSI lookups or equipment search without deviations. |
 
 ---
@@ -138,7 +138,7 @@ All agent capabilities are formally encapsulated in official Google ADK `Functio
 - **Governance Standards:** OEMS-005 Process Safety Information Governance.
 - **Lineage Captured:** Certified As-Built P&ID drawing numbers (e.g., `14780-8120-20-23-0002`), drawing sheet revisions (Rev Z1), engineering approval authorities, and certified document hashes.
 
-### 4.5 Google Cloud Storage LLM-Wiki Lake
+### 4.5 Google Cloud Storage
 - **Bucket:** `gs://phenol-llm-wiki-cs-poc-y03r7kmfyov4kilzg50fd7s-prod`
 - **Structure:** Structured Markdown dossiers for plant equipment sections (`CDN/`, `OXI/`, `ALKY/`) with YAML frontmatter metadata, Safe Operating Limits (SOL), operating procedures, and incident case histories.
 
