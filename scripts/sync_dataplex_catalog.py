@@ -20,7 +20,7 @@ from database.init_db import get_database
 
 PROJECT_ID = os.getenv("GCP_PROJECT", "cs-poc-y03r7kmfyov4kilzg50fd7s")
 LOCATION = os.getenv("GCP_REGION", "asia-southeast1")
-ENTRY_GROUP = "phenol-psi"
+ENTRY_GROUP = os.getenv("DATAPLEX_ENTRY_GROUP", "phenol-psi")
 ENTRY_TYPE = f"projects/{PROJECT_ID}/locations/{LOCATION}/entryTypes/process-safety-equipment"
 
 
